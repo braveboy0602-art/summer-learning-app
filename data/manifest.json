@@ -1,0 +1,142 @@
+{
+  "_note": "学科菜单结构定义。disabled=true 的学科暂不开放。dataFile 指向分组对应的词汇数据 JSON 文件。",
+  "subjects": {
+    "english": {
+      "name": "英语",
+      "icon": "🇬🇧",
+      "groups": [
+        {
+          "id": "primary",
+          "name": "小学词汇",
+          "icon": "📚",
+          "description": "小学英语基础词汇 (10大分类)",
+          "dataFile": "data/primary_vocabulary.json"
+        },
+        {
+          "id": "junior",
+          "name": "七年级上册词汇",
+          "icon": "📖",
+          "description": "7A Unit1-Unit8",
+          "dataFile": "data/junior_vocabulary.json"
+        },
+        {
+          "id": "junior8",
+          "name": "八年级上册词汇",
+          "icon": "📖",
+          "description": "8A Unit1-Unit8",
+          "dataFile": "data/junior_vocabulary8A.json"
+        }
+      ]
+    },
+    "math": {
+      "name": "数学",
+      "icon": "🔢",
+      "disabled": true,
+      "groups": [
+        {
+          "id": "calculation",
+          "name": "计算题",
+          "icon": "➕",
+          "description": "数学计算练习",
+          "categories": [
+            {
+              "id": "arithmetic",
+              "name": "基础运算",
+              "icon": "🧮",
+              "description": "加减乘除基础运算练习",
+              "words": [
+                { "en": "3 + 5 = ?", "cn": "3 加 5 等于多少？", "phonetic": "", "grade": "1" },
+                { "en": "12 - 7 = ?", "cn": "12 减 7 等于多少？", "phonetic": "", "grade": "1" },
+                { "en": "4 × 6 = ?", "cn": "4 乘以 6 等于多少？", "phonetic": "", "grade": "2" },
+                { "en": "24 ÷ 3 = ?", "cn": "24 除以 3 等于多少？", "phonetic": "", "grade": "2" },
+                { "en": "15 + 28 = ?", "cn": "15 加 28 等于多少？", "phonetic": "", "grade": "2" },
+                { "en": "100 - 37 = ?", "cn": "100 减 37 等于多少？", "phonetic": "", "grade": "2" },
+                { "en": "7 × 8 = ?", "cn": "7 乘以 8 等于多少？", "phonetic": "", "grade": "2" },
+                { "en": "56 ÷ 7 = ?", "cn": "56 除以 7 等于多少？", "phonetic": "", "grade": "2" },
+                { "en": "12 × 15 = ?", "cn": "12 乘以 15 等于多少？", "phonetic": "", "grade": "3" },
+                { "en": "144 ÷ 12 = ?", "cn": "144 除以 12 等于多少？", "phonetic": "", "grade": "3" },
+                { "en": "23 × 45 = ?", "cn": "23 乘以 45 等于多少？", "phonetic": "", "grade": "4" },
+                { "en": "2x + 3 = 11", "cn": "解方程：2x + 3 = 11，求 x", "phonetic": "", "grade": "5" },
+                { "en": "圆的面积：r=5cm", "cn": "半径为 5cm 的圆面积是多少？", "phonetic": "", "grade": "6" }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "application",
+          "name": "应用题",
+          "icon": "📝",
+          "description": "数学应用题练习（预留）",
+          "categories": [
+            {
+              "id": "word_problems",
+              "name": "文字应用题",
+              "icon": "📋",
+              "description": "数学文字应用题",
+              "words": [
+                { "en": "小明有8个苹果，吃了3个，还剩几个？", "cn": "小明有8个苹果，吃了3个，还剩几个？", "phonetic": "", "grade": "1" },
+                { "en": "一本书20元，买3本需要多少钱？", "cn": "一本书20元，买3本需要多少钱？", "phonetic": "", "grade": "2" },
+                { "en": "两地相距120公里，车速60km/h，需要几小时？", "cn": "两地相距120公里，车速60km/h，需要几小时？", "phonetic": "", "grade": "3" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "chinese": {
+      "name": "语文",
+      "icon": "📝",
+      "disabled": true,
+      "groups": [
+        {
+          "id": "poems",
+          "name": "古诗词",
+          "icon": "📜",
+          "description": "经典古诗词背诵鉴赏",
+          "categories": [
+            {
+              "id": "poems_primary",
+              "name": "小学必背",
+              "icon": "📜",
+              "description": "小学阶段必背古诗词（等待录入）",
+              "words": []
+            },
+            {
+              "id": "poems_middle",
+              "name": "初中必背",
+              "icon": "📖",
+              "description": "初中阶段必背古诗词（等待录入）",
+              "words": []
+            }
+          ]
+        },
+        {
+          "id": "chars",
+          "name": "生字词",
+          "icon": "✍️",
+          "description": "生字词学习听写（预留）",
+          "categories": [
+            {
+              "id": "basic_chars",
+              "name": "基础生字",
+              "icon": "🖊️",
+              "description": "小学阶段常见生字",
+              "words": [
+                { "en": "春", "cn": "春天、春节、春风", "phonetic": "chūn", "grade": "1" },
+                { "en": "花", "cn": "花朵、花园、开花", "phonetic": "huā", "grade": "1" },
+                { "en": "明", "cn": "明白、明亮、明天", "phonetic": "míng", "grade": "1" },
+                { "en": "学", "cn": "学习、学校、学问", "phonetic": "xué", "grade": "1" },
+                { "en": "国", "cn": "国家、中国、祖国", "phonetic": "guó", "grade": "2" },
+                { "en": "家", "cn": "家庭、回家、大家", "phonetic": "jiā", "grade": "1" },
+                { "en": "水", "cn": "水果、河水、雨水", "phonetic": "shuǐ", "grade": "1" },
+                { "en": "大", "cn": "大小、大人、大学", "phonetic": "dà", "grade": "1" },
+                { "en": "小", "cn": "小鸟、小学、小心", "phonetic": "xiǎo", "grade": "1" },
+                { "en": "山", "cn": "山水、上山、山村", "phonetic": "shān", "grade": "1" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

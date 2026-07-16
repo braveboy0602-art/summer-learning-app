@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="暑期学习管理 - 多学科家庭学习系统（英语/数学/语文），二级树形导航，词汇卡片 + 发音 + 进度追踪">
+  <title>暑期学习管理</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="app-container">
+    <!-- ==================== 顶部导航 ==================== -->
+    <header class="app-header">
+      <div class="header-left">
+        <span class="header-icon">🏠</span>
+        <div class="header-title">
+          <h1>暑期学习管理</h1>
+          <div class="subtitle">英语 · 小学词汇复习</div>
+        </div>
+      </div>
+      <div class="header-right">
+        <span class="header-date" id="headerDate">📅 加载中...</span>
+        <div class="progress-wrapper">
+          <div class="progress-bar">
+            <div class="progress-fill" style="width: 0%"></div>
+          </div>
+          <span class="progress-text">0/0 已掌握</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- ==================== 主内容区（三栏布局） ==================== -->
+    <main class="app-main">
+
+      <!-- ===== 左侧：分类导航 ===== -->
+      <aside class="sidebar-card sidebar-categories" role="navigation" aria-label="词汇分类导航">
+        <div class="sidebar-header">📋 分类</div>
+        <div class="sidebar-body">
+          <ul class="tree-list" id="sidebarNav">
+            <!-- 由 JavaScript 动态渲染树形菜单 -->
+          </ul>
+        </div>
+      </aside>
+
+      <!-- ===== 中间：单词学习区 ===== -->
+      <section class="word-area" role="main" aria-label="单词学习区域">
+        <div class="word-area-header">
+          <div>
+            <h2 class="word-area-title" id="categoryTitle">
+              <span class="cat-icon">📖</span> 选择分类
+              <span class="word-count-badge" id="wordCount">0 个单词</span>
+            </h2>
+            <div class="word-area-desc" id="categoryDesc">点击左侧分类开始学习</div>
+          </div>
+        </div>
+        <div class="word-grid" id="wordGrid">
+          <!-- 由 JavaScript 动态渲染 -->
+        </div>
+      </section>
+
+    </main>
+
+      <!-- ==================== 默写挑战弹窗 ==================== -->
+      <div class="challenge-overlay" id="challengeOverlay" style="display:none;">
+        <div class="challenge-container">
+          <!-- 顶部：标题 + 信息 + 关闭 -->
+          <div class="challenge-header">
+            <div class="challenge-title">✏️ 单词拼写闯关</div>
+            <div class="challenge-meta">
+              <span class="challenge-category" id="challengeCategory"></span>
+              <span class="challenge-count" id="challengeWordCount"></span>
+            </div>
+            <button class="challenge-close" id="challengeClose" title="关闭">✕</button>
+          </div>
+
+          <!-- 中部：游戏内容 -->
+          <div class="challenge-body">
+
+            <!-- 进度 -->
+            <div class="challenge-progress">
+              第 <span id="challengeCurrentNum">0</span>
+              / <span id="challengeTotalNum">0</span> 题
+            </div>
+
+            <!-- 游戏主区域 -->
+            <div id="challengeGameContent">
+              <!-- 中文提示 -->
+              <div class="chinese-hint" id="chineseHint">—</div>
+
+              <!-- 拼写格 -->
+              <div class="spelling-slots" id="spellingSlots"></div>
+
+              <!-- 字母选择区 -->
+              <div class="letter-grid" id="letterGrid"></div>
+
+              <!-- 提交按钮 -->
+              <div class="challenge-submit-area">
+                <button class="btn btn-challenge-submit" id="challengeSubmit">提交答案</button>
+              </div>
+
+              <!-- 反馈区 -->
+              <div class="challenge-feedback" id="challengeFeedback" style="display:none;"></div>
+            </div>
+
+            <!-- 完成页 -->
+            <div class="challenge-complete" id="challengeComplete" style="display:none;">
+              <div class="complete-icon">🎉</div>
+              <div class="complete-title">挑战完成</div>
+              <div class="complete-stats">
+                <div class="stat-row">完成题数：<span id="completeTotal">0</span></div>
+                <div class="stat-row">正确数量：<span id="completeCorrect">0</span></div>
+                <div class="stat-row">得　　分：<span id="completeScore">0</span> 分</div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <!-- ==================== /默写挑战弹窗 ==================== -->
+
+      <!-- ==================== 资料下载弹窗 ==================== -->
+      <div class="download-overlay" id="downloadOverlay" style="display:none;">
+        <div class="download-modal">
+          <div class="download-modal-header">
+            <span class="download-modal-title">📚 学习资料下载</span>
+            <button class="download-modal-close" id="downloadClose" title="关闭">✕</button>
+          </div>
+          <div class="download-list" id="downloadList">
+            <div class="download-loading">⏳ 加载中...</div>
+          </div>
+        </div>
+      </div>
+      <!-- ==================== /资料下载弹窗 ==================== -->
+
+  </div>
+
+  <!-- ==================== JavaScript ==================== -->
+  <script src="js/vocab-data.js"></script>
+  <script src="js/app.js"></script>
+
+</body>
+</html>

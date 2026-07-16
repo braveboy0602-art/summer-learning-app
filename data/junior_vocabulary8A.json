@@ -1,0 +1,2537 @@
+{
+  "subjects": {
+    "english": {
+      "name": "英语",
+      "icon": "🇬🇧",
+      "groups": [
+        {
+          "id": "junior8",
+          "name": "八年级上册词汇",
+          "icon": "📖",
+          "description": "8A Unit1-Unit8 单词默写词汇",
+          "categories": [
+            {
+"id": "unit1",
+"name": "Unit1",
+"icon": "📘",
+"description": "朋友、性格与人际关系相关词汇",
+"words": [
+{
+"en": "friendship",
+"cn": "友谊",
+"phonetic": "/ˈfrendʃɪp/",
+"grade": "8A"
+},
+{
+"en": "honest",
+"cn": "诚实的，正直的",
+"phonetic": "/ˈɒnɪst/",
+"grade": "8A"
+},
+{
+"en": "cheerful",
+"cn": "快乐的，乐观的",
+"phonetic": "/ˈtʃɪəfl/",
+"grade": "8A"
+},
+{
+"en": "humorous",
+"cn": "幽默的",
+"phonetic": "/ˈhjuːmərəs/",
+"grade": "8A"
+},
+{
+"en": "caring",
+"cn": "关心他人的，体贴人的",
+"phonetic": "/ˈkeərɪŋ/",
+"grade": "8A"
+},
+{
+"en": "truth",
+"cn": "事实",
+"phonetic": "/truːθ/",
+"grade": "8A"
+},
+{
+"en": "joke",
+"cn": "笑话，玩笑",
+"phonetic": "/dʒəʊk/",
+"grade": "8A"
+},
+{
+"en": "laugh",
+"cn": "笑，发笑",
+"phonetic": "/lɑːf/",
+"grade": "8A"
+},
+{
+"en": "teenager",
+"cn": "青少年",
+"phonetic": "/ˈtiːneɪdʒə(r)/",
+"grade": "8A"
+},
+{
+"en": "unhappy",
+"cn": "不开心的",
+"phonetic": "/ʌnˈhæpi/",
+"grade": "8A"
+},
+{
+"en": "lie",
+"cn": "撒谎",
+"phonetic": "/laɪ/",
+"grade": "8A"
+},
+{
+"en": "person",
+"cn": "人，个人",
+"phonetic": "/ˈpɜːsn/",
+"grade": "8A"
+},
+{
+"en": "thought",
+"cn": "想法，主意",
+"phonetic": "/θɔːt/",
+"grade": "8A"
+},
+{
+"en": "ponytail",
+"cn": "马尾辫",
+"phonetic": "/ˈpəʊniteɪl/",
+"grade": "8A"
+},
+{
+"en": "seat",
+"cn": "座位",
+"phonetic": "/siːt/",
+"grade": "8A"
+},
+{
+"en": "schoolwork",
+"cn": "学校作业",
+"phonetic": "/ˈskuːlwɜːk/",
+"grade": "8A"
+},
+{
+"en": "trustworthy",
+"cn": "值得信赖的",
+"phonetic": "/ˈtrʌstwɜːði/",
+"grade": "8A"
+},
+{
+"en": "carefully",
+"cn": "仔细地，小心地",
+"phonetic": "/ˈkeəfəli/",
+"grade": "8A"
+},
+{
+"en": "understand",
+"cn": "理解",
+"phonetic": "/ˌʌndəˈstænd/",
+"grade": "8A"
+},
+{
+"en": "bit",
+"cn": "少量",
+"phonetic": "/bɪt/",
+"grade": "8A"
+},
+{
+"en": "a little bit",
+"cn": "有点儿",
+"phonetic": "",
+"grade": "8A"
+},
+{
+"en": "funny",
+"cn": "好笑的",
+"phonetic": "/ˈfʌni/",
+"grade": "8A"
+},
+{
+"en": "sense",
+"cn": "理解力；感觉",
+"phonetic": "/sens/",
+"grade": "8A"
+},
+{
+"en": "humour",
+"cn": "幽默",
+"phonetic": "/ˈhjuːmə(r)/",
+"grade": "8A"
+},
+{
+"en": "sense of humour",
+"cn": "幽默感",
+"phonetic": "",
+"grade": "8A"
+},
+{
+"en": "bored",
+"cn": "厌倦的，烦闷的",
+"phonetic": "/bɔːd/",
+"grade": "8A"
+},
+{
+"en": "energetic",
+"cn": "精力充沛的",
+"phonetic": "/ˌenəˈdʒetɪk/",
+"grade": "8A"
+},
+{
+"en": "active",
+"cn": "积极的；活跃的",
+"phonetic": "/ˈæktɪv/",
+"grade": "8A"
+},
+{
+"en": "encourage",
+"cn": "鼓励",
+"phonetic": "/ɪnˈkʌrɪdʒ/",
+"grade": "8A"
+},
+{
+"en": "believe",
+"cn": "相信",
+"phonetic": "/bɪˈliːv/",
+"grade": "8A"
+},
+{
+"en": "face",
+"cn": "面对；面对",
+"phonetic": "/feɪs/",
+"grade": "8A"
+},
+{
+"en": "secret",
+"cn": "秘密",
+"phonetic": "/ˈsiːkrət/",
+"grade": "8A"
+},
+{
+"en": "keep secrets",
+"cn": "保密",
+"phonetic": "",
+"grade": "8A"
+},
+{
+"en": "worse",
+"cn": "更差的",
+"phonetic": "/wɜːs/",
+"grade": "8A"
+},
+{
+"en": "worst",
+"cn": "最差的",
+"phonetic": "/wɜːst/",
+"grade": "8A"
+},
+{
+"en": "height",
+"cn": "身高，高度",
+"phonetic": "/haɪt/",
+"grade": "8A"
+},
+{
+"en": "sec.",
+"cn": "秒",
+"phonetic": "/sek/",
+"grade": "8A"
+},
+{
+"en": "test",
+"cn": "测试，试验",
+"phonetic": "/test/",
+"grade": "8A"
+},
+{
+"en": "badminton",
+"cn": "羽毛球运动",
+"phonetic": "/ˈbædmɪntən/",
+"grade": "8A"
+},
+{
+"en": "however",
+"cn": "然而",
+"phonetic": "/haʊˈevə(r)/",
+"grade": "8A"
+},
+{
+"en": "balloon",
+"cn": "气球",
+"phonetic": "/bəˈluːn/",
+"grade": "8A"
+},
+{
+"en": "scared",
+"cn": "害怕，恐惧",
+"phonetic": "/skeəd/",
+"grade": "8A"
+},
+{
+"en": "fight",
+"cn": "搏斗，打斗；为……斗争",
+"phonetic": "/faɪt/",
+"grade": "8A"
+},
+{
+"en": "dead",
+"cn": "死的",
+"phonetic": "/ded/",
+"grade": "8A"
+},
+{
+"en": "attack",
+"cn": "攻击，袭击",
+"phonetic": "/əˈtæk/",
+"grade": "8A"
+},
+{
+"en": "gone",
+"cn": "离开了，不在",
+"phonetic": "/ɡɒn/",
+"grade": "8A"
+},
+{
+"en": "danger",
+"cn": "危险",
+"phonetic": "/ˈdeɪndʒə(r)/",
+"grade": "8A"
+},
+{
+"en": "brave",
+"cn": "勇敢的",
+"phonetic": "/breɪv/",
+"grade": "8A"
+},
+{
+"en": "get along with sb",
+"cn": "与某人和睦相处，关系良好",
+"phonetic": "",
+"grade": "8A"
+},
+{
+"en": "listener",
+"cn": "听者；听众",
+"phonetic": "/ˈlɪsənə(r)/",
+"grade": "8A"
+},
+{
+"en": "nod",
+"cn": "点头",
+"phonetic": "/nɒd/",
+"grade": "8A"
+},
+{
+"en": "feeling",
+"cn": "情感；感觉",
+"phonetic": "/ˈfiːlɪŋ/",
+"grade": "8A"
+},
+{
+"en": "once",
+"cn": "一就，一旦",
+"phonetic": "/wʌns/",
+"grade": "8A"
+},
+{
+"en": "patient",
+"cn": "有耐心的",
+"phonetic": "/ˈpeɪʃnt/",
+"grade": "8A"
+},
+{
+"en": "thoughtful",
+"cn": "体贴的；深思的",
+"phonetic": "/ˈθɔːtfl/",
+"grade": "8A"
+},
+{
+"en": "secret",
+"cn": "秘密的",
+"phonetic": "/ˈsiːkrət/",
+"grade": "8A"
+}
+]
+},
+            {
+  "id": "unit2",
+  "name": "Unit2",
+  "icon": "🏫",
+  "description": "学校生活、学习活动、文化差异与环境相关词汇",
+  "words": [
+    {
+      "en": "plastic",
+      "cn": "塑料的；塑料",
+      "phonetic": "/ˈplæstɪk/",
+      "grade": "8A"
+    },
+    {
+      "en": "cheap",
+      "cn": "便宜的",
+      "phonetic": "/tʃiːp/",
+      "grade": "8A"
+    },
+    {
+      "en": "environment",
+      "cn": "环境",
+      "phonetic": "/ɪnˈvaɪrənmənt/",
+      "grade": "8A"
+    },
+    {
+      "en": "few",
+      "cn": "不多，很少；很少人或事物",
+      "phonetic": "/fjuː/",
+      "grade": "8A"
+    },
+    {
+      "en": "drama",
+      "cn": "戏剧，戏剧",
+      "phonetic": "/ˈdrɑːmə/",
+      "grade": "8A"
+    },
+    {
+      "en": "foreign",
+      "cn": "外国的",
+      "phonetic": "/ˈfɒrən/",
+      "grade": "8A"
+    },
+    {
+      "en": "as",
+      "cn": "和……一样",
+      "phonetic": "/əz/",
+      "grade": "8A"
+    },
+    {
+      "en": "as ... as ...",
+      "cn": "和……一样……",
+      "phonetic": "",
+      "grade": "8A"
+    },
+    {
+      "en": "French",
+      "cn": "法语；法国人",
+      "phonetic": "/frentʃ/",
+      "grade": "8A"
+    },
+    {
+      "en": "German",
+      "cn": "德语；德国人",
+      "phonetic": "/ˈdʒɜːmən/",
+      "grade": "8A"
+    },
+    {
+      "en": "forward",
+      "cn": "向前",
+      "phonetic": "/ˈfɔːwəd/",
+      "grade": "8A"
+    },
+    {
+      "en": "look forward to",
+      "cn": "期待",
+      "phonetic": "",
+      "grade": "8A"
+    },
+    {
+      "en": "go",
+      "cn": "尝试",
+      "phonetic": "/ɡəʊ/",
+      "grade": "8A"
+    },
+    {
+      "en": "have a go",
+      "cn": "尝试，试图",
+      "phonetic": "",
+      "grade": "8A"
+    },
+    {
+      "en": "earthquake",
+      "cn": "地震",
+      "phonetic": "/ˈɜːθkweɪk/",
+      "grade": "8A"
+    },
+    {
+      "en": "offer",
+      "cn": "提供",
+      "phonetic": "/ˈɒfə(r)/",
+      "grade": "8A"
+    },
+    {
+      "en": "programme",
+      "cn": "课程；计划；节目",
+      "phonetic": "/ˈprəʊɡræm/",
+      "grade": "8A"
+    },
+    {
+      "en": "plenty",
+      "cn": "大量",
+      "phonetic": "/ˈplenti/",
+      "grade": "8A"
+    },
+    {
+      "en": "plenty of",
+      "cn": "大量",
+      "phonetic": "",
+      "grade": "8A"
+    },
+    {
+      "en": "hands-on",
+      "cn": "实际操作的",
+      "phonetic": "/ˌhændz ˈɒn/",
+      "grade": "8A"
+    },
+    {
+      "en": "attention",
+      "cn": "注意，专心；注意力",
+      "phonetic": "/əˈtenʃn/",
+      "grade": "8A"
+    },
+    {
+      "en": "pay attention to",
+      "cn": "注意",
+      "phonetic": "",
+      "grade": "8A"
+    },
+    {
+      "en": "aware",
+      "cn": "意识到，知道",
+      "phonetic": "/əˈweə(r)/",
+      "grade": "8A"
+    },
+    {
+      "en": "be aware of",
+      "cn": "意识到",
+      "phonetic": "",
+      "grade": "8A"
+    },
+    {
+      "en": "importance",
+      "cn": "重要性",
+      "phonetic": "/ɪmˈpɔːtns/",
+      "grade": "8A"
+    },
+    {
+      "en": "Japanese",
+      "cn": "日本人的；日语的",
+      "phonetic": "/ˌdʒæpəˈniːz/",
+      "grade": "8A"
+    },
+    {
+      "en": "ourselves",
+      "cn": "我们自己",
+      "phonetic": "/aʊəˈselvz/",
+      "grade": "8A"
+    },
+    {
+      "en": "develop",
+      "cn": "形成；开发；发展",
+      "phonetic": "/dɪˈveləp/",
+      "grade": "8A"
+    },
+    {
+      "en": "junior",
+      "cn": "初级的；青少年的",
+      "phonetic": "/ˈdʒuːniə(r)/",
+      "grade": "8A"
+    },
+    {
+      "en": "rocket",
+      "cn": "火箭",
+      "phonetic": "/ˈrɒkɪt/",
+      "grade": "8A"
+    },
+    {
+      "en": "lunchtime",
+      "cn": "午餐时间",
+      "phonetic": "/ˈlʌntʃtaɪm/",
+      "grade": "8A"
+    },
+    {
+      "en": "least",
+      "cn": "最少的；最少地",
+      "phonetic": "/liːst/",
+      "grade": "8A"
+    },
+    {
+      "en": "international",
+      "cn": "国际的",
+      "phonetic": "/ˌɪntəˈnæʃnəl/",
+      "grade": "8A"
+    },
+    {
+      "en": "vacation",
+      "cn": "假期，度假",
+      "phonetic": "/veɪˈkeɪʃn; vəˈkeɪʃn/",
+      "grade": "8A"
+    },
+    {
+      "en": "textbook",
+      "cn": "课本，教材",
+      "phonetic": "/ˈtekstbʊk/",
+      "grade": "8A"
+    },
+    {
+      "en": "search",
+      "cn": "搜索；查找",
+      "phonetic": "/sɜːtʃ/",
+      "grade": "8A"
+    },
+    {
+      "en": "finish",
+      "cn": "完成，做好",
+      "phonetic": "/ˈfɪnɪʃ/",
+      "grade": "8A"
+    },
+    {
+      "en": "American",
+      "cn": "美国人的；美国人",
+      "phonetic": "/əˈmerɪkən/",
+      "grade": "8A"
+    },
+    {
+      "en": "hamburger",
+      "cn": "汉堡包",
+      "phonetic": "/ˈhæmbɜːɡə(r)/",
+      "grade": "8A"
+    },
+    {
+      "en": "pizza",
+      "cn": "比萨饼",
+      "phonetic": "/ˈpiːtsə/",
+      "grade": "8A"
+    },
+    {
+      "en": "fried",
+      "cn": "油炸的",
+      "phonetic": "/fraɪd/",
+      "grade": "8A"
+    },
+    {
+      "en": "salad",
+      "cn": "沙拉",
+      "phonetic": "/ˈsæləd/",
+      "grade": "8A"
+    },
+    {
+      "en": "chopstick",
+      "cn": "筷子",
+      "phonetic": "/ˈtʃɒpstɪk/",
+      "grade": "8A"
+    },
+    {
+      "en": "movie",
+      "cn": "电影",
+      "phonetic": "/ˈmuːvi/",
+      "grade": "8A"
+    },
+    {
+      "en": "difference",
+      "cn": "差异，不同之处",
+      "phonetic": "/ˈdɪfrəns/",
+      "grade": "8A"
+    },
+    {
+      "en": "cookie",
+      "cn": "饼干",
+      "phonetic": "/ˈkʊki/",
+      "grade": "8A"
+    },
+    {
+      "en": "fork",
+      "cn": "餐叉",
+      "phonetic": "/fɔːk/",
+      "grade": "8A"
+    },
+    {
+      "en": "spoon",
+      "cn": "勺，匙",
+      "phonetic": "/spuːn/",
+      "grade": "8A"
+    },
+    {
+      "en": "boring",
+      "cn": "没趣的，令人厌倦的",
+      "phonetic": "/ˈbɔːrɪŋ/",
+      "grade": "8A"
+    },
+    {
+      "en": "suggestion",
+      "cn": "建议",
+      "phonetic": "/səˈdʒestʃən/",
+      "grade": "8A"
+    },
+    {
+      "en": "uniform",
+      "cn": "校服，制服",
+      "phonetic": "/ˈjuːnɪfɔːm/",
+      "grade": "8A"
+    },
+    {
+      "en": "improve",
+      "cn": "改进，改善",
+      "phonetic": "/ɪmˈpruːv/",
+      "grade": "8A"
+    },
+    {
+      "en": "suggest",
+      "cn": "建议",
+      "phonetic": "/səˈdʒest/",
+      "grade": "8A"
+    },
+    {
+      "en": "provide",
+      "cn": "提供",
+      "phonetic": "/prəˈvaɪd/",
+      "grade": "8A"
+    },
+    {
+      "en": "moreover",
+      "cn": "此外，除此以外",
+      "phonetic": "/mɔːrˈəʊvə(r)/",
+      "grade": "8A"
+    },
+    {
+      "en": "yours sincerely",
+      "cn": "谨上，谨启",
+      "phonetic": "/sɪnˈsɪəli/",
+      "grade": "8A"
+    }
+  ]
+},
+            {
+"id": "unit3",
+"name": "Unit3",
+"icon": "💡",
+"description": "学习者、发明发现、语言学习与交流相关词汇",
+"words": [
+{
+"en": "learner",
+"cn": "学习者",
+"phonetic": "/ˈlɜːnə(r)/",
+"grade": "8A"
+},
+{
+"en": "feed",
+"cn": "为……提供食物；喂养",
+"phonetic": "/fiːd/",
+"grade": "8A"
+},
+{
+"en": "fish",
+"cn": "钓鱼，捕鱼",
+"phonetic": "/fɪʃ/",
+"grade": "8A"
+},
+{
+"en": "lifetime",
+"cn": "一生，有生之年",
+"phonetic": "/ˈlaɪftaɪm/",
+"grade": "8A"
+},
+{
+"en": "journey",
+"cn": "旅程，旅行",
+"phonetic": "/ˈdʒɜːni/",
+"grade": "8A"
+},
+{
+"en": "single",
+"cn": "单个的，单身的",
+"phonetic": "/ˈsɪŋɡl/",
+"grade": "8A"
+},
+{
+"en": "against",
+"cn": "逆，反对；紧靠",
+"phonetic": "/əˈɡenst/",
+"grade": "8A"
+},
+{
+"en": "fall behind",
+"cn": "落后",
+"phonetic": "",
+"grade": "8A"
+},
+{
+"en": "successful",
+"cn": "有成效的；成功的",
+"phonetic": "/səkˈsesfl/",
+"grade": "8A"
+},
+{
+"en": "drive",
+"cn": "冲劲，本能需求",
+"phonetic": "/draɪv/",
+"grade": "8A"
+},
+{
+"en": "guide",
+"cn": "指导；给某人领路或导游",
+"phonetic": "/ɡaɪd/",
+"grade": "8A"
+},
+{
+"en": "lifelong",
+"cn": "终生的",
+"phonetic": "/ˈlaɪflɒŋ/",
+"grade": "8A"
+},
+{
+"en": "inventor",
+"cn": "发明家",
+"phonetic": "/ɪnˈventə(r)/",
+"grade": "8A"
+},
+{
+"en": "talent",
+"cn": "天资，才能；有才能的人",
+"phonetic": "/ˈtælənt/",
+"grade": "8A"
+},
+{
+"en": "century",
+"cn": "世纪；百年",
+"phonetic": "/ˈsentʃəri/",
+"grade": "8A"
+},
+{
+"en": "set ... apart",
+"cn": "使……突出，使……与众不同",
+"phonetic": "",
+"grade": "8A"
+},
+{
+"en": "print",
+"cn": "印刷行业",
+"phonetic": "/prɪnt/",
+"grade": "8A"
+},
+{
+"en": "himself",
+"cn": "他自己",
+"phonetic": "/hɪmˈself/",
+"grade": "8A"
+},
+{
+"en": "bookseller",
+"cn": "书商",
+"phonetic": "/ˈbʊkselə(r)/",
+"grade": "8A"
+},
+{
+"en": "in order to",
+"cn": "为了",
+"phonetic": "",
+"grade": "8A"
+},
+{
+"en": "return",
+"cn": "归还",
+"phonetic": "/rɪˈtɜːn/",
+"grade": "8A"
+},
+{
+"en": "curious",
+"cn": "好奇的",
+"phonetic": "/ˈkjʊəriəs/",
+"grade": "8A"
+},
+{
+"en": "storm",
+"cn": "暴风雨",
+"phonetic": "/stɔːm/",
+"grade": "8A"
+},
+{
+"en": "finding",
+"cn": "调查发现",
+"phonetic": "/ˈfaɪndɪŋ/",
+"grade": "8A"
+},
+{
+"en": "predict",
+"cn": "预测",
+"phonetic": "/prɪˈdɪkt/",
+"grade": "8A"
+},
+{
+"en": "countless",
+"cn": "数不尽的",
+"phonetic": "/ˈkaʊntləs/",
+"grade": "8A"
+},
+{
+"en": "invention",
+"cn": "发明",
+"phonetic": "/ɪnˈvenʃn/",
+"grade": "8A"
+},
+{
+"en": "come as no surprise",
+"cn": "不足为奇",
+"phonetic": "",
+"grade": "8A"
+},
+{
+"en": "invent",
+"cn": "发明",
+"phonetic": "/ɪnˈvent/",
+"grade": "8A"
+},
+{
+"en": "for free",
+"cn": "免费",
+"phonetic": "",
+"grade": "8A"
+},
+{
+"en": "greatness",
+"cn": "伟大",
+"phonetic": "/ˈɡreɪtnəs/",
+"grade": "8A"
+},
+{
+"en": "further",
+"cn": "更远；较远",
+"phonetic": "/ˈfɜːðə(r)/",
+"grade": "8A"
+},
+{
+"en": "success",
+"cn": "成功",
+"phonetic": "/səkˈses/",
+"grade": "8A"
+},
+{
+"en": "Italian",
+"cn": "意大利语；意大利人",
+"phonetic": "/ɪˈtæliən/",
+"grade": "8A"
+},
+{
+"en": "themselves",
+"cn": "他们、她们、它们自己",
+"phonetic": "/ðəmˈselvz/",
+"grade": "8A"
+},
+{
+"en": "conversation",
+"cn": "交谈，谈话",
+"phonetic": "/ˌkɒnvəˈseɪʃn/",
+"grade": "8A"
+},
+{
+"en": "translate",
+"cn": "翻译",
+"phonetic": "/trænzˈleɪt/",
+"grade": "8A"
+},
+{
+"en": "page",
+"cn": "页",
+"phonetic": "/peɪdʒ/",
+"grade": "8A"
+},
+{
+"en": "badly",
+"cn": "严重地，厉害地",
+"phonetic": "/ˈbædli/",
+"grade": "8A"
+},
+{
+"en": "yourself",
+"cn": "你自己",
+"phonetic": "/jɔːˈself/",
+"grade": "8A"
+},
+{
+"en": "yourselves",
+"cn": "你们自己",
+"phonetic": "/jɔːˈselvz/",
+"grade": "8A"
+},
+{
+"en": "record",
+"cn": "录制；记录",
+"phonetic": "/rɪˈkɔːd/",
+"grade": "8A"
+},
+{
+"en": "printer",
+"cn": "印刷工，印刷商；打印机",
+"phonetic": "/ˈprɪntə(r)/",
+"grade": "8A"
+},
+{
+"en": "slashie",
+"cn": "斜杠族，多重职业者",
+"phonetic": "/ˈslæʃi/",
+"grade": "8A"
+},
+{
+"en": "dialect",
+"cn": "方言",
+"phonetic": "/ˈdaɪəlekt/",
+"grade": "8A"
+},
+{
+"en": "besides",
+"cn": "除……之外还",
+"phonetic": "/bɪˈsaɪdz/",
+"grade": "8A"
+},
+{
+"en": "possible",
+"cn": "可能的",
+"phonetic": "/ˈpɒsəbl/",
+"grade": "8A"
+},
+{
+"en": "as ... as possible",
+"cn": "尽可能……",
+"phonetic": "",
+"grade": "8A"
+},
+{
+"en": "sentence",
+"cn": "句子",
+"phonetic": "/ˈsentəns/",
+"grade": "8A"
+},
+{
+"en": "rather ... than",
+"cn": "而不是",
+"phonetic": "/ˈrɑːðə(r)/",
+"grade": "8A"
+},
+{
+"en": "pronunciation",
+"cn": "发音",
+"phonetic": "/prəˌnʌnsiˈeɪʃn/",
+"grade": "8A"
+},
+{
+"en": "grammar",
+"cn": "语法",
+"phonetic": "/ˈɡræmə(r)/",
+"grade": "8A"
+},
+{
+"en": "text",
+"cn": "文本；文章",
+"phonetic": "/tekst/",
+"grade": "8A"
+},
+{
+"en": "slowly",
+"cn": "慢速地，缓慢地",
+"phonetic": "/ˈsləʊli/",
+"grade": "8A"
+},
+{
+"en": "whole",
+"cn": "整个；全部",
+"phonetic": "/həʊl/",
+"grade": "8A"
+},
+{
+"en": "speech",
+"cn": "演讲；说话的能力",
+"phonetic": "/spiːtʃ/",
+"grade": "8A"
+},
+{
+"en": "aloud",
+"cn": "出声地；大声地",
+"phonetic": "/əˈlaʊd/",
+"grade": "8A"
+},
+{
+"en": "pronounce",
+"cn": "发音",
+"phonetic": "/prəˈnaʊns/",
+"grade": "8A"
+},
+{
+"en": "correctly",
+"cn": "正确地",
+"phonetic": "/kəˈrektli/",
+"grade": "8A"
+},
+{
+"en": "spelling",
+"cn": "拼写",
+"phonetic": "/ˈspelɪŋ/",
+"grade": "8A"
+},
+{
+"en": "nearby",
+"cn": "在附近；附近的",
+"phonetic": "/ˌnɪəˈbaɪ/",
+"grade": "8A"
+},
+{
+"en": "to one's surprise",
+"cn": "令某人惊讶的是",
+"phonetic": "",
+"grade": "8A"
+},
+{
+"en": "repeat",
+"cn": "重复",
+"phonetic": "/rɪˈpiːt/",
+"grade": "8A"
+},
+{
+"en": "tourist",
+"cn": "游客，观光者",
+"phonetic": "/ˈtʊərɪst/",
+"grade": "8A"
+}
+]
+},
+            {
+"id": "unit4",
+"name": "Unit4",
+"icon": "🛠️",
+"description": "手工制作、DIY、工具材料与操作安全相关词汇",
+"words": [
+{
+"en": "mooncake",
+"cn": "月饼",
+"phonetic": "/ˈmuːnkeɪk/",
+"grade": "8A"
+},
+{
+"en": "shelf",
+"cn": "架子",
+"phonetic": "/ʃelf/",
+"grade": "8A"
+},
+{
+"en": "rose",
+"cn": "玫瑰花",
+"phonetic": "/rəʊz/",
+"grade": "8A"
+},
+{
+"en": "coloured paper",
+"cn": "彩纸",
+"phonetic": "/ˈkʌləd/",
+"grade": "8A"
+},
+{
+"en": "tape",
+"cn": "胶带；用胶带粘贴",
+"phonetic": "/teɪp/",
+"grade": "8A"
+},
+{
+"en": "glue",
+"cn": "胶，胶水；用胶水粘合，粘贴",
+"phonetic": "/ɡluː/",
+"grade": "8A"
+},
+{
+"en": "fold",
+"cn": "折叠",
+"phonetic": "/fəʊld/",
+"grade": "8A"
+},
+{
+"en": "complete",
+"cn": "完成，结束；全部的",
+"phonetic": "/kəmˈpliːt/",
+"grade": "8A"
+},
+{
+"en": "DIY",
+"cn": "自己动手",
+"phonetic": "",
+"grade": "8A"
+},
+{
+"en": "do-it-yourself",
+"cn": "自己动手",
+"phonetic": "",
+"grade": "8A"
+},
+{
+"en": "crazy",
+"cn": "狂热的；迷恋的",
+"phonetic": "/ˈkreɪzi/",
+"grade": "8A"
+},
+{
+"en": "be crazy about",
+"cn": "热衷于",
+"phonetic": "",
+"grade": "8A"
+},
+{
+"en": "born",
+"cn": "天生的",
+"phonetic": "/bɔːn/",
+"grade": "8A"
+},
+{
+"en": "handyman",
+"cn": "手巧的人",
+"phonetic": "/ˈhændimæn/",
+"grade": "8A"
+},
+{
+"en": "mistake",
+"cn": "错误",
+"phonetic": "/mɪˈsteɪk/",
+"grade": "8A"
+},
+{
+"en": "power cut",
+"cn": "断电，停电",
+"phonetic": "",
+"grade": "8A"
+},
+{
+"en": "pipe",
+"cn": "管道，管子",
+"phonetic": "/paɪp/",
+"grade": "8A"
+},
+{
+"en": "fill ... with",
+"cn": "使……充满",
+"phonetic": "",
+"grade": "8A"
+},
+{
+"en": "unlucky",
+"cn": "不幸的，不顺利的",
+"phonetic": "/ʌnˈlʌki/",
+"grade": "8A"
+},
+{
+"en": "instead",
+"cn": "反而",
+"phonetic": "/ɪnˈsted/",
+"grade": "8A"
+},
+{
+"en": "course",
+"cn": "课程",
+"phonetic": "/kɔːs/",
+"grade": "8A"
+},
+{
+"en": "mess",
+"cn": "杂乱，不整洁",
+"phonetic": "/mes/",
+"grade": "8A"
+},
+{
+"en": "in a mess",
+"cn": "乱七八糟",
+"phonetic": "",
+"grade": "8A"
+},
+{
+"en": "lamp",
+"cn": "灯",
+"phonetic": "/læmp/",
+"grade": "8A"
+},
+{
+"en": "catch one's eye",
+"cn": "引起某人注意",
+"phonetic": "",
+"grade": "8A"
+},
+{
+"en": "surprised",
+"cn": "惊奇的，感到意外的",
+"phonetic": "/səˈpraɪzd/",
+"grade": "8A"
+},
+{
+"en": "impossible",
+"cn": "不可能的",
+"phonetic": "/ɪmˈpɒsəbl/",
+"grade": "8A"
+},
+{
+"en": "paint",
+"cn": "油漆；绘画颜料",
+"phonetic": "/peɪnt/",
+"grade": "8A"
+},
+{
+"en": "can",
+"cn": "金属容器，塑料容器",
+"phonetic": "/kæn/",
+"grade": "8A"
+},
+{
+"en": "everywhere",
+"cn": "到处",
+"phonetic": "/ˈevriweə(r)/",
+"grade": "8A"
+},
+{
+"en": "chalk",
+"cn": "粉笔",
+"phonetic": "/tʃɔːk/",
+"grade": "8A"
+},
+{
+"en": "mark",
+"cn": "标记；分数",
+"phonetic": "/mɑːk/",
+"grade": "8A"
+},
+{
+"en": "brush",
+"cn": "刷子；画笔",
+"phonetic": "/brʌʃ/",
+"grade": "8A"
+},
+{
+"en": "instructions",
+"cn": "用法说明",
+"phonetic": "/ɪnˈstrʌkʃnz/",
+"grade": "8A"
+},
+{
+"en": "dangerous",
+"cn": "危险的",
+"phonetic": "/ˈdeɪndʒərəs/",
+"grade": "8A"
+},
+{
+"en": "usual",
+"cn": "通常的，寻常的",
+"phonetic": "/ˈjuːʒuəl/",
+"grade": "8A"
+},
+{
+"en": "tie-dye",
+"cn": "扎染织物；扎染",
+"phonetic": "/ˈtaɪ daɪ/",
+"grade": "8A"
+},
+{
+"en": "twist",
+"cn": "使扭曲，使弯曲",
+"phonetic": "/twɪst/",
+"grade": "8A"
+},
+{
+"en": "cloth",
+"cn": "布料，织物",
+"phonetic": "/klɒθ/",
+"grade": "8A"
+},
+{
+"en": "tie",
+"cn": "用线、绳等系，拴，绑，捆",
+"phonetic": "/taɪ/",
+"grade": "8A"
+},
+{
+"en": "thread",
+"cn": "线",
+"phonetic": "/θred/",
+"grade": "8A"
+},
+{
+"en": "dye",
+"cn": "给……染色，染；染料，染液",
+"phonetic": "/daɪ/",
+"grade": "8A"
+},
+{
+"en": "untie",
+"cn": "解开",
+"phonetic": "/ʌnˈtaɪ/",
+"grade": "8A"
+},
+{
+"en": "method",
+"cn": "方法",
+"phonetic": "/ˈmeθəd/",
+"grade": "8A"
+},
+{
+"en": "product",
+"cn": "产品",
+"phonetic": "/ˈprɒdʌkt/",
+"grade": "8A"
+},
+{
+"en": "not only ... but also ...",
+"cn": "不仅……而且……",
+"phonetic": "",
+"grade": "8A"
+},
+{
+"en": "workshop",
+"cn": "作坊",
+"phonetic": "/ˈwɜːkʃɒp/",
+"grade": "8A"
+},
+{
+"en": "dry",
+"cn": "变干；使变干；弄干",
+"phonetic": "/draɪ/",
+"grade": "8A"
+},
+{
+"en": "pattern",
+"cn": "图案；模式",
+"phonetic": "/ˈpætn/",
+"grade": "8A"
+},
+{
+"en": "roll",
+"cn": "卷，管",
+"phonetic": "/rəʊl/",
+"grade": "8A"
+},
+{
+"en": "reduce",
+"cn": "减少",
+"phonetic": "/rɪˈdjuːs/",
+"grade": "8A"
+},
+{
+"en": "waste",
+"cn": "浪费；废料",
+"phonetic": "/weɪst/",
+"grade": "8A"
+},
+{
+"en": "joy",
+"cn": "高兴，乐趣",
+"phonetic": "/dʒɔɪ/",
+"grade": "8A"
+},
+{
+"en": "glove",
+"cn": "手套",
+"phonetic": "/ɡlʌv/",
+"grade": "8A"
+},
+{
+"en": "finger",
+"cn": "手指",
+"phonetic": "/ˈfɪŋɡə(r)/",
+"grade": "8A"
+},
+{
+"en": "button",
+"cn": "纽扣；按钮",
+"phonetic": "/ˈbʌtn/",
+"grade": "8A"
+},
+{
+"en": "onto",
+"cn": "到……上，向……上",
+"phonetic": "/ˈɒntə; ˈɒntu/",
+"grade": "8A"
+}
+]
+},
+            {
+"id": "unit5",
+"name": "Unit5",
+"icon": "🐼",
+"description": "野生动物、自然保护与环境风险相关词汇",
+"words": [
+{
+"en": "wild",
+"cn": "野生的",
+"phonetic": "/waɪld/",
+"grade": "8A"
+},
+{
+"en": "wild",
+"cn": "野生状态，自然环境",
+"phonetic": "/waɪld/",
+"grade": "8A"
+},
+{
+"en": "dolphin",
+"cn": "海豚",
+"phonetic": "/ˈdɒlfɪn/",
+"grade": "8A"
+},
+{
+"en": "eagle",
+"cn": "雕",
+"phonetic": "/ˈiːɡl/",
+"grade": "8A"
+},
+{
+"en": "fox",
+"cn": "狐狸",
+"phonetic": "/fɒks/",
+"grade": "8A"
+},
+{
+"en": "shark",
+"cn": "鲨鱼",
+"phonetic": "/ʃɑːk/",
+"grade": "8A"
+},
+{
+"en": "wolf",
+"cn": "狼",
+"phonetic": "/wʊlf/",
+"grade": "8A"
+},
+{
+"en": "zebra",
+"cn": "斑马",
+"phonetic": "/ˈzebrə/",
+"grade": "8A"
+},
+{
+"en": "king",
+"cn": "国王",
+"phonetic": "/kɪŋ/",
+"grade": "8A"
+},
+{
+"en": "tiny",
+"cn": "极小的",
+"phonetic": "/ˈtaɪni/",
+"grade": "8A"
+},
+{
+"en": "birth",
+"cn": "出生",
+"phonetic": "/bɜːθ/",
+"grade": "8A"
+},
+{
+"en": "round-the-clock",
+"cn": "全天候的",
+"phonetic": "/ˌraʊnd ðə ˈklɒk/",
+"grade": "8A"
+},
+{
+"en": "weigh",
+"cn": "有……重",
+"phonetic": "/weɪ/",
+"grade": "8A"
+},
+{
+"en": "satisfying",
+"cn": "令人满意的",
+"phonetic": "/ˈsætɪsfaɪɪŋ/",
+"grade": "8A"
+},
+{
+"en": "giant panda",
+"cn": "大熊猫",
+"phonetic": "/ˌdʒaɪənt ˈpændə/",
+"grade": "8A"
+},
+{
+"en": "in the wild",
+"cn": "在野外",
+"phonetic": "",
+"grade": "8A"
+},
+{
+"en": "serious",
+"cn": "严重的",
+"phonetic": "/ˈsɪəriəs/",
+"grade": "8A"
+},
+{
+"en": "even if",
+"cn": "即使，尽管",
+"phonetic": "",
+"grade": "8A"
+},
+{
+"en": "easily",
+"cn": "容易，很可能；容易地",
+"phonetic": "/ˈiːzəli/",
+"grade": "8A"
+},
+{
+"en": "sick",
+"cn": "生病的",
+"phonetic": "/sɪk/",
+"grade": "8A"
+},
+{
+"en": "live on",
+"cn": "以吃……为生",
+"phonetic": "",
+"grade": "8A"
+},
+{
+"en": "mainly",
+"cn": "主要地",
+"phonetic": "/ˈmeɪnli/",
+"grade": "8A"
+},
+{
+"en": "result",
+"cn": "结果，后果",
+"phonetic": "/rɪˈzʌlt/",
+"grade": "8A"
+},
+{
+"en": "as a result",
+"cn": "因此",
+"phonetic": "",
+"grade": "8A"
+},
+{
+"en": "government",
+"cn": "政府",
+"phonetic": "/ˈɡʌvənmənt/",
+"grade": "8A"
+},
+{
+"en": "action",
+"cn": "行动",
+"phonetic": "/ˈækʃn/",
+"grade": "8A"
+},
+{
+"en": "take action",
+"cn": "采取行动",
+"phonetic": "",
+"grade": "8A"
+},
+{
+"en": "nature reserve",
+"cn": "自然保护区",
+"phonetic": "/ˈneɪtʃə rɪˌzɜːv/",
+"grade": "8A"
+},
+{
+"en": "thanks to",
+"cn": "多亏，由于",
+"phonetic": "",
+"grade": "8A"
+},
+{
+"en": "effort",
+"cn": "努力",
+"phonetic": "/ˈefət/",
+"grade": "8A"
+},
+{
+"en": "increase",
+"cn": "增加",
+"phonetic": "/ɪnˈkriːs/",
+"grade": "8A"
+},
+{
+"en": "protection",
+"cn": "保护",
+"phonetic": "/prəˈtekʃn/",
+"grade": "8A"
+},
+{
+"en": "growth",
+"cn": "生长，发育，成长",
+"phonetic": "/ɡrəʊθ/",
+"grade": "8A"
+},
+{
+"en": "fat",
+"cn": "胖的",
+"phonetic": "/fæt/",
+"grade": "8A"
+},
+{
+"en": "manage",
+"cn": "完成困难的事",
+"phonetic": "/ˈmænɪdʒ/",
+"grade": "8A"
+},
+{
+"en": "whale",
+"cn": "鲸",
+"phonetic": "/weɪl/",
+"grade": "8A"
+},
+{
+"en": "hunt",
+"cn": "猎杀",
+"phonetic": "/hʌnt/",
+"grade": "8A"
+},
+{
+"en": "meaningful",
+"cn": "重要的",
+"phonetic": "/ˈmiːnɪŋfl/",
+"grade": "8A"
+},
+{
+"en": "in danger",
+"cn": "处于危险中",
+"phonetic": "",
+"grade": "8A"
+},
+{
+"en": "reason",
+"cn": "理由，原因",
+"phonetic": "/ˈriːzn/",
+"grade": "8A"
+},
+{
+"en": "accept",
+"cn": "收受，接受",
+"phonetic": "/əkˈsept/",
+"grade": "8A"
+},
+{
+"en": "polar bear",
+"cn": "北极熊",
+"phonetic": "/ˈpəʊlə beə(r)/",
+"grade": "8A"
+},
+{
+"en": "meat eater",
+"cn": "肉食动物，食肉者",
+"phonetic": "/ˈmiːt ˌiːtə(r)/",
+"grade": "8A"
+},
+{
+"en": "melt",
+"cn": "融化",
+"phonetic": "/melt/",
+"grade": "8A"
+},
+{
+"en": "drop",
+"cn": "降低；扔下，掉下",
+"phonetic": "/drɒp/",
+"grade": "8A"
+},
+{
+"en": "blue whale",
+"cn": "蓝鲸",
+"phonetic": "/ˌbluː ˈweɪl/",
+"grade": "8A"
+},
+{
+"en": "risk",
+"cn": "危险，风险",
+"phonetic": "/rɪsk/",
+"grade": "8A"
+},
+{
+"en": "at risk",
+"cn": "有危险",
+"phonetic": "",
+"grade": "8A"
+},
+{
+"en": "Indian",
+"cn": "印度人的",
+"phonetic": "/ˈɪndiən/",
+"grade": "8A"
+},
+{
+"en": "rhino",
+"cn": "犀牛",
+"phonetic": "/ˈraɪnəʊ/",
+"grade": "8A"
+},
+{
+"en": "horn",
+"cn": "角",
+"phonetic": "/hɔːn/",
+"grade": "8A"
+},
+{
+"en": "disaster",
+"cn": "灾害",
+"phonetic": "/dɪˈzɑːstə(r)/",
+"grade": "8A"
+},
+{
+"en": "pollution",
+"cn": "污染",
+"phonetic": "/pəˈluːʃn/",
+"grade": "8A"
+},
+{
+"en": "certain",
+"cn": "某种，某些",
+"phonetic": "/ˈsɜːtn/",
+"grade": "8A"
+},
+{
+"en": "illness",
+"cn": "疾病，病",
+"phonetic": "/ˈɪlnəs/",
+"grade": "8A"
+}
+]
+},
+            {
+  "id": "unit6",
+  "name": "Unit6",
+  "icon": "🌦️",
+  "description": "天气、季节、自然现象与生活环境相关词汇",
+  "words": [
+    {
+      "en": "foggy",
+      "cn": "有雾的，雾茫茫的",
+      "phonetic": "/ˈfɒɡi/",
+      "grade": "8A"
+    },
+    {
+      "en": "snowy",
+      "cn": "下雪多的；被雪覆盖的",
+      "phonetic": "/ˈsnəʊi/",
+      "grade": "8A"
+    },
+    {
+      "en": "pleasant",
+      "cn": "令人愉快的",
+      "phonetic": "/ˈpleznt/",
+      "grade": "8A"
+    },
+    {
+      "en": "yeah",
+      "cn": "是的",
+      "phonetic": "/jeə/",
+      "grade": "8A"
+    },
+    {
+      "en": "hide",
+      "cn": "躲避；藏",
+      "phonetic": "/haɪd/",
+      "grade": "8A"
+    },
+    {
+      "en": "shower",
+      "cn": "阵雨",
+      "phonetic": "/ˈʃaʊə(r)/",
+      "grade": "8A"
+    },
+    {
+      "en": "memory",
+      "cn": "回忆",
+      "phonetic": "/ˈmeməri/",
+      "grade": "8A"
+    },
+    {
+      "en": "stream",
+      "cn": "小河，溪",
+      "phonetic": "/striːm/",
+      "grade": "8A"
+    },
+    {
+      "en": "shade",
+      "cn": "树荫",
+      "phonetic": "/ʃeɪd/",
+      "grade": "8A"
+    },
+    {
+      "en": "lazy",
+      "cn": "懒惰的；懒散的",
+      "phonetic": "/ˈleɪzi/",
+      "grade": "8A"
+    },
+    {
+      "en": "pool",
+      "cn": "水塘，池塘",
+      "phonetic": "/puːl/",
+      "grade": "8A"
+    },
+    {
+      "en": "pile",
+      "cn": "堆",
+      "phonetic": "/paɪl/",
+      "grade": "8A"
+    },
+    {
+      "en": "upon",
+      "cn": "在……上",
+      "phonetic": "/əˈpɒn/",
+      "grade": "8A"
+    },
+    {
+      "en": "harvest",
+      "cn": "收割；收获",
+      "phonetic": "/ˈhɑːvɪst/",
+      "grade": "8A"
+    },
+    {
+      "en": "crop",
+      "cn": "庄稼，作物",
+      "phonetic": "/krɒp/",
+      "grade": "8A"
+    },
+    {
+      "en": "as",
+      "cn": "当……时，随着；因为",
+      "phonetic": "/əz/",
+      "grade": "8A"
+    },
+    {
+      "en": "temperature",
+      "cn": "温度",
+      "phonetic": "/ˈtemprətʃə(r)/",
+      "grade": "8A"
+    },
+    {
+      "en": "sofa",
+      "cn": "长沙发",
+      "phonetic": "/ˈsəʊfə/",
+      "grade": "8A"
+    },
+    {
+      "en": "snowman",
+      "cn": "雪人",
+      "phonetic": "/ˈsnəʊmæn/",
+      "grade": "8A"
+    },
+    {
+      "en": "blow",
+      "cn": "吹，刮；吹气",
+      "phonetic": "/bləʊ/",
+      "grade": "8A"
+    },
+    {
+      "en": "shine",
+      "cn": "发光，照耀",
+      "phonetic": "/ʃaɪn/",
+      "grade": "8A"
+    },
+    {
+      "en": "smell",
+      "cn": "有……气味；闻，嗅",
+      "phonetic": "/smel/",
+      "grade": "8A"
+    },
+    {
+      "en": "heat",
+      "cn": "热，热量",
+      "phonetic": "/hiːt/",
+      "grade": "8A"
+    },
+    {
+      "en": "sudden",
+      "cn": "突然的",
+      "phonetic": "/ˈsʌdn/",
+      "grade": "8A"
+    },
+    {
+      "en": "snowball",
+      "cn": "雪球",
+      "phonetic": "/ˈsnəʊbɔːl/",
+      "grade": "8A"
+    },
+    {
+      "en": "fog",
+      "cn": "雾",
+      "phonetic": "/fɒɡ/",
+      "grade": "8A"
+    },
+    {
+      "en": "divide",
+      "cn": "分开，分成",
+      "phonetic": "/dɪˈvaɪd/",
+      "grade": "8A"
+    },
+    {
+      "en": "divide ... into ...",
+      "cn": "把……分成……",
+      "phonetic": "",
+      "grade": "8A"
+    },
+    {
+      "en": "end",
+      "cn": "结束，终止",
+      "phonetic": "/end/",
+      "grade": "8A"
+    },
+    {
+      "en": "beyond",
+      "cn": "超出，除……之外",
+      "phonetic": "/bɪˈjɒnd/",
+      "grade": "8A"
+    },
+    {
+      "en": "connect",
+      "cn": "把……联系起来；连接",
+      "phonetic": "/kəˈnekt/",
+      "grade": "8A"
+    },
+    {
+      "en": "be connected with",
+      "cn": "与……有联系",
+      "phonetic": "",
+      "grade": "8A"
+    },
+    {
+      "en": "positive",
+      "cn": "正面的；积极的；肯定的",
+      "phonetic": "/ˈpɒzətɪv/",
+      "grade": "8A"
+    },
+    {
+      "en": "effect",
+      "cn": "影响；结果；效果",
+      "phonetic": "/ɪˈfekt/",
+      "grade": "8A"
+    },
+    {
+      "en": "average",
+      "cn": "平均的",
+      "phonetic": "/ˈævərɪdʒ/",
+      "grade": "8A"
+    },
+    {
+      "en": "wet",
+      "cn": "湿的，潮的",
+      "phonetic": "/wet/",
+      "grade": "8A"
+    },
+    {
+      "en": "daylight",
+      "cn": "日光",
+      "phonetic": "/ˈdeɪlaɪt/",
+      "grade": "8A"
+    },
+    {
+      "en": "degree",
+      "cn": "度，度数",
+      "phonetic": "/dɪˈɡriː/",
+      "grade": "8A"
+    },
+    {
+      "en": "on average",
+      "cn": "平均",
+      "phonetic": "",
+      "grade": "8A"
+    },
+    {
+      "en": "sunshine",
+      "cn": "阳光",
+      "phonetic": "/ˈsʌnʃaɪn/",
+      "grade": "8A"
+    },
+    {
+      "en": "start",
+      "cn": "开始，开端",
+      "phonetic": "/stɑːt/",
+      "grade": "8A"
+    },
+    {
+      "en": "snowstorm",
+      "cn": "雪暴，暴风雪",
+      "phonetic": "/ˈsnəʊstɔːm/",
+      "grade": "8A"
+    },
+    {
+      "en": "awful",
+      "cn": "糟糕的，极讨厌的",
+      "phonetic": "/ˈɔːfl/",
+      "grade": "8A"
+    },
+    {
+      "en": "order",
+      "cn": "订购",
+      "phonetic": "/ˈɔːdə(r)/",
+      "grade": "8A"
+    },
+    {
+      "en": "take care",
+      "cn": "保重",
+      "phonetic": "",
+      "grade": "8A"
+    },
+    {
+      "en": "frozen",
+      "cn": "结冰的；冷冻的",
+      "phonetic": "/ˈfrəʊzn/",
+      "grade": "8A"
+    },
+    {
+      "en": "thick",
+      "cn": "浓的；厚的；浓密的",
+      "phonetic": "/θɪk/",
+      "grade": "8A"
+    },
+    {
+      "en": "deep",
+      "cn": "厚的，深的",
+      "phonetic": "/diːp/",
+      "grade": "8A"
+    },
+    {
+      "en": "throw",
+      "cn": "扔",
+      "phonetic": "/θrəʊ/",
+      "grade": "8A"
+    },
+    {
+      "en": "sculpture",
+      "cn": "雕像，雕塑品",
+      "phonetic": "/ˈskʌlptʃə(r)/",
+      "grade": "8A"
+    }
+  ]
+},
+            {
+"id": "unit7",
+"name": "Unit7",
+"icon": "🌿",
+"description": "生态环境、湿地保护、野生动物与环保行动相关词汇",
+"words": [
+{ "en": "coral", "cn": "珊瑚", "phonetic": "/ˈkɒrəl/", "grade": "8A" },
+{ "en": "reef", "cn": "礁", "phonetic": "/riːf/", "grade": "8A" },
+{ "en": "penguin", "cn": "企鹅", "phonetic": "/ˈpeŋɡwɪn/", "grade": "8A" },
+{ "en": "ecosystem", "cn": "生态系统", "phonetic": "/ˈiːkəʊsɪstəm/", "grade": "8A" },
+{ "en": "climate", "cn": "气候", "phonetic": "/ˈklaɪmət/", "grade": "8A" },
+{ "en": "wetland", "cn": "湿地", "phonetic": "/ˈwetlənd/", "grade": "8A" },
+{ "en": "include", "cn": "包括", "phonetic": "/ɪnˈkluːd/", "grade": "8A" },
+{ "en": "non-living", "cn": "非生物的", "phonetic": "", "grade": "8A" },
+{ "en": "pond", "cn": "池塘", "phonetic": "/pɒnd/", "grade": "8A" },
+{ "en": "around", "cn": "大约", "phonetic": "/əˈraʊnd/", "grade": "8A" },
+{ "en": "hold", "cn": "容纳；拿着；举行", "phonetic": "/həʊld/", "grade": "8A" },
+{ "en": "return", "cn": "返回，回去，回来", "phonetic": "/rɪˈtɜːn/", "grade": "8A" },
+{ "en": "get rid of", "cn": "清除；摆脱", "phonetic": "", "grade": "8A" },
+{ "en": "prevent", "cn": "防止，阻止", "phonetic": "/prɪˈvent/", "grade": "8A" },
+{ "en": "store", "cn": "贮存", "phonetic": "/stɔː(r)/", "grade": "8A" },
+{ "en": "sponge", "cn": "海绵块", "phonetic": "/spʌndʒ/", "grade": "8A" },
+{ "en": "act", "cn": "起作用；行动", "phonetic": "/ækt/", "grade": "8A" },
+{ "en": "kidney", "cn": "肾脏", "phonetic": "/ˈkɪdni/", "grade": "8A" },
+{ "en": "nearly", "cn": "几乎，差不多，将近", "phonetic": "/ˈnɪəli/", "grade": "8A" },
+{ "en": "carbon dioxide", "cn": "二氧化碳", "phonetic": "/ˌkɑːbən daɪˈɒksaɪd/", "grade": "8A" },
+{ "en": "trap", "cn": "吸收；使落入险境", "phonetic": "/træp/", "grade": "8A" },
+{ "en": "harmful", "cn": "有害的", "phonetic": "/ˈhɑːmfl/", "grade": "8A" },
+{ "en": "therefore", "cn": "因此", "phonetic": "/ˈðeəfɔː(r)/", "grade": "8A" },
+{ "en": "lung", "cn": "肺", "phonetic": "/lʌŋ/", "grade": "8A" },
+{ "en": "slow down", "cn": "使慢下来", "phonetic": "", "grade": "8A" },
+{ "en": "sadly", "cn": "不幸地；悲伤地", "phonetic": "/ˈsædli/", "grade": "8A" },
+{ "en": "ton", "cn": "吨", "phonetic": "/tʌn/", "grade": "8A" },
+{ "en": "harm", "cn": "伤害，损害", "phonetic": "/hɑːm/", "grade": "8A" },
+{ "en": "wildlife", "cn": "野生生物", "phonetic": "/ˈwaɪldlaɪf/", "grade": "8A" },
+{ "en": "topic", "cn": "话题", "phonetic": "/ˈtɒpɪk/", "grade": "8A" },
+{ "en": "quite a few", "cn": "相当多，不少", "phonetic": "", "grade": "8A" },
+{ "en": "noisy", "cn": "充满噪声的，吵闹的", "phonetic": "/ˈnɔɪzi/", "grade": "8A" },
+{ "en": "system", "cn": "系统；体系", "phonetic": "/ˈsɪstəm/", "grade": "8A" },
+{ "en": "cause", "cn": "使发生，造成，导致", "phonetic": "/kɔːz/", "grade": "8A" },
+{ "en": "damage", "cn": "损害，毁坏", "phonetic": "/ˈdæmɪdʒ/", "grade": "8A" },
+{ "en": "north-east", "cn": "东北；东北方；向东北方", "phonetic": "/ˌnɔːθ ˈiːst/", "grade": "8A" },
+{ "en": "cover", "cn": "躲避处；罩子", "phonetic": "/ˈkʌvə(r)/", "grade": "8A" },
+{ "en": "rare", "cn": "稀罕的，珍贵的", "phonetic": "/reə(r)/", "grade": "8A" },
+{ "en": "red-crowned crane", "cn": "丹顶鹤", "phonetic": "/ˌred ˈkraʊnd kreɪn/", "grade": "8A" },
+{ "en": "stay", "cn": "停留，逗留", "phonetic": "/steɪ/", "grade": "8A" },
+{ "en": "daytime", "cn": "白天", "phonetic": "/ˈdeɪtaɪm/", "grade": "8A" },
+{ "en": "lead", "cn": "造成后果", "phonetic": "/liːd/", "grade": "8A" },
+{ "en": "lead to", "cn": "导致", "phonetic": "", "grade": "8A" },
+{ "en": "mud", "cn": "泥，淤泥，泥浆", "phonetic": "/mʌd/", "grade": "8A" },
+{ "en": "create", "cn": "创建，创造", "phonetic": "/kriˈeɪt/", "grade": "8A" },
+{ "en": "set up", "cn": "建立", "phonetic": "", "grade": "8A" },
+{ "en": "balanced", "cn": "保持平衡的", "phonetic": "/ˈbælənst/", "grade": "8A" },
+{ "en": "knowledge", "cn": "知识", "phonetic": "/ˈnɒlɪdʒ/", "grade": "8A" },
+{ "en": "wastewater", "cn": "废水", "phonetic": "/ˈweɪstwɔːtə(r)/", "grade": "8A" },
+{ "en": "environment-friendly", "cn": "环保的；不损害环境的", "phonetic": "/ɪnˌvaɪrənmənt ˈfrendli/", "grade": "8A" },
+{ "en": "sir", "cn": "先生", "phonetic": "/sɜː(r)/", "grade": "8A" },
+{ "en": "madam", "cn": "女士", "phonetic": "/ˈmædəm/", "grade": "8A" },
+{ "en": "kill", "cn": "杀死", "phonetic": "/kɪl/", "grade": "8A" },
+{ "en": "solve", "cn": "解决，解答", "phonetic": "/sɒlv/", "grade": "8A" },
+{ "en": "environmental", "cn": "环境的", "phonetic": "/ɪnˌvaɪrənˈmentl/", "grade": "8A" }
+]
+},
+            {
+"id": "unit8",
+"name": "Unit8",
+"icon": "🚨",
+"description": "自然灾害、安全自救、紧急情况与事故处理相关词汇",
+"words": [
+{
+"en": "sound",
+"cn": "健康的，无损伤的",
+"phonetic": "/saʊnd/",
+"grade": "8A"
+},
+{
+"en": "safe and sound",
+"cn": "安然无恙",
+"phonetic": "",
+"grade": "8A"
+},
+{
+"en": "emergency",
+"cn": "紧急情况",
+"phonetic": "/ɪˈmɜːdʒənsi/",
+"grade": "8A"
+},
+{
+"en": "situation",
+"cn": "情况",
+"phonetic": "/ˌsɪtʃuˈeɪʃn/",
+"grade": "8A"
+},
+{
+"en": "heating",
+"cn": "供暖",
+"phonetic": "/ˈhiːtɪŋ/",
+"grade": "8A"
+},
+{
+"en": "lightning",
+"cn": "闪电",
+"phonetic": "/ˈlaɪtnɪŋ/",
+"grade": "8A"
+},
+{
+"en": "office",
+"cn": "办公室，办公楼",
+"phonetic": "/ˈɒfɪs/",
+"grade": "8A"
+},
+{
+"en": "homeless",
+"cn": "无家可归的",
+"phonetic": "/ˈhəʊmləs/",
+"grade": "8A"
+},
+{
+"en": "coach",
+"cn": "长途汽车",
+"phonetic": "/kəʊtʃ/",
+"grade": "8A"
+},
+{
+"en": "road",
+"cn": "道路",
+"phonetic": "/rəʊd/",
+"grade": "8A"
+},
+{
+"en": "accident",
+"cn": "事故",
+"phonetic": "/ˈæksɪdənt/",
+"grade": "8A"
+},
+{
+"en": "typhoon",
+"cn": "台风",
+"phonetic": "/taɪˈfuːn/",
+"grade": "8A"
+},
+{
+"en": "terrible",
+"cn": "可怕的",
+"phonetic": "/ˈterəbl/",
+"grade": "8A"
+},
+{
+"en": "state",
+"cn": "状态，情况",
+"phonetic": "/steɪt/",
+"grade": "8A"
+},
+{
+"en": "fireman",
+"cn": "消防员",
+"phonetic": "/ˈfaɪəmən/",
+"grade": "8A"
+},
+{
+"en": "traffic",
+"cn": "交通",
+"phonetic": "/ˈtræfɪk/",
+"grade": "8A"
+},
+{
+"en": "slight",
+"cn": "轻微的",
+"phonetic": "/slaɪt/",
+"grade": "8A"
+},
+{
+"en": "shake",
+"cn": "摇动",
+"phonetic": "/ʃeɪk/",
+"grade": "8A"
+},
+{
+"en": "thunder",
+"cn": "雷声",
+"phonetic": "/ˈθʌndə(r)/",
+"grade": "8A"
+},
+{
+"en": "bomb",
+"cn": "炸弹",
+"phonetic": "/bɒm/",
+"grade": "8A"
+},
+{
+"en": "shout",
+"cn": "呼喊，喊叫",
+"phonetic": "/ʃaʊt/",
+"grade": "8A"
+},
+{
+"en": "fear",
+"cn": "恐惧，害怕",
+"phonetic": "/fɪə(r)/",
+"grade": "8A"
+},
+{
+"en": "in fear",
+"cn": "恐惧地，害怕地",
+"phonetic": "",
+"grade": "8A"
+},
+{
+"en": "direction",
+"cn": "方向",
+"phonetic": "/dəˈrekʃn; daɪˈrekʃn/",
+"grade": "8A"
+},
+{
+"en": "in all directions",
+"cn": "四处，到处",
+"phonetic": "",
+"grade": "8A"
+},
+{
+"en": "brick",
+"cn": "砖",
+"phonetic": "/brɪk/",
+"grade": "8A"
+},
+{
+"en": "silent",
+"cn": "安静的",
+"phonetic": "/ˈsaɪlənt/",
+"grade": "8A"
+},
+{
+"en": "nervous",
+"cn": "焦虑的，担忧的，胆怯的",
+"phonetic": "/ˈnɜːvəs/",
+"grade": "8A"
+},
+{
+"en": "beat",
+"cn": "有规律作响或运动；用力敲打",
+"phonetic": "/biːt/",
+"grade": "8A"
+},
+{
+"en": "say to oneself",
+"cn": "暗想，自言自语",
+"phonetic": "",
+"grade": "8A"
+},
+{
+"en": "calm",
+"cn": "平静，使镇静",
+"phonetic": "/kɑːm/",
+"grade": "8A"
+},
+{
+"en": "calm down",
+"cn": "平静",
+"phonetic": "",
+"grade": "8A"
+},
+{
+"en": "since",
+"cn": "因为，既然",
+"phonetic": "/sɪns/",
+"grade": "8A"
+},
+{
+"en": "weak",
+"cn": "虚弱的",
+"phonetic": "/wiːk/",
+"grade": "8A"
+},
+{
+"en": "voice",
+"cn": "嗓音，说话声，唱歌声",
+"phonetic": "/vɔɪs/",
+"grade": "8A"
+},
+{
+"en": "except",
+"cn": "除……之外",
+"phonetic": "/ɪkˈsept/",
+"grade": "8A"
+},
+{
+"en": "smoke",
+"cn": "烟",
+"phonetic": "/sməʊk/",
+"grade": "8A"
+},
+{
+"en": "burn",
+"cn": "着火；烧毁，烧伤",
+"phonetic": "/bɜːn/",
+"grade": "8A"
+},
+{
+"en": "put out",
+"cn": "扑灭，熄灭",
+"phonetic": "",
+"grade": "8A"
+},
+{
+"en": "heavily",
+"cn": "大量地",
+"phonetic": "/ˈhevɪli/",
+"grade": "8A"
+},
+{
+"en": "guess",
+"cn": "猜测，估计",
+"phonetic": "/ɡes/",
+"grade": "8A"
+},
+{
+"en": "hat",
+"cn": "带檐帽子",
+"phonetic": "/hæt/",
+"grade": "8A"
+},
+{
+"en": "clear",
+"cn": "清除，清理",
+"phonetic": "/klɪə(r)/",
+"grade": "8A"
+},
+{
+"en": "policeman",
+"cn": "警察",
+"phonetic": "/pəˈliːsmən/",
+"grade": "8A"
+},
+{
+"en": "ache",
+"cn": "疼痛",
+"phonetic": "/eɪk/",
+"grade": "8A"
+},
+{
+"en": "postman",
+"cn": "邮递员",
+"phonetic": "/ˈpəʊstmən/",
+"grade": "8A"
+},
+{
+"en": "airport",
+"cn": "机场",
+"phonetic": "/ˈeəpɔːt/",
+"grade": "8A"
+},
+{
+"en": "passport",
+"cn": "护照",
+"phonetic": "/ˈpɑːspɔːt/",
+"grade": "8A"
+},
+{
+"en": "close",
+"cn": "差一点儿，险些",
+"phonetic": "/kləʊs/",
+"grade": "8A"
+},
+{
+"en": "report",
+"cn": "报道，汇报",
+"phonetic": "/rɪˈpɔːt/",
+"grade": "8A"
+},
+{
+"en": "bush fire",
+"cn": "山林大火",
+"phonetic": "/ˈbʊʃ faɪə(r)/",
+"grade": "8A"
+},
+{
+"en": "so far",
+"cn": "迄今为止",
+"phonetic": "",
+"grade": "8A"
+},
+{
+"en": "including",
+"cn": "包括……在内",
+"phonetic": "/ɪnˈkluːdɪŋ/",
+"grade": "8A"
+},
+{
+"en": "sign",
+"cn": "标牌，指示牌",
+"phonetic": "/saɪn/",
+"grade": "8A"
+},
+{
+"en": "avoid",
+"cn": "避免，防止",
+"phonetic": "/əˈvɔɪd/",
+"grade": "8A"
+},
+{
+"en": "wound",
+"cn": "伤，伤口",
+"phonetic": "/wuːnd/",
+"grade": "8A"
+},
+{
+"en": "bleed",
+"cn": "流血，失血",
+"phonetic": "/bliːd/",
+"grade": "8A"
+},
+{
+"en": "press",
+"cn": "按，压",
+"phonetic": "/pres/",
+"grade": "8A"
+},
+{
+"en": "firmly",
+"cn": "紧紧地",
+"phonetic": "/ˈfɜːmli/",
+"grade": "8A"
+},
+{
+"en": "right away",
+"cn": "立即，马上",
+"phonetic": "",
+"grade": "8A"
+},
+{
+"en": "tidal wave",
+"cn": "海啸，潮汐波",
+"phonetic": "/ˈtaɪdl weɪv/",
+"grade": "8A"
+},
+{
+"en": "warn",
+"cn": "警告，告诫",
+"phonetic": "/wɔːn/",
+"grade": "8A"
+}
+]
+}
+          ]
+        }
+      ]
+    }
+  }
+}

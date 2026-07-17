@@ -239,37 +239,36 @@ const DataStore = {
   // ==========================================
 
   /**
-   * 获取指定分类（跨组查找，仅搜索已加载的分组）
+   * 获取指定分类（直接按 groupId 索引，不再遍历所有已加载分组）
    * @param {string} subjectId
+   * @param {string} groupId
    * @param {string} categoryId
    */
-  getCategory(subjectId, categoryId) {
-    for (const groupId of Object.keys(this._groupCache)) {
-      const cache = this._groupCache[groupId];
-      if (!cache._loaded) continue;
-      const found = cache.categories.find(c => c.id === categoryId);
-      if (found) return found;
-    }
-    return null;
+  getCategory(subjectId, groupId, categoryId) {
+    const cache = this._groupCache[groupId];
+    if (!cache?._loaded) return null;
+    return cache.categories.find(c => c.id === categoryId) || null;
   },
 
   /**
    * 获取分类下的所有单词
    * @param {string} subjectId
+   * @param {string} groupId
    * @param {string} categoryId
    */
-  getWords(subjectId, categoryId) {
-    const category = this.getCategory(subjectId, categoryId);
+  getWords(subjectId, groupId, categoryId) {
+    const category = this.getCategory(subjectId, groupId, categoryId);
     return category ? (category.words || []) : [];
   },
 
   /**
    * 获取分类的单词（展平，附加分类信息）
    * @param {string} subjectId
+   * @param {string} groupId
    * @param {string} categoryId
    */
-  getCategoryWords(subjectId, categoryId) {
-    const words = this.getWords(subjectId, categoryId);
+  getCategoryWords(subjectId, groupId, categoryId) {
+    const words = this.getWords(subjectId, groupId, categoryId);
     return words.map(word => ({
       ...word,
       categoryId: categoryId,

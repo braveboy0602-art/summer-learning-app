@@ -354,7 +354,7 @@ const StudyApp = {
     this._renderHeader();
 
     // 渲染该分类的单词
-    this._renderCategoryWords(subjId, catId);
+    this._renderCategoryWords(subjId, groupId, catId);
 
     this._updateProgress();
   },
@@ -366,7 +366,7 @@ const StudyApp = {
   _renderHeader() {
     const subject = DataStore.getSubject(this.currentSubject);
     const group = DataStore.getGroup(this.currentSubject, this.currentGroupId);
-    const category = DataStore.getCategory(this.currentSubject, this.currentCategoryId);
+    const category = DataStore.getCategory(this.currentSubject, this.currentGroupId, this.currentCategoryId);
 
     const subjName = subject ? subject.name : '';
     const groupName = group ? group.name : '';
@@ -398,12 +398,12 @@ const StudyApp = {
   /**
    * 渲染指定分类的单词
    */
-  _renderCategoryWords(subjId, catId) {
-    console.log(`[StudyApp] _renderCategoryWords: catId=${catId}`);
+  _renderCategoryWords(subjId, groupId, catId) {
+    console.log(`[StudyApp] _renderCategoryWords: subj=${subjId}, group=${groupId}, catId=${catId}`);
 
     const container = document.getElementById('wordGrid');
-    const category = DataStore.getCategory(subjId, catId);
-    const words = DataStore.getCategoryWords(subjId, catId);
+    const category = DataStore.getCategory(subjId, groupId, catId);
+    const words = DataStore.getCategoryWords(subjId, groupId, catId);
 
     console.log(`[StudyApp]   category=`, category ? category.name : 'null');
     console.log(`[StudyApp]   words count=`, words ? words.length : 0);
@@ -590,8 +590,8 @@ const StudyApp = {
     // 停跟读
     this._stopAutoPlay();
 
-    const category = DataStore.getCategory(this.currentSubject, this.currentCategoryId);
-    let words = DataStore.getCategoryWords(this.currentSubject, this.currentCategoryId);
+    const category = DataStore.getCategory(this.currentSubject, this.currentGroupId, this.currentCategoryId);
+    let words = DataStore.getCategoryWords(this.currentSubject, this.currentGroupId, this.currentCategoryId);
 
     if (!words || !words.length) {
       this._showToast('当前分类没有单词');
@@ -1077,7 +1077,7 @@ const StudyApp = {
   // ============================================
 
   _updateProgress() {
-    const words = DataStore.getCategoryWords(this.currentSubject, this.currentCategoryId);
+    const words = DataStore.getCategoryWords(this.currentSubject, this.currentGroupId, this.currentCategoryId);
     const total = words.length;
     const mastered = words.filter(w => this.learningStatus[w.key] === 'mastered').length;
     const pct = total > 0 ? Math.round((mastered / total) * 100) : 0;

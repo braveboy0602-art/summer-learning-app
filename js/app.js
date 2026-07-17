@@ -554,8 +554,8 @@ const StudyApp = {
       await this._playAudioAsync(word);
       if (!this._isAutoPlaying) break;
 
-      // 单词之间停顿 0.8s，给用户跟读时间
-      await new Promise(r => setTimeout(r, 800));
+      // 单词之间停顿 2s，给用户跟读时间
+      await new Promise(r => setTimeout(r, 2000));
     }
 
     // 结束清理

@@ -639,7 +639,11 @@ const StudyApp = {
     // 关闭按钮
     const closeBtn = document.getElementById('challengeClose');
     if (closeBtn) {
-      closeBtn.addEventListener('click', () => this._closeChallenge());
+      closeBtn.addEventListener('click', () => {
+        if (window.confirm('确定要退出闯关吗？当前进度将会丢失哦！')) {
+          this._closeChallenge();
+        }
+      });
     }
 
     // 点击背景蒙层关闭

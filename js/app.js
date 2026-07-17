@@ -690,6 +690,22 @@ const StudyApp = {
         this._onChallengeLetterClick(btn);
       });
     }
+
+    // 发音（喇叭按钮）—— 事件委托，支持动态生成的按钮
+    const gameContent = document.getElementById('challengeGameContent');
+    if (gameContent) {
+      gameContent.addEventListener('click', function(e) {
+        const btn = e.target.closest('#challengeSpeaker');
+        if (!btn) return;
+        const word = btn.dataset.word;
+        if (!word) return;
+        speakText(word);
+        btn.classList.remove('playing');
+        void btn.offsetWidth;
+        btn.classList.add('playing');
+        setTimeout(() => btn.classList.remove('playing'), 600);
+      });
+    }
   },
 
   /** 渲染当前题目（支持单词/短语/句型） */
@@ -702,8 +718,17 @@ const StudyApp = {
     document.getElementById('challengeCurrentNum').textContent = num;
     document.getElementById('challengeTotalNum').textContent = total;
 
-    // 中文提示
-    document.getElementById('chineseHint').textContent = word.cn;
+    // 中文提示 & 喇叭发音（动态生成 hint-row）
+    const hintContainer = document.getElementById('hintRowContainer');
+    if (hintContainer) {
+      hintContainer.innerHTML =
+        '<div class="hint-row">' +
+          '<div class="chinese-hint" id="chineseHint">' + this._escapeHtml(word.cn) + '</div>' +
+          '<button class="speaker-btn" id="challengeSpeaker" data-word="' + this._escapeAttr(word.en) + '" title="点击播放发音">' +
+            '🔊' +
+          '</button>' +
+        '</div>';
+    }
 
     // 解析 word.en 为 cell 数据结构
     const parsed = this._parseWord(word.en);

@@ -849,35 +849,78 @@ body {
   padding: 4px 0;
 }
 
-/* ---------- 中文提示 ---------- */
-.chinese-hint {
-  text-align: center;
-  font-size: 2.2rem;
-  font-weight: 700;
-  color: var(--gray-800);
-  padding: 12px 0 4px;
-  letter-spacing: 4px;
+/* ---------- 提示行：中文 + 喇叭并排 ---------- */
+.hint-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 20px;
 }
 
-/* ---------- 拼写格 ---------- */
+/* ---------- 中文提示（弱化） ---------- */
+.chinese-hint {
+  font-size: 1.625rem;
+  font-weight: 600;
+  color: #64748B;
+}
+
+/* ---------- 喇叭发音按钮 ---------- */
+.speaker-btn {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: none;
+  background-color: #f1f5f9;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  line-height: 1;
+}
+
+.speaker-btn:hover {
+  background-color: #e2e8f0;
+  transform: scale(1.1);
+}
+
+.speaker-btn:active {
+  transform: scale(0.95);
+}
+
+.speaker-btn.playing {
+  background-color: #dbeafe;
+  animation: speakerPulse 0.4s ease;
+}
+
+@keyframes speakerPulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+}
+
+/* ---------- 拼写格容器 ---------- */
 .spelling-slots {
   display: flex;
   justify-content: center;
   gap: 8px;
-  padding: 8px 0 16px;
+  padding: 8px 0 20px;
   flex-wrap: wrap;
 }
 
+/* ---------- 拼写填空位 ---------- */
 .slot {
+  width: 48px;
+  height: 56px;
+  border-bottom: 4px solid #3b82f6;
+  font-size: 2rem;
+  margin: 0 4px;
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 40px;
-  height: 48px;
-  font-size: 1.4rem;
   font-weight: 700;
   font-family: "Courier New", Consolas, monospace;
-  border-bottom: 3px solid var(--gray-300);
   color: var(--gray-400);
   cursor: default;
   transition: all 0.2s;
@@ -886,7 +929,7 @@ body {
 
 .slot-filled {
   color: var(--primary-dark);
-  border-bottom-color: var(--primary);
+  border-bottom-color: #2563eb;
   cursor: pointer;
 }
 
@@ -900,7 +943,7 @@ body {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.4rem;
+  font-size: 2rem;
   font-weight: 700;
   font-family: "Courier New", Consolas, monospace;
   color: var(--gray-600);
@@ -913,48 +956,54 @@ body {
 
 /* ---------- 单词状态：当前拼写 / 已锁定 ---------- */
 .slot-active {
-  border-bottom-color: var(--primary) !important;
-  color: var(--gray-700) !important;
+  border-bottom-color: #3b82f6 !important;
+  border-bottom-width: 4px !important;
+  color: #1e293b !important;
 }
 
 .slot-locked {
-  border-bottom-color: var(--success) !important;
-  color: var(--success) !important;
+  border-bottom-color: #10b981 !important;
+  border-bottom-width: 4px !important;
+  color: #10b981 !important;
   opacity: 0.75;
   cursor: default !important;
 }
 
 .slot-locked:hover {
   background: transparent !important;
-  border-bottom-color: var(--success) !important;
+  border-bottom-color: #10b981 !important;
 }
 
-/* ---------- 字母选择区 ---------- */
+/* ---------- 字母排列容器 ---------- */
 .letter-grid {
+  max-width: 416px;
+  margin: 0 auto;
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 8px;
-  padding: 8px 0;
-  min-height: 50px;
+  padding: 12px 0 8px;
 }
 
+/* ---------- 底部字母按钮 ---------- */
 .letter-btn {
-  width: 44px;
-  height: 44px;
-  border: 2px solid var(--gray-200);
-  border-radius: 10px;
-  background: white;
-  font-size: 1.15rem;
+  width: 56px;
+  height: 56px;
+  font-size: 1.5rem;
+  border-radius: 12px;
+  margin: 4px;
+  background-color: white;
+  border: 1px solid #cbd5e1;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  cursor: pointer;
   font-weight: 700;
   font-family: "Courier New", Consolas, monospace;
   color: var(--gray-700);
-  cursor: pointer;
-  transition: all 0.15s;
   display: flex;
   align-items: center;
   justify-content: center;
   user-select: none;
+  transition: all 0.15s;
 }
 
 .letter-btn:hover:not(:disabled) {
@@ -962,11 +1011,12 @@ body {
   color: var(--primary);
   background: var(--primary-light);
   transform: translateY(-2px);
-  box-shadow: 0 2px 8px rgba(74, 144, 217, 0.2);
+  box-shadow: 0 4px 12px rgba(74, 144, 217, 0.2);
 }
 
 .letter-btn:active:not(:disabled) {
-  transform: scale(0.93);
+  background-color: #f8fafc;
+  transform: translateY(2px);
 }
 
 .letter-btn:disabled {
@@ -975,6 +1025,7 @@ body {
   border-color: var(--gray-100);
   background: var(--gray-50);
   transform: none;
+  box-shadow: none;
 }
 
 /* ---------- 反馈区 ---------- */

@@ -76,7 +76,6 @@
 { "en": "elephant", "cn": "大象", "phonetic": "/ˈelɪfənt/", "grade": "3B" },
 { "en": "rabbit", "cn": "兔子", "phonetic": "/ˈræbɪt/", "grade": "3B" },
 { "en": "panda", "cn": "大熊猫", "phonetic": "/ˈpændə/", "grade": "3B" },
-{ "en": "duck", "cn": "鸭子", "phonetic": "/dʌk/", "grade": "3B" },
 { "en": "fox", "cn": "狐狸", "phonetic": "/fɒks/", "grade": "3A" },
 { "en": "pig", "cn": "猪", "phonetic": "/pɪɡ/", "grade": "3B" },
 { "en": "bee", "cn": "蜜蜂", "phonetic": "/biː/", "grade": "6A" },

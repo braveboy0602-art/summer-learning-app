@@ -646,21 +646,28 @@ const StudyApp = {
       });
     }
 
-    // 点击背景蒙层关闭
+    // 点击背景蒙层 —— 只关闭确认弹窗（若有），绝不退出游戏
     const overlay = document.getElementById('challengeOverlay');
     if (overlay) {
       overlay.addEventListener('click', (e) => {
-        if (e.target === overlay) this._closeChallenge();
+        if (e.target === overlay) {
+          // 不做任何操作，防止误触退出
+          return;
+        }
       });
     }
 
-    // ESC 键关闭
+    // ESC 键 —— 与关闭按钮行为一致，弹出确认框
     document.addEventListener('keydown', (e) => {
       if (e.key === 'Escape') {
         const ov = document.getElementById('challengeOverlay');
-        if (ov && ov.style.display !== 'none') this._closeChallenge();
+        if (ov && ov.style.display !== 'none') {
+          if (window.confirm('确定要退出闯关吗？当前进度将会丢失哦！')) {
+            this._closeChallenge();
+          }
+        }
       }
-    });
+    })
 
     // 提交答案（事件委托，避免重复绑定）
     const submitBtn = document.getElementById('challengeSubmit');

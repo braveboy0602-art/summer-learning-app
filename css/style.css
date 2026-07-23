@@ -108,42 +108,44 @@ body {
   flex-wrap: wrap;
 }
 
+/* ---------- Header Action Buttons ---------- */
+.header-buttons {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.btn-header-action {
+  background: rgba(255, 255, 255, 0.15);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  padding: 5px 14px;
+  border-radius: 20px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  line-height: 1.4;
+}
+
+.btn-header-action:hover {
+  background: rgba(255, 255, 255, 0.3);
+  border-color: rgba(255, 255, 255, 0.5);
+  transform: translateY(-1px);
+}
+
+.btn-header-action:active {
+  transform: scale(0.97);
+}
+
 .header-date {
   font-size: 0.875rem;
   opacity: 0.9;
   white-space: nowrap;
-}
-
-/* ---------- Progress Bar ---------- */
-.progress-wrapper {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  min-width: 200px;
-}
-
-.progress-bar {
-  flex: 1;
-  height: 10px;
-  background: rgba(255, 255, 255, 0.25);
-  border-radius: 5px;
-  overflow: hidden;
-  min-width: 100px;
-}
-
-.progress-fill {
-  height: 100%;
-  background: white;
-  border-radius: 5px;
-  transition: width 0.6s ease;
-  width: 0%;
-}
-
-.progress-text {
-  font-size: 0.8125rem;
-  font-weight: 600;
-  white-space: nowrap;
-  opacity: 0.95;
 }
 
 /* ---------- Main Layout ---------- */
@@ -187,7 +189,6 @@ body {
 }
 
 /* --- 通用行布局 --- */
-.subject-row,
 .group-row,
 .cat-row {
   display: flex;
@@ -216,74 +217,9 @@ body {
   color: var(--primary);       /* 选中项箭头跟随主题色 */
 }
 
-/* ============================================
-   禁用状态
-   ============================================ */
-.subject-disabled > .subject-row {
-  color: #bbb !important;
-  cursor: not-allowed;
-  background: transparent !important;
-}
-.subject-disabled > .subject-row:hover {
-  background: transparent !important;
-  color: #bbb !important;
-}
-.subject-disabled .tree-toggle {
-  color: #ddd !important;
-}
-.subject-disabled .subject-name {
-  font-weight: 400;
-}
-
-/* ============================================
-   一级：学科
-   ============================================ */
-.subject-row {
-  padding: 10px 12px 10px 10px;
-  border-radius: var(--radius-sm);
-  cursor: pointer;
-  font-size: 0.9rem;
-  color: var(--gray-700);
-  font-weight: 600;
-  transition: all var(--transition);
-}
-.subject-row:hover {
-  background: var(--gray-50);
-  color: var(--gray-800);
-}
-.subject-current > .subject-row {
-  color: var(--primary-dark);
-  background: #EEF2FF;            /* 浅蓝背景区分一级选中 */
-}
-
-.subject-icon {
-  font-size: 1.1rem;
-  line-height: 1;
-  width: 24px;
-  text-align: center;
-  flex-shrink: 0;
-}
-
-.subject-name {
-  flex: 1;
-}
-
 /* --- 收起控制 --- */
-.group-list.collapsed,
 .cat-list.collapsed {
   display: none;
-}
-
-/* ============================================
-   二级：组 — 带虚线树形连接线
-   ============================================ */
-.group-list {
-  position: relative;
-  list-style: none;
-  padding-left: 22px;           /* 向右缩进，与上级文字错开 */
-  margin: 0;
-  border-left: 2px dashed #D4D4D8;   /* 左侧垂直虚线主干 */
-  margin-left: 10px;            /* 对齐一级的 padding-left */
 }
 
 .group-item {
@@ -456,20 +392,6 @@ body {
   transform: translateY(-1px);
 }
 
-.word-card.status-learning {
-  border-left: 4px solid var(--primary);
-  background: var(--primary-light);
-}
-
-.word-card.status-mastered {
-  border-left: 4px solid var(--success);
-  background: var(--success-light);
-}
-
-.word-card.status-unlearned {
-  border-left: 4px solid var(--gray-300);
-}
-
 .word-top {
   display: flex;
   align-items: center;
@@ -493,13 +415,6 @@ body {
   font-size: 0.95rem;
   color: var(--gray-600);
   margin-bottom: 10px;
-}
-
-.word-actions {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  flex-wrap: wrap;
 }
 
 /* ---------- Buttons ---------- */
@@ -560,27 +475,45 @@ body {
   50% { transform: scale(1.1); }
 }
 
-.btn-status {
-  font-size: 0.75rem;
-  padding: 4px 12px;
+/* ---------- Mastery Stars & Stats ---------- */
+.word-mastery {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid var(--gray-200);
 }
 
-.btn-status.active-learning {
-  background: var(--primary);
-  color: white;
-  border-color: var(--primary);
+.mastery-stars {
+  font-size: 1rem;
+  letter-spacing: 2px;
+  margin-bottom: 6px;
 }
 
-.btn-status.active-mastered {
-  background: var(--success);
-  color: white;
-  border-color: var(--success);
-}
+.mastery-stars .star-filled { color: var(--secondary); }
+.mastery-stars .star-empty  { color: var(--gray-300); }
 
-.btn-status.active-unlearned {
-  background: var(--gray-200);
+.word-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  font-size: 0.8rem;
   color: var(--gray-500);
-  border-color: var(--gray-200);
+  margin-bottom: 4px;
+}
+
+.word-stats .stat-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.word-stats .stat-item .stat-value {
+  color: var(--gray-700);
+  font-weight: 600;
+}
+
+.word-last-study {
+  font-size: 0.75rem;
+  color: var(--gray-400);
 }
 
 /* ---------- Auto-play Button ---------- */
@@ -649,10 +582,6 @@ body {
     padding: 7px 6px 7px 14px;
     font-size: 0.78rem;
   }
-  .subject-row {
-    padding: 8px 6px;
-    font-size: 0.82rem;
-  }
   .cat-row {
     padding: 5px 8px 5px 22px;
     font-size: 0.75rem;
@@ -674,10 +603,6 @@ body {
   .header-right {
     width: 100%;
     justify-content: space-between;
-  }
-
-  .progress-wrapper {
-    flex: 1;
   }
 
   .app-main {

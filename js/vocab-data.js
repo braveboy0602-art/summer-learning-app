@@ -286,6 +286,29 @@ const DataStore = {
   },
 
   /**
+   * 获取全部已加载的单词（跨所有分组/分类，用于 SRS 复习）
+   * @returns {Array} 每个单词附加 groupId / categoryId 信息
+   */
+  getAllWords() {
+    const all = [];
+    const subjIds = this.getSubjects();
+    subjIds.forEach(sid => {
+      const groups = this.getGroups(sid);
+      (groups || []).forEach(g => {
+        if (!this.isGroupLoaded(g.id)) return;
+        const cats = this.getGroupCategories(sid, g.id);
+        (cats || []).forEach(c => {
+          const words = this.getCategoryWords(sid, g.id, c.id);
+          (words || []).forEach(w => {
+            all.push({ ...w, _subjectId: sid, _groupId: g.id, _categoryId: c.id });
+          });
+        });
+      });
+    });
+    return all;
+  },
+
+  /**
    * 检查数据是否已就绪
    */
   isLoaded() {

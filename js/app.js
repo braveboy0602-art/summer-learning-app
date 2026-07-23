@@ -10,13 +10,8 @@ const StudyApp = {
   currentGroupId: null,
   currentCategoryId: null,
 
-  /** 已展开的学科 */
-  expandedSubjects: new Set(),
   /** 已展开的组（显示其下的分类） */
   expandedGroups: new Set(),
-
-  /** 学习状态：{ "categoryId_word": "learning" } */
-  learningStatus: {},
 
   /** 自动跟读状态 */
   _isAutoPlaying: false,
@@ -31,12 +26,11 @@ const StudyApp = {
     this.todayStr = this._getTodayString();
 
     this._bindEvents();
-    this.loadFromStorage();
+    this._bindHeaderActions();
     this._bindChallengeEvents();
     this._bindDownloadEvents();
 
-    // 默认展开英语 → 小学词汇
-    this.expandedSubjects.add('english');
+    // 默认展开小学词汇
     this.expandedGroups.add('primary');
 
     // ---- 异步加载数据 ----
@@ -52,6 +46,9 @@ const StudyApp = {
 
     this._renderHeader();
     this._renderSidebar();
+
+    // 更新 SRS 到期徽章
+    this._updateSRSBadge();
 
     // 默认选中：英语 → 小学词汇 → 第一个分类
     const firstGroup = DataStore.getGroups('english')[0];
@@ -74,6 +71,7 @@ const StudyApp = {
       sidebar.addEventListener('click', (e) => {
         /* ⚠️ 重要：必须从最内层元素开始检查，因为 .cat-item / .group-item
            都在 .subject-item 内部，先查 subject 会导致永远匹配不到子项 */
+
         // 1️⃣ 分类点击（最内层优先）
         const catItem = e.target.closest('.cat-item');
         if (catItem && catItem.dataset.subject && catItem.dataset.groupId && catItem.dataset.catId) {
@@ -84,17 +82,6 @@ const StudyApp = {
         const groupItem = e.target.closest('.group-item');
         if (groupItem && groupItem.dataset.subject && groupItem.dataset.groupId) {
           this._toggleGroup(groupItem.dataset.subject, groupItem.dataset.groupId);
-          return;
-        }
-        // 3️⃣ 学科展开/收起（最外层最后检查）
-        const subjectItem = e.target.closest('.subject-item');
-        if (subjectItem && subjectItem.dataset.subject) {
-          // 检查是否被禁用
-          if (subjectItem.classList.contains('subject-disabled')) {
-            this._showToast('功能开发中，敬请期待');
-            return;
-          }
-          this._toggleSubject(subjectItem.dataset.subject);
           return;
         }
       });
@@ -108,29 +95,40 @@ const StudyApp = {
           this.playAudio(playBtn.dataset.word);
           return;
         }
-        const statusBtn = e.target.closest('.btn-status');
-        if (statusBtn && statusBtn.dataset.key && statusBtn.dataset.status) {
-          this.setStatus(statusBtn.dataset.key, statusBtn.dataset.status);
-          return;
-        }
       });
     }
 
   },
 
   // ============================================
-  // 数据持久化
+  // 顶部全局操作按钮
   // ============================================
 
-  loadFromStorage() {
-    try {
-      const saved = localStorage.getItem('study_learning_status');
-      this.learningStatus = saved ? JSON.parse(saved) : {};
-    } catch { this.learningStatus = {}; }
+  _bindHeaderActions() {
+    const srsBtn = document.getElementById('headerSrsBtn');
+    if (srsBtn) srsBtn.addEventListener('click', () => this._startSRSReview());
+
+    const dlBtn = document.getElementById('headerDownloadBtn');
+    if (dlBtn) dlBtn.addEventListener('click', () => this._openDownloadModal());
   },
 
-  saveLearningStatus() {
-    localStorage.setItem('study_learning_status', JSON.stringify(this.learningStatus));
+  /**
+   * 更新顶部"今日复习"按钮上的到期数量徽章
+   */
+  _updateSRSBadge() {
+    const btn = document.getElementById('headerSrsBtn');
+    if (!btn) return;
+    try {
+      const allWords = DataStore.getAllWords();
+      const dueCount = SRS.getDueWords(allWords).length;
+      if (dueCount > 0) {
+        btn.innerHTML = `🧠 今日复习 <span style="background:rgba(255,255,255,0.3);padding:1px 8px;border-radius:10px;font-size:.75rem;font-weight:700">${dueCount}</span>`;
+      } else {
+        btn.textContent = '🧠 今日复习';
+      }
+    } catch (e) {
+      // 数据未就绪时静默跳过
+    }
   },
 
   // ============================================
@@ -139,67 +137,30 @@ const StudyApp = {
 
   _renderSidebar() {
     const container = document.getElementById('sidebarNav');
-    const subjectIds = DataStore.getSubjects();
+    const groups = DataStore.getGroups('english');
 
-    let html = '<ul class="tree-list">';
-    subjectIds.forEach(subjId => {
-      const subject = DataStore.getSubject(subjId);
-      if (!subject) return;
-
-      const isSubjExpanded = this.expandedSubjects.has(subjId);
-      const groups = DataStore.getGroups(subjId);
-
-      // 一级：学科 —— 始终渲染完整结构，用 CSS .collapsed 控制显隐
-      const isDisabled = subject.disabled === true;
-      const disabledClass = isDisabled ? ' subject-disabled' : '';
-      const displayName = subject.name + (isDisabled ? ' (暂不开放)' : '');
-
-      html += `
-        <li class="tree-item subject-item${this.currentSubject === subjId ? ' subject-current' : ''}${disabledClass}"
-            data-subject="${subjId}"${isDisabled ? ' title="功能开发中，敬请期待"' : ''}>
-          <div class="subject-row"${isDisabled ? ' title="功能开发中，敬请期待"' : ''}>
-            <span class="tree-toggle ${isSubjExpanded ? 'expanded' : ''}">${groups.length && !isDisabled ? (isSubjExpanded ? '▾' : '▸') : ''}</span>
-            <span class="subject-icon">${subject.icon}</span>
-            <span class="subject-name">${displayName}</span>
-          </div>
-          ${isDisabled ? '' : `<ul class="group-list${isSubjExpanded ? '' : ' collapsed'}">
-            ${this._renderGroupList(subjId, groups)}
-          </ul>`}
-        </li>`;
-    });
-    html += '</ul>';
-    container.innerHTML = html;
-  },
-
-  /**
-   * 二级：组列表（含三级分类）
-   * 始终渲染全部 <li>，展开/收起由 CSS .collapsed 控制
-   */
-  _renderGroupList(subjId, groups) {
-    if (!groups.length) return '';
-    let html = '';
+    let html = `<ul class="tree-list">`;
     groups.forEach(group => {
       const isGrpExpanded = this.expandedGroups.has(group.id);
-      // 从 DataStore 缓存获取分类（未加载的分组返回 []）
-      const cats = DataStore.getGroupCategories(subjId, group.id);
-      const isActiveGroup = this.currentSubject === subjId && this.currentGroupId === group.id;
-      // 有 dataFile（延后加载）或已有分类数据 → 显示展开箭头
+      const cats = DataStore.getGroupCategories('english', group.id);
       const hasChildren = group.dataFile || cats.length > 0;
+      const isActiveGroup = this.currentGroupId === group.id;
 
       html += `
         <li class="tree-item group-item${isActiveGroup ? ' active-group' : ''}"
-            data-subject="${subjId}" data-group-id="${group.id}">
+            data-subject="english" data-group-id="${group.id}">
           <div class="group-row">
             <span class="tree-toggle ${isGrpExpanded ? 'expanded' : ''}">${hasChildren ? (isGrpExpanded ? '▾' : '▸') : ''}</span>
             <span class="group-icon">${group.icon}</span>
             <span class="group-name">${group.name}</span>
           </div>
           <ul class="cat-list${isGrpExpanded && cats.length ? '' : ' collapsed'}">
-            ${this._renderCatList(subjId, group.id, cats)}
+            ${this._renderCatList('english', group.id, cats)}
           </ul>
         </li>`;
     });
-    return html;
+    html += '</ul>';
+    container.innerHTML = html;
   },
 
   /**
@@ -223,26 +184,6 @@ const StudyApp = {
         </li>`;
     });
     return html;
-  },
-
-  /**
-   * 展开/收起学科 —— 只切换 CSS 类，不重建 DOM
-   */
-  _toggleSubject(subjId) {
-    const item = document.querySelector(`.subject-item[data-subject="${subjId}"]`);
-    if (!item) return;
-    const gl = item.querySelector('.group-list');
-    const toggle = item.querySelector('.subject-row .tree-toggle');
-
-    if (this.expandedSubjects.has(subjId)) {
-      this.expandedSubjects.delete(subjId);
-      if (gl) gl.classList.add('collapsed');
-      if (toggle) toggle.classList.remove('expanded');
-    } else {
-      this.expandedSubjects.add(subjId);
-      if (gl) gl.classList.remove('collapsed');
-      if (toggle) toggle.classList.add('expanded');
-    }
   },
 
   /**
@@ -315,8 +256,7 @@ const StudyApp = {
     this.currentGroupId = groupId;
     this.currentCategoryId = catId;
 
-    // 确保父级路径全部展开（不重建 DOM）
-    this.expandedSubjects.add(subjId);
+    // 确保分组展开
     this.expandedGroups.add(groupId);
 
     // ----- 更新侧边栏高亮：不重建 DOM，只切换类名 -----
@@ -333,13 +273,6 @@ const StudyApp = {
     if (grpItem) grpItem.classList.add('active-group');
 
     // 确保侧边栏展开路径可见
-    const subjItem = document.querySelector(`.subject-item[data-subject="${subjId}"]`);
-    if (subjItem) {
-      const gl = subjItem.querySelector('.group-list');
-      if (gl) gl.classList.remove('collapsed');
-      const t1 = subjItem.querySelector('.subject-row .tree-toggle');
-      if (t1) t1.classList.add('expanded');
-    }
     if (grpItem) {
       const cl = grpItem.querySelector('.cat-list');
       if (cl) cl.classList.remove('collapsed');
@@ -355,8 +288,6 @@ const StudyApp = {
 
     // 渲染该分类的单词
     this._renderCategoryWords(subjId, groupId, catId);
-
-    this._updateProgress();
   },
 
   // ============================================
@@ -434,10 +365,11 @@ const StudyApp = {
       return;
     }
 
+    const events = Tracker.getEvents();
     container.innerHTML = words.map((word, index) => {
       const key = word.key;
-      const status = this.learningStatus[key] || 'unlearned';
-      return this._buildWordCard(word, key, status, index);
+      const progress = getWordProgress(word.en, events);
+      return this._buildWordCard(word, key, progress, index);
     }).join('');
 
     console.log(`[StudyApp]   ✅ word grid updated with ${words.length} cards`);
@@ -485,20 +417,8 @@ const StudyApp = {
       this._openChallenge();
     });
 
-    // ---- 资料下载按钮 ----
-    const downloadBtn = document.createElement('button');
-    downloadBtn.id = 'downloadBtn';
-    downloadBtn.className = 'btn btn-download';
-    downloadBtn.textContent = '📚 资料下载';
-    downloadBtn.title = '查看可下载的学习资料';
-
-    downloadBtn.addEventListener('click', () => {
-      this._openDownloadModal();
-    });
-
     actions.appendChild(playBtn);
     actions.appendChild(challengeBtn);
-    actions.appendChild(downloadBtn);
 
     // 追加到 word-area-header 右侧
     const header = document.querySelector('.word-area-header');
@@ -512,6 +432,12 @@ const StudyApp = {
    * @returns {Promise<void>}
    */
   _playAudioAsync(word) {
+    Tracker.track('play_audio', {
+      wordId: word,
+      word: word,
+      categoryId: this.currentCategoryId,
+      source: 'auto_play'
+    });
     return speakText(word);
   },
 
@@ -612,6 +538,7 @@ const StudyApp = {
     this._challengeIndex = 0;
     this._challengeAnswer = [];   // { letter, btnId }[]
     this._challengeScore = 0;
+    this._challengeIsSRS = false; // 普通挑战非 SRS 模式
 
     // 隐藏完成页、显示游戏区
     document.getElementById('challengeComplete').style.display = 'none';
@@ -619,6 +546,53 @@ const StudyApp = {
 
     // 渲染第一题
     this._renderChallengeQuestion();
+
+    // 记录闯关开始
+    Tracker.track('challenge_start', {
+      categoryId: this.currentCategoryId,
+      wordCount: words.length
+    });
+
+    overlay.style.display = 'flex';
+    document.body.style.overflow = 'hidden';
+  },
+
+  /**
+   * 启动 SRS 今日复习挑战
+   * @param {Array} words - 待复习的单词列表
+   */
+  _openSRSReview(words, todos) {
+    const overlay = document.getElementById('challengeOverlay');
+    if (!overlay) return;
+
+    this._stopAutoPlay();
+
+    if (!words || !words.length) {
+      this._showToast('没有待复习的单词');
+      return;
+    }
+
+    words = this._shuffleArray([...words]);
+
+    // 更新弹窗头部（SRS 模式）
+    document.getElementById('challengeCategory').textContent = '🧠 今日复习';
+    const dueCount = todos?.due?.length || 0;
+    document.getElementById('challengeWordCount').textContent =
+      dueCount > 0 ? `${dueCount} 个到期单词` : `${words.length} 个单词`;
+
+    // 初始化游戏状态
+    this._challengeWords = words;
+    this._challengeIndex = 0;
+    this._challengeAnswer = [];
+    this._challengeScore = 0;
+    this._challengeIsSRS = true;   // ← SRS 标记
+
+    document.getElementById('challengeComplete').style.display = 'none';
+    document.getElementById('challengeGameContent').style.display = 'block';
+
+    this._renderChallengeQuestion();
+
+    Tracker.track('srs_review_start', { wordCount: words.length });
 
     overlay.style.display = 'flex';
     document.body.style.overflow = 'hidden';
@@ -628,10 +602,23 @@ const StudyApp = {
    * 关闭默写挑战弹窗
    */
   _closeChallenge() {
+    // 记录中途退出（已开始但未完成）
+    if (this._challengeWords && this._challengeIndex > 0 && this._challengeIndex < this._challengeWords.length) {
+      Tracker.track('challenge_quit', {
+        categoryId: this.currentCategoryId,
+        completedCount: this._challengeIndex,
+        totalQuestions: this._challengeWords.length
+      });
+    }
+
+    // SRS 标记复位
+    this._challengeIsSRS = false;
+
     const overlay = document.getElementById('challengeOverlay');
     if (!overlay) return;
     overlay.style.display = 'none';
     document.body.style.overflow = '';
+    this._updateSRSBadge();
   },
 
   /** 绑定默写挑战弹窗事件 */
@@ -640,6 +627,11 @@ const StudyApp = {
     const closeBtn = document.getElementById('challengeClose');
     if (closeBtn) {
       closeBtn.addEventListener('click', () => {
+        // 已完成 → 直接关闭，不需要确认
+        if (this._challengeIndex >= (this._challengeWords?.length || 0)) {
+          this._closeChallenge();
+          return;
+        }
         if (window.confirm('确定要退出闯关吗？当前进度将会丢失哦！')) {
           this._closeChallenge();
         }
@@ -662,6 +654,11 @@ const StudyApp = {
       if (e.key === 'Escape') {
         const ov = document.getElementById('challengeOverlay');
         if (ov && ov.style.display !== 'none') {
+          // 已完成 → 直接关闭，不需要确认
+          if (this._challengeIndex >= (this._challengeWords?.length || 0)) {
+            this._closeChallenge();
+            return;
+          }
           if (window.confirm('确定要退出闯关吗？当前进度将会丢失哦！')) {
             this._closeChallenge();
           }
@@ -706,6 +703,12 @@ const StudyApp = {
         if (!btn) return;
         const word = btn.dataset.word;
         if (!word) return;
+        Tracker.track('play_audio', {
+          wordId: word,
+          word: word,
+          categoryId: StudyApp.currentCategoryId,
+          source: 'challenge'
+        });
         speakText(word);
         btn.classList.remove('playing');
         void btn.offsetWidth;
@@ -990,6 +993,21 @@ const StudyApp = {
       feedback.style.display = 'block';
       setTimeout(() => this._nextChallenge(), 2000);
     }
+
+    // 记录本次答题
+    Tracker.track('challenge_answer', {
+      categoryId: this.currentCategoryId,
+      wordId: word.en,
+      word: word.en,
+      isCorrect: isCorrect,
+      questionIndex: this._challengeIndex,
+      totalQuestions: this._challengeWords.length
+    });
+
+    // 记录到 SRS 间隔重复系统（所有答题都记录，包括普通挑战）
+    try { SRS.recordAnswer(word.en, isCorrect); } catch (e) {
+      console.warn('[SRS] 记录失败:', e);
+    }
   },
 
   /** 进入下一题 */
@@ -1014,22 +1032,50 @@ const StudyApp = {
     document.getElementById('completeCorrect').textContent = correct;
     document.getElementById('completeScore').textContent = score;
 
+    // 记录闯关完成
+    Tracker.track('challenge_complete', {
+      categoryId: this.currentCategoryId,
+      totalQuestions: total,
+      correctCount: correct,
+      score: score
+    });
+
     document.getElementById('challengeComplete').style.display = 'block';
+
+    // SRS 复习结束后更新徽章
+    if (this._challengeIsSRS) {
+      this._challengeIsSRS = false;
+      this._updateSRSBadge();
+    }
   },
 
-  _buildWordCard(word, key, status, index) {
+  _buildWordCard(word, key, progress, index) {
+    const stars = this._renderStars(progress.masteryScore);
+    const lastStudy = progress.lastStudyTime ? this._formatRelativeTime(progress.lastStudyTime) : null;
+
+    let statsHtml = '';
+    if (progress.audioCount > 0 || progress.challengeCount > 0) {
+      const parts = [];
+      if (progress.audioCount > 0) parts.push(`<span class="stat-item">🎧 <span class="stat-value">${progress.audioCount}</span>次</span>`);
+      if (progress.challengeCount > 0) parts.push(`<span class="stat-item">✍️ <span class="stat-value">${progress.challengeCount}</span>次挑战</span>`);
+      if (progress.challengeCount > 0) parts.push(`<span class="stat-item">✅ <span class="stat-value">${progress.correctRate}%</span>正确率</span>`);
+      statsHtml = `<div class="word-stats">${parts.join('')}</div>`;
+    }
+
+    const lastStudyHtml = lastStudy ? `<div class="word-last-study">最近学习：${lastStudy}</div>` : '';
+
     return `
-      <div class="word-card status-${status}" data-word-key="${key}" style="animation-delay:${(index % 10) * 0.02}s">
+      <div class="word-card" data-word-key="${key}" style="animation-delay:${(index % 10) * 0.02}s">
         <div class="word-top">
           <span class="word-en">${this._escapeHtml(word.en)}</span>
           <button class="btn btn-play" data-word="${this._escapeAttr(word.en)}" title="点击播放发音">🔊</button>
         </div>
         ${word.phonetic ? `<div class="word-phonetic">${this._escapeHtml(word.phonetic)}</div>` : ''}
         <div class="word-cn">${this._escapeHtml(word.cn)}</div>
-        <div class="word-actions">
-          <button class="btn btn-status ${status === 'unlearned' ? 'active-unlearned' : ''}" data-key="${this._escapeAttr(key)}" data-status="unlearned">📖 未学习</button>
-          <button class="btn btn-status ${status === 'learning' ? 'active-learning' : ''}" data-key="${this._escapeAttr(key)}" data-status="learning">🔄 学习中</button>
-          <button class="btn btn-status ${status === 'mastered' ? 'active-mastered' : ''}" data-key="${this._escapeAttr(key)}" data-status="mastered">✅ 已掌握</button>
+        <div class="word-mastery">
+          <div class="mastery-stars">${stars}</div>
+          ${statsHtml}
+          ${lastStudyHtml}
         </div>
       </div>`;
   },
@@ -1041,6 +1087,12 @@ const StudyApp = {
   /** 单次播放（小喇叭点击） */
   playAudio(word) {
     console.log('[StudyApp] 正在播放:', word);
+    Tracker.track('play_audio', {
+      wordId: word,
+      word: word,
+      categoryId: this.currentCategoryId,
+      source: 'word_card'
+    });
     speakText(word);
     this._animatePlayButton(word);
   },
@@ -1052,40 +1104,8 @@ const StudyApp = {
   },
 
   // ============================================
-  // 学习状态
+  // 工具
   // ============================================
-
-  setStatus(key, status) {
-    if (status === 'unlearned') delete this.learningStatus[key];
-    else this.learningStatus[key] = status;
-    this.saveLearningStatus();
-
-    const card = document.querySelector(`.word-card[data-word-key="${CSS.escape(key)}"]`);
-    if (card) {
-      card.className = `word-card status-${status}`;
-      card.querySelectorAll('.btn-status').forEach(btn => {
-        btn.classList.remove('active-learning', 'active-mastered', 'active-unlearned');
-        if (btn.dataset.status === status) btn.classList.add(`active-${status}`);
-      });
-    }
-
-    this._updateProgress();
-  },
-
-  // ============================================
-  // 进度
-  // ============================================
-
-  _updateProgress() {
-    const words = DataStore.getCategoryWords(this.currentSubject, this.currentGroupId, this.currentCategoryId);
-    const total = words.length;
-    const mastered = words.filter(w => this.learningStatus[w.key] === 'mastered').length;
-    const pct = total > 0 ? Math.round((mastered / total) * 100) : 0;
-    const fill = document.querySelector('.progress-fill');
-    const text = document.querySelector('.progress-text');
-    if (fill) fill.style.width = `${pct}%`;
-    if (text) text.textContent = `${mastered}/${total} 已掌握`;
-  },
 
   // ============================================
   // 工具
@@ -1104,6 +1124,41 @@ const StudyApp = {
   _escapeAttr(s) { return String(s).replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/'/g,'&#39;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); },
   _escapeHtml(s) { return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); },
 
+  /**
+   * 根据熟练度分数渲染星级
+   * @param {number} score 0-100
+   * @returns {string} HTML
+   */
+  _renderStars(score) {
+    const filled = score > 80 ? 5 : score > 60 ? 4 : score > 40 ? 3 : score > 20 ? 2 : score > 0 ? 1 : 0;
+    let html = '';
+    for (let i = 0; i < 5; i++) {
+      html += i < filled
+        ? '<span class="star-filled">★</span>'
+        : '<span class="star-empty">☆</span>';
+    }
+    return html;
+  },
+
+  /**
+   * 将时间戳格式化为相对时间
+   * @param {number} ts 毫秒时间戳
+   * @returns {string}
+   */
+  _formatRelativeTime(ts) {
+    const diff = Date.now() - ts;
+    const seconds = Math.floor(diff / 1000);
+    if (seconds < 60) return '刚刚';
+    const minutes = Math.floor(seconds / 60);
+    if (minutes < 60) return `${minutes}分钟前`;
+    const hours = Math.floor(minutes / 60);
+    if (hours < 24) return `${hours}小时前`;
+    const days = Math.floor(hours / 24);
+    if (days === 1) return '昨天';
+    if (days < 7) return `${days}天前`;
+    return new Date(ts).toLocaleDateString('zh-CN');
+  },
+
   _showToast(msg) {
     const old = document.querySelector('.toast');
     if (old) old.remove();
@@ -1113,6 +1168,42 @@ const StudyApp = {
     t.style.cssText = 'position:fixed;bottom:30px;left:50%;transform:translateX(-50%);background:#1E293B;color:#fff;padding:12px 24px;border-radius:8px;font-size:.9rem;z-index:1000;box-shadow:0 4px 12px rgba(0,0,0,.2);animation:fadeIn .3s ease';
     document.body.appendChild(t);
     setTimeout(() => { t.style.opacity = '0'; t.style.transition = 'opacity .3s ease'; setTimeout(() => t.remove(), 300); }, 2500);
+  },
+
+  /**
+   * 启动今日复习（SRS 模式）
+   * TODO: 接入 SRS 算法模块后，替换为真正的到期单词筛选
+   */
+  _startSRSReview() {
+    this._stopAutoPlay();
+
+    // 清空当前分类选中态
+    this.currentCategoryId = null;
+    document.querySelectorAll('.cat-item.active').forEach(el => el.classList.remove('active'));
+
+    try {
+      const allWords = DataStore.getAllWords();
+      console.log('[SRS] getAllWords count:', allWords.length);
+      if (!allWords.length) {
+        this._showToast('请先加载词汇数据');
+        return;
+      }
+
+      const todos = SRS.getTodayTodos(allWords, { newLimit: 0 });
+      console.log('[SRS] due words:', todos.due.length);
+
+      if (todos.total === 0) {
+        this._showToast('🎉 今日任务已完成，休息一下吧！');
+        return;
+      }
+
+      // 到期词在前，新词在后
+      const reviewWords = [...todos.due, ...todos.new];
+      this._openSRSReview(reviewWords, todos);
+    } catch (err) {
+      console.error('[SRS] 今日复习出错:', err);
+      this._showToast('出错：' + err.message);
+    }
   },
 
   // ============================================
@@ -1214,9 +1305,56 @@ const StudyApp = {
 // ============================================
 
 /**
+ * TTS 引擎预热（在用户手势中初始化，避免 Android 静默失败）
+ * 仅首次调用有效，之后为空操作。
+ */
+let _speechReady = false;
+function _ensureSpeechReady() {
+  if (_speechReady) return;
+  if (!window.speechSynthesis) return;
+  try {
+    const utter = new SpeechSynthesisUtterance('');
+    utter.volume = 0;
+    window.speechSynthesis.speak(utter);
+    window.speechSynthesis.cancel();
+  } catch (e) {
+    // 预热失败不影响主流程
+  }
+  _speechReady = true;
+}
+
+/**
+ * 等待语音列表加载（Android 上 getVoices() 首次调用可能返回空数组）
+ * 多个并发调用共享同一个 Promise，避免重复监听。
+ * @returns {Promise<SpeechSynthesisVoice[]>}
+ */
+let _pendingVoices = null;
+function _waitForVoices() {
+  if (_pendingVoices) return _pendingVoices;
+  _pendingVoices = new Promise((resolve) => {
+    const handler = () => {
+      window.speechSynthesis.removeEventListener('voiceschanged', handler);
+      _pendingVoices = null;
+      resolve(window.speechSynthesis.getVoices());
+    };
+    window.speechSynthesis.addEventListener('voiceschanged', handler);
+    // 兜底超时：3 秒后语音仍未就绪则用空数组继续
+    setTimeout(() => {
+      window.speechSynthesis.removeEventListener('voiceschanged', handler);
+      if (_pendingVoices) {
+        _pendingVoices = null;
+        resolve([]);
+      }
+    }, 3000);
+  });
+  return _pendingVoices;
+}
+
+/**
  * 朗读指定的英文文本
  * - 每次播放前自动 cancel()，杜绝声音重叠
  * - 手机端语速 0.8，电脑端 0.9
+ * - Android: 自动等待语音列表就绪，避免 TTS 静默失败
  * - 返回 Promise，供自动跟读等待完成
  *
  * @param {string} text - 要朗读的英文文本
@@ -1229,6 +1367,9 @@ function speakText(text) {
       resolve();
       return;
     }
+
+    // 0. 预热 TTS 引擎（在用户手势中初始化，仅首次有效）
+    _ensureSpeechReady();
 
     // 1. 停止当前语音，避免重叠
     window.speechSynthesis.cancel();
@@ -1248,24 +1389,81 @@ function speakText(text) {
       resolve();
     };
     utterance.onend = done;
-    utterance.onerror = done;
+    utterance.onerror = (e) => {
+      // "interrupted" 是用户切换单词时的正常中断，非错误
+      if (e.error === 'interrupted') {
+        console.log('[speakText] 发音被中断:', text);
+      } else {
+        console.warn('[speakText] 发音出错:', text, '错误类型:', e.error || 'unknown');
+      }
+      done();
+    };
 
-    // 4. 尝试选择高质量英语语音（不强制，找不到就用默认）
+    // 4. 选择语音
+    const doSpeak = (voices) => {
+      // 异步路径中，可能已有其他语音在播放，先取消避免重叠
+      window.speechSynthesis.cancel();
+      const preferred = voices.find(v =>
+        v.name.includes('Google US English') ||
+        v.name.includes('Samantha') ||
+        v.name.includes('Microsoft Zira') ||
+        v.name.includes('Microsoft David')
+      ) || voices.find(v => v.lang.startsWith('en-US'))
+        || voices.find(v => v.lang.startsWith('en'))
+        || null;
+      if (preferred) utterance.voice = preferred;
+
+      console.log('[speakText] 发音:', text, preferred ? `(语音: ${preferred.name})` : '(默认语音)');
+      window.speechSynthesis.speak(utterance);
+    };
+
+    // 5. 检查语音列表是否就绪（Android 首次可能为空）
     const voices = window.speechSynthesis.getVoices();
-    const preferred = voices.find(v =>
-      v.name.includes('Google US English') ||
-      v.name.includes('Samantha') ||
-      v.name.includes('Microsoft Zira') ||
-      v.name.includes('Microsoft David')
-    ) || voices.find(v => v.lang.startsWith('en-US'))
-      || voices.find(v => v.lang.startsWith('en'))
-      || null;
-    if (preferred) utterance.voice = preferred;
-
-    // 5. 开读
-    console.log('[speakText] 发音:', text, preferred ? `(语音: ${preferred.name})` : '(默认语音)');
-    window.speechSynthesis.speak(utterance);
+    if (voices.length === 0) {
+      _waitForVoices().then(doSpeak);
+    } else {
+      doSpeak(voices);
+    }
   });
+}
+
+// ═══════════════════════════════════════════
+// 单词学习进度统计（基于 Tracker 原始事件计算）
+// ═══════════════════════════════════════════
+
+/**
+ * 计算单个单词的学习进度
+ * @param {string} wordId  单词英文
+ * @param {Array} events   Tracker.getEvents() 返回的事件数组
+ * @returns {object} { audioCount, challengeCount, correctCount, wrongCount, correctRate, masteryScore, lastStudyTime }
+ */
+function getWordProgress(wordId, events) {
+  const audioEvents = events.filter(e => e.type === 'play_audio' && e.wordId === wordId);
+  const challengeEvents = events.filter(e => e.type === 'challenge_answer' && e.wordId === wordId);
+
+  const audioCount = audioEvents.length;
+  const challengeCount = challengeEvents.length;
+  const correctCount = challengeEvents.filter(e => e.isCorrect).length;
+  const wrongCount = challengeCount - correctCount;
+  const correctRate = challengeCount > 0 ? Math.round((correctCount / challengeCount) * 100) : 0;
+
+  // 简单熟练度算法
+  let score = audioCount * 2 + correctCount * 10 - wrongCount * 5;
+  score = Math.max(0, Math.min(100, score));
+
+  // 最近学习时间：取所有相关事件的最大时间戳
+  const allTimestamps = [...audioEvents, ...challengeEvents].map(e => e.timestamp);
+  const lastStudyTime = allTimestamps.length > 0 ? Math.max(...allTimestamps) : null;
+
+  return {
+    audioCount,
+    challengeCount,
+    correctCount,
+    wrongCount,
+    correctRate,
+    masteryScore: score,
+    lastStudyTime
+  };
 }
 
 document.addEventListener('DOMContentLoaded', () => {

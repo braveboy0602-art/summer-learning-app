@@ -1,0 +1,1160 @@
+{
+  "subjects": {
+    "english": {
+      "name": "英语",
+      "icon": "🇬🇧",
+      "groups": [
+        {
+          "id": "junior9B",
+          "name": "九年级下册词汇",
+          "icon": "📖",
+          "description": "9B Unit1-Unit4 单词默写词汇",
+          "categories": [
+            {
+              "id": "grade9b_unit1",
+              "name": "Unit1",
+              "icon": "🐉",
+              "description": "九年级下册 Unit 1 词汇",
+              "words": [
+                {
+                  "en": "tiring",
+                  "cn": "使人疲劳的，累人的",
+                  "phonetic": "/ˈtaɪərɪŋ/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "step",
+                  "cn": "台阶；梯级",
+                  "phonetic": "/step/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "Chinese knot",
+                  "cn": "中国结",
+                  "phonetic": "/ˌtʃaɪniːz ˈnɒt/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "Chinese opera",
+                  "cn": "中国戏曲",
+                  "phonetic": "/ˌtʃaɪniːz ˈɒpərə/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "Chinese paper-cutting",
+                  "cn": "中国剪纸",
+                  "phonetic": "/ˌtʃaɪniːz ˈpeɪpə ˌkʌtɪŋ/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "chopsticks",
+                  "cn": "筷子",
+                  "phonetic": "/ˈtʃɒpstɪks/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "dragon dance",
+                  "cn": "舞龙",
+                  "phonetic": "/ˈdræɡən dɑːns/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "middle",
+                  "cn": "中间，中央",
+                  "phonetic": "/ˈmɪdl/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "in the middle of",
+                  "cn": "在……中间",
+                  "phonetic": "/ɪn ðə ˈmɪdl əv/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "emperor",
+                  "cn": "皇帝",
+                  "phonetic": "/ˈempərə(r)/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "raising",
+                  "cn": "升高",
+                  "phonetic": "/ˈreɪzɪŋ/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "flag",
+                  "cn": "旗帜",
+                  "phonetic": "/flæɡ/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "landscape",
+                  "cn": "风景；地形",
+                  "phonetic": "/ˈlændskeɪp/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "attraction",
+                  "cn": "向往的地方；吸引",
+                  "phonetic": "/əˈtrækʃn/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "watchtower",
+                  "cn": "瞭望塔",
+                  "phonetic": "/ˈwɒtʃtaʊə(r)/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "wonder",
+                  "cn": "奇迹",
+                  "phonetic": "/ˈwʌndə(r)/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "lie",
+                  "cn": "位于",
+                  "phonetic": "/laɪ/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "shape",
+                  "cn": "形状，外形",
+                  "phonetic": "/ʃeɪp/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "underground",
+                  "cn": "地下的",
+                  "phonetic": "/ˌʌndəˈɡraʊnd/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "cave",
+                  "cn": "洞穴",
+                  "phonetic": "/keɪv/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "hang",
+                  "cn": "垂下；悬挂",
+                  "phonetic": "/hæŋ/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "point",
+                  "cn": "指，指向",
+                  "phonetic": "/pɔɪnt/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "upwards",
+                  "cn": "向上",
+                  "phonetic": "/ˈʌpwədz/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "hire",
+                  "cn": "租用；雇用",
+                  "phonetic": "/ˈhaɪə(r)/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "eastern",
+                  "cn": "东部的，东方的",
+                  "phonetic": "/ˈiːstən/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "south-east",
+                  "cn": "东南方",
+                  "phonetic": "/ˌsaʊθ ˈiːst/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "location",
+                  "cn": "地点，方位",
+                  "phonetic": "/ləʊˈkeɪʃn/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "take up",
+                  "cn": "占据（空间）；占用（时间）",
+                  "phonetic": "/teɪk ʌp/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "quarter",
+                  "cn": "四分之一",
+                  "phonetic": "/ˈkwɔːtə(r)/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "either",
+                  "cn": "两者之一",
+                  "phonetic": "/ˈaɪðə(r); ˈiːðə(r)/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "level",
+                  "cn": "水平",
+                  "phonetic": "/ˈlevl/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "service",
+                  "cn": "服务；工作",
+                  "phonetic": "/ˈsɜːvɪs/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "Japanese",
+                  "cn": "日本（人）的",
+                  "phonetic": "/ˌdʒæpəˈniːz/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "state",
+                  "cn": "国家；州",
+                  "phonetic": "/steɪt/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "Hindi",
+                  "cn": "印地语",
+                  "phonetic": "/ˈhɪndi/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "billion",
+                  "cn": "十亿",
+                  "phonetic": "/ˈbɪljən/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "population",
+                  "cn": "人口",
+                  "phonetic": "/ˌpɒpjuˈleɪʃn/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "iron",
+                  "cn": "铁",
+                  "phonetic": "/ˈaɪən/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "IT",
+                  "cn": "信息技术",
+                  "phonetic": "/ˌaɪ ˈtiː/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "technology",
+                  "cn": "技术",
+                  "phonetic": "/tekˈnɒlədʒi/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "custom",
+                  "cn": "风俗，习俗",
+                  "phonetic": "/ˈkʌstəm/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "fair",
+                  "cn": "集市；庙会；展览会",
+                  "phonetic": "/feə(r)/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "sari",
+                  "cn": "莎丽（印度妇女民族服饰）",
+                  "phonetic": "/ˈsɑːri/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "Indian",
+                  "cn": "印度（人）的",
+                  "phonetic": "/ˈɪndiən/",
+                  "grade": "9B"
+                }
+              ]
+            },
+            {
+              "id": "grade9b_unit2",
+              "name": "Unit2",
+              "icon": "🚀",
+              "description": "九年级下册 Unit 2 词汇",
+              "words": [
+                {
+                  "en": "inventor",
+                  "cn": "发明者",
+                  "phonetic": "/ɪnˈventə(r)/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "invent",
+                  "cn": "发明",
+                  "phonetic": "/ɪnˈvent/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "explorer",
+                  "cn": "探险者；考察者",
+                  "phonetic": "/ɪkˈsplɔːrə(r)/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "South African",
+                  "cn": "南非人",
+                  "phonetic": "/ˌsaʊθ ˈæfrɪkən/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "fighter",
+                  "cn": "斗士，战斗者；战斗机",
+                  "phonetic": "/ˈfaɪtə(r)/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "invention",
+                  "cn": "发明物，创意",
+                  "phonetic": "/ɪnˈvenʃn/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "Italian",
+                  "cn": "意大利人",
+                  "phonetic": "/ɪˈtæliən/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "European",
+                  "cn": "欧洲人",
+                  "phonetic": "/ˌjʊərəˈpiːən/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "Russian",
+                  "cn": "俄罗斯人",
+                  "phonetic": "/ˈrʌʃn/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "pilot",
+                  "cn": "飞行员",
+                  "phonetic": "/ˈpaɪlət/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "command pilot",
+                  "cn": "飞行指挥",
+                  "phonetic": "/kəˈmɑːnd ˈpaɪlət/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "licence",
+                  "cn": "执照，许可证",
+                  "phonetic": "/ˈlaɪsns/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "license",
+                  "cn": "执照，许可证",
+                  "phonetic": "/ˈlaɪsns/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "navy",
+                  "cn": "海军",
+                  "phonetic": "/ˈneɪvi/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "serve",
+                  "cn": "服役；服务，招待",
+                  "phonetic": "/sɜːv/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "test",
+                  "cn": "测试；检验",
+                  "phonetic": "/test/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "aircraft",
+                  "cn": "飞机，航空器",
+                  "phonetic": "/ˈeəkrɑːft/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "astronaut",
+                  "cn": "宇航员",
+                  "phonetic": "/ˈæstrənɔːt/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "spacecraft",
+                  "cn": "宇宙飞船，航天器",
+                  "phonetic": "/ˈspeɪskrɑːft/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "spin",
+                  "cn": "快速旋转",
+                  "phonetic": "/spɪn/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "control",
+                  "cn": "控制，支配",
+                  "phonetic": "/kənˈtrəʊl/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "out of control",
+                  "cn": "失去控制，无法管理",
+                  "phonetic": "/aʊt əv kənˈtrəʊl/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "order",
+                  "cn": "命令，指挥，要求",
+                  "phonetic": "/ˈɔːdə(r)/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "cut ... short",
+                  "cn": "缩短",
+                  "phonetic": "/kʌt ʃɔːt/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "Pacific",
+                  "cn": "太平洋的",
+                  "phonetic": "/pəˈsɪfɪk/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "ocean",
+                  "cn": "海洋",
+                  "phonetic": "/ˈəʊʃn/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "land",
+                  "cn": "着陆；降落",
+                  "phonetic": "/lænd/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "step",
+                  "cn": "一步",
+                  "phonetic": "/step/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "giant",
+                  "cn": "巨大的，伟大的",
+                  "phonetic": "/ˈdʒaɪənt/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "leap",
+                  "cn": "跳跃；跃升",
+                  "phonetic": "/liːp/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "mankind",
+                  "cn": "人类",
+                  "phonetic": "/ˌmænˈkaɪnd/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "step",
+                  "cn": "走，跨步",
+                  "phonetic": "/step/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "surface",
+                  "cn": "表面；表层",
+                  "phonetic": "/ˈsɜːfɪs/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "further",
+                  "cn": "更多的，更进一步的",
+                  "phonetic": "/ˈfɜːðə(r)/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "citizen",
+                  "cn": "公民；市民",
+                  "phonetic": "/ˈsɪtɪzn/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "pride",
+                  "cn": "骄傲；可引以为豪的人或物",
+                  "phonetic": "/praɪd/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "passage",
+                  "cn": "章节，乐段",
+                  "phonetic": "/ˈpæsɪdʒ/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "by hand",
+                  "cn": "手工",
+                  "phonetic": "/baɪ hænd/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "mathematics",
+                  "cn": "数学",
+                  "phonetic": "/ˌmæθəˈmætɪks/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "scientist",
+                  "cn": "科学家",
+                  "phonetic": "/ˈsaɪəntɪst/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "radium",
+                  "cn": "镭",
+                  "phonetic": "/ˈreɪdiəm/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "laboratory",
+                  "cn": "实验室",
+                  "phonetic": "/ləˈbɒrətri/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "professor",
+                  "cn": "教授",
+                  "phonetic": "/prəˈfesə(r)/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "discovery",
+                  "cn": "发现，发现物",
+                  "phonetic": "/dɪˈskʌvəri/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "unknown",
+                  "cn": "未知的；不出名的",
+                  "phonetic": "/ˌʌnˈnəʊn/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "widely",
+                  "cn": "广泛地，普遍地",
+                  "phonetic": "/ˈwaɪdli/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "hybrid",
+                  "cn": "杂交的",
+                  "phonetic": "/ˈhaɪbrɪd/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "title",
+                  "cn": "标题；职位名称",
+                  "phonetic": "/ˈtaɪtl/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "agriculture",
+                  "cn": "农业",
+                  "phonetic": "/ˈæɡrɪkʌltʃə(r)/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "hunger",
+                  "cn": "饥饿",
+                  "phonetic": "/ˈhʌŋɡə(r)/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "happen to",
+                  "cn": "碰巧",
+                  "phonetic": "/ˈhæpən tuː/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "advantage",
+                  "cn": "优势，有利条件",
+                  "phonetic": "/ədˈvɑːntɪdʒ/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "at present",
+                  "cn": "现在，目前",
+                  "phonetic": "/æt ˈpreznt/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "contribution",
+                  "cn": "贡献",
+                  "phonetic": "/ˌkɒntrɪˈbjuːʃn/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "increase",
+                  "cn": "增加",
+                  "phonetic": "/ɪnˈkriːs/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "production",
+                  "cn": "生产；产量",
+                  "phonetic": "/prəˈdʌkʃn/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "development",
+                  "cn": "发展",
+                  "phonetic": "/dɪˈveləpmənt/",
+                  "grade": "9B"
+                }
+              ]
+            },
+            {
+              "id": "grade9b_unit3",
+              "name": "Unit3",
+              "icon": "🤖",
+              "description": "九年级下册 Unit 3 词汇",
+              "words": [
+                {
+                  "en": "robot",
+                  "cn": "机器人",
+                  "phonetic": "/ˈrəʊbɒt/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "post",
+                  "cn": "邮寄",
+                  "phonetic": "/pəʊst/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "explore",
+                  "cn": "探索；探讨",
+                  "phonetic": "/ɪkˈsplɔː(r)/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "outer space",
+                  "cn": "太空",
+                  "phonetic": "/ˌaʊtə ˈspeɪs/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "brain",
+                  "cn": "大脑",
+                  "phonetic": "/breɪn/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "whatever",
+                  "cn": "任何，一切事物",
+                  "phonetic": "/wɒtˈevə(r)/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "order",
+                  "cn": "订购",
+                  "phonetic": "/ˈɔːdə(r)/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "suit",
+                  "cn": "套装",
+                  "phonetic": "/suːt; sjuːt/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "smoothly",
+                  "cn": "平整地，顺利地",
+                  "phonetic": "/ˈsmuːðli/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "iron",
+                  "cn": "熨烫",
+                  "phonetic": "/ˈaɪən/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "in general",
+                  "cn": "总的来说，大体上",
+                  "phonetic": "/ɪn ˈdʒenrəl/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "satisfy",
+                  "cn": "满足，使……满意",
+                  "phonetic": "/ˈsætɪsfaɪ/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "need",
+                  "cn": "需要的事物；欲望",
+                  "phonetic": "/niːd/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "virus",
+                  "cn": "病毒",
+                  "phonetic": "/ˈvaɪrəs/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "no longer",
+                  "cn": "不再",
+                  "phonetic": "/nəʊ ˈlɒŋɡə(r)/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "properly",
+                  "cn": "正确地，适当地",
+                  "phonetic": "/ˈprɒpəli/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "complete",
+                  "cn": "完全的，彻底的",
+                  "phonetic": "/kəmˈpliːt/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "mess",
+                  "cn": "乱七八糟",
+                  "phonetic": "/mes/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "lay",
+                  "cn": "放，搁",
+                  "phonetic": "/leɪ/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "store",
+                  "cn": "储藏，存储",
+                  "phonetic": "/stɔː(r)/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "coin",
+                  "cn": "硬币",
+                  "phonetic": "/kɔɪn/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "bill",
+                  "cn": "账单",
+                  "phonetic": "/bɪl/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "private",
+                  "cn": "私人的",
+                  "phonetic": "/ˈpraɪvət/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "paper",
+                  "cn": "文件，证明",
+                  "phonetic": "/ˈpeɪpə(r)/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "spread",
+                  "cn": "使散开；扩散",
+                  "phonetic": "/spred/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "wheel",
+                  "cn": "轮子，车轮",
+                  "phonetic": "/wiːl/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "pill",
+                  "cn": "药片；药丸",
+                  "phonetic": "/pɪl/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "unsure",
+                  "cn": "不确定，没把握",
+                  "phonetic": "/ˌʌnˈʃʊə(r); ˌʌnˈʃɔː(r)/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "forgetful",
+                  "cn": "健忘的",
+                  "phonetic": "/fəˈɡetfl/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "stair",
+                  "cn": "楼梯",
+                  "phonetic": "/steə(r)/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "battery",
+                  "cn": "电池",
+                  "phonetic": "/ˈbætri; ˈbætəri/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "customer",
+                  "cn": "消费者，顾客",
+                  "phonetic": "/ˈkʌstəmə(r)/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "hold",
+                  "cn": "等待，不挂断",
+                  "phonetic": "/həʊld/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "through",
+                  "cn": "接通（电话）",
+                  "phonetic": "/θruː/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "put through",
+                  "cn": "给……接通（电话）",
+                  "phonetic": "/pʊt θruː/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "satisfied",
+                  "cn": "满意的，满足的",
+                  "phonetic": "/ˈsætɪsfaɪd/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "be satisfied with",
+                  "cn": "对……感到满意",
+                  "phonetic": "/bi ˈsætɪsfaɪd wɪð/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "first of all",
+                  "cn": "首先",
+                  "phonetic": "/fɜːst əv ɔːl/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "quality",
+                  "cn": "质量",
+                  "phonetic": "/ˈkwɒləti/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "up to standard",
+                  "cn": "达到标准",
+                  "phonetic": "/ʌp tə ˈstændəd/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "completely",
+                  "cn": "完全地",
+                  "phonetic": "/kəmˈpliːtli/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "regret",
+                  "cn": "后悔；遗憾",
+                  "phonetic": "/rɪˈɡret/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "product",
+                  "cn": "产品，成果",
+                  "phonetic": "/ˈprɒdʌkt/",
+                  "grade": "9B"
+                }
+              ]
+            },
+            {
+              "id": "grade9b_unit4",
+              "name": "Unit4",
+              "icon": "🪐",
+              "description": "九年级下册 Unit 4 词汇",
+              "words": [
+                {
+                  "en": "Mars",
+                  "cn": "火星",
+                  "phonetic": "/mɑːz/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "helmet",
+                  "cn": "头盔",
+                  "phonetic": "/ˈhelmɪt/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "air tank",
+                  "cn": "氧气罐",
+                  "phonetic": "/eə(r) tæŋk/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "dried food",
+                  "cn": "干粮",
+                  "phonetic": "/draɪd fuːd/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "power pack",
+                  "cn": "电源包",
+                  "phonetic": "/ˈpaʊə(r) pæk/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "sleeping bag",
+                  "cn": "睡袋",
+                  "phonetic": "/ˈsliːpɪŋ bæɡ/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "gravity",
+                  "cn": "重力",
+                  "phonetic": "/ˈɡrævəti/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "planet",
+                  "cn": "行星",
+                  "phonetic": "/ˈplænɪt/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "crowded",
+                  "cn": "拥挤的",
+                  "phonetic": "/ˈkraʊdɪd/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "polluted",
+                  "cn": "被污染的",
+                  "phonetic": "/pəˈluːtɪd/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "rapid",
+                  "cn": "快的，迅速的",
+                  "phonetic": "/ˈræpɪd/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "increase",
+                  "cn": "增加",
+                  "phonetic": "/ˈɪŋkriːs/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "(all) over again",
+                  "cn": "再，重新",
+                  "phonetic": "/ˈəʊvə(r) əˈɡen/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "passenger",
+                  "cn": "乘客",
+                  "phonetic": "/ˈpæsɪndʒə(r)/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "at a/the speed of",
+                  "cn": "以……的速度",
+                  "phonetic": "/æt ə ðə spiːd əv/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "uncomfortable",
+                  "cn": "使人不舒服的，不舒适的",
+                  "phonetic": "/ʌnˈkʌmftəbl/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "oxygen",
+                  "cn": "氧气",
+                  "phonetic": "/ˈɒksɪdʒən/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "in the form of",
+                  "cn": "以……的形式",
+                  "phonetic": "/ɪn ðə fɔːm əv/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "tasty",
+                  "cn": "味道好的",
+                  "phonetic": "/ˈteɪsti/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "specially",
+                  "cn": "专门地，特地",
+                  "phonetic": "/ˈspeʃəli/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "compare",
+                  "cn": "比较",
+                  "phonetic": "/kəmˈpeə(r)/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "compare to/with",
+                  "cn": "与……相比",
+                  "phonetic": "/kəmˈpeə(r) tuː wɪð/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "interplanetary",
+                  "cn": "行星间的",
+                  "phonetic": "/ˌɪntəˈplænətri/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "network",
+                  "cn": "网络",
+                  "phonetic": "/ˈnetwɜːk/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "challenging",
+                  "cn": "挑战性的",
+                  "phonetic": "/ˈtʃælɪndʒɪŋ/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "rapidly",
+                  "cn": "快地，迅速地",
+                  "phonetic": "/ˈræpɪdli/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "aware",
+                  "cn": "知道，意识到",
+                  "phonetic": "/əˈweə(r)/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "circle",
+                  "cn": "围绕，将……圈起来",
+                  "phonetic": "/ˈsɜːkl/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "distance",
+                  "cn": "距离，远处",
+                  "phonetic": "/ˈdɪstəns/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "possibility",
+                  "cn": "可能性",
+                  "phonetic": "/ˌpɒsəˈbɪləti/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "alien",
+                  "cn": "外星人",
+                  "phonetic": "/ˈeɪliən/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "doubt",
+                  "cn": "疑惑，疑问",
+                  "phonetic": "/daʊt/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "stranger",
+                  "cn": "外来者，陌生人",
+                  "phonetic": "/ˈstreɪndʒə(r)/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "carry out",
+                  "cn": "开展，执行",
+                  "phonetic": "/ˈkæri aʊt/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "percentage",
+                  "cn": "百分率；百分数",
+                  "phonetic": "/pəˈsentɪdʒ/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "disadvantage",
+                  "cn": "劣势，不利条件",
+                  "phonetic": "/ˌdɪsədˈvɑːntɪdʒ/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "risk",
+                  "cn": "风险，危险",
+                  "phonetic": "/rɪsk/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "after all",
+                  "cn": "毕竟",
+                  "phonetic": "/ˈɑːftə(r) ɔːl/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "goods",
+                  "cn": "商品，货品",
+                  "phonetic": "/ɡʊdz/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "electronic",
+                  "cn": "电子的",
+                  "phonetic": "/ɪˌlekˈtrɒnɪk/",
+                  "grade": "9B"
+                },
+                {
+                  "en": "entertainment",
+                  "cn": "娱乐",
+                  "phonetic": "/ˌentəˈteɪnmənt/",
+                  "grade": "9B"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

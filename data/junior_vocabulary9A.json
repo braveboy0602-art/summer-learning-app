@@ -1,0 +1,2704 @@
+{
+  "subjects": {
+    "english": {
+      "name": "英语",
+      "icon": "🇬🇧",
+      "groups": [
+        {
+          "id": "junior9A",
+          "name": "九年级上册词汇",
+          "icon": "📖",
+          "description": "9A Unit1-Unit8 单词默写词汇",
+          "categories": [
+            {
+              "id": "grade9a_unit1",
+              "name": "Unit1",
+              "icon": "🧠",
+              "description": "九年级上册 Unit 1 词汇",
+              "words": [
+                {
+                  "en": "eat up",
+                  "cn": "吃光，吃完",
+                  "phonetic": "/iːt ʌp/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "creative",
+                  "cn": "有创造力的；创造性的",
+                  "phonetic": "/kriˈeɪtɪv/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "curious",
+                  "cn": "好奇的",
+                  "phonetic": "/ˈkjʊəriəs/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "energetic",
+                  "cn": "精力充沛的",
+                  "phonetic": "/ˌenəˈdʒetɪk/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "modest",
+                  "cn": "谦虚的",
+                  "phonetic": "/ˈmɒdɪst/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "organized",
+                  "cn": "有条理的；有效率的",
+                  "phonetic": "/ˈɔːɡənaɪzd/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "organised",
+                  "cn": "有条理的；有效率的",
+                  "phonetic": "/ˈɔːɡənaɪzd/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "order",
+                  "cn": "顺序",
+                  "phonetic": "/ˈɔːdə(r)/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "keep ... in order",
+                  "cn": "使……保持井然有序",
+                  "phonetic": "/kiːp ɪn ˈɔːdə(r)/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "show off",
+                  "cn": "炫耀",
+                  "phonetic": "/ʃəʊ ɒf/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "grammar",
+                  "cn": "语法",
+                  "phonetic": "/ˈɡræmə(r)/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "come up with",
+                  "cn": "想出（主意）",
+                  "phonetic": "/kʌm ʌp wɪð/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "neither",
+                  "cn": "两者之一不",
+                  "phonetic": "/ˈnaɪðə(r); ˈniːðə(r)/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "nor",
+                  "cn": "也不",
+                  "phonetic": "/nɔː(r)/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "neither ... nor ...",
+                  "cn": "既不……也不……",
+                  "phonetic": "/ˈnaɪðə(r) nɔː(r)/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "accountant",
+                  "cn": "会计",
+                  "phonetic": "/əˈkaʊntənt/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "born",
+                  "cn": "天生的",
+                  "phonetic": "/bɔːn/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "impress",
+                  "cn": "给……留下印象",
+                  "phonetic": "/ɪmˈpres/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "sculpture",
+                  "cn": "雕塑，雕像",
+                  "phonetic": "/ˈskʌlptʃə(r)/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "praise",
+                  "cn": "赞扬，表扬",
+                  "phonetic": "/preɪz/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "sales department",
+                  "cn": "销售部",
+                  "phonetic": "/ˈseɪlz dɪˈpɑːtmənt/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "general",
+                  "cn": "总的；普遍的；首席的",
+                  "phonetic": "/ˈdʒenrəl/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "race",
+                  "cn": "竞赛，赛跑",
+                  "phonetic": "/reɪs/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "either ... or ...",
+                  "cn": "不是……就是……，或者……或者……",
+                  "phonetic": "/ˈaɪðə(r) ɔː(r)/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "lead",
+                  "cn": "领先地位；榜样",
+                  "phonetic": "/liːd/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "take the lead",
+                  "cn": "处于领先地位",
+                  "phonetic": "/teɪk ðə liːd/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "fall behind",
+                  "cn": "落后",
+                  "phonetic": "/fɔːl bɪˈhaɪnd/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "challenge",
+                  "cn": "挑战",
+                  "phonetic": "/ˈtʃælɪndʒ/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "chief",
+                  "cn": "主要的，首要的",
+                  "phonetic": "/tʃiːf/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "high-speed",
+                  "cn": "高速的",
+                  "phonetic": "/ˌhaɪ ˈspiːd/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "connect",
+                  "cn": "连接",
+                  "phonetic": "/kəˈnekt/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "connect to/with",
+                  "cn": "与……相连，连接",
+                  "phonetic": "/kəˈnekt tuː wɪð/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "miss",
+                  "cn": "错误，过失",
+                  "phonetic": "/mɪs/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "as good as",
+                  "cn": "和……几乎一样，简直是",
+                  "phonetic": "/æz ɡʊd æz/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "attention",
+                  "cn": "注意，专心",
+                  "phonetic": "/əˈtenʃn/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "pay attention to",
+                  "cn": "注意",
+                  "phonetic": "/peɪ əˈtenʃn tuː/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "standard",
+                  "cn": "标准",
+                  "phonetic": "/ˈstændəd/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "pioneer",
+                  "cn": "先锋，开拓者",
+                  "phonetic": "/ˌpaɪəˈnɪə(r)/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "surgeon",
+                  "cn": "外科大夫",
+                  "phonetic": "/ˈsɜːdʒən/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "carelessness",
+                  "cn": "粗心",
+                  "phonetic": "/ˈkeələsnəs/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "extra",
+                  "cn": "额外的；附加的",
+                  "phonetic": "/ˈekstrə/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "devote",
+                  "cn": "把……贡献，把……专用于",
+                  "phonetic": "/dɪˈvəʊt/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "respect",
+                  "cn": "尊敬，尊重",
+                  "phonetic": "/rɪˈspekt/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "suitable",
+                  "cn": "合适的；适宜的",
+                  "phonetic": "/ˈsuːtəbl; ˈsjuːtəbl/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "partner",
+                  "cn": "搭档，合作伙伴",
+                  "phonetic": "/ˈpɑːtnə(r)/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "impatient",
+                  "cn": "不耐烦的，急躁的",
+                  "phonetic": "/ɪmˈpeɪʃnt/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "think twice about sth",
+                  "cn": "三思而行",
+                  "phonetic": "/θɪŋk twaɪs əˈbaʊt ˈsʌmθɪŋ/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "do the dishes",
+                  "cn": "洗碗",
+                  "phonetic": "/duː ðə ˈdɪʃɪz/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "lunar",
+                  "cn": "月球的",
+                  "phonetic": "/ˈluːnə(r)/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "calendar",
+                  "cn": "日历；挂历",
+                  "phonetic": "/ˈkælɪndə(r)/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "animal sign",
+                  "cn": "生肖",
+                  "phonetic": "/ˈænɪml saɪn/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "represent",
+                  "cn": "代表；象征",
+                  "phonetic": "/ˌreprɪˈzent/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "appear",
+                  "cn": "出现",
+                  "phonetic": "/əˈpɪə(r)/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "fixed",
+                  "cn": "固定的",
+                  "phonetic": "/fɪkst/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "cycle",
+                  "cn": "循环",
+                  "phonetic": "/ˈsaɪkl/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "in all",
+                  "cn": "总共，总计",
+                  "phonetic": "/ɪn ɔːl/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "star sign",
+                  "cn": "星座",
+                  "phonetic": "/stɑː(r) saɪn/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "divide",
+                  "cn": "分开，分",
+                  "phonetic": "/dɪˈvaɪd/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "divide ... into ...",
+                  "cn": "把……分成……",
+                  "phonetic": "/dɪˈvaɪd ˈɪntə/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "powerful",
+                  "cn": "有力的；强大的",
+                  "phonetic": "/ˈpaʊəfl/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "shape",
+                  "cn": "使成形，塑造",
+                  "phonetic": "/ʃeɪp/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "speech",
+                  "cn": "演说，讲话，发言；台词",
+                  "phonetic": "/spiːtʃ/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "absent",
+                  "cn": "缺席的",
+                  "phonetic": "/ˈæbsənt/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "monitor",
+                  "cn": "班长",
+                  "phonetic": "/ˈmɒnɪtə(r)/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "position",
+                  "cn": "职位，位置；名次",
+                  "phonetic": "/pəˈzɪʃn/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "agree with sb",
+                  "cn": "同意某人（的看法）",
+                  "phonetic": "/əˈɡriː wɪð ˈsʌmbədi/",
+                  "grade": "9A"
+                }
+              ]
+            },
+            {
+              "id": "grade9a_unit2",
+              "name": "Unit2",
+              "icon": "🎨",
+              "description": "九年级上册 Unit 2 词汇",
+              "words": [
+                {
+                  "en": "indigo",
+                  "cn": "靛蓝，靛青",
+                  "phonetic": "/ˈɪndɪɡəʊ/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "violet",
+                  "cn": "紫罗兰色",
+                  "phonetic": "/ˈvaɪələt/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "rainbow",
+                  "cn": "彩虹",
+                  "phonetic": "/ˈreɪnbəʊ/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "mood",
+                  "cn": "心情，情绪",
+                  "phonetic": "/muːd/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "influence",
+                  "cn": "影响",
+                  "phonetic": "/ˈɪnfluəns/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "whether",
+                  "cn": "是否",
+                  "phonetic": "/ˈweðə(r)/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "characteristic",
+                  "cn": "特征；品质",
+                  "phonetic": "/ˌkærəktəˈrɪstɪk/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "calm",
+                  "cn": "平静的，沉着的",
+                  "phonetic": "/kɑːm/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "relaxed",
+                  "cn": "放松的；自在的",
+                  "phonetic": "/rɪˈlækst/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "peace",
+                  "cn": "安宁；和平；和睦",
+                  "phonetic": "/piːs/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "sadness",
+                  "cn": "悲哀，忧伤",
+                  "phonetic": "/ˈsædnəs/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "purity",
+                  "cn": "纯洁",
+                  "phonetic": "/ˈpjʊərəti/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "wedding",
+                  "cn": "婚礼，结婚庆典",
+                  "phonetic": "/ˈwedɪŋ/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "prefer",
+                  "cn": "宁愿选择，更喜欢",
+                  "phonetic": "/prɪˈfɜː(r)/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "create",
+                  "cn": "造成，引起；创造，创建",
+                  "phonetic": "/kriˈeɪt/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "feeling",
+                  "cn": "感觉，感受",
+                  "phonetic": "/ˈfiːlɪŋ/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "cheer up",
+                  "cn": "使振作起来",
+                  "phonetic": "/tʃɪə(r) ʌp/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "remind",
+                  "cn": "提醒；使想起",
+                  "phonetic": "/rɪˈmaɪnd/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "wisdom",
+                  "cn": "智慧",
+                  "phonetic": "/ˈwɪzdəm/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "as",
+                  "cn": "因为",
+                  "phonetic": "/æz; əz/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "envy",
+                  "cn": "妒忌；羡慕",
+                  "phonetic": "/ˈenvi/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "green with envy",
+                  "cn": "妒忌的，眼红的",
+                  "phonetic": "/ɡriːn wɪð ˈenvi/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "require",
+                  "cn": "需要，要求",
+                  "phonetic": "/rɪˈkwaɪə(r)/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "strength",
+                  "cn": "力量",
+                  "phonetic": "/streŋθ/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "heat",
+                  "cn": "热",
+                  "phonetic": "/hiːt/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "difficulty",
+                  "cn": "困难；费力",
+                  "phonetic": "/ˈdɪfɪkəlti/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "have difficulty (in) doing sth",
+                  "cn": "做某事费劲",
+                  "phonetic": "/hæv ˈdɪfɪkəlti ɪn ˈduːɪŋ ˈsʌmθɪŋ/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "decision",
+                  "cn": "决定",
+                  "phonetic": "/dɪˈsɪʒn/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "relationship",
+                  "cn": "关系",
+                  "phonetic": "/rɪˈleɪʃnʃɪp/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "certainly",
+                  "cn": "当然；必定地，无疑地",
+                  "phonetic": "/ˈsɜːtnli/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "everyday",
+                  "cn": "每天的；日常的",
+                  "phonetic": "/ˈevrideɪ/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "personal",
+                  "cn": "个人的；私人的",
+                  "phonetic": "/ˈpɜːsənl/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "suit",
+                  "cn": "适合",
+                  "phonetic": "/suːt; sjuːt/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "celebration",
+                  "cn": "庆祝；庆祝活动",
+                  "phonetic": "/ˌselɪˈbreɪʃn/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "ancient",
+                  "cn": "古代的，古老的",
+                  "phonetic": "/ˈeɪnʃənt/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "therapy",
+                  "cn": "疗法；治疗",
+                  "phonetic": "/ˈθerəpi/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "discover",
+                  "cn": "发现，发觉",
+                  "phonetic": "/dɪˈskʌvə(r)/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "teens",
+                  "cn": "十几岁（13至19岁之间）",
+                  "phonetic": "/tiːnz/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "promise",
+                  "cn": "承诺，允诺",
+                  "phonetic": "/ˈprɒmɪs/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "or",
+                  "cn": "否则",
+                  "phonetic": "/ɔː(r)/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "work",
+                  "cn": "奏效，产生预期的效果",
+                  "phonetic": "/wɜːk/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "practise",
+                  "cn": "从事，执业",
+                  "phonetic": "/ˈpræktɪs/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "stressed",
+                  "cn": "紧张的，有压力的",
+                  "phonetic": "/strest/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "suggest",
+                  "cn": "建议",
+                  "phonetic": "/səˈdʒest/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "would rather",
+                  "cn": "宁愿，更喜欢",
+                  "phonetic": "/wʊd ˈrɑːðə(r)/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "trust",
+                  "cn": "信任",
+                  "phonetic": "/trʌst/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "calm",
+                  "cn": "平静，镇静",
+                  "phonetic": "/kɑːm/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "warmth",
+                  "cn": "温暖，暖和；热情",
+                  "phonetic": "/wɔːmθ/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "handbag",
+                  "cn": "女用皮包，手提包",
+                  "phonetic": "/ˈhændbæɡ/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "match",
+                  "cn": "相配，般配",
+                  "phonetic": "/mætʃ/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "balance",
+                  "cn": "使……平衡",
+                  "phonetic": "/ˈbæləns/",
+                  "grade": "9A"
+                }
+              ]
+            },
+            {
+              "id": "grade9a_unit3",
+              "name": "Unit3",
+              "icon": "💬",
+              "description": "九年级上册 Unit 3 词汇",
+              "words": [
+                {
+                  "en": "teenage",
+                  "cn": "青少年的",
+                  "phonetic": "/ˈtiːneɪdʒ/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "mark",
+                  "cn": "分数",
+                  "phonetic": "/mɑːk/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "mad",
+                  "cn": "发疯的；生气的",
+                  "phonetic": "/mæd/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "drive sb mad",
+                  "cn": "使人受不了",
+                  "phonetic": "/draɪv ˈsʌmbədi mæd/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "exam",
+                  "cn": "考试，测试",
+                  "phonetic": "/ɪɡˈzæm/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "perhaps",
+                  "cn": "或许，可能",
+                  "phonetic": "/pəˈhæps/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "deal",
+                  "cn": "处理",
+                  "phonetic": "/diːl/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "deal with",
+                  "cn": "处理，对付",
+                  "phonetic": "/diːl wɪð/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "choice",
+                  "cn": "选择",
+                  "phonetic": "/tʃɔɪs/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "but",
+                  "cn": "除……外；只有",
+                  "phonetic": "/bʌt/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "stay up",
+                  "cn": "熬夜",
+                  "phonetic": "/steɪ ʌp/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "awake",
+                  "cn": "醒着的",
+                  "phonetic": "/əˈweɪk/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "hardly",
+                  "cn": "几乎不",
+                  "phonetic": "/ˈhɑːdli/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "imagine",
+                  "cn": "想象，设想",
+                  "phonetic": "/ɪˈmædʒɪn/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "doubt",
+                  "cn": "怀疑",
+                  "phonetic": "/daʊt/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "worth",
+                  "cn": "值得；值……钱",
+                  "phonetic": "/wɜːθ/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "be worth doing sth",
+                  "cn": "值得做某事",
+                  "phonetic": "/biː wɜːθ ˈduːɪŋ ˈsʌmθɪŋ/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "suggestion",
+                  "cn": "建议",
+                  "phonetic": "/səˈdʒestʃən/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "cause",
+                  "cn": "原因",
+                  "phonetic": "/kɔːz/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "strict",
+                  "cn": "严格的，严厉的",
+                  "phonetic": "/strɪkt/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "be strict with sb",
+                  "cn": "对某人要求严格",
+                  "phonetic": "/biː strɪkt wɪð ˈsʌmbədi/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "stay out",
+                  "cn": "待在户外；（晚上）不回家",
+                  "phonetic": "/steɪ aʊt/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "schoolwork",
+                  "cn": "课业",
+                  "phonetic": "/ˈskuːlwɜːk/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "valuable",
+                  "cn": "宝贵的；贵重的",
+                  "phonetic": "/ˈvæljuəbl/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "friendship",
+                  "cn": "友谊",
+                  "phonetic": "/ˈfrendʃɪp/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "list",
+                  "cn": "清单",
+                  "phonetic": "/lɪst/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "work out",
+                  "cn": "算出；解决",
+                  "phonetic": "/wɜːk aʊt/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "according to",
+                  "cn": "根据",
+                  "phonetic": "/əˈkɔːdɪŋ tuː/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "whom",
+                  "cn": "谁（宾格）",
+                  "phonetic": "/huːm/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "silence",
+                  "cn": "安静，寂静；沉默",
+                  "phonetic": "/ˈsaɪləns/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "worry",
+                  "cn": "担心；令人担忧的事",
+                  "phonetic": "/ˈwʌri/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "method",
+                  "cn": "方法",
+                  "phonetic": "/ˈmeθəd/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "solve",
+                  "cn": "解决；解答",
+                  "phonetic": "/sɒlv/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "dictionary",
+                  "cn": "字典",
+                  "phonetic": "/ˈdɪkʃənəri/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "youth worker",
+                  "cn": "青少年辅导员",
+                  "phonetic": "/juːθ ˈwɜːkə(r)/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "reply",
+                  "cn": "答复，回答",
+                  "phonetic": "/rɪˈplaɪ/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "chemistry",
+                  "cn": "化学",
+                  "phonetic": "/ˈkemɪstri/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "laugh at",
+                  "cn": "嘲笑",
+                  "phonetic": "/lɑːf æt/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "bookworm",
+                  "cn": "书虫，书呆子",
+                  "phonetic": "/ˈbʊkwɜːm/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "progress",
+                  "cn": "进展，进步",
+                  "phonetic": "/ˈprəʊɡres/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "worried",
+                  "cn": "担心的，烦恼的",
+                  "phonetic": "/ˈwʌrid/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "go over",
+                  "cn": "复习；回顾",
+                  "phonetic": "/ɡəʊ ˈəʊvə(r)/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "aloud",
+                  "cn": "大声地；出声地",
+                  "phonetic": "/əˈlaʊd/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "pronounce",
+                  "cn": "发音",
+                  "phonetic": "/prəˈnaʊns/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "correctly",
+                  "cn": "正确地",
+                  "phonetic": "/kəˈrektli/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "pronunciation",
+                  "cn": "发音",
+                  "phonetic": "/prəˌnʌnsiˈeɪʃn/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "mention",
+                  "cn": "提及；说起",
+                  "phonetic": "/ˈmenʃn/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "don't mention it",
+                  "cn": "不客气",
+                  "phonetic": "/dəʊnt ˈmenʃn ɪt/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "stress",
+                  "cn": "精神压力，紧张",
+                  "phonetic": "/stres/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "be of sb's age",
+                  "cn": "与……同龄的",
+                  "phonetic": "/biː əv ˈsʌmbədiz eɪdʒ/",
+                  "grade": "9A"
+                }
+              ]
+            },
+            {
+              "id": "grade9a_unit4",
+              "name": "Unit4",
+              "icon": "🏆",
+              "description": "九年级上册 Unit 4 词汇",
+              "words": [
+                {
+                  "en": "on one's mind",
+                  "cn": "挂在心上；惦念",
+                  "phonetic": "/ɒn wʌnz maɪnd/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "time",
+                  "cn": "时期，时代",
+                  "phonetic": "/taɪm/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "whenever",
+                  "cn": "无论何时",
+                  "phonetic": "/wenˈevə(r)/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "through",
+                  "cn": "以，凭借",
+                  "phonetic": "/θruː/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "as soon as",
+                  "cn": "一……就",
+                  "phonetic": "/æz suːn æz/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "deal",
+                  "cn": "很多",
+                  "phonetic": "/diːl/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "a great deal (of)",
+                  "cn": "大量，许多",
+                  "phonetic": "/ə ɡreɪt diːl əv/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "junior high",
+                  "cn": "<美>初级中学",
+                  "phonetic": "/ˌdʒuːniə(r) ˈhaɪ/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "try out for sth",
+                  "cn": "参加……选拔（或试演）",
+                  "phonetic": "/traɪ aʊt fɔː(r) ˈsʌmθɪŋ/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "lose heart",
+                  "cn": "泄气，灰心",
+                  "phonetic": "/luːz hɑːt/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "score",
+                  "cn": "得分",
+                  "phonetic": "/skɔː(r)/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "senior high",
+                  "cn": "<美>高级中学",
+                  "phonetic": "/ˌsiːniə(r) ˈhaɪ/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "stand",
+                  "cn": "看台",
+                  "phonetic": "/stænd/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "change one's mind",
+                  "cn": "改变主意",
+                  "phonetic": "/tʃeɪndʒ wʌnz maɪnd/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "leader",
+                  "cn": "领导者",
+                  "phonetic": "/ˈliːdə(r)/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "name",
+                  "cn": "命名",
+                  "phonetic": "/neɪm/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "university",
+                  "cn": "大学",
+                  "phonetic": "/ˌjuːnɪˈvɜːsəti/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "simply",
+                  "cn": "仅仅；简直",
+                  "phonetic": "/ˈsɪmpli/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "junior college",
+                  "cn": "<美>两年制专科学校",
+                  "phonetic": "/ˈdʒuːniə(r) ˈkɒlɪdʒ/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "national",
+                  "cn": "国家的",
+                  "phonetic": "/ˈnæʃnəl/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "championship",
+                  "cn": "锦标赛，大赛",
+                  "phonetic": "/ˈtʃæmpiənʃɪp/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "succeed",
+                  "cn": "成功",
+                  "phonetic": "/səkˈsiːd/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "succeed in doing sth",
+                  "cn": "成功地做某事",
+                  "phonetic": "/səkˈsiːd ɪn ˈduːɪŋ ˈsʌmθɪŋ/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "scholarship",
+                  "cn": "奖学金",
+                  "phonetic": "/ˈskɒləʃɪp/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "although",
+                  "cn": "尽管，虽然",
+                  "phonetic": "/ɔːlˈðəʊ/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "graduate",
+                  "cn": "毕业",
+                  "phonetic": "/ˈɡrædʒueɪt/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "force",
+                  "cn": "强迫，迫使",
+                  "phonetic": "/fɔːs/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "league",
+                  "cn": "联盟，社团",
+                  "phonetic": "/liːɡ/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "remain",
+                  "cn": "逗留；保持不变",
+                  "phonetic": "/rɪˈmeɪn/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "take notice of",
+                  "cn": "注意，察觉",
+                  "phonetic": "/teɪk ˈnəʊtɪs əv/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "achievement",
+                  "cn": "成就，成绩",
+                  "phonetic": "/əˈtʃiːvmənt/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "prove",
+                  "cn": "证明",
+                  "phonetic": "/pruːv/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "matter",
+                  "cn": "要紧，有重大影响",
+                  "phonetic": "/ˈmætə(r)/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "against",
+                  "cn": "对抗；与……相反，违反",
+                  "phonetic": "/əˈɡenst/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "break out",
+                  "cn": "爆发",
+                  "phonetic": "/breɪk aʊt/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "record",
+                  "cn": "记录",
+                  "phonetic": "/ˈrekɔːd/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "symbol",
+                  "cn": "象征",
+                  "phonetic": "/ˈsɪmbl/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "victory",
+                  "cn": "胜利",
+                  "phonetic": "/ˈvɪktəri/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "spirit",
+                  "cn": "精神；幽灵；灵魂",
+                  "phonetic": "/ˈspɪrɪt/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "Jew",
+                  "cn": "犹太人",
+                  "phonetic": "/dʒuː/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "go into hiding",
+                  "cn": "躲藏起来",
+                  "phonetic": "/ɡəʊ ˈɪntə ˈhaɪdɪŋ/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "Nazi",
+                  "cn": "纳粹的",
+                  "phonetic": "/ˈnɑːtsi/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "die of/from",
+                  "cn": "死于",
+                  "phonetic": "/daɪ əv frəm/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "German",
+                  "cn": "德国（人）的",
+                  "phonetic": "/ˈdʒɜːmən/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "Nazi",
+                  "cn": "纳粹分子",
+                  "phonetic": "/ˈnɑːtsi/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "thought",
+                  "cn": "想法，看法，主意",
+                  "phonetic": "/θɔːt/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "survive",
+                  "cn": "幸存，生存",
+                  "phonetic": "/səˈvaɪv/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "admire",
+                  "cn": "钦佩，羡慕",
+                  "phonetic": "/ədˈmaɪə(r)/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "courage",
+                  "cn": "勇气",
+                  "phonetic": "/ˈkʌrɪdʒ/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "in fear of one's life",
+                  "cn": "为生命安全担忧",
+                  "phonetic": "/ɪn fɪə(r) əv wʌnz laɪf/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "unusual",
+                  "cn": "不寻常的",
+                  "phonetic": "/ʌnˈjuːʒuəl/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "cell",
+                  "cn": "细胞",
+                  "phonetic": "/sel/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "cancer",
+                  "cn": "癌症",
+                  "phonetic": "/ˈkænsə(r)/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "surprise",
+                  "cn": "惊奇，诧异",
+                  "phonetic": "/səˈpraɪz/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "to one's surprise",
+                  "cn": "令某人惊奇的是",
+                  "phonetic": "/tuː wʌnz səˈpraɪz/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "research",
+                  "cn": "研究；调查",
+                  "phonetic": "/rɪˈsɜːtʃ/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "death",
+                  "cn": "死，死亡",
+                  "phonetic": "/deθ/",
+                  "grade": "9A"
+                }
+              ]
+            },
+            {
+              "id": "grade9a_unit5",
+              "name": "Unit5",
+              "icon": "🎵",
+              "description": "九年级上册 Unit 5 词汇",
+              "words": [
+                {
+                  "en": "pleasant",
+                  "cn": "令人愉快的",
+                  "phonetic": "/ˈpleznt/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "drama",
+                  "cn": "戏剧；戏剧性事件",
+                  "phonetic": "/ˈdrɑːmə/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "photography",
+                  "cn": "照相术，摄影",
+                  "phonetic": "/fəˈtɒɡrəfi/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "art form",
+                  "cn": "艺术形式",
+                  "phonetic": "/ɑːt fɔːm/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "pop",
+                  "cn": "流行音乐",
+                  "phonetic": "/pɒp/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "musical",
+                  "cn": "音乐的",
+                  "phonetic": "/ˈmjuːzɪkl/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "talent",
+                  "cn": "天赋，才能",
+                  "phonetic": "/ˈtælənt/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "boundary",
+                  "cn": "边界，疆界，界限",
+                  "phonetic": "/ˈbaʊndri/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "medal",
+                  "cn": "奖牌，奖章",
+                  "phonetic": "/ˈmedl/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "present",
+                  "cn": "颁发；提交",
+                  "phonetic": "/prɪˈzent/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "winner",
+                  "cn": "获胜者",
+                  "phonetic": "/ˈwɪnə(r)/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "composer",
+                  "cn": "作曲家",
+                  "phonetic": "/kəmˈpəʊzə(r)/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "central",
+                  "cn": "中心的，中央的",
+                  "phonetic": "/ˈsentrəl/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "instrument",
+                  "cn": "乐器；工具；器械",
+                  "phonetic": "/ˈɪnstrəmənt/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "common",
+                  "cn": "普通的，一般的，常见的",
+                  "phonetic": "/ˈkɒmən/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "object",
+                  "cn": "物品，东西",
+                  "phonetic": "/ˈɒbdʒɪkt/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "stone",
+                  "cn": "石头",
+                  "phonetic": "/stəʊn/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "musician",
+                  "cn": "音乐家",
+                  "phonetic": "/mjuˈzɪʃn/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "be known/famous for",
+                  "cn": "因……而著名",
+                  "phonetic": "/biː nəʊn ˈfeɪməs fɔː(r)/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "control",
+                  "cn": "控制，支配",
+                  "phonetic": "/kənˈtrəʊl/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "flow",
+                  "cn": "流动",
+                  "phonetic": "/fləʊ/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "successfully",
+                  "cn": "成功地",
+                  "phonetic": "/səkˈsesfəli/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "traditional",
+                  "cn": "传统的",
+                  "phonetic": "/trəˈdɪʃənl/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "bell",
+                  "cn": "钟，铃",
+                  "phonetic": "/bel/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "though",
+                  "cn": "虽然，尽管",
+                  "phonetic": "/ðəʊ/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "dividing line",
+                  "cn": "分界线；界限",
+                  "phonetic": "/dɪˈvaɪdɪŋ laɪn/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "highly",
+                  "cn": "高度地；高地",
+                  "phonetic": "/ˈhaɪli/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "breath",
+                  "cn": "呼吸",
+                  "phonetic": "/breθ/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "out of breath",
+                  "cn": "上气不接下气",
+                  "phonetic": "/aʊt əv breθ/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "last",
+                  "cn": "持续",
+                  "phonetic": "/lɑːst/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "concert",
+                  "cn": "音乐会",
+                  "phonetic": "/ˈkɒnsət/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "folk",
+                  "cn": "民间音乐",
+                  "phonetic": "/fəʊk/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "country music",
+                  "cn": "乡村音乐",
+                  "phonetic": "/ˈkʌntri ˈmjuːzɪk/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "jazz",
+                  "cn": "爵士乐",
+                  "phonetic": "/dʒæz/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "rock",
+                  "cn": "摇滚乐",
+                  "phonetic": "/rɒk/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "country",
+                  "cn": "乡下，乡村",
+                  "phonetic": "/ˈkʌntri/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "cowboy",
+                  "cn": "牛仔",
+                  "phonetic": "/ˈkaʊbɔɪ/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "guitar",
+                  "cn": "吉他",
+                  "phonetic": "/ɡɪˈtɑː(r)/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "lasting",
+                  "cn": "持久的",
+                  "phonetic": "/ˈlɑːstɪŋ/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "value",
+                  "cn": "价值",
+                  "phonetic": "/ˈvæljuː/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "drum",
+                  "cn": "鼓",
+                  "phonetic": "/drʌm/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "African",
+                  "cn": "非洲（人）的",
+                  "phonetic": "/ˈæfrɪkən/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "American",
+                  "cn": "美国人",
+                  "phonetic": "/əˈmerɪkən/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "African American",
+                  "cn": "（非洲裔）美国黑人",
+                  "phonetic": "/ˌæfrɪkən əˈmerɪkən/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "make up",
+                  "cn": "编，编造",
+                  "phonetic": "/meɪk ʌp/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "local colour",
+                  "cn": "地方特色",
+                  "phonetic": "/ˈləʊkl ˈkʌlə(r)/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "tonight",
+                  "cn": "今晚",
+                  "phonetic": "/təˈnaɪt/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "literature",
+                  "cn": "文学",
+                  "phonetic": "/ˈlɪtrətʃə(r)/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "praise",
+                  "cn": "赞扬，表扬",
+                  "phonetic": "/preɪz/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "gift",
+                  "cn": "天赋，才能",
+                  "phonetic": "/ɡɪft/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "have a gift for",
+                  "cn": "对……有天赋",
+                  "phonetic": "/hæv ə ɡɪft fɔː(r)/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "mark",
+                  "cn": "污点，斑点",
+                  "phonetic": "/mɑːk/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "encourage",
+                  "cn": "鼓励；劝告",
+                  "phonetic": "/ɪnˈkʌrɪdʒ/",
+                  "grade": "9A"
+                }
+              ]
+            },
+            {
+              "id": "grade9a_unit6",
+              "name": "Unit6",
+              "icon": "📺",
+              "description": "九年级上册 Unit 6 词汇",
+              "words": [
+                {
+                  "en": "done",
+                  "cn": "完毕，结束",
+                  "phonetic": "/dʌn/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "chat show",
+                  "cn": "访谈节目",
+                  "phonetic": "/tʃæt ʃəʊ/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "comedy",
+                  "cn": "喜剧",
+                  "phonetic": "/ˈkɒmədi/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "documentary",
+                  "cn": "纪录片",
+                  "phonetic": "/ˌdɒkjuˈmentri/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "drama series",
+                  "cn": "系列剧",
+                  "phonetic": "/ˈdrɑːmə ˈsɪəriːz/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "game show",
+                  "cn": "游戏表演，竞赛节目",
+                  "phonetic": "/ɡeɪm ʃəʊ/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "real-life",
+                  "cn": "真实生活的",
+                  "phonetic": "/ˌriːəl ˈlaɪf/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "dialogue",
+                  "cn": "对话",
+                  "phonetic": "/ˈdaɪəlɒɡ/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "round-up",
+                  "cn": "概要，摘要",
+                  "phonetic": "/ˈraʊnd ʌp/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "up-to-date",
+                  "cn": "最新的；现代的",
+                  "phonetic": "/ˌʌp tə ˈdeɪt/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "fan",
+                  "cn": "迷，狂热爱好者",
+                  "phonetic": "/fæn/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "a number of",
+                  "cn": "一些",
+                  "phonetic": "/ə ˈnʌmbə(r) əv/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "coming",
+                  "cn": "即将来临的",
+                  "phonetic": "/ˈkʌmɪŋ/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "cover",
+                  "cn": "报道，电视报道",
+                  "phonetic": "/ˈkʌvə(r)/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "live",
+                  "cn": "在现场直播，实况直播",
+                  "phonetic": "/laɪv/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "Asian",
+                  "cn": "亚洲（人）的",
+                  "phonetic": "/ˈeɪʒn; ˈeɪʃn/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "vote",
+                  "cn": "投票，选举",
+                  "phonetic": "/vəʊt/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "music video",
+                  "cn": "音乐视频",
+                  "phonetic": "/ˈmjuːzɪk ˈvɪdiəʊ/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "announce",
+                  "cn": "宣布，宣告",
+                  "phonetic": "/əˈnaʊns/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "text message",
+                  "cn": "短信，短消息",
+                  "phonetic": "/tekst ˈmesɪdʒ/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "murder",
+                  "cn": "谋杀",
+                  "phonetic": "/ˈmɜːdə(r)/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "murderer",
+                  "cn": "杀人犯，凶手",
+                  "phonetic": "/ˈmɜːdərə(r)/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "horror",
+                  "cn": "恐怖",
+                  "phonetic": "/ˈhɒrə(r)/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "direct",
+                  "cn": "导演；指导",
+                  "phonetic": "/dəˈrekt; dɪˈrekt; daɪˈrekt/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "director",
+                  "cn": "导演",
+                  "phonetic": "/dəˈrektə(r); dɪˈrektə(r); daɪˈrektə(r)/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "wealthy",
+                  "cn": "富有的",
+                  "phonetic": "/ˈwelθi/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "mystery",
+                  "cn": "神秘；疑案故事",
+                  "phonetic": "/ˈmɪstri/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "might",
+                  "cn": "或许，可能",
+                  "phonetic": "/maɪt/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "scared",
+                  "cn": "害怕，恐惧",
+                  "phonetic": "/skeəd/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "unless",
+                  "cn": "除非",
+                  "phonetic": "/ənˈles/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "animal-lover",
+                  "cn": "喜欢动物的人",
+                  "phonetic": "/ˈænɪml ˈlʌvə(r)/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "scene",
+                  "cn": "景象，风光；现场",
+                  "phonetic": "/siːn/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "latest",
+                  "cn": "最新的，最近的",
+                  "phonetic": "/ˈleɪtɪst/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "record",
+                  "cn": "录制，录（像），录（音）",
+                  "phonetic": "/rɪˈkɔːd/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "attack",
+                  "cn": "攻击，进攻",
+                  "phonetic": "/əˈtæk/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "polar bear",
+                  "cn": "北极熊",
+                  "phonetic": "/ˈpəʊlə(r) beə(r)/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "male",
+                  "cn": "雄性的；男（性）的",
+                  "phonetic": "/meɪl/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "studio",
+                  "cn": "摄影棚；录音室",
+                  "phonetic": "/ˈstjuːdiəʊ/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "minibus",
+                  "cn": "小型公共汽车，中巴",
+                  "phonetic": "/ˈmɪnibʌs/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "view",
+                  "cn": "观看",
+                  "phonetic": "/vjuː/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "silly",
+                  "cn": "傻的；愚蠢的",
+                  "phonetic": "/ˈsɪli/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "waste",
+                  "cn": "浪费",
+                  "phonetic": "/weɪst/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "twin",
+                  "cn": "双胞胎之一",
+                  "phonetic": "/twɪn/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "burglar",
+                  "cn": "入室窃贼",
+                  "phonetic": "/ˈbɜːɡlə(r)/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "gun",
+                  "cn": "枪",
+                  "phonetic": "/ɡʌn/",
+                  "grade": "9A"
+                }
+              ]
+            },
+            {
+              "id": "grade9a_unit7",
+              "name": "Unit7",
+              "icon": "🎬",
+              "description": "九年级上册 Unit 7 词汇",
+              "words": [
+                {
+                  "en": "superstar",
+                  "cn": "超级明星",
+                  "phonetic": "/ˈsuːpəstɑː(r); ˈsjuːpəstɑː(r)/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "in your dreams",
+                  "cn": "你做梦，你妄想",
+                  "phonetic": "/ɪn jɔː(r) driːmz/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "so ... that",
+                  "cn": "如此……以至于",
+                  "phonetic": "/səʊ ðæt/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "action film",
+                  "cn": "动作片",
+                  "phonetic": "/ˈækʃn fɪlm/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "romantic",
+                  "cn": "浪漫的",
+                  "phonetic": "/rəʊˈmæntɪk/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "science fiction",
+                  "cn": "科幻电影；科幻小说",
+                  "phonetic": "/ˈsaɪəns ˈfɪkʃn/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "western",
+                  "cn": "西部电影；西部小说",
+                  "phonetic": "/ˈwestən/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "industry",
+                  "cn": "工业，产业",
+                  "phonetic": "/ˈɪndəstri/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "such ... that",
+                  "cn": "如此……以至于",
+                  "phonetic": "/sʌtʃ ðæt/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "storyteller",
+                  "cn": "讲故事的人",
+                  "phonetic": "/ˈstɔːritelə(r)/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "script",
+                  "cn": "剧本",
+                  "phonetic": "/skrɪpt/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "all-time",
+                  "cn": "一向的；空前的",
+                  "phonetic": "/ˌɔːl ˈtaɪm/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "actress",
+                  "cn": "女演员",
+                  "phonetic": "/ˈæktrəs/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "loss",
+                  "cn": "丧失，损失；失败",
+                  "phonetic": "/lɒs/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "humanitarian",
+                  "cn": "人道主义者",
+                  "phonetic": "/hjuːˌmænɪˈteəriən/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "ballet",
+                  "cn": "芭蕾舞；芭蕾舞剧",
+                  "phonetic": "/ˈbæleɪ/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "dancer",
+                  "cn": "舞蹈者",
+                  "phonetic": "/ˈdɑːnsə(r)/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "charm",
+                  "cn": "魅力",
+                  "phonetic": "/tʃɑːm/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "catch one's attention",
+                  "cn": "吸引某人的注意",
+                  "phonetic": "/kætʃ wʌnz əˈtenʃn/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "insist",
+                  "cn": "坚持认为；坚持",
+                  "phonetic": "/ɪnˈsɪst/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "lead",
+                  "cn": "主角，扮演主角的演员",
+                  "phonetic": "/liːd/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "role",
+                  "cn": "角色",
+                  "phonetic": "/rəʊl/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "base",
+                  "cn": "以……为基础",
+                  "phonetic": "/beɪs/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "major",
+                  "cn": "主要的；较大的",
+                  "phonetic": "/ˈmeɪdʒə(r)/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "mark",
+                  "cn": "表明；标志",
+                  "phonetic": "/mɑːk/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "career",
+                  "cn": "生涯，职业",
+                  "phonetic": "/kəˈrɪə(r)/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "play the role of",
+                  "cn": "扮演……的角色",
+                  "phonetic": "/pleɪ ðə rəʊl əv/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "princess",
+                  "cn": "公主",
+                  "phonetic": "/ˌprɪnˈses; ˈprɪnses/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "lifetime",
+                  "cn": "终身，一生",
+                  "phonetic": "/ˈlaɪftaɪm/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "nomination",
+                  "cn": "提名",
+                  "phonetic": "/ˌnɒmɪˈneɪʃn/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "final",
+                  "cn": "最终的，最后的",
+                  "phonetic": "/ˈfaɪnl/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "appearance",
+                  "cn": "出现，露面；外貌",
+                  "phonetic": "/əˈpɪərəns/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "angel",
+                  "cn": "天使",
+                  "phonetic": "/ˈeɪndʒl/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "beyond",
+                  "cn": "超出，除……之外",
+                  "phonetic": "/bɪˈjɒnd/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "effort",
+                  "cn": "努力；艰难的尝试",
+                  "phonetic": "/ˈefət/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "pass away",
+                  "cn": "去世",
+                  "phonetic": "/pɑːs əˈweɪ/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "peacefully",
+                  "cn": "宁静地；和平地",
+                  "phonetic": "/ˈpiːsfəli/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "attractive",
+                  "cn": "漂亮的，有吸引力的",
+                  "phonetic": "/əˈtræktɪv/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "rush hour",
+                  "cn": "交通高峰期",
+                  "phonetic": "/ˈrʌʃ aʊə(r)/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "park",
+                  "cn": "停车",
+                  "phonetic": "/pɑːk/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "car park",
+                  "cn": "停车场",
+                  "phonetic": "/ˈkɑː pɑːk/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "row",
+                  "cn": "（一）排，（一）行",
+                  "phonetic": "/rəʊ/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "amazed",
+                  "cn": "大为惊奇",
+                  "phonetic": "/əˈmeɪzd/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "mistake",
+                  "cn": "误认为",
+                  "phonetic": "/mɪˈsteɪk/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "mistake ... for ...",
+                  "cn": "把……误认为……",
+                  "phonetic": "/mɪˈsteɪk fɔː(r)/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "kung fu",
+                  "cn": "功夫",
+                  "phonetic": "/ˌkʌŋ ˈfuː/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "DVD",
+                  "cn": "数码影碟",
+                  "phonetic": "/ˌdiː viː ˈdiː/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "actor",
+                  "cn": "演员",
+                  "phonetic": "/ˈæktə(r)/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "tale",
+                  "cn": "故事；讲述，叙述",
+                  "phonetic": "/teɪl/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "dinosaur",
+                  "cn": "恐龙",
+                  "phonetic": "/ˈdaɪnəsɔː(r)/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "fall in love with sb",
+                  "cn": "爱上某人",
+                  "phonetic": "/fɔːl ɪn lʌv wɪð ˈsʌmbədi/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "special offer",
+                  "cn": "特价优惠",
+                  "phonetic": "/ˈspeʃl ˈɒfə(r)/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "cancel",
+                  "cn": "取消；终止",
+                  "phonetic": "/ˈkænsl/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "neither",
+                  "cn": "也不",
+                  "phonetic": "/ˈnaɪðə(r); ˈniːðə(r)/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "stupid",
+                  "cn": "愚蠢的",
+                  "phonetic": "/ˈstjuːpɪd/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "stuntman",
+                  "cn": "特技替身演员",
+                  "phonetic": "/ˈstʌntmæn/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "consider",
+                  "cn": "认为；考虑",
+                  "phonetic": "/kənˈsɪdə(r)/",
+                  "grade": "9A"
+                }
+              ]
+            },
+            {
+              "id": "grade9a_unit8",
+              "name": "Unit8",
+              "icon": "🕵️",
+              "description": "九年级上册 Unit 8 词汇",
+              "words": [
+                {
+                  "en": "detective",
+                  "cn": "侦探，警探",
+                  "phonetic": "/dɪˈtektɪv/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "clue",
+                  "cn": "线索",
+                  "phonetic": "/kluː/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "missing",
+                  "cn": "缺少的，丢失的",
+                  "phonetic": "/ˈmɪsɪŋ/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "murder",
+                  "cn": "谋杀，杀害",
+                  "phonetic": "/ˈmɜːdə(r)/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "suspect",
+                  "cn": "犯罪嫌疑人",
+                  "phonetic": "/ˈsʌspekt/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "medium",
+                  "cn": "中等的",
+                  "phonetic": "/ˈmiːdiəm/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "untidy",
+                  "cn": "不整洁的",
+                  "phonetic": "/ʌnˈtaɪdi/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "guilty",
+                  "cn": "有罪的",
+                  "phonetic": "/ˈɡɪlti/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "truth",
+                  "cn": "事实，真相",
+                  "phonetic": "/truːθ/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "guess",
+                  "cn": "猜，猜测",
+                  "phonetic": "/ɡes/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "lie",
+                  "cn": "说谎",
+                  "phonetic": "/laɪ/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "confirm",
+                  "cn": "证实，确认",
+                  "phonetic": "/kənˈfɜːm/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "victim",
+                  "cn": "受害者，罹难者",
+                  "phonetic": "/ˈvɪktɪm/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "crime",
+                  "cn": "犯罪活动；罪行",
+                  "phonetic": "/kraɪm/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "somewhere",
+                  "cn": "在某处",
+                  "phonetic": "/ˈsʌmweə(r)/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "contact",
+                  "cn": "联系",
+                  "phonetic": "/ˈkɒntækt/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "wound",
+                  "cn": "使……受伤",
+                  "phonetic": "/wuːnd/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "bleed",
+                  "cn": "流血，出血",
+                  "phonetic": "/bliːd/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "enemy",
+                  "cn": "仇人，敌人，反对者",
+                  "phonetic": "/ˈenəmi/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "single",
+                  "cn": "单身的，单个的",
+                  "phonetic": "/ˈsɪŋɡl/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "well-paid",
+                  "cn": "收入高的",
+                  "phonetic": "/ˌwel ˈpeɪd/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "charge",
+                  "cn": "指控，控告",
+                  "phonetic": "/tʃɑːdʒ/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "break into",
+                  "cn": "强行闯入",
+                  "phonetic": "/breɪk ˈɪntə/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "system",
+                  "cn": "系统",
+                  "phonetic": "/ˈsɪstəm/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "suppose",
+                  "cn": "猜想，假定，料想",
+                  "phonetic": "/səˈpəʊz/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "only",
+                  "cn": "仅有的，唯一的",
+                  "phonetic": "/ˈəʊnli/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "witness",
+                  "cn": "目击者，证人",
+                  "phonetic": "/ˈwɪtnəs/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "report",
+                  "cn": "举报，报告",
+                  "phonetic": "/rɪˈpɔːt/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "breathe",
+                  "cn": "呼吸",
+                  "phonetic": "/briːð/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "heavily",
+                  "cn": "沉重地；猛烈地",
+                  "phonetic": "/ˈhevɪli/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "reward",
+                  "cn": "报酬，奖金",
+                  "phonetic": "/rɪˈwɔːd/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "arrest",
+                  "cn": "逮捕",
+                  "phonetic": "/əˈrest/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "couple",
+                  "cn": "夫妇，一对",
+                  "phonetic": "/ˈkʌpl/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "fingerprint",
+                  "cn": "指纹，手印",
+                  "phonetic": "/ˈfɪŋɡəprɪnt/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "probably",
+                  "cn": "大概，或许",
+                  "phonetic": "/ˈprɒbəbli/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "criminal",
+                  "cn": "犯罪的，犯法的",
+                  "phonetic": "/ˈkrɪmɪnl/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "female",
+                  "cn": "女（性）的；雌性的",
+                  "phonetic": "/ˈfiːmeɪl/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "boss",
+                  "cn": "老板，上司",
+                  "phonetic": "/bɒs/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "commit",
+                  "cn": "犯（罪）",
+                  "phonetic": "/kəˈmɪt/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "turn out",
+                  "cn": "原来是，结果是",
+                  "phonetic": "/tɜːn aʊt/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "have nothing to do with",
+                  "cn": "与……无关",
+                  "phonetic": "/hæv ˈnʌθɪŋ tə duː wɪð/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "hurry",
+                  "cn": "急忙，匆忙",
+                  "phonetic": "/ˈhʌri/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "in a hurry",
+                  "cn": "急忙，赶快",
+                  "phonetic": "/ɪn ə ˈhʌri/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "kidnapping",
+                  "cn": "绑架，劫持",
+                  "phonetic": "/ˈkɪdnæpɪŋ/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "wealth",
+                  "cn": "财富",
+                  "phonetic": "/welθ/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "prison",
+                  "cn": "监狱",
+                  "phonetic": "/ˈprɪzn/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "in prison",
+                  "cn": "坐牢",
+                  "phonetic": "/ɪn ˈprɪzn/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "kidnap",
+                  "cn": "绑架，劫持",
+                  "phonetic": "/ˈkɪdnæp/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "safety",
+                  "cn": "安全，保险",
+                  "phonetic": "/ˈseɪfti/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "lock",
+                  "cn": "锁",
+                  "phonetic": "/lɒk/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "shut",
+                  "cn": "关上，封闭，合拢",
+                  "phonetic": "/ʃʌt/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "guard",
+                  "cn": "守卫，保卫",
+                  "phonetic": "/ɡɑːd/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "guard against sth",
+                  "cn": "防范，提防（某事）",
+                  "phonetic": "/ɡɑːd əˈɡenst ˈsʌmθɪŋ/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "necklace",
+                  "cn": "项链",
+                  "phonetic": "/ˈnekləs/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "theft",
+                  "cn": "偷窃",
+                  "phonetic": "/θeft/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "get along/on with",
+                  "cn": "与……和睦相处",
+                  "phonetic": "/ɡet əˈlɒŋ ɒn wɪð/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "jewellery",
+                  "cn": "珠宝",
+                  "phonetic": "/ˈdʒuːəlri/",
+                  "grade": "9A"
+                },
+                {
+                  "en": "steal",
+                  "cn": "偷，窃取",
+                  "phonetic": "/stiːl/",
+                  "grade": "9A"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

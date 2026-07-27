@@ -17,7 +17,14 @@
           "name": "七年级上册词汇",
           "icon": "📖",
           "description": "7A Unit1-Unit8",
-          "dataFile": "data/junior_vocabulary.json"
+          "dataFile": "data/junior_vocabulary7A.json"
+        },
+        {
+          "id": "junior7B",
+          "name": "七年级下册词汇",
+          "icon": "📖",
+          "description": "7B Unit1-Unit8",
+          "dataFile": "data/junior_vocabulary7B.json"
         },
         {
           "id": "junior8",
@@ -27,10 +34,31 @@
           "dataFile": "data/junior_vocabulary8A.json"
         },
         {
-          "id": "junior_3500_7days",
-          "name": "初中3500词",
+          "id": "junior8B",
+          "name": "八年级下册词汇",
           "icon": "📖",
-          "description": "7天背完初中3500词分类词汇",
+          "description": "8B Unit1-Unit8",
+          "dataFile": "data/junior_vocabulary8B.json"
+        },
+        {
+          "id": "junior9A",
+          "name": "九年级上册词汇",
+          "icon": "📖",
+          "description": "9A Unit1-Unit8",
+          "dataFile": "data/junior_vocabulary9A.json"
+        },
+        {
+          "id": "junior9B",
+          "name": "九年级下册词汇",
+          "icon": "📖",
+          "description": "9B Unit1-Unit4",
+          "dataFile": "data/junior_vocabulary9B.json"
+        },
+        {
+          "id": "junior_3500_7days",
+          "name": "中考3500词",
+          "icon": "📖",
+          "description": "7天背完中考3500词分类词汇",
           "dataFile": "data/junior_3500_7days.json"
         }
       ]

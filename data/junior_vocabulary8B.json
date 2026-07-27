@@ -11,60 +11,2360 @@
           "description": "8B Unit1-Unit8 单词默写词汇",
           "categories": [
             {
-              "id": "unit1",
+              "id": "grade8b_unit1",
               "name": "Unit1",
-              "icon": "❤️",
-              "description": "疾病、健康与提供帮助",
-              "words": []
+              "icon": "🚇",
+              "description": "八年级下册 Unit 1 词汇",
+              "words": [
+                {
+                  "en": "underground",
+                  "cn": "地铁",
+                  "phonetic": "/ˈʌndəɡraʊnd/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "speed",
+                  "cn": "速度",
+                  "phonetic": "/spiːd/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "high-speed train",
+                  "cn": "高速列车",
+                  "phonetic": "/ˌhaɪ spiːd ˈtreɪn/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "used to",
+                  "cn": "曾经",
+                  "phonetic": "/juːst tuː/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "crowded",
+                  "cn": "拥挤的",
+                  "phonetic": "/ˈkraʊdɪd/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "convenient",
+                  "cn": "方便的",
+                  "phonetic": "/kənˈviːniənt/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "innovation",
+                  "cn": "创新",
+                  "phonetic": "/ˌɪnəˈveɪʃn/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "southern",
+                  "cn": "南部的，南方的",
+                  "phonetic": "/ˈsʌðən/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "high-tech",
+                  "cn": "高技术的，高科技的",
+                  "phonetic": "/ˌhaɪ ˈtek/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "laser",
+                  "cn": "激光",
+                  "phonetic": "/ˈleɪzə(r)/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "pioneer",
+                  "cn": "先锋，先驱",
+                  "phonetic": "/ˌpaɪəˈnɪə(r)/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "reform",
+                  "cn": "改革",
+                  "phonetic": "/rɪˈfɔːm/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "very",
+                  "cn": "最……的，十足的",
+                  "phonetic": "/ˈveri/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "at the heart of",
+                  "cn": "在……的核心",
+                  "phonetic": "/æt ðə hɑːt əv/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "technology",
+                  "cn": "技术",
+                  "phonetic": "/tekˈnɒlədʒi/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "tech",
+                  "cn": "技术",
+                  "phonetic": "/tek/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "industry",
+                  "cn": "行业，工业",
+                  "phonetic": "/ˈɪndəstri/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "giant",
+                  "cn": "大公司；巨人，庞然大物",
+                  "phonetic": "/ˈdʒaɪənt/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "lead",
+                  "cn": "引领，领导",
+                  "phonetic": "/liːd/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "move",
+                  "cn": "改变，转变，动摇",
+                  "phonetic": "/muːv/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "wealth",
+                  "cn": "大量，丰富；财富",
+                  "phonetic": "/welθ/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "a wealth of",
+                  "cn": "大量的，丰富的",
+                  "phonetic": "/ə welθ əv/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "excellent",
+                  "cn": "优秀的，杰出的，极好的",
+                  "phonetic": "/ˈeksələnt/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "educational",
+                  "cn": "教育的，有关教育的",
+                  "phonetic": "/ˌedʒuˈkeɪʃənl/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "award",
+                  "cn": "奖，奖项",
+                  "phonetic": "/əˈwɔːd/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "public",
+                  "cn": "民众；公共的，公众的",
+                  "phonetic": "/ˈpʌblɪk/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "citizen",
+                  "cn": "居民，市民；公民",
+                  "phonetic": "/ˈsɪtɪzn/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "greenway",
+                  "cn": "林荫道",
+                  "phonetic": "/ˈɡriːnweɪ/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "electric",
+                  "cn": "电动的",
+                  "phonetic": "/ɪˈlektrɪk/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "planner",
+                  "cn": "设计者，规划者",
+                  "phonetic": "/ˈplænə(r)/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "since",
+                  "cn": "自……以来",
+                  "phonetic": "/sɪns/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "development",
+                  "cn": "发展，成长",
+                  "phonetic": "/dɪˈveləpmənt/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "pioneering",
+                  "cn": "开拓性的",
+                  "phonetic": "/ˌpaɪəˈnɪərɪŋ/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "creativity",
+                  "cn": "创造力",
+                  "phonetic": "/ˌkriːeɪˈtɪvəti/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "certainly",
+                  "cn": "无疑，肯定",
+                  "phonetic": "/ˈsɜːtnli/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "key",
+                  "cn": "关键；关键的",
+                  "phonetic": "/kiː/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "make a living",
+                  "cn": "谋生",
+                  "phonetic": "/meɪk ə ˈlɪvɪŋ/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "world-famous",
+                  "cn": "举世闻名的",
+                  "phonetic": "/ˌwɜːld ˈfeɪməs/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "transport",
+                  "cn": "交通运输系统",
+                  "phonetic": "/ˈtrænspɔːt/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "recently",
+                  "cn": "最近",
+                  "phonetic": "/ˈriːsntli/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "already",
+                  "cn": "已经，早已",
+                  "phonetic": "/ɔːlˈredi/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "yet",
+                  "cn": "尚未，还",
+                  "phonetic": "/jet/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "reporter",
+                  "cn": "记者",
+                  "phonetic": "/rɪˈpɔːtə(r)/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "fall in love with",
+                  "cn": "爱上……",
+                  "phonetic": "/fɔːl ɪn lʌv wɪð/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "line",
+                  "cn": "路线；线，行列",
+                  "phonetic": "/laɪn/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "step",
+                  "cn": "迈步，踩，踏，行走",
+                  "phonetic": "/step/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "wide",
+                  "cn": "宽的，宽阔的",
+                  "phonetic": "/waɪd/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "row",
+                  "cn": "一排，一列，一行",
+                  "phonetic": "/rəʊ/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "muddy",
+                  "cn": "泥泞的",
+                  "phonetic": "/ˈmʌdi/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "villager",
+                  "cn": "村民",
+                  "phonetic": "/ˈvɪlɪdʒə(r)/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "recent",
+                  "cn": "近来的，新近的",
+                  "phonetic": "/ˈriːsnt/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "hopeful",
+                  "cn": "抱有希望，满怀希望",
+                  "phonetic": "/ˈhəʊpfl/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "guest",
+                  "cn": "旅客，宾客；客人",
+                  "phonetic": "/ɡest/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "guest house",
+                  "cn": "小旅馆",
+                  "phonetic": "/ɡest haʊs/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "tourism",
+                  "cn": "旅游业，观光业",
+                  "phonetic": "/ˈtʊərɪzəm/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "theme",
+                  "cn": "主题",
+                  "phonetic": "/θiːm/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "theme park",
+                  "cn": "主题乐园",
+                  "phonetic": "/ˈθiːm pɑːk/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "opinion",
+                  "cn": "看法，想法",
+                  "phonetic": "/əˈpɪnjən/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "common",
+                  "cn": "普通的，共同的",
+                  "phonetic": "/ˈkɒmən/",
+                  "grade": "8B"
+                }
+              ]
             },
             {
-              "id": "unit2",
+              "id": "grade8b_unit2",
               "name": "Unit2",
-              "icon": "🤝",
-              "description": "志愿服务、慈善与社区贡献",
-              "words": []
+              "icon": "🎨",
+              "description": "八年级下册 Unit 2 词汇",
+              "words": [
+                {
+                  "en": "according to",
+                  "cn": "按照，根据",
+                  "phonetic": "/əˈkɔːdɪŋ tuː/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "watercolour",
+                  "cn": "水彩",
+                  "phonetic": "/ˈwɔːtəkʌlə(r)/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "prefer",
+                  "cn": "较喜欢",
+                  "phonetic": "/prɪˈfɜː(r)/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "prefer sth to sth",
+                  "cn": "更喜欢某事物，某事",
+                  "phonetic": "/prɪˈfɜː ˈsʌmθɪŋ tuː ˈsʌmθɪŋ/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "ride",
+                  "cn": "供乘骑的游乐设施",
+                  "phonetic": "/raɪd/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "scare",
+                  "cn": "使害怕",
+                  "phonetic": "/skeə(r)/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "explore",
+                  "cn": "探险；探索；探究",
+                  "phonetic": "/ɪkˈsplɔː(r)/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "rest",
+                  "cn": "在于，存放于",
+                  "phonetic": "/rest/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "rest in",
+                  "cn": "位于",
+                  "phonetic": "/rest ɪn/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "reach",
+                  "cn": "河段；直水道",
+                  "phonetic": "/riːtʃ/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "rich",
+                  "cn": "大量含有；丰富多彩的；富有的",
+                  "phonetic": "/rɪtʃ/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "attraction",
+                  "cn": "向往的地方，有吸引力的事；吸引",
+                  "phonetic": "/əˈtrækʃn/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "best-protected",
+                  "cn": "保护最好的",
+                  "phonetic": "/ˌbest prəˈtektɪd/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "choice",
+                  "cn": "选择",
+                  "phonetic": "/tʃɔɪs/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "historic",
+                  "cn": "历史上著名，或重要的",
+                  "phonetic": "/hɪˈstɒrɪk/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "learning",
+                  "cn": "学问，知识；学习",
+                  "phonetic": "/ˈlɜːnɪŋ/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "university",
+                  "cn": "大学",
+                  "phonetic": "/ˌjuːnɪˈvɜːsəti/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "body",
+                  "cn": "机构，部门",
+                  "phonetic": "/ˈbɒdi/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "vibes",
+                  "cn": "氛围",
+                  "phonetic": "/vaɪbz/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "bank",
+                  "cn": "河岸",
+                  "phonetic": "/bæŋk/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "birthplace",
+                  "cn": "发源地；出生地",
+                  "phonetic": "/ˈbɜːθpleɪs/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "seat of power",
+                  "cn": "中央政府所在地，权力中心",
+                  "phonetic": "/siːt əv ˈpaʊə(r)/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "dynasty",
+                  "cn": "朝代",
+                  "phonetic": "/ˈdɪnəsti/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "must-see",
+                  "cn": "必看的东西",
+                  "phonetic": "/ˌmʌst ˈsiː/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "cave",
+                  "cn": "山洞，洞穴",
+                  "phonetic": "/keɪv/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "carving",
+                  "cn": "雕刻；雕刻品",
+                  "phonetic": "/ˈkɑːvɪŋ/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "lover",
+                  "cn": "爱好者",
+                  "phonetic": "/ˈlʌvə(r)/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "peony",
+                  "cn": "牡丹，芍药",
+                  "phonetic": "/ˈpiːəni/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "abroad",
+                  "cn": "在国外，到国外",
+                  "phonetic": "/əˈbrɔːd/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "home and abroad",
+                  "cn": "国内外，海内外",
+                  "phonetic": "/həʊm ənd əˈbrɔːd/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "admire",
+                  "cn": "欣赏；钦佩",
+                  "phonetic": "/ədˈmaɪə(r)/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "make one's way to",
+                  "cn": "前往……",
+                  "phonetic": "/meɪk wʌnz weɪ tuː/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "dreamlike",
+                  "cn": "梦幻般的",
+                  "phonetic": "/ˈdriːmlaɪk/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "central",
+                  "cn": "在中心的，中央的",
+                  "phonetic": "/ˈsentrəl/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "soldier",
+                  "cn": "士兵",
+                  "phonetic": "/ˈsəʊldʒə(r)/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "site",
+                  "cn": "地点，位置",
+                  "phonetic": "/saɪt/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "business",
+                  "cn": "商务，公事；生意",
+                  "phonetic": "/ˈbɪznəs/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "mix",
+                  "cn": "混合，混杂，结合",
+                  "phonetic": "/mɪks/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "until",
+                  "cn": "直到……时，直到……为止",
+                  "phonetic": "/ənˈtɪl/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "not ... until",
+                  "cn": "直到……才",
+                  "phonetic": "/nɒt ənˈtɪl/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "message",
+                  "cn": "电邮；信息；消息",
+                  "phonetic": "/ˈmesɪdʒ/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "anywhere",
+                  "cn": "adv. 任何地方",
+                  "phonetic": "/ˈeniweə(r)/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "marry",
+                  "cn": "结婚，嫁，娶",
+                  "phonetic": "/ˈmæri/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "artwork",
+                  "cn": "艺术品",
+                  "phonetic": "/ˈɑːtwɜːk/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "classical",
+                  "cn": "古典的",
+                  "phonetic": "/ˈklæsɪkl/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "struggle",
+                  "cn": "奋斗，努力",
+                  "phonetic": "/ˈstrʌɡl/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "period",
+                  "cn": "时期",
+                  "phonetic": "/ˈpɪəriəd/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "hero",
+                  "cn": "英雄",
+                  "phonetic": "/ˈhɪərəʊ/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "twice",
+                  "cn": "两次",
+                  "phonetic": "/twaɪs/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "show off",
+                  "cn": "显示，衬托，炫耀，卖弄",
+                  "phonetic": "/ʃəʊ ɒf/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "no matter",
+                  "cn": "不论……，无论……，不管……",
+                  "phonetic": "/nəʊ ˈmætə(r)/",
+                  "grade": "8B"
+                }
+              ]
             },
             {
-              "id": "unit3",
+              "id": "grade8b_unit3",
               "name": "Unit3",
-              "icon": "🧹",
-              "description": "家务劳动与家庭责任",
-              "words": []
+              "icon": "💻",
+              "description": "八年级下册 Unit 3 词汇",
+              "words": [
+                {
+                  "en": "click",
+                  "cn": "点击",
+                  "phonetic": "/klɪk/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "coast",
+                  "cn": "海岸，海滨",
+                  "phonetic": "/kəʊst/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "must",
+                  "cn": "必须做（或看、买等）的事",
+                  "phonetic": "/mʌst/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "pop",
+                  "cn": "流行音乐的，通俗的",
+                  "phonetic": "/pɒp/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "band",
+                  "cn": "乐队",
+                  "phonetic": "/bænd/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "second to none",
+                  "cn": "无人能及",
+                  "phonetic": "/ˈsekənd tə nʌn/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "live",
+                  "cn": "现场演出的",
+                  "phonetic": "/laɪv/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "as for",
+                  "cn": "至于，关于",
+                  "phonetic": "/æz fɔː(r)/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "slice",
+                  "cn": "片，部分；切下的片，块",
+                  "phonetic": "/slaɪs/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "truly",
+                  "cn": "真正，确实",
+                  "phonetic": "/ˈtruːli/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "bridge",
+                  "cn": "桥",
+                  "phonetic": "/brɪdʒ/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "doubt",
+                  "cn": "怀疑",
+                  "phonetic": "/daʊt/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "no doubt",
+                  "cn": "毫无疑问",
+                  "phonetic": "/nəʊ daʊt/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "a bit of everything",
+                  "cn": "什么都有一点",
+                  "phonetic": "/ə bɪt əv ˈevriθɪŋ/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "count",
+                  "cn": "数数",
+                  "phonetic": "/kaʊnt/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "count down",
+                  "cn": "倒计时",
+                  "phonetic": "/kaʊnt daʊn/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "guard",
+                  "cn": "卫兵，看守；保卫",
+                  "phonetic": "/ɡɑːd/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "nightlife",
+                  "cn": "夜生活",
+                  "phonetic": "/ˈnaɪtlaɪf/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "excitement",
+                  "cn": "激动，兴奋",
+                  "phonetic": "/ɪkˈsaɪtmənt/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "digital",
+                  "cn": "数字式的，数码的",
+                  "phonetic": "/ˈdɪdʒɪtl/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "teenager",
+                  "cn": "青少年",
+                  "phonetic": "/ˈtiːneɪdʒə(r)/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "in person",
+                  "cn": "亲自，亲身",
+                  "phonetic": "/ɪn ˈpɜːsn/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "sign",
+                  "cn": "签名；签约",
+                  "phonetic": "/saɪn/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "sign up",
+                  "cn": "报名",
+                  "phonetic": "/saɪn ʌp/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "training",
+                  "cn": "训练，培训",
+                  "phonetic": "/ˈtreɪnɪŋ/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "list",
+                  "cn": "目录，清单",
+                  "phonetic": "/lɪst/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "book",
+                  "cn": "预定，预约",
+                  "phonetic": "/bʊk/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "fit",
+                  "cn": "使适合（某情况）",
+                  "phonetic": "/fɪt/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "wallet",
+                  "cn": "钱包",
+                  "phonetic": "/ˈwɒlɪt/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "instead of",
+                  "cn": "代替，作为……的替换",
+                  "phonetic": "/ɪnˈsted əv/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "cash",
+                  "cn": "现金",
+                  "phonetic": "/kæʃ/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "ongoing",
+                  "cn": "仍在进行的，不断发展的",
+                  "phonetic": "/ˈɒnɡəʊɪŋ/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "temple",
+                  "cn": "庙宇，寺院",
+                  "phonetic": "/ˈtempl/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "proof",
+                  "cn": "证据，证明",
+                  "phonetic": "/pruːf/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "communication",
+                  "cn": "交流，交际",
+                  "phonetic": "/kəˌmjuːnɪˈkeɪʃn/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "3D",
+                  "cn": "三维的，立体的",
+                  "phonetic": "/ˌθriː ˈdiː/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "three-dimensional",
+                  "cn": "三维的，立体的",
+                  "phonetic": "/ˌθriː daɪˈmenʃənl/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "article",
+                  "cn": "文章",
+                  "phonetic": "/ˈɑːtɪkl/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "closely",
+                  "cn": "靠近地；细致地",
+                  "phonetic": "/ˈkləʊsli/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "underwater",
+                  "cn": "在水下",
+                  "phonetic": "/ˌʌndəˈwɔːtə(r)/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "complete",
+                  "cn": "完成，结束",
+                  "phonetic": "/kəmˈpliːt/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "although",
+                  "cn": "尽管",
+                  "phonetic": "/ɔːlˈðəʊ/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "introduction",
+                  "cn": "介绍，简介",
+                  "phonetic": "/ˌɪntrəˈdʌkʃn/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "crowd",
+                  "cn": "人群，观众",
+                  "phonetic": "/kraʊd/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "completely",
+                  "cn": "完全地，完整地",
+                  "phonetic": "/kəmˈpliːtli/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "French",
+                  "cn": "法国（人）的，法语的",
+                  "phonetic": "/frentʃ/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "queen",
+                  "cn": "女王",
+                  "phonetic": "/kwiːn/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "tour",
+                  "cn": "旅游；巡演；巡回演出（或做宣传广告等）",
+                  "phonetic": "/tʊə(r)/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "zoom",
+                  "cn": "快速移动",
+                  "phonetic": "/zuːm/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "zoom in",
+                  "cn": "使画面放大",
+                  "phonetic": "/zuːm ɪn/",
+                  "grade": "8B"
+                }
+              ]
             },
             {
-              "id": "unit4",
+              "id": "grade8b_unit4",
               "name": "Unit4",
-              "icon": "💬",
-              "description": "人际沟通、压力与建议",
-              "words": []
-            },
-            {
-              "id": "unit5",
-              "name": "Unit5",
-              "icon": "⛈️",
-              "description": "天气、自然灾害与突发事件",
-              "words": []
-            },
-            {
-              "id": "unit6",
-              "name": "Unit6",
               "icon": "📖",
-              "description": "神话传说、经典故事与民间文学",
-              "words": []
+              "description": "八年级下册 Unit 4 词汇",
+              "words": [
+                {
+                  "en": "read",
+                  "cn": "读物，书（或文章等）",
+                  "phonetic": "/riːd/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "fiction",
+                  "cn": "小说",
+                  "phonetic": "/ˈfɪkʃn/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "non-fiction",
+                  "cn": "非虚构作品",
+                  "phonetic": "/ˌnɒn ˈfɪkʃn/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "made-up",
+                  "cn": "不真实的，编造的",
+                  "phonetic": "/ˌmeɪd ˈʌp/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "novel",
+                  "cn": "长篇小说",
+                  "phonetic": "/ˈnɒvl/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "crash",
+                  "cn": "撞击，碰撞",
+                  "phonetic": "/kræʃ/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "be tired out",
+                  "cn": "累极了",
+                  "phonetic": "/bi ˈtaɪəd aʊt/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "stomach",
+                  "cn": "腹部；胃",
+                  "phonetic": "/ˈstʌmək/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "fall over",
+                  "cn": "摔倒",
+                  "phonetic": "/fɔːl ˈəʊvə(r)/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "continue",
+                  "cn": "继续",
+                  "phonetic": "/kənˈtɪnjuː/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "either",
+                  "cn": "也",
+                  "phonetic": "/ˈaɪðə(r); ˈiːðə(r)/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "pull",
+                  "cn": "抽出，拉，拖",
+                  "phonetic": "/pʊl/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "rope",
+                  "cn": "绳",
+                  "phonetic": "/rəʊp/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "break free",
+                  "cn": "设法逃脱，努力挣脱",
+                  "phonetic": "/breɪk friː/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "army",
+                  "cn": "大批，大群；军队",
+                  "phonetic": "/ˈɑːmi/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "straight",
+                  "cn": "径直；笔直地",
+                  "phonetic": "/streɪt/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "right away",
+                  "cn": "立即，马上",
+                  "phonetic": "/raɪt əˈweɪ/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "discuss",
+                  "cn": "讨论，谈论，商量",
+                  "phonetic": "/dɪˈskʌs/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "clear",
+                  "cn": "了解清楚的，清晰的，晴朗的",
+                  "phonetic": "/klɪə(r)/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "advise",
+                  "cn": "提出建议",
+                  "phonetic": "/ədˈvaɪz/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "hand in",
+                  "cn": "提交，呈交，上交",
+                  "phonetic": "/hænd ɪn/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "review",
+                  "cn": "评论",
+                  "phonetic": "/rɪˈvjuː/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "timetable",
+                  "cn": "时间安排；时刻表",
+                  "phonetic": "/ˈtaɪmteɪbl/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "summary",
+                  "cn": "总结",
+                  "phonetic": "/ˈsʌməri/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "give away",
+                  "cn": "泄露，暴露",
+                  "phonetic": "/ɡɪv əˈweɪ/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "ending",
+                  "cn": "结尾，结局",
+                  "phonetic": "/ˈendɪŋ/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "rule",
+                  "cn": "规章，规则",
+                  "phonetic": "/ruːl/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "first of all",
+                  "cn": "第一，首先",
+                  "phonetic": "/fɜːst əv ɔːl/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "librarian",
+                  "cn": "图书管理员",
+                  "phonetic": "/laɪˈbreəriən/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "check out",
+                  "cn": "从图书馆等借出",
+                  "phonetic": "/tʃek aʊt/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "publishing house",
+                  "cn": "出版社",
+                  "phonetic": "/ˈpʌblɪʃɪŋ haʊs/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "unwilling",
+                  "cn": "不愿意",
+                  "phonetic": "/ʌnˈwɪlɪŋ/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "sale",
+                  "cn": "销售量；销售，出售",
+                  "phonetic": "/seɪl/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "copy",
+                  "cn": "一本（份，册）；复制品",
+                  "phonetic": "/ˈkɒpi/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "especially",
+                  "cn": "尤其，特别",
+                  "phonetic": "/ɪˈspeʃəli/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "literature",
+                  "cn": "文学",
+                  "phonetic": "/ˈlɪtrətʃə(r)/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "must-read",
+                  "cn": "必读的东西",
+                  "phonetic": "/ˌmʌst ˈriːd/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "publisher",
+                  "cn": "出版人（或机构）",
+                  "phonetic": "/ˈpʌblɪʃə(r)/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "pirate",
+                  "cn": "盗印，窃用；盗版者；海盗",
+                  "phonetic": "/ˈpaɪrət/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "reader",
+                  "cn": "读者",
+                  "phonetic": "/ˈriːdə(r)/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "difficulty",
+                  "cn": "困难",
+                  "phonetic": "/ˈdɪfɪkəlti/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "have difficulty (in) doing sth",
+                  "cn": "做某事有困难",
+                  "phonetic": "/hæv ˈdɪfɪkəlti ɪn ˈduːɪŋ ˈsʌmθɪŋ/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "copyright",
+                  "cn": "版权，著作权",
+                  "phonetic": "/ˈkɒpiraɪt/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "agreement",
+                  "cn": "同意；一致；协议",
+                  "phonetic": "/əˈɡriːmənt/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "market",
+                  "cn": "市场",
+                  "phonetic": "/ˈmɑːkɪt/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "excuse",
+                  "cn": "原谅；理由，借口",
+                  "phonetic": "/ɪkˈskjuːz/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "excuse me",
+                  "cn": "劳驾，请原谅",
+                  "phonetic": "/ɪkˈskjuːz miː/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "at a time",
+                  "cn": "每次",
+                  "phonetic": "/æt ə taɪm/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "within",
+                  "cn": "在……之内",
+                  "phonetic": "/wɪˈðɪn/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "describe",
+                  "cn": "描述",
+                  "phonetic": "/dɪˈskraɪb/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "journal",
+                  "cn": "日志",
+                  "phonetic": "/ˈdʒɜːnl/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "title",
+                  "cn": "名称，标题；头衔，称谓",
+                  "phonetic": "/ˈtaɪtl/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "naughty",
+                  "cn": "顽皮的，淘气的",
+                  "phonetic": "/ˈnɔːti/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "faraway",
+                  "cn": "遥远的",
+                  "phonetic": "/ˌfɑːrəˈweɪ/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "island",
+                  "cn": "岛",
+                  "phonetic": "/ˈaɪlənd/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "though",
+                  "cn": "尽管",
+                  "phonetic": "/ðəʊ/",
+                  "grade": "8B"
+                }
+              ]
             },
             {
-              "id": "unit7",
+              "id": "grade8b_unit5",
+              "name": "Unit5",
+              "icon": "🤝",
+              "description": "八年级下册 Unit 5 词汇",
+              "words": [
+                {
+                  "en": "manners",
+                  "cn": "礼仪，礼貌",
+                  "phonetic": "/ˈmænəz/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "litter",
+                  "cn": "垃圾",
+                  "phonetic": "/ˈlɪtə(r)/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "tap",
+                  "cn": "水龙头",
+                  "phonetic": "/tæp/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "wait in line",
+                  "cn": "排队等候",
+                  "phonetic": "/weɪt ɪn laɪn/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "patiently",
+                  "cn": "耐心地",
+                  "phonetic": "/ˈpeɪʃntli/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "congratulation",
+                  "cn": "祝贺",
+                  "phonetic": "/kənˌɡrætʃuˈleɪʃn/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "hallway",
+                  "cn": "走廊；正门过道",
+                  "phonetic": "/ˈhɔːlweɪ/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "on time",
+                  "cn": "准时",
+                  "phonetic": "/ɒn taɪm/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "feel at home",
+                  "cn": "舒服自在，不拘束",
+                  "phonetic": "/fiːl æt həʊm/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "normally",
+                  "cn": "通常",
+                  "phonetic": "/ˈnɔːməli/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "address",
+                  "cn": "称呼某人",
+                  "phonetic": "/əˈdres/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "politeness",
+                  "cn": "礼貌",
+                  "phonetic": "/pəˈlaɪtnəs/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "realize",
+                  "cn": "意识到",
+                  "phonetic": "/ˈrɪəlaɪz/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "realise",
+                  "cn": "意识到",
+                  "phonetic": "/ˈrɪəlaɪz/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "behave",
+                  "cn": "表现",
+                  "phonetic": "/bɪˈheɪv/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "differently",
+                  "cn": "不同地",
+                  "phonetic": "/ˈdɪfrəntli/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "praise",
+                  "cn": "称赞，赞美",
+                  "phonetic": "/preɪz/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "pleased",
+                  "cn": "高兴",
+                  "phonetic": "/pliːzd/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "reply",
+                  "cn": "回答，答复",
+                  "phonetic": "/rɪˈplaɪ/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "modest",
+                  "cn": "谦虚的",
+                  "phonetic": "/ˈmɒdɪst/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "openly",
+                  "cn": "公开地，毫不隐瞒地",
+                  "phonetic": "/ˈəʊpənli/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "host",
+                  "cn": "主人",
+                  "phonetic": "/həʊst/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "hospitable",
+                  "cn": "好客的，热情友好的",
+                  "phonetic": "/hɒˈspɪtəbl/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "plate",
+                  "cn": "盘子，碟子",
+                  "phonetic": "/pleɪt/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "refuse",
+                  "cn": "拒绝，回绝",
+                  "phonetic": "/rɪˈfjuːz/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "used to sth/doing sth",
+                  "cn": "习惯于某事物，适应某事物",
+                  "phonetic": "/juːst tə ˈsʌmθɪŋ ˈduːɪŋ ˈsʌmθɪŋ/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "fully",
+                  "cn": "完全地，全部地，充分地",
+                  "phonetic": "/ˈfʊli/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "all at once",
+                  "cn": "一起，同时",
+                  "phonetic": "/ɔːl æt wʌns/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "jump the line",
+                  "cn": "插队",
+                  "phonetic": "/dʒʌmp ðə laɪn/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "loudly",
+                  "cn": "吵闹地",
+                  "phonetic": "/ˈlaʊdli/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "push",
+                  "cn": "挤开；推动",
+                  "phonetic": "/pʊʃ/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "past",
+                  "cn": "在另一边，到另一侧",
+                  "phonetic": "/pɑːst/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "in one's way",
+                  "cn": "挡道",
+                  "phonetic": "/ɪn wʌnz weɪ/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "discussion",
+                  "cn": "讨论",
+                  "phonetic": "/dɪˈskʌʃn/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "promise",
+                  "cn": "承诺，许诺",
+                  "phonetic": "/ˈprɒmɪs/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "keep one's word",
+                  "cn": "信守诺言",
+                  "phonetic": "/kiːp wʌnz wɜːd/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "pear",
+                  "cn": "梨",
+                  "phonetic": "/peə(r)/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "even though",
+                  "cn": "尽管，即使",
+                  "phonetic": "/ˈiːvn ðəʊ/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "belong",
+                  "cn": "应在某处；适应",
+                  "phonetic": "/bɪˈlɒŋ/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "belong to",
+                  "cn": "属于",
+                  "phonetic": "/bɪˈlɒŋ tuː/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "respectfully",
+                  "cn": "尊敬地",
+                  "phonetic": "/rɪˈspektfəli/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "move",
+                  "cn": "使感动，打动",
+                  "phonetic": "/muːv/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "earphone",
+                  "cn": "耳机",
+                  "phonetic": "/ˈɪəfəʊn/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "circle",
+                  "cn": "圆圈",
+                  "phonetic": "/ˈsɜːkl/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "tip",
+                  "cn": "小费",
+                  "phonetic": "/tɪp/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "peaceful",
+                  "cn": "安静的，平静的",
+                  "phonetic": "/ˈpiːsfl/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "impolite",
+                  "cn": "失礼的，粗鲁的",
+                  "phonetic": "/ˌɪmpəˈlaɪt/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "hug",
+                  "cn": "拥抱",
+                  "phonetic": "/hʌɡ/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "kiss",
+                  "cn": "亲吻",
+                  "phonetic": "/kɪs/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "quietly",
+                  "cn": "安静地；平静地",
+                  "phonetic": "/ˈkwaɪətli/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "rush",
+                  "cn": "急促，仓促行事；冲",
+                  "phonetic": "/rʌʃ/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "unless",
+                  "cn": "除非",
+                  "phonetic": "/ənˈles/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "tasty",
+                  "cn": "美味的，可口的",
+                  "phonetic": "/ˈteɪsti/",
+                  "grade": "8B"
+                }
+              ]
+            },
+            {
+              "id": "grade8b_unit6",
+              "name": "Unit6",
+              "icon": "❤️",
+              "description": "八年级下册 Unit 6 词汇",
+              "words": [
+                {
+                  "en": "blind",
+                  "cn": "瞎的，失明的",
+                  "phonetic": "/blaɪnd/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "deaf",
+                  "cn": "聋的",
+                  "phonetic": "/def/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "disabled",
+                  "cn": "有残疾的",
+                  "phonetic": "/dɪsˈeɪbld/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "elderly",
+                  "cn": "年纪较大的，上了年纪的",
+                  "phonetic": "/ˈeldəli/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "disability",
+                  "cn": "某种缺陷，障碍",
+                  "phonetic": "/ˌdɪsəˈbɪləti/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "service",
+                  "cn": "服务",
+                  "phonetic": "/ˈsɜːvɪs/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "donate",
+                  "cn": "捐赠，捐献",
+                  "phonetic": "/dəʊˈneɪt/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "expect",
+                  "cn": "预料；期盼，预期",
+                  "phonetic": "/ɪkˈspekt/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "athlete",
+                  "cn": "运动员",
+                  "phonetic": "/ˈæθliːt/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "confidence",
+                  "cn": "自信心；信心",
+                  "phonetic": "/ˈkɒnfɪdəns/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "require",
+                  "cn": "需要，依靠",
+                  "phonetic": "/rɪˈkwaɪə(r)/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "receive",
+                  "cn": "受到，接到",
+                  "phonetic": "/rɪˈsiːv/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "necessary",
+                  "cn": "必需的，必要的",
+                  "phonetic": "/ˈnesəsəri/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "wheelchair",
+                  "cn": "轮椅",
+                  "phonetic": "/ˈwiːltʃeə(r)/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "remind",
+                  "cn": "提醒",
+                  "phonetic": "/rɪˈmaɪnd/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "remind sb to do sth",
+                  "cn": "提醒某人做某事",
+                  "phonetic": "/rɪˈmaɪnd ˈsʌmbədi tə duː ˈsʌmθɪŋ/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "seat belt",
+                  "cn": "汽车或飞机上的安全带",
+                  "phonetic": "/ˈsiːt belt/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "medal",
+                  "cn": "奖牌",
+                  "phonetic": "/ˈmedl/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "gold",
+                  "cn": "金牌；金",
+                  "phonetic": "/ɡəʊld/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "silver",
+                  "cn": "银牌；银",
+                  "phonetic": "/ˈsɪlvə(r)/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "competition",
+                  "cn": "比赛",
+                  "phonetic": "/ˌkɒmpəˈtɪʃn/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "background",
+                  "cn": "出身背景；背景",
+                  "phonetic": "/ˈbækɡraʊnd/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "ability",
+                  "cn": "才能，本领，才智",
+                  "phonetic": "/əˈbɪləti/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "warm-hearted",
+                  "cn": "善良诚恳的",
+                  "phonetic": "/ˌwɔːm ˈhɑːtɪd/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "courage",
+                  "cn": "勇气",
+                  "phonetic": "/ˈkʌrɪdʒ/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "achieve",
+                  "cn": "达到目标等，完成",
+                  "phonetic": "/əˈtʃiːv/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "greatly",
+                  "cn": "非常，很",
+                  "phonetic": "/ˈɡreɪtli/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "influence",
+                  "cn": "影响",
+                  "phonetic": "/ˈɪnfluəns/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "cross",
+                  "cn": "穿越，横过",
+                  "phonetic": "/krɒs/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "charity",
+                  "cn": "慈善机构或组织",
+                  "phonetic": "/ˈtʃærəti/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "western",
+                  "cn": "西部的；西方国家的",
+                  "phonetic": "/ˈwestən/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "popularity",
+                  "cn": "受欢迎，普及",
+                  "phonetic": "/ˌpɒpjuˈlærəti/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "chemistry",
+                  "cn": "化学",
+                  "phonetic": "/ˈkemɪstri/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "north-western",
+                  "cn": "西北的，西北方向的",
+                  "phonetic": "/ˌnɔːθ ˈwestən/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "north-eastern",
+                  "cn": "东北的，东北方向的",
+                  "phonetic": "/ˌnɔːθ ˈiːstən/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "suffer",
+                  "cn": "受折磨；遭受；变差",
+                  "phonetic": "/ˈsʌfə(r)/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "suffer from",
+                  "cn": "遭受；患……病",
+                  "phonetic": "/ˈsʌfə(r) frəm/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "blood",
+                  "cn": "血液",
+                  "phonetic": "/blʌd/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "disease",
+                  "cn": "病，疾病",
+                  "phonetic": "/dɪˈziːz/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "operation",
+                  "cn": "手术",
+                  "phonetic": "/ˌɒpəˈreɪʃn/",
+                  "grade": "8B"
+                }
+              ]
+            },
+            {
+              "id": "grade8b_unit7",
               "name": "Unit7",
-              "icon": "🏔️",
-              "description": "地理景观、世界奇观与旅游",
-              "words": []
+              "icon": "🏥",
+              "description": "八年级下册 Unit 7 词汇",
+              "words": [
+                {
+                  "en": "medical",
+                  "cn": "医疗的",
+                  "phonetic": "/ˈmedɪkl/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "organization",
+                  "cn": "组织",
+                  "phonetic": "/ˌɔːɡənaɪˈzeɪʃn/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "organisation",
+                  "cn": "组织",
+                  "phonetic": "/ˌɔːɡənaɪˈzeɪʃn/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "lip",
+                  "cn": "嘴唇",
+                  "phonetic": "/lɪp/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "interviewer",
+                  "cn": "采访者，来访者",
+                  "phonetic": "/ˈɪntəvjuːə(r)/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "billion",
+                  "cn": "十亿",
+                  "phonetic": "/ˈbɪljən/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "cure",
+                  "cn": "治好（疾病）；治愈",
+                  "phonetic": "/kjʊə(r)/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "treatment",
+                  "cn": "治疗",
+                  "phonetic": "/ˈtriːtmənt/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "aim",
+                  "cn": "目的，目标；力争做到，旨在",
+                  "phonetic": "/eɪm/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "patient",
+                  "cn": "病人",
+                  "phonetic": "/ˈpeɪʃnt/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "afford",
+                  "cn": "能做，买得起，承担得起",
+                  "phonetic": "/əˈfɔːd/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "go to hospital",
+                  "cn": "去看病",
+                  "phonetic": "/ɡəʊ tuː ˈhɒspɪtl/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "on board",
+                  "cn": "在飞机上（或船上、火车上）",
+                  "phonetic": "/ɒn bɔːd/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "benefit",
+                  "cn": "得益于；得到；优势，益处，成效",
+                  "phonetic": "/ˈbenɪfɪt/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "eye care",
+                  "cn": "眼睛保健",
+                  "phonetic": "/aɪ keə(r)/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "session",
+                  "cn": "一场",
+                  "phonetic": "/ˈseʃn/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "operate",
+                  "cn": "动手术",
+                  "phonetic": "/ˈɒpəreɪt/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "operate on",
+                  "cn": "做手术",
+                  "phonetic": "/ˈɒpəreɪt ɒn/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "treat",
+                  "cn": "医治；把……视为",
+                  "phonetic": "/triːt/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "carry on with",
+                  "cn": "继续做",
+                  "phonetic": "/ˈkæri ɒn wɪð/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "interview",
+                  "cn": "采访，访谈；面试",
+                  "phonetic": "/ˈɪntəvjuː/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "grateful",
+                  "cn": "感激的",
+                  "phonetic": "/ˈɡreɪtfl/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "darkness",
+                  "cn": "黑暗",
+                  "phonetic": "/ˈdɑːknəs/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "blind",
+                  "cn": "使失明",
+                  "phonetic": "/blaɪnd/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "addition",
+                  "cn": "增加；增加物",
+                  "phonetic": "/əˈdɪʃn/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "in addition",
+                  "cn": "除……以外（还）",
+                  "phonetic": "/ɪn əˈdɪʃn/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "directly",
+                  "cn": "直接",
+                  "phonetic": "/dəˈrektli; daɪˈrektli/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "train",
+                  "cn": "培训，训练",
+                  "phonetic": "/treɪn/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "leaflet",
+                  "cn": "传单，小册子",
+                  "phonetic": "/ˈliːflət/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "hand out",
+                  "cn": "分发",
+                  "phonetic": "/hænd aʊt/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "champion",
+                  "cn": "捍卫者，声援者，拥护者；冠军",
+                  "phonetic": "/ˈtʃæmpiən/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "right",
+                  "cn": "权利",
+                  "phonetic": "/raɪt/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "progress",
+                  "cn": "进步，进展",
+                  "phonetic": "/ˈprəʊɡres/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "virus",
+                  "cn": "病毒",
+                  "phonetic": "/ˈvaɪrəs/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "miss out on",
+                  "cn": "错失机会",
+                  "phonetic": "/mɪs aʊt ɒn/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "war",
+                  "cn": "战争，斗争",
+                  "phonetic": "/wɔː(r)/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "influential",
+                  "cn": "有影响力的",
+                  "phonetic": "/ˌɪnfluˈenʃl/",
+                  "grade": "8B"
+                }
+              ]
             },
             {
-              "id": "unit8",
+              "id": "grade8b_unit8",
               "name": "Unit8",
-              "icon": "📕",
-              "description": "经典书籍、作家与文学欣赏",
-              "words": []
+              "icon": "🌱",
+              "description": "八年级下册 Unit 8 词汇",
+              "words": [
+                {
+                  "en": "soil",
+                  "cn": "土壤",
+                  "phonetic": "/sɔɪl/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "chemical",
+                  "cn": "化学品；化学制品；化学的",
+                  "phonetic": "/ˈkemɪkl/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "truck",
+                  "cn": "卡车；载重汽车",
+                  "phonetic": "/trʌk/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "unclean",
+                  "cn": "不洁净的",
+                  "phonetic": "/ˌʌnˈkliːn/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "fuel",
+                  "cn": "燃料",
+                  "phonetic": "/ˈfjuːəl/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "pour",
+                  "cn": "倾倒，倒出，倾泻",
+                  "phonetic": "/pɔː(r)/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "air conditioning",
+                  "cn": "空调调节系统",
+                  "phonetic": "/ˈeə kəndɪʃənɪŋ/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "eco-friendly",
+                  "cn": "环保的",
+                  "phonetic": "/ˌiːkəʊ ˈfrendli/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "separate",
+                  "cn": "分开；区分",
+                  "phonetic": "/ˈsepəreɪt/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "separate ... into",
+                  "cn": "把……分成",
+                  "phonetic": "/ˈsepəreɪt ˈɪntuː/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "recycle",
+                  "cn": "回收利用",
+                  "phonetic": "/ˌriːˈsaɪkl/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "level",
+                  "cn": "标准，水平",
+                  "phonetic": "/ˈlevl/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "successfully",
+                  "cn": "有成效地",
+                  "phonetic": "/səkˈsesfəli/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "total",
+                  "cn": "总的，总的",
+                  "phonetic": "/ˈtəʊtl/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "strict",
+                  "cn": "严格的",
+                  "phonetic": "/strɪkt/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "control",
+                  "cn": "控制",
+                  "phonetic": "/kənˈtrəʊl/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "break",
+                  "cn": "破坏；违反",
+                  "phonetic": "/breɪk/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "punish",
+                  "cn": "惩罚",
+                  "phonetic": "/ˈpʌnɪʃ/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "fine",
+                  "cn": "对……处以罚款",
+                  "phonetic": "/faɪn/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "resource",
+                  "cn": "资源",
+                  "phonetic": "/rɪˈsɔːs/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "wisely",
+                  "cn": "明智地",
+                  "phonetic": "/ˈwaɪzli/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "run out",
+                  "cn": "用完，耗尽",
+                  "phonetic": "/rʌn aʊt/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "make a difference",
+                  "cn": "有作用，有影响",
+                  "phonetic": "/meɪk ə ˈdɪfrəns/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "management",
+                  "cn": "管理",
+                  "phonetic": "/ˈmænɪdʒmənt/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "poster",
+                  "cn": "海报",
+                  "phonetic": "/ˈpəʊstə(r)/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "pollute",
+                  "cn": "污染",
+                  "phonetic": "/pəˈluːt/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "affect",
+                  "cn": "影响",
+                  "phonetic": "/əˈfekt/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "gas",
+                  "cn": "气体；汽油，天然气",
+                  "phonetic": "/ɡæs/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "seabird",
+                  "cn": "海鸟",
+                  "phonetic": "/ˈsiːbɜːd/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "desertification",
+                  "cn": "沙漠化",
+                  "phonetic": "/dɪˌzɜːtɪfɪˈkeɪʃn/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "hardly",
+                  "cn": "几乎不，几乎没有",
+                  "phonetic": "/ˈhɑːdli/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "single-use",
+                  "cn": "供一次使用的",
+                  "phonetic": "/ˌsɪŋɡl ˈjuːs/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "second-hand",
+                  "cn": "二手的",
+                  "phonetic": "/ˌsekənd ˈhænd/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "battery",
+                  "cn": "电池",
+                  "phonetic": "/ˈbætri; ˈbætəri/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "electronic",
+                  "cn": "电子的",
+                  "phonetic": "/ɪˌlekˈtrɒnɪk/",
+                  "grade": "8B"
+                },
+                {
+                  "en": "electricity",
+                  "cn": "电，电能",
+                  "phonetic": "/ɪˌlekˈtrɪsəti/",
+                  "grade": "8B"
+                }
+              ]
             }
           ]
         }

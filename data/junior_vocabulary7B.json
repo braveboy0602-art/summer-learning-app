@@ -11,60 +11,2822 @@
           "description": "7B Unit1-Unit8 单词默写词汇",
           "categories": [
             {
-              "id": "unit1",
+              "id": "grade7b_unit1",
               "name": "Unit1",
-              "icon": "🐾",
-              "description": "宠物、动物与人（宠物饲养、动物特征描述等词汇）",
-              "words": []
+              "icon": "🏡",
+              "description": "七年级下册 Unit 1 词汇",
+              "words": [
+                {
+                  "en": "cottage",
+                  "cn": "小屋，小别墅",
+                  "phonetic": "/ˈkɒtɪdʒ/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "farmhouse",
+                  "cn": "农场住宅，农舍",
+                  "phonetic": "/ˈfɑːmhaʊs/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "mobile",
+                  "cn": "可移动的",
+                  "phonetic": "/ˈməʊbaɪl/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "mobile home",
+                  "cn": "活动住房",
+                  "phonetic": "/ˈməʊbaɪl həʊm/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "town",
+                  "cn": "镇，市镇",
+                  "phonetic": "/taʊn/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "town house",
+                  "cn": "联排式住宅",
+                  "phonetic": "/taʊn haʊs/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "west",
+                  "cn": "西，西部；西方的；向西",
+                  "phonetic": "/west/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "hundred",
+                  "cn": "许多，大量；一百",
+                  "phonetic": "/ˈhʌndrəd/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "study",
+                  "cn": "书房",
+                  "phonetic": "/ˈstʌdi/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "relaxing",
+                  "cn": "令人放松的，轻松的",
+                  "phonetic": "/rɪˈlæksɪŋ/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "bedroom",
+                  "cn": "卧室",
+                  "phonetic": "/ˈbedruːm/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "own",
+                  "cn": "自己的，本人的",
+                  "phonetic": "/əʊn/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "south",
+                  "cn": "南，南部；南方的；向南",
+                  "phonetic": "/saʊθ/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "balcony",
+                  "cn": "阳台",
+                  "phonetic": "/ˈbælkəni/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "view",
+                  "cn": "风景；看法",
+                  "phonetic": "/vjuː/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "mile",
+                  "cn": "英里",
+                  "phonetic": "/maɪl/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "relax",
+                  "cn": "放松，休息",
+                  "phonetic": "/rɪˈlæks/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "living room",
+                  "cn": "客厅，起居室",
+                  "phonetic": "/ˈlɪvɪŋ ruːm/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "ahlan",
+                  "cn": "你好",
+                  "phonetic": "/ˈahlæn/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "village",
+                  "cn": "村庄，村镇",
+                  "phonetic": "/ˈvɪlɪdʒ/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "carpet",
+                  "cn": "地毯",
+                  "phonetic": "/ˈkɑːpɪt/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "next to",
+                  "cn": "prep. 紧邻，在……近旁",
+                  "phonetic": "/nekst tuː/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "yard",
+                  "cn": "院子",
+                  "phonetic": "/jɑːd/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "hen",
+                  "cn": "母鸡",
+                  "phonetic": "/hen/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "collect",
+                  "cn": "收集，采集",
+                  "phonetic": "/kəˈlekt/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "firework",
+                  "cn": "烟火，烟花",
+                  "phonetic": "/ˈfaɪəwɜːk/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "BBQ",
+                  "cn": "户外烧烤；烤架",
+                  "phonetic": "/ˌbiː biː ˈkjuː/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "barbecue",
+                  "cn": "户外烧烤；烤架",
+                  "phonetic": "/ˈbɑːbɪkjuː/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "zero",
+                  "cn": "零",
+                  "phonetic": "/ˈzɪərəʊ/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "square",
+                  "cn": "平方",
+                  "phonetic": "/skweə(r)/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "metre",
+                  "cn": "米",
+                  "phonetic": "/ˈmiːtə(r)/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "square metre",
+                  "cn": "平方米",
+                  "phonetic": "/skweə(r) ˈmiːtə(r)/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "number",
+                  "cn": "号码；数字；数量",
+                  "phonetic": "/ˈnʌmbə(r)/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "million",
+                  "cn": "一百万",
+                  "phonetic": "/ˈmɪljən/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "calendar",
+                  "cn": "日历，月历",
+                  "phonetic": "/ˈkælɪndə(r)/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "lunar calendar",
+                  "cn": "农历，阴历",
+                  "phonetic": "/ˈluːnə(r) ˈkælɪndə(r)/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "seaside",
+                  "cn": "海边，海滨",
+                  "phonetic": "/ˈsiːsaɪd/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "east",
+                  "cn": "东部，东方的；向东",
+                  "phonetic": "/iːst/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "stone",
+                  "cn": "石头，石块",
+                  "phonetic": "/stəʊn/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "seagrass",
+                  "cn": "海草",
+                  "phonetic": "/ˈsiːɡrɑːs/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "hold",
+                  "cn": "承受住，坚持住",
+                  "phonetic": "/həʊld/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "hold up",
+                  "cn": "支撑得住",
+                  "phonetic": "/həʊld ʌp/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "wind",
+                  "cn": "风，气流",
+                  "phonetic": "/wɪnd/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "south-west",
+                  "cn": "西南方；西南方的；向西南方",
+                  "phonetic": "/ˌsaʊθ ˈwest/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "bamboo",
+                  "cn": "竹，竹子",
+                  "phonetic": "/ˌbæmˈbuː/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "ground floor",
+                  "cn": "底层，一楼",
+                  "phonetic": "/ɡraʊnd flɔː(r)/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "grassland",
+                  "cn": "草原，草地，草场",
+                  "phonetic": "/ˈɡrɑːslænd/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "north",
+                  "cn": "北部，北方的；向北",
+                  "phonetic": "/nɔːθ/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "tent",
+                  "cn": "帐篷",
+                  "phonetic": "/tent/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "wood",
+                  "cn": "木，木头",
+                  "phonetic": "/wʊd/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "build",
+                  "cn": "建筑，建造",
+                  "phonetic": "/bɪld/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "fishing",
+                  "cn": "钓鱼，捕鱼业",
+                  "phonetic": "/ˈfɪʃɪŋ/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "dry",
+                  "cn": "干燥的，干的",
+                  "phonetic": "/draɪ/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "ride",
+                  "cn": "骑；驾驶；搭乘",
+                  "phonetic": "/raɪd/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "centre",
+                  "cn": "市镇的中心区；中心",
+                  "phonetic": "/ˈsentə(r)/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "center",
+                  "cn": "市镇的中心区；中心",
+                  "phonetic": "/ˈsentə(r)/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "bathroom",
+                  "cn": "浴室；卫生间",
+                  "phonetic": "/ˈbɑːθruːm/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "smell",
+                  "cn": "闻，嗅；气味",
+                  "phonetic": "/smel/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "sky",
+                  "cn": "天空",
+                  "phonetic": "/skaɪ/",
+                  "grade": "7B"
+                }
+              ]
             },
             {
-              "id": "unit2",
+              "id": "grade7b_unit2",
               "name": "Unit2",
-              "icon": "🏠",
-              "description": "社区、邻里与居住环境",
-              "words": []
+              "icon": "🏘️",
+              "description": "七年级下册 Unit 2 词汇",
+              "words": [
+                {
+                  "en": "neighbourhood",
+                  "cn": "街区；邻近的地方",
+                  "phonetic": "/ˈneɪbəhʊd/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "neighborhood",
+                  "cn": "街区；邻近的地方",
+                  "phonetic": "/ˈneɪbərhʊd/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "officer",
+                  "cn": "高级职员，官员",
+                  "phonetic": "/ˈɒfɪsə(r)/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "police officer",
+                  "cn": "警察，警员",
+                  "phonetic": "/pəˈliːs ˈɒfɪsə(r)/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "station",
+                  "cn": "站，所，局",
+                  "phonetic": "/ˈsteɪʃn/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "police station",
+                  "cn": "警察局，派出所",
+                  "phonetic": "/pəˈliːs ˈsteɪʃn/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "restaurant",
+                  "cn": "餐厅，餐馆",
+                  "phonetic": "/ˈrestrɒnt/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "neighbour",
+                  "cn": "邻居",
+                  "phonetic": "/ˈneɪbə(r)/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "neighbor",
+                  "cn": "邻居",
+                  "phonetic": "/ˈneɪbər/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "lawyer",
+                  "cn": "律师",
+                  "phonetic": "/ˈlɔːjə(r)/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "law",
+                  "cn": "法律，法规，规则",
+                  "phonetic": "/lɔː/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "community",
+                  "cn": "社区",
+                  "phonetic": "/kəˈmjuːnəti/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "from time to time",
+                  "cn": "偶尔，不时",
+                  "phonetic": "/frəm taɪm tə taɪm/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "volunteer",
+                  "cn": "志愿者",
+                  "phonetic": "/ˌvɒlənˈtɪə(r)/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "laptop",
+                  "cn": "笔记本电脑",
+                  "phonetic": "/ˈlæptɒp/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "engineer",
+                  "cn": "工程师",
+                  "phonetic": "/ˌendʒɪˈnɪə(r)/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "check",
+                  "cn": "检查，核查",
+                  "phonetic": "/tʃek/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "broken",
+                  "cn": "出了毛病的，破损的",
+                  "phonetic": "/ˈbrəʊkən/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "someone",
+                  "cn": "某人",
+                  "phonetic": "/ˈsʌmwʌn/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "somebody",
+                  "cn": "某人",
+                  "phonetic": "/ˈsʌmbədi/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "repair",
+                  "cn": "修理",
+                  "phonetic": "/rɪˈpeə(r)/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "anyone",
+                  "cn": "任何人",
+                  "phonetic": "/ˈeniwʌn/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "anybody",
+                  "cn": "任何人",
+                  "phonetic": "/ˈenibɒdi/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "college",
+                  "cn": "学院；大学",
+                  "phonetic": "/ˈkɒlɪdʒ/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "willing",
+                  "cn": "愿意，乐意",
+                  "phonetic": "/ˈwɪlɪŋ/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "be willing to do sth",
+                  "cn": "乐意做某事",
+                  "phonetic": "/bi ˈwɪlɪŋ tə duː ˈsʌmθɪŋ/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "tidy",
+                  "cn": "使整洁，整理",
+                  "phonetic": "/ˈtaɪdi/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "such",
+                  "cn": "如此；这样的",
+                  "phonetic": "/sʌtʃ/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "any time",
+                  "cn": "在任何时候",
+                  "phonetic": "/ˈeni taɪm/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "pick up",
+                  "cn": "捡起，拾起",
+                  "phonetic": "/pɪk ʌp/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "rubbish",
+                  "cn": "垃圾，废弃物",
+                  "phonetic": "/ˈrʌbɪʃ/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "bench",
+                  "cn": "长椅",
+                  "phonetic": "/bentʃ/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "if",
+                  "cn": "如果",
+                  "phonetic": "/ɪf/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "volunteer",
+                  "cn": "自愿做，义务做，无偿做",
+                  "phonetic": "/ˌvɒlənˈtɪə(r)/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "in a hurry",
+                  "cn": "匆忙",
+                  "phonetic": "/ɪn ə ˈhʌri/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "anything",
+                  "cn": "任何事物",
+                  "phonetic": "/ˈeniθɪŋ/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "invite",
+                  "cn": "邀请",
+                  "phonetic": "/ɪnˈvaɪt/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "exchange",
+                  "cn": "交流",
+                  "phonetic": "/ɪksˈtʃeɪndʒ/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "exchange student",
+                  "cn": "交换生",
+                  "phonetic": "/ɪksˈtʃeɪndʒ ˈstjuːdnt/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "notice",
+                  "cn": "通知",
+                  "phonetic": "/ˈnəʊtɪs/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "information",
+                  "cn": "信息，消息",
+                  "phonetic": "/ˌɪnfəˈmeɪʃn/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "below",
+                  "cn": "下面；在（或到）……下面",
+                  "phonetic": "/bɪˈləʊ/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "fever",
+                  "cn": "发烧；狂热",
+                  "phonetic": "/ˈfiːvə(r)/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "sore",
+                  "cn": "疼痛的，酸痛的",
+                  "phonetic": "/sɔː(r)/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "throat",
+                  "cn": "咽喉，喉咙",
+                  "phonetic": "/θrəʊt/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "trouble",
+                  "cn": "问题，困难，麻烦",
+                  "phonetic": "/ˈtrʌbl/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "machine",
+                  "cn": "机器，机械装置",
+                  "phonetic": "/məˈʃiːn/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "washing machine",
+                  "cn": "洗衣机",
+                  "phonetic": "/ˈwɒʃɪŋ məˈʃiːn/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "fridge",
+                  "cn": "冰箱",
+                  "phonetic": "/frɪdʒ/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "refrigerator",
+                  "cn": "冰箱",
+                  "phonetic": "/rɪˈfrɪdʒəreɪtə(r)/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "deal with",
+                  "cn": "处理，应付",
+                  "phonetic": "/diːl wɪð/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "wonder",
+                  "cn": "琢磨，想知道",
+                  "phonetic": "/ˈwʌndə(r)/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "able",
+                  "cn": "能够",
+                  "phonetic": "/ˈeɪbl/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "post",
+                  "cn": "发布；邮寄",
+                  "phonetic": "/pəʊst/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "raise",
+                  "cn": "筹募",
+                  "phonetic": "/reɪz/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "organize",
+                  "cn": "组织；安排",
+                  "phonetic": "/ˈɔːɡənaɪz/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "organise",
+                  "cn": "组织；安排",
+                  "phonetic": "/ˈɔːɡənaɪz/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "give away",
+                  "cn": "赠送；分发",
+                  "phonetic": "/ɡɪv əˈweɪ/",
+                  "grade": "7B"
+                }
+              ]
             },
             {
-              "id": "unit3",
+              "id": "grade7b_unit3",
               "name": "Unit3",
-              "icon": "🌍",
-              "description": "环境、自然与保护",
-              "words": []
+              "icon": "🏛️",
+              "description": "七年级下册 Unit 3 词汇",
+              "words": [
+                {
+                  "en": "kilometre",
+                  "cn": "千米",
+                  "phonetic": "/kɪˈlɒmɪtə(r)/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "kilometer",
+                  "cn": "千米",
+                  "phonetic": "/kɪˈlɑːmɪtər/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "wonder",
+                  "cn": "奇迹，奇观；惊奇",
+                  "phonetic": "/ˈwʌndə(r)/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "Olympic",
+                  "cn": "奥林匹克运动会的",
+                  "phonetic": "/əˈlɪmpɪk/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "object",
+                  "cn": "物品，东西",
+                  "phonetic": "/ˈɒbdʒɪkt/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "past",
+                  "cn": "过去",
+                  "phonetic": "/pɑːst/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "present",
+                  "cn": "现在",
+                  "phonetic": "/ˈpreznt/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "shall",
+                  "cn": "将要，将会",
+                  "phonetic": "/ʃəl/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "attract",
+                  "cn": "招引，吸引",
+                  "phonetic": "/əˈtrækt/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "capital",
+                  "cn": "首都，省府",
+                  "phonetic": "/ˈkæpɪtl/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "show sb around",
+                  "cn": "领某人参观",
+                  "phonetic": "/ʃəʊ ˈsʌmbədi əˈraʊnd/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "once",
+                  "cn": "曾经",
+                  "phonetic": "/wʌns/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "palace",
+                  "cn": "宫殿",
+                  "phonetic": "/ˈpæləs/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "emperor",
+                  "cn": "皇帝",
+                  "phonetic": "/ˈempərə(r)/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "ancient",
+                  "cn": "古代的",
+                  "phonetic": "/ˈeɪnʃənt/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "treasure",
+                  "cn": "珍宝，珍品，财富",
+                  "phonetic": "/ˈtreʒə(r)/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "worth",
+                  "cn": "值得，有价值；值……钱",
+                  "phonetic": "/wɜːθ/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "be well worth",
+                  "cn": "很值得",
+                  "phonetic": "/bi wel wɜːθ/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "visitor",
+                  "cn": "游客，来访者",
+                  "phonetic": "/ˈvɪzɪtə(r)/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "raising",
+                  "cn": "升高；增加",
+                  "phonetic": "/ˈreɪzɪŋ/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "national",
+                  "cn": "国家的",
+                  "phonetic": "/ˈnæʃnəl/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "flag",
+                  "cn": "旗",
+                  "phonetic": "/flæɡ/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "square",
+                  "cn": "正方形；广场",
+                  "phonetic": "/skweə(r)/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "side",
+                  "cn": "一侧，一边",
+                  "phonetic": "/saɪd/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "courtyard",
+                  "cn": "庭院，天井",
+                  "phonetic": "/ˈkɔːtjɑːd/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "taste",
+                  "cn": "体验，尝试；味道",
+                  "phonetic": "/teɪst/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "opera",
+                  "cn": "歌剧",
+                  "phonetic": "/ˈɒprə/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "local",
+                  "cn": "当地的，地方的",
+                  "phonetic": "/ˈləʊkl/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "theatre",
+                  "cn": "戏院，剧场",
+                  "phonetic": "/ˈθɪətə(r)/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "theater",
+                  "cn": "戏院，剧场",
+                  "phonetic": "/ˈθiːətər/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "interest",
+                  "cn": "吸引力，趣味，兴趣",
+                  "phonetic": "/ˈɪntrəst/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "place of interest",
+                  "cn": "名胜",
+                  "phonetic": "/pleɪs əv ˈɪntrəst/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "form",
+                  "cn": "类型，种类，形式",
+                  "phonetic": "/fɔːm/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "stadium",
+                  "cn": "体育场，运动场",
+                  "phonetic": "/ˈsteɪdiəm/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "date from",
+                  "cn": "追溯到，始于",
+                  "phonetic": "/deɪt frəm/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "shopkeeper",
+                  "cn": "店主",
+                  "phonetic": "/ˈʃɒpkiːpə(r)/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "smile",
+                  "cn": "微笑；微笑着说；微笑，笑容",
+                  "phonetic": "/smaɪl/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "sandwich",
+                  "cn": "三明治",
+                  "phonetic": "/ˈsænwɪtʃ/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "above",
+                  "cn": "在（或向）……上面；在（或向）上面",
+                  "phonetic": "/əˈbʌv/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "leaf",
+                  "cn": "叶子",
+                  "phonetic": "/liːf/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "wave",
+                  "cn": "飘动，摇晃",
+                  "phonetic": "/weɪv/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "roof",
+                  "cn": "屋顶",
+                  "phonetic": "/ruːf/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "cage",
+                  "cn": "笼子",
+                  "phonetic": "/keɪdʒ/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "lie",
+                  "cn": "躺，平卧；位于",
+                  "phonetic": "/laɪ/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "row",
+                  "cn": "划（船）",
+                  "phonetic": "/rəʊ/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "high",
+                  "cn": "有某高度的；高的；高",
+                  "phonetic": "/haɪ/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "golden",
+                  "cn": "金色的，美好的",
+                  "phonetic": "/ˈɡəʊldən/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "shape",
+                  "cn": "形状",
+                  "phonetic": "/ʃeɪp/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "recommend",
+                  "cn": "推荐；建议",
+                  "phonetic": "/ˌrekəˈmend/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "tower",
+                  "cn": "塔",
+                  "phonetic": "/ˈtaʊə(r)/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "along",
+                  "cn": "沿着",
+                  "phonetic": "/əˈlɒŋ/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "sunset",
+                  "cn": "日落，傍晚",
+                  "phonetic": "/ˈsʌnset/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "fantastic",
+                  "cn": "极好的，了不起的",
+                  "phonetic": "/fænˈtæstɪk/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "fish and chips",
+                  "cn": "炸鱼薯条",
+                  "phonetic": "/fɪʃ ənd tʃɪps/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "British",
+                  "cn": "英国（人）的",
+                  "phonetic": "/ˈbrɪtɪʃ/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "tool",
+                  "cn": "工具",
+                  "phonetic": "/tuːl/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "end",
+                  "cn": "终止，结尾，尽头",
+                  "phonetic": "/endgast/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "set",
+                  "cn": "落（下）",
+                  "phonetic": "/set/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "everything",
+                  "cn": "一切，每件事",
+                  "phonetic": "/ˈevriθɪŋ/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "seem",
+                  "cn": "似乎，看起来",
+                  "phonetic": "/siːm/",
+                  "grade": "7B"
+                }
+              ]
             },
             {
-              "id": "unit4",
+              "id": "grade7b_unit4",
               "name": "Unit4",
-              "icon": "🎵",
-              "description": "音乐、艺术与才艺展示",
-              "words": []
+              "icon": "🎨",
+              "description": "七年级下册 Unit 4 词汇",
+              "words": [
+                {
+                  "en": "folk",
+                  "cn": "传统民间的，民俗的",
+                  "phonetic": "/fəʊk/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "china",
+                  "cn": "瓷器",
+                  "phonetic": "/ˈtʃaɪnə/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "clay",
+                  "cn": "黏土，陶土",
+                  "phonetic": "/kleɪ/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "teapot",
+                  "cn": "茶壶",
+                  "phonetic": "/ˈtiːpɒt/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "taste",
+                  "cn": "有……味道",
+                  "phonetic": "/teɪst/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "woodcarving",
+                  "cn": "木雕，木雕品",
+                  "phonetic": "/ˈwʊdkɑːvɪŋ/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "even",
+                  "cn": "甚至，即使",
+                  "phonetic": "/ˈiːvn/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "carve",
+                  "cn": "雕刻",
+                  "phonetic": "/kɑːv/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "scene",
+                  "cn": "场面，现场；场",
+                  "phonetic": "/siːn/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "craft",
+                  "cn": "手艺，工艺",
+                  "phonetic": "/krɑːft/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "quickly",
+                  "cn": "迅速地",
+                  "phonetic": "/ˈkwɪkli/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "scissors",
+                  "cn": "剪刀",
+                  "phonetic": "/ˈsɪzəz/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "knife",
+                  "cn": "刀",
+                  "phonetic": "/naɪf/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "add",
+                  "cn": "补充说；添加",
+                  "phonetic": "/æd/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "practice",
+                  "cn": "练习，训练",
+                  "phonetic": "/ˈpræktɪs/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "landscape",
+                  "cn": "景色，风景画",
+                  "phonetic": "/ˈlændskeɪp/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "paper-cut",
+                  "cn": "剪纸作品",
+                  "phonetic": "/ˈpeɪpə kʌt/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "express",
+                  "cn": "表达，表示",
+                  "phonetic": "/ɪkˈspres/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "happiness",
+                  "cn": "幸福，快乐",
+                  "phonetic": "/ˈhæpinəs/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "couple",
+                  "cn": "夫妇",
+                  "phonetic": "/ˈkʌpl/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "hand",
+                  "cn": "交，递，给",
+                  "phonetic": "/hænd/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "mean",
+                  "cn": "表示……的意思；意味着",
+                  "phonetic": "/miːn/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "alive",
+                  "cn": "活着；有活力",
+                  "phonetic": "/əˈlaɪv/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "warmth",
+                  "cn": "温暖",
+                  "phonetic": "/wɔːmθ/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "still",
+                  "cn": "还是，仍然",
+                  "phonetic": "/stɪl/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "mine",
+                  "cn": "我的",
+                  "phonetic": "/maɪn/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "hers",
+                  "cn": "她的",
+                  "phonetic": "/hɜːz/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "yours",
+                  "cn": "你的，您的，你们的",
+                  "phonetic": "/jɔːz/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "ours",
+                  "cn": "我们的",
+                  "phonetic": "/aʊəz/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "theirs",
+                  "cn": "他们（她们，它们）的",
+                  "phonetic": "/ðeəz/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "his",
+                  "cn": "他的",
+                  "phonetic": "/hɪz/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "postcard",
+                  "cn": "明信片",
+                  "phonetic": "/ˈpəʊstkɑːd/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "Chinese knot",
+                  "cn": "中国结",
+                  "phonetic": "/ˌtʃaɪniːz nɒt/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "figure",
+                  "cn": "人物，雕像，塑像",
+                  "phonetic": "/ˈfɪɡə(r)/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "mould",
+                  "cn": "模具",
+                  "phonetic": "/məʊld/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "simple",
+                  "cn": "简单的，简朴的",
+                  "phonetic": "/ˈsɪmpl/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "outdoor",
+                  "cn": "室外的，户外的",
+                  "phonetic": "/ˈaʊtdɔː(r)/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "ordinary",
+                  "cn": "普通的，平常的",
+                  "phonetic": "/ˈɔːdnri/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "everyday",
+                  "cn": "日常的，每天的",
+                  "phonetic": "/ˈevrideɪ/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "creative",
+                  "cn": "有创造力的，创造性的",
+                  "phonetic": "/kriˈeɪtɪv/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "craftsperson",
+                  "cn": "工匠，手艺人",
+                  "phonetic": "/ˈkrɑːftspɜːsn/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "respect",
+                  "cn": "尊敬，尊重",
+                  "phonetic": "/rɪˈspekt/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "spirit",
+                  "cn": "精神",
+                  "phonetic": "/ˈspɪrɪt/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "handicraft",
+                  "cn": "手工艺品；手工艺",
+                  "phonetic": "/ˈhændikrɑːft/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "basic",
+                  "cn": "基本的，初级的",
+                  "phonetic": "/ˈbeɪsɪk/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "cultural",
+                  "cn": "文化的",
+                  "phonetic": "/ˈkʌltʃərəl/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "value",
+                  "cn": "价值",
+                  "phonetic": "/ˈvæljuː/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "inkstick",
+                  "cn": "墨条",
+                  "phonetic": "/ˈɪŋkstɪk/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "among",
+                  "cn": "在……中，……之一",
+                  "phonetic": "/əˈmʌŋ/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "largely",
+                  "cn": "主要地，在很大程度上",
+                  "phonetic": "/ˈlɑːdʒli/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "painter",
+                  "cn": "画家",
+                  "phonetic": "/ˈpeɪntə(r)/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "pine",
+                  "cn": "松木，松树",
+                  "phonetic": "/paɪn/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "main",
+                  "cn": "主要的，最重要的",
+                  "phonetic": "/meɪn/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "itself",
+                  "cn": "它本身",
+                  "phonetic": "/ɪtˈself/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "quality",
+                  "cn": "品质，质量；人品，素质",
+                  "phonetic": "/ˈkwɒləti/",
+                  "grade": "7B"
+                }
+              ]
             },
             {
-              "id": "unit5",
+              "id": "grade7b_unit5",
               "name": "Unit5",
-              "icon": "💧",
-              "description": "水、能源与自然资源",
-              "words": []
+              "icon": "🐾",
+              "description": "七年级下册 Unit 5 词汇",
+              "words": [
+                {
+                  "en": "bat",
+                  "cn": "蝙蝠",
+                  "phonetic": "/bæt/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "butterfly",
+                  "cn": "蝴蝶",
+                  "phonetic": "/ˈbʌtəflaɪ/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "ant",
+                  "cn": "蚂蚁",
+                  "phonetic": "/ænt/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "wing",
+                  "cn": "翅膀，翼",
+                  "phonetic": "/wɪŋ/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "taste",
+                  "cn": "尝，品；吃，喝",
+                  "phonetic": "/teɪst/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "awake",
+                  "cn": "醒着",
+                  "phonetic": "/əˈweɪk/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "up to",
+                  "cn": "达到（某数量、程度等）；至多有",
+                  "phonetic": "/ʌp tuː/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "insect",
+                  "cn": "昆虫",
+                  "phonetic": "/ˈɪnsekt/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "lift",
+                  "cn": "举起",
+                  "phonetic": "/lɪft/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "times",
+                  "cn": "倍",
+                  "phonetic": "/taɪmz/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "weight",
+                  "cn": "重量",
+                  "phonetic": "/weɪt/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "hole",
+                  "cn": "孔，洞",
+                  "phonetic": "/həʊl/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "worker",
+                  "cn": "工蜂；工人",
+                  "phonetic": "/ˈwɜːkə(r)/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "gram",
+                  "cn": "克",
+                  "phonetic": "/ɡræm/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "honey",
+                  "cn": "蜂蜜",
+                  "phonetic": "/ˈhʌni/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "snail",
+                  "cn": "蜗牛",
+                  "phonetic": "/sneɪl/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "trick",
+                  "cn": "把戏",
+                  "phonetic": "/trɪk/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "stick",
+                  "cn": "枝条",
+                  "phonetic": "/stɪk/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "bite",
+                  "cn": "咬",
+                  "phonetic": "/baɪt/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "fight",
+                  "cn": "打架",
+                  "phonetic": "/faɪt/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "look after",
+                  "cn": "照料",
+                  "phonetic": "/lʊk ˈɑːftə(r)/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "fur",
+                  "cn": "（动物的）软毛；毛皮",
+                  "phonetic": "/fɜː(r)/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "purr",
+                  "cn": "（猫）发出呼噜声",
+                  "phonetic": "/pɜː(r)/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "forget",
+                  "cn": "忘记做；遗忘",
+                  "phonetic": "/fəˈɡet/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "lonely",
+                  "cn": "孤独的",
+                  "phonetic": "/ˈləʊnli/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "parrot",
+                  "cn": "鹦鹉",
+                  "phonetic": "/ˈpærət/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "sound",
+                  "cn": "声音",
+                  "phonetic": "/saʊnd/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "alone",
+                  "cn": "独自，单独",
+                  "phonetic": "/əˈləʊn/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "corner",
+                  "cn": "角落，墙角，街角",
+                  "phonetic": "/ˈkɔːnə(r)/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "touch",
+                  "cn": "触摸，碰",
+                  "phonetic": "/tʌtʃ/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "goldfish",
+                  "cn": "金鱼",
+                  "phonetic": "/ˈɡəʊldfɪʃ/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "afraid",
+                  "cn": "担心；害怕，恐惧",
+                  "phonetic": "/əˈfreɪd/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "giraffe",
+                  "cn": "长颈鹿",
+                  "phonetic": "/dʒəˈrɑːf/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "bone",
+                  "cn": "骨头",
+                  "phonetic": "/bəʊn/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "neck",
+                  "cn": "颈，脖子",
+                  "phonetic": "/nek/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "snake",
+                  "cn": "蛇",
+                  "phonetic": "/sneɪk/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "tip",
+                  "cn": "实用的提示",
+                  "phonetic": "/tɪp/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "human",
+                  "cn": "人",
+                  "phonetic": "/ˈhjuːmən/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "radar",
+                  "cn": "雷达",
+                  "phonetic": "/ˈreɪdɑː(r)/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "allow",
+                  "cn": "使可能；允许",
+                  "phonetic": "/əˈlaʊ/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "safely",
+                  "cn": "安全地",
+                  "phonetic": "/ˈseɪfli/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "echo",
+                  "cn": "回声",
+                  "phonetic": "/ˈekəʊ/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "cheer",
+                  "cn": "鼓舞；欢呼，加油",
+                  "phonetic": "/tʃɪə(r)/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "cheer sb up",
+                  "cn": "使变得高兴，振奋起来",
+                  "phonetic": "/tʃɪə(r) ˈsʌmbədi ʌp/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "hard-working",
+                  "cn": "辛勤的",
+                  "phonetic": "/ˌhɑːd ˈwɜːkɪŋ/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "useful",
+                  "cn": "有用的",
+                  "phonetic": "/ˈjuːsfl/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "save",
+                  "cn": "拯救，救助",
+                  "phonetic": "/seɪv/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "correct",
+                  "cn": "正确的",
+                  "phonetic": "/kəˈrekt/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "relationship",
+                  "cn": "关系",
+                  "phonetic": "/rɪˈleɪʃnʃɪp/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "care for",
+                  "cn": "照料",
+                  "phonetic": "/keə(r) fɔː(r)/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "guinea pig",
+                  "cn": "天竺鼠",
+                  "phonetic": "/ˈɡɪni pɪɡ/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "round",
+                  "cn": "圆形的",
+                  "phonetic": "/raʊnd/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "name",
+                  "cn": "命名",
+                  "phonetic": "/neɪm/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "loud",
+                  "cn": "大声的",
+                  "phonetic": "/laʊd/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "noise",
+                  "cn": "声音，噪声",
+                  "phonetic": "/nɔɪz/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "down",
+                  "cn": "沮丧，情绪低落",
+                  "phonetic": "/daʊn/",
+                  "grade": "7B"
+                }
+              ]
             },
             {
-              "id": "unit6",
+              "id": "grade7b_unit6",
               "name": "Unit6",
-              "icon": "📚",
-              "description": "阅读、故事与文学体验",
-              "words": []
+              "icon": "🌍",
+              "description": "七年级下册 Unit 6 词汇",
+              "words": [
+                {
+                  "en": "ocean",
+                  "cn": "海洋",
+                  "phonetic": "/ˈəʊʃn/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "cover",
+                  "cn": "覆盖；遮盖",
+                  "phonetic": "/ˈkʌvə(r)/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "surface",
+                  "cn": "地面；表面",
+                  "phonetic": "/ˈsɜːfɪs/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "desert",
+                  "cn": "沙漠，荒漠",
+                  "phonetic": "/ˈdezət/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "forest",
+                  "cn": "森林",
+                  "phonetic": "/ˈfɒrɪst/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "rock",
+                  "cn": "岩石",
+                  "phonetic": "/rɒk/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "ground",
+                  "cn": "地面",
+                  "phonetic": "/ɡraʊnd/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "plain",
+                  "cn": "平原",
+                  "phonetic": "/pleɪn/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "flat",
+                  "cn": "平坦的，平的",
+                  "phonetic": "/flæt/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "land",
+                  "cn": "陆地；土地",
+                  "phonetic": "/lænd/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "rise",
+                  "cn": "发源；上升；提高；上升；增强；提高",
+                  "phonetic": "/raɪz/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "fresh",
+                  "cn": "淡的，无盐的；新鲜的",
+                  "phonetic": "/freʃ/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "farming",
+                  "cn": "耕种，务农",
+                  "phonetic": "/ˈfɑːmɪŋ/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "powerful",
+                  "cn": "力量大的；有影响力的",
+                  "phonetic": "/ˈpaʊəfl/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "flood",
+                  "cn": "泛滥，淹没；洪水",
+                  "phonetic": "/flʌd/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "destroy",
+                  "cn": "破坏，摧毁",
+                  "phonetic": "/dɪˈstrɔɪ/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "nothing",
+                  "cn": "没有什么",
+                  "phonetic": "/ˈnʌθɪŋ/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "mostly",
+                  "cn": "主要地，通常",
+                  "phonetic": "/ˈməʊstli/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "sand",
+                  "cn": "沙，沙子",
+                  "phonetic": "/sænd/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "nobody",
+                  "cn": "没有人",
+                  "phonetic": "/ˈnəʊbədi/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "conditions",
+                  "cn": "环境，条件",
+                  "phonetic": "/kənˈdɪʃnz/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "a few",
+                  "cn": "有些，几个",
+                  "phonetic": "/ə fjuː/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "survive",
+                  "cn": "生存，存活",
+                  "phonetic": "/səˈvaɪv/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "huge",
+                  "cn": "巨大的",
+                  "phonetic": "/hjuːdʒ/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "planet",
+                  "cn": "行星",
+                  "phonetic": "/ˈplænɪt/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "produce",
+                  "cn": "生产",
+                  "phonetic": "/prəˈdjuːs/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "oxygen",
+                  "cn": "氧气",
+                  "phonetic": "/ˈɒksɪdʒən/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "breathe",
+                  "cn": "呼吸",
+                  "phonetic": "/briːð/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "northern",
+                  "cn": "北方的，北部的",
+                  "phonetic": "/ˈnɔːðən/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "Arctic char",
+                  "cn": "北极红点鲑",
+                  "phonetic": "/ˈɑːktɪk ˈtʃɑː(r)/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "campfire",
+                  "cn": "篝火，营火",
+                  "phonetic": "/ˈkæmpfaɪə(r)/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "camp",
+                  "cn": "露营",
+                  "phonetic": "/kæmp/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "camping",
+                  "cn": "露营活动",
+                  "phonetic": "/ˈkæmpɪŋ/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "corn",
+                  "cn": "谷物；玉米",
+                  "phonetic": "/kɔːn/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "treat",
+                  "cn": "乐事，款待",
+                  "phonetic": "/triːt/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "landform",
+                  "cn": "地貌，地形",
+                  "phonetic": "/ˈlændfɔːm/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "north-west",
+                  "cn": "西北方；西北方的；向西北",
+                  "phonetic": "/ˌnɔːθ ˈwest/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "unusual",
+                  "cn": "不寻常的",
+                  "phonetic": "/ʌnˈjuːʒuəl/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "sandstone",
+                  "cn": "砂岩",
+                  "phonetic": "/ˈsændstəʊn/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "strange",
+                  "cn": "奇怪的；陌生的",
+                  "phonetic": "/streɪndʒ/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "form",
+                  "cn": "形成；出现，产生",
+                  "phonetic": "/fɔːm/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "power",
+                  "cn": "力量；电力供应",
+                  "phonetic": "/ˈpaʊə(r)/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "rainforest",
+                  "cn": "热带雨林",
+                  "phonetic": "/ˈreɪnfɒrɪst/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "waterfall",
+                  "cn": "瀑布",
+                  "phonetic": "/ˈwɔːtəfɔːl/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "cloud",
+                  "cn": "云，云彩",
+                  "phonetic": "/klaʊd/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "sunrise",
+                  "cn": "日出",
+                  "phonetic": "/ˈsʌnraɪz/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "wonderland",
+                  "cn": "非常奇妙的地方；童话中的仙境，奇境",
+                  "phonetic": "/ˈwʌndəlænd/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "several",
+                  "cn": "几个，一些",
+                  "phonetic": "/ˈsevrəl/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "path",
+                  "cn": "小路，小径",
+                  "phonetic": "/pɑːθ/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "step",
+                  "cn": "台阶，梯级；脚步声；步骤",
+                  "phonetic": "/step/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "cable",
+                  "cn": "缆车",
+                  "phonetic": "/ˈkeɪbl/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "overnight",
+                  "cn": "在晚上；一夜之间",
+                  "phonetic": "/ˌəʊvəˈnaɪt/",
+                  "grade": "7B"
+                }
+              ]
             },
             {
-              "id": "unit7",
+              "id": "grade7b_unit7",
               "name": "Unit7",
-              "icon": "🚌",
-              "description": "交通方式与旅行体验",
-              "words": []
+              "icon": "🚴",
+              "description": "七年级下册 Unit 7 词汇",
+              "words": [
+                {
+                  "en": "cycling",
+                  "cn": "骑自行车运动（或活动）",
+                  "phonetic": "/ˈsaɪklɪŋ/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "horse riding",
+                  "cn": "骑马",
+                  "phonetic": "/hɔːs ˈraɪdɪŋ/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "skating",
+                  "cn": "滑冰，溜冰",
+                  "phonetic": "/ˈskeɪtɪŋ/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "break",
+                  "cn": "间断，暂停；休息",
+                  "phonetic": "/breɪk/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "take a break",
+                  "cn": "休息一会儿",
+                  "phonetic": "/teɪk ə breɪk/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "balance",
+                  "cn": "平衡能力，平衡",
+                  "phonetic": "/ˈbæləns/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "might",
+                  "cn": "可能",
+                  "phonetic": "/maɪt/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "on one's own",
+                  "cn": "独自；独立地",
+                  "phonetic": "/ɒn wʌnz əʊn/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "skiing",
+                  "cn": "滑雪（运动）",
+                  "phonetic": "/ˈskiːɪŋ/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "would",
+                  "cn": "将会，就会",
+                  "phonetic": "/wʊd/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "experience",
+                  "cn": "一次经历；经验",
+                  "phonetic": "/ɪkˈspɪəriəns/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "set off",
+                  "cn": "出发",
+                  "phonetic": "/set ɒf/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "follow",
+                  "cn": "遵循；跟随",
+                  "phonetic": "/ˈfɒləʊ/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "detail",
+                  "cn": "具体情况；细节",
+                  "phonetic": "/ˈdiːteɪl/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "countryside",
+                  "cn": "农村，乡村",
+                  "phonetic": "/ˈkʌntrisaɪd/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "lost",
+                  "cn": "迷路的；丢失的",
+                  "phonetic": "/lɒst/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "none",
+                  "cn": "没有一个",
+                  "phonetic": "/nʌn/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "worried",
+                  "cn": "担心的，发愁的",
+                  "phonetic": "/ˈwʌrid/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "luckily",
+                  "cn": "幸好，幸运地",
+                  "phonetic": "/ˈlʌkɪli/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "cycle",
+                  "cn": "骑自行车",
+                  "phonetic": "/ˈsaɪkl/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "arrive",
+                  "cn": "到达",
+                  "phonetic": "/əˈraɪv/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "app",
+                  "cn": "应用软件",
+                  "phonetic": "/æp/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "application",
+                  "cn": "应用软件",
+                  "phonetic": "/ˌæplɪˈkeɪʃn/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "find out",
+                  "cn": "查明，弄清（情况）",
+                  "phonetic": "/faɪnd aʊt/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "enjoyable",
+                  "cn": "令人愉快的",
+                  "phonetic": "/ɪnˈdʒɔɪəbl/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "proud",
+                  "cn": "自豪的",
+                  "phonetic": "/praʊd/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "be proud of",
+                  "cn": "为……感到骄傲",
+                  "phonetic": "/bi praʊd əv/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "hiking",
+                  "cn": "远足，徒步旅行",
+                  "phonetic": "/ˈhaɪkɪŋ/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "noon",
+                  "cn": "正午，中午",
+                  "phonetic": "/nuːn/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "later",
+                  "cn": "后来，随后",
+                  "phonetic": "/ˈleɪtə(r)/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "at first",
+                  "cn": "起初",
+                  "phonetic": "/æt fɜːst/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "skate",
+                  "cn": "冰鞋",
+                  "phonetic": "/skeɪt/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "little by little",
+                  "cn": "缓慢地，逐渐地",
+                  "phonetic": "/ˈlɪtl baɪ ˈlɪtl/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "picnic",
+                  "cn": "野餐",
+                  "phonetic": "/ˈpɪknɪk/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "because of",
+                  "cn": "因为",
+                  "phonetic": "/bɪˈkɒz əv/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "campsite",
+                  "cn": "野营地",
+                  "phonetic": "/ˈkæmpsaɪt/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "childhood",
+                  "cn": "童年，幼年",
+                  "phonetic": "/ˈtʃaɪldhʊd/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "relaxed",
+                  "cn": "放松的，冷静的",
+                  "phonetic": "/rɪˈlækst/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "while",
+                  "cn": "一段时间，一会儿",
+                  "phonetic": "/waɪl/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "ever",
+                  "cn": "在任何时候；曾经",
+                  "phonetic": "/ˈevə(r)/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "focus",
+                  "cn": "集中；聚焦",
+                  "phonetic": "/ˈfəʊkəs/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "mind",
+                  "cn": "头脑；思考能力；聪明人",
+                  "phonetic": "/maɪnd/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "roll out",
+                  "cn": "展开",
+                  "phonetic": "/rəʊl aʊt/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "sleeping bag",
+                  "cn": "睡袋",
+                  "phonetic": "/ˈsliːpɪŋ bæɡ/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "fall",
+                  "cn": "进入某状态；落下，掉落；倒下",
+                  "phonetic": "/fɔːl/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "asleep",
+                  "cn": "睡着",
+                  "phonetic": "/əˈsliːp/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "chance",
+                  "cn": "机会；可能性",
+                  "phonetic": "/tʃɑːns/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "first-time",
+                  "cn": "首次的，第一次的",
+                  "phonetic": "/ˌfɜːst ˈtaɪm/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "camper",
+                  "cn": "露营者",
+                  "phonetic": "/ˈkæmpə(r)/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "medicine",
+                  "cn": "药物；医学",
+                  "phonetic": "/ˈmedsn/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "safety",
+                  "cn": "安全，平安；安全处所",
+                  "phonetic": "/ˈseɪfti/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "birdwatching",
+                  "cn": "观鸟",
+                  "phonetic": "/ˈbɜːdwɒtʃɪŋ/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "binoculars",
+                  "cn": "双筒望远镜",
+                  "phonetic": "/bɪˈnɒkjələz/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "clearly",
+                  "cn": "清楚地；明白地；明显地",
+                  "phonetic": "/ˈklɪəli/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "had better",
+                  "cn": "应该，最好",
+                  "phonetic": "/hæd ˈbetə(r)/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "thirsty",
+                  "cn": "口渴的",
+                  "phonetic": "/ˈθɜːsti/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "no problem",
+                  "cn": "没什么，不客气；没问题",
+                  "phonetic": "/nəʊ ˈprɒbləm/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "camera",
+                  "cn": "照相机",
+                  "phonetic": "/ˈkæmərə/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "narrow",
+                  "cn": "狭窄的",
+                  "phonetic": "/ˈnærəʊ/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "support",
+                  "cn": "帮助；支持；支撑",
+                  "phonetic": "/səˈpɔːt/",
+                  "grade": "7B"
+                }
+              ]
             },
             {
-              "id": "unit8",
+              "id": "grade7b_unit8",
               "name": "Unit8",
-              "icon": "🎓",
-              "description": "校园生活与时间管理",
-              "words": []
+              "icon": "📚",
+              "description": "七年级下册 Unit 8 词汇",
+              "words": [
+                {
+                  "en": "fisherman",
+                  "cn": "渔民，钓鱼爱好者",
+                  "phonetic": "/ˈfɪʃəmən/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "fishermen",
+                  "cn": "渔民，钓鱼爱好者",
+                  "phonetic": "/ˈfɪʃəmən/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "adventure",
+                  "cn": "历险，奇遇",
+                  "phonetic": "/ədˈventʃə(r)/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "partner",
+                  "cn": "搭档",
+                  "phonetic": "/ˈpɑːtnə(r)/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "magic",
+                  "cn": "有魔力的，神奇的",
+                  "phonetic": "/ˈmædʒɪk/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "paintbrush",
+                  "cn": "画笔",
+                  "phonetic": "/ˈpeɪntbrʌʃ/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "poor",
+                  "cn": "贫穷的",
+                  "phonetic": "/pɔː(r); pʊə(r)/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "magical",
+                  "cn": "有魔力的，奇妙的",
+                  "phonetic": "/ˈmædʒɪkl/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "collection",
+                  "cn": "作品集，收集物",
+                  "phonetic": "/kəˈlekʃn/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "fantasy",
+                  "cn": "奇幻小说；幻想，想象",
+                  "phonetic": "/ˈfæntəsi/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "god",
+                  "cn": "神",
+                  "phonetic": "/ɡɒd/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "character",
+                  "cn": "人物，角色",
+                  "phonetic": "/ˈkærəktə(r)/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "lend",
+                  "cn": "借给，借出",
+                  "phonetic": "/lend/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "pass",
+                  "cn": "通过；结束；传递",
+                  "phonetic": "/pɑːs/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "pass by",
+                  "cn": "经过，通过",
+                  "phonetic": "/pɑːs baɪ/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "hit",
+                  "cn": "碰撞；击，打，打击",
+                  "phonetic": "/hɪt/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "herself",
+                  "cn": "她自己",
+                  "phonetic": "/hɜːˈself/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "low",
+                  "cn": "低的",
+                  "phonetic": "/ləʊ/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "locked",
+                  "cn": "锁住的",
+                  "phonetic": "/lɒkt/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "fit",
+                  "cn": "适合",
+                  "phonetic": "/fɪt/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "lock",
+                  "cn": "锁",
+                  "phonetic": "/lɒk/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "notice",
+                  "cn": "注意到；留意",
+                  "phonetic": "/ˈnəʊtɪs/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "happen",
+                  "cn": "发生，出现",
+                  "phonetic": "/ˈhæpən/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "series",
+                  "cn": "连续剧；系列",
+                  "phonetic": "/ˈsɪəriːz/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "factory",
+                  "cn": "工厂，制造厂",
+                  "phonetic": "/ˈfæktri/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "company",
+                  "cn": "公司",
+                  "phonetic": "/ˈkʌmpəni/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "just",
+                  "cn": "刚才，方才",
+                  "phonetic": "/dʒʌst/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "if",
+                  "cn": "是否",
+                  "phonetic": "/ɪf/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "be born",
+                  "cn": "出生，出现",
+                  "phonetic": "/bi bɔːn/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "lose",
+                  "cn": "失去，丧失",
+                  "phonetic": "/luːz/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "publish",
+                  "cn": "出版；发表（作品）",
+                  "phonetic": "/ˈpʌblɪʃ/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "die",
+                  "cn": "死，死亡；消失",
+                  "phonetic": "/daɪ/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "guide",
+                  "cn": "指南；导游",
+                  "phonetic": "/ɡaɪd/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "set",
+                  "cn": "为……设置背景于；创立",
+                  "phonetic": "/set/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "real",
+                  "cn": "真实的，实际存在的",
+                  "phonetic": "/ˈrɪəl/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "magic",
+                  "cn": "魔法；魔术；魔力",
+                  "phonetic": "/ˈmædʒɪk/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "imagined",
+                  "cn": "想象的",
+                  "phonetic": "/ɪˈmædʒɪnd/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "while",
+                  "cn": "在……期间；与……同时",
+                  "phonetic": "/waɪl/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "plot",
+                  "cn": "故事情节",
+                  "phonetic": "/plɒt/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "fairy",
+                  "cn": "小精灵，仙子",
+                  "phonetic": "/ˈfeəri/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "nurse",
+                  "cn": "保姆；护士",
+                  "phonetic": "/nɜːs/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "happily",
+                  "cn": "高兴地",
+                  "phonetic": "/ˈhæpɪli/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "finally",
+                  "cn": "最终",
+                  "phonetic": "/ˈfaɪnəli/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "walking stick",
+                  "cn": "手杖，拐棍",
+                  "phonetic": "/ˈwɔːkɪŋ stɪk/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "peach",
+                  "cn": "桃，桃子",
+                  "phonetic": "/piːtʃ/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "fill",
+                  "cn": "使充满，填满",
+                  "phonetic": "/fɪl/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "give up",
+                  "cn": "放弃",
+                  "phonetic": "/ɡɪv ʌp/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "in the face of",
+                  "cn": "面对（困难等）",
+                  "phonetic": "/ɪn ðə feɪs əv/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "task",
+                  "cn": "任务，工作",
+                  "phonetic": "/tɑːsk/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "goal",
+                  "cn": "目标",
+                  "phonetic": "/ɡəʊl/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "note",
+                  "cn": "便条；笔记；音符",
+                  "phonetic": "/nəʊt/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "suddenly",
+                  "cn": "突然",
+                  "phonetic": "/ˈsʌdənli/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "decide",
+                  "cn": "决定",
+                  "phonetic": "/dɪˈsaɪd/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "enter",
+                  "cn": "进入",
+                  "phonetic": "/ˈentə(r)/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "towards",
+                  "cn": "向，朝",
+                  "phonetic": "/təˈwɔːdz/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "toward",
+                  "cn": "向，朝",
+                  "phonetic": "/təˈwɔːd/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "too ... to",
+                  "cn": "太……而不能",
+                  "phonetic": "/tuː tə/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "reach",
+                  "cn": "够得着；抵达；实现；达到",
+                  "phonetic": "/riːtʃ/",
+                  "grade": "7B"
+                },
+                {
+                  "en": "fail",
+                  "cn": "失败，未能做到；不及格",
+                  "phonetic": "/feɪl/",
+                  "grade": "7B"
+                }
+              ]
             }
           ]
         }

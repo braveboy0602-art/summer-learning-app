@@ -25,6 +25,13 @@
           "icon": "📖",
           "description": "8A Unit1-Unit8",
           "dataFile": "data/junior_vocabulary8A.json"
+        },
+        {
+          "id": "junior_3500_7days",
+          "name": "初中3500词",
+          "icon": "📖",
+          "description": "7天背完初中3500词分类词汇",
+          "dataFile": "data/junior_3500_7days.json"
         }
       ]
     },

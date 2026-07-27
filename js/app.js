@@ -538,7 +538,12 @@ const StudyApp = {
     this._challengeIndex = 0;
     this._challengeAnswer = [];   // { letter, btnId }[]
     this._challengeScore = 0;
+    this._challengeCombo = 0;     // 当前连续答对
+    this._challengeMaxCombo = 0;  // 本次最高连续答对
     this._challengeIsSRS = false; // 普通挑战非 SRS 模式
+    this._challengeRound = 1;     // 基础轮
+    this._challengeWrongWords = []; // 记录基础轮答错的词
+    this._originalChallengeWords = words; // 保存原始词列表用于最终统计
 
     // 隐藏完成页、显示游戏区
     document.getElementById('challengeComplete').style.display = 'none';
@@ -585,7 +590,10 @@ const StudyApp = {
     this._challengeIndex = 0;
     this._challengeAnswer = [];
     this._challengeScore = 0;
+    this._challengeCombo = 0;
+    this._challengeMaxCombo = 0;
     this._challengeIsSRS = true;   // ← SRS 标记
+    this._challengeRound = 1;
 
     document.getElementById('challengeComplete').style.display = 'none';
     document.getElementById('challengeGameContent').style.display = 'block';
@@ -614,6 +622,13 @@ const StudyApp = {
     // SRS 标记复位
     this._challengeIsSRS = false;
 
+    // 清理重练相关状态，防止下次打开挑战时残留
+    this._challengeRound = 1;
+    this._challengeCombo = 0;
+    this._challengeMaxCombo = 0;
+    this._challengeWrongWords = [];
+    this._originalChallengeWords = null;
+
     const overlay = document.getElementById('challengeOverlay');
     if (!overlay) return;
     overlay.style.display = 'none';
@@ -632,7 +647,7 @@ const StudyApp = {
           this._closeChallenge();
           return;
         }
-        if (window.confirm('确定要退出闯关吗？当前进度将会丢失哦！')) {
+        if (window.confirm('休息一下？\n\n下次可以继续挑战。\n\n确定退出吗？')) {
           this._closeChallenge();
         }
       });
@@ -659,7 +674,7 @@ const StudyApp = {
             this._closeChallenge();
             return;
           }
-          if (window.confirm('确定要退出闯关吗？当前进度将会丢失哦！')) {
+          if (window.confirm('休息一下？\n\n下次可以继续挑战。\n\n确定退出吗？')) {
             this._closeChallenge();
           }
         }
@@ -715,6 +730,44 @@ const StudyApp = {
         btn.classList.add('playing');
         setTimeout(() => btn.classList.remove('playing'), 600);
       });
+    }
+
+    // 完成页：错词重练按钮
+    const retryBtn = document.getElementById('completeRetryBtn');
+    if (retryBtn) {
+      retryBtn.addEventListener('click', () => {
+        const wrongWords = this._challengeWrongWords;
+        if (!wrongWords || wrongWords.length === 0) {
+          this._showToast('没有错词需要重练');
+          return;
+        }
+
+        // 关闭完成页 → 用错词重新开启挑战
+        this._challengeWords = this._shuffleArray([...wrongWords]);
+        this._challengeIndex = 0;
+        this._challengeAnswer = [];
+        this._challengeScore = 0;
+        this._challengeCombo = 0;
+        this._challengeMaxCombo = 0;
+        this._challengeRound = 2; // 重练轮
+
+        document.getElementById('challengeComplete').style.display = 'none';
+
+        // 更新头部
+        const catEl = document.getElementById('challengeCategory');
+        if (catEl) catEl.textContent = '🔁 错词重练';
+        const cntEl = document.getElementById('challengeWordCount');
+        if (cntEl) cntEl.textContent = `${wrongWords.length} 个单词`;
+
+        document.getElementById('challengeGameContent').style.display = 'block';
+        this._renderChallengeQuestion();
+      });
+    }
+
+    // 完成页：继续学习按钮
+    const continueBtn = document.getElementById('completeContinueBtn');
+    if (continueBtn) {
+      continueBtn.addEventListener('click', () => this._closeChallenge());
     }
   },
 
@@ -982,32 +1035,83 @@ const StudyApp = {
     const isCorrect = answer === expected;
 
     if (isCorrect) {
+      // ---- Combo 逻辑 ----
+      this._challengeCombo++;
+      if (this._challengeCombo > this._challengeMaxCombo) {
+        this._challengeMaxCombo = this._challengeCombo;
+      }
+
       this._challengeScore++;
+
+      // ---- 正确反馈文案 ----
+      let comboHtml = '';
+      if (this._challengeCombo >= 5) {
+        comboHtml = `<div class="combo-line combo-fire">🔥 太棒了！连续正确 ${this._challengeCombo} 题！🔥</div>`;
+      } else if (this._challengeCombo >= 2) {
+        comboHtml = `<div class="combo-line combo-warm">🔥 连对 ${this._challengeCombo} 题！</div>`;
+      }
+
       feedback.className = 'challenge-feedback feedback-correct';
-      feedback.innerHTML = `🎉 正确！<br><strong>${this._escapeHtml(word.en)}</strong>`;
+      feedback.innerHTML =
+        `<div class="feedback-line">✅ 正确！<strong>${this._escapeHtml(word.en)}</strong></div>` +
+        comboHtml;
       feedback.style.display = 'block';
+
+      // ---- 分数浮动动画 ----
+      this._showScorePop(10);
+
       setTimeout(() => this._nextChallenge(), 1200);
     } else {
+      // 答错 → 重置 combo
+      this._challengeCombo = 0;
+
+      // ---- 错误反馈文案 ----
       feedback.className = 'challenge-feedback feedback-wrong';
-      feedback.innerHTML = `❌ 拼写错误<br>正确答案：<strong>${this._escapeHtml(word.en)}</strong>`;
+      feedback.innerHTML =
+        `<div class="feedback-line">❌ 再想想</div>` +
+        `<div class="feedback-answer">正确答案：<strong>${this._escapeHtml(word.en)}</strong> · 📝 已计入后续复习</div>`;
       feedback.style.display = 'block';
-      setTimeout(() => this._nextChallenge(), 2000);
+
+      setTimeout(() => this._nextChallenge(), 2200);
     }
 
-    // 记录本次答题
-    Tracker.track('challenge_answer', {
-      categoryId: this.currentCategoryId,
-      wordId: word.en,
-      word: word.en,
-      isCorrect: isCorrect,
-      questionIndex: this._challengeIndex,
-      totalQuestions: this._challengeWords.length
-    });
+    // 只有基础轮才记录到 Tracker 和 SRS；重练轮纯粹是当天强化练习，不落地任何数据
+    if (this._challengeRound === 1) {
+      // 记录本次答题
+      Tracker.track('challenge_answer', {
+        categoryId: this.currentCategoryId,
+        wordId: word.en,
+        word: word.en,
+        isCorrect: isCorrect,
+        questionIndex: this._challengeIndex,
+        totalQuestions: this._challengeWords.length
+      });
 
-    // 记录到 SRS 间隔重复系统（所有答题都记录，包括普通挑战）
-    try { SRS.recordAnswer(word.en, isCorrect); } catch (e) {
-      console.warn('[SRS] 记录失败:', e);
+      // 记录到 SRS 间隔重复系统
+      try { SRS.recordAnswer(word.en, isCorrect); } catch (e) {
+        console.warn('[SRS] 记录失败:', e);
+      }
+
+      if (!isCorrect) {
+        this._challengeWrongWords.push(word);
+      }
     }
+  },
+
+  /** 显示分数浮动动画 */
+  _showScorePop(points) {
+    const feedback = document.getElementById('challengeFeedback');
+    if (!feedback) return;
+    const old = feedback.querySelector('.score-pop');
+    if (old) old.remove();
+
+    const pop = document.createElement('div');
+    pop.className = 'score-pop';
+    pop.textContent = `+${points}`;
+    feedback.appendChild(pop);
+
+    // 动画结束后自动移除 DOM
+    pop.addEventListener('animationend', () => pop.remove(), { once: true });
   },
 
   /** 进入下一题 */
@@ -1024,13 +1128,46 @@ const StudyApp = {
   _showChallengeComplete() {
     document.getElementById('challengeGameContent').style.display = 'none';
 
-    const total = this._challengeWords.length;
+    // Round 1: 全量统计；Round 2: 按错词范围统计
+    const total = this._challengeRound === 1
+      ? (this._originalChallengeWords ? this._originalChallengeWords.length : this._challengeWords.length)
+      : this._challengeWords.length;
     const correct = this._challengeScore;
     const score = total > 0 ? Math.round((correct / total) * 100) : 0;
 
+    // ---- 星级评价 ----
+    let starCount = 0;
+    let starComment = '';
+    if (score >= 90) {
+      starCount = 5;
+      starComment = '🌟 太棒了！词汇达人！';
+    } else if (score >= 80) {
+      starCount = 4;
+      starComment = '👏 很棒！继续加油！';
+    } else if (score >= 60) {
+      starCount = 3;
+      starComment = '💪 不错哦！再接再厉！';
+    } else {
+      starCount = 2;
+      starComment = '📖 继续练习，会更好的！';
+    }
+    const starsHtml = '★'.repeat(starCount) + '☆'.repeat(5 - starCount);
+
+    // 更新 UI
     document.getElementById('completeTotal').textContent = total;
     document.getElementById('completeCorrect').textContent = correct;
     document.getElementById('completeScore').textContent = score;
+    document.getElementById('completeStars').textContent = starsHtml;
+    document.getElementById('completeStarComment').textContent = starComment;
+    document.getElementById('completeMaxCombo').textContent = this._challengeMaxCombo;
+
+    // ---- 错词重练按钮 ----
+    const retryBtn = document.getElementById('completeRetryBtn');
+    const hasWrongWords = this._challengeWrongWords.length > 0 && this._challengeRound !== 2;
+    if (retryBtn) {
+      retryBtn.style.display = hasWrongWords ? 'inline-flex' : 'none';
+      retryBtn.textContent = `🔁 重新挑战错词 (${this._challengeWrongWords.length})`;
+    }
 
     // 记录闯关完成
     Tracker.track('challenge_complete', {

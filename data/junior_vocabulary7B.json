@@ -1,0 +1,74 @@
+{
+  "subjects": {
+    "english": {
+      "name": "英语",
+      "icon": "🇬🇧",
+      "groups": [
+        {
+          "id": "junior7B",
+          "name": "七年级下册词汇",
+          "icon": "📖",
+          "description": "7B Unit1-Unit8 单词默写词汇",
+          "categories": [
+            {
+              "id": "unit1",
+              "name": "Unit1",
+              "icon": "🐾",
+              "description": "宠物、动物与人（宠物饲养、动物特征描述等词汇）",
+              "words": []
+            },
+            {
+              "id": "unit2",
+              "name": "Unit2",
+              "icon": "🏠",
+              "description": "社区、邻里与居住环境",
+              "words": []
+            },
+            {
+              "id": "unit3",
+              "name": "Unit3",
+              "icon": "🌍",
+              "description": "环境、自然与保护",
+              "words": []
+            },
+            {
+              "id": "unit4",
+              "name": "Unit4",
+              "icon": "🎵",
+              "description": "音乐、艺术与才艺展示",
+              "words": []
+            },
+            {
+              "id": "unit5",
+              "name": "Unit5",
+              "icon": "💧",
+              "description": "水、能源与自然资源",
+              "words": []
+            },
+            {
+              "id": "unit6",
+              "name": "Unit6",
+              "icon": "📚",
+              "description": "阅读、故事与文学体验",
+              "words": []
+            },
+            {
+              "id": "unit7",
+              "name": "Unit7",
+              "icon": "🚌",
+              "description": "交通方式与旅行体验",
+              "words": []
+            },
+            {
+              "id": "unit8",
+              "name": "Unit8",
+              "icon": "🎓",
+              "description": "校园生活与时间管理",
+              "words": []
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "subjects": {
+    "english": {
+      "name": "英语",
+      "icon": "🇬🇧",
+      "groups": [
+        {
+          "id": "junior8B",
+          "name": "八年级下册词汇",
+          "icon": "📖",
+          "description": "8B Unit1-Unit8 单词默写词汇",
+          "categories": [
+            {
+              "id": "unit1",
+              "name": "Unit1",
+              "icon": "❤️",
+              "description": "疾病、健康与提供帮助",
+              "words": []
+            },
+            {
+              "id": "unit2",
+              "name": "Unit2",
+              "icon": "🤝",
+              "description": "志愿服务、慈善与社区贡献",
+              "words": []
+            },
+            {
+              "id": "unit3",
+              "name": "Unit3",
+              "icon": "🧹",
+              "description": "家务劳动与家庭责任",
+              "words": []
+            },
+            {
+              "id": "unit4",
+              "name": "Unit4",
+              "icon": "💬",
+              "description": "人际沟通、压力与建议",
+              "words": []
+            },
+            {
+              "id": "unit5",
+              "name": "Unit5",
+              "icon": "⛈️",
+              "description": "天气、自然灾害与突发事件",
+              "words": []
+            },
+            {
+              "id": "unit6",
+              "name": "Unit6",
+              "icon": "📖",
+              "description": "神话传说、经典故事与民间文学",
+              "words": []
+            },
+            {
+              "id": "unit7",
+              "name": "Unit7",
+              "icon": "🏔️",
+              "description": "地理景观、世界奇观与旅游",
+              "words": []
+            },
+            {
+              "id": "unit8",
+              "name": "Unit8",
+              "icon": "📕",
+              "description": "经典书籍、作家与文学欣赏",
+              "words": []
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

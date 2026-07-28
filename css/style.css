@@ -1736,3 +1736,235 @@ body {
     box-shadow: none;
   }
 }
+
+/* ==========================================
+   单词详情弹窗
+   ========================================== */
+
+.word-detail-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  background: rgba(0, 0, 0, 0.45);
+  backdrop-filter: blur(4px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: fadeIn .2s ease;
+}
+
+.word-detail-modal {
+  background: #fff;
+  border-radius: var(--radius);
+  width: min(520px, 92vw);
+  max-height: 82vh;
+  display: flex;
+  flex-direction: column;
+  box-shadow: var(--shadow-lg);
+  animation: slideUp .25s ease;
+  overflow: hidden;
+}
+
+@keyframes slideUp {
+  from { transform: translateY(30px); opacity: 0; }
+  to   { transform: translateY(0); opacity: 1; }
+}
+
+.word-detail-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 20px;
+  border-bottom: 1px solid var(--gray-200);
+  flex-shrink: 0;
+}
+
+.word-detail-header-left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.word-detail-icon {
+  font-size: 1.2rem;
+}
+
+.word-detail-title {
+  font-weight: 600;
+  font-size: 1rem;
+  color: var(--gray-800);
+}
+
+.word-detail-close {
+  background: none;
+  border: none;
+  font-size: 1.4rem;
+  color: var(--gray-400);
+  cursor: pointer;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  transition: all .15s;
+}
+
+.word-detail-close:hover {
+  background: var(--gray-100);
+  color: var(--gray-700);
+}
+
+.word-detail-body {
+  padding: 20px;
+  overflow-y: auto;
+  flex: 1;
+}
+
+.word-detail-body::-webkit-scrollbar {
+  width: 4px;
+}
+
+.word-detail-body::-webkit-scrollbar-thumb {
+  background: var(--gray-300);
+  border-radius: 4px;
+}
+
+/* 详情头部：单词 + 音标 + 释义 */
+.detail-word-header {
+  text-align: center;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--gray-100);
+  margin-bottom: 16px;
+}
+
+.detail-word-en {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--primary);
+  letter-spacing: .02em;
+}
+
+.detail-word-phonetic {
+  font-size: .95rem;
+  color: var(--gray-400);
+  margin-top: 4px;
+}
+
+.detail-word-cn {
+  font-size: 1.1rem;
+  color: var(--gray-700);
+  margin-top: 8px;
+}
+
+.detail-word-play {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  margin-top: 8px;
+  font-size: .85rem;
+  color: var(--primary);
+  cursor: pointer;
+  background: var(--primary-light);
+  border: none;
+  padding: 4px 14px;
+  border-radius: 20px;
+  transition: all .15s;
+}
+
+.detail-word-play:hover {
+  background: var(--secondary-light);
+}
+
+/* 记忆方法卡片 */
+.detail-section {
+  margin-bottom: 14px;
+}
+
+.detail-section-title {
+  font-size: .8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  color: var(--gray-400);
+  margin-bottom: 6px;
+}
+
+.detail-method-card {
+  background: var(--primary-light);
+  border-radius: var(--radius-sm);
+  padding: 12px 14px;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.detail-method-card.ai {
+  background: var(--warning-light);
+}
+
+.detail-method-badge {
+  font-size: .7rem;
+  font-weight: 700;
+  background: var(--primary);
+  color: #fff;
+  padding: 2px 8px;
+  border-radius: 6px;
+  white-space: nowrap;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+
+.detail-method-card.ai .detail-method-badge {
+  background: var(--warning);
+}
+
+.detail-method-text {
+  font-size: .95rem;
+  color: var(--gray-700);
+  line-height: 1.6;
+}
+
+/* 搭配 / 派生 / 例句列表 */
+.detail-list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.detail-list-item {
+  font-size: .9rem;
+  color: var(--gray-600);
+  padding: 6px 10px;
+  background: var(--gray-50);
+  border-radius: 8px;
+  line-height: 1.5;
+}
+
+.detail-list-item .label {
+  font-weight: 600;
+  color: var(--gray-500);
+  margin-right: 4px;
+}
+
+/* 无数据提示 */
+.detail-empty {
+  font-size: .85rem;
+  color: var(--gray-400);
+  font-style: italic;
+}
+
+/* 卡片悬停效果 - 提示可点击 */
+.word-card {
+  cursor: pointer;
+  transition: all .2s ease;
+}
+
+.word-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.word-card:active {
+  transform: translateY(0);
+}

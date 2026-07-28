@@ -44,6 +44,19 @@ const StudyApp = {
       // 即使失败也继续渲染，只是侧边栏没有分组数据
     }
 
+    // ---- 加载单词详情数据（记忆方法、例句等） ----
+    this._wordDetailData = {};
+    try {
+      const resp = await fetch('data/word_details_7a.json');
+      if (resp.ok) {
+        const detailData = await resp.json();
+        this._wordDetailData = detailData.words || {};
+        console.log('[StudyApp] 单词详情数据已加载:', Object.keys(this._wordDetailData).length, '个词');
+      }
+    } catch (err) {
+      console.warn('[StudyApp] 单词详情数据加载失败(不影响基本功能):', err);
+    }
+
     this._renderHeader();
     this._renderSidebar();
 
@@ -95,8 +108,35 @@ const StudyApp = {
           this.playAudio(playBtn.dataset.word);
           return;
         }
+        // 点击单词卡（非发音按钮）→ 打开详情
+        const wordCard = e.target.closest('.word-card');
+        if (wordCard && wordCard.dataset.wordKey) {
+          const key = wordCard.dataset.wordKey;
+          // key格式: categoryId_wordEn
+          const wordEn = key.substring(key.indexOf('_') + 1);
+          if (wordEn) {
+            this._openWordDetail(wordEn);
+          }
+        }
       });
     }
+
+    // 单词详情弹窗关闭按钮
+    const closeBtn = document.getElementById('wordDetailClose');
+    if (closeBtn) {
+      closeBtn.addEventListener('click', () => this._closeWordDetail());
+    }
+    // 点击遮罩关闭
+    const overlay = document.getElementById('wordDetailOverlay');
+    if (overlay) {
+      overlay.addEventListener('click', (e) => {
+        if (e.target === overlay) this._closeWordDetail();
+      });
+    }
+    // ESC键关闭
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') this._closeWordDetail();
+    });
 
   },
 
@@ -1433,6 +1473,163 @@ const StudyApp = {
         if (ov && ov.style.display !== 'none') this._closeDownloadModal();
       }
     });
+  },
+
+  // ============================================
+  // 单词详情弹窗
+  // ============================================
+
+  /**
+   * 打开单词详情弹窗
+   * @param {string} wordEn - 单词的英文（小写）
+   */
+  _openWordDetail(wordEn) {
+    const overlay = document.getElementById('wordDetailOverlay');
+    const body = document.getElementById('wordDetailBody');
+    if (!overlay || !body) return;
+
+    // 显示用原始大小写，查询用小写
+    const displayWord = wordEn;
+    const lookupWord = wordEn.toLowerCase();
+    const wordData = this._wordDetailData?.[lookupWord];
+    if (!wordData) {
+      body.innerHTML = `<div class="detail-empty" style="text-align:center;padding:40px 0;">
+        😅 暂无「${this._escapeHtml(displayWord)}」的详情数据</div>`;
+      overlay.style.display = 'flex';
+      return;
+    }
+
+    body.innerHTML = this._renderWordDetail(wordData, displayWord);
+    overlay.style.display = 'flex';
+
+    // 点击发音按钮播放
+    const playBtn = body.querySelector('.detail-word-play');
+    if (playBtn) {
+      playBtn.addEventListener('click', () => this.playAudio(wordEn));
+    }
+  },
+
+  /**
+   * 渲染单词详情内容
+   */
+  _renderWordDetail(wordData, wordEn) {
+    const cn = this._escapeHtml(wordData.cn || '');
+    const phonetic = wordData.phonetic || '';
+
+    // 记忆方法（优先书中原装，其次AI辅助）
+    const hasBookMethod = !!wordData.method;
+    const hasAiMethod = !!wordData.method_ai;
+    const methodText = hasBookMethod ? wordData.method : (hasAiMethod ? wordData.method_ai : '');
+    const methodType = hasBookMethod ? wordData.method_type : (hasAiMethod ? wordData.method_type_ai : '');
+    const methodBadge = hasBookMethod ? '📘 书中方法' : (hasAiMethod ? '🤖 AI辅助' : '');
+    const methodCardClass = hasAiMethod && !hasBookMethod ? 'detail-method-card ai' : 'detail-method-card';
+
+    // 搭配/派生/例句
+    const collocations = wordData.collocations || [];
+    const derivations = wordData.derivations || [];
+    const notes = wordData.notes || [];
+    const examples = wordData.examples || [];
+    const synonyms = wordData.synonyms || [];
+    const antonyms = wordData.antonyms || [];
+
+    let html = '';
+
+    // ===== 头部 =====
+    html += `<div class="detail-word-header">
+      <div class="detail-word-en">${this._escapeHtml(wordEn)}</div>
+      ${phonetic ? `<div class="detail-word-phonetic">${phonetic}</div>` : ''}
+      ${cn ? `<div class="detail-word-cn">${cn}</div>` : ''}
+      <button class="detail-word-play">🔊 点击发音</button>
+    </div>`;
+
+    // ===== 记忆方法 =====
+    if (methodText) {
+      html += `<div class="detail-section">
+        <div class="detail-section-title">🧠 记忆方法</div>
+        <div class="${methodCardClass}">
+          <span class="detail-method-badge">${methodBadge}</span>
+          <span class="detail-method-text">
+            <strong>${this._escapeHtml(methodType || '')}</strong>：${this._escapeHtml(methodText)}
+          </span>
+        </div>
+      </div>`;
+    }
+
+    // ===== 搭配用法 =====
+    if (collocations.length > 0) {
+      html += `<div class="detail-section">
+        <div class="detail-section-title">📎 搭配用法</div>
+        <div class="detail-list">
+          ${collocations.map(c => `<div class="detail-list-item">${this._escapeHtml(c)}</div>`).join('')}
+        </div>
+      </div>`;
+    }
+
+    // ===== 派生词 =====
+    if (derivations.length > 0) {
+      html += `<div class="detail-section">
+        <div class="detail-section-title">🌱 派生词</div>
+        <div class="detail-list">
+          ${derivations.map(d => `<div class="detail-list-item">${this._escapeHtml(d)}</div>`).join('')}
+        </div>
+      </div>`;
+    }
+
+    // ===== 例句 =====
+    if (examples.length > 0) {
+      html += `<div class="detail-section">
+        <div class="detail-section-title">💬 例句</div>
+        <div class="detail-list">
+          ${examples.map(e => `<div class="detail-list-item">${this._escapeHtml(e)}</div>`).join('')}
+        </div>
+      </div>`;
+    }
+
+    // ===== 笔记/辨析 =====
+    if (notes.length > 0) {
+      html += `<div class="detail-section">
+        <div class="detail-section-title">📝 注意</div>
+        <div class="detail-list">
+          ${notes.map(n => `<div class="detail-list-item">${this._escapeHtml(n)}</div>`).join('')}
+        </div>
+      </div>`;
+    }
+
+    // ===== 同义词/反义词 =====
+    if (synonyms.length > 0 || antonyms.length > 0) {
+      html += `<div class="detail-section">
+        <div class="detail-section-title">🔗 关联词汇</div>
+        <div class="detail-list">
+          ${synonyms.map(s => `<div class="detail-list-item"><span class="label">同义</span> ${this._escapeHtml(s)}</div>`).join('')}
+          ${antonyms.map(a => `<div class="detail-list-item"><span class="label">反义</span> ${this._escapeHtml(a)}</div>`).join('')}
+        </div>
+      </div>`;
+    }
+
+    // 来源说明
+    const sourceMap = {
+      'pdf': '《初中英语词汇词根+联想记忆法》',
+      'yu_speed': '《英语词汇速记大全》',
+      'pdf_derived': '《初中英语词汇词根+联想记忆法》（派生词条）',
+      'pdf_phrase': '《初中英语词汇词根+联想记忆法》（短语匹配）',
+      'ai_generated': 'AI辅助生成'
+    };
+    const sourceText = sourceMap[wordData.source] || '';
+    if (sourceText) {
+      html += `<div class="detail-section" style="margin-bottom:0">
+        <div style="font-size:.75rem;color:var(--gray-400);text-align:right">📚 来源：${sourceText}</div>
+      </div>`;
+    }
+
+    return html;
+  },
+
+  /**
+   * 关闭单词详情弹窗
+   */
+  _closeWordDetail() {
+    const overlay = document.getElementById('wordDetailOverlay');
+    if (overlay) overlay.style.display = 'none';
   }
 };
 

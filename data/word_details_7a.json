@@ -1,0 +1,6724 @@
+{
+  "meta": {
+    "source": "初中英语词汇词根+联想记忆法：乱序便携版 (俞敏洪)",
+    "total_words": 398,
+    "matched": 357,
+    "with_method": 398,
+    "final_missing": [
+      "be called",
+      "be interested in",
+      "maths",
+      "at weekends",
+      "jog",
+      "paint",
+      "p.m.",
+      "questionnaire",
+      "painting",
+      "noticeboard",
+      "a.m.",
+      "on weekdays",
+      "practise",
+      "would",
+      "website",
+      "bin",
+      "cucumber",
+      "pepper",
+      "beef",
+      "tofu",
+      "mutton",
+      "carton",
+      "tablet",
+      "informal",
+      "tight",
+      "be made of",
+      "smooth",
+      "leather",
+      "yuan",
+      "euro",
+      "yen",
+      "rouble",
+      "russian",
+      "budget",
+      "account",
+      "rainy",
+      "rubber",
+      "grandparent",
+      "dragon",
+      "christmas",
+      "greek",
+      "wherever",
+      "lantern"
+    ],
+    "still_missing": [
+      "a.m.",
+      "account",
+      "at weekends",
+      "be called",
+      "be interested in",
+      "be made of",
+      "beef",
+      "bin",
+      "budget",
+      "carton",
+      "cucumber",
+      "dragon",
+      "euro",
+      "grandparent",
+      "greek",
+      "informal",
+      "jog",
+      "lantern",
+      "leather",
+      "maths",
+      "mutton",
+      "noticeboard",
+      "on weekdays",
+      "p.m.",
+      "paint",
+      "painting",
+      "pepper",
+      "practise",
+      "questionnaire",
+      "rainy",
+      "rouble",
+      "rubber",
+      "russian",
+      "tablet",
+      "tight",
+      "tofu",
+      "website",
+      "wherever",
+      "would",
+      "yen",
+      "yuan"
+    ],
+    "book_method_count": 212,
+    "ai_method_count": 186
+  },
+  "words": {
+    "greet": {
+      "en": "greet",
+      "cn": "和……打招呼",
+      "source": "pdf",
+      "phonetic": "[ɡriːt]",
+      "method": "联想记忆：见面（meet）的时候互致问候（greet）",
+      "method_type": "联想记忆",
+      "collocations": [],
+      "derivations": [
+        "greeting（n. 祝贺，问候）"
+      ],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "introduce": {
+      "en": "introduce",
+      "cn": "介绍",
+      "source": "pdf",
+      "phonetic": "[ˌɪntrəˈdjuːs]",
+      "method": "词根记忆：intro（向内）+duce（引导）→引进",
+      "method_type": "词根记忆",
+      "collocations": [
+        "introduce...to... 把…介绍给…"
+      ],
+      "derivations": [
+        "introduction（n. 介绍）"
+      ],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "each other": {
+      "en": "each other",
+      "cn": "相互",
+      "source": "pdf_phrase",
+      "base_word": "each",
+      "phonetic": "",
+      "method": "",
+      "method_type": "",
+      "collocations": [
+        "each other 互相，彼此"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "each（每个）+ other（其他的）→相互",
+      "method_type_ai": "联想记忆"
+    },
+    "glad": {
+      "en": "glad",
+      "cn": "高兴的",
+      "source": "pdf",
+      "phonetic": "[ɡlæd]",
+      "method": "",
+      "method_type": "",
+      "collocations": [
+        "be glad to do sth. 乐意或高兴做某事"
+      ],
+      "derivations": [],
+      "notes": [
+        "在国外，初次见面时，常会说Glad to meet/see you. 很高兴见到"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "高兴的（glad）女孩有花（lad）",
+      "method_type_ai": "词根记忆"
+    },
+    "same": {
+      "en": "same",
+      "cn": "同一的，相同的",
+      "source": "pdf",
+      "phonetic": "[seɪm]",
+      "method": "联想记忆： 他们的name（名字）完全same（相同的，一样的）",
+      "method_type": "联想记忆",
+      "collocations": [
+        "at the same time 同时；on the same day 在同一天；in the same"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "hobby": {
+      "en": "hobby",
+      "cn": "业余爱好",
+      "source": "pdf",
+      "phonetic": "[ˈhɒbi]",
+      "method": "联想记忆：我的hobby（业余爱好）是照顾baby（婴儿）",
+      "method_type": "联想记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "grade": {
+      "en": "grade",
+      "cn": "年级；等级",
+      "source": "pdf",
+      "phonetic": "[ɡreɪd]",
+      "method": "联想记忆：考了满分，great（了不起的）grade（分数）！",
+      "method_type": "联想记忆",
+      "collocations": [
+        "low grade 级别低的",
+        "on Thursday 在星期四"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "classmate": {
+      "en": "classmate",
+      "cn": "同班同学",
+      "source": "pdf_derived",
+      "base_word": "class",
+      "phonetic": "[klɑːs]",
+      "method": "",
+      "method_type": "",
+      "collocations": [
+        "in class 在上课"
+      ],
+      "derivations": [
+        "classify（v. 分类，归类）"
+      ],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "class（班级）+ mate（同伴）→同班同学",
+      "method_type_ai": "联想记忆"
+    },
+    "friendly": {
+      "en": "friendly",
+      "cn": "友好的",
+      "source": "pdf_derived",
+      "base_word": "friend",
+      "phonetic": "[frend]",
+      "method": "",
+      "method_type": "",
+      "collocations": [],
+      "derivations": [
+        "friendly（adj. 友好的）"
+      ],
+      "notes": [
+        "friendly是从friend 派生而来的，考生需要注意的是friendly不是"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "friend（朋友）+ ly（形容词后缀）→友好的",
+      "method_type_ai": "词根记忆"
+    },
+    "full": {
+      "en": "full",
+      "cn": "满的",
+      "source": "pdf",
+      "phonetic": "[fʊl]",
+      "method": "联想记忆：一头bull（公牛），吃太full（饱的），变成fool（傻",
+      "method_type": "联想记忆",
+      "collocations": [
+        "be full of 充满…；at full speed 全速地"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "be full of": {
+      "en": "be full of",
+      "cn": "满是",
+      "source": "pdf_phrase",
+      "base_word": "full",
+      "phonetic": "",
+      "method": "联想记忆：一头bull（公牛），吃太full（饱的），变成fool（傻",
+      "method_type": "联想记忆",
+      "collocations": [
+        "be full of 充满…；at full speed 全速地"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "energy": {
+      "en": "energy",
+      "cn": "精力，活力",
+      "source": "pdf",
+      "phonetic": "[ˈenədʒi]",
+      "method": "词根记忆：en+erg（活动，能量）+y→能量",
+      "method_type": "词根记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "be good at": {
+      "en": "be good at",
+      "cn": "擅长……",
+      "source": "pdf_phrase",
+      "base_word": "good",
+      "phonetic": "",
+      "method": "联想记忆：仁慈的（good）上帝（God）请宽恕他",
+      "method_type": "联想记忆",
+      "collocations": [
+        "be good for 有益于；be good at 擅长，善于"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "polite": {
+      "en": "polite",
+      "cn": "有礼貌的",
+      "source": "pdf",
+      "phonetic": "[pəˈlaɪt]",
+      "method": "联想记忆：警察（police）很有礼貌（polite）",
+      "method_type": "联想记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "smart": {
+      "en": "smart",
+      "cn": "聪明的；智能的",
+      "source": "pdf",
+      "phonetic": "[smɑːt]",
+      "method": "联想记忆：想变聪明（smart），必须开始（start），学习艺术 （art）",
+      "method_type": "联想记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [
+        "stupid （adj. 笨的）"
+      ],
+      "examples": []
+    },
+    "ready": {
+      "en": "ready",
+      "cn": "愿意迅速做某事；准备好",
+      "source": "pdf",
+      "phonetic": "[ˈredi]",
+      "method": "",
+      "method_type": "",
+      "collocations": [
+        "be ready to do sth. / for sth. 准备好做某事"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "read（读）+ y→读好了→准备好了",
+      "method_type_ai": "词根记忆"
+    },
+    "be ready to do something": {
+      "en": "be ready to do something",
+      "cn": "愿意或准备好做某事",
+      "source": "pdf_phrase",
+      "base_word": "ready",
+      "phonetic": "",
+      "method": "",
+      "method_type": "",
+      "collocations": [
+        "be ready to do sth. / for sth. 准备好做某事"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "be ready（准备好）+ to do（去做）→准备好做某事",
+      "method_type_ai": "联想记忆"
+    },
+    "else": {
+      "en": "else",
+      "cn": "另外，其他",
+      "source": "pdf",
+      "phonetic": "[els]",
+      "method": "",
+      "method_type": "",
+      "collocations": [
+        "someone else 其他人"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "其他（else）的东西在哪儿（where else）",
+      "method_type_ai": "词根记忆"
+    },
+    "interested": {
+      "en": "interested",
+      "cn": "感兴趣的",
+      "source": "pdf_derived",
+      "base_word": "interest",
+      "phonetic": "[ˈɪntrəst]",
+      "method": "",
+      "method_type": "",
+      "collocations": [
+        "have an interest in 对…感兴趣；place of historical interest 名胜古"
+      ],
+      "derivations": [],
+      "notes": [
+        "interest在作“兴趣”讲时是不可数名词，而作“利益，好处”讲时是"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "interest（兴趣）+ ed（…的）→感兴趣的",
+      "method_type_ai": "联想记忆"
+    },
+    "looks": {
+      "en": "looks",
+      "cn": "相貌，容貌",
+      "source": "pdf_derived",
+      "base_word": "look",
+      "phonetic": "[lʊk]",
+      "method": "联想记忆：看（look）书（book）百遍，其意自现",
+      "method_type": "联想记忆",
+      "collocations": [
+        "look out 留神，当心；look at 看，观看；look after 照看；look"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "character": {
+      "en": "character",
+      "cn": "性格",
+      "source": "pdf",
+      "phonetic": "[ˈkærəktə(r)]",
+      "method": "",
+      "method_type": "",
+      "collocations": [],
+      "derivations": [
+        "characteristic（adj. 典型的 n. 特征）；characterize（v. 以…为特"
+      ],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "char（刻）+ acter→刻出来的特征→性格",
+      "method_type_ai": "词根记忆"
+    },
+    "both": {
+      "en": "both",
+      "cn": "两个都",
+      "source": "pdf",
+      "phonetic": "[bəʊθ]",
+      "method": "",
+      "method_type": "",
+      "collocations": [],
+      "derivations": [],
+      "notes": [
+        "在考试中经常会考到 both...and...这一固定搭配，表示“两者"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "bo（两）+ th→两者都",
+      "method_type_ai": "词根记忆"
+    },
+    "enjoy": {
+      "en": "enjoy",
+      "cn": "享受……的乐趣，欣赏，喜爱",
+      "source": "pdf",
+      "phonetic": "[ɪnˈdʒɔɪ]",
+      "method": "词根记忆：en（使…进入状态）+joy（欢乐，喜悦）→进入欢 乐状态→享受",
+      "method_type": "词根记忆",
+      "collocations": [
+        "enjoy oneself 玩得高兴；enjoy doing sth. 喜欢做某事"
+      ],
+      "derivations": [],
+      "notes": [
+        "enjoy后常接动名词作宾语，考生一定要牢记。"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "pretty": {
+      "en": "pretty",
+      "cn": "漂亮的，标致的",
+      "source": "pdf",
+      "phonetic": "[ˈprɪti]",
+      "method": "",
+      "method_type": "",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "pre（前）+ tty→前面的很漂亮",
+      "method_type_ai": "联想记忆"
+    },
+    "shy": {
+      "en": "shy",
+      "cn": "害羞的",
+      "source": "pdf",
+      "phonetic": "[ʃaɪ]",
+      "method": "联想记忆：sky（天空）很shy（害羞的）",
+      "method_type": "联想记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "only": {
+      "en": "only",
+      "cn": "只有，仅仅",
+      "source": "pdf",
+      "phonetic": "[ˈəʊnli]",
+      "method": "",
+      "method_type": "",
+      "collocations": [
+        "not only...but (also) ... 不但…而且…；if only 但愿，要是…就好"
+      ],
+      "derivations": [],
+      "notes": [
+        "not only...but also...是平行结构，即前后的结构要一致。"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "on（在…上）+ ly→唯一在上面→唯一的",
+      "method_type_ai": "联想记忆"
+    },
+    "stay": {
+      "en": "stay",
+      "cn": "保持，继续是；暂住",
+      "source": "pdf",
+      "phonetic": "[steɪ]",
+      "method": "",
+      "method_type": "",
+      "collocations": [
+        "stay up 熬夜"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "st（站）+ ay→站着→逗留",
+      "method_type_ai": "联想记忆"
+    },
+    "match": {
+      "en": "match",
+      "cn": "比赛",
+      "source": "pdf",
+      "phonetic": "[mætʃ]",
+      "method": "",
+      "method_type": "",
+      "collocations": [],
+      "derivations": [
+        "matchless（adj. 无比的，无敌的）"
+      ],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "match（比赛）需要watch（观看）",
+      "method_type_ai": "联想记忆"
+    },
+    "luck": {
+      "en": "luck",
+      "cn": "幸运，好运",
+      "source": "pdf",
+      "phonetic": "[lʌk]",
+      "method": "",
+      "method_type": "",
+      "collocations": [],
+      "derivations": [
+        "lucky（adj. 幸运的）；luckily（adv. 幸运地）"
+      ],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "运气（luck）好运",
+      "method_type_ai": "词根记忆"
+    },
+    "good luck": {
+      "en": "good luck",
+      "cn": "祝成功，祝好运",
+      "source": "pdf_phrase",
+      "base_word": "good",
+      "phonetic": "",
+      "method": "联想记忆：仁慈的（good）上帝（God）请宽恕他",
+      "method_type": "联想记忆",
+      "collocations": [
+        "be good for 有益于；be good at 擅长，善于"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "chess": {
+      "en": "chess",
+      "cn": "国际象棋",
+      "source": "pdf",
+      "phonetic": "[tʃes]",
+      "method": "",
+      "method_type": "",
+      "collocations": [],
+      "derivations": [],
+      "notes": [
+        "chess常和动词play连用，play chess表示“下棋”，考生要注意，"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "che（车）+ ss→车是象棋重要棋子→国际象棋",
+      "method_type_ai": "词根记忆"
+    },
+    "chinese chess": {
+      "en": "Chinese chess",
+      "cn": "中国象棋",
+      "source": "pdf_phrase",
+      "base_word": "chess",
+      "phonetic": "",
+      "method": "",
+      "method_type": "",
+      "collocations": [],
+      "derivations": [],
+      "notes": [
+        "chess常和动词play连用，play chess表示“下棋”，考生要注意，"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "Chinese（中国的）+ chess（国际象棋）→中国象棋",
+      "method_type_ai": "合成词"
+    },
+    "problem": {
+      "en": "problem",
+      "cn": "数学题；难题",
+      "source": "pdf",
+      "phonetic": "[ˈprɒbləm]",
+      "method": "",
+      "method_type": "",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "pro（前）+ blem（瑕疵）→前面的瑕疵→问题",
+      "method_type_ai": "联想记忆"
+    },
+    "weekend": {
+      "en": "weekend",
+      "cn": "周末",
+      "source": "pdf",
+      "phonetic": "[ˌwiːkˈend]",
+      "method": "合成词：week（周）+end（末端）→每周的末端→周末",
+      "method_type": "合成词",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "fun": {
+      "en": "fun",
+      "cn": "有趣的，使人快乐的",
+      "source": "pdf",
+      "phonetic": "[fʌn]",
+      "method": "联想记忆：出来run（跑步），真是fun（快乐）",
+      "method_type": "联想记忆",
+      "collocations": [
+        "make fun of sb. 取笑某人，和某人开玩笑；for fun 开玩笑地"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "make friends with": {
+      "en": "make friends with",
+      "cn": "与……交朋友",
+      "source": "pdf_phrase",
+      "base_word": "make",
+      "phonetic": "",
+      "method": "联想记忆：生米做（make）熟饭，蛋黄做蛋糕（cake）",
+      "method_type": "联想记忆",
+      "collocations": [
+        "make money 挣钱；make bed 整理床铺；make a living 谋生；"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "paper-cutting": {
+      "en": "paper-cutting",
+      "cn": "剪纸",
+      "source": "pdf_phrase",
+      "base_word": "paper",
+      "phonetic": "",
+      "method": "",
+      "method_type": "",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "paper（纸）+ cutting（剪）→剪纸",
+      "method_type_ai": "合成词"
+    },
+    "all kinds of": {
+      "en": "all kinds of",
+      "cn": "各种各样的",
+      "source": "pdf_phrase",
+      "base_word": "all",
+      "phonetic": "",
+      "method": "",
+      "method_type": "",
+      "collocations": [
+        "after all 毕竟，终究；above all 最重要的是；in all 总共；all over"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "all（所有）+ kinds（种类）+ of（…的）→各种各样的",
+      "method_type_ai": "联想记忆"
+    },
+    "around": {
+      "en": "around",
+      "cn": "环绕，围绕",
+      "source": "pdf",
+      "phonetic": "[əˈraʊnd]",
+      "method": "",
+      "method_type": "",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "a（在）+ round（圆）→在周围→环绕",
+      "method_type_ai": "词根记忆"
+    },
+    "change": {
+      "en": "change",
+      "cn": "改变，变化",
+      "source": "pdf",
+      "phonetic": "[tʃeɪndʒ]",
+      "method": "联想记忆：索要（charge）零钱（change）",
+      "method_type": "联想记忆",
+      "collocations": [
+        "change sth. with sb. 和某人交换某物；change...into... 把…兑换"
+      ],
+      "derivations": [
+        "changeable（adj. 可变的；易变的）"
+      ],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "life": {
+      "en": "life",
+      "cn": "个人生活；生命",
+      "source": "pdf",
+      "phonetic": "[laɪf]",
+      "method": "联想记忆：过着（live）幸福的生活（life）",
+      "method_type": "联想记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [
+        "life的复数形式是lives，比较特殊，考生要注意。"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "museum": {
+      "en": "museum",
+      "cn": "博物馆",
+      "source": "pdf",
+      "phonetic": "[mjuˈziːəm]",
+      "method": "",
+      "method_type": "",
+      "collocations": [
+        "go to the museum 去博物馆"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "muse（缪斯女神）+ um→博物馆",
+      "method_type_ai": "词根记忆"
+    },
+    "thing": {
+      "en": "thing",
+      "cn": "东西",
+      "source": "pdf",
+      "phonetic": "[θɪŋ]",
+      "method": "联想记忆：好多thing（事情）需要think（想）",
+      "method_type": "联想记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "take apart": {
+      "en": "take apart",
+      "cn": "拆分",
+      "source": "pdf_phrase",
+      "base_word": "take",
+      "phonetic": "",
+      "method": "联想记忆：make a cake（做个蛋糕），装包take（拿着），带去",
+      "method_type": "联想记忆",
+      "collocations": [
+        "take advantage of 利用…；take charge of 负责…；take one's time"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "fix": {
+      "en": "fix",
+      "cn": "修理；安装",
+      "source": "pdf",
+      "phonetic": "[fɪks]",
+      "method": "联想记忆：six（六）和fix（修理），容易被mix（混合）",
+      "method_type": "联想记忆",
+      "collocations": [
+        "fix up 修理；使固定；fix one's eyes on 注视…；fix one's"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "scientist": {
+      "en": "scientist",
+      "cn": "科学家",
+      "source": "pdf",
+      "phonetic": "[ˈsaɪəntɪst]",
+      "method": "联想记忆：scient（看作science，科学）+ ist（名词后缀，表 人）→科学家",
+      "method_type": "联想记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "dream": {
+      "en": "dream",
+      "cn": "梦想；梦",
+      "source": "pdf",
+      "phonetic": "[driːm]",
+      "method": "发音记忆：“追梦”→梦",
+      "method_type": "发音记忆",
+      "collocations": [
+        "dream of （doing）sth. 梦想（做）某事"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "real": {
+      "en": "real",
+      "cn": "真正的，实质的",
+      "source": "pdf",
+      "phonetic": "[rɪəl]",
+      "method": "",
+      "method_type": "",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "r（真）+ eal→真实的",
+      "method_type_ai": "联想记忆"
+    },
+    "come true": {
+      "en": "come true",
+      "cn": "实现，成为现实",
+      "source": "pdf_phrase",
+      "base_word": "come",
+      "phonetic": "",
+      "method": "联想记忆：回（come）家（home）",
+      "method_type": "联想记忆",
+      "collocations": [
+        "come about 发生；come across 偶然遇到；come along 进展；一"
+      ],
+      "derivations": [],
+      "notes": [
+        "come是非延续性动词，不能与表示时间段的状语连用。"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "club": {
+      "en": "club",
+      "cn": "社团，俱乐部",
+      "source": "pdf",
+      "phonetic": "[klʌb]",
+      "method": "",
+      "method_type": "",
+      "collocations": [
+        "football club 足球俱乐部"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "club像\"俱乐部\"→社团",
+      "method_type_ai": "发音记忆"
+    },
+    "member": {
+      "en": "member",
+      "cn": "成员",
+      "source": "pdf",
+      "phonetic": "[ˈmembə(r)]",
+      "method": "联想记忆：努力记住（remember）每个成员（member）",
+      "method_type": "联想记忆",
+      "collocations": [
+        "become a member of 成为…的一员"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "volleyball": {
+      "en": "volleyball",
+      "cn": "排球",
+      "source": "pdf",
+      "phonetic": "[ˈvɒlibɔːl]",
+      "method": "",
+      "method_type": "",
+      "collocations": [
+        "paly volleyball 打排球"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "volley（截击）+ ball（球）→排球",
+      "method_type_ai": "合成词"
+    },
+    "each": {
+      "en": "each",
+      "cn": "每个，各自",
+      "source": "pdf",
+      "phonetic": "[iːtʃ]",
+      "method": "",
+      "method_type": "",
+      "collocations": [
+        "each other 互相，彼此"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "e（每）+ ach→每个",
+      "method_type_ai": "联想记忆"
+    },
+    "once": {
+      "en": "once",
+      "cn": "一次",
+      "source": "pdf",
+      "phonetic": "[wʌns]",
+      "method": "",
+      "method_type": "",
+      "collocations": [
+        "at once 立刻，马上；同时；once again/more 再一次；once in a"
+      ],
+      "derivations": [],
+      "notes": [
+        "at once表示“立刻，马上”，相当于im-mediately，不能与持续性"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "on（一）+ ce→一次",
+      "method_type_ai": "联想记忆"
+    },
+    "join": {
+      "en": "join",
+      "cn": "加入；与……一道去",
+      "source": "pdf",
+      "phonetic": "[dʒɔɪn]",
+      "method": "联想记忆：是否join（加入），抛个coin（硬币）",
+      "method_type": "联想记忆",
+      "collocations": [
+        "join in 参加，加入"
+      ],
+      "derivations": [],
+      "notes": [
+        "join后可以直接接人或组织，表示加入其中成为成员；而与介词"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "meeting": {
+      "en": "meeting",
+      "cn": "会面；会议",
+      "source": "pdf",
+      "phonetic": "[ˈmiːtɪŋ]",
+      "method": "",
+      "method_type": "",
+      "collocations": [],
+      "derivations": [],
+      "notes": [
+        "表达“举行会议”经常用动词hold。表达“有个会议”经常用have a"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "meet（遇见）+ ing（名词后缀）→会议",
+      "method_type_ai": "词根记忆"
+    },
+    "sound": {
+      "en": "sound",
+      "cn": "听起来",
+      "source": "pdf",
+      "phonetic": "[saʊnd]",
+      "method": "",
+      "method_type": "",
+      "collocations": [],
+      "derivations": [
+        "soundly（adv. 不错地；明智地；健全地）"
+      ],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "s（声）+ ound→声音",
+      "method_type_ai": "联想记忆"
+    },
+    "plan": {
+      "en": "plan",
+      "cn": "计划",
+      "source": "pdf",
+      "phonetic": "[plæn]",
+      "method": "联想记忆：做个plan（计划），去坐plane（飞机） Brazilian [brəˈzɪliən]",
+      "method_type": "联想记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "role": {
+      "en": "role",
+      "cn": "角色",
+      "source": "pdf",
+      "phonetic": "[rəʊl]",
+      "method": "",
+      "method_type": "",
+      "collocations": [
+        "play an important role 起重要作用"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "r（角）+ ole→角色",
+      "method_type_ai": "联想记忆"
+    },
+    "model": {
+      "en": "model",
+      "cn": "模范，典型；模特",
+      "source": "pdf",
+      "phonetic": "[ˈmɒdl]",
+      "method": "发音记忆：model 的发音很像“模特儿”",
+      "method_type": "发音记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "role model": {
+      "en": "role model",
+      "cn": "楷模，行为榜样",
+      "source": "pdf_phrase",
+      "base_word": "role",
+      "phonetic": "",
+      "method": "",
+      "method_type": "",
+      "collocations": [
+        "play an important role 起重要作用"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "role（角色）+ model（榜样）→楷模",
+      "method_type_ai": "联想记忆"
+    },
+    "design": {
+      "en": "design",
+      "cn": "设计",
+      "source": "pdf",
+      "phonetic": "[dɪˈzaɪn]",
+      "method": "词根记忆：de+sign（标记）→一路做标记，企图谋反→企图",
+      "method_type": "词根记忆",
+      "collocations": [],
+      "derivations": [
+        "designer（n. 设计师）"
+      ],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "skill": {
+      "en": "skill",
+      "cn": "技能",
+      "source": "pdf",
+      "phonetic": "[skɪl]",
+      "method": "",
+      "method_type": "",
+      "collocations": [
+        "skill in 在…方面的技巧"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "sk（能）+ ill→技能",
+      "method_type_ai": "联想记忆"
+    },
+    "artist": {
+      "en": "artist",
+      "cn": "艺术家，画家",
+      "source": "pdf",
+      "phonetic": "[ˈɑːtɪst]",
+      "method": "词根记忆：art（技巧）+ist（…专业人员）→掌握技巧的专业人 员→艺术家",
+      "method_type": "词根记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "master": {
+      "en": "master",
+      "cn": "能手，擅长者；大师，师父",
+      "source": "pdf",
+      "phonetic": "[ˈmɑːstə(r)]",
+      "method": "",
+      "method_type": "",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "mast（主）+ er（人）→大师",
+      "method_type_ai": "联想记忆"
+    },
+    "work": {
+      "en": "work",
+      "cn": "作品；著作",
+      "source": "pdf",
+      "phonetic": "[wɜːk]",
+      "method": "联想记忆：这项工作（work）就是把每个单词（word）都区分",
+      "method_type": "联想记忆",
+      "collocations": [
+        "work out 计算出；（事情）进展顺利或结果令人满意；work on"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "become": {
+      "en": "become",
+      "cn": "成为",
+      "source": "pdf",
+      "phonetic": "[bɪˈkʌm]",
+      "method": "词根记忆：be（动词）+come（发生，变成）→变成，成为",
+      "method_type": "词根记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "designer": {
+      "en": "designer",
+      "cn": "设计师",
+      "source": "pdf_derived",
+      "base_word": "design",
+      "phonetic": "[dɪˈzaɪn]",
+      "method": "词根记忆：de+sign（标记）→一路做标记，企图谋反→企图",
+      "method_type": "词根记忆",
+      "collocations": [],
+      "derivations": [
+        "designer（n. 设计师）"
+      ],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "future": {
+      "en": "future",
+      "cn": "未来",
+      "source": "pdf",
+      "phonetic": "[ˈfjuːtʃə(r)]",
+      "method": "发音记忆：“费油车”→费油的车将来一定会被淘汰→将来",
+      "method_type": "发音记忆",
+      "collocations": [
+        "in the future 将来"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "in the future": {
+      "en": "in the future",
+      "cn": "在未来",
+      "source": "pdf_phrase",
+      "base_word": "the",
+      "phonetic": "",
+      "method": "",
+      "method_type": "",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "in（在）+ the + future（未来）→在未来",
+      "method_type_ai": "联想记忆"
+    },
+    "hope": {
+      "en": "hope",
+      "cn": "希望",
+      "source": "pdf",
+      "phonetic": "[həʊp]",
+      "method": "联想记忆：心里hope（希望）这根rope（绳子）不会drop（掉下",
+      "method_type": "联想记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "gym": {
+      "en": "gym",
+      "cn": "体育馆",
+      "source": "pdf",
+      "phonetic": "[dʒɪm]",
+      "method": "发音记忆：“吉姆”→吉姆在健身房（gym）里健身",
+      "method_type": "发音记忆",
+      "collocations": [],
+      "derivations": [
+        "gymnast（n. 体操运动员）"
+      ],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "building": {
+      "en": "building",
+      "cn": "大楼，建筑物",
+      "source": "pdf",
+      "phonetic": "[ˈbɪldɪŋ]",
+      "method": "词根记忆：build（建筑）+ing（与…有关的东西）→与建筑有 关的东西→建筑物",
+      "method_type": "词根记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "sports field": {
+      "en": "sports field",
+      "cn": "体育场",
+      "source": "pdf_phrase",
+      "base_word": "field",
+      "phonetic": "",
+      "method": "",
+      "method_type": "",
+      "collocations": [
+        "go on a field trip 去野外旅行"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "sports（运动）+ field（场地）→运动场",
+      "method_type_ai": "合成词"
+    },
+    "meal": {
+      "en": "meal",
+      "cn": "吃饭；一餐",
+      "source": "pdf",
+      "phonetic": "[miːl]",
+      "method": "联想记忆：每顿饭（meal）都吃肉（meat）",
+      "method_type": "联想记忆",
+      "collocations": [
+        "three meals a day 一日三餐"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "hall": {
+      "en": "hall",
+      "cn": "大厅，礼堂",
+      "source": "pdf",
+      "phonetic": "[hɔːl]",
+      "method": "联想记忆：在大厅（hall）里办舞会（ball）",
+      "method_type": "联想记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "dining hall": {
+      "en": "dining hall",
+      "cn": "食堂，餐厅",
+      "source": "pdf_phrase",
+      "base_word": "hall",
+      "phonetic": "",
+      "method": "联想记忆：在大厅（hall）里办舞会（ball）",
+      "method_type": "联想记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "lab": {
+      "en": "lab",
+      "cn": "实验室",
+      "source": "pdf",
+      "phonetic": "[læb]",
+      "method": "",
+      "method_type": "",
+      "collocations": [
+        "lab test 实验室测试"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "laboratory的缩写→实验室",
+      "method_type_ai": "联想记忆"
+    },
+    "part": {
+      "en": "part",
+      "cn": "部分",
+      "source": "pdf",
+      "phonetic": "[pɑːt]",
+      "method": "",
+      "method_type": "",
+      "collocations": [
+        "take part in 参加；play a part in 在…中起作用；in part 在某种程"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "部分",
+      "method_type_ai": "联想记忆"
+    },
+    "modern": {
+      "en": "modern",
+      "cn": "现代化的，先进的；现代的",
+      "source": "pdf",
+      "phonetic": "[ˈmɒdn]",
+      "method": "发音记忆：“摩登”→现代的",
+      "method_type": "发音记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "as well": {
+      "en": "as well",
+      "cn": "也",
+      "source": "pdf_phrase",
+      "base_word": "well",
+      "phonetic": "",
+      "method": "",
+      "method_type": "",
+      "collocations": [
+        "as well 也"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "as（像）+ well（好）→也一样好→也",
+      "method_type_ai": "联想记忆"
+    },
+    "bright": {
+      "en": "bright",
+      "cn": "明亮的",
+      "source": "pdf",
+      "phonetic": "[braɪt]",
+      "method": "联想记忆：道路right（正确），前途bright（光明）",
+      "method_type": "联想记忆",
+      "collocations": [],
+      "derivations": [
+        "brighten（v. 使发光）"
+      ],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "everyone": {
+      "en": "everyone",
+      "cn": "每个人",
+      "source": "pdf",
+      "phonetic": "[ˈevriwʌn]",
+      "method": "合成词：every（每个）+one（人）→每人，人人 France [frɑːns]",
+      "method_type": "合成词",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "perfect": {
+      "en": "perfect",
+      "cn": "完美的",
+      "source": "pdf",
+      "phonetic": "[ˈpɜːfɪkt]",
+      "method": "",
+      "method_type": "",
+      "collocations": [],
+      "derivations": [
+        "perfection（n. 完美，完善）；perfectionist（n. 完美主义者）"
+      ],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "per（完全）+ fect（做）→完美",
+      "method_type_ai": "词根记忆"
+    },
+    "spend": {
+      "en": "spend",
+      "cn": "度过，花时间；花钱",
+      "source": "pdf",
+      "phonetic": "[spend]",
+      "method": "联想记忆：有钱spend（花），没钱lend（借出）",
+      "method_type": "联想记忆",
+      "collocations": [
+        "spend...on... 花（时间或金钱）在…上"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "chat": {
+      "en": "chat",
+      "cn": "闲聊",
+      "source": "pdf",
+      "phonetic": "[tʃæt]",
+      "method": "联想记忆：戴着帽子（hat）闲聊天（chat）",
+      "method_type": "联想记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "take place": {
+      "en": "take place",
+      "cn": "发生",
+      "source": "pdf_phrase",
+      "base_word": "take",
+      "phonetic": "",
+      "method": "联想记忆：make a cake（做个蛋糕），装包take（拿着），带去",
+      "method_type": "联想记忆",
+      "collocations": [
+        "take advantage of 利用…；take charge of 负责…；take one's time"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "gate": {
+      "en": "gate",
+      "cn": "大门",
+      "source": "pdf",
+      "phonetic": "[ɡeɪt]",
+      "method": "联想记忆：我讨厌（hate）狗，看到赶紧关门（gate）",
+      "method_type": "联想记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "board": {
+      "en": "board",
+      "cn": "布告牌；木板",
+      "source": "pdf",
+      "phonetic": "[bɔːd]",
+      "method": "联想记忆：和abroad（n. 国外）一起记",
+      "method_type": "联想记忆",
+      "collocations": [
+        "on board 在船（或火车、飞机）上；get on board 登船（或飞"
+      ],
+      "derivations": [
+        "boarder（n. 寄宿者）"
+      ],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "like": {
+      "en": "like",
+      "cn": "例如；像",
+      "source": "pdf",
+      "phonetic": "[laɪk]",
+      "method": "联想记忆：Mike（迈克）like（喜欢）bike（自行车）",
+      "method_type": "联想记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "believe": {
+      "en": "believe",
+      "cn": "相信",
+      "source": "pdf",
+      "phonetic": "[bɪˈliːv]",
+      "method": "联想记忆：be+lie（撒谎）+ve→没人相信撒谎的人→相信",
+      "method_type": "联想记忆",
+      "collocations": [
+        "believe in 信仰；相信；believe it or not 信不信由你"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "more": {
+      "en": "more",
+      "cn": "更多的，更大的；更",
+      "source": "pdf",
+      "phonetic": "[mɔː(r)]",
+      "method": "发音记忆：“猫”→我想养more（更多的）小猫",
+      "method_type": "发音记忆",
+      "collocations": [
+        "more or less 或多或少，大体上；more than 多于，超过；not"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "really": {
+      "en": "really",
+      "cn": "很，十分；真正地",
+      "source": "pdf",
+      "phonetic": "[ˈriːəli]",
+      "method": "词根记忆：real（真的）+ly（副词后缀）→真正地",
+      "method_type": "词根记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "soon": {
+      "en": "soon",
+      "cn": "很快，马上",
+      "source": "pdf",
+      "phonetic": "[suːn]",
+      "method": "联想记忆：别急，儿子（son）马上（soon）就出生了！",
+      "method_type": "联想记忆",
+      "collocations": [
+        "as soon as possible 尽快；sooner or later 迟早"
+      ],
+      "derivations": [],
+      "notes": [
+        "当soon前有too, quite, very等词修饰的时候，一般都放在句末。"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "teach": {
+      "en": "teach",
+      "cn": "教，讲授",
+      "source": "pdf",
+      "phonetic": "[tiːtʃ]",
+      "method": "",
+      "method_type": "",
+      "collocations": [
+        "teach sb. sth. 教某人某事"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "t（教）+ each（每个人）→教每个人",
+      "method_type_ai": "联想记忆"
+    },
+    "team": {
+      "en": "team",
+      "cn": "队；组",
+      "source": "pdf",
+      "phonetic": "[tiːm]",
+      "method": "联想记忆：采茶（tea）小队（team）",
+      "method_type": "联想记忆",
+      "collocations": [
+        "team up 结成一队，合作"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "class teacher": {
+      "en": "class teacher",
+      "cn": "班主任",
+      "source": "pdf_phrase",
+      "base_word": "class",
+      "phonetic": "",
+      "method": "",
+      "method_type": "",
+      "collocations": [
+        "in class 在上课"
+      ],
+      "derivations": [
+        "classify（v. 分类，归类）"
+      ],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "class（班级）+ teacher（老师）→班主任",
+      "method_type_ai": "合成词"
+    },
+    "show": {
+      "en": "show",
+      "cn": "演出；展览；音乐会",
+      "source": "pdf",
+      "phonetic": "[ʃəʊ]",
+      "method": "发音记忆：“手”→手伸出来给大家看看（show）",
+      "method_type": "发音记忆",
+      "collocations": [
+        "show sb. around 领某人到处参观；on show 在展出；show off 炫"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "thousand": {
+      "en": "thousand",
+      "cn": "一千；数以千计的",
+      "source": "pdf",
+      "phonetic": "[ˈθaʊznd]",
+      "method": "",
+      "method_type": "",
+      "collocations": [
+        "thousands of 数千的，成千上万的"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "th（千）+ ousand→一千",
+      "method_type_ai": "联想记忆"
+    },
+    "fact": {
+      "en": "fact",
+      "cn": "事实",
+      "source": "pdf",
+      "phonetic": "[fækt]",
+      "method": "联想记忆：勇于面对（face）真相（fact）",
+      "method_type": "联想记忆",
+      "collocations": [
+        "in fact 事实上，实际上；as a matter of fact 事实上，实际上"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "in fact": {
+      "en": "in fact",
+      "cn": "确切地说；事实上",
+      "source": "pdf_phrase",
+      "base_word": "fact",
+      "phonetic": "",
+      "method": "联想记忆：勇于面对（face）真相（fact）",
+      "method_type": "联想记忆",
+      "collocations": [
+        "in fact 事实上，实际上；as a matter of fact 事实上，实际上"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "borrow": {
+      "en": "borrow",
+      "cn": "借",
+      "source": "pdf",
+      "phonetic": "[ˈbɒrəu]",
+      "method": "",
+      "method_type": "",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "借（borrow）东西给（tomorrow）明天还",
+      "method_type_ai": "联想记忆"
+    },
+    "newspaper": {
+      "en": "newspaper",
+      "cn": "报纸",
+      "source": "pdf",
+      "phonetic": "[ˈnjuːzpeɪpə(r)]",
+      "method": "合成词：news（新闻）+paper（纸）→印有新闻的纸→报纸",
+      "method_type": "合成词",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "magazine": {
+      "en": "magazine",
+      "cn": "杂志",
+      "source": "pdf",
+      "phonetic": "[ˌmæɡəˈziːn]",
+      "method": "",
+      "method_type": "",
+      "collocations": [
+        "weekly magazine 周刊"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "maga（大）+ zine→知识大仓库→杂志",
+      "method_type_ai": "联想记忆"
+    },
+    "care": {
+      "en": "care",
+      "cn": "关心",
+      "source": "pdf",
+      "phonetic": "[keə(r)]",
+      "method": "",
+      "method_type": "",
+      "collocations": [
+        "take care of 照顾，照料；take care 当心"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "c（关）+ are→关心",
+      "method_type_ai": "联想记忆"
+    },
+    "care about": {
+      "en": "care about",
+      "cn": "关心",
+      "source": "pdf_phrase",
+      "base_word": "care",
+      "phonetic": "",
+      "method": "",
+      "method_type": "",
+      "collocations": [
+        "take care of 照顾，照料；take care 当心"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "care（关心）+ about（关于）→关心",
+      "method_type_ai": "联想记忆"
+    },
+    "together": {
+      "en": "together",
+      "cn": "一起",
+      "source": "pdf",
+      "phonetic": "[təˈɡeðə(r)]",
+      "method": "",
+      "method_type": "",
+      "collocations": [
+        "gather together 集合在一起；get together 聚集"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "to（到）+ get（得到）+ her（她）→到一起",
+      "method_type_ai": "联想记忆"
+    },
+    "quite": {
+      "en": "quite",
+      "cn": "相当；非常",
+      "source": "pdf",
+      "phonetic": "[kwaɪt]",
+      "method": "联想记忆：这片树林相当（quite）宁静（quiet）",
+      "method_type": "联想记忆",
+      "collocations": [
+        "quite a few 很多的，大量的；quite a number of 相当多的"
+      ],
+      "derivations": [],
+      "notes": [
+        "quite a既可以修饰人，也可以修饰事物，而quite some多用来修"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "large": {
+      "en": "large",
+      "cn": "大的",
+      "source": "pdf",
+      "phonetic": "[lɑːdʒ]",
+      "method": "发音记忆：“垃圾”→好大的垃圾场 考 large变比较级和最高级时，分别在词尾加-r和-st",
+      "method_type": "发音记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "special": {
+      "en": "special",
+      "cn": "特殊的，特别的",
+      "source": "pdf",
+      "phonetic": "[ˈspeʃl]",
+      "method": "词根记忆：spec（种类）+ial（…的）→ （属于）某种类的→特",
+      "method_type": "词根记忆",
+      "collocations": [],
+      "derivations": [
+        "specialist（n. 专家）；specialty（n. 专业；特长）；"
+      ],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "get up": {
+      "en": "get up",
+      "cn": "起床",
+      "source": "pdf_phrase",
+      "base_word": "get",
+      "phonetic": "",
+      "method": "联想记忆：生日那天，get（收到）一只pet（宠物）",
+      "method_type": "联想记忆",
+      "collocations": [
+        "get along/on (well) with 与…相处得（好）；get down to 开始认"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "activity": {
+      "en": "activity",
+      "cn": "活动",
+      "source": "pdf",
+      "phonetic": "[ækˈtɪvəti]",
+      "method": "词根记忆：act（活动）+ivity（名词后缀）→活动",
+      "method_type": "词根记忆",
+      "collocations": [],
+      "derivations": [
+        "activist（n. 积极分子；活动家）"
+      ],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "housework": {
+      "en": "housework",
+      "cn": "家务劳动，家务事",
+      "source": "pdf",
+      "phonetic": "[ˈhaʊswɜːk]",
+      "method": "合成词：house（房子）+work（工作）→家里的工作→家务劳",
+      "method_type": "合成词",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "homework": {
+      "en": "homework",
+      "cn": "家庭作业",
+      "source": "pdf",
+      "phonetic": "[ˈhəʊmwɜːk]",
+      "method": "合成词：home（家）+work（工作）→在家做的工作→家庭作",
+      "method_type": "合成词",
+      "collocations": [
+        "do one's homework 做某人的家庭作业"
+      ],
+      "derivations": [],
+      "notes": [
+        "考生不要把homework和housework弄混，housework是“家务"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "weekday": {
+      "en": "weekday",
+      "cn": "工作日",
+      "source": "pdf",
+      "phonetic": "[ˈwiːkdeɪ]",
+      "method": "合成词：week（周）+day（天）→每周工作的天→工作日",
+      "method_type": "合成词",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "a little": {
+      "en": "a little",
+      "cn": "一点，少量；少量的，一些",
+      "source": "pdf_phrase",
+      "base_word": "little",
+      "phonetic": "",
+      "method": "",
+      "method_type": "",
+      "collocations": [
+        "a little 一些，一点；not a little 非常，十分；little by little 逐渐地"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "a（一个）+ little（小的/少量）→一点",
+      "method_type_ai": "联想记忆"
+    },
+    "myself": {
+      "en": "myself",
+      "cn": "我自己，亲自",
+      "source": "pdf",
+      "phonetic": "[maɪˈself]",
+      "method": "合成词：my（我的）+self（自己）→我自己",
+      "method_type": "合成词",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "have fun": {
+      "en": "have fun",
+      "cn": "玩得开心，得到乐趣",
+      "source": "pdf_phrase",
+      "base_word": "have",
+      "phonetic": "",
+      "method": "词根记忆：hav（有）+e→有",
+      "method_type": "词根记忆",
+      "collocations": [
+        "have trouble/difficulty (in) doing sth. 做某事有困难；have nothing"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "first": {
+      "en": "first",
+      "cn": "第一的；首先",
+      "source": "pdf",
+      "phonetic": "[fɜːst]",
+      "method": "",
+      "method_type": "",
+      "collocations": [
+        "at first 起初"
+      ],
+      "derivations": [],
+      "notes": [
+        "first是one的序数词，在句子中时前面常加定冠词the。"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "fir（树）+ st→第一棵树",
+      "method_type_ai": "联想记忆"
+    },
+    "term": {
+      "en": "term",
+      "cn": "学期；期",
+      "source": "pdf",
+      "phonetic": "[tɜːm]",
+      "method": "联想记忆：这个term（学期）我跟你一个team（队）",
+      "method_type": "联想记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "begin": {
+      "en": "begin",
+      "cn": "开始；开端",
+      "source": "pdf",
+      "phonetic": "[bɪˈɡɪn]",
+      "method": "",
+      "method_type": "",
+      "collocations": [
+        "begin with 以…开始",
+        "on Tuesday 在周二"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "be（使）+ gin（开始）→开始",
+      "method_type_ai": "联想记忆"
+    },
+    "writer": {
+      "en": "writer",
+      "cn": "作家",
+      "source": "pdf",
+      "phonetic": "[ˈraɪtə(r)]",
+      "method": "联想记忆：writ（看作write，写）+er（表人的后缀）→写东西 的人→作家",
+      "method_type": "联想记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "language": {
+      "en": "language",
+      "cn": "语言",
+      "source": "pdf",
+      "phonetic": "[ˈlæŋɡwɪdʒ]",
+      "method": "",
+      "method_type": "",
+      "collocations": [],
+      "derivations": [],
+      "notes": [
+        "表示“说某种语言”要用speak，而不能用say。"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "lang（舌）+ uage→用舌头说话→语言",
+      "method_type_ai": "词根记忆"
+    },
+    "amazing": {
+      "en": "amazing",
+      "cn": "令人大为惊奇的",
+      "source": "pdf",
+      "phonetic": "[əˈmeɪzɪŋ]",
+      "method": "",
+      "method_type": "",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "amaze（使惊奇）+ ing（…的）→令人惊奇的",
+      "method_type_ai": "词根记忆"
+    },
+    "biology": {
+      "en": "biology",
+      "cn": "生物学",
+      "source": "pdf",
+      "phonetic": "[baɪˈɒlədʒi]",
+      "method": "词根记忆：bio（生物）+logy（…学）→生物学",
+      "method_type": "词根记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "nature": {
+      "en": "nature",
+      "cn": "大自然；天性",
+      "source": "pdf",
+      "phonetic": "[ˈneɪtʃə(r)]",
+      "method": "词根记忆：nat（出生）+ure（表行为）→出生就有的行为→本",
+      "method_type": "词根记忆",
+      "collocations": [
+        "by nature 生来"
+      ],
+      "derivations": [
+        "natural（adj. 自然的，天然的）；naturalism（n. 自然主义）"
+      ],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "field": {
+      "en": "field",
+      "cn": "田，地；领域",
+      "source": "pdf",
+      "phonetic": "[fiːld]",
+      "method": "",
+      "method_type": "",
+      "collocations": [
+        "go on a field trip 去野外旅行"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "fi（地）+ eld→田地/领域",
+      "method_type_ai": "联想记忆"
+    },
+    "trip": {
+      "en": "trip",
+      "cn": "旅行",
+      "source": "pdf",
+      "phonetic": "[trɪp]",
+      "method": "",
+      "method_type": "",
+      "collocations": [
+        "take a trip 去旅游"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "t（旅）+ rip（撕裂）→旅行撕裂日常",
+      "method_type_ai": "联想记忆"
+    },
+    "field trip": {
+      "en": "field trip",
+      "cn": "野外考察，实地考察",
+      "source": "pdf_phrase",
+      "base_word": "field",
+      "phonetic": "",
+      "method": "",
+      "method_type": "",
+      "collocations": [
+        "go on a field trip 去野外旅行"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "field（田野）+ trip（旅行）→实地考察",
+      "method_type_ai": "合成词"
+    },
+    "leave": {
+      "en": "leave",
+      "cn": "离开；使保留",
+      "source": "pdf",
+      "phonetic": "[liːv]",
+      "method": "发音记忆：“离屋”→离开（leave）屋子→离开",
+      "method_type": "发音记忆",
+      "collocations": [
+        "leave for 前往；出发到；leave out 遗漏；不考虑；leave alone 不"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "leave for": {
+      "en": "leave for",
+      "cn": "动身去，到……地方去",
+      "source": "pdf_phrase",
+      "base_word": "leave",
+      "phonetic": "",
+      "method": "发音记忆：“离屋”→离开（leave）屋子→离开",
+      "method_type": "发音记忆",
+      "collocations": [
+        "leave for 前往；出发到；leave out 遗漏；不考虑；leave alone 不"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "pick": {
+      "en": "pick",
+      "cn": "采，摘；挑选",
+      "source": "pdf",
+      "phonetic": "[pɪk]",
+      "method": "联想记忆：捡起（pick）球用脚踢（kick）出去",
+      "method_type": "联想记忆",
+      "collocations": [
+        "pick sth. up / pick up sth. 捡起；收拾；获得（尤指不经意间学"
+      ],
+      "derivations": [
+        "picky（adj. 挑剔的）"
+      ],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "would like": {
+      "en": "would like",
+      "cn": "愿意，想要",
+      "source": "pdf_phrase",
+      "base_word": "like",
+      "phonetic": "",
+      "method": "联想记忆：Mike（迈克）like（喜欢）bike（自行车）",
+      "method_type": "联想记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "of course": {
+      "en": "of course",
+      "cn": "当然",
+      "source": "pdf_phrase",
+      "base_word": "course",
+      "phonetic": "",
+      "method": "发音记忆：“考试”→上课玩，考试难→课程",
+      "method_type": "发音记忆",
+      "collocations": [
+        "of course 当然"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "seldom": {
+      "en": "seldom",
+      "cn": "很少",
+      "source": "pdf",
+      "phonetic": "[ˈseldəm]",
+      "method": "",
+      "method_type": "",
+      "collocations": [],
+      "derivations": [],
+      "notes": [
+        "seldom 放在句首的时候，句子要倒装。"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "sel（少）+ dom→很少",
+      "method_type_ai": "词根记忆"
+    },
+    "tennis": {
+      "en": "tennis",
+      "cn": "网球",
+      "source": "pdf",
+      "phonetic": "[ˈtenɪs]",
+      "method": "",
+      "method_type": "",
+      "collocations": [
+        "play tennis 打网球"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "ten（十）+ nis→十人打网球",
+      "method_type_ai": "联想记忆"
+    },
+    "roller skate": {
+      "en": "roller skate",
+      "cn": "滑旱冰，溜旱冰",
+      "source": "pdf_phrase",
+      "base_word": "skate",
+      "phonetic": "",
+      "method": "联想记忆：凯特（kate）痛恨（hate）滑冰（skate）",
+      "method_type": "联想记忆",
+      "collocations": [
+        "go skating 去溜冰"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "grow": {
+      "en": "grow",
+      "cn": "生长，发育",
+      "source": "pdf",
+      "phonetic": "[ɡrəʊ]",
+      "method": "联想记忆：田里的庄稼长（grow）得好，稻子排成行（row）， 大豆粒粒饱",
+      "method_type": "联想记忆",
+      "collocations": [
+        "grow up 长大，成年"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "tour": {
+      "en": "tour",
+      "cn": "参观；旅行",
+      "source": "pdf",
+      "phonetic": "[tʊə(r)]",
+      "method": "联想记忆：t（他）带着our来参观",
+      "method_type": "联想记忆",
+      "collocations": [],
+      "derivations": [
+        "tourist（n. 旅行者）"
+      ],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "video": {
+      "en": "video",
+      "cn": "视频",
+      "source": "pdf",
+      "phonetic": "[ˈvɪdiəʊ]",
+      "method": "联想记忆：拿着DV拍video（录像）",
+      "method_type": "联想记忆",
+      "collocations": [],
+      "derivations": [
+        "videotape（n. 录像带）"
+      ],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "outside": {
+      "en": "outside",
+      "cn": "在向外面",
+      "source": "pdf",
+      "phonetic": "[ˌaʊtˈsaɪd]",
+      "method": "合成词：out（外）+side（边）→在外面 December [dɪˈsembə(r)]",
+      "method_type": "合成词",
+      "collocations": [
+        "in December 在十二月"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "peace": {
+      "en": "peace",
+      "cn": "平静；和平",
+      "source": "pdf",
+      "phonetic": "[piːs]",
+      "method": "联想记忆：pea（豌豆）+ce→拿掉褥子下的豌豆，公主才能平",
+      "method_type": "联想记忆",
+      "collocations": [
+        "in peace 和平地，安静地"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "quiet": {
+      "en": "quiet",
+      "cn": "宁静，平静",
+      "source": "pdf",
+      "phonetic": "[ˈkwaɪət]",
+      "method": "联想记忆： 教室需要保持非常（quite）安静（quiet）",
+      "method_type": "联想记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [
+        "quiet与quite读音与拼写都相似，极易混淆，一定要注意。"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "better": {
+      "en": "better",
+      "cn": "更好的",
+      "source": "pdf",
+      "phonetic": "[ˈbetə(r)]",
+      "method": "",
+      "method_type": "",
+      "collocations": [],
+      "derivations": [],
+      "notes": [
+        "考试中常会考到固定搭配you'd better do sth.，意思是“你最好做"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "good/well的比较级→更好的",
+      "method_type_ai": "联想记忆"
+    },
+    "duty": {
+      "en": "duty",
+      "cn": "职责，任务；责任，义务",
+      "source": "pdf",
+      "phonetic": "[ˈdjuːti]",
+      "method": "",
+      "method_type": "",
+      "collocations": [
+        "on duty 值班；sense of duty 责任感"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "du（due应到的）+ ty→责任",
+      "method_type_ai": "联想记忆"
+    },
+    "area": {
+      "en": "area",
+      "cn": "区域；面积；领域",
+      "source": "pdf",
+      "phonetic": "[ˈeəriə]",
+      "method": "",
+      "method_type": "",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "a（一个）+ rea→一块区域",
+      "method_type_ai": "联想记忆"
+    },
+    "through": {
+      "en": "through",
+      "cn": "以，凭借；通过；穿过",
+      "source": "pdf",
+      "phonetic": "[θruː]",
+      "method": "联想记忆：th+rough（粗略的，大致的）→从头到尾粗略浏览→ 从头到尾",
+      "method_type": "联想记忆",
+      "collocations": [
+        "get through 打通（电话）；通过；go through 经受"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "group": {
+      "en": "group",
+      "cn": "组，群，批",
+      "source": "pdf",
+      "phonetic": "[ɡruːp]",
+      "method": "",
+      "method_type": "",
+      "collocations": [
+        "a group of 一组，一群"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "gr（群）+ oup→组/群",
+      "method_type_ai": "联想记忆"
+    },
+    "turn": {
+      "en": "turn",
+      "cn": "依次轮到的机会",
+      "source": "pdf",
+      "phonetic": "[tɜːn]",
+      "method": "",
+      "method_type": "",
+      "collocations": [
+        "turn away 走开，转过脸；turn down 调低（声音）；拒绝；turn"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "转（turn）动→依次轮到",
+      "method_type_ai": "联想记忆"
+    },
+    "take turns": {
+      "en": "take turns",
+      "cn": "轮流",
+      "source": "pdf_phrase",
+      "base_word": "take",
+      "phonetic": "",
+      "method": "联想记忆：make a cake（做个蛋糕），装包take（拿着），带去",
+      "method_type": "联想记忆",
+      "collocations": [
+        "take advantage of 利用…；take charge of 负责…；take one's time"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "empty": {
+      "en": "empty",
+      "cn": "倒空，腾空；空的",
+      "source": "pdf",
+      "phonetic": "[ˈempti]",
+      "method": "",
+      "method_type": "",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "e（出）+ mpty→倒出→空的",
+      "method_type_ai": "联想记忆"
+    },
+    "look after": {
+      "en": "look after",
+      "cn": "照顾",
+      "source": "pdf_phrase",
+      "base_word": "look",
+      "phonetic": "",
+      "method": "联想记忆：看（look）书（book）百遍，其意自现",
+      "method_type": "联想记忆",
+      "collocations": [
+        "look out 留神，当心；look at 看，观看；look after 照看；look"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "something": {
+      "en": "something",
+      "cn": "某事，某物",
+      "source": "pdf",
+      "phonetic": "[ˈsʌmθɪŋ]",
+      "method": "合成词：some（某个）+thing（东西）→某物",
+      "method_type": "合成词",
+      "collocations": [
+        "have something to do with 与…有关"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "lifestyle": {
+      "en": "lifestyle",
+      "cn": "生活方式",
+      "source": "pdf",
+      "phonetic": "[ˈlaɪfstaɪl]",
+      "method": "合成词：life（生活）+style（方式）→生活方式",
+      "method_type": "合成词",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "watermelon": {
+      "en": "watermelon",
+      "cn": "西瓜",
+      "source": "pdf",
+      "phonetic": "[ˈwɔːtəmelən]",
+      "method": "合成词：water（水）+melon（瓜）→水分很足的瓜→西瓜",
+      "method_type": "合成词",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "chocolate": {
+      "en": "chocolate",
+      "cn": "巧克力",
+      "source": "pdf",
+      "phonetic": "[ˈtʃɒklət]",
+      "method": "",
+      "method_type": "",
+      "collocations": [
+        "a bar of chocolate 一条巧克力"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "发音像\"巧克力\"→巧克力",
+      "method_type_ai": "发音记忆"
+    },
+    "carrot": {
+      "en": "carrot",
+      "cn": "胡萝卜",
+      "source": "pdf",
+      "phonetic": "[ˈkærət]",
+      "method": "联想记忆：鹦鹉（parrot）在吃胡萝卜（carrot）",
+      "method_type": "联想记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "pork": {
+      "en": "pork",
+      "cn": "猪肉",
+      "source": "pdf",
+      "phonetic": "[pɔːk]",
+      "method": "",
+      "method_type": "",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "p（猪）+ ork→猪肉",
+      "method_type_ai": "发音记忆"
+    },
+    "sweet": {
+      "en": "sweet",
+      "cn": "糖果；甜食",
+      "source": "pdf",
+      "phonetic": "[swiːt]",
+      "method": "联想记忆：浑身流汗（sweat）的人可不是芬芳（sweet）扑鼻的",
+      "method_type": "联想记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "health": {
+      "en": "health",
+      "cn": "健康",
+      "source": "pdf",
+      "phonetic": "[helθ]",
+      "method": "联想记忆：健康（health）是人生最大的财富（wealth）",
+      "method_type": "联想记忆",
+      "collocations": [],
+      "derivations": [
+        "healthy（adj. 健康的）"
+      ],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "tasty": {
+      "en": "tasty",
+      "cn": "美味的",
+      "source": "pdf",
+      "phonetic": "[ˈteɪsti]",
+      "method": "",
+      "method_type": "",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [
+        "delicious（adj. 美味的，可口的）"
+      ],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "taste（味道）去e + y（…的）→美味的",
+      "method_type_ai": "词根记忆"
+    },
+    "diet": {
+      "en": "diet",
+      "cn": "日常饮食",
+      "source": "pdf",
+      "phonetic": "[ˈdaɪət]",
+      "method": "联想记忆：过度节食（diet）会死（die）人的",
+      "method_type": "联想记忆",
+      "collocations": [],
+      "derivations": [
+        "dietary（adj. 饮食的）；dieter（n. 节食者，减肥者）"
+      ],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "important": {
+      "en": "important",
+      "cn": "重要的",
+      "source": "pdf",
+      "phonetic": "[ɪmˈpɔːtnt]",
+      "method": "",
+      "method_type": "",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "im（向内）+ port（搬运）+ ant（…的）→必须搬进来的→重要的",
+      "method_type_ai": "词根记忆"
+    },
+    "without": {
+      "en": "without",
+      "cn": "没有",
+      "source": "pdf",
+      "phonetic": "[wɪˈðaʊt]",
+      "method": "联想记忆：with（和）+out（出）→没有人和他出去玩→没有",
+      "method_type": "联想记忆",
+      "collocations": [
+        "without doing sth. 在没有做某事的情况下"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "pancake": {
+      "en": "pancake",
+      "cn": "烙饼，薄饼",
+      "source": "pdf",
+      "phonetic": "[ˈpænkeɪk]",
+      "method": "合成词：pan（平底锅）+cake（饼）→用平底锅摊煎饼→薄煎",
+      "method_type": "合成词",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "sugar": {
+      "en": "sugar",
+      "cn": "食糖",
+      "source": "pdf",
+      "phonetic": "[ˈʃʊɡə(r)]",
+      "method": "",
+      "method_type": "",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "s（甜）+ ugar→糖",
+      "method_type_ai": "联想记忆"
+    },
+    "tooth": {
+      "en": "tooth",
+      "cn": "牙，齿",
+      "source": "pdf",
+      "phonetic": "[tuːθ]",
+      "method": "联想记忆：tooth（牙齿）表面smooth（光滑的）",
+      "method_type": "联想记忆",
+      "collocations": [],
+      "derivations": [
+        "toothache（n. 牙疼）"
+      ],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "couch potato": {
+      "en": "couch potato",
+      "cn": "喜欢待在家里的人",
+      "source": "pdf_phrase",
+      "base_word": "potato",
+      "phonetic": "",
+      "method": "联想记忆：那些整天坐在沙发上看电视的“电视迷”在英语中叫 作couch potato。",
+      "method_type": "联想记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "have a sweet tooth": {
+      "en": "have a sweet tooth",
+      "cn": "爱吃甜食",
+      "source": "pdf_phrase",
+      "base_word": "have",
+      "phonetic": "",
+      "method": "词根记忆：hav（有）+e→有",
+      "method_type": "词根记忆",
+      "collocations": [
+        "have trouble/difficulty (in) doing sth. 做某事有困难；have nothing"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "stay up late": {
+      "en": "stay up late",
+      "cn": "熬夜",
+      "source": "pdf_phrase",
+      "base_word": "stay",
+      "phonetic": "",
+      "method": "",
+      "method_type": "",
+      "collocations": [
+        "stay up 熬夜"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "stay（保持）+ up（上）+ late（晚）→熬夜",
+      "method_type_ai": "联想记忆"
+    },
+    "unhealthy": {
+      "en": "unhealthy",
+      "cn": "不健康的",
+      "source": "pdf",
+      "phonetic": "[ʌnˈhelθi]",
+      "method": "词根记忆：un（不）+healthy（健康的）→不健康的",
+      "method_type": "词根记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "less": {
+      "en": "less",
+      "cn": "较少的，更少的",
+      "source": "pdf",
+      "phonetic": "[les]",
+      "method": "",
+      "method_type": "",
+      "collocations": [
+        "more or less 或多或少，差不多"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "更少的",
+      "method_type_ai": "联想记忆"
+    },
+    "need": {
+      "en": "need",
+      "cn": "需要；需要的事物",
+      "source": "pdf",
+      "phonetic": "[niːd]",
+      "method": "联想记忆：seed（种子）发芽，need（需要）浇水",
+      "method_type": "联想记忆",
+      "collocations": [
+        "in need of 需要…"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "enough": {
+      "en": "enough",
+      "cn": "足够的",
+      "source": "pdf",
+      "phonetic": "[ɪˈnʌf]",
+      "method": "联想记忆：山路rough（崎岖的），真是enough（够够的）",
+      "method_type": "联想记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [
+        "enough在修饰名词时必须放在名词前。在修饰形容词或副词"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "cheese": {
+      "en": "cheese",
+      "cn": "奶酪",
+      "source": "pdf",
+      "phonetic": "[tʃiːz]",
+      "method": "联想记忆：挑选（choose）奶酪（cheese）",
+      "method_type": "联想记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "piece": {
+      "en": "piece",
+      "cn": "一块，一片",
+      "source": "pdf",
+      "phonetic": "[piːs]",
+      "method": "",
+      "method_type": "",
+      "collocations": [
+        "a piece of 一块，一片，一张"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "pie（馅饼）+ ce→一块",
+      "method_type_ai": "联想记忆"
+    },
+    "bowl": {
+      "en": "bowl",
+      "cn": "一碗的量；碗",
+      "source": "pdf",
+      "phonetic": "[bəʊl]",
+      "method": "",
+      "method_type": "",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "b（碗）+ owl（猫头鹰）→碗",
+      "method_type_ai": "联想记忆"
+    },
+    "salt": {
+      "en": "salt",
+      "cn": "盐",
+      "source": "pdf",
+      "phonetic": "[sɔːlt]",
+      "method": "",
+      "method_type": "",
+      "collocations": [],
+      "derivations": [
+        "salty（adj. 含盐的，咸的）"
+      ],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "s（咸）+ alt→盐",
+      "method_type_ai": "联想记忆"
+    },
+    "kilo": {
+      "en": "kilo",
+      "cn": "千克，公斤",
+      "source": "pdf",
+      "phonetic": "[ˈkiːləʊ]",
+      "method": "",
+      "method_type": "",
+      "collocations": [],
+      "derivations": [
+        "kilogram（n. 千克）"
+      ],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "kilo（千）→千克",
+      "method_type_ai": "词根记忆"
+    },
+    "bottle": {
+      "en": "bottle",
+      "cn": "一瓶的量；瓶子",
+      "source": "pdf",
+      "phonetic": "[ˈbɒtl]",
+      "method": "发音记忆：“包头”→瓶子碰到头，头上有个包→瓶子",
+      "method_type": "发音记忆",
+      "collocations": [
+        "a bottle of 一瓶…"
+      ],
+      "derivations": [
+        "bottleneck（n. 瓶颈）；bottleful（n. 一瓶之量）"
+      ],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "maybe": {
+      "en": "maybe",
+      "cn": "也许",
+      "source": "pdf",
+      "phonetic": "[ˈmeɪbi]",
+      "method": "合成词：may（可能）+be（是）→也许",
+      "method_type": "合成词",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "than": {
+      "en": "than",
+      "cn": "比",
+      "source": "pdf",
+      "phonetic": "[ðən]",
+      "method": "",
+      "method_type": "",
+      "collocations": [
+        "more than 多于，不仅仅；no more than 只是，仅仅；not more"
+      ],
+      "derivations": [],
+      "notes": [
+        "OK的两个字母都要大写。"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "比…更",
+      "method_type_ai": "联想记忆"
+    },
+    "almost": {
+      "en": "almost",
+      "cn": "几乎",
+      "source": "pdf",
+      "phonetic": "[ˈɔːlməʊst]",
+      "method": "联想记忆：al（看作all，全部）+most（大多数）→大多数，差 不多就是所有了→几乎，差不多",
+      "method_type": "联想记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "chip": {
+      "en": "chip",
+      "cn": "炸薯条；炸薯片",
+      "source": "pdf",
+      "phonetic": "[tʃɪp]",
+      "method": "联想记忆：轮船（ship）在暴风雨中变成碎片（chip）",
+      "method_type": "联想记忆",
+      "collocations": [],
+      "derivations": [
+        "chippy（adj. 碎片的）"
+      ],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "score": {
+      "en": "score",
+      "cn": "分数，成绩",
+      "source": "pdf",
+      "phonetic": "[skɔː(r)]",
+      "method": "",
+      "method_type": "",
+      "collocations": [],
+      "derivations": [
+        "scorer（n. 记分员）"
+      ],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "s（得）+ core（核心）→得分",
+      "method_type_ai": "联想记忆"
+    },
+    "point": {
+      "en": "point",
+      "cn": "得分；要点",
+      "source": "pdf",
+      "phonetic": "[pɔɪnt]",
+      "method": "",
+      "method_type": "",
+      "collocations": [
+        "point of view 观点；point to/at 指着，指向；to the point of 到…"
+      ],
+      "derivations": [
+        "pointed（adj. 尖的；锐利的）；pointer（n. 指针）"
+      ],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "p（尖）+ oint→得分/要点",
+      "method_type_ai": "联想记忆"
+    },
+    "porridge": {
+      "en": "porridge",
+      "cn": "粥",
+      "source": "pdf",
+      "phonetic": "[ˈpɒrɪdʒ]",
+      "method": "联想记忆：por（看作poor，贫穷的）+ ridge（山脊）→住在山 脊上的穷人只能天天喝粥→粥",
+      "method_type": "联想记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "whole": {
+      "en": "whole",
+      "cn": "全部的；整个的",
+      "source": "pdf",
+      "phonetic": "[həʊl]",
+      "method": "联想记忆：whole（全部的）宝物都藏在hole（洞）里",
+      "method_type": "联想记忆",
+      "collocations": [
+        "on the whole 大体上，基本上；the whole life 一生"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "miss": {
+      "en": "miss",
+      "cn": "错过",
+      "source": "pdf",
+      "phonetic": "[mɪs]",
+      "method": "",
+      "method_type": "",
+      "collocations": [],
+      "derivations": [
+        "African （n. 非洲人 adj. 非洲的）"
+      ],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "miss（小姐/错过）→错过",
+      "method_type_ai": "联想记忆"
+    },
+    "break": {
+      "en": "break",
+      "cn": "休息时间",
+      "source": "pdf",
+      "phonetic": "[breɪk]",
+      "method": "",
+      "method_type": "",
+      "collocations": [
+        "break away from 从…脱离，打破；break down 出故障，坏掉；"
+      ],
+      "derivations": [
+        "breakthrough（n. 突破）"
+      ],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "b（不）+ reak（连续）→打破连续→休息",
+      "method_type_ai": "联想记忆"
+    },
+    "pie": {
+      "en": "pie",
+      "cn": "馅饼",
+      "source": "pdf",
+      "phonetic": "[paɪ]",
+      "method": "发音记忆：pie 的发音就是“派”",
+      "method_type": "发音记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "most": {
+      "en": "most",
+      "cn": "大多数，几乎所有；最大，最多",
+      "source": "pdf",
+      "phonetic": "[məʊst]",
+      "method": "",
+      "method_type": "",
+      "collocations": [],
+      "derivations": [
+        "mostly（adv. 主要地，大部分）"
+      ],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "最多的/大多数",
+      "method_type_ai": "联想记忆"
+    },
+    "style": {
+      "en": "style",
+      "cn": "样式；方式，作风",
+      "source": "pdf",
+      "phonetic": "[staɪl]",
+      "method": "发音记忆：“丝带噢”→不同款式的丝带引领时尚→时尚",
+      "method_type": "发音记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "jacket": {
+      "en": "jacket",
+      "cn": "夹克衫",
+      "source": "pdf",
+      "phonetic": "[ˈdʒækɪt]",
+      "method": "",
+      "method_type": "",
+      "collocations": [
+        "leather jacket 皮夹克"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "发音像\"夹克\"→夹克衫",
+      "method_type_ai": "发音记忆"
+    },
+    "jeans": {
+      "en": "jeans",
+      "cn": "牛仔裤",
+      "source": "pdf",
+      "phonetic": "[dʒiːnz]",
+      "method": "",
+      "method_type": "",
+      "collocations": [
+        "in jeans 穿着牛仔裤"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "发音像\"牛仔裤\"→牛仔裤",
+      "method_type_ai": "发音记忆"
+    },
+    "scarf": {
+      "en": "scarf",
+      "cn": "围巾",
+      "source": "pdf",
+      "phonetic": "[skɑːf]",
+      "method": "联想记忆：一个脸上有伤疤（scar）的人戴着一条围巾（scarf） 考 scarf变复数可直接加-s，也可将f变为v，再加-es",
+      "method_type": "联想记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "tie": {
+      "en": "tie",
+      "cn": "领带",
+      "source": "pdf",
+      "phonetic": "[taɪ]",
+      "method": "联想记忆：这人吃馅饼（pie）前不忘把领带（tie）摘下来",
+      "method_type": "联想记忆",
+      "collocations": [
+        "tie up 捆绑；束缚，阻碍；tie...to... 把…绑在…上"
+      ],
+      "derivations": [
+        "tie-in（n. 关联，联系）"
+      ],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "t-shirt": {
+      "en": "T-shirt",
+      "cn": "T恤衫",
+      "source": "pdf_phrase",
+      "base_word": "shirt",
+      "phonetic": "",
+      "method": "联想记忆：衬衫（shirt）可以搭配裙子（skirt）穿",
+      "method_type": "联想记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "calm": {
+      "en": "calm",
+      "cn": "镇静的；沉着的",
+      "source": "pdf",
+      "phonetic": "[kɑːm]",
+      "method": "联想记忆：接到求救电话（call），心里久久不能平静（calm）",
+      "method_type": "联想记忆",
+      "collocations": [
+        "calm down （使）平静下来，（使）镇定下来"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "fashion": {
+      "en": "fashion",
+      "cn": "时装业；流行",
+      "source": "pdf",
+      "phonetic": "[ˈfæʃn]",
+      "method": "",
+      "method_type": "",
+      "collocations": [],
+      "derivations": [
+        "fashionable（adj. 流行的，时髦的）"
+      ],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "fash（流行）+ ion→时尚",
+      "method_type_ai": "词根记忆"
+    },
+    "choose": {
+      "en": "choose",
+      "cn": "选择",
+      "source": "pdf",
+      "phonetic": "[tʃuːz]",
+      "method": "联想记忆：一只goose（鹅），choose（挑选）shoes（鞋子）",
+      "method_type": "联想记忆",
+      "collocations": [
+        "choose between A and B 在A 和B 中挑选；choose...from... 从…中"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "could": {
+      "en": "could",
+      "cn": "能，可以",
+      "source": "pdf",
+      "phonetic": "[kʊd]",
+      "method": "",
+      "method_type": "",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "can的过去式→能/可以",
+      "method_type_ai": "联想记忆"
+    },
+    "advice": {
+      "en": "advice",
+      "cn": "建议",
+      "source": "pdf",
+      "phonetic": "[ədˈvaɪs]",
+      "method": "",
+      "method_type": "",
+      "collocations": [
+        "ask for advice 征求意见；give/offer some advice 提建议；"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "ad（加强）+ vice（副手）→建议",
+      "method_type_ai": "联想记忆"
+    },
+    "depend": {
+      "en": "depend",
+      "cn": "取决于",
+      "source": "pdf",
+      "phonetic": "[dɪˈpend]",
+      "method": "词根记忆：de（下）+pend（悬挂）→挂在他物下面→依靠，依",
+      "method_type": "词根记忆",
+      "collocations": [
+        "depend on 依靠，指望"
+      ],
+      "derivations": [
+        "dependable（adj. 可信赖的）；dependence（n. 依赖）；"
+      ],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "depend on": {
+      "en": "depend on",
+      "cn": "取决于；依靠",
+      "source": "pdf_phrase",
+      "base_word": "depend",
+      "phonetic": "",
+      "method": "词根记忆：de（下）+pend（悬挂）→挂在他物下面→依靠，依",
+      "method_type": "词根记忆",
+      "collocations": [
+        "depend on 依靠，指望"
+      ],
+      "derivations": [
+        "dependable（adj. 可信赖的）；dependence（n. 依赖）；"
+      ],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "skin": {
+      "en": "skin",
+      "cn": "皮肤",
+      "source": "pdf",
+      "phonetic": "[skɪn]",
+      "method": "联想记忆：ski（滑雪）技术不好很容易滑倒而划伤skin（皮",
+      "method_type": "联想记忆",
+      "collocations": [
+        "skin care products 护肤品"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "such as": {
+      "en": "such as",
+      "cn": "诸如",
+      "source": "pdf_phrase",
+      "base_word": "such",
+      "phonetic": "",
+      "method": "",
+      "method_type": "",
+      "collocations": [
+        "such as 诸如，例如"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "such（这样的）+ as（像）→例如",
+      "method_type_ai": "联想记忆"
+    },
+    "purple": {
+      "en": "purple",
+      "cn": "紫色；紫色的",
+      "source": "pdf",
+      "phonetic": "[ˈpɜːpl]",
+      "method": "",
+      "method_type": "",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "pur（紫）+ ple→紫色",
+      "method_type_ai": "联想记忆"
+    },
+    "similar": {
+      "en": "similar",
+      "cn": "相似的",
+      "source": "pdf",
+      "phonetic": "[ˈsɪmələ(r)]",
+      "method": "词根记忆：simil（相类似）+ar（有…性质的）→相似的",
+      "method_type": "词根记忆",
+      "collocations": [
+        "be similar to 与…相似的"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "example": {
+      "en": "example",
+      "cn": "例子",
+      "source": "pdf",
+      "phonetic": "[ɪɡˈzɑːmpl]",
+      "method": "词根记忆：ex（出）+ampl（拿）+e→拿出（好的）来→榜样",
+      "method_type": "词根记忆",
+      "collocations": [
+        "for example 例如；give an example 举例；take...for example 以…"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "for example": {
+      "en": "for example",
+      "cn": "例如",
+      "source": "pdf_phrase",
+      "base_word": "for",
+      "phonetic": "",
+      "method": "",
+      "method_type": "",
+      "collocations": [
+        "pay for 为…付款；be for 支持，赞成；look for 寻找；care for 关"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "for（例如）+ example（例子）→例如",
+      "method_type_ai": "联想记忆"
+    },
+    "dark": {
+      "en": "dark",
+      "cn": "深色的；黑暗的",
+      "source": "pdf",
+      "phonetic": "[dɑːk]",
+      "method": "",
+      "method_type": "",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "d（黑）+ ark（方舟）→黑暗",
+      "method_type_ai": "联想记忆"
+    },
+    "mix": {
+      "en": "mix",
+      "cn": "混合",
+      "source": "pdf",
+      "phonetic": "[mɪks]",
+      "method": "联想记忆：电视机的各种线路mix（混合）在一起很难fix（修",
+      "method_type": "联想记忆",
+      "collocations": [
+        "mix up 弄乱；混淆"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "stand out": {
+      "en": "stand out",
+      "cn": "突出，显眼",
+      "source": "pdf_phrase",
+      "base_word": "stand",
+      "phonetic": "",
+      "method": "联想记忆：我们stand（站着），hand in hand（手拉手）",
+      "method_type": "联想记忆",
+      "collocations": [
+        "stand up 起立；stand for 代表"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "suitable": {
+      "en": "suitable",
+      "cn": "适合的",
+      "source": "pdf",
+      "phonetic": "[ˈsuːtəbl]",
+      "method": "词根记忆：suit（合适）+able（形容词后缀）→合适的；适当的",
+      "method_type": "词根记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "suit": {
+      "en": "suit",
+      "cn": "套装，西服",
+      "source": "pdf",
+      "phonetic": "[suːt]",
+      "method": "",
+      "method_type": "",
+      "collocations": [
+        "suit to 与…相称"
+      ],
+      "derivations": [
+        "suitable（adj. 相配的；合适的）"
+      ],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "s（适）+ uit→适合/套装",
+      "method_type_ai": "联想记忆"
+    },
+    "comfortable": {
+      "en": "comfortable",
+      "cn": "舒适的",
+      "source": "pdf",
+      "phonetic": "[ˈkʌmftəbl]",
+      "method": "联想记忆：comfort（舒服）+able（可…的）→舒服的",
+      "method_type": "联想记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "interview": {
+      "en": "interview",
+      "cn": "采访，访谈；面试",
+      "source": "pdf",
+      "phonetic": "[ˈɪntəvjuː]",
+      "method": "词根记忆：inter（相互）+view（看）→相互观察→面试",
+      "method_type": "词根记忆",
+      "collocations": [],
+      "derivations": [
+        "interviewer（n. 主持面试者；采访者）"
+      ],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "primary": {
+      "en": "primary",
+      "cn": "初等教育的，小学教育的",
+      "source": "pdf",
+      "phonetic": "[ˈpraɪməri]",
+      "method": "词根记忆：prim（主要的）+ary（…的）→首要的",
+      "method_type": "词根记忆",
+      "collocations": [],
+      "derivations": [
+        "primarily（adv. 主要地）",
+        "European （n. 欧洲人 adj. 欧洲的）"
+      ],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "date": {
+      "en": "date",
+      "cn": "日期",
+      "source": "pdf",
+      "phonetic": "[deɪt]",
+      "method": "联想记忆：讨厌（hate）约会（date）",
+      "method_type": "联想记忆",
+      "collocations": [
+        "date back to/from 追溯到…"
+      ],
+      "derivations": [
+        "dated（adj. 过时的；陈旧的）"
+      ],
+      "notes": [
+        "在考试中，经常会出现What's the date today? 这句话的意思是“今"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "traditional": {
+      "en": "traditional",
+      "cn": "传统的",
+      "source": "pdf",
+      "phonetic": "[trəˈdɪʃənl]",
+      "method": "词根记忆：tradition（传统）+al（…的）→传统的",
+      "method_type": "词根记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "popular": {
+      "en": "popular",
+      "cn": "广受欢迎的；流行的",
+      "source": "pdf",
+      "phonetic": "[ˈpɒpjələ(r)]",
+      "method": "词根记忆：popul（人民）+ar（有…性质的）→人民都喜欢的→",
+      "method_type": "词根记忆",
+      "collocations": [
+        "be popular with 受…欢迎"
+      ],
+      "derivations": [
+        "popularize（v. 普及）；popularization（n. 普及）"
+      ],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "type": {
+      "en": "type",
+      "cn": "类型，种类",
+      "source": "pdf",
+      "phonetic": "[taɪp]",
+      "method": "联想记忆：和tyre（n. 轮胎）一起记",
+      "method_type": "联想记忆",
+      "collocations": [
+        "type in 录入，输入"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "festival": {
+      "en": "festival",
+      "cn": "节日",
+      "source": "pdf",
+      "phonetic": "[ˈfestɪvl]",
+      "method": "词根记忆：fest（节日）+ival→节日",
+      "method_type": "词根记忆",
+      "collocations": [
+        "the Spring Festival 春节"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "just": {
+      "en": "just",
+      "cn": "仅仅，只不过；正好",
+      "source": "pdf",
+      "phonetic": "[dʒʌst]",
+      "method": "联想记忆：伸张正义（just），势在必（must）行",
+      "method_type": "联想记忆",
+      "collocations": [
+        "just now 刚刚；不久之前；现在；just then 就在那时"
+      ],
+      "derivations": [],
+      "notes": [
+        "在考试中，经常会出现短语just now，考生注意此时句子是用一"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "culture": {
+      "en": "culture",
+      "cn": "文化",
+      "source": "pdf",
+      "phonetic": "[ˈkʌltʃə(r)]",
+      "method": "联想记忆：古罗马神话里的战神马尔斯（Mars）脾气火爆，出 了名的惹是生非，用他的名字来命名火星（Mars），再恰当不过了。",
+      "method_type": "联想记忆",
+      "collocations": [
+        "traditional Chinese culture 中国传统文化"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "country": {
+      "en": "country",
+      "cn": "国家",
+      "source": "pdf",
+      "phonetic": "[ˈkʌntri]",
+      "method": "",
+      "method_type": "",
+      "collocations": [
+        "in the country 在乡下"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "count（伯爵）+ ry→伯爵领地→国家",
+      "method_type_ai": "联想记忆"
+    },
+    "belt": {
+      "en": "belt",
+      "cn": "腰带，皮带",
+      "source": "pdf",
+      "phonetic": "[belt]",
+      "method": "",
+      "method_type": "",
+      "collocations": [
+        "seat belt 安全带"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "b（带）+ elt→腰带",
+      "method_type_ai": "联想记忆"
+    },
+    "silk": {
+      "en": "silk",
+      "cn": "丝绸",
+      "source": "pdf",
+      "phonetic": "[sɪlk]",
+      "method": "联想记忆：牛奶（milk）巧克力如丝绸（silk）般顺滑",
+      "method_type": "联想记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "feel": {
+      "en": "feel",
+      "cn": "摸起来感觉，手感像",
+      "source": "pdf",
+      "phonetic": "[fiːl]",
+      "method": "",
+      "method_type": "",
+      "collocations": [
+        "feel like doing sth. 想做某事；feel as if/though 仿佛"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "f（手）+ eel→用手摸→感觉",
+      "method_type_ai": "联想记忆"
+    },
+    "soft": {
+      "en": "soft",
+      "cn": "软的，柔软的",
+      "source": "pdf",
+      "phonetic": "[sɒft]",
+      "method": "联想记忆：sofa（沙发）非常soft（柔软）",
+      "method_type": "联想记忆",
+      "collocations": [],
+      "derivations": [
+        "soften（v. 使…变柔软）；softness（n. 柔和；柔软）"
+      ],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "cotton": {
+      "en": "cotton",
+      "cn": "棉织物；棉花",
+      "source": "pdf",
+      "phonetic": "[ˈkɒtn]",
+      "method": "",
+      "method_type": "",
+      "collocations": [
+        "cotton candy 棉花糖"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "c（棉）+ otton→棉花",
+      "method_type_ai": "发音记忆"
+    },
+    "agree": {
+      "en": "agree",
+      "cn": "同意",
+      "source": "pdf",
+      "phonetic": "[əˈɡriː]",
+      "method": "词根记忆：a（表加强）+gree（令人高兴的）→赞同",
+      "method_type": "词根记忆",
+      "collocations": [
+        "agree with sb. 同意某人的意见；agree on 在…上取得一致；agree"
+      ],
+      "derivations": [
+        "agreement（n. 同意；协议）"
+      ],
+      "notes": [
+        "agree 可以和很多介词连用，要注意不同介词后接的宾语。agree"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "feature": {
+      "en": "feature",
+      "cn": "特点，特色",
+      "source": "pdf",
+      "phonetic": "[ˈfi ːtʃə(r)]",
+      "method": "",
+      "method_type": "",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "feat（做）+ ure→特征",
+      "method_type_ai": "词根记忆"
+    },
+    "material": {
+      "en": "material",
+      "cn": "材料，原料",
+      "source": "pdf",
+      "phonetic": "[məˈtɪəriəl]",
+      "method": "联想记忆：所有的材料（material）都属于物质（matter）",
+      "method_type": "联想记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [
+        "material作“材料，原料”讲的时候，可以作可数名词，而当“素"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "size": {
+      "en": "size",
+      "cn": "尺寸",
+      "source": "pdf",
+      "phonetic": "[saɪz]",
+      "method": "",
+      "method_type": "",
+      "collocations": [],
+      "derivations": [],
+      "notes": [
+        "我们常见的表示服饰尺寸大小的有三个标志：S（small），"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "s（尺）+ ize→尺寸",
+      "method_type_ai": "联想记忆"
+    },
+    "wise": {
+      "en": "wise",
+      "cn": "明智的",
+      "source": "pdf",
+      "phonetic": "[waɪz]",
+      "method": "联想记忆：策略wise（明智），业绩rise（提升）",
+      "method_type": "联想记忆",
+      "collocations": [
+        "it is wise to do sth. 做某事很明智"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "pound": {
+      "en": "pound",
+      "cn": "英镑",
+      "source": "pdf",
+      "phonetic": "[paʊnd]",
+      "method": "发音记忆：“砰”→心怦怦跳",
+      "method_type": "发音记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "dollar": {
+      "en": "dollar",
+      "cn": "美元",
+      "source": "pdf",
+      "phonetic": "[ˈdɒlə(r)]",
+      "method": "发音记忆：“到了”→到了美国就得用dollar →美元",
+      "method_type": "发音记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [
+        "dollar是可数名词，常以复数形式出现。dollar在作主语的时候，"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "lucky": {
+      "en": "lucky",
+      "cn": "幸运的",
+      "source": "pdf_derived",
+      "base_word": "luck",
+      "phonetic": "[lʌk]",
+      "method": "",
+      "method_type": "",
+      "collocations": [],
+      "derivations": [
+        "lucky（adj. 幸运的）；luckily（adv. 幸运地）"
+      ],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "luck（运气）+ y（…的）→幸运的",
+      "method_type_ai": "词根记忆"
+    },
+    "key": {
+      "en": "key",
+      "cn": "钥匙",
+      "source": "pdf",
+      "phonetic": "[kiː]",
+      "method": "",
+      "method_type": "",
+      "collocations": [
+        "key to …的答案"
+      ],
+      "derivations": [
+        "keyboard（n. 键盘）"
+      ],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "k（钥）+ ey→钥匙/关键",
+      "method_type_ai": "联想记忆"
+    },
+    "ring": {
+      "en": "ring",
+      "cn": "环状物，圈形的东西",
+      "source": "pdf",
+      "phonetic": "[rɪŋ]",
+      "method": "联想记忆：好莱坞魔幻大片《指环王》（The Lord of the Rings）",
+      "method_type": "联想记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "baseball": {
+      "en": "baseball",
+      "cn": "棒球",
+      "source": "pdf",
+      "phonetic": "[ˈbeɪsbɔːl]",
+      "method": "合成词：base（垒）+ball（球）→涉及“一垒、二垒”的球类运动",
+      "method_type": "合成词",
+      "collocations": [],
+      "derivations": [],
+      "notes": [
+        "“打棒球”用英语说就是play baseball，play接球类名词时，名词"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "set": {
+      "en": "set",
+      "cn": "一套，一副，一组",
+      "source": "pdf",
+      "phonetic": "[set]",
+      "method": "联想记忆：一只pet（宠物），全身wet（湿的），仍然set（就",
+      "method_type": "联想记忆",
+      "collocations": [
+        "set up 建立，建造；set out/off 出发；set aside 留出；set apart 分"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "a set of": {
+      "en": "a set of",
+      "cn": "一套，一副，一组",
+      "source": "pdf_phrase",
+      "base_word": "set",
+      "phonetic": "",
+      "method": "联想记忆：一只pet（宠物），全身wet（湿的），仍然set（就",
+      "method_type": "联想记忆",
+      "collocations": [
+        "set up 建立，建造；set out/off 出发；set aside 留出；set apart 分"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "inside": {
+      "en": "inside",
+      "cn": "在向……里面",
+      "source": "pdf",
+      "phonetic": "[ˌɪnˈsaɪd]",
+      "method": "合成词：in（里面）+side（边，一侧）→在…里面",
+      "method_type": "合成词",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "another": {
+      "en": "another",
+      "cn": "另一，又一",
+      "source": "pdf",
+      "phonetic": "[əˈnʌðə(r)]",
+      "method": "联想记忆：an（一）+other（另外的）→另一个",
+      "method_type": "联想记忆",
+      "collocations": [
+        "one after another 一个接一个地；one another 彼此"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "colourful": {
+      "en": "colourful",
+      "cn": "多彩的",
+      "source": "pdf_derived",
+      "base_word": "color",
+      "phonetic": "[ˈkʌlə(r)]",
+      "method": "",
+      "method_type": "",
+      "collocations": [],
+      "derivations": [
+        "colorful（adj. 鲜艳的；多姿多彩的）"
+      ],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "colour（颜色）+ ful（充满…的）→多彩的",
+      "method_type_ai": "词根记忆"
+    },
+    "surprise": {
+      "en": "surprise",
+      "cn": "令人惊奇的事情或消息",
+      "source": "pdf",
+      "phonetic": "[səˈpraɪz]",
+      "method": "",
+      "method_type": "",
+      "collocations": [],
+      "derivations": [
+        "surprised（adj. 感到惊讶的）"
+      ],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "sur（超过）+ prise（奖）→超出预期→惊喜",
+      "method_type_ai": "词根记忆"
+    },
+    "player": {
+      "en": "player",
+      "cn": "运动员",
+      "source": "pdf",
+      "phonetic": "[ˈpleɪə(r)]",
+      "method": "联想记忆：play（玩，比赛）+er（表人的后缀）→参加比赛的 人→队员，选手",
+      "method_type": "联想记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "protect": {
+      "en": "protect",
+      "cn": "保护，防护",
+      "source": "pdf",
+      "phonetic": "[prəˈtekt]",
+      "method": "词根记忆：pro（在前）+tect（盖上）→在前面盖上→保护",
+      "method_type": "词根记忆",
+      "collocations": [
+        "protect...from (doing)... 保护…免受…"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "mall": {
+      "en": "mall",
+      "cn": "购物商场",
+      "source": "pdf",
+      "phonetic": "[mɔːl]",
+      "method": "联想记忆：商店（mall）失火，房塌屋倒（fall）",
+      "method_type": "联想记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "across": {
+      "en": "across",
+      "cn": "在……对面；从……一边到另一边",
+      "source": "pdf",
+      "phonetic": "[əˈkrɒs]",
+      "method": "词根记忆：a（表加强）+cross（横过）→横过",
+      "method_type": "词根记忆",
+      "collocations": [
+        "come across 偶遇，不期而遇"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "cost": {
+      "en": "cost",
+      "cn": "需要付，价钱为",
+      "source": "pdf",
+      "phonetic": "[kɒst]",
+      "method": "联想记忆：外套（coat）好，价格（cost）高",
+      "method_type": "联想记忆",
+      "collocations": [
+        "at the cost of 以…为代价；at all costs 不惜一切代价"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "manage": {
+      "en": "manage",
+      "cn": "明智地使用；管理",
+      "source": "pdf",
+      "phonetic": "[ˈmænɪdʒ]",
+      "method": "联想记忆：man（人）+age→人来管理→管理",
+      "method_type": "联想记忆",
+      "collocations": [],
+      "derivations": [
+        "manageable（adj. 易管理的，易处理的）；management（n. 管"
+      ],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "afford": {
+      "en": "afford",
+      "cn": "足以支付，够付",
+      "source": "pdf",
+      "phonetic": "[əˈfɔːd]",
+      "method": "联想记忆：af+ford（福特汽车）→能买一辆福特汽车→买得起",
+      "method_type": "联想记忆",
+      "collocations": [
+        "afford to do sth. 能够做某事"
+      ],
+      "derivations": [
+        "affordable（adj. 负担得起的）"
+      ],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "education": {
+      "en": "education",
+      "cn": "教育",
+      "source": "pdf_derived",
+      "base_word": "educate",
+      "phonetic": "[ˈedʒukeɪt]",
+      "method": "词根记忆：e（表加强）+duc（引导）+ate（做）→不断引导→",
+      "method_type": "词根记忆",
+      "collocations": [],
+      "derivations": [
+        "education（n. 教育）"
+      ],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "pay": {
+      "en": "pay",
+      "cn": "付款",
+      "source": "pdf",
+      "phonetic": "[peɪ]",
+      "method": "发音记忆：“赔”→赔钱→付钱，支付",
+      "method_type": "发音记忆",
+      "collocations": [
+        "pay for 为…付款；pay back 偿还（借款）；报复；pay up 全部"
+      ],
+      "derivations": [],
+      "notes": [
+        "pay作名词时，意思是“ 薪金，报酬”。pay在多数情况下作动"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "pay for": {
+      "en": "pay for",
+      "cn": "支付",
+      "source": "pdf_phrase",
+      "base_word": "pay",
+      "phonetic": "",
+      "method": "发音记忆：“赔”→赔钱→付钱，支付",
+      "method_type": "发音记忆",
+      "collocations": [
+        "pay for 为…付款；pay back 偿还（借款）；报复；pay up 全部"
+      ],
+      "derivations": [],
+      "notes": [
+        "pay作名词时，意思是“ 薪金，报酬”。pay在多数情况下作动"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "flat": {
+      "en": "flat",
+      "cn": "公寓",
+      "source": "pdf",
+      "phonetic": "[flæt]",
+      "method": "",
+      "method_type": "",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "f（房）+ lat（平坦的）→公寓",
+      "method_type_ai": "联想记忆"
+    },
+    "daily": {
+      "en": "daily",
+      "cn": "每日的",
+      "source": "pdf",
+      "phonetic": "[ˈdeɪli]",
+      "method": "",
+      "method_type": "",
+      "collocations": [
+        "daily life 日常生活"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "day（天）+ ly（…的）→每日的",
+      "method_type_ai": "词根记忆"
+    },
+    "percent": {
+      "en": "percent",
+      "cn": "百分之一",
+      "source": "pdf",
+      "phonetic": "[pəˈsent]",
+      "method": "词根记忆：per（每）+cent（百）→每个一百里有多少→百分",
+      "method_type": "词根记忆",
+      "collocations": [],
+      "derivations": [
+        "percentage（n. 百分比，百分率）"
+      ],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "expensive": {
+      "en": "expensive",
+      "cn": "昂贵的",
+      "source": "pdf",
+      "phonetic": "[ɪkˈspensɪv]",
+      "method": "词根记忆：ex（出）+pens（花费）+ive（有…倾向的）→要花 费很多钱的→昂贵的",
+      "method_type": "词根记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [
+        "cheap（adj. 便宜的）"
+      ],
+      "examples": []
+    },
+    "save": {
+      "en": "save",
+      "cn": "储蓄；节省",
+      "source": "pdf",
+      "phonetic": "[seɪv]",
+      "method": "",
+      "method_type": "",
+      "collocations": [],
+      "derivations": [
+        "saver（n. 拯救者；储蓄者）；savings（n. 储蓄，存款）"
+      ],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "save（救/节省）→save",
+      "method_type_ai": "联想记忆"
+    },
+    "bank": {
+      "en": "bank",
+      "cn": "银行",
+      "source": "pdf",
+      "phonetic": "[bæŋk]",
+      "method": "联想记忆：银行（bank）里面来了个乐队（band）",
+      "method_type": "联想记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "matter": {
+      "en": "matter",
+      "cn": "要紧，有重大影响",
+      "source": "pdf",
+      "phonetic": "[ˈmætə(r)]",
+      "method": "",
+      "method_type": "",
+      "collocations": [
+        "as a matter of fact 实际上；It doesn't matter. 不要紧，没关系。"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "matt（垫）+ er→垫子上的事→要紧",
+      "method_type_ai": "联想记忆"
+    },
+    "pocket": {
+      "en": "pocket",
+      "cn": "口袋",
+      "source": "pdf",
+      "phonetic": "[ˈpɒkɪt]",
+      "method": "联想记忆：口袋（pocket）里放着一个小小的火箭（rocket）模",
+      "method_type": "联想记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "pocket money": {
+      "en": "pocket money",
+      "cn": "零花钱",
+      "source": "pdf_phrase",
+      "base_word": "pocket",
+      "phonetic": "",
+      "method": "联想记忆：口袋（pocket）里放着一个小小的火箭（rocket）模",
+      "method_type": "联想记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "notebook": {
+      "en": "notebook",
+      "cn": "笔记本",
+      "source": "pdf",
+      "phonetic": "[ˈnəʊtbʊk]",
+      "method": "合成词：note（笔记）+book（书，卷）→笔记本",
+      "method_type": "合成词",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "rest": {
+      "en": "rest",
+      "cn": "剩余部分；其他",
+      "source": "pdf",
+      "phonetic": "[rest]",
+      "method": "",
+      "method_type": "",
+      "collocations": [
+        "the rest of 剩余的…；rest in/on 取决于…，在于…"
+      ],
+      "derivations": [],
+      "notes": [
+        "the rest of既可以修饰可数名词，也可以修饰不可数名词，但这"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "r（剩）+ est→剩余/休息",
+      "method_type_ai": "联想记忆"
+    },
+    "bookshop": {
+      "en": "bookshop",
+      "cn": "书店",
+      "source": "pdf_derived",
+      "base_word": "book",
+      "phonetic": "[bʊk]",
+      "method": "联想记忆：手拿book（书），一边look（看），一边cook（做",
+      "method_type": "联想记忆",
+      "collocations": [
+        "book up 订完"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "gift": {
+      "en": "gift",
+      "cn": "礼物",
+      "source": "pdf",
+      "phonetic": "[ɡɪft]",
+      "method": "联想记忆：举起（lift）手来接礼物（gift）",
+      "method_type": "联想记忆",
+      "collocations": [],
+      "derivations": [
+        "gifted（adj. 有天赋的）"
+      ],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "as": {
+      "en": "as",
+      "cn": "作为，当作；正如；和……一样",
+      "source": "pdf",
+      "phonetic": "[æz]",
+      "method": "",
+      "method_type": "",
+      "collocations": [
+        "as if/though 好像；as a matter of fact 事实上，实际上；as to/for"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "像…一样",
+      "method_type_ai": "联想记忆"
+    },
+    "away": {
+      "en": "away",
+      "cn": "离开",
+      "source": "pdf",
+      "phonetic": "[əˈweɪ]",
+      "method": "联想记忆：离开（away）这里只有一条（a）路线（way）",
+      "method_type": "联想记忆",
+      "collocations": [
+        "right away 立刻；run away 跑开；break away from 脱离…"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "shell": {
+      "en": "shell",
+      "cn": "壳，骨架",
+      "source": "pdf",
+      "phonetic": "[ʃel]",
+      "method": "联想记忆：架子（shelf）上摆满了贝壳（shell）",
+      "method_type": "联想记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "deal": {
+      "en": "deal",
+      "cn": "交易",
+      "source": "pdf",
+      "phonetic": "[diːl]",
+      "method": "联想记忆：真的（real）交易（deal）",
+      "method_type": "联想记忆",
+      "collocations": [
+        "a great deal (of) 大量（的）；make a deal 成交；deal with 处理，"
+      ],
+      "derivations": [],
+      "notes": [
+        "a great deal of后面接不可数名词。"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "coin": {
+      "en": "coin",
+      "cn": "硬币",
+      "source": "pdf",
+      "phonetic": "[kɔɪn]",
+      "method": "",
+      "method_type": "",
+      "collocations": [
+        "gold coin 金币"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "c（圆）+ oin→圆形硬币",
+      "method_type_ai": "联想记忆"
+    },
+    "online": {
+      "en": "online",
+      "cn": "在线上，在网上",
+      "source": "pdf",
+      "phonetic": "[ˌɒnˈlaɪn]",
+      "method": "合成词：on（在…上）+line（线）→在线的",
+      "method_type": "合成词",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "lucky money": {
+      "en": "lucky money",
+      "cn": "压岁钱",
+      "source": "pdf_phrase",
+      "base_word": "money",
+      "phonetic": "",
+      "method": "联想记忆：把字母o 想象成一个大金币，money（钱）里面有个",
+      "method_type": "联想记忆",
+      "collocations": [
+        "make money 赚钱"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "relative": {
+      "en": "relative",
+      "cn": "亲戚",
+      "source": "pdf",
+      "phonetic": "[ˈrelətɪv]",
+      "method": "联想记忆：亲戚（relative）之间关系（relation）很和睦",
+      "method_type": "联想记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "send": {
+      "en": "send",
+      "cn": "发送",
+      "source": "pdf",
+      "phonetic": "[send]",
+      "method": "联想记忆：s（看作蛇）+end（尽头）→那条罪恶之蛇被送往 （send）世界尽头→送",
+      "method_type": "联想记忆",
+      "collocations": [
+        "send out 发出，放出；send off 送行；寄出；send up 发射；send"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "red packet": {
+      "en": "red packet",
+      "cn": "红包",
+      "source": "pdf_phrase",
+      "base_word": "red",
+      "phonetic": "",
+      "method": "",
+      "method_type": "",
+      "collocations": [],
+      "derivations": [
+        "reddish（adj. 略带红色的）"
+      ],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "red（红色）+ packet（包）→红包",
+      "method_type_ai": "合成词"
+    },
+    "survey": {
+      "en": "survey",
+      "cn": "民意调查；概述",
+      "source": "pdf",
+      "phonetic": "[ˈsɜːveɪ]",
+      "method": "",
+      "method_type": "",
+      "collocations": [],
+      "derivations": [
+        "surveyor（n. 测量员）"
+      ],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "sur（上）+ vey（看）→从上往下看→调查",
+      "method_type_ai": "词根记忆"
+    },
+    "in need": {
+      "en": "in need",
+      "cn": "在贫困中，在困难中",
+      "source": "pdf_phrase",
+      "base_word": "need",
+      "phonetic": "",
+      "method": "联想记忆：seed（种子）发芽，need（需要）浇水",
+      "method_type": "联想记忆",
+      "collocations": [
+        "in need of 需要…"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "beginning": {
+      "en": "beginning",
+      "cn": "开头，开端",
+      "source": "pdf_derived",
+      "base_word": "begin",
+      "phonetic": "[bɪˈɡɪn]",
+      "method": "",
+      "method_type": "",
+      "collocations": [
+        "begin with 以…开始",
+        "on Tuesday 在周二"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "begin（开始）+ n + ing（名词后缀）→开端",
+      "method_type_ai": "词根记忆"
+    },
+    "habit": {
+      "en": "habit",
+      "cn": "习惯",
+      "source": "pdf",
+      "phonetic": "[ˈhæbɪt]",
+      "method": "词根记忆：本身为词根，表示“有”→自身带有→习惯",
+      "method_type": "词根记忆",
+      "collocations": [
+        "develop/form/get into a habit (of) 养成一个（…）习惯；have a"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "celebrate": {
+      "en": "celebrate",
+      "cn": "庆祝",
+      "source": "pdf",
+      "phonetic": "[ˈselɪbreɪt]",
+      "method": "词根记忆：celebr（荣誉）+ate（做）→得到荣誉需要庆祝→庆",
+      "method_type": "词根记忆",
+      "collocations": [],
+      "derivations": [
+        "celebration（n. 庆祝，庆典）"
+      ],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "dragon boat": {
+      "en": "dragon boat",
+      "cn": "龙舟",
+      "source": "pdf_phrase",
+      "base_word": "boat",
+      "phonetic": "",
+      "method": "联想记忆： 一只goat（山羊），穿着coat（大衣），坐着",
+      "method_type": "联想记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "race": {
+      "en": "race",
+      "cn": "速度竞赛",
+      "source": "pdf",
+      "phonetic": "[reɪs]",
+      "method": "联想记忆：种族（race）不同，脸（face）部线条也不太一样",
+      "method_type": "联想记忆",
+      "collocations": [],
+      "derivations": [
+        "racial（adj. 种族的）"
+      ],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "lady": {
+      "en": "lady",
+      "cn": "女士；淑女",
+      "source": "pdf",
+      "phonetic": "[ˈleɪdi]",
+      "method": "",
+      "method_type": "",
+      "collocations": [
+        "old lady 老妇人，老太太",
+        "in June 在六月"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "la（女士）+ dy→女士",
+      "method_type_ai": "联想记忆"
+    },
+    "gentleman": {
+      "en": "gentleman",
+      "cn": "先生；绅士",
+      "source": "pdf",
+      "phonetic": "[ˈdʒentlmən]",
+      "method": "合成词：gentle（有教养的）+man（人）→有教养的人",
+      "method_type": "合成词",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "see off": {
+      "en": "see off",
+      "cn": "送别",
+      "source": "pdf_phrase",
+      "base_word": "see",
+      "phonetic": "",
+      "method": "联想记忆：过来看（come and see），一只蜜蜂（bee），赶紧 逃跑（flee）",
+      "method_type": "联想记忆",
+      "collocations": [
+        "see to 处理，照料；see sb. off 给某人送行"
+      ],
+      "derivations": [],
+      "notes": [
+        "see sb. do sth.是“看见某人做了某事”（已经做完了），而see sb."
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "throw": {
+      "en": "throw",
+      "cn": "扔",
+      "source": "pdf",
+      "phonetic": "[θrəʊ]",
+      "method": "发音记忆：“死肉”→死肉赶紧扔掉（throw）→扔",
+      "method_type": "发音记忆",
+      "collocations": [
+        "throw away 扔掉，丢弃；throw up 呕吐"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "hang": {
+      "en": "hang",
+      "cn": "悬挂",
+      "source": "pdf",
+      "phonetic": "[hæŋ]",
+      "method": "",
+      "method_type": "",
+      "collocations": [
+        "hang out/around 闲逛；hang on（打电话时）不挂断；hang up 挂"
+      ],
+      "derivations": [],
+      "notes": [
+        "考生要注意hang的过去式和过去分词，在表示“悬挂，吊；徘"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "hang像\"航\"→悬挂",
+      "method_type_ai": "联想记忆"
+    },
+    "onion": {
+      "en": "onion",
+      "cn": "洋葱",
+      "source": "pdf",
+      "phonetic": "[ˈʌnjən]",
+      "method": "",
+      "method_type": "",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "on（在…上）+ ion→层层叠上→洋葱",
+      "method_type_ai": "联想记忆"
+    },
+    "symbol": {
+      "en": "symbol",
+      "cn": "象征；符号",
+      "source": "pdf",
+      "phonetic": "[ˈsɪmbl]",
+      "method": "联想记忆：符号（symbol）可以用简单的（simple）方式把意思 表达出来",
+      "method_type": "联想记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "into": {
+      "en": "into",
+      "cn": "进入，到……里面",
+      "source": "pdf",
+      "phonetic": "[ˈɪntuː]",
+      "method": "",
+      "method_type": "",
+      "collocations": [
+        "be into sth. 对…十分感兴趣；很喜欢"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "in（进）+ to（到）→进入",
+      "method_type_ai": "合成词"
+    },
+    "wish": {
+      "en": "wish",
+      "cn": "希望",
+      "source": "pdf",
+      "phonetic": "[wɪʃ]",
+      "method": "联想记忆：wish（祝）您年年有余（鱼）fish",
+      "method_type": "联想记忆",
+      "collocations": [
+        "wish for 希望得到，渴望"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "carry": {
+      "en": "carry",
+      "cn": "拿，提，搬；携带",
+      "source": "pdf",
+      "phonetic": "[ˈkæri]",
+      "method": "",
+      "method_type": "",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "car（车）+ ry→用车搬运",
+      "method_type_ai": "联想记忆"
+    },
+    "suitcase": {
+      "en": "suitcase",
+      "cn": "手提箱",
+      "source": "pdf",
+      "phonetic": "[ˈsuːtkeɪs]",
+      "method": "合成词：suit（服装）+case（箱）→衣箱",
+      "method_type": "合成词",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "block": {
+      "en": "block",
+      "cn": "街区",
+      "source": "pdf",
+      "phonetic": "[blɒk]",
+      "method": "词根记忆：b+lock（锁）→封锁→阻碍",
+      "method_type": "词根记忆",
+      "collocations": [
+        "a block of 一块；block sth. (up) 阻碍；堵塞"
+      ],
+      "derivations": [
+        "blockade（n./v. 封锁）；blockage（n. 障碍物）"
+      ],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "traveller": {
+      "en": "traveller",
+      "cn": "旅行者，游客",
+      "source": "pdf_derived",
+      "base_word": "travel",
+      "phonetic": "[ˈtrævl]",
+      "method": "",
+      "method_type": "",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "travel（旅行）+ l + er（人）→旅行者",
+      "method_type_ai": "词根记忆"
+    },
+    "violin": {
+      "en": "violin",
+      "cn": "小提琴",
+      "source": "pdf",
+      "phonetic": "[ˌvaɪəˈlɪn]",
+      "method": "",
+      "method_type": "",
+      "collocations": [],
+      "derivations": [
+        "violinist（n. 小提琴家）"
+      ],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "发音像\"小提琴\"→小提琴",
+      "method_type_ai": "发音记忆"
+    },
+    "lively": {
+      "en": "lively",
+      "cn": "有生气的；热闹的",
+      "source": "pdf_derived",
+      "base_word": "live",
+      "phonetic": "[lɪv]",
+      "method": "联想记忆：想要live（生活），就要give（给予）",
+      "method_type": "联想记忆",
+      "collocations": [
+        "lead/live a...life 过着…的生活；live on 以…为食；live off 靠…生"
+      ],
+      "derivations": [
+        "lively（adj. 活泼的；栩栩如生的）"
+      ],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "spring roll": {
+      "en": "spring roll",
+      "cn": "春卷",
+      "source": "pdf_phrase",
+      "base_word": "spring",
+      "phonetic": "",
+      "method": "",
+      "method_type": "",
+      "collocations": [],
+      "derivations": [
+        "springy（adj. 有弹性的）"
+      ],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "spring（春天）+ roll（卷）→春卷",
+      "method_type_ai": "合成词"
+    },
+    "moment": {
+      "en": "moment",
+      "cn": "时刻，瞬间",
+      "source": "pdf",
+      "phonetic": "[ˈməʊmənt]",
+      "method": "",
+      "method_type": "",
+      "collocations": [
+        "at this moment 此时，此刻"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "mo（瞬）+ ment→瞬间/时刻",
+      "method_type_ai": "联想记忆"
+    },
+    "at the moment": {
+      "en": "at the moment",
+      "cn": "现在，当时",
+      "source": "pdf_phrase",
+      "base_word": "the",
+      "phonetic": "",
+      "method": "",
+      "method_type": "",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "at（在）+ the（那）+ moment（时刻）→此刻",
+      "method_type_ai": "联想记忆"
+    },
+    "tonight": {
+      "en": "tonight",
+      "cn": "在今晚",
+      "source": "pdf",
+      "phonetic": "[təˈnaɪt]",
+      "method": "合成词：to（到）+night（晚上）→今晚",
+      "method_type": "合成词",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "double": {
+      "en": "double",
+      "cn": "双的；两倍的",
+      "source": "pdf",
+      "phonetic": "[ˈdʌbl]",
+      "method": "发音记忆：“大不”→大不？两倍的当然大→两倍",
+      "method_type": "发音记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "mountain": {
+      "en": "mountain",
+      "cn": "高山，山岳",
+      "source": "pdf",
+      "phonetic": "[ˈmaʊntən]",
+      "method": "词根记忆：mount（登上）+ain（表物）→可以攀登的东西→山",
+      "method_type": "词根记忆",
+      "collocations": [
+        "mountain area 山区"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "climb": {
+      "en": "climb",
+      "cn": "攀登，爬",
+      "source": "pdf",
+      "phonetic": "[klaɪm]",
+      "method": "",
+      "method_type": "",
+      "collocations": [
+        "climb mountains 爬山"
+      ],
+      "derivations": [],
+      "notes": [
+        "考生要注意climb的发音，其中b不发音，因此在听力中要留"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "cli（爬）+ mb→爬山要慢慢爬",
+      "method_type_ai": "联想记忆"
+    },
+    "natural": {
+      "en": "natural",
+      "cn": "自然的",
+      "source": "pdf",
+      "phonetic": "[ˈnætʃrəl]",
+      "method": "词根记忆：natur（=nature，大自然）+al（形容词后缀）→自然",
+      "method_type": "词根记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "beauty": {
+      "en": "beauty",
+      "cn": "美；美人",
+      "source": "pdf",
+      "phonetic": "[ˈbjuːti]",
+      "method": "联想记忆：迪斯尼经典动画片《美女与野兽》的英文名 是Beauty and the Beast",
+      "method_type": "联想记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "elder": {
+      "en": "elder",
+      "cn": "长者，长辈",
+      "source": "pdf",
+      "phonetic": "[ˈeldə(r)]",
+      "method": "",
+      "method_type": "",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "eld（老）+ er（较…的）→较年长的",
+      "method_type_ai": "词根记忆"
+    },
+    "put up": {
+      "en": "put up",
+      "cn": "张贴，挂起",
+      "source": "pdf_phrase",
+      "base_word": "put",
+      "phonetic": "",
+      "method": "",
+      "method_type": "",
+      "collocations": [
+        "put on 穿上；上演，演出；put out 扑灭；put off 推迟；put forth"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "put（放）+ up（上）→张贴/挂起",
+      "method_type_ai": "联想记忆"
+    },
+    "spring couplet": {
+      "en": "spring couplet",
+      "cn": "春联",
+      "source": "pdf_phrase",
+      "base_word": "spring",
+      "phonetic": "",
+      "method": "",
+      "method_type": "",
+      "collocations": [],
+      "derivations": [
+        "springy（adj. 有弹性的）"
+      ],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "spring（春天）+ couplet（对句）→春联",
+      "method_type_ai": "合成词"
+    },
+    "ahead of time": {
+      "en": "ahead of time",
+      "cn": "事先，预先",
+      "source": "pdf_phrase",
+      "base_word": "time",
+      "phonetic": "",
+      "method": "",
+      "method_type": "",
+      "collocations": [],
+      "derivations": [],
+      "notes": [
+        "time作“时间”讲的时候是不可数名词，但是作“次，回”讲的时候"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "ahead（在前面）+ of（…的）+ time（时间）→提前",
+      "method_type_ai": "联想记忆"
+    },
+    "prepare": {
+      "en": "prepare",
+      "cn": "预备饭菜；把……预备好",
+      "source": "pdf",
+      "phonetic": "[prɪˈpeə(r)]",
+      "method": "词根记忆：pre（预先）+par（准备）+e→预先准备→预备",
+      "method_type": "词根记忆",
+      "collocations": [
+        "prepare for 为…做准备；prepare to do sth. 准备做某事"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "dish": {
+      "en": "dish",
+      "cn": "一道菜，菜肴",
+      "source": "pdf",
+      "phonetic": "[dɪʃ]",
+      "method": "联想记忆：一条fish（鱼），成为dish（菜肴），没有wish（愿",
+      "method_type": "联想记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "meaning": {
+      "en": "meaning",
+      "cn": "意义，意思",
+      "source": "pdf",
+      "phonetic": "[ˈmiːnɪŋ]",
+      "method": "",
+      "method_type": "",
+      "collocations": [],
+      "derivations": [
+        "meaningful（adj. 有意义的）"
+      ],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "mean（意思）+ ing（名词后缀）→意义",
+      "method_type_ai": "词根记忆"
+    },
+    "during": {
+      "en": "during",
+      "cn": "在……期间",
+      "source": "pdf",
+      "phonetic": "[ˈdjʊərɪŋ]",
+      "method": "",
+      "method_type": "",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "dur（持续）+ ing→在…期间",
+      "method_type_ai": "词根记忆"
+    },
+    "until": {
+      "en": "until",
+      "cn": "直到……为止",
+      "source": "pdf",
+      "phonetic": "[ənˈtɪl]",
+      "method": "",
+      "method_type": "",
+      "collocations": [
+        "not...until... 直到…才…"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "un（直到）+ til（到）→直到",
+      "method_type_ai": "联想记忆"
+    },
+    "heart": {
+      "en": "heart",
+      "cn": "内心；心脏",
+      "source": "pdf",
+      "phonetic": "[hɑːt]",
+      "method": "联想记忆：hear（听）+t（扑通声）→听见心脏跳动的扑通声→",
+      "method_type": "联想记忆",
+      "collocations": [
+        "break one's heart 使某人伤心"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "slim": {
+      "en": "slim",
+      "source": "pdf_derived",
+      "base_word": "swim",
+      "phonetic": "[swɪm]",
+      "method": "联想记忆：经常swim（游泳），才能slim（苗条的）",
+      "method_type": "联想记忆",
+      "collocations": [
+        "go swimming 去游泳"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "different": {
+      "en": "different",
+      "source": "pdf_derived",
+      "base_word": "difference",
+      "phonetic": "[ˈdɪfrəns]",
+      "method": "词根记忆：dif（分开）+fer（带来）+ence（表行为）→带来分 歧的行为→差别",
+      "method_type": "词根记忆",
+      "collocations": [],
+      "derivations": [
+        "different（adj. 不同的）；differently（adv. 不同地）"
+      ],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "usually": {
+      "en": "usually",
+      "source": "pdf_derived",
+      "base_word": "usual",
+      "phonetic": "[ˈjuːʒuəl]",
+      "method": "",
+      "method_type": "",
+      "collocations": [
+        "as usual 照常，照例"
+      ],
+      "derivations": [
+        "usually（adv. 通常，大抵）"
+      ],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "usual（通常的）+ ly（…地）→通常",
+      "method_type_ai": "词根记忆"
+    },
+    "healthy": {
+      "en": "healthy",
+      "source": "pdf_derived",
+      "base_word": "health",
+      "phonetic": "[helθ]",
+      "method": "联想记忆：健康（health）是人生最大的财富（wealth）",
+      "method_type": "联想记忆",
+      "collocations": [],
+      "derivations": [
+        "healthy（adj. 健康的）"
+      ],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "exciting": {
+      "en": "exciting",
+      "source": "pdf_derived",
+      "base_word": "excite",
+      "phonetic": "[ɪkˈsaɪt]",
+      "method": "词根记忆：ex（表加强）+cit（激起）+e→激起",
+      "method_type": "词根记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [
+        "考试中常考查excited和exciting的区别。excited用来形容人激"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "apart": {
+      "en": "apart",
+      "source": "pdf_derived",
+      "base_word": "part",
+      "phonetic": "[pɑːt]",
+      "method": "",
+      "method_type": "",
+      "collocations": [
+        "take part in 参加；play a part in 在…中起作用；in part 在某种程"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "a（向）+ part（部分）→向各部分→分开",
+      "method_type_ai": "词根记忆"
+    },
+    "tradition": {
+      "en": "tradition",
+      "source": "pdf_derived",
+      "base_word": "traditional",
+      "phonetic": "[trəˈdɪʃənl]",
+      "method": "词根记忆：tradition（传统）+al（…的）→传统的",
+      "method_type": "词根记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "smartphone": {
+      "en": "smartphone",
+      "source": "pdf_derived",
+      "base_word": "smart",
+      "phonetic": "[smɑːt]",
+      "method": "联想记忆：想变聪明（smart），必须开始（start），学习艺术 （art）",
+      "method_type": "联想记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [
+        "stupid （adj. 笨的）"
+      ],
+      "examples": []
+    },
+    "countless": {
+      "en": "countless",
+      "source": "pdf_derived",
+      "base_word": "count",
+      "phonetic": "[kaʊnt]",
+      "method": "",
+      "method_type": "",
+      "collocations": [
+        "count on sb. 依靠某人，指望某人；count for 占…"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "count（数）+ less（没有）→数不清的",
+      "method_type_ai": "词根记忆"
+    },
+    "playground": {
+      "en": "playground",
+      "source": "pdf_derived",
+      "base_word": "play",
+      "phonetic": "[pleɪ]",
+      "method": "",
+      "method_type": "",
+      "collocations": [
+        "play with 玩耍，摆弄；put on a play 上演话剧；play a part/role in"
+      ],
+      "derivations": [
+        "playful（adj. 嬉戏的；幽默的）"
+      ],
+      "notes": [
+        "在短语play football, play basketball, play chess等中，play后的体"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "play（玩）+ ground（场地）→操场",
+      "method_type_ai": "合成词"
+    },
+    "news": {
+      "en": "news",
+      "source": "pdf_derived",
+      "base_word": "new",
+      "phonetic": "[njuː]",
+      "method": "联想记忆：我买了a few（一些） new（新的）针线来sew（缝， 缝纫）衣服",
+      "method_type": "联想记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [
+        "old（adj. 旧的）"
+      ],
+      "examples": []
+    },
+    "teamwork": {
+      "en": "teamwork",
+      "source": "pdf_derived",
+      "base_word": "team",
+      "phonetic": "[tiːm]",
+      "method": "联想记忆：采茶（tea）小队（team）",
+      "method_type": "联想记忆",
+      "collocations": [
+        "team up 结成一队，合作"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "wedding": {
+      "en": "wedding",
+      "source": "pdf_derived",
+      "base_word": "marry",
+      "phonetic": "[ˈmæri]",
+      "method": "联想记忆：结婚（marry）是令人幸福快乐的（merry）事",
+      "method_type": "联想记忆",
+      "collocations": [
+        "get married 结婚"
+      ],
+      "derivations": [],
+      "notes": [
+        "marry是及物动词，直接接宾语，即marry sb.。另外，“和…结"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "midnight": {
+      "en": "midnight",
+      "source": "pdf_derived",
+      "base_word": "night",
+      "phonetic": "[naɪt]",
+      "method": "",
+      "method_type": "",
+      "collocations": [
+        "at night 在夜里"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "mid（中间）+ night（夜晚）→午夜",
+      "method_type_ai": "合成词"
+    },
+    "ahead": {
+      "en": "ahead",
+      "source": "pdf_derived",
+      "base_word": "head",
+      "phonetic": "[hed]",
+      "method": "联想记忆：高温（heat）导致头（head）疼",
+      "method_type": "联想记忆",
+      "collocations": [
+        "head for 出发，前往，朝…方向去"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "forever": {
+      "en": "forever",
+      "source": "pdf_derived",
+      "base_word": "ever",
+      "phonetic": "[ˈevə(r)]",
+      "method": "",
+      "method_type": "",
+      "collocations": [],
+      "derivations": [],
+      "notes": [
+        "ever常用在现在完成时的疑问句中，另外，在作“曾经”讲的时"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "for（为了）+ ever（永远）→永远",
+      "method_type_ai": "合成词"
+    },
+    "grey": {
+      "en": "grey",
+      "source": "pdf_derived",
+      "base_word": "gray",
+      "phonetic": "[ɡreɪ]",
+      "method": "",
+      "method_type": "",
+      "collocations": [],
+      "derivations": [],
+      "notes": [
+        "在英式英语中还可以写成grey。"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "g（灰）+ rey→灰色",
+      "method_type_ai": "联想记忆"
+    },
+    "tiring": {
+      "en": "tiring",
+      "source": "pdf_derived",
+      "base_word": "tired",
+      "phonetic": "[ˈtaɪəd]",
+      "method": "发音记忆：“太饿的”→饿得慌，累得很→疲劳的",
+      "method_type": "发音记忆",
+      "collocations": [
+        "tired out 非常疲倦"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "geography": {
+      "en": "geography",
+      "cn": "地理学",
+      "source": "yu_speed",
+      "phonetic": "",
+      "method": "geo＋graph（写）＋y→关于地的学科→地理",
+      "method_type": "其他",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "event": {
+      "en": "event",
+      "cn": "事件；活动",
+      "source": "yu_speed",
+      "phonetic": "",
+      "method": "e（出）＋vent→出来的事→事件",
+      "method_type": "其他",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "lemon": {
+      "en": "lemon",
+      "cn": "柠檬",
+      "source": "yu_speed",
+      "phonetic": "",
+      "method": "",
+      "method_type": "",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        "I seldom drink coffee in the morning; I prefer"
+      ],
+      "method_ai": "发音像\"柠檬\"→柠檬",
+      "method_type_ai": "发音记忆"
+    },
+    "snack": {
+      "en": "snack",
+      "cn": "点心，小吃",
+      "source": "yu_speed",
+      "phonetic": "",
+      "method": "",
+      "method_type": "",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        "There is a"
+      ],
+      "method_ai": "sn（小）+ ack→小吃/点心",
+      "method_type_ai": "联想记忆"
+    },
+    "packet": {
+      "en": "packet",
+      "cn": "小袋；小包装纸袋",
+      "source": "yu_speed",
+      "phonetic": "",
+      "method": "pack（包）＋et→小包",
+      "method_type": "其他",
+      "collocations": [
+        "data packet 数据包"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "strawberry": {
+      "en": "strawberry",
+      "cn": "草莓",
+      "source": "yu_speed",
+      "phonetic": "",
+      "method": "",
+      "method_type": "",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        "I like"
+      ],
+      "method_ai": "straw（稻草）+ berry（浆果）→草莓",
+      "method_type_ai": "发音记忆"
+    },
+    "yogurt": {
+      "en": "yogurt",
+      "cn": "酸奶",
+      "source": "yu_speed",
+      "phonetic": "",
+      "method": "",
+      "method_type": "",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        "I usually have toast, cheese, milk or"
+      ],
+      "method_ai": "发音像\"优格\"→酸奶",
+      "method_type_ai": "发音记忆"
+    },
+    "blouse": {
+      "en": "blouse",
+      "cn": "女士衬衫",
+      "source": "yu_speed",
+      "phonetic": "",
+      "method": "",
+      "method_type": "",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        "Where did you get this cute"
+      ],
+      "method_ai": "发音像\"布衬衫\"→女士衬衫",
+      "method_type_ai": "发音记忆"
+    },
+    "formal": {
+      "en": "formal",
+      "cn": "适合正式场合的，正规的",
+      "source": "yu_speed",
+      "phonetic": "",
+      "method": "form＋al→已形成的→正规的",
+      "method_type": "其他",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "history": {
+      "en": "history",
+      "cn": "历史",
+      "source": "yu_speed",
+      "phonetic": "",
+      "method": "",
+      "method_type": "",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        "The"
+      ],
+      "method_ai": "his（他的）+ story（故事）→他的故事→历史",
+      "method_type_ai": "联想记忆"
+    },
+    "loose": {
+      "en": "loose",
+      "cn": "宽松的",
+      "source": "yu_speed",
+      "phonetic": "",
+      "method": "",
+      "method_type": "",
+      "collocations": [
+        "loose...off at 朝…放出，朝…发射"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        "The man"
+      ],
+      "method_ai": "l（松）+ oose→宽松的",
+      "method_type_ai": "联想记忆"
+    },
+    "strike": {
+      "en": "strike",
+      "cn": "敲，鸣，报时；击打",
+      "source": "yu_speed",
+      "phonetic": "",
+      "method": "",
+      "method_type": "",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        "The enemy"
+      ],
+      "method_ai": "st（打）+ rike→打击→敲/报时",
+      "method_type_ai": "联想记忆"
+    },
+    "respect": {
+      "en": "respect",
+      "cn": "尊敬",
+      "source": "yu_speed",
+      "phonetic": "",
+      "method": "re（一再）＋spect→一再注视→尊敬",
+      "method_type": "其他",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "decorate": {
+      "en": "decorate",
+      "cn": "装饰",
+      "source": "yu_speed",
+      "phonetic": "",
+      "method": "",
+      "method_type": "",
+      "collocations": [
+        "decorate...with 用…装饰"
+      ],
+      "derivations": [],
+      "notes": [
+        "decorate和ornament都有“装饰”的意思。decorate意为“装饰；装修”，主要指“通过增加色泽、花样等手段对事物进行布置，使之生色”；ornament作“装饰”讲时，则指“用装饰品等进行美化”，常用于被动语态中。"
+      ],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [
+        "When will you"
+      ],
+      "method_ai": "decor（装饰）+ ate（动词后缀）→装饰",
+      "method_type_ai": "词根记忆"
+    },
+    "smooth": {
+      "en": "smooth",
+      "cn": "光滑的",
+      "source": "pdf",
+      "phonetic": "",
+      "method": "tooth（牙齿）表面smooth（光滑的）",
+      "method_type": "联想记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "christmas": {
+      "en": "Christmas",
+      "cn": "圣诞节",
+      "source": "pdf",
+      "phonetic": "[ˈkrɪsməs]",
+      "method": "",
+      "method_type": "",
+      "collocations": [
+        "Merry Christmas! 圣诞快乐！"
+      ],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": [],
+      "method_ai": "Christ（基督）+ mas（弥撒）→圣诞节",
+      "method_type_ai": "词根记忆"
+    },
+    "be called": {
+      "en": "be called",
+      "cn": "叫作，被称为",
+      "source": "ai_generated",
+      "phonetic": "",
+      "method": "",
+      "method_type": "",
+      "method_ai": "be（被）+ called（叫）→被称为",
+      "method_type_ai": "联想记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "be interested in": {
+      "en": "be interested in",
+      "cn": "对……感兴趣",
+      "source": "ai_generated",
+      "phonetic": "",
+      "method": "",
+      "method_type": "",
+      "method_ai": "be（被）+ interested（感兴趣的）+ in（在…方面）→对…感兴趣",
+      "method_type_ai": "联想记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "maths": {
+      "en": "maths",
+      "cn": "数学",
+      "source": "ai_generated",
+      "phonetic": "",
+      "method": "",
+      "method_type": "",
+      "method_ai": "ma（妈）+ ths→妈妈思考数学→数学",
+      "method_type_ai": "联想记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "at weekends": {
+      "en": "at weekends",
+      "cn": "在周末",
+      "source": "ai_generated",
+      "phonetic": "",
+      "method": "",
+      "method_type": "",
+      "method_ai": "at（在）+ weekends（周末）→在周末",
+      "method_type_ai": "联想记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "jog": {
+      "en": "jog",
+      "cn": "慢跑，慢步长跑",
+      "source": "ai_generated",
+      "phonetic": "",
+      "method": "",
+      "method_type": "",
+      "method_ai": "j（慢）+ og→慢跑",
+      "method_type_ai": "联想记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "paint": {
+      "en": "paint",
+      "cn": "用颜料画；在……上刷油漆",
+      "source": "ai_generated",
+      "phonetic": "",
+      "method": "",
+      "method_type": "",
+      "method_ai": "p（泼）+ aint→泼颜料→画画",
+      "method_type_ai": "联想记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "p.m.": {
+      "en": "p.m.",
+      "cn": "下午",
+      "source": "ai_generated",
+      "phonetic": "",
+      "method": "",
+      "method_type": "",
+      "method_ai": "post meridiem（拉丁语\"午后\"缩写）→下午",
+      "method_type_ai": "联想记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "questionnaire": {
+      "en": "questionnaire",
+      "cn": "调查问卷",
+      "source": "ai_generated",
+      "phonetic": "",
+      "method": "",
+      "method_type": "",
+      "method_ai": "question（问题）+ naire（表集合）→一堆问题→问卷",
+      "method_type_ai": "联想记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "painting": {
+      "en": "painting",
+      "cn": "画作",
+      "source": "ai_generated",
+      "phonetic": "",
+      "method": "",
+      "method_type": "",
+      "method_ai": "paint（画）+ ing（名词后缀）→画作",
+      "method_type_ai": "词根记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "noticeboard": {
+      "en": "noticeboard",
+      "cn": "布告板，告示牌",
+      "source": "ai_generated",
+      "phonetic": "",
+      "method": "",
+      "method_type": "",
+      "method_ai": "notice（通知）+ board（板）→布告板",
+      "method_type_ai": "合成词",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "a.m.": {
+      "en": "a.m.",
+      "cn": "上午",
+      "source": "ai_generated",
+      "phonetic": "",
+      "method": "",
+      "method_type": "",
+      "method_ai": "ante meridiem（拉丁语\"午前\"缩写）→上午",
+      "method_type_ai": "联想记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "on weekdays": {
+      "en": "on weekdays",
+      "cn": "在工作日",
+      "source": "ai_generated",
+      "phonetic": "",
+      "method": "",
+      "method_type": "",
+      "method_ai": "on（在）+ weekdays（工作日）→在工作日",
+      "method_type_ai": "联想记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "practise": {
+      "en": "practise",
+      "cn": "训练，练习",
+      "source": "ai_generated",
+      "phonetic": "",
+      "method": "",
+      "method_type": "",
+      "method_ai": "pract（做）+ ise（动词后缀）→做→练习",
+      "method_type_ai": "联想记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "would": {
+      "en": "would",
+      "cn": "想，愿意",
+      "source": "ai_generated",
+      "phonetic": "",
+      "method": "",
+      "method_type": "",
+      "method_ai": "will的过去式→想/愿意",
+      "method_type_ai": "联想记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "website": {
+      "en": "website",
+      "cn": "网站",
+      "source": "ai_generated",
+      "phonetic": "",
+      "method": "",
+      "method_type": "",
+      "method_ai": "web（网）+ site（地点）→网站",
+      "method_type_ai": "联想记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "bin": {
+      "en": "bin",
+      "cn": "垃圾桶",
+      "source": "ai_generated",
+      "phonetic": "",
+      "method": "",
+      "method_type": "",
+      "method_ai": "b（桶）+ in（里面）→垃圾桶",
+      "method_type_ai": "联想记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "cucumber": {
+      "en": "cucumber",
+      "cn": "黄瓜",
+      "source": "ai_generated",
+      "phonetic": "",
+      "method": "",
+      "method_type": "",
+      "method_ai": "发音像\"黄瓜\"→黄瓜",
+      "method_type_ai": "发音记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "pepper": {
+      "en": "pepper",
+      "cn": "甜椒；胡椒粉",
+      "source": "ai_generated",
+      "phonetic": "",
+      "method": "",
+      "method_type": "",
+      "method_ai": "发音像\"胡椒粉\"→胡椒粉",
+      "method_type_ai": "发音记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "beef": {
+      "en": "beef",
+      "cn": "牛肉",
+      "source": "ai_generated",
+      "phonetic": "",
+      "method": "",
+      "method_type": "",
+      "method_ai": "发音像\"牛肉\"→牛肉",
+      "method_type_ai": "发音记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "tofu": {
+      "en": "tofu",
+      "cn": "豆腐",
+      "source": "ai_generated",
+      "phonetic": "",
+      "method": "",
+      "method_type": "",
+      "method_ai": "发音像\"豆腐\"→豆腐",
+      "method_type_ai": "发音记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "mutton": {
+      "en": "mutton",
+      "cn": "羊肉",
+      "source": "ai_generated",
+      "phonetic": "",
+      "method": "",
+      "method_type": "",
+      "method_ai": "发音像\"母羊\"（谐音）→羊肉",
+      "method_type_ai": "发音记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "carton": {
+      "en": "carton",
+      "cn": "硬纸盒，塑料盒",
+      "source": "ai_generated",
+      "phonetic": "",
+      "method": "",
+      "method_type": "",
+      "method_ai": "car（车）+ ton（吨）→用车装的一箱→硬纸盒",
+      "method_type_ai": "发音记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "tablet": {
+      "en": "tablet",
+      "cn": "平板电脑",
+      "source": "ai_generated",
+      "phonetic": "",
+      "method": "",
+      "method_type": "",
+      "method_ai": "table（桌子）+ t→平板电脑像小桌子",
+      "method_type_ai": "联想记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "informal": {
+      "en": "informal",
+      "cn": "非正式的，随便的",
+      "source": "ai_generated",
+      "phonetic": "",
+      "method": "",
+      "method_type": "",
+      "method_ai": "in（不）+ formal（正式的）→非正式的",
+      "method_type_ai": "词根记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "tight": {
+      "en": "tight",
+      "cn": "紧身的",
+      "source": "ai_generated",
+      "phonetic": "",
+      "method": "",
+      "method_type": "",
+      "method_ai": "t（紧）+ ight→紧的",
+      "method_type_ai": "联想记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "be made of": {
+      "en": "be made of",
+      "cn": "由……制成",
+      "source": "ai_generated",
+      "phonetic": "",
+      "method": "",
+      "method_type": "",
+      "method_ai": "be（被）+ made（制造）+ of（由）→由…制成",
+      "method_type_ai": "联想记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "leather": {
+      "en": "leather",
+      "cn": "皮革",
+      "source": "ai_generated",
+      "phonetic": "",
+      "method": "",
+      "method_type": "",
+      "method_ai": "皮革（leather）发音像\"来\"→\"来\"的皮",
+      "method_type_ai": "发音记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "yuan": {
+      "en": "yuan",
+      "cn": "元",
+      "source": "ai_generated",
+      "phonetic": "",
+      "method": "",
+      "method_type": "",
+      "method_ai": "发音像\"元\"→人民币元",
+      "method_type_ai": "发音记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "euro": {
+      "en": "euro",
+      "cn": "欧元",
+      "source": "ai_generated",
+      "phonetic": "",
+      "method": "",
+      "method_type": "",
+      "method_ai": "发音像\"欧元\"→欧元",
+      "method_type_ai": "发音记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "yen": {
+      "en": "yen",
+      "cn": "日元",
+      "source": "ai_generated",
+      "phonetic": "",
+      "method": "",
+      "method_type": "",
+      "method_ai": "发音像\"日元\"→日元",
+      "method_type_ai": "发音记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "rouble": {
+      "en": "rouble",
+      "cn": "卢布",
+      "source": "ai_generated",
+      "phonetic": "",
+      "method": "",
+      "method_type": "",
+      "method_ai": "发音像\"卢布\"→卢布",
+      "method_type_ai": "发音记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "russian": {
+      "en": "russian",
+      "cn": "俄罗斯人的，俄语的",
+      "source": "ai_generated",
+      "phonetic": "",
+      "method": "",
+      "method_type": "",
+      "method_ai": "Russia（俄罗斯）+ an（…的）→俄罗斯的",
+      "method_type_ai": "词根记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "budget": {
+      "en": "budget",
+      "cn": "预算",
+      "source": "ai_generated",
+      "phonetic": "",
+      "method": "",
+      "method_type": "",
+      "method_ai": "budg（预算）+ et→预算",
+      "method_type_ai": "联想记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "account": {
+      "en": "account",
+      "cn": "账户",
+      "source": "ai_generated",
+      "phonetic": "",
+      "method": "",
+      "method_type": "",
+      "method_ai": "ac（加强）+ count（数）→数清楚→账户",
+      "method_type_ai": "联想记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "rainy": {
+      "en": "rainy",
+      "cn": "有雨的",
+      "source": "ai_generated",
+      "phonetic": "",
+      "method": "",
+      "method_type": "",
+      "method_ai": "rain（雨）+ y（…的）→有雨的",
+      "method_type_ai": "词根记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "rubber": {
+      "en": "rubber",
+      "cn": "橡皮",
+      "source": "ai_generated",
+      "phonetic": "",
+      "method": "",
+      "method_type": "",
+      "method_ai": "rub（擦）+ ber→用来擦的→橡皮/橡胶",
+      "method_type_ai": "发音记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "grandparent": {
+      "en": "grandparent",
+      "cn": "外祖父，外祖母；祖父，祖母",
+      "source": "ai_generated",
+      "phonetic": "",
+      "method": "",
+      "method_type": "",
+      "method_ai": "grand（隔代的）+ parent（父母）→祖父母",
+      "method_type_ai": "合成词",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "dragon": {
+      "en": "dragon",
+      "cn": "龙",
+      "source": "ai_generated",
+      "phonetic": "",
+      "method": "",
+      "method_type": "",
+      "method_ai": "d（龙）+ ragon→龙",
+      "method_type_ai": "联想记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "greek": {
+      "en": "greek",
+      "cn": "希腊人的，希腊语的",
+      "source": "ai_generated",
+      "phonetic": "",
+      "method": "",
+      "method_type": "",
+      "method_ai": "Greece（希腊）的形容词→希腊的",
+      "method_type_ai": "联想记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "wherever": {
+      "en": "wherever",
+      "cn": "在任何地方",
+      "source": "ai_generated",
+      "phonetic": "",
+      "method": "",
+      "method_type": "",
+      "method_ai": "where（哪里）+ ever（无论）→无论在哪里",
+      "method_type_ai": "合成词",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    },
+    "lantern": {
+      "en": "lantern",
+      "cn": "灯笼",
+      "source": "ai_generated",
+      "phonetic": "",
+      "method": "",
+      "method_type": "",
+      "method_ai": "lan（灯）+ tern→灯笼",
+      "method_type_ai": "联想记忆",
+      "collocations": [],
+      "derivations": [],
+      "notes": [],
+      "synonyms": [],
+      "antonyms": [],
+      "examples": []
+    }
+  }
+}

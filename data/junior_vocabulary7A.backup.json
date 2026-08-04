@@ -18,7 +18,7 @@
               "words": [
                 {
                   "en": "greet",
-                  "cn": "和……打招呼（或问好）",
+                  "cn": "和……打招呼",
                   "phonetic": "/ɡriːt/",
                   "grade": "7A"
                 },
@@ -30,14 +30,14 @@
                 },
                 {
                   "en": "each other",
-                  "cn": "互相",
+                  "cn": "相互",
                   "phonetic": "/ˌiːtʃ ˈʌðə/",
                   "grade": "7A"
                 },
                 {
-                  "en": "go by",
+                  "en": "be called",
                   "cn": "叫作，被称为",
-                  "phonetic": "/ɡəʊ baɪ/",
+                  "phonetic": "/bi kɔːld/",
                   "grade": "7A"
                 },
                 {
@@ -78,13 +78,13 @@
                 },
                 {
                   "en": "full",
-                  "cn": "（有）大量的；满的",
+                  "cn": "满的",
                   "phonetic": "/fʊl/",
                   "grade": "7A"
                 },
                 {
                   "en": "be full of",
-                  "cn": "满是……的",
+                  "cn": "满是",
                   "phonetic": "/bi fʊl əv/",
                   "grade": "7A"
                 },
@@ -125,15 +125,15 @@
                   "grade": "7A"
                 },
                 {
-                  "en": "be ready to do sth",
-                  "cn": "愿意（或准备好）做某事",
-                  "phonetic": "/bi ˈredi tə duː sʌmθɪŋ/",
+                  "en": "be ready to do something",
+                  "cn": "愿意或准备好做某事",
+                  "phonetic": "/bi ˈredi tə duː ˈsʌmθɪŋ/",
                   "grade": "7A"
                 },
                 {
-                  "en": "other",
+                  "en": "else",
                   "cn": "另外，其他",
-                  "phonetic": "/ˈʌðə/",
+                  "phonetic": "/els/",
                   "grade": "7A"
                 },
                 {
@@ -180,7 +180,7 @@
                 },
                 {
                   "en": "shy",
-                  "cn": "害羞的，腼腆的",
+                  "cn": "害羞的",
                   "phonetic": "/ʃaɪ/",
                   "grade": "7A"
                 },
@@ -192,7 +192,13 @@
                 },
                 {
                   "en": "stay",
-                  "cn": "保持，继续是",
+                  "cn": "保持，继续是；暂住",
+                  "phonetic": "/steɪ/",
+                  "grade": "7A"
+                },
+                {
+                  "en": "stay",
+                  "cn": "停留，逗留",
                   "phonetic": "/steɪ/",
                   "grade": "7A"
                 },
@@ -215,6 +221,12 @@
                   "grade": "7A"
                 },
                 {
+                  "en": "maths",
+                  "cn": "数学",
+                  "phonetic": "/mæθs/",
+                  "grade": "7A"
+                },
+                {
                   "en": "chess",
                   "cn": "国际象棋",
                   "phonetic": "/tʃes/",
@@ -228,7 +240,7 @@
                 },
                 {
                   "en": "problem",
-                  "cn": "数学题；难题，困难",
+                  "cn": "数学题；难题",
                   "phonetic": "/ˈprɒbləm/",
                   "grade": "7A"
                 },
@@ -239,14 +251,20 @@
                   "grade": "7A"
                 },
                 {
-                  "en": "at the weekend",
+                  "en": "at weekends",
                   "cn": "在周末",
-                  "phonetic": "/ət ðə ˌwiːkˈend/",
+                  "phonetic": "/ət ˌwiːkˈendz/",
                   "grade": "7A"
                 },
                 {
                   "en": "fun",
                   "cn": "有趣的，使人快乐的",
+                  "phonetic": "/fʌn/",
+                  "grade": "7A"
+                },
+                {
+                  "en": "fun",
+                  "cn": "开心，乐趣，好玩的事",
                   "phonetic": "/fʌn/",
                   "grade": "7A"
                 },
@@ -265,21 +283,27 @@
               "description": "兴趣爱好、社团、技能与梦想词汇",
               "words": [
                 {
-                  "en": "jogging",
-                  "cn": "慢跑（尤指锻炼）",
-                  "phonetic": "/ˈdʒɒɡɪŋ/",
+                  "en": "jog",
+                  "cn": "慢跑，慢步长跑",
+                  "phonetic": "/dʒɒɡ/",
                   "grade": "7A"
                 },
                 {
-                  "en": "painting",
-                  "cn": "绘画；画作",
-                  "phonetic": "/ˈpeɪntɪŋ/",
+                  "en": "paint",
+                  "cn": "用颜料画；在……上刷油漆",
+                  "phonetic": "/peɪnt/",
+                  "grade": "7A"
+                },
+                {
+                  "en": "paint",
+                  "cn": "绘画颜料；油漆",
+                  "phonetic": "/peɪnt/",
                   "grade": "7A"
                 },
                 {
                   "en": "paper-cutting",
                   "cn": "剪纸",
-                  "phonetic": "/ˈpeɪpə ˌkʌtɪŋ/",
+                  "phonetic": "/ˈpeɪpə kʌtɪŋ/",
                   "grade": "7A"
                 },
                 {
@@ -289,20 +313,26 @@
                   "grade": "7A"
                 },
                 {
-                  "en": "fit",
+                  "en": "healthy",
                   "cn": "健康的",
-                  "phonetic": "/fɪt/",
+                  "phonetic": "/ˈhelθi/",
                   "grade": "7A"
                 },
                 {
                   "en": "around",
-                  "cn": "围绕，环绕",
+                  "cn": "环绕，围绕",
+                  "phonetic": "/əˈraʊnd/",
+                  "grade": "7A"
+                },
+                {
+                  "en": "around",
+                  "cn": "到处，向各处",
                   "phonetic": "/əˈraʊnd/",
                   "grade": "7A"
                 },
                 {
                   "en": "change",
-                  "cn": "使不同，使变换；改变，变化",
+                  "cn": "改变，变化",
                   "phonetic": "/tʃeɪndʒ/",
                   "grade": "7A"
                 },
@@ -320,14 +350,8 @@
                 },
                 {
                   "en": "thing",
-                  "cn": "东西；事件",
+                  "cn": "东西",
                   "phonetic": "/θɪŋ/",
-                  "grade": "7A"
-                },
-                {
-                  "en": "fun",
-                  "cn": "开心，乐趣，好玩的事",
-                  "phonetic": "/fʌn/",
                   "grade": "7A"
                 },
                 {
@@ -337,8 +361,8 @@
                   "grade": "7A"
                 },
                 {
-                  "en": "take ... apart",
-                  "cn": "拆开（机器等）",
+                  "en": "take apart",
+                  "cn": "拆分",
                   "phonetic": "/teɪk əˈpɑːt/",
                   "grade": "7A"
                 },
@@ -349,9 +373,9 @@
                   "grade": "7A"
                 },
                 {
-                  "en": "endless",
+                  "en": "countless",
                   "cn": "无穷无尽的，不计其数的",
-                  "phonetic": "/ˈendləs/",
+                  "phonetic": "/ˈkaʊntləs/",
                   "grade": "7A"
                 },
                 {
@@ -367,9 +391,9 @@
                   "grade": "7A"
                 },
                 {
-                  "en": "true",
-                  "cn": "真正的，实质的；确实的",
-                  "phonetic": "/truː/",
+                  "en": "real",
+                  "cn": "真正的，实质的",
+                  "phonetic": "/rɪəl/",
                   "grade": "7A"
                 },
                 {
@@ -379,9 +403,9 @@
                   "grade": "7A"
                 },
                 {
-                  "en": "paint",
-                  "cn": "用颜料画；在……上刷油漆",
-                  "phonetic": "/peɪnt/",
+                  "en": "at weekends",
+                  "cn": "在周末",
+                  "phonetic": "/ət ˌwiːkˈendz/",
                   "grade": "7A"
                 },
                 {
@@ -398,7 +422,7 @@
                 },
                 {
                   "en": "geography",
-                  "cn": "地理（学）",
+                  "cn": "地理学",
                   "phonetic": "/dʒiˈɒɡrəfi/",
                   "grade": "7A"
                 },
@@ -410,7 +434,7 @@
                 },
                 {
                   "en": "volleyball",
-                  "cn": "排球运动",
+                  "cn": "排球",
                   "phonetic": "/ˈvɒlibɔːl/",
                   "grade": "7A"
                 },
@@ -434,25 +458,25 @@
                 },
                 {
                   "en": "meeting",
-                  "cn": "集合，会面；会议",
+                  "cn": "会面；会议",
                   "phonetic": "/ˈmiːtɪŋ/",
                   "grade": "7A"
                 },
                 {
                   "en": "sound",
-                  "cn": "听起来好像",
+                  "cn": "听起来",
                   "phonetic": "/saʊnd/",
                   "grade": "7A"
                 },
                 {
                   "en": "plan",
-                  "cn": "打算；计划",
+                  "cn": "计划",
                   "phonetic": "/plæn/",
                   "grade": "7A"
                 },
                 {
                   "en": "questionnaire",
-                  "cn": "调查表，问卷",
+                  "cn": "调查问卷",
                   "phonetic": "/ˌkwestʃəˈneə/",
                   "grade": "7A"
                 },
@@ -464,7 +488,7 @@
                 },
                 {
                   "en": "model",
-                  "cn": "模范，典型；模特儿",
+                  "cn": "模范，典型；模特",
                   "phonetic": "/ˈmɒdl/",
                   "grade": "7A"
                 },
@@ -482,19 +506,25 @@
                 },
                 {
                   "en": "skill",
-                  "cn": "技能；技艺",
+                  "cn": "技能",
                   "phonetic": "/skɪl/",
                   "grade": "7A"
                 },
                 {
+                  "en": "painting",
+                  "cn": "画作",
+                  "phonetic": "/ˈpeɪntɪŋ/",
+                  "grade": "7A"
+                },
+                {
                   "en": "artist",
-                  "cn": "艺术家，（尤指）画家",
+                  "cn": "艺术家，画家",
                   "phonetic": "/ˈɑːtɪst/",
                   "grade": "7A"
                 },
                 {
                   "en": "master",
-                  "cn": "能手；大师；师父",
+                  "cn": "能手，擅长者；大师，师父",
                   "phonetic": "/ˈmɑːstə/",
                   "grade": "7A"
                 },
@@ -506,7 +536,7 @@
                 },
                 {
                   "en": "become",
-                  "cn": "成为，开始变得",
+                  "cn": "成为",
                   "phonetic": "/bɪˈkʌm/",
                   "grade": "7A"
                 },
@@ -514,18 +544,6 @@
                   "en": "designer",
                   "cn": "设计师",
                   "phonetic": "/dɪˈzaɪnə/",
-                  "grade": "7A"
-                },
-                {
-                  "en": "would",
-                  "cn": "想（表示愿意、喜欢、不愿意等）",
-                  "phonetic": "/wʊd/",
-                  "grade": "7A"
-                },
-                {
-                  "en": "would like",
-                  "cn": "愿意，想要",
-                  "phonetic": "/wʊd laɪk/",
                   "grade": "7A"
                 },
                 {
@@ -562,14 +580,14 @@
                 },
                 {
                   "en": "building",
-                  "cn": "楼房，建筑物",
+                  "cn": "大楼，建筑物",
                   "phonetic": "/ˈbɪldɪŋ/",
                   "grade": "7A"
                 },
                 {
-                  "en": "field",
+                  "en": "playground",
                   "cn": "运动场",
-                  "phonetic": "/fiːld/",
+                  "phonetic": "/ˈpleɪɡraʊnd/",
                   "grade": "7A"
                 },
                 {
@@ -579,9 +597,9 @@
                   "grade": "7A"
                 },
                 {
-                  "en": "dining",
-                  "cn": "吃饭",
-                  "phonetic": "/ˈdaɪnɪŋ/",
+                  "en": "meal",
+                  "cn": "吃饭；一餐",
+                  "phonetic": "/miːl/",
                   "grade": "7A"
                 },
                 {
@@ -610,7 +628,7 @@
                 },
                 {
                   "en": "modern",
-                  "cn": "现代（化）的，先进的",
+                  "cn": "现代化的，先进的；现代的",
                   "phonetic": "/ˈmɒdn/",
                   "grade": "7A"
                 },
@@ -628,7 +646,7 @@
                 },
                 {
                   "en": "everyone",
-                  "cn": "所有人，每人，人人",
+                  "cn": "每个人",
                   "phonetic": "/ˈevriwʌn/",
                   "grade": "7A"
                 },
@@ -640,7 +658,7 @@
                 },
                 {
                   "en": "spend",
-                  "cn": "度过，花（时间）；花（钱）",
+                  "cn": "度过，花时间；花钱",
                   "phonetic": "/spend/",
                   "grade": "7A"
                 },
@@ -658,7 +676,7 @@
                 },
                 {
                   "en": "take place",
-                  "cn": "进行，发生",
+                  "cn": "发生",
                   "phonetic": "/teɪk pleɪs/",
                   "grade": "7A"
                 },
@@ -676,7 +694,7 @@
                 },
                 {
                   "en": "news",
-                  "cn": "新闻；消息",
+                  "cn": "新闻",
                   "phonetic": "/njuːz/",
                   "grade": "7A"
                 },
@@ -693,21 +711,21 @@
                   "grade": "7A"
                 },
                 {
-                  "en": "more",
-                  "cn": "更多的，更大的；更，更多",
-                  "phonetic": "/mɔː/",
+                  "en": "believe",
+                  "cn": "相信",
+                  "phonetic": "/bɪˈliːv/",
                   "grade": "7A"
                 },
                 {
-                  "en": "trust",
-                  "cn": "相信",
-                  "phonetic": "/trʌst/",
+                  "en": "more",
+                  "cn": "更多的，更大的；更",
+                  "phonetic": "/mɔː/",
                   "grade": "7A"
                 },
                 {
                   "en": "really",
                   "cn": "很，十分；真正地",
-                  "phonetic": "/ˈrɪəli/",
+                  "phonetic": "/ˈriːəli/",
                   "grade": "7A"
                 },
                 {
@@ -718,7 +736,7 @@
                 },
                 {
                   "en": "teach",
-                  "cn": "教（课程），讲授",
+                  "cn": "教，讲授",
                   "phonetic": "/tiːtʃ/",
                   "grade": "7A"
                 },
@@ -729,20 +747,20 @@
                   "grade": "7A"
                 },
                 {
-                  "en": "form teacher",
+                  "en": "class teacher",
                   "cn": "班主任",
-                  "phonetic": "/ˈfɔːm ˌtiːtʃə/",
+                  "phonetic": "/ˌklɑːs ˈtiːtʃə/",
                   "grade": "7A"
                 },
                 {
                   "en": "show",
-                  "cn": "演出；展览；节目；音乐会",
+                  "cn": "演出；展览；音乐会",
                   "phonetic": "/ʃəʊ/",
                   "grade": "7A"
                 },
                 {
                   "en": "grey",
-                  "cn": "灰色的；灰色",
+                  "cn": "灰色的",
                   "phonetic": "/ɡreɪ/",
                   "grade": "7A"
                 },
@@ -754,7 +772,7 @@
                 },
                 {
                   "en": "thousand",
-                  "cn": "一千",
+                  "cn": "一千；数以千计的",
                   "phonetic": "/ˈθaʊznd/",
                   "grade": "7A"
                 },
@@ -766,7 +784,7 @@
                 },
                 {
                   "en": "in fact",
-                  "cn": "确切地说，事实上",
+                  "cn": "确切地说；事实上",
                   "phonetic": "/ɪn fækt/",
                   "grade": "7A"
                 },
@@ -801,6 +819,12 @@
                   "grade": "7A"
                 },
                 {
+                  "en": "care",
+                  "cn": "照顾；小心",
+                  "phonetic": "/keə/",
+                  "grade": "7A"
+                },
+                {
                   "en": "care about",
                   "cn": "关心",
                   "phonetic": "/keər əˈbaʊt/",
@@ -808,13 +832,13 @@
                 },
                 {
                   "en": "event",
-                  "cn": "公开活动；发生的事情",
+                  "cn": "事件；活动",
                   "phonetic": "/ɪˈvent/",
                   "grade": "7A"
                 },
                 {
                   "en": "together",
-                  "cn": "在一起，共同",
+                  "cn": "一起",
                   "phonetic": "/təˈɡeðə/",
                   "grade": "7A"
                 },
@@ -875,27 +899,21 @@
                   "grade": "7A"
                 },
                 {
-                  "en": "weekday",
-                  "cn": "工作日",
-                  "phonetic": "/ˈwiːkdeɪ/",
-                  "grade": "7A"
-                },
-                {
                   "en": "on weekdays",
                   "cn": "在工作日",
                   "phonetic": "/ɒn ˈwiːkdeɪz/",
                   "grade": "7A"
                 },
                 {
-                  "en": "usually",
-                  "cn": "通常",
-                  "phonetic": "/ˈjuːʒuəli/",
+                  "en": "weekday",
+                  "cn": "工作日",
+                  "phonetic": "/ˈwiːkdeɪ/",
                   "grade": "7A"
                 },
                 {
-                  "en": "jog",
-                  "cn": "慢跑",
-                  "phonetic": "/dʒɒɡ/",
+                  "en": "usually",
+                  "cn": "通常",
+                  "phonetic": "/ˈjuːʒuəli/",
                   "grade": "7A"
                 },
                 {
@@ -906,19 +924,19 @@
                 },
                 {
                   "en": "myself",
-                  "cn": "我自己；亲自",
+                  "cn": "我自己，亲自",
                   "phonetic": "/maɪˈself/",
                   "grade": "7A"
                 },
                 {
-                  "en": "enjoy oneself",
-                  "cn": "玩得痛快，得到乐趣",
-                  "phonetic": "/ɪnˈdʒɔɪ wʌnˈself/",
+                  "en": "have fun",
+                  "cn": "玩得开心，得到乐趣",
+                  "phonetic": "/hæv fʌn/",
                   "grade": "7A"
                 },
                 {
                   "en": "first",
-                  "cn": "第一；首先",
+                  "cn": "第一的；首先",
                   "phonetic": "/fɜːst/",
                   "grade": "7A"
                 },
@@ -929,9 +947,9 @@
                   "grade": "7A"
                 },
                 {
-                  "en": "start",
-                  "cn": "开始；出发，动身",
-                  "phonetic": "/stɑːt/",
+                  "en": "begin",
+                  "cn": "开始；开端",
+                  "phonetic": "/bɪˈɡɪn/",
                   "grade": "7A"
                 },
                 {
@@ -956,12 +974,6 @@
                   "en": "biology",
                   "cn": "生物学",
                   "phonetic": "/baɪˈɒlədʒi/",
-                  "grade": "7A"
-                },
-                {
-                  "en": "living",
-                  "cn": "活着的，活的",
-                  "phonetic": "/ˈlɪvɪŋ/",
                   "grade": "7A"
                 },
                 {
@@ -996,7 +1008,7 @@
                 },
                 {
                   "en": "leave",
-                  "cn": "离开；让……留在某处",
+                  "cn": "离开；使保留",
                   "phonetic": "/liːv/",
                   "grade": "7A"
                 },
@@ -1013,6 +1025,18 @@
                   "grade": "7A"
                 },
                 {
+                  "en": "would",
+                  "cn": "想，愿意",
+                  "phonetic": "/wʊd/",
+                  "grade": "7A"
+                },
+                {
+                  "en": "would like",
+                  "cn": "愿意，想要",
+                  "phonetic": "/wʊd laɪk/",
+                  "grade": "7A"
+                },
+                {
                   "en": "of course",
                   "cn": "当然",
                   "phonetic": "/əv kɔːs/",
@@ -1026,7 +1050,7 @@
                 },
                 {
                   "en": "tennis",
-                  "cn": "网球运动",
+                  "cn": "网球",
                   "phonetic": "/ˈtenɪs/",
                   "grade": "7A"
                 },
@@ -1038,7 +1062,7 @@
                 },
                 {
                   "en": "grow",
-                  "cn": "（使）生长，发育",
+                  "cn": "生长，发育",
                   "phonetic": "/ɡrəʊ/",
                   "grade": "7A"
                 },
@@ -1062,7 +1086,13 @@
                 },
                 {
                   "en": "outside",
-                  "cn": "在（向）外面",
+                  "cn": "在向外面",
+                  "phonetic": "/ˌaʊtˈsaɪd/",
+                  "grade": "7A"
+                },
+                {
+                  "en": "outside",
+                  "cn": "在向……外面",
                   "phonetic": "/ˌaʊtˈsaɪd/",
                   "grade": "7A"
                 },
@@ -1109,12 +1139,6 @@
                   "grade": "7A"
                 },
                 {
-                  "en": "take part in",
-                  "cn": "参加",
-                  "phonetic": "/teɪk pɑːt ɪn/",
-                  "grade": "7A"
-                },
-                {
                   "en": "through",
                   "cn": "以，凭借；通过；穿过",
                   "phonetic": "/θruː/",
@@ -1128,7 +1152,7 @@
                 },
                 {
                   "en": "turn",
-                  "cn": "（依次轮到的）机会",
+                  "cn": "依次轮到的机会",
                   "phonetic": "/tɜːn/",
                   "grade": "7A"
                 },
@@ -1140,7 +1164,7 @@
                 },
                 {
                   "en": "empty",
-                  "cn": "倒空，腾空",
+                  "cn": "倒空，腾空；空的",
                   "phonetic": "/ˈempti/",
                   "grade": "7A"
                 },
@@ -1151,15 +1175,9 @@
                   "grade": "7A"
                 },
                 {
-                  "en": "care",
-                  "cn": "照顾；小心",
-                  "phonetic": "/keə/",
-                  "grade": "7A"
-                },
-                {
-                  "en": "take care of",
-                  "cn": "照顾，照料",
-                  "phonetic": "/teɪk keər əv/",
+                  "en": "look after",
+                  "cn": "照顾",
+                  "phonetic": "/lʊk ˈɑːftə/",
                   "grade": "7A"
                 },
                 {
@@ -1237,6 +1255,12 @@
                   "grade": "7A"
                 },
                 {
+                  "en": "sweet",
+                  "cn": "甜的；可爱的",
+                  "phonetic": "/swiːt/",
+                  "grade": "7A"
+                },
+                {
                   "en": "snack",
                   "cn": "点心，小吃",
                   "phonetic": "/snæk/",
@@ -1249,21 +1273,21 @@
                   "grade": "7A"
                 },
                 {
-                  "en": "delicious",
+                  "en": "tasty",
                   "cn": "美味的",
-                  "phonetic": "/dɪˈlɪʃəs/",
-                  "grade": "7A"
-                },
-                {
-                  "en": "important",
-                  "cn": "重要的",
-                  "phonetic": "/ɪmˈpɔːtnt/",
+                  "phonetic": "/ˈteɪsti/",
                   "grade": "7A"
                 },
                 {
                   "en": "diet",
                   "cn": "日常饮食",
                   "phonetic": "/ˈdaɪət/",
+                  "grade": "7A"
+                },
+                {
+                  "en": "important",
+                  "cn": "重要的",
+                  "phonetic": "/ɪmˈpɔːtnt/",
                   "grade": "7A"
                 },
                 {
@@ -1297,9 +1321,9 @@
                   "grade": "7A"
                 },
                 {
-                  "en": "homebody",
+                  "en": "couch potato",
                   "cn": "喜欢待在家里的人",
-                  "phonetic": "/ˈhəʊmbɒdi/",
+                  "phonetic": "/ˈkaʊtʃ pəteɪtəʊ/",
                   "grade": "7A"
                 },
                 {
@@ -1309,27 +1333,15 @@
                   "grade": "7A"
                 },
                 {
-                  "en": "sweet",
-                  "cn": "甜的；可爱的",
-                  "phonetic": "/swiːt/",
-                  "grade": "7A"
-                },
-                {
                   "en": "have a sweet tooth",
                   "cn": "爱吃甜食",
                   "phonetic": "/hæv ə swiːt tuːθ/",
                   "grade": "7A"
                 },
                 {
-                  "en": "stay",
-                  "cn": "停留，逗留",
-                  "phonetic": "/steɪ/",
-                  "grade": "7A"
-                },
-                {
-                  "en": "stay up",
+                  "en": "stay up late",
                   "cn": "熬夜",
-                  "phonetic": "/steɪ ʌp/",
+                  "phonetic": "/steɪ ʌp leɪt/",
                   "grade": "7A"
                 },
                 {
@@ -1339,21 +1351,21 @@
                   "grade": "7A"
                 },
                 {
+                  "en": "less",
+                  "cn": "较少的，更少的",
+                  "phonetic": "/les/",
+                  "grade": "7A"
+                },
+                {
                   "en": "need",
-                  "cn": "需要",
+                  "cn": "需要；需要的事物",
                   "phonetic": "/niːd/",
                   "grade": "7A"
                 },
                 {
                   "en": "enough",
-                  "cn": "足够（的）；足够地，相当",
+                  "cn": "足够的",
                   "phonetic": "/ɪˈnʌf/",
-                  "grade": "7A"
-                },
-                {
-                  "en": "less",
-                  "cn": "较少的，更少的；少，较少",
-                  "phonetic": "/les/",
                   "grade": "7A"
                 },
                 {
@@ -1364,13 +1376,13 @@
                 },
                 {
                   "en": "piece",
-                  "cn": "块，片；（文艺作品等的）一篇（首、幅……等）",
+                  "cn": "一块，一片",
                   "phonetic": "/piːs/",
                   "grade": "7A"
                 },
                 {
                   "en": "bowl",
-                  "cn": "一碗（的量）；碗",
+                  "cn": "一碗的量；碗",
                   "phonetic": "/bəʊl/",
                   "grade": "7A"
                 },
@@ -1400,13 +1412,19 @@
                 },
                 {
                   "en": "bottle",
-                  "cn": "一瓶（的量）；瓶子",
+                  "cn": "一瓶的量；瓶子",
                   "phonetic": "/ˈbɒtl/",
                   "grade": "7A"
                 },
                 {
+                  "en": "strawberry",
+                  "cn": "草莓",
+                  "phonetic": "/ˈstrɔːbəri/",
+                  "grade": "7A"
+                },
+                {
                   "en": "maybe",
-                  "cn": "也许；大概",
+                  "cn": "也许",
                   "phonetic": "/ˈmeɪbi/",
                   "grade": "7A"
                 },
@@ -1442,20 +1460,14 @@
                 },
                 {
                   "en": "score",
-                  "cn": "分数，成绩；比分",
+                  "cn": "分数，成绩",
                   "phonetic": "/skɔː/",
                   "grade": "7A"
                 },
                 {
                   "en": "point",
-                  "cn": "得分；要点；观点；地点",
+                  "cn": "得分；要点",
                   "phonetic": "/pɔɪnt/",
-                  "grade": "7A"
-                },
-                {
-                  "en": "change",
-                  "cn": "改变，变化",
-                  "phonetic": "/tʃeɪndʒ/",
                   "grade": "7A"
                 },
                 {
@@ -1466,7 +1478,7 @@
                 },
                 {
                   "en": "porridge",
-                  "cn": "粥；麦片粥",
+                  "cn": "粥",
                   "phonetic": "/ˈpɒrɪdʒ/",
                   "grade": "7A"
                 },
@@ -1477,15 +1489,21 @@
                   "grade": "7A"
                 },
                 {
+                  "en": "whole",
+                  "cn": "全部；整个",
+                  "phonetic": "/həʊl/",
+                  "grade": "7A"
+                },
+                {
                   "en": "miss",
                   "cn": "错过",
                   "phonetic": "/mɪs/",
                   "grade": "7A"
                 },
                 {
-                  "en": "rest",
+                  "en": "break",
                   "cn": "休息时间",
-                  "phonetic": "/rest/",
+                  "phonetic": "/breɪk/",
                   "grade": "7A"
                 },
                 {
@@ -1522,7 +1540,7 @@
                 },
                 {
                   "en": "blouse",
-                  "cn": "女式衬衫",
+                  "cn": "女士衬衫",
                   "phonetic": "/blaʊz/",
                   "grade": "7A"
                 },
@@ -1558,7 +1576,7 @@
                 },
                 {
                   "en": "calm",
-                  "cn": "镇静的，沉着的",
+                  "cn": "镇静的；沉着的",
                   "phonetic": "/kɑːm/",
                   "grade": "7A"
                 },
@@ -1576,7 +1594,7 @@
                 },
                 {
                   "en": "could",
-                  "cn": "（礼貌地请求或征询许可）能，可以",
+                  "cn": "能，可以",
                   "phonetic": "/kʊd/",
                   "grade": "7A"
                 },
@@ -1606,7 +1624,7 @@
                 },
                 {
                   "en": "such as",
-                  "cn": "例如；诸如……之类",
+                  "cn": "诸如",
                   "phonetic": "/sʌtʃ æz/",
                   "grade": "7A"
                 },
@@ -1641,6 +1659,12 @@
                   "grade": "7A"
                 },
                 {
+                  "en": "dark",
+                  "cn": "黑暗，暗处",
+                  "phonetic": "/dɑːk/",
+                  "grade": "7A"
+                },
+                {
                   "en": "mix",
                   "cn": "混合",
                   "phonetic": "/mɪks/",
@@ -1660,13 +1684,13 @@
                 },
                 {
                   "en": "suitable",
-                  "cn": "合适的，适宜的",
+                  "cn": "适合的",
                   "phonetic": "/ˈsuːtəbl/",
                   "grade": "7A"
                 },
                 {
                   "en": "formal",
-                  "cn": "适合正式场合的，庄重的；正式的",
+                  "cn": "适合正式场合的，正规的",
                   "phonetic": "/ˈfɔːml/",
                   "grade": "7A"
                 },
@@ -1677,15 +1701,21 @@
                   "grade": "7A"
                 },
                 {
-                  "en": "casual",
+                  "en": "informal",
                   "cn": "非正式的，随便的",
-                  "phonetic": "/ˈkæʒuəl/",
+                  "phonetic": "/ɪnˈfɔːml/",
                   "grade": "7A"
                 },
                 {
                   "en": "comfortable",
                   "cn": "舒适的",
                   "phonetic": "/ˈkʌmftəbl/",
+                  "grade": "7A"
+                },
+                {
+                  "en": "interview",
+                  "cn": "采访，访谈；面试",
+                  "phonetic": "/ˈɪntəvjuː/",
                   "grade": "7A"
                 },
                 {
@@ -1696,7 +1726,7 @@
                 },
                 {
                   "en": "smart",
-                  "cn": "衣冠楚楚的，衣着讲究的",
+                  "cn": "衣着讲究的",
                   "phonetic": "/smɑːt/",
                   "grade": "7A"
                 },
@@ -1725,14 +1755,8 @@
                   "grade": "7A"
                 },
                 {
-                  "en": "design",
-                  "cn": "设计",
-                  "phonetic": "/dɪˈzaɪn/",
-                  "grade": "7A"
-                },
-                {
                   "en": "festival",
-                  "cn": "节日；节",
+                  "cn": "节日",
                   "phonetic": "/ˈfestɪvl/",
                   "grade": "7A"
                 },
@@ -1779,9 +1803,9 @@
                   "grade": "7A"
                 },
                 {
-                  "en": "close-fitting",
+                  "en": "tight",
                   "cn": "紧身的",
-                  "phonetic": "/ˌkləʊs ˈfɪtɪŋ/",
+                  "phonetic": "/taɪt/",
                   "grade": "7A"
                 },
                 {
@@ -1798,7 +1822,7 @@
                 },
                 {
                   "en": "feel",
-                  "cn": "摸起来",
+                  "cn": "摸起来感觉，手感像",
                   "phonetic": "/fiːl/",
                   "grade": "7A"
                 },
@@ -1816,7 +1840,7 @@
                 },
                 {
                   "en": "cotton",
-                  "cn": "棉织物，棉布；棉花",
+                  "cn": "棉织物；棉花",
                   "phonetic": "/ˈkɒtn/",
                   "grade": "7A"
                 },
@@ -1834,7 +1858,7 @@
                 },
                 {
                   "en": "material",
-                  "cn": "布料；材料，原料",
+                  "cn": "材料，原料",
                   "phonetic": "/məˈtɪəriəl/",
                   "grade": "7A"
                 },
@@ -1846,7 +1870,7 @@
                 },
                 {
                   "en": "size",
-                  "cn": "尺码；大小",
+                  "cn": "尺寸",
                   "phonetic": "/saɪz/",
                   "grade": "7A"
                 }
@@ -1866,38 +1890,44 @@
                 },
                 {
                   "en": "yuan",
-                  "cn": "元（中国货币单位）",
+                  "cn": "元",
                   "phonetic": "/juˈɑːn/",
                   "grade": "7A"
                 },
                 {
                   "en": "euro",
-                  "cn": "欧元（欧盟中某些国家的货币单位）",
+                  "cn": "欧元",
                   "phonetic": "/ˈjʊərəʊ/",
                   "grade": "7A"
                 },
                 {
                   "en": "pound",
-                  "cn": "英镑（英国货币单位）",
+                  "cn": "英镑",
                   "phonetic": "/paʊnd/",
                   "grade": "7A"
                 },
                 {
                   "en": "yen",
-                  "cn": "日元（日本货币单位）",
+                  "cn": "日元",
                   "phonetic": "/jen/",
                   "grade": "7A"
                 },
                 {
                   "en": "rouble",
-                  "cn": "卢布（俄罗斯货币单位）",
+                  "cn": "卢布",
                   "phonetic": "/ˈruːbl/",
                   "grade": "7A"
                 },
                 {
                   "en": "dollar",
-                  "cn": "美元（美国、加拿大、澳大利亚等国的货币单位）",
+                  "cn": "美元",
                   "phonetic": "/ˈdɒlə/",
+                  "grade": "7A"
+                },
+                {
+                  "en": "lucky",
+                  "cn": "幸运的",
+                  "phonetic": "/ˈlʌki/",
                   "grade": "7A"
                 },
                 {
@@ -1914,19 +1944,19 @@
                 },
                 {
                   "en": "baseball",
-                  "cn": "棒球运动；棒球",
+                  "cn": "棒球",
                   "phonetic": "/ˈbeɪsbɔːl/",
                   "grade": "7A"
                 },
                 {
                   "en": "Russian",
-                  "cn": "俄罗斯（人）的，俄语的",
+                  "cn": "俄罗斯人的，俄语的",
                   "phonetic": "/ˈrʌʃn/",
                   "grade": "7A"
                 },
                 {
                   "en": "set",
-                  "cn": "一套，一副，一组（类似的东西）",
+                  "cn": "一套，一副，一组",
                   "phonetic": "/set/",
                   "grade": "7A"
                 },
@@ -1938,7 +1968,13 @@
                 },
                 {
                   "en": "inside",
-                  "cn": "在（向）……里面",
+                  "cn": "在向……里面",
+                  "phonetic": "/ˌɪnˈsaɪd/",
+                  "grade": "7A"
+                },
+                {
+                  "en": "inside",
+                  "cn": "在向里面",
                   "phonetic": "/ˌɪnˈsaɪd/",
                   "grade": "7A"
                 },
@@ -1950,13 +1986,13 @@
                 },
                 {
                   "en": "colourful",
-                  "cn": "五彩缤纷的；丰富多彩的",
+                  "cn": "多彩的",
                   "phonetic": "/ˈkʌləfl/",
                   "grade": "7A"
                 },
                 {
                   "en": "surprise",
-                  "cn": "令人惊奇的事情（或消息等）",
+                  "cn": "令人惊奇的事情或消息",
                   "phonetic": "/səˈpraɪz/",
                   "grade": "7A"
                 },
@@ -1980,13 +2016,13 @@
                 },
                 {
                   "en": "across",
-                  "cn": "在……对面；从……一边到另一边；遍及",
+                  "cn": "在……对面；从……一边到另一边",
                   "phonetic": "/əˈkrɒs/",
                   "grade": "7A"
                 },
                 {
                   "en": "cost",
-                  "cn": "需付费，价钱为",
+                  "cn": "需要付，价钱为",
                   "phonetic": "/kɒst/",
                   "grade": "7A"
                 },
@@ -2003,15 +2039,15 @@
                   "grade": "7A"
                 },
                 {
-                  "en": "cover",
-                  "cn": "足以支付，够付；覆盖",
-                  "phonetic": "/ˈkʌvə/",
+                  "en": "afford",
+                  "cn": "足以支付，够付",
+                  "phonetic": "/əˈfɔːd/",
                   "grade": "7A"
                 },
                 {
                   "en": "education",
                   "cn": "教育",
-                  "phonetic": "/ˌedʒuˈkeɪʃn/",
+                  "phonetic": "/ˌedjuˈkeɪʃn/",
                   "grade": "7A"
                 },
                 {
@@ -2028,7 +2064,7 @@
                 },
                 {
                   "en": "flat",
-                  "cn": "（英）公寓",
+                  "cn": "公寓",
                   "phonetic": "/flæt/",
                   "grade": "7A"
                 },
@@ -2039,15 +2075,9 @@
                   "grade": "7A"
                 },
                 {
-                  "en": "need",
-                  "cn": "需要的事物，需要",
-                  "phonetic": "/niːd/",
-                  "grade": "7A"
-                },
-                {
-                  "en": "per cent",
-                  "cn": "百分之……",
-                  "phonetic": "/pə ˈsent/",
+                  "en": "percent",
+                  "cn": "百分之一",
+                  "phonetic": "/pəˈsent/",
                   "grade": "7A"
                 },
                 {
@@ -2076,7 +2106,7 @@
                 },
                 {
                   "en": "rainy",
-                  "cn": "阴雨的",
+                  "cn": "有雨的",
                   "phonetic": "/ˈreɪni/",
                   "grade": "7A"
                 },
@@ -2111,44 +2141,38 @@
                   "grade": "7A"
                 },
                 {
-                  "en": "strawberry",
-                  "cn": "草莓",
-                  "phonetic": "/ˈstrɔːbəri/",
-                  "grade": "7A"
-                },
-                {
                   "en": "bookshop",
                   "cn": "书店",
                   "phonetic": "/ˈbʊkʃɒp/",
                   "grade": "7A"
                 },
                 {
-                  "en": "eraser",
-                  "cn": "（英）橡皮",
-                  "phonetic": "/ɪˈreɪzə/",
+                  "en": "rubber",
+                  "cn": "橡皮",
+                  "phonetic": "/ˈrʌbə/",
+                  "grade": "7A"
+                },
+                {
+                  "en": "gift",
+                  "cn": "礼物",
+                  "phonetic": "/ɡɪft/",
                   "grade": "7A"
                 },
                 {
                   "en": "as",
-                  "cn": "作为，当作",
+                  "cn": "作为，当作；正如；和……一样",
                   "phonetic": "/æz/",
                   "grade": "7A"
                 },
                 {
-                  "en": "present",
-                  "cn": "礼物",
-                  "phonetic": "/ˈpreznt/",
-                  "grade": "7A"
-                },
-                {
                   "en": "away",
-                  "cn": "（时间或空间上）离开，在（某距离）处；去别处",
+                  "cn": "离开",
                   "phonetic": "/əˈweɪ/",
                   "grade": "7A"
                 },
                 {
                   "en": "shell",
-                  "cn": "壳；骨架",
+                  "cn": "壳，骨架",
                   "phonetic": "/ʃel/",
                   "grade": "7A"
                 },
@@ -2171,9 +2195,9 @@
                   "grade": "7A"
                 },
                 {
-                  "en": "lucky",
-                  "cn": "带来好运的；幸运的",
-                  "phonetic": "/ˈlʌki/",
+                  "en": "online",
+                  "cn": "线上的，网上的",
+                  "phonetic": "/ˌɒnˈlaɪn/",
                   "grade": "7A"
                 },
                 {
@@ -2184,7 +2208,7 @@
                 },
                 {
                   "en": "grandparent",
-                  "cn": "（外）祖父，（外）祖母",
+                  "cn": "外祖父，外祖母；祖父，祖母",
                   "phonetic": "/ˈɡrænpeərənt/",
                   "grade": "7A"
                 },
@@ -2198,12 +2222,6 @@
                   "en": "send",
                   "cn": "发送",
                   "phonetic": "/send/",
-                  "grade": "7A"
-                },
-                {
-                  "en": "online",
-                  "cn": "线上的，网上的",
-                  "phonetic": "/ˌɒnˈlaɪn/",
                   "grade": "7A"
                 },
                 {
@@ -2222,12 +2240,6 @@
                   "en": "in need",
                   "cn": "在贫困中，在困难中",
                   "phonetic": "/ɪn niːd/",
-                  "grade": "7A"
-                },
-                {
-                  "en": "as",
-                  "cn": "正如，如同",
-                  "phonetic": "/æz/",
                   "grade": "7A"
                 },
                 {
@@ -2252,26 +2264,8 @@
               "words": [
                 {
                   "en": "celebrate",
-                  "cn": "庆祝；颂扬",
+                  "cn": "庆祝",
                   "phonetic": "/ˈselɪbreɪt/",
-                  "grade": "7A"
-                },
-                {
-                  "en": "Christmas",
-                  "cn": "圣诞节",
-                  "phonetic": "/ˈkrɪsməs/",
-                  "grade": "7A"
-                },
-                {
-                  "en": "remember",
-                  "cn": "纪念；记住",
-                  "phonetic": "/rɪˈmembə/",
-                  "grade": "7A"
-                },
-                {
-                  "en": "poet",
-                  "cn": "诗人",
-                  "phonetic": "/ˈpəʊɪt/",
                   "grade": "7A"
                 },
                 {
@@ -2287,45 +2281,15 @@
                   "grade": "7A"
                 },
                 {
+                  "en": "Christmas",
+                  "cn": "圣诞节",
+                  "phonetic": "/ˈkrɪsməs/",
+                  "grade": "7A"
+                },
+                {
                   "en": "race",
-                  "cn": "速度竞赛，赛跑",
+                  "cn": "速度竞赛",
                   "phonetic": "/reɪs/",
-                  "grade": "7A"
-                },
-                {
-                  "en": "dumpling",
-                  "cn": "汤团，饺子",
-                  "phonetic": "/ˈdʌmplɪŋ/",
-                  "grade": "7A"
-                },
-                {
-                  "en": "rice dumpling",
-                  "cn": "粽子",
-                  "phonetic": "/ˌraɪs ˈdʌmplɪŋ/",
-                  "grade": "7A"
-                },
-                {
-                  "en": "Scottish",
-                  "cn": "苏格兰（人）的",
-                  "phonetic": "/ˈskɒtɪʃ/",
-                  "grade": "7A"
-                },
-                {
-                  "en": "haggis",
-                  "cn": "哈吉斯（一种苏格兰美食）",
-                  "phonetic": "/ˈhæɡɪs/",
-                  "grade": "7A"
-                },
-                {
-                  "en": "dish",
-                  "cn": "一道菜，菜肴",
-                  "phonetic": "/dɪʃ/",
-                  "grade": "7A"
-                },
-                {
-                  "en": "poem",
-                  "cn": "诗，韵文",
-                  "phonetic": "/ˈpəʊɪm/",
                   "grade": "7A"
                 },
                 {
@@ -2341,15 +2305,15 @@
                   "grade": "7A"
                 },
                 {
-                  "en": "spread",
-                  "cn": "使分散；传播",
-                  "phonetic": "/spred/",
+                  "en": "see off",
+                  "cn": "送别",
+                  "phonetic": "/siː ɒf/",
                   "grade": "7A"
                 },
                 {
-                  "en": "doorstep",
-                  "cn": "门阶",
-                  "phonetic": "/ˈdɔːstep/",
+                  "en": "throw",
+                  "cn": "扔",
+                  "phonetic": "/θrəʊ/",
                   "grade": "7A"
                 },
                 {
@@ -2366,7 +2330,7 @@
                 },
                 {
                   "en": "Greek",
-                  "cn": "希腊（人）的，希腊语的",
+                  "cn": "希腊人的，希腊语的",
                   "phonetic": "/ɡriːk/",
                   "grade": "7A"
                 },
@@ -2401,15 +2365,9 @@
                   "grade": "7A"
                 },
                 {
-                  "en": "hope",
+                  "en": "wish",
                   "cn": "希望",
-                  "phonetic": "/həʊp/",
-                  "grade": "7A"
-                },
-                {
-                  "en": "in the hope of",
-                  "cn": "希望",
-                  "phonetic": "/ɪn ðə həʊp əv/",
+                  "phonetic": "/wɪʃ/",
                   "grade": "7A"
                 },
                 {
@@ -2426,7 +2384,7 @@
                 },
                 {
                   "en": "suitcase",
-                  "cn": "（旅行用的）手提箱",
+                  "cn": "手提箱",
                   "phonetic": "/ˈsuːtkeɪs/",
                   "grade": "7A"
                 },
@@ -2456,7 +2414,7 @@
                 },
                 {
                   "en": "lively",
-                  "cn": "轻快的；生气勃勃的",
+                  "cn": "有生气的；热闹的",
                   "phonetic": "/ˈlaɪvli/",
                   "grade": "7A"
                 },
@@ -2468,7 +2426,7 @@
                 },
                 {
                   "en": "moment",
-                  "cn": "某个时刻，瞬间，片刻",
+                  "cn": "时刻，瞬间",
                   "phonetic": "/ˈməʊmənt/",
                   "grade": "7A"
                 },
@@ -2485,9 +2443,9 @@
                   "grade": "7A"
                 },
                 {
-                  "en": "lantern",
-                  "cn": "灯笼",
-                  "phonetic": "/ˈlæntən/",
+                  "en": "double",
+                  "cn": "双的；两倍的",
+                  "phonetic": "/ˈdʌbl/",
                   "grade": "7A"
                 },
                 {
@@ -2498,7 +2456,7 @@
                 },
                 {
                   "en": "climb",
-                  "cn": "爬，攀登",
+                  "cn": "攀登，爬",
                   "phonetic": "/klaɪm/",
                   "grade": "7A"
                 },
@@ -2527,9 +2485,9 @@
                   "grade": "7A"
                 },
                 {
-                  "en": "double",
-                  "cn": "双的；两倍的",
-                  "phonetic": "/ˈdʌbl/",
+                  "en": "elder",
+                  "cn": "年纪较长的",
+                  "phonetic": "/ˈeldə/",
                   "grade": "7A"
                 },
                 {
@@ -2551,21 +2509,27 @@
                   "grade": "7A"
                 },
                 {
-                  "en": "Spring Festival couplets",
+                  "en": "spring couplet",
                   "cn": "春联",
-                  "phonetic": "/ˌsprɪŋ ˈfestɪvl ˈkʌpləts/",
+                  "phonetic": "/ˈsprɪŋ ˌkʌplət/",
                   "grade": "7A"
                 },
                 {
-                  "en": "beforehand",
+                  "en": "ahead of time",
                   "cn": "事先，预先",
-                  "phonetic": "/bɪˈfɔːhænd/",
+                  "phonetic": "/əˈhed əv taɪm/",
                   "grade": "7A"
                 },
                 {
                   "en": "prepare",
-                  "cn": "预备（饭菜）；把……预备好",
+                  "cn": "预备饭菜；把……预备好",
                   "phonetic": "/prɪˈpeə/",
+                  "grade": "7A"
+                },
+                {
+                  "en": "dish",
+                  "cn": "一道菜，菜肴",
+                  "phonetic": "/dɪʃ/",
                   "grade": "7A"
                 },
                 {
@@ -2581,15 +2545,15 @@
                   "grade": "7A"
                 },
                 {
-                  "en": "last",
-                  "cn": "持续",
-                  "phonetic": "/lɑːst/",
+                  "en": "until",
+                  "cn": "直到……为止",
+                  "phonetic": "/ənˈtɪl/",
                   "grade": "7A"
                 },
                 {
-                  "en": "till",
-                  "cn": "到……时，直到……为止",
-                  "phonetic": "/tɪl/",
+                  "en": "lantern",
+                  "cn": "灯笼",
+                  "phonetic": "/ˈlæntən/",
                   "grade": "7A"
                 },
                 {

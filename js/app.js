@@ -32,8 +32,8 @@ const StudyApp = {
     this._bindChallengeEvents();
     this._bindDownloadEvents();
 
-    // 默认展开小学词汇
-    this.expandedGroups.add('primary');
+    // 注：小学分组默认展开改到「无记忆」分支处理，
+    // 有记忆时按上次保存的展开状态恢复，不强制展开小学
 
     // ---- 异步加载数据 ----
     try {
@@ -78,7 +78,38 @@ const StudyApp = {
     // 更新 SRS 到期徽章
     this._updateSRSBadge();
 
-    // 默认选中：英语 → 小学词汇 → 第一个分类
+    // 恢复上次选中的分类（localStorage 记忆）
+    let saved = null;
+    try {
+      saved = JSON.parse(localStorage.getItem('app_last_category') || 'null');
+    } catch (e) { /* 忽略解析失败 */ }
+
+    if (saved && saved.subject && saved.groupId && saved.categoryId
+        && DataStore.getGroup(saved.subject, saved.groupId)) {
+      // 恢复分组展开状态
+      if (Array.isArray(saved.expanded)) {
+        saved.expanded.forEach(gid => this.expandedGroups.add(gid));
+      }
+      // 分组数据是按需异步加载的，先确保加载完成（否则词表会空白）
+      let restored = true;
+      try {
+        await DataStore.loadGroup(saved.subject, saved.groupId);
+      } catch (err) {
+        console.warn('[StudyApp] 恢复分组加载失败:', err);
+        restored = false;
+      }
+      // 加载后再校验分类仍存在（防止数据更新后分类被删），有效才恢复
+      if (restored && DataStore.getCategory(saved.subject, saved.groupId, saved.categoryId)) {
+        // 重新渲染侧边栏：让恢复的展开状态和分类列表生效（数据已加载）
+        this._renderSidebar();
+        this.selectCategory(saved.subject, saved.groupId, saved.categoryId);
+        return;
+      }
+    }
+
+    // 无记忆/记忆失效：默认展开小学 → 选中第一个分类
+    this.expandedGroups.add('primary');
+    this._renderSidebar();
     const firstGroup = DataStore.getGroups('english')[0];
     if (firstGroup) {
       const cats = DataStore.getGroupCategories('english', firstGroup.id);
@@ -343,6 +374,16 @@ const StudyApp = {
 
     // 渲染该分类的单词
     this._renderCategoryWords(subjId, groupId, catId);
+
+    // 记住选中状态与分组展开状态，下次打开自动恢复
+    try {
+      localStorage.setItem('app_last_category', JSON.stringify({
+        subject: subjId,
+        groupId,
+        categoryId: catId,
+        expanded: Array.from(this.expandedGroups)
+      }));
+    } catch (e) { /* 存储失败不影响功能 */ }
   },
 
   // ============================================

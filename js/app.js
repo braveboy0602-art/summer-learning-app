@@ -24,6 +24,8 @@ const StudyApp = {
 
   async init() {
     this.todayStr = this._getTodayString();
+    this._currentAudio = null;  // 当前播放中的 mp3（播下一个词前停掉）
+    this._audioCtx = null;      // 已解锁的 AudioContext（移动端自动播放绕过）
 
     this._bindEvents();
     this._bindHeaderActions();
@@ -485,15 +487,52 @@ const StudyApp = {
    * @returns {Promise<void>}
    */
   /**
-   * 统一播放单词发音：优先本地 Cambridge MP3（英式 UK），缺失或失败回退浏览器 TTS
+   * 解锁音频播放：在用户手势内创建/恢复 AudioContext。
+   * 之后经该 context 播放的音频不再受移动端自动播放策略限制（默认约 5s 手势窗口）。
+   * 须在按钮点击等用户手势中调用才有效。
+   */
+  _unlockAudio() {
+    try {
+      if (!this._audioCtx) {
+        const Ctx = window.AudioContext || window.webkitAudioContext;
+        if (!Ctx) return;
+        this._audioCtx = new Ctx();
+      }
+      if (this._audioCtx.state === 'suspended') {
+        this._audioCtx.resume();
+      }
+    } catch (e) {
+      console.warn('[StudyApp] AudioContext 解锁失败:', e);
+    }
+  },
+
+  /**
+   * 统一播放单词发音：本地 Cambridge MP3（英式 UK）优先，缺失或失败回退 TTS。
+   * 每个词总超时 8s 兜底：移动端自动播放限制下 play() 可能无限挂起，超时强制继续，跟读不会卡死。
    * @param {string} word
-   * @returns {Promise<void>} 播放完成（或兜底朗读完成）时 resolve
+   * @returns {Promise<void>} 播放完成（或兜底朗读完成/超时）时 resolve
    */
   _playWordAudio(word) {
     const entry = this._cambridgeData ? this._cambridgeData[word] : null;
+
+    // 播下一个词前，停掉上一个未结束的 mp3（防声音重叠）
+    if (this._currentAudio) {
+      try { this._currentAudio.pause(); } catch (e) {}
+      this._currentAudio = null;
+    }
+
+    // 超时兜底：任何播放路径最多等 8 秒
+    const withTimeout = (p) => Promise.race([
+      p,
+      new Promise(r => setTimeout(() => {
+        console.warn('[StudyApp] 播放超时(8s)，跳过:', word);
+        r();
+      }, 8000))
+    ]);
+
     if (!entry || !entry.audio_uk) {
       // 无 Cambridge 音频的词（含其他年级）：用原 TTS 方案
-      return speakText(word);
+      return withTimeout(speakText(word));
     }
 
     // 播放 mp3 前停掉 TTS，防止声音重叠
@@ -503,19 +542,40 @@ const StudyApp = {
     const fileName = word.toLowerCase().replace(/[^a-z0-9]+/g, '_').replace(/^_+|_+$/g, '') || 'word';
     const src = `audio/${fileName}_uk.mp3`;
 
-    return new Promise((resolve) => {
+    const playPromise = new Promise((resolve) => {
       const audio = new Audio(src);
+      this._currentAudio = audio;
+
+      // 若 AudioContext 已解锁（用户手势内 resume 过），经它播放可绕过自动播放限制
+      if (this._audioCtx && this._audioCtx.state === 'running') {
+        try {
+          const node = this._audioCtx.createMediaElementSource(audio);
+          node.connect(this._audioCtx.destination);
+        } catch (e) {
+          console.warn('[StudyApp] 接入 AudioContext 失败，走普通播放:', e);
+        }
+      }
+
       let settled = false;
+      const finish = () => {
+        if (settled) return;
+        settled = true;
+        if (this._currentAudio === audio) this._currentAudio = null;
+        resolve();
+      };
       const fallback = () => {
         if (settled) return;
         settled = true;
         console.warn('[StudyApp] mp3 播放失败，回退 TTS:', word);
-        speakText(word).then(resolve);  // 等 TTS 朗读完成再结束
+        if (this._currentAudio === audio) this._currentAudio = null;
+        speakText(word).then(resolve);  // 外层 withTimeout 兜底
       };
-      audio.onended = () => { if (!settled) { settled = true; resolve(); } };
+      audio.onended = finish;
       audio.onerror = fallback;
       audio.play().catch(fallback);
     });
+
+    return withTimeout(playPromise);
   },
 
   /**
@@ -536,6 +596,7 @@ const StudyApp = {
    */
   async _startAutoPlay() {
     if (this._isAutoPlaying) return;
+    this._unlockAudio();  // 用户手势内解锁音频（移动端自动播放绕过）
     this._isAutoPlaying = true;
     this._renderAutoPlayBtn();
 
@@ -1325,6 +1386,7 @@ const StudyApp = {
   /** 单次播放（小喇叭点击） */
   playAudio(word) {
     console.log('[StudyApp] 正在播放:', word);
+    this._unlockAudio();  // 用户手势内解锁音频（移动端自动播放绕过）
     Tracker.track('play_audio', {
       wordId: word,
       word: word,

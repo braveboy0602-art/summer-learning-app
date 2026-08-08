@@ -1,0 +1,14 @@
+# JetBrains IDE
+.idea/
+
+# Claude Code 本地配置
+.claude/
+
+# 测试产物
+test-results/
+
+# 日志
+*.log
+
+# Node
+node_modules/

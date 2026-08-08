@@ -1,9 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Read(//home/shaoyf/.claude/plugins/marketplaces/ui-ux-pro-max-skill/**)",
-      "Read(//home/shaoyf/.claude/plugins/**)",
-      "Bash(claude plugin *)"
-    ]
-  }
-}

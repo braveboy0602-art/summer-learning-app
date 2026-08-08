@@ -505,13 +505,60 @@ body {
   letter-spacing: 0.02em;
 }
 
-.word-phonetic {
+.word-phonetic-row {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.phonetic-box {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;  /* 标签和音标内容都靠左 */
+  justify-content: center;
+  gap: 2px;
+  padding: 6px 8px;
+  border-radius: 8px;
+}
+
+/* 无底色（透明背景） */
+
+.phonetic-label {
+  font-size: 0.7rem;
+  color: var(--gray-500);
+  letter-spacing: 0.05em;
+  align-self: flex-start;  /* 标签靠左，音标内容居中 */
+}
+
+.phonetic-icon {
+  height: 1em;          /* 与标签字号一致（跟随 📖 emoji 大小） */
+  width: auto;
+  vertical-align: -2px;
+  margin-right: 3px;
+}
+
+.phonetic-ipa .phonetic-label {
+  color: #8b7fd8;  /* 淡紫标签文字 */
+}
+
+.phonetic-text {
+  font-family: var(--font-body);  /* 初版字体 */
   font-size: 1rem;
   color: var(--gray-500);
-  font-family: var(--font-body);
   font-style: normal;
   letter-spacing: 0.03em;
-  margin-bottom: 8px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+}
+
+/* IPA 音标突出：深紫 + 加粗 */
+.phonetic-ipa .phonetic-text {
+  color: var(--primary-dark);
+  font-weight: 600;
 }
 
 .word-cn {

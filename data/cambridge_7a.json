@@ -1,0 +1,4345 @@
+{
+  "meta": {
+    "source": "dictionary.cambridge.org",
+    "scraped_at": "2026-08-08T12:32:35",
+    "total": 407,
+    "found": 393,
+    "null": 14,
+    "audio_downloaded": 742,
+    "audio_failed": 0,
+    "missing": [
+      "be good at",
+      "be interested in",
+      "Chinese chess",
+      "make friends with",
+      "paper-cutting",
+      "all kinds of",
+      "form teacher",
+      "on weekdays",
+      "have a sweet tooth",
+      "lucky money",
+      "red packet",
+      "rice dumpling",
+      "in the hope of",
+      "Spring Festival couplets"
+    ]
+  },
+  "words": {
+    "greet": {
+      "phonetic_uk": "ɡriːt",
+      "phonetic_us": "ɡriːt",
+      "audio_uk": "/media/english/uk_pron/u/ukg/ukgre/ukgreen018.mp3",
+      "audio_us": "/media/english/us_pron/g/gre/greet/greet.mp3",
+      "examples": [
+        "He greeted me at the door.",
+        "greet someone with something The teacher greeted each child with a friendly \"Hello!\"",
+        "greet something with something The unions have greeted the decision with delight/anger."
+      ]
+    },
+    "introduce": {
+      "phonetic_uk": "ˌɪn.trəˈdʒuːs",
+      "phonetic_us": "ˌɪn.trəˈduːs",
+      "audio_uk": "/media/english/uk_pron/u/uki/ukint/ukintra021.mp3",
+      "audio_us": "/media/english/us_pron/i/int/intro/introduce.mp3",
+      "examples": [
+        "Apple has sold many millions of iPods since the product was introduced in 2001.",
+        "Such unpopular legislation is unlikely to be introduced before the next election.",
+        "be introduced into specialized The tube which carries the laser is introduced into the abdomen through a small cut in the skin."
+      ]
+    },
+    "each other": {
+      "phonetic_uk": "ˌiːtʃ ˈʌð.ə",
+      "phonetic_us": "ˌiːtʃ ˈʌð.ɚ",
+      "audio_uk": "/media/english/uk_pron/u/ukc/ukcld/ukcld00391.mp3",
+      "audio_us": "/media/english/us_pron/u/usc/uscld/uscld00391.mp3",
+      "examples": [
+        "They kept looking at each other and smiling.",
+        "They're always wearing each other's clothes.",
+        "with each other Why are you always arguing with each other?"
+      ]
+    },
+    "go by": {
+      "phonetic_uk": "ɡəʊ",
+      "phonetic_us": "ɡoʊ",
+      "audio_uk": "/media/english/uk_pron/u/ukg/ukglu/ukglutt024.mp3",
+      "audio_us": "/media/english/us_pron/g/go_/go___/go.mp3",
+      "examples": [
+        "You can watch the trains going by from this window.",
+        "You can't let an opportunity like that go by - it's too good to miss.",
+        "Hardly a day goes by when I don't think about her."
+      ]
+    },
+    "glad": {
+      "phonetic_uk": "ɡlæd",
+      "phonetic_us": "ɡlæd",
+      "audio_uk": "/media/english/uk_pron/u/ukg/ukgla/ukglaci002.mp3",
+      "audio_us": "/media/english/us_pron/g/gla/glad_/glad.mp3",
+      "examples": [
+        "glad about We were glad about her success.",
+        "I'm glad you came.",
+        "glad that She was glad that her parents lived to see her success."
+      ]
+    },
+    "same": {
+      "phonetic_uk": "seɪm",
+      "phonetic_us": "seɪm",
+      "audio_uk": "/media/english/uk_pron/u/uks/uksal/uksalti022.mp3",
+      "audio_us": "/media/english/us_pron/s/sam/same_/same.mp3",
+      "examples": [
+        "My twin sister and I have the same nose.",
+        "exactly the same She was wearing exactly the same dress as I was.",
+        "the same something as someone/something Hilary's the same age as me."
+      ]
+    },
+    "hobby": {
+      "phonetic_uk": "ˈhɒb.i",
+      "phonetic_us": "ˈhɑː.bi",
+      "audio_uk": "/media/english/uk_pron/u/ukh/ukhiv/ukhive_026.mp3",
+      "audio_us": "/media/english/us_pron/h/hob/hobby/hobby.mp3",
+      "examples": [
+        "Angela's hobby is restoring vintage motorcycles.",
+        "Sonya’s hobbies include traveling, sailing, and reading fiction.",
+        "It is difficult to claim business losses from what are really hobbies."
+      ]
+    },
+    "grade": {
+      "phonetic_uk": "ɡreɪd",
+      "phonetic_us": "ɡreɪd",
+      "audio_uk": "/media/english/uk_pron/u/ukg/ukgra/ukgraci006.mp3",
+      "audio_us": "/media/english/us_pron/g/gra/grade/grade.mp3",
+      "examples": [
+        "low-grade He's suffering from some kind of low-grade (= slight) infection, which he can't seem to get rid of.",
+        "high-grade There's some really high-grade (= high quality) musicianship on this recording.",
+        "on a grade UK Bill has been on the same grade (= his job has been of the same level of importance, or he has had the same level of pay) for several years now."
+      ]
+    },
+    "classmate": {
+      "phonetic_uk": "ˈklɑːs.meɪt",
+      "phonetic_us": "ˈklæs.meɪt",
+      "audio_uk": "/media/english/uk_pron/u/ukc/ukcla/ukclass002.mp3",
+      "audio_us": "/media/english/us_pron/u/usc/usciv/uscivil029.mp3",
+      "examples": [
+        "Trish is taller than most of her classmates."
+      ]
+    },
+    "friendly": {
+      "phonetic_uk": "ˈfrend.li",
+      "phonetic_us": "ˈfrend.li",
+      "audio_uk": "/media/english/uk_pron/u/ukf/ukfri/ukfrica010.mp3",
+      "audio_us": "/media/english/us_pron/f/fri/frien/friendly.mp3",
+      "examples": [
+        "a friendly face/smile",
+        "friendly to She wasn't very friendly to me the first time we met.",
+        "friendly towards Our neighbours have always been very friendly towards us."
+      ]
+    },
+    "full": {
+      "phonetic_uk": "fʊl",
+      "phonetic_us": "fʊl",
+      "audio_uk": "/media/english/uk_pron/u/ukf/ukfuc/ukfucke020.mp3",
+      "audio_us": "/media/english/us_pron/f/ful/full_/full.mp3",
+      "examples": [
+        "This cup is very full so be careful with it.",
+        "My plate was already full.",
+        "I tried to get in the cinema last night but it was full."
+      ]
+    },
+    "be full of": {
+      "phonetic_uk": null,
+      "phonetic_us": null,
+      "audio_uk": null,
+      "audio_us": null,
+      "examples": [
+        "\"Did the kids enjoy their trip to the zoo?\" \"Oh, yes, they were full of it when they got back this afternoon.\"",
+        "Emily had clearly loved the whole experience - she was full of it over dinner last night.",
+        "I've never seen Phoebe so excited by anything - she was full of it."
+      ]
+    },
+    "energy": {
+      "phonetic_uk": "ˈen.ə.dʒi",
+      "phonetic_us": "ˈen.ɚ.dʒi",
+      "audio_uk": "/media/english/uk_pron/u/uke/ukend/ukendwa009.mp3",
+      "audio_us": "/media/english/us_pron/e/ene/energ/energy.mp3",
+      "examples": [
+        "Since I started eating more healthily I've got so much more energy.",
+        "have the energy I was going to go out this evening, but I just haven't got the energy.",
+        "[ + to infinitive ] I didn't even have the energy to get out of bed."
+      ]
+    },
+    "be good at": {
+      "phonetic_uk": null,
+      "phonetic_us": null,
+      "audio_uk": null,
+      "audio_us": null,
+      "examples": null
+    },
+    "slim": {
+      "phonetic_uk": "slɪm",
+      "phonetic_us": "slɪm",
+      "audio_uk": "/media/english/uk_pron/u/uks/uksle/uksleep026.mp3",
+      "audio_us": "/media/english/us_pron/s/sli/slim_/slim.mp3",
+      "examples": [
+        "slim hips/legs",
+        "She has a lovely slim figure.",
+        "She's on a diet but I think she's already too thin.skinnyYou should eat more. You're much too skinny.scrawnyHe hated his scrawny legs.slimHe was tall, very slim, with pale, deep-set eyes.slenderHe put his arms around her slender waist.\n            See more results »"
+      ]
+    },
+    "polite": {
+      "phonetic_uk": "pəˈlaɪt",
+      "phonetic_us": "pəˈlaɪt",
+      "audio_uk": "/media/english/uk_pron/u/ukp/ukpol/ukpolar021.mp3",
+      "audio_us": "/media/english/us_pron/p/pol/polit/polite.mp3",
+      "examples": [
+        "I'm afraid I wasn't very polite to her.",
+        "She sent me a polite letter thanking me for my invitation.",
+        "He was too polite to point out my mistake."
+      ]
+    },
+    "smart": {
+      "phonetic_uk": "smɑːt",
+      "phonetic_us": "smɑːrt",
+      "audio_uk": "/media/english/uk_pron/u/uks/ukslu/ukslutt023.mp3",
+      "audio_us": "/media/english/us_pron/s/sma/smart/smart.mp3",
+      "examples": [
+        "look smart Guy looks very smart in his new suit, doesn't he?",
+        "I need a smart jacket for my interview.",
+        "smart new She works in a very smart new office overlooking the river."
+      ]
+    },
+    "ready": {
+      "phonetic_uk": "ˈred.i",
+      "phonetic_us": "ˈred.i",
+      "audio_uk": "/media/english/uk_pron/u/ukr/ukrea/ukreadi006.mp3",
+      "audio_us": "/media/english/us_pron/r/rea/ready/ready.mp3",
+      "examples": [
+        "[ + to infinitive ] Are you ready to leave?",
+        "ready to Are you ready to order, Madam?",
+        "ready when you are Okay, Evie, ready when you are (= I am ready to do what we have arranged)."
+      ]
+    },
+    "be ready to do sth": {
+      "phonetic_uk": null,
+      "phonetic_us": null,
+      "audio_uk": null,
+      "audio_us": null,
+      "examples": [
+        "I should think you're about ready to collapse after all that walking.",
+        "These men are ready to die for their country."
+      ]
+    },
+    "other": {
+      "phonetic_uk": "ˈʌð.ə",
+      "phonetic_us": "ˈʌð.ɚ",
+      "audio_uk": "/media/english/uk_pron/u/uko/ukosc/ukoscil021.mp3",
+      "audio_us": "/media/english/us_pron/e/eus/eus75/eus75322.mp3",
+      "examples": [
+        "The product has many other time-saving features.",
+        "There is no other work available at the moment.",
+        "There is only one other person who could help us."
+      ]
+    },
+    "interested": {
+      "phonetic_uk": "ˈɪn.tres.tɪd",
+      "phonetic_us": "ˈɪn.trɪ.stɪd",
+      "audio_uk": "/media/english/uk_pron/u/uki/ukint/ukinter016.mp3",
+      "audio_us": "/media/english/us_pron/i/int/inter/interested.mp3",
+      "examples": [
+        "interested in He didn't seem very interested in what I was saying.",
+        "Yes, I'd be very interested in knowing more about the services your firm offers.",
+        "She's at that age where she's starting to get interested in boys."
+      ]
+    },
+    "be interested in": {
+      "phonetic_uk": null,
+      "phonetic_us": null,
+      "audio_uk": null,
+      "audio_us": null,
+      "examples": null
+    },
+    "looks": {
+      "phonetic_uk": null,
+      "phonetic_us": null,
+      "audio_uk": null,
+      "audio_us": null,
+      "examples": [
+        "I like her looks.",
+        "Her looks improved as she grew older.",
+        "lose your looks He put on weight and started to lose his looks."
+      ]
+    },
+    "character": {
+      "phonetic_uk": "ˈkær.ək.tə",
+      "phonetic_us": "ˈker.ək.tɚ",
+      "audio_uk": "/media/english/uk_pron/u/ukc/ukcha/ukchaot021.mp3",
+      "audio_us": "/media/english/us_pron/c/cha/chara/character.mp3",
+      "examples": [
+        "Politeness is traditionally part of the British character.",
+        "out of character It would be very out of character (= not typical) of her to lie.",
+        "in character His recent behaviour is very much in character (= typical)."
+      ]
+    },
+    "both": {
+      "phonetic_uk": "bəʊθ",
+      "phonetic_us": "boʊθ",
+      "audio_uk": "/media/english/uk_pron/u/ukb/ukbor/ukborin027.mp3",
+      "audio_us": "/media/english/us_pron/b/bot/both_/both.mp3",
+      "examples": [
+        "Both my parents are teachers.",
+        "both of whom They have two children, both of whom live abroad.",
+        "both of which She has written two novels, both of which have been made into television series."
+      ]
+    },
+    "enjoy": {
+      "phonetic_uk": "ɪnˈdʒɔɪ",
+      "phonetic_us": "ɪnˈdʒɔɪ",
+      "audio_uk": "/media/english/uk_pron/u/uke/ukeng/ukengin019.mp3",
+      "audio_us": "/media/english/us_pron/e/eus/eus71/eus71552.mp3",
+      "examples": [
+        "I really enjoyed that movie/book/concert/party/meal.",
+        "[ + -ing verb ] I want to travel because I enjoy meeting people and seeing new places.",
+        "Enjoy your meal!enjoy yourselfHe's enjoying himself at his job.likeI like hiking a lot.loveAfter working in the garden, I love a good soak in the tub.relishJonathan always relishes a challenge.lap upHe lapped up all the attention they gave him.\n            See more results »"
+      ]
+    },
+    "pretty": {
+      "phonetic_uk": "ˈprɪt.i",
+      "phonetic_us": "ˈprɪt̬.i",
+      "audio_uk": "/media/english/uk_pron/u/ukp/ukpre/ukprete012.mp3",
+      "audio_us": "/media/english/us_pron/e/eus/eus73/eus73704.mp3",
+      "examples": [
+        "The house has four bedrooms, so it's pretty big.",
+        "I'm pretty sure it was her.",
+        "I've got a pretty good idea of how to get there."
+      ]
+    },
+    "shy": {
+      "phonetic_uk": "ʃaɪ",
+      "phonetic_us": "ʃaɪ",
+      "audio_uk": "/media/english/uk_pron/u/uks/ukshu/ukshun_013.mp3",
+      "audio_us": "/media/english/us_pron/s/shy/shy__/shy.mp3",
+      "examples": [
+        "He was too shy to ask her to dance with him.",
+        "She gave a shy smile.",
+        "Children are often shy of/with people they don't know."
+      ]
+    },
+    "only": {
+      "phonetic_uk": "ˈəʊn.li",
+      "phonetic_us": "ˈoʊn.li",
+      "audio_uk": "/media/english/uk_pron/u/uko/ukomn/ukomniv015.mp3",
+      "audio_us": "/media/english/us_pron/e/eus/eus75/eus75217.mp3",
+      "examples": [
+        "I was the only person on the train.",
+        "Is this really the only way to do it?",
+        "The only thing that matters is that the baby is healthy."
+      ]
+    },
+    "stay": {
+      "phonetic_uk": "steɪ",
+      "phonetic_us": "steɪ",
+      "audio_uk": "/media/english/uk_pron/u/uks/uksta/ukstaun005.mp3",
+      "audio_us": "/media/english/us_pron/s/sta/stay_/stay.mp3",
+      "examples": [
+        "stay for They need an assistant who is willing to stay for six months.",
+        "stay until Stay until the rain has stopped.",
+        "Can you stay after work to play tennis?"
+      ]
+    },
+    "match": {
+      "phonetic_uk": "mætʃ",
+      "phonetic_us": "mætʃ",
+      "audio_uk": "/media/english/uk_pron/u/ukm/ukmas/ukmassi025.mp3",
+      "audio_us": "/media/english/us_pron/m/mat/match/match.mp3",
+      "examples": [
+        "a tennis match",
+        "a football/cricket match",
+        "We won/lost the match."
+      ]
+    },
+    "luck": {
+      "phonetic_uk": "lʌk",
+      "phonetic_us": "lʌk",
+      "audio_uk": "/media/english/uk_pron/u/ukl/ukloy/ukloyal030.mp3",
+      "audio_us": "/media/english/us_pron/l/luc/luck_/luck.mp3",
+      "examples": [
+        "It was just luck that I asked for a job at the right time.",
+        "Then I met this gorgeous woman and I couldn't believe my luck.",
+        "good luck She wears a charm that she thinks brings her good luck."
+      ]
+    },
+    "good luck": {
+      "phonetic_uk": null,
+      "phonetic_us": null,
+      "audio_uk": null,
+      "audio_us": null,
+      "examples": [
+        "She wears a charm that she thinks brings her good luck.",
+        "Let's hope our good luck with the weather continues for a few more days.",
+        "Good luck, and enjoy every minute of the game."
+      ]
+    },
+    "chess": {
+      "phonetic_uk": "tʃes",
+      "phonetic_us": "tʃes",
+      "audio_uk": "/media/english/uk_pron/u/ukc/ukche/ukchess001.mp3",
+      "audio_us": "/media/english/us_pron/c/che/chess/chess.mp3",
+      "examples": null
+    },
+    "Chinese chess": {
+      "phonetic_uk": null,
+      "phonetic_us": null,
+      "audio_uk": null,
+      "audio_us": null,
+      "examples": null
+    },
+    "problem": {
+      "phonetic_uk": "ˈprɒb.ləm",
+      "phonetic_us": "ˈprɑː.bləm",
+      "audio_uk": "/media/english/uk_pron/u/ukp/ukpro/ukprobi002.mp3",
+      "audio_us": "/media/english/us_pron/p/pro/probl/problem.mp3",
+      "examples": [
+        "financial/health problems",
+        "Our main problem is lack of cash.",
+        "have a problem with I'm having problems with my computer."
+      ]
+    },
+    "weekend": {
+      "phonetic_uk": "ˌwiːkˈend",
+      "phonetic_us": "ˈwiːk.end",
+      "audio_uk": "/media/english/uk_pron/u/ukw/ukwee/ukweedk004.mp3",
+      "audio_us": "/media/english/us_pron/u/usw/uswea/usweare018.mp3",
+      "examples": [
+        "This/Next weekend we're going to see some friends.",
+        "over the weekend I have a lot of homework to do over the weekend.",
+        "spend the weekend He spent the weekend fishing with his brother."
+      ]
+    },
+    "at the weekend": {
+      "phonetic_uk": null,
+      "phonetic_us": null,
+      "audio_uk": null,
+      "audio_us": null,
+      "examples": [
+        "What did you do at the weekend?",
+        "We go out once in a while after work and at the weekend.",
+        "I might call in on them at the weekend."
+      ]
+    },
+    "fun": {
+      "phonetic_uk": "fʌn",
+      "phonetic_us": "fʌn",
+      "audio_uk": "/media/english/uk_pron/u/ukf/ukfum/ukfumes005.mp3",
+      "audio_us": "/media/english/us_pron/f/fun/fun__/fun.mp3",
+      "examples": [
+        "have fun Invite a friend to the party, and have fun (= enjoy yourself)!",
+        "Having fun (= are you enjoying yourself)?",
+        "great fun We had great fun at the beach."
+      ]
+    },
+    "make friends with": {
+      "phonetic_uk": null,
+      "phonetic_us": null,
+      "audio_uk": null,
+      "audio_us": null,
+      "examples": null
+    },
+    "jogging": {
+      "phonetic_uk": "ˈdʒɒɡ.ɪŋ",
+      "phonetic_us": "ˈdʒɑː.ɡɪŋ",
+      "audio_uk": "/media/english/uk_pron/u/ukj/ukjoc/ukjocul008.mp3",
+      "audio_us": "/media/english/us_pron/j/jog/joggi/jogging.mp3",
+      "examples": [
+        "go jogging He usually goes jogging for half an hour before breakfast."
+      ]
+    },
+    "painting": {
+      "phonetic_uk": "ˈpeɪn.tɪŋ",
+      "phonetic_us": "ˈpeɪn.t̬ɪŋ",
+      "audio_uk": "/media/english/uk_pron/u/ukp/ukpai/ukpaink011.mp3",
+      "audio_us": "/media/english/us_pron/p/pai/paint/painting.mp3",
+      "examples": [
+        "The walls are covered in oil paintings.",
+        "an exhibition of 19th-century French painting",
+        "We were taught painting and drawing at art college."
+      ]
+    },
+    "paper-cutting": {
+      "phonetic_uk": null,
+      "phonetic_us": null,
+      "audio_uk": null,
+      "audio_us": null,
+      "examples": null
+    },
+    "all kinds of": {
+      "phonetic_uk": null,
+      "phonetic_us": null,
+      "audio_uk": null,
+      "audio_us": null,
+      "examples": null
+    },
+    "fit": {
+      "phonetic_uk": "fɪt",
+      "phonetic_us": "fɪt",
+      "audio_uk": "/media/english/uk_pron/u/ukf/ukfis/ukfistf003.mp3",
+      "audio_us": "/media/english/us_pron/f/fit/fit__/fit.mp3",
+      "examples": [
+        "I want to put this box under the bed, but it won't fit.",
+        "fit into I don't think another desk will fit into this classroom.",
+        "fit in My car's too big to fit in this space."
+      ]
+    },
+    "around": {
+      "phonetic_uk": "əˈraʊnd",
+      "phonetic_us": "əˈraʊnd",
+      "audio_uk": "/media/english/uk_pron/u/uka/ukarm/ukarmho014.mp3",
+      "audio_us": "/media/english/us_pron/a/aro/aroun/around.mp3",
+      "examples": [
+        "We sat around the table.",
+        "He put his arm around her.",
+        "A crowd had gathered around the scene of the accident."
+      ]
+    },
+    "change": {
+      "phonetic_uk": "tʃeɪndʒ",
+      "phonetic_us": "tʃeɪndʒ",
+      "audio_uk": "/media/english/uk_pron/u/ukc/ukcha/ukchamo016.mp3",
+      "audio_us": "/media/english/us_pron/c/cha/chang/change.mp3",
+      "examples": [
+        "change jobs She's just changed jobs.",
+        "change the subject Let's change the subject (= talk about something different).",
+        "I almost didn't recognize her - she'd changed so much."
+      ]
+    },
+    "life": {
+      "phonetic_uk": "laɪf",
+      "phonetic_us": "laɪf",
+      "audio_uk": "/media/english/uk_pron/u/ukl/uklic/uklicen020.mp3",
+      "audio_us": "/media/english/us_pron/l/lif/life_/life.mp3",
+      "examples": [
+        "Life's too short to worry about money!",
+        "spend your life I'm not sure I want to spend the rest of my life with him.",
+        "part of life Unfortunately, accidents are part of life."
+      ]
+    },
+    "museum": {
+      "phonetic_uk": "mjuːˈziː.əm",
+      "phonetic_us": "mjuːˈziː.əm",
+      "audio_uk": "/media/english/uk_pron/u/ukm/ukmun/ukmunif021.mp3",
+      "audio_us": "/media/english/us_pron/m/mus/museu/museum.mp3",
+      "examples": [
+        "a museum of modern art",
+        "the Natural History Museum",
+        "an art/science/natural history museum"
+      ]
+    },
+    "thing": {
+      "phonetic_uk": "θɪŋ",
+      "phonetic_us": "θɪŋ",
+      "audio_uk": "/media/english/uk_pron/u/ukt/ukthi/ukthick014.mp3",
+      "audio_us": "/media/english/us_pron/t/thi/thing/thing.mp3",
+      "examples": [
+        "What's that thing over there?",
+        "There are some nice things in the shops this summer.",
+        "I don't eat sweet things (= sweet food)."
+      ]
+    },
+    "apart": {
+      "phonetic_uk": "əˈpɑːt",
+      "phonetic_us": "əˈpɑːrt",
+      "audio_uk": "/media/english/uk_pron/u/uka/ukant/ukantis030.mp3",
+      "audio_us": "/media/english/us_pron/a/apa/apart/apart.mp3",
+      "examples": [
+        "Stand with your feet wide apart.",
+        "How far apart should the speakers be?",
+        "We were asked to stand in two lines three metres apart."
+      ]
+    },
+    "take ... apart": {
+      "phonetic_uk": "teɪk",
+      "phonetic_us": "teɪk",
+      "audio_uk": "/media/english/uk_pron/u/ukt/uktaj/uktajik002.mp3",
+      "audio_us": "/media/english/us_pron/t/tak/take_/take.mp3",
+      "examples": [
+        "We took the engine apart to see what the problem was.",
+        "He took their defence apart, scoring three goals in the first 20 minutes.",
+        "I like to take things apart to see how they work."
+      ]
+    },
+    "fix": {
+      "phonetic_uk": "fɪks",
+      "phonetic_us": "fɪks",
+      "audio_uk": "/media/english/uk_pron/u/ukf/ukfis/ukfistf014.mp3",
+      "audio_us": "/media/english/us_pron/f/fix/fix__/fix.mp3",
+      "examples": [
+        "They couldn't fix my old computer, so I bought a new one.",
+        "He asked if she could repair the broken lamp.fixI must get my bike fixed.mendCan you mend that hole in my trousers?do upNick loves doing up old cars.serviceI'm taking the car to the garage to have it serviced this afternoon.patch upI patched up the old bike and got it working.\n            See more results »",
+        "Shall we fix a time for our next meeting?"
+      ]
+    },
+    "endless": {
+      "phonetic_uk": "ˈend.ləs",
+      "phonetic_us": "ˈend.ləs",
+      "audio_uk": "/media/english/uk_pron/u/uke/ukenc/ukencum015.mp3",
+      "audio_us": "/media/english/us_pron/e/end/endle/endless.mp3",
+      "examples": [
+        "We used to have endless arguments about politics.",
+        "endless supply He seems to think that I have an endless supply of money.",
+        "endless possibilities The possibilities are endless."
+      ]
+    },
+    "scientist": {
+      "phonetic_uk": "ˈsaɪ.ən.tɪst",
+      "phonetic_us": "ˈsaɪ.ən.tɪst",
+      "audio_uk": "/media/english/uk_pron/u/uks/uksch/ukschol024.mp3",
+      "audio_us": "/media/english/us_pron/e/eus/eus74/eus74100.mp3",
+      "examples": [
+        "research scientist She's a senior research scientist in the department of Psychology.",
+        "nuclear scientist",
+        "forensic scientist"
+      ]
+    },
+    "dream": {
+      "phonetic_uk": "driːm",
+      "phonetic_us": "driːm",
+      "audio_uk": "/media/english/uk_pron/u/ukd/ukdre/ukdread006.mp3",
+      "audio_us": "/media/english/us_pron/d/dre/dream/dream.mp3",
+      "examples": [
+        "a good/bad dream",
+        "a recurring dream",
+        "have a dream I had a very strange dream last night."
+      ]
+    },
+    "true": {
+      "phonetic_uk": "truː",
+      "phonetic_us": "truː",
+      "audio_uk": "/media/english/uk_pron/u/ukt/uktru/uktruam012.mp3",
+      "audio_us": "/media/english/us_pron/t/tru/true_/true.mp3",
+      "examples": [
+        "[ + that ] Is it true that Mariana and Mark are getting married?",
+        "if true The allegations, if true, could lead to her resignation.",
+        "partly true Her story is only partly true."
+      ]
+    },
+    "come true": {
+      "phonetic_uk": null,
+      "phonetic_us": null,
+      "audio_uk": null,
+      "audio_us": null,
+      "examples": [
+        "I'd always dreamed of owning my own house, but I never thought it would come true.",
+        "a dream come true After all the problems I'd had getting pregnant, Oliver's birth was a dream come true.",
+        "When I got the job, it was a dream come true, it really was."
+      ]
+    },
+    "paint": {
+      "phonetic_uk": "peɪnt",
+      "phonetic_us": "peɪnt",
+      "audio_uk": "/media/english/uk_pron/u/ukp/ukpai/ukpaink007.mp3",
+      "audio_us": "/media/english/us_pron/e/eus/eus73/eus73396.mp3",
+      "examples": [
+        "UK a tin of paint",
+        "US a can of paint",
+        "coat of paint This wall needs another coat of paint."
+      ]
+    },
+    "club": {
+      "phonetic_uk": "klʌb",
+      "phonetic_us": "klʌb",
+      "audio_uk": "/media/english/uk_pron/u/ukc/ukclo/ukclosu018.mp3",
+      "audio_us": "/media/english/us_pron/c/clu/club_/club.mp3",
+      "examples": [
+        "join a club I've just joined the local golf/squash/tennis club.",
+        "club member Visitors must be accompanied by club members.",
+        "We played tennis and then had lunch at the club."
+      ]
+    },
+    "member": {
+      "phonetic_uk": "ˈmem.bə",
+      "phonetic_us": "ˈmem.bɚ",
+      "audio_uk": "/media/english/uk_pron/u/ukm/ukmel/ukmelod009.mp3",
+      "audio_us": "/media/english/us_pron/m/mem/membe/member.mp3",
+      "examples": [
+        "As a member of the older generation, I deserve to be listened to!",
+        "Male and female members of the group were present at the meeting.",
+        "member state Representatives of the member states will be meeting next week."
+      ]
+    },
+    "geography": {
+      "phonetic_uk": "dʒiˈɒɡ.rə.fi",
+      "phonetic_us": "dʒiˈɑː.ɡrə.fi",
+      "audio_uk": "/media/english/uk_pron/u/ukg/ukgeo/ukgeogr004.mp3",
+      "audio_us": "/media/english/us_pron/g/geo/geogr/geography.mp3",
+      "examples": [
+        "the geography of Australia",
+        "a geographic region",
+        "Japan is geographically close to North Korea."
+      ]
+    },
+    "p.m.": {
+      "phonetic_uk": "ˌpiːˈem",
+      "phonetic_us": "ˌpiːˈem",
+      "audio_uk": "/media/english/uk_pron/u/ukp/ukplu/ukplump027.mp3",
+      "audio_us": "/media/english/us_pron/u/usa/usa30/usa30096.mp3",
+      "examples": [
+        "We'll be arriving at about 4.30 p.m.",
+        "The 6 p.m. train is usually very crowded.",
+        "The PM wants to see you."
+      ]
+    },
+    "volleyball": {
+      "phonetic_uk": "ˈvɒl.i.bɔːl",
+      "phonetic_us": "ˈvɑː.li.bɑːl",
+      "audio_uk": "/media/english/uk_pron/u/ukv/ukvoi/ukvoila013.mp3",
+      "audio_us": "/media/english/us_pron/e/eus/eus74/eus74895.mp3",
+      "examples": [
+        "In physical education, we play volleyball or do exercises.",
+        "She's upset she didn't make the volleyball team.",
+        "We have volleyballs - we just don't have a net!"
+      ]
+    },
+    "each": {
+      "phonetic_uk": "iːtʃ",
+      "phonetic_us": "iːtʃ",
+      "audio_uk": "/media/english/uk_pron/u/ukd/ukdyn/ukdynam013.mp3",
+      "audio_us": "/media/english/us_pron/e/eac/each_/each.mp3",
+      "examples": [
+        "When you run, each foot leaves the ground before the other comes down.",
+        "There are five leaflets - please take one of each.",
+        "each of Each of the companies supports a local charity."
+      ]
+    },
+    "once": {
+      "phonetic_uk": "wʌns",
+      "phonetic_us": "wʌns",
+      "audio_uk": "/media/english/uk_pron/u/uko/ukomn/ukomniv003.mp3",
+      "audio_us": "/media/english/us_pron/e/eus/eus75/eus75209.mp3",
+      "examples": [
+        "I went sailing once, but I didn't like it.",
+        "We have lunch together once a month.",
+        "They all started talking at once."
+      ]
+    },
+    "join": {
+      "phonetic_uk": "dʒɔɪn",
+      "phonetic_us": "dʒɔɪn",
+      "audio_uk": "/media/english/uk_pron/u/ukj/ukjoc/ukjocul017.mp3",
+      "audio_us": "/media/english/us_pron/j/joi/join_/join.mp3",
+      "examples": [
+        "A long suspension bridge joins the two islands.",
+        "join something together Join the two pieces together using strong glue.",
+        "be joined to The island is joined to the mainland by a road bridge."
+      ]
+    },
+    "meeting": {
+      "phonetic_uk": "ˈmiː.tɪŋ",
+      "phonetic_us": "ˈmiː.t̬ɪŋ",
+      "audio_uk": "/media/english/uk_pron/u/ukm/ukmee/ukmeek_004.mp3",
+      "audio_us": "/media/english/us_pron/e/eus/eus72/eus72961.mp3",
+      "examples": [
+        "have a meeting We're having a meeting on Thursday to discuss the problem.",
+        "business meeting",
+        "hold a meeting Board members held an emergency meeting Monday."
+      ]
+    },
+    "sound": {
+      "phonetic_uk": "saʊnd",
+      "phonetic_us": "saʊnd",
+      "audio_uk": "/media/english/uk_pron/u/uks/uksor/uksorel026.mp3",
+      "audio_us": "/media/english/us_pron/s/sou/sound/sound.mp3",
+      "examples": [
+        "hear a sound They could hear the sound of a bell tolling in the distance.",
+        "make a sound She stood completely still, not making a sound.",
+        "Suddenly we heard a loud knocking sound from the engine."
+      ]
+    },
+    "plan": {
+      "phonetic_uk": "plæn",
+      "phonetic_us": "plæn",
+      "audio_uk": "/media/english/uk_pron/u/ukp/ukpla/ukplain004.mp3",
+      "audio_us": "/media/english/us_pron/p/pla/plan_/plan.mp3",
+      "examples": [
+        "a company's business plan",
+        "a negotiated peace plan",
+        "a five-year plan"
+      ]
+    },
+    "questionnaire": {
+      "phonetic_uk": "ˌkwes.tʃəˈneə",
+      "phonetic_us": "ˌkwes.tʃəˈner",
+      "audio_uk": "/media/english/uk_pron/u/ukq/ukqua/ukquart028.mp3",
+      "audio_us": "/media/english/us_pron/q/que/quest/questionnaire.mp3",
+      "examples": [
+        "Visitors to the country have been asked to fill in a detailed questionnaire.",
+        "fill in/fill out/complete a questionnaire All manufacturing companies registered as exporters were asked to complete a questionnaire about their exports.",
+        "The study is based on the responses of 302 employers to an online questionnaire."
+      ]
+    },
+    "role": {
+      "phonetic_uk": "rəʊl",
+      "phonetic_us": "roʊl",
+      "audio_uk": "/media/english/uk_pron/u/ukr/ukrob/ukrobot028.mp3",
+      "audio_us": "/media/english/us_pron/r/rol/role_/role.mp3",
+      "examples": [
+        "What is his role in this project?",
+        "Schools play an important role in society.",
+        "Six people have been put on trial for their role (= involvement) in the anti-government demonstrations."
+      ]
+    },
+    "model": {
+      "phonetic_uk": "ˈmɒd.",
+      "phonetic_us": "ˈmɑː.d",
+      "audio_uk": "/media/english/uk_pron/u/ukm/ukmoc/ukmocki011.mp3",
+      "audio_us": "/media/english/us_pron/m/mod/model/model.mp3",
+      "examples": [
+        "The educational system was a model for those of many other countries.",
+        "The developer plans to build a model community on the site.",
+        "on the European, American, etc. model They created an education system on the European model."
+      ]
+    },
+    "role model": {
+      "phonetic_uk": "ˈrəʊl ˌmɒd.",
+      "phonetic_us": "ˈroʊl ˌmɑː.d",
+      "audio_uk": "/media/english/uk_pron/u/ukc/ukcld/ukcld01230.mp3",
+      "audio_us": "/media/english/us_pron/u/usc/uscld/uscld01230.mp3",
+      "examples": [
+        "Sports stars are role models for thousands of youngsters.",
+        "I got to meet my political heroes.heroineShe became a heroine for many young women hoping to enter the medical profession.idolMy idols were the Hollywood actors of the '30s.iconMarilyn Monroe is a cinematic icon.role modelShe has become a reluctant role model for many young people.\n            See more results »"
+      ]
+    },
+    "design": {
+      "phonetic_uk": "dɪˈzaɪn",
+      "phonetic_us": "dɪˈzaɪn",
+      "audio_uk": "/media/english/uk_pron/u/ukd/ukdes/ukdescr023.mp3",
+      "audio_us": "/media/english/us_pron/d/des/desig/design.mp3",
+      "examples": [
+        "Who designed this building/dress/furniture?",
+        "be designed for This range of clothing is specially designed for shorter women.",
+        "be designed for This dictionary is designed for advanced learners of English."
+      ]
+    },
+    "skill": {
+      "phonetic_uk": "skɪl",
+      "phonetic_us": "skɪl",
+      "audio_uk": "/media/english/uk_pron/u/uks/ukske/uksketc019.mp3",
+      "audio_us": "/media/english/us_pron/s/ski/skill/skill.mp3",
+      "examples": [
+        "Ruth had/possessed great writing skills.",
+        "I have no skill at/in sewing.",
+        "[ C ] Schools often do not provide students with marketable skills."
+      ]
+    },
+    "artist": {
+      "phonetic_uk": "ˈɑː.tɪst",
+      "phonetic_us": "ˈɑːr.t̬ɪst",
+      "audio_uk": "/media/english/uk_pron/u/uka/ukart/ukartic015.mp3",
+      "audio_us": "/media/english/us_pron/a/art/artis/artist.mp3",
+      "examples": [
+        "Monet is one of my favourite artists.",
+        "The artist painted this picture using tiny brushstrokes.",
+        "Most attention has been given to male artists and writers.craftsmanThis rug was woven by a local craftsman.craftswomanI like buying pottery from the craftswomen at the fair.artisanLocal artisans sell their pottery and blankets on the street.\n            See more results »"
+      ]
+    },
+    "master": {
+      "phonetic_uk": "ˈmɑː.stə",
+      "phonetic_us": "ˈmæs.tɚ",
+      "audio_uk": "/media/english/uk_pron/u/ukm/ukmas/ukmassi005.mp3",
+      "audio_us": "/media/english/us_pron/m/mas/maste/master.mp3",
+      "examples": [
+        "With careful training, a dog will obey its master completely.",
+        "Servants had to obey their masters.",
+        "master of She was the victim of her circumstances rather than the master of her fate."
+      ]
+    },
+    "work": {
+      "phonetic_uk": "wɜːk",
+      "phonetic_us": "wɝːk",
+      "audio_uk": "/media/english/uk_pron/u/ukw/ukwor/ukwordp005.mp3",
+      "audio_us": "/media/english/us_pron/w/wor/work_/work.mp3",
+      "examples": [
+        "do work I've got so much work to do.",
+        "hard work Carrying heavy loads around all day is hard work.",
+        "start work What time do you start work?"
+      ]
+    },
+    "become": {
+      "phonetic_uk": "bɪˈkʌm",
+      "phonetic_us": "bɪˈkʌm",
+      "audio_uk": "/media/english/uk_pron/u/ukb/ukbea/ukbeau_022.mp3",
+      "audio_us": "/media/english/us_pron/b/bec/becom/become.mp3",
+      "examples": [
+        "I was becoming increasingly suspicious of his motives.",
+        "It was becoming cold, so we lit the fire.",
+        "After giving up smoking, he became fat and irritable."
+      ]
+    },
+    "designer": {
+      "phonetic_uk": "dɪˈzaɪ.nə",
+      "phonetic_us": "dɪˈzaɪ.nɚ",
+      "audio_uk": "/media/english/uk_pron/u/ukd/ukdes/ukdescr027.mp3",
+      "audio_us": "/media/english/us_pron/d/des/desig/designer.mp3",
+      "examples": [
+        "a fashion/software/theatrical designer",
+        "designer jeans",
+        "designer sunglasses"
+      ]
+    },
+    "would": {
+      "phonetic_uk": "wʊd",
+      "phonetic_us": "wʊd",
+      "audio_uk": "/media/english/uk_pron/u/ukw/ukwom/ukwoman020.mp3",
+      "audio_us": "/media/english/us_pron/w/woo/wood_/wood.mp3",
+      "examples": [
+        "He said he would see his brother tomorrow.",
+        "They knew there would be trouble unless the report was finished by the next day.",
+        "We realized it wouldn't be easy to find another secretary."
+      ]
+    },
+    "would like": {
+      "phonetic_uk": null,
+      "phonetic_us": null,
+      "audio_uk": null,
+      "audio_us": null,
+      "examples": [
+        "I think I'd like the soup for my starter.",
+        "would like to I'd like to go to Moscow.",
+        "I would like to say a big thank you to everyone who's helped to make our wedding such a special occasion!"
+      ]
+    },
+    "future": {
+      "phonetic_uk": "ˈfjuː.tʃə",
+      "phonetic_us": "ˈfjuː.tʃɚ",
+      "audio_uk": "/media/english/uk_pron/u/ukf/ukfur/ukfurti021.mp3",
+      "audio_us": "/media/english/us_pron/f/fut/futur/future.mp3",
+      "examples": [
+        "Sometimes I worry about the future.",
+        "the future holds I wonder what the future holds for (= what will happen to) you and me.",
+        "in the future I'm sure at some point in the future I'll want a baby."
+      ]
+    },
+    "in the future": {
+      "phonetic_uk": null,
+      "phonetic_us": null,
+      "audio_uk": null,
+      "audio_us": null,
+      "examples": [
+        "Could you be more careful in the future?",
+        "In the future I won't bother asking him out anywhere if he's just going to complain that he's bored!",
+        "In the future I'm going to check every single piece of work that you do!"
+      ]
+    },
+    "hope": {
+      "phonetic_uk": "həʊp",
+      "phonetic_us": "hoʊp",
+      "audio_uk": "/media/english/uk_pron/u/ukh/ukhoo/ukhoove003.mp3",
+      "audio_us": "/media/english/us_pron/h/hop/hope_/hope.mp3",
+      "examples": [
+        "hope for I'm hoping for an interview next week.",
+        "She's hoping (that) she won't be away too long.",
+        "I hope (that) she'll win."
+      ]
+    },
+    "gym": {
+      "phonetic_uk": "dʒɪm",
+      "phonetic_us": "dʒɪm",
+      "audio_uk": "/media/english/uk_pron/u/ukg/ukgut/ukgutsy015.mp3",
+      "audio_us": "/media/english/us_pron/g/gym/gym__/gym.mp3",
+      "examples": [
+        "home gym",
+        "go to the gym I go to the gym twice a week.",
+        "join a gym You should join a gym."
+      ]
+    },
+    "building": {
+      "phonetic_uk": "ˈbɪl.dɪŋ",
+      "phonetic_us": "ˈbɪl.dɪŋ",
+      "audio_uk": "/media/english/uk_pron/u/ukb/ukbud/ukbuddh027.mp3",
+      "audio_us": "/media/english/us_pron/b/bui/build/building.mp3",
+      "examples": [
+        "The once-empty site was now covered with buildings.",
+        "building costs",
+        "building trade He started off in the building trade before opening his own restaurant."
+      ]
+    },
+    "field": {
+      "phonetic_uk": "fiːld",
+      "phonetic_us": "fiːld",
+      "audio_uk": "/media/english/uk_pron/u/ukf/ukfic/ukfickl018.mp3",
+      "audio_us": "/media/english/us_pron/f/fie/field/field.mp3",
+      "examples": [
+        "We drove past fields of ripening wheat.",
+        "The cows were all standing in one corner of the field.",
+        "I spoke to an aid worker who had recently returned from the field."
+      ]
+    },
+    "sports field": {
+      "phonetic_uk": "fiːld",
+      "phonetic_us": "fiːld",
+      "audio_uk": "/media/english/uk_pron/u/ukf/ukfic/ukfickl018.mp3",
+      "audio_us": "/media/english/us_pron/f/fie/field/field.mp3",
+      "examples": null
+    },
+    "dining": {
+      "phonetic_uk": "daɪn",
+      "phonetic_us": "daɪn",
+      "audio_uk": "/media/english/uk_pron/u/ukd/ukdim/ukdimme009.mp3",
+      "audio_us": "/media/english/us_pron/d/din/dine_/dine.mp3",
+      "examples": [
+        "I hate dining alone.",
+        "We dined by candlelight.",
+        "dine with He once dined with the president of France."
+      ]
+    },
+    "hall": {
+      "phonetic_uk": "hɔːl",
+      "phonetic_us": "hɑːl",
+      "audio_uk": "/media/english/uk_pron/u/ukh/ukhai/ukhairp020.mp3",
+      "audio_us": "/media/english/us_pron/h/hal/hall_/hall.mp3",
+      "examples": [
+        "in the hall I left my bags in the hall.",
+        "down the hall There is a meeting room down the hall from my office.",
+        "along the hall She ran along the hall and knocked on her neighbour's door."
+      ]
+    },
+    "dining hall": {
+      "phonetic_uk": "ˈdaɪ.nɪŋ ˌhɔːl",
+      "phonetic_us": "ˈdaɪ.nɪŋ ˌhɑːl",
+      "audio_uk": "/media/english/uk_pron/u/uka/uka32/uka32550.mp3",
+      "audio_us": "/media/english/us_pron/u/usa/usa32/usa32550.mp3",
+      "examples": null
+    },
+    "lab": {
+      "phonetic_uk": "læb",
+      "phonetic_us": "læb",
+      "audio_uk": "/media/english/uk_pron/u/ukk/ukkos/ukkos__029.mp3",
+      "audio_us": "/media/english/us_pron/l/lab/lab__/lab.mp3",
+      "examples": [
+        "a science lab",
+        "a lab technician",
+        "I had my labs done but they didn't reveal any allergies."
+      ]
+    },
+    "part": {
+      "phonetic_uk": "pɑːt",
+      "phonetic_us": "pɑːrt",
+      "audio_uk": "/media/english/uk_pron/u/ukp/ukpar/ukparsi009.mp3",
+      "audio_us": "/media/english/us_pron/p/par/part_/part.mp3",
+      "examples": [
+        "part of Part of my steak isn't cooked properly.",
+        "Part of this form seems to be missing.",
+        "I think part of her problem is that she doesn't listen carefully enough to what other people say."
+      ]
+    },
+    "modern": {
+      "phonetic_uk": "ˈmɒd.",
+      "phonetic_us": "ˈmɑː.dɚn",
+      "audio_uk": "/media/english/uk_pron/u/ukm/ukmoc/ukmocki018.mp3",
+      "audio_us": "/media/english/us_pron/m/mod/moder/modern.mp3",
+      "examples": [
+        "modern technology/architecture/medicine/art",
+        "We're in the very modern-looking building opposite the station.",
+        "approving My grandpa's attitudes are very modern, considering his age."
+      ]
+    },
+    "as well": {
+      "phonetic_uk": null,
+      "phonetic_us": null,
+      "audio_uk": null,
+      "audio_us": null,
+      "examples": [
+        "They advertised the new movie on television, and in newspapers as well."
+      ]
+    },
+    "bright": {
+      "phonetic_uk": "braɪt",
+      "phonetic_us": "braɪt",
+      "audio_uk": "/media/english/uk_pron/u/ukb/ukbri/ukbriga005.mp3",
+      "audio_us": "/media/english/us_pron/b/bri/brigh/bright.mp3",
+      "examples": [
+        "bright sunshine",
+        "The rooms were bright and airy.",
+        "The lights are too bright in here - they're hurting my eyes."
+      ]
+    },
+    "everyone": {
+      "phonetic_uk": "ˈev.ri.wʌn",
+      "phonetic_us": "ˈev.ri.wʌn",
+      "audio_uk": "/media/english/uk_pron/u/uke/ukeve/ukeve__021.mp3",
+      "audio_us": "/media/english/us_pron/e/eve/every/everyone.mp3",
+      "examples": [
+        "Would everyone who wishes to attend the dinner let me know by Friday afternoon?",
+        "Everyone has their own ideas about the best way to bring up children.",
+        "I've received replies from everybody but Jane."
+      ]
+    },
+    "perfect": {
+      "phonetic_uk": "ˈpɜː.fekt",
+      "phonetic_us": "ˈpɝː.fekt",
+      "audio_uk": "/media/english/uk_pron/u/ukp/ukper/ukperch016.mp3",
+      "audio_us": "/media/english/us_pron/e/eus/eus73/eus73494.mp3",
+      "examples": [
+        "a perfect day",
+        "What is your idea of perfect happiness?",
+        "This church is a perfect example of medieval architecture."
+      ]
+    },
+    "spend": {
+      "phonetic_uk": "spend",
+      "phonetic_us": "spend",
+      "audio_uk": "/media/english/uk_pron/u/uks/ukspe/ukspell007.mp3",
+      "audio_us": "/media/english/us_pron/s/spe/spend/spend.mp3",
+      "examples": [
+        "How much did you spend?",
+        "I don't know how I managed to spend so much in the club last night.",
+        "We spent a fortune when we were in New York."
+      ]
+    },
+    "chat": {
+      "phonetic_uk": "tʃæt",
+      "phonetic_us": "tʃæt",
+      "audio_uk": "/media/english/uk_pron/u/ukc/ukcha/ukchary011.mp3",
+      "audio_us": "/media/english/us_pron/c/cha/chat_/chat.mp3",
+      "examples": [
+        "chat with She spends hours on the phone chatting with her friends.",
+        "chat about We were just chatting about what we did last weekend.",
+        "chat away Whenever I walk in, I always find the two of them chatting away (= talking eagerly)."
+      ]
+    },
+    "exciting": {
+      "phonetic_uk": "ɪkˈsaɪ.tɪŋ",
+      "phonetic_us": "ɪkˈsaɪ.t̬ɪŋ",
+      "audio_uk": "/media/english/uk_pron/u/uke/ukexc/ukexces015.mp3",
+      "audio_us": "/media/english/us_pron/e/exc/excit/exciting.mp3",
+      "examples": [
+        "an exciting movie/soundtrack",
+        "You're going to Africa? How exciting!",
+        "It was a really exciting match."
+      ]
+    },
+    "take place": {
+      "phonetic_uk": "teɪk",
+      "phonetic_us": "teɪk",
+      "audio_uk": "/media/english/uk_pron/u/ukt/uktaj/uktajik002.mp3",
+      "audio_us": "/media/english/us_pron/t/tak/take_/take.mp3",
+      "examples": [
+        "The two dogs took to each other immediately and started to play.",
+        "take to someone/something like a duck to water She's taken to basketball like a duck to water (= she likes it and is good at it).",
+        "Do you like pasta?loveI love seafood.adoreI adore a good book.think the world of someoneAnnabel's like a daughter to him - he thinks the world of her.have a soft spot for someoneI've always had a soft spot for Rebecca ever since she was tiny.\n            See more results »"
+      ]
+    },
+    "noticeboard": {
+      "phonetic_uk": "ˈnəʊ.tɪs.bɔːd",
+      "phonetic_us": "ˈnoʊ.t̬ɪs.bɔːrd",
+      "audio_uk": "/media/english/uk_pron/u/ukc/ukcld/ukcld00961.mp3",
+      "audio_us": "/media/english/us_pron/u/usc/uscld/uscld00961.mp3",
+      "examples": [
+        "I've put the list of players up on the noticeboard.",
+        "The reception desk at their headquarters is dominated by a large noticeboard giving the company's daily share price.",
+        "online noticeboards"
+      ]
+    },
+    "gate": {
+      "phonetic_uk": "ɡeɪt",
+      "phonetic_us": "ɡeɪt",
+      "audio_uk": "/media/english/uk_pron/u/ukf/ukfya/ukfya__029.mp3",
+      "audio_us": "/media/english/us_pron/g/gai/gait_/gait.mp3",
+      "examples": [
+        "The lift won't move if the safety gate isn't shut properly.",
+        "All passengers for flight LH103 please proceed to gate 16.",
+        "Gates at matches were lower than average last season."
+      ]
+    },
+    "news": {
+      "phonetic_uk": "njuːz",
+      "phonetic_us": "nuːz",
+      "audio_uk": "/media/english/uk_pron/u/ukn/ukneu/ukneuro028.mp3",
+      "audio_us": "/media/english/us_pron/n/new/news_/news.mp3",
+      "examples": [
+        "piece of news That's the best piece of news I've heard for a long time!",
+        "news of We've had no news of them since they left for Australia.",
+        "news about Have you heard the news about Tina and Tom? They're getting divorced."
+      ]
+    },
+    "board": {
+      "phonetic_uk": "bɔːd",
+      "phonetic_us": "bɔːrd",
+      "audio_uk": "/media/english/uk_pron/u/ukb/ukblu/ukblunt021.mp3",
+      "audio_us": "/media/english/us_pron/b/boa/board/board.mp3",
+      "examples": [
+        "Cheeses were laid out on a board.",
+        "There was a \"For Sale\" board outside the house.",
+        "a chess board"
+      ]
+    },
+    "like": {
+      "phonetic_uk": "laɪk",
+      "phonetic_us": "laɪk",
+      "audio_uk": "/media/english/uk_pron/u/ukl/uklif/uklifes017.mp3",
+      "audio_us": "/media/english/us_pron/l/lik/like_/like.mp3",
+      "examples": [
+        "I like your new haircut.",
+        "Do you like fish?",
+        "I like it when a book is so good that you can't put it down."
+      ]
+    },
+    "more": {
+      "phonetic_uk": "mɔː",
+      "phonetic_us": "mɔːr",
+      "audio_uk": "/media/english/uk_pron/u/ukm/ukmor/ukmorda003.mp3",
+      "audio_us": "/media/english/us_pron/m/mor/more_/more.mp3",
+      "examples": [
+        "Would you like some more food?",
+        "any more The doctors can't cope with any more patients.",
+        "Add some more cream to the sauce."
+      ]
+    },
+    "trust": {
+      "phonetic_uk": "trʌst",
+      "phonetic_us": "trʌst",
+      "audio_uk": "/media/english/uk_pron/u/ukt/uktru/uktruam029.mp3",
+      "audio_us": "/media/english/us_pron/t/tru/trust/trust.mp3",
+      "examples": [
+        "My sister warned me not to trust him.",
+        "Trust me - I know about these things.",
+        "Trust your instincts, and do what you think is right."
+      ]
+    },
+    "really": {
+      "phonetic_uk": "ˈrɪə.li",
+      "phonetic_us": "ˈriː.ə.li",
+      "audio_uk": "/media/english/uk_pron/u/ukr/ukrea/ukreadi022.mp3",
+      "audio_us": "/media/english/us_pron/e/eus/eus73/eus73854.mp3",
+      "examples": [
+        "He isn't really angry - he's just pretending.",
+        "You don't really expect them to refuse, do you?",
+        "Thank you, but I really couldn't eat another thing."
+      ]
+    },
+    "soon": {
+      "phonetic_uk": "suːn",
+      "phonetic_us": "suːn",
+      "audio_uk": "/media/english/uk_pron/u/uks/uksoo/uksoon_001.mp3",
+      "audio_us": "/media/english/us_pron/s/soo/soon_/soon.mp3",
+      "examples": [
+        "She'll soon be here./She'll be here soon.",
+        "It will soon be impossible for foreigners to enter the country.",
+        "The sooner we leave, the sooner we'll get there."
+      ]
+    },
+    "teach": {
+      "phonetic_uk": "tiːtʃ",
+      "phonetic_us": "tiːtʃ",
+      "audio_uk": "/media/english/uk_pron/u/ukt/uktaw/uktawny022.mp3",
+      "audio_us": "/media/english/us_pron/t/tea/teach/teach.mp3",
+      "examples": [
+        "teach something to someone He found it very hard teaching a class full of indifferent teenagers.",
+        "He taught English to foreign students.",
+        "teach a class"
+      ]
+    },
+    "team": {
+      "phonetic_uk": "tiːm",
+      "phonetic_us": "tiːm",
+      "audio_uk": "/media/english/uk_pron/u/ukt/uktaw/uktawny030.mp3",
+      "audio_us": "/media/english/us_pron/t/tea/team_/team.mp3",
+      "examples": [
+        "a basketball/hockey/netball team",
+        "a team of investigators",
+        "Team GB (= the athletes representing Great Britain in a sport)"
+      ]
+    },
+    "form teacher": {
+      "phonetic_uk": null,
+      "phonetic_us": null,
+      "audio_uk": null,
+      "audio_us": null,
+      "examples": null
+    },
+    "show": {
+      "phonetic_uk": "ʃəʊ",
+      "phonetic_us": "ʃoʊ",
+      "audio_uk": "/media/english/uk_pron/u/uks/uksho/ukshove003.mp3",
+      "audio_us": "/media/english/us_pron/s/sho/show_/show.mp3",
+      "examples": [
+        "[ + two objects ] Let me show you this new book I've just bought.",
+        "be shown in On this map, urban areas are shown in grey.",
+        "show something to someone You ought to show that rash to your doctor."
+      ]
+    },
+    "grey": {
+      "phonetic_uk": "ɡreɪ",
+      "phonetic_us": "ɡreɪ",
+      "audio_uk": "/media/english/uk_pron/u/ukg/ukgra/ukgravi003.mp3",
+      "audio_us": "/media/english/us_pron/g/gra/gray_/gray.mp3",
+      "examples": [
+        "The sky was grey.",
+        "go grey He started to go grey in his mid-forties.",
+        "turn grey My hair has turned quite grey."
+      ]
+    },
+    "different": {
+      "phonetic_uk": "ˈdɪf.",
+      "phonetic_us": "ˈdɪf.ɚ.",
+      "audio_uk": "/media/english/uk_pron/u/ukd/ukdic/ukdictu024.mp3",
+      "audio_us": "/media/english/us_pron/d/dif/diffe/different.mp3",
+      "examples": [
+        "She seems to wear something different every day.",
+        "He's different now that he's been to college.",
+        "We're reading a different book this week."
+      ]
+    },
+    "thousand": {
+      "phonetic_uk": "ˈθaʊ.z",
+      "phonetic_us": "ˈθaʊ.z",
+      "audio_uk": "/media/english/uk_pron/u/ukt/uktho/ukthoug003.mp3",
+      "audio_us": "/media/english/us_pron/t/tho/thous/thousand.mp3",
+      "examples": [
+        "They had driven over a/one thousand miles.",
+        "The population of the village is about three thousand.",
+        "thousands of The damage will cost thousands of dollars to repair."
+      ]
+    },
+    "fact": {
+      "phonetic_uk": "fækt",
+      "phonetic_us": "fækt",
+      "audio_uk": "/media/english/uk_pron/u/ukf/ukfac/ukfacin003.mp3",
+      "audio_us": "/media/english/us_pron/f/fac/fact_/fact.mp3",
+      "examples": [
+        "No decision will be made until we know all the facts.",
+        "fact about I don't know all the facts about the case.",
+        "the fact that I'm not angry that you took my car - it's just the fact that you didn't ask me first."
+      ]
+    },
+    "in fact": {
+      "phonetic_uk": null,
+      "phonetic_us": null,
+      "audio_uk": null,
+      "audio_us": null,
+      "examples": [
+        "He was in fact near death by the time they reached him."
+      ]
+    },
+    "borrow": {
+      "phonetic_uk": "ˈbɒr.əʊ",
+      "phonetic_us": "ˈbɑːr.oʊ",
+      "audio_uk": "/media/english/uk_pron/u/ukb/ukbor/ukborin004.mp3",
+      "audio_us": "/media/english/us_pron/b/bor/borro/borrow.mp3",
+      "examples": [
+        "borrow something from someone I had to borrow a pen from the invigilator to do the exam.",
+        "UK non-standard Can I borrow £100 off you until next week?",
+        "She used to borrow money and not bother to pay it back."
+      ]
+    },
+    "newspaper": {
+      "phonetic_uk": "ˈnjuːzˌpeɪ.pə",
+      "phonetic_us": "ˈnuːzˌpeɪ.pɚ",
+      "audio_uk": "/media/english/uk_pron/u/ukn/uknew/uknewsc006.mp3",
+      "audio_us": "/media/english/us_pron/u/usn/usnew/usnewbo012.mp3",
+      "examples": [
+        "read a newspaper Do you read a newspaper regularly?",
+        "in a newspaper I read about it in the newspaper.",
+        "daily newspaper She writes an advice column in a daily newspaper."
+      ]
+    },
+    "magazine": {
+      "phonetic_uk": "ˌmæɡ.əˈziːn",
+      "phonetic_us": "ˌmæɡ.əˈziːn",
+      "audio_uk": "/media/english/uk_pron/u/ukm/ukmad/ukmade_009.mp3",
+      "audio_us": "/media/english/us_pron/m/mag/magaz/magazine.mp3",
+      "examples": [
+        "women's magazine She has written articles for several women's magazines.",
+        "glossy magazine The beauty industry is a major advertiser in glossy magazines.",
+        "men's mag mainly UK She's a regular cover girl and model for top men's mags."
+      ]
+    },
+    "else": {
+      "phonetic_uk": "els",
+      "phonetic_us": "els",
+      "audio_uk": "/media/english/uk_pron/u/uke/ukeli/ukelimi028.mp3",
+      "audio_us": "/media/english/us_pron/e/els/else_/else.mp3",
+      "examples": [
+        "Everybody else has (= all the other people have) agreed except for you.",
+        "If it doesn't work, try something else (= something different).",
+        "Let's go before they ask us to visit anyone else (= another person)."
+      ]
+    },
+    "care": {
+      "phonetic_uk": "keə",
+      "phonetic_us": "ker",
+      "audio_uk": "/media/english/uk_pron/u/ukc/ukcar/ukcardi010.mp3",
+      "audio_us": "/media/english/us_pron/c/car/care_/care.mp3",
+      "examples": [
+        "The standard of care at our local hospital is excellent.",
+        "Mira's going to be very weak for a long time after the operation, so she'll need a lot of care.",
+        "in the care of The children were left in the care of a neighbour."
+      ]
+    },
+    "care about": {
+      "phonetic_uk": null,
+      "phonetic_us": null,
+      "audio_uk": null,
+      "audio_us": null,
+      "examples": [
+        "She's never cared very much about her appearance.",
+        "Clearly this generation is a group that cares about the environment.",
+        "Your parents are only doing this because they care about you."
+      ]
+    },
+    "event": {
+      "phonetic_uk": "ɪˈvent",
+      "phonetic_us": "ɪˈvent",
+      "audio_uk": "/media/english/uk_pron/u/uke/ukeve/ukeve__008.mp3",
+      "audio_us": "/media/english/us_pron/e/eus/eus71/eus71680.mp3",
+      "examples": [
+        "sporting event This year's Olympic Games will be the biggest ever sporting event.",
+        "sports event This year's Olympic Games will be the biggest ever sports event.",
+        "social event Susannah's party was the social event of the year."
+      ]
+    },
+    "together": {
+      "phonetic_uk": "təˈɡeð.ə",
+      "phonetic_us": "təˈɡeð.ɚ",
+      "audio_uk": "/media/english/uk_pron/u/ukt/uktob/uktobyj016.mp3",
+      "audio_us": "/media/english/us_pron/t/tog/toget/together.mp3",
+      "examples": [
+        "We used to go to yoga together.",
+        "We worked together on a project a couple of years back.",
+        "Could you add these numbers together for me?"
+      ]
+    },
+    "quite": {
+      "phonetic_uk": "kwaɪt",
+      "phonetic_us": "kwaɪt",
+      "audio_uk": "/media/english/uk_pron/u/ukq/ukqui/ukquint007.mp3",
+      "audio_us": "/media/english/us_pron/q/qui/quite/quite.mp3",
+      "examples": [
+        "The two situations are quite different.",
+        "The colours almost match but not quite.",
+        "I enjoyed her new book though it's not quite as good as her last one."
+      ]
+    },
+    "large": {
+      "phonetic_uk": "lɑːdʒ",
+      "phonetic_us": "lɑːrdʒ",
+      "audio_uk": "/media/english/uk_pron/u/ukl/uklan/uklangu028.mp3",
+      "audio_us": "/media/english/us_pron/l/lar/large/large.mp3",
+      "examples": [
+        "a large house",
+        "the world's largest computer manufacturer",
+        "We need a larger car."
+      ]
+    },
+    "special": {
+      "phonetic_uk": "ˈspeʃ.əl",
+      "phonetic_us": "ˈspeʃ.əl",
+      "audio_uk": "/media/english/uk_pron/u/uks/ukspa/uksparr027.mp3",
+      "audio_us": "/media/english/us_pron/s/spe/speci/special.mp3",
+      "examples": [
+        "The car has a number of special safety features.",
+        "Is there anything special that you'd like to do today?",
+        "Passengers should tell the airline in advance if they have any special dietary needs."
+      ]
+    },
+    "a.m.": {
+      "phonetic_uk": "æm",
+      "phonetic_us": "æm",
+      "audio_uk": "/media/english/uk_pron/u/uka/ukalt/ukaltar030.mp3",
+      "audio_us": "/media/english/us_pron/a/am_/am_be/am_be.mp3",
+      "examples": [
+        "Am I included?",
+        "The first election results are expected around 1 a.m.",
+        "You're listening to Radio Gold, broadcasting 24 hours a day on 909 AM."
+      ]
+    },
+    "get up": {
+      "phonetic_uk": "ɡet",
+      "phonetic_us": "ɡet",
+      "audio_uk": "/media/english/uk_pron/u/ukg/ukger/ukgerma022.mp3",
+      "audio_us": "/media/english/us_pron/g/get/get__/get.mp3",
+      "examples": [
+        "The whole audience got up and started clapping.",
+        "The wind is getting up.",
+        "I got up at five o'clock this morning!"
+      ]
+    },
+    "activity": {
+      "phonetic_uk": "ækˈtɪv.ə.ti",
+      "phonetic_us": "ækˈtɪv.ə.t̬i",
+      "audio_uk": "/media/english/uk_pron/u/uka/ukact/ukactiv007.mp3",
+      "audio_us": "/media/english/us_pron/e/eus/eus70/eus70064.mp3",
+      "examples": [
+        "economic activity Economists are concerned by the low level of economic activity.",
+        "business activity Experts predict that this could depress business activity for years.",
+        "flurry of activity There was a sudden flurry of activity when the director walked in."
+      ]
+    },
+    "housework": {
+      "phonetic_uk": "ˈhaʊs.wɜːk",
+      "phonetic_us": "ˈhaʊs.wɝːk",
+      "audio_uk": "/media/english/uk_pron/u/ukh/ukhou/ukhouse020.mp3",
+      "audio_us": "/media/english/us_pron/u/ush/ushou/ushouse006.mp3",
+      "examples": [
+        "do housework I hate doing housework."
+      ]
+    },
+    "homework": {
+      "phonetic_uk": "ˈhəʊm.wɜːk",
+      "phonetic_us": "ˈhoʊm.wɝːk",
+      "audio_uk": "/media/english/uk_pron/u/ukh/ukhom/ukhomel018.mp3",
+      "audio_us": "/media/english/us_pron/u/ush/ushol/usholly016.mp3",
+      "examples": [
+        "Kids at this school get a lot of homework.",
+        "do your homework You can't watch TV until you've done your homework.",
+        "history/geography homework"
+      ]
+    },
+    "weekday": {
+      "phonetic_uk": "ˈwiːk.deɪ",
+      "phonetic_us": "ˈwiːk.deɪ",
+      "audio_uk": "/media/english/uk_pron/u/ukw/ukwee/ukweedk003.mp3",
+      "audio_us": "/media/english/us_pron/u/usw/uswea/usweare017.mp3",
+      "examples": [
+        "On weekdays I'm usually in bed by ten o'clock.",
+        "The bank is open from 8 a.m. to 4 p.m. on weekdays.",
+        "The subway carries 650,000 passengers on an average weekday."
+      ]
+    },
+    "on weekdays": {
+      "phonetic_uk": null,
+      "phonetic_us": null,
+      "audio_uk": null,
+      "audio_us": null,
+      "examples": null
+    },
+    "usually": {
+      "phonetic_uk": "ˈjuː.ʒu.ə.li",
+      "phonetic_us": "ˈjuː.ʒu.ə.li",
+      "audio_uk": "/media/english/uk_pron/u/uku/ukush/ukusher007.mp3",
+      "audio_us": "/media/english/us_pron/u/usu/usual/usually.mp3",
+      "examples": [
+        "He usually gets home about six o'clock.",
+        "I usually just have a sandwich for lunch.",
+        "Is your friend usually so rude?"
+      ]
+    },
+    "jog": {
+      "phonetic_uk": "dʒɒɡ",
+      "phonetic_us": "dʒɑːɡ",
+      "audio_uk": "/media/english/uk_pron/u/ukj/ukjoc/ukjocul006.mp3",
+      "audio_us": "/media/english/us_pron/j/jog/jog__/jog.mp3",
+      "examples": [
+        "\"What do you do to keep fit?\" \"I jog and go swimming.\"",
+        "He was walking at a very quick pace and I had to jog to keep up with him.",
+        "She saw him running down the street.sprintI had to sprint to catch the bus.jog\"What do you do to keep fit?\" \"I jog and go swimming.\"raceHe raced up the stairs to answer the phone.rushEveryone rushed to the door when the alarm went off.dashHe dashed out the door after the dog.\n            See more results »"
+      ]
+    },
+    "a little": {
+      "phonetic_uk": null,
+      "phonetic_us": null,
+      "audio_uk": null,
+      "audio_us": null,
+      "examples": [
+        "I want to live a little before I settle down.",
+        "Go on, try something new, live a little!",
+        "Hopefully after working so hard, I can now start reaping rewards and living a little bit."
+      ]
+    },
+    "myself": {
+      "phonetic_uk": "maɪˈself",
+      "phonetic_us": "maɪˈself",
+      "audio_uk": "/media/english/uk_pron/u/ukm/ukmut/ukmutto019.mp3",
+      "audio_us": "/media/english/us_pron/m/mys/mysel/myself.mp3",
+      "examples": [
+        "I bought myself a new coat.",
+        "I caught sight of myself in the mirror.",
+        "Yes, I thought to myself, it's time to take a holiday."
+      ]
+    },
+    "enjoy oneself": {
+      "phonetic_uk": "ɪnˈdʒɔɪ",
+      "phonetic_us": "ɪnˈdʒɔɪ",
+      "audio_uk": "/media/english/uk_pron/u/uke/ukeng/ukengin019.mp3",
+      "audio_us": "/media/english/us_pron/e/eus/eus71/eus71552.mp3",
+      "examples": [
+        "I really enjoyed that movie/book/concert/party/meal.",
+        "[ + -ing verb ] I want to travel because I enjoy meeting people and seeing new places.",
+        "Enjoy your meal!enjoy yourselfHe's enjoying himself at his job.likeI like hiking a lot.loveAfter working in the garden, I love a good soak in the tub.relishJonathan always relishes a challenge.lap upHe lapped up all the attention they gave him.\n            See more results »"
+      ]
+    },
+    "first": {
+      "phonetic_uk": "ˈfɜːst",
+      "phonetic_us": "ˈfɝːst",
+      "audio_uk": "/media/english/uk_pron/u/ukf/ukfir/ukfirew008.mp3",
+      "audio_us": "/media/english/us_pron/f/fir/first/first.mp3",
+      "examples": [
+        "This is my first visit to New York.",
+        "the first century The statue dates back to the first century.",
+        "the first time I fell in love with him the first time I saw him."
+      ]
+    },
+    "term": {
+      "phonetic_uk": "tɜːm",
+      "phonetic_us": "tɝːm",
+      "audio_uk": "/media/english/uk_pron/u/ukt/ukten/uktense020.mp3",
+      "audio_us": "/media/english/us_pron/t/ter/term_/term.mp3",
+      "examples": [
+        "serve a term for He served a short term for drunk driving.",
+        "be sentenced to a prison/jail term He was sentenced to a 150-year prison term for cheating thousands of ordinary people out of their savings.",
+        "term of office The government's term of office (= the period in which they have power) expires at the end of the year."
+      ]
+    },
+    "start": {
+      "phonetic_uk": "stɑːt",
+      "phonetic_us": "stɑːrt",
+      "audio_uk": "/media/english/uk_pron/u/uks/uksta/ukstarg016.mp3",
+      "audio_us": "/media/english/us_pron/s/sta/start/start.mp3",
+      "examples": [
+        "When do you start your course/your new job?",
+        "We'll be starting (the session) at six o'clock.",
+        "Can you start (= begin a new job) on Monday?"
+      ]
+    },
+    "writer": {
+      "phonetic_uk": "ˈraɪ.tə",
+      "phonetic_us": "ˈraɪ.t̬ɚ",
+      "audio_uk": "/media/english/uk_pron/u/ukw/ukwre/ukwreat027.mp3",
+      "audio_us": "/media/english/us_pron/w/wri/write/writer.mp3",
+      "examples": [
+        "a travel/sports/fiction/crime writer",
+        "She is a well-known writer of children's books.",
+        "Many artists and writers of graffiti and street art are just seeking to express their creativity in alternative ways."
+      ]
+    },
+    "language": {
+      "phonetic_uk": "ˈlæŋ.ɡwɪdʒ",
+      "phonetic_us": "ˈlæŋ.ɡwɪdʒ",
+      "audio_uk": "/media/english/uk_pron/u/ukl/uklan/uklangu001.mp3",
+      "audio_us": "/media/english/us_pron/l/lan/langu/language.mp3",
+      "examples": [
+        "She does research into how children acquire language.",
+        "This type of parent-child interaction is associated with language learning in infancy.",
+        "speak a language Do you speak any foreign languages?"
+      ]
+    },
+    "amazing": {
+      "phonetic_uk": "əˈmeɪ.zɪŋ",
+      "phonetic_us": "əˈmeɪ.zɪŋ",
+      "audio_uk": "/media/english/uk_pron/u/uka/ukama/ukamalg015.mp3",
+      "audio_us": "/media/english/us_pron/a/ama/amazi/amazing.mp3",
+      "examples": [
+        "This stain remover really works - it's amazing!",
+        "The new theatre is going to cost an amazing (= very large) amount of money.",
+        "It's amazing to think that the managing director is only 23."
+      ]
+    },
+    "biology": {
+      "phonetic_uk": "baɪˈɒl.ə.dʒi",
+      "phonetic_us": "baɪˈɑː.lə.dʒi",
+      "audio_uk": "/media/english/uk_pron/u/ukb/ukbin/ukbingo018.mp3",
+      "audio_us": "/media/english/us_pron/b/bio/biolo/biology.mp3",
+      "examples": [
+        "human biology",
+        "marine biology",
+        "molecular biology"
+      ]
+    },
+    "living": {
+      "phonetic_uk": "ˈlɪv.ɪŋ",
+      "phonetic_us": "ˈlɪv.ɪŋ",
+      "audio_uk": "/media/english/uk_pron/u/ukl/uklit/uklitig025.mp3",
+      "audio_us": "/media/english/us_pron/l/liv/livin/living.mp3",
+      "examples": [
+        "living organisms",
+        "He is probably the best-known living architect.",
+        "The pyramids are a living monument to the skill of their builders."
+      ]
+    },
+    "nature": {
+      "phonetic_uk": "ˈneɪ.tʃə",
+      "phonetic_us": "ˈneɪ.tʃɚ",
+      "audio_uk": "/media/english/uk_pron/u/ukn/uknat/uknativ015.mp3",
+      "audio_us": "/media/english/us_pron/n/nat/natur/nature.mp3",
+      "examples": [
+        "her love of nature",
+        "in nature This new technique of artificially growing cells copies what actually happens in nature.",
+        "a nature article/book/programme"
+      ]
+    },
+    "practise": {
+      "phonetic_uk": "ˈpræk.tɪs",
+      "phonetic_us": "ˈpræk.tɪs",
+      "audio_uk": "/media/english/uk_pron/u/ukp/ukpr_/ukpr___008.mp3",
+      "audio_us": "/media/english/us_pron/p/pra/pract/practice.mp3",
+      "examples": [
+        "I'm quite good at tennis but I need to practise my serve.",
+        "She practises the violin every day.",
+        "[ + -ing verb ] His written French is very good but he needs to practise speaking it."
+      ]
+    },
+    "trip": {
+      "phonetic_uk": "trɪp",
+      "phonetic_us": "trɪp",
+      "audio_uk": "/media/english/uk_pron/u/ukt/uktri/uktrima013.mp3",
+      "audio_us": "/media/english/us_pron/t/tri/trip_/trip.mp3",
+      "examples": [
+        "trip from somewhere to somewhere The trip from York to Newcastle takes about an hour by train.",
+        "go on a trip We're going on a trip to Norway this summer.",
+        "trip round I thought we might hire a motorboat and take a trip round the bay."
+      ]
+    },
+    "field trip": {
+      "phonetic_uk": "ˈfiːld ˌtrɪp",
+      "phonetic_us": "ˈfiːld ˌtrɪp",
+      "audio_uk": "/media/english/uk_pron/u/uka/uka32/uka32830.mp3",
+      "audio_us": "/media/english/us_pron/u/usa/usa32/usa32830.mp3",
+      "examples": [
+        "a geography field trip",
+        "Mrs. Rhines took her class on a field trip to the zoo."
+      ]
+    },
+    "leave": {
+      "phonetic_uk": "liːv",
+      "phonetic_us": "liːv",
+      "audio_uk": "/media/english/uk_pron/u/ukl/uklea/uklearn013.mp3",
+      "audio_us": "/media/english/us_pron/l/lea/leave/leave.mp3",
+      "examples": [
+        "I'll be leaving at five o'clock tomorrow.",
+        "He left the house by the back door.",
+        "She left the group of people she was with and came over to speak to us."
+      ]
+    },
+    "leave for": {
+      "phonetic_uk": null,
+      "phonetic_us": null,
+      "audio_uk": null,
+      "audio_us": null,
+      "examples": [
+        "He left his wife for her best friend.",
+        "My first girlfriend had just left me for someone else."
+      ]
+    },
+    "pick": {
+      "phonetic_uk": "pɪk",
+      "phonetic_us": "pɪk",
+      "audio_uk": "/media/english/uk_pron/u/ukp/ukpia/ukpiano004.mp3",
+      "audio_us": "/media/english/us_pron/p/pic/pick_/pick.mp3",
+      "examples": [
+        "Pick a card from the pack.",
+        "be picked for One of my sisters has been picked for the Olympic team.",
+        "[ + obj + to infinitive  ] She was picked to play for the team."
+      ]
+    },
+    "of course": {
+      "phonetic_uk": "ˌkɔːs əv ˈæk.ʃ",
+      "phonetic_us": "ˌkɔːrs əv ˈæk.ʃ",
+      "audio_uk": "/media/english/uk_pron/c/cdo/cdo08/cdo0824ukcour0636.mp3",
+      "audio_us": "/media/english/us_pron/c/cdo/cdo08/cdo0824uscour0653.mp3",
+      "examples": [
+        "This is the sensible course of action.",
+        "What is our best course of action?",
+        "He suggested solutions and alternative courses of action."
+      ]
+    },
+    "seldom": {
+      "phonetic_uk": "ˈsel.dəm",
+      "phonetic_us": "ˈsel.dəm",
+      "audio_uk": "/media/english/uk_pron/u/uks/uksee/ukseek_025.mp3",
+      "audio_us": "/media/english/us_pron/s/sel/seldo/seldom.mp3",
+      "examples": [
+        "Now that we have a baby, we seldom get the chance to go to the cinema.",
+        "formal Seldom do we receive any apology when mistakes are made.",
+        "I seldom drive my car into the city."
+      ]
+    },
+    "tennis": {
+      "phonetic_uk": "ˈten.ɪs",
+      "phonetic_us": "ˈten.ɪs",
+      "audio_uk": "/media/english/uk_pron/c/cdo/cdo02/cdo0216tennuk2029.mp3",
+      "audio_us": "/media/english/us_pron/e/eus/eus74/eus74519.mp3",
+      "examples": null
+    },
+    "roller skate": {
+      "phonetic_uk": "ˈrəʊ.lə skeɪt",
+      "phonetic_us": "ˈroʊ.lɚ skeɪt",
+      "audio_uk": "/media/english/uk_pron/u/ukc/ukcld/ukcld01234.mp3",
+      "audio_us": "/media/english/us_pron/u/usc/uscld/uscld01234.mp3",
+      "examples": [
+        "I got a pair of roller skates for my birthday.",
+        "Jessica loves to roller-skate in the park."
+      ]
+    },
+    "grow": {
+      "phonetic_uk": "ɡrəʊ",
+      "phonetic_us": "ɡroʊ",
+      "audio_uk": "/media/english/uk_pron/u/ukg/ukgro/ukgroun013.mp3",
+      "audio_us": "/media/english/us_pron/g/gro/grow_/grow.mp3",
+      "examples": [
+        "Children grow so quickly.",
+        "This plant grows best in the shade.",
+        "She's grown three centimetres this year."
+      ]
+    },
+    "tour": {
+      "phonetic_uk": "tʊə",
+      "phonetic_us": "tʊr",
+      "audio_uk": "/media/english/uk_pron/u/ukt/uktou/uktouch011.mp3",
+      "audio_us": "/media/english/us_pron/t/tou/tour_/tour.mp3",
+      "examples": [
+        "go on a guided tour of We went on a guided tour of the cathedral/museum/factory.",
+        "on a sightseeing tour of A bus took us on a sightseeing tour of the city.",
+        "tour guide Our tour guide pointed out the house where Paul McCartney grew up."
+      ]
+    },
+    "website": {
+      "phonetic_uk": "ˈweb.saɪt",
+      "phonetic_us": "ˈweb.saɪt",
+      "audio_uk": "/media/english/uk_pron/u/ukw/ukwea/ukweari022.mp3",
+      "audio_us": "/media/english/us_pron/e/eus/eus75/eus75996.mp3",
+      "examples": [
+        "visit a website For more information about other Cambridge publications and courses, visit our website at www.cambridge.org.",
+        "His fans created a website, giving every detail of his private life.",
+        "create/set up/launch a website The Consumers' Union has set up a website to help consumers understand eco-labels."
+      ]
+    },
+    "video": {
+      "phonetic_uk": "ˈvɪd.i.əʊ",
+      "phonetic_us": "ˈvɪd.i.oʊ",
+      "audio_uk": "/media/english/uk_pron/u/ukv/ukvic/ukvicio014.mp3",
+      "audio_us": "/media/english/us_pron/v/vid/video/video.mp3",
+      "examples": [
+        "My new laptop handles video really well.",
+        "People can upload videos of their pets to this website.",
+        "video of We had a video made of our wedding."
+      ]
+    },
+    "outside": {
+      "phonetic_uk": "ˌaʊtˈsaɪd",
+      "phonetic_us": "ˌaʊtˈsaɪd",
+      "audio_uk": "/media/english/uk_pron/u/uko/ukout/ukoutsh003.mp3",
+      "audio_us": "/media/english/us_pron/e/eus/eus75/eus75376.mp3",
+      "examples": [
+        "It was a sunny day outside.",
+        "Since it's such a nice day, let's eat/sit/go outside.",
+        "an outside light/toilet"
+      ]
+    },
+    "peace": {
+      "phonetic_uk": "piːs",
+      "phonetic_us": "piːs",
+      "audio_uk": "/media/english/uk_pron/u/ukp/ukpay/ukpayro010.mp3",
+      "audio_us": "/media/english/us_pron/p/pea/peace/peace.mp3",
+      "examples": [
+        "Peace lasted in Europe for just over 20 years after 1918 before war broke out again.",
+        "lasting peace Now that the war is over, there may be a lasting peace between our nations.",
+        "peace talks"
+      ]
+    },
+    "quiet": {
+      "phonetic_uk": "ˈkwaɪ.ət",
+      "phonetic_us": "ˈkwaɪ.ət",
+      "audio_uk": "/media/english/uk_pron/u/ukq/ukqui/ukquibb015.mp3",
+      "audio_us": "/media/english/us_pron/q/qui/quiet/quiet.mp3",
+      "examples": [
+        "She spoke in a quiet voice so as not to wake him.",
+        "It's so quiet without the kids here.",
+        "Please be quiet (= stop talking)!"
+      ]
+    },
+    "teamwork": {
+      "phonetic_uk": "ˈtiːm.wɜːk",
+      "phonetic_us": "ˈtiːm.wɝːk",
+      "audio_uk": "/media/english/uk_pron/u/ukc/ukcld/ukcld01448.mp3",
+      "audio_us": "/media/english/us_pron/u/usc/uscld/uscld01448.mp3",
+      "examples": [
+        "Great teamwork and old fashioned grit got the team a last minute point.",
+        "Her determination, teamwork skills and leadership capabilities convinced us that she was perfect for the job.",
+        "Success in this competitive field will depend on good teamwork."
+      ]
+    },
+    "better": {
+      "phonetic_uk": "ˈbet.ə",
+      "phonetic_us": "ˈbet̬.ɚ",
+      "audio_uk": "/media/english/uk_pron/u/ukb/ukbet/ukbetid009.mp3",
+      "audio_us": "/media/english/us_pron/b/bet/bette/better.mp3",
+      "examples": [
+        "He stood near the front to get a better view.",
+        "Relations between the two countries have never been better.",
+        "better than The book was better than I expected."
+      ]
+    },
+    "tiring": {
+      "phonetic_uk": "ˈtaɪə.rɪŋ",
+      "phonetic_us": "ˈtaɪ.rɪŋ",
+      "audio_uk": "/media/english/uk_pron/u/ukt/uktip/uktippe019.mp3",
+      "audio_us": "/media/english/us_pron/t/tir/tirin/tiring.mp3",
+      "examples": [
+        "I've had a very tiring day.",
+        "Looking after the kids is extremely tiring.",
+        "Dad had a tiring day at work."
+      ]
+    },
+    "duty": {
+      "phonetic_uk": "ˈdjuː.ti",
+      "phonetic_us": "ˈduː.t̬i",
+      "audio_uk": "/media/english/uk_pron/u/ukd/ukdus/ukdusts008.mp3",
+      "audio_us": "/media/english/us_pron/d/dut/duty_/duty.mp3",
+      "examples": [
+        "The duty of the agency is to act in the best interests of the child.",
+        "[ + to infinitive ] I felt it was my duty to tell them the truth.",
+        "duty to You have a duty to yourself to take a break once in a while."
+      ]
+    },
+    "area": {
+      "phonetic_uk": "ˈeə.ri.ə",
+      "phonetic_us": "ˈer.i.ə",
+      "audio_uk": "/media/english/uk_pron/u/uka/ukarc/ukarchi015.mp3",
+      "audio_us": "/media/english/us_pron/a/are/area_/area.mp3",
+      "examples": [
+        "all areas All areas of the country will have some rain tonight.",
+        "The area of New York to the south of Houston Street is known as Soho.",
+        "Houses in the London area (= in and around London) are very expensive."
+      ]
+    },
+    "take part in": {
+      "phonetic_uk": null,
+      "phonetic_us": null,
+      "audio_uk": null,
+      "audio_us": null,
+      "examples": [
+        "All the children took part in the Thanksgiving play."
+      ]
+    },
+    "through": {
+      "phonetic_uk": "θruː",
+      "phonetic_us": "θruː",
+      "audio_uk": "/media/english/uk_pron/u/ukt/uktho/ukthoug016.mp3",
+      "audio_us": "/media/english/us_pron/t/thr/threw/threw.mp3",
+      "examples": [
+        "They walked slowly through the woods.",
+        "The boy waded through the water to reach his boat.",
+        "He struggled through the crowd till he reached the front."
+      ]
+    },
+    "group": {
+      "phonetic_uk": "ɡruːp",
+      "phonetic_us": "ɡruːp",
+      "audio_uk": "/media/english/uk_pron/u/ukg/ukgro/ukgroun004.mp3",
+      "audio_us": "/media/english/us_pron/g/gro/group/group.mp3",
+      "examples": [
+        "group of I'm meeting a group of friends for dinner tonight.",
+        "The car was parked near a small group of trees.",
+        "She showed me another group of pictures, this time of children playing."
+      ]
+    },
+    "turn": {
+      "phonetic_uk": "tɜːn",
+      "phonetic_us": "tɝːn",
+      "audio_uk": "/media/english/uk_pron/u/ukt/ukter/uktermi004.mp3",
+      "audio_us": "/media/english/us_pron/t/tur/turn_/turn.mp3",
+      "examples": [
+        "The wheels started to turn.",
+        "Turn the steering wheel as quickly as you can.",
+        "She turned the doorknob and quietly opened the door."
+      ]
+    },
+    "take turns": {
+      "phonetic_uk": null,
+      "phonetic_us": null,
+      "audio_uk": null,
+      "audio_us": null,
+      "examples": [
+        "We take turns answering the phone.",
+        "We take turns cooking.",
+        "They took turns posing for photos with the actor."
+      ]
+    },
+    "empty": {
+      "phonetic_uk": "ˈemp.ti",
+      "phonetic_us": "ˈemp.ti",
+      "audio_uk": "/media/english/uk_pron/u/uke/ukemp/ukemplo010.mp3",
+      "audio_us": "/media/english/us_pron/e/emp/empty/empty.mp3",
+      "examples": [
+        "an empty house/street",
+        "Shall I take the empty bottles for recycling?",
+        "The train was empty (= there were no passengers) by the time it reached London."
+      ]
+    },
+    "bin": {
+      "phonetic_uk": "bɪn",
+      "phonetic_us": "bɪn",
+      "audio_uk": "/media/english/uk_pron/u/ukb/ukbil/ukbilio021.mp3",
+      "audio_us": "/media/english/us_pron/b/bin/bin__/bin.mp3",
+      "examples": [
+        "a litter bin",
+        "a rubbish bin",
+        "recycling bins for old newspapers, bottles, and cans"
+      ]
+    },
+    "take care of": {
+      "phonetic_uk": null,
+      "phonetic_us": null,
+      "audio_uk": null,
+      "audio_us": null,
+      "examples": [
+        "take good care Take good care of that girl of yours, Patrick - she's very special.",
+        "Don't worry about me, I can take care of myself (= I do not need anyone else to protect me).",
+        "She made good money and knew she would be able to take care of a child on her own."
+      ]
+    },
+    "something": {
+      "phonetic_uk": "ˈsʌm.θɪŋ",
+      "phonetic_us": "ˈsʌm.θɪŋ",
+      "audio_uk": "/media/english/uk_pron/u/uks/uksom/uksomet001.mp3",
+      "audio_us": "/media/english/us_pron/s/som/somet/something.mp3",
+      "examples": [
+        "There's something sharp in my shoe.",
+        "Something in the cupboard smells weird.",
+        "We thought there was something wrong because we hadn't heard from you."
+      ]
+    },
+    "lifestyle": {
+      "phonetic_uk": "ˈlaɪf.staɪl",
+      "phonetic_us": "ˈlaɪf.staɪl",
+      "audio_uk": "/media/english/uk_pron/u/ukl/uklif/uklifes001.mp3",
+      "audio_us": "/media/english/us_pron/u/usl/uslib/uslibre021.mp3",
+      "examples": [
+        "He doesn't have a very healthy lifestyle.",
+        "She needs a pretty high income to support her lifestyle.",
+        "an alternative lifestyle"
+      ]
+    },
+    "cucumber": {
+      "phonetic_uk": "ˈkjuː.kʌm.bə",
+      "phonetic_us": "ˈkjuː.kʌm.bɚ",
+      "audio_uk": "/media/english/uk_pron/u/ukc/ukcsa/ukcsa__018.mp3",
+      "audio_us": "/media/english/us_pron/c/cuc/cucum/cucumber.mp3",
+      "examples": [
+        "Cucumbers are usually sliced and eaten raw in salads."
+      ]
+    },
+    "lemon": {
+      "phonetic_uk": "ˈlem.ən",
+      "phonetic_us": "ˈlem.ən",
+      "audio_uk": "/media/english/uk_pron/u/ukl/uklei/ukleisu005.mp3",
+      "audio_us": "/media/english/us_pron/l/lem/lemon/lemon.mp3",
+      "examples": [
+        "For this recipe you need the juice of two lemons.",
+        "fresh lemon",
+        "unwaxed lemon Use the zest from unwaxed lemons in this recipe."
+      ]
+    },
+    "watermelon": {
+      "phonetic_uk": "ˈwɔː.təˌmel.ən",
+      "phonetic_us": "ˈwɑː.t̬ɚˌmel.ən",
+      "audio_uk": "/media/english/uk_pron/u/ukw/ukwat/ukwater009.mp3",
+      "audio_us": "/media/english/us_pron/w/wat/water/watermelon.mp3",
+      "examples": null
+    },
+    "pepper": {
+      "phonetic_uk": "ˈpep.ə",
+      "phonetic_us": "ˈpep.ɚ",
+      "audio_uk": "/media/english/uk_pron/u/ukp/ukpen/ukpente012.mp3",
+      "audio_us": "/media/english/us_pron/e/eus/eus73/eus73488.mp3",
+      "examples": [
+        "freshly ground black pepper",
+        "salt and pepper",
+        "a red/green pepper"
+      ]
+    },
+    "chocolate": {
+      "phonetic_uk": "ˈtʃɒk.lət",
+      "phonetic_us": "ˈtʃɑːk.lət",
+      "audio_uk": "/media/english/uk_pron/u/ukc/ukcho/ukchock003.mp3",
+      "audio_us": "/media/english/us_pron/c/cho/choco/chocolate.mp3",
+      "examples": [
+        "a bar of chocolate",
+        "milk/dark/white chocolate",
+        "box of chocolates I took her a box of chocolates."
+      ]
+    },
+    "beef": {
+      "phonetic_uk": "biːf",
+      "phonetic_us": "biːf",
+      "audio_uk": "/media/english/uk_pron/u/ukb/ukbed/ukbeddi022.mp3",
+      "audio_us": "/media/english/us_pron/b/bee/beef_/beef.mp3",
+      "examples": [
+        "The spaghetti sauce is made with minced (US ground) beef.",
+        "People in England often have roast beef and Yorkshire pudding for lunch on Sundays.",
+        "He is a beef cattle farmer."
+      ]
+    },
+    "carrot": {
+      "phonetic_uk": "ˈkær.ət",
+      "phonetic_us": "ˈker.ət",
+      "audio_uk": "/media/english/uk_pron/u/ukc/ukcar/ukcarap002.mp3",
+      "audio_us": "/media/english/us_pron/c/car/carat/carat.mp3",
+      "examples": [
+        "carrot soup The menu features standout starters like spiced carrot soup.",
+        "carrot top Don't throw your carrot tops away! They can make a delicious addition to a salad.",
+        "carrot stick"
+      ]
+    },
+    "pork": {
+      "phonetic_uk": "pɔːk",
+      "phonetic_us": "pɔːrk",
+      "audio_uk": "/media/english/uk_pron/u/ukp/ukpop/ukpopsi017.mp3",
+      "audio_us": "/media/english/us_pron/p/por/pork_/pork.mp3",
+      "examples": [
+        "a pork chop",
+        "pork sausages",
+        "pork chops"
+      ]
+    },
+    "sweet": {
+      "phonetic_uk": "swiːt",
+      "phonetic_us": "swiːt",
+      "audio_uk": "/media/english/uk_pron/u/uks/uksug/uksugar014.mp3",
+      "audio_us": "/media/english/us_pron/s/sui/suite/suite.mp3",
+      "examples": [
+        "The pineapple was sweet and juicy.",
+        "I prefer salty snacks to sweet ones.",
+        "She was enjoying the sweet smell of success."
+      ]
+    },
+    "snack": {
+      "phonetic_uk": "snæk",
+      "phonetic_us": "snæk",
+      "audio_uk": "/media/english/uk_pron/u/uks/uksmu/uksmut_004.mp3",
+      "audio_us": "/media/english/us_pron/s/sna/snack/snack.mp3",
+      "examples": [
+        "I had a huge lunch, so I'll only need a snack for dinner.",
+        "Fresh or dried fruit makes an ideal snack.",
+        "have a snack I don't let my children have snacks in front of the TV."
+      ]
+    },
+    "health": {
+      "phonetic_uk": "helθ",
+      "phonetic_us": "helθ",
+      "audio_uk": "/media/english/uk_pron/u/ukh/ukhea/ukheads012.mp3",
+      "audio_us": "/media/english/us_pron/h/hea/healt/health.mp3",
+      "examples": [
+        "to be in good health",
+        "Regular exercise is good for your health.",
+        "poor health He gave up work because of poor health."
+      ]
+    },
+    "delicious": {
+      "phonetic_uk": "dɪˈlɪʃ.əs",
+      "phonetic_us": "dɪˈlɪʃ.əs",
+      "audio_uk": "/media/english/uk_pron/u/ukd/ukdej/ukdejur026.mp3",
+      "audio_us": "/media/english/us_pron/e/eus/eus75/eus75556.mp3",
+      "examples": [
+        "a delicious cake",
+        "The delicious smell of freshly made coffee came from the kitchen.",
+        "This wine is delicious."
+      ]
+    },
+    "important": {
+      "phonetic_uk": "ɪmˈpɔː.t",
+      "phonetic_us": "ɪmˈpɔːr.t",
+      "audio_uk": "/media/english/uk_pron/u/uki/ukimp/ukimplo011.mp3",
+      "audio_us": "/media/english/us_pron/i/imp/impor/important.mp3",
+      "examples": [
+        "important to I think his career is more important to him than I am.",
+        "important for someone/something to do something It's important for children to learn to get on with each other.",
+        "the important thing The important thing is to keep the heat low or the sugar will burn."
+      ]
+    },
+    "diet": {
+      "phonetic_uk": "ˈdaɪ.ət",
+      "phonetic_us": "ˈdaɪ.ət",
+      "audio_uk": "/media/english/uk_pron/u/ukd/ukdic/ukdictu017.mp3",
+      "audio_us": "/media/english/us_pron/d/die/diet_/diet.mp3",
+      "examples": [
+        "Diet varies between different countries in the world.",
+        "healthy diet The benefits of a healthy diet are obvious.",
+        "varied diet Choose a varied diet rich in whole grains, vegetables, and fruits, and low in saturated fats."
+      ]
+    },
+    "without": {
+      "phonetic_uk": "wɪˈðaʊt",
+      "phonetic_us": "wɪˈðaʊt",
+      "audio_uk": "/media/english/uk_pron/u/ukw/ukwis/ukwispy024.mp3",
+      "audio_us": "/media/english/us_pron/w/wit/witho/without.mp3",
+      "examples": [
+        "I left without my umbrella.",
+        "You look nice without make-up.",
+        "He went without my knowledge."
+      ]
+    },
+    "pancake": {
+      "phonetic_uk": "ˈpæn.keɪk",
+      "phonetic_us": "ˈpæn.keɪk",
+      "audio_uk": "/media/english/uk_pron/u/ukp/ukpam/ukpampe010.mp3",
+      "audio_us": "/media/english/us_pron/p/pan/panca/pancake.mp3",
+      "examples": [
+        "Do you want a sweet pancake or a savoury one?",
+        "a stack of pancakes",
+        "He poured the maple syrup on his stack of pancakes."
+      ]
+    },
+    "tofu": {
+      "phonetic_uk": "ˈtəʊ.fuː",
+      "phonetic_us": "ˈtoʊ.fuː",
+      "audio_uk": "/media/english/uk_pron/u/ukt/uktob/uktobyj013.mp3",
+      "audio_us": "/media/english/us_pron/t/tof/tofu_/tofu.mp3",
+      "examples": null
+    },
+    "sugar": {
+      "phonetic_uk": "ˈʃʊɡ.ə",
+      "phonetic_us": "ˈʃʊɡ.ɚ",
+      "audio_uk": "/media/english/uk_pron/u/uks/uksuc/uksucro030.mp3",
+      "audio_us": "/media/english/us_pron/s/sug/sugar/sugar.mp3",
+      "examples": [
+        "UK Tea with milk and two sugars (= spoonfuls or lumps of sugar), please.",
+        "take sugar I don't take sugar in my coffee, thanks.",
+        "brown sugar Beat together the butter and brown sugar until light and creamy."
+      ]
+    },
+    "tooth": {
+      "phonetic_uk": "tuːθ",
+      "phonetic_us": "tuːθ",
+      "audio_uk": "/media/english/uk_pron/u/ukt/ukton/uktoned019.mp3",
+      "audio_us": "/media/english/us_pron/t/too/tooth/tooth.mp3",
+      "examples": [
+        "a broken/missing tooth",
+        "front/back teeth",
+        "false teeth He keeps his false teeth in a glass of water by his bedside."
+      ]
+    },
+    "homebody": {
+      "phonetic_uk": "ˈhəʊm.bɒd.i",
+      "phonetic_us": "ˈhoʊm.bɑː.di",
+      "audio_uk": "/media/english/uk_pron/c/cdo/cdo03/cdo0317homeuk1896.mp3",
+      "audio_us": "/media/english/us_pron/c/cdo/cdo03/cdo0318ushome2330.mp3",
+      "examples": [
+        "I'm a homebody, so I knew traveling would be tough."
+      ]
+    },
+    "mutton": {
+      "phonetic_uk": "ˈmʌt.",
+      "phonetic_us": "ˈmʌt̬.",
+      "audio_uk": "/media/english/uk_pron/u/ukm/ukmus/ukmusic030.mp3",
+      "audio_us": "/media/english/us_pron/m/mut/mutto/mutton.mp3",
+      "examples": null
+    },
+    "have a sweet tooth": {
+      "phonetic_uk": null,
+      "phonetic_us": null,
+      "audio_uk": null,
+      "audio_us": null,
+      "examples": null
+    },
+    "stay up": {
+      "phonetic_uk": "steɪ",
+      "phonetic_us": "steɪ",
+      "audio_uk": "/media/english/uk_pron/u/uks/uksta/ukstaun005.mp3",
+      "audio_us": "/media/english/us_pron/s/sta/stay_/stay.mp3",
+      "examples": [
+        "stay up (late) We stayed up (late) to watch a film.",
+        "I think all the newly-promoted clubs have a great chance of staying up this season."
+      ]
+    },
+    "unhealthy": {
+      "phonetic_uk": "ʌnˈhel.θi",
+      "phonetic_us": "ʌnˈhel.θi",
+      "audio_uk": "/media/english/uk_pron/u/uku/ukunf/ukunfit029.mp3",
+      "audio_us": "/media/english/us_pron/u/unh/unhea/unhealthy.mp3",
+      "examples": [
+        "an unhealthy diet",
+        "The consequences of an unhealthy lifestyle include a higher risk of diabetes, heart diseases, stroke, and cancer.",
+        "I had smoked for over 20 years and was very unhealthy."
+      ]
+    },
+    "need": {
+      "phonetic_uk": "niːd",
+      "phonetic_us": "niːd",
+      "audio_uk": "/media/english/uk_pron/u/ukk/ukkit/ukkit__028.mp3",
+      "audio_us": "/media/english/us_pron/k/kne/knead/knead.mp3",
+      "examples": [
+        "Babies need constant care.",
+        "The doctor said I needed an operation.",
+        "[ + to infinitive ] I need to go to the toilet."
+      ]
+    },
+    "enough": {
+      "phonetic_uk": "ɪˈnʌf",
+      "phonetic_us": "əˈnʌf",
+      "audio_uk": "/media/english/uk_pron/u/uke/ukenl/ukenliv011.mp3",
+      "audio_us": "/media/english/us_pron/e/eno/enoug/enough.mp3",
+      "examples": [
+        "enough for Is there enough dessert/Are there enough desserts for everyone?",
+        "There are 25 textbooks per class. That should be enough.",
+        "enough (to) Have you had enough (to eat)?"
+      ]
+    },
+    "less": {
+      "phonetic_uk": "les",
+      "phonetic_us": "les",
+      "audio_uk": "/media/english/uk_pron/u/ukl/ukles/ukles__006.mp3",
+      "audio_us": "/media/english/us_pron/l/les/less_/less.mp3",
+      "examples": [
+        "We must try to spend less money.",
+        "Exercise more and eat less.",
+        "less than I eat less chocolate and fewer biscuits than I used to."
+      ]
+    },
+    "cheese": {
+      "phonetic_uk": "tʃiːz",
+      "phonetic_us": "tʃiːz",
+      "audio_uk": "/media/english/uk_pron/u/ukc/ukche/ukcheer004.mp3",
+      "audio_us": "/media/english/us_pron/c/che/chees/cheese.mp3",
+      "examples": [
+        "Would you like a slice/piece of cheese with your bread?",
+        "goat's cheese Some people dislike goat's cheese because they think it tastes too strong.",
+        "grated cheese You need 250 grams of grated cheese for this recipe."
+      ]
+    },
+    "piece": {
+      "phonetic_uk": "piːs",
+      "phonetic_us": "piːs",
+      "audio_uk": "/media/english/uk_pron/u/ukp/ukpay/ukpayro010.mp3",
+      "audio_us": "/media/english/us_pron/p/pea/peace/peace.mp3",
+      "examples": [
+        "a piece of cloth torn from her coat",
+        "He cut the cake into six pieces.",
+        "This jigsaw puzzle has two pieces missing."
+      ]
+    },
+    "bowl": {
+      "phonetic_uk": "bəʊl",
+      "phonetic_us": "boʊl",
+      "audio_uk": "/media/english/uk_pron/u/ukb/ukboe/ukboer_020.mp3",
+      "audio_us": "/media/english/us_pron/b/bow/bowl_/bowl.mp3",
+      "examples": [
+        "soup bowl",
+        "cereal bowl",
+        "salad bowl"
+      ]
+    },
+    "salt": {
+      "phonetic_uk": "sɒlt",
+      "phonetic_us": "sɑːlt",
+      "audio_uk": "/media/english/uk_pron/u/uks/uksal/uksalaa029.mp3",
+      "audio_us": "/media/english/us_pron/s/sal/salt_/salt.mp3",
+      "examples": [
+        "salt and pepper",
+        "Can you pass the salt, please?",
+        "Add a pinch of (= small amount of) salt to the sauce."
+      ]
+    },
+    "packet": {
+      "phonetic_uk": "ˈpæk.ɪt",
+      "phonetic_us": "ˈpæk.ɪt",
+      "audio_uk": "/media/english/uk_pron/u/uko/ukozo/ukozone025.mp3",
+      "audio_us": "/media/english/us_pron/e/eus/eus73/eus73389.mp3",
+      "examples": [
+        "packet of I was getting through a packet of cereal/biscuits/crisps/peanuts a day.",
+        "a packet of chewing gum/cigarettes",
+        "a packet of sugar"
+      ]
+    },
+    "kilo": {
+      "phonetic_uk": "ˈkiː.ləʊ",
+      "phonetic_us": "ˈkiː.loʊ",
+      "audio_uk": "/media/english/uk_pron/u/ukk/ukkic/ukkicko014.mp3",
+      "audio_us": "/media/english/us_pron/k/kil/kilo_/kilo_kilogram.mp3",
+      "examples": [
+        "a 200 kilo block of concrete",
+        "kilowatt",
+        "kilohertz"
+      ]
+    },
+    "carton": {
+      "phonetic_uk": "ˈkɑː.t",
+      "phonetic_us": "ˈkɑːr.t̬",
+      "audio_uk": "/media/english/uk_pron/u/ukc/ukcar/ukcarpe028.mp3",
+      "audio_us": "/media/english/us_pron/c/car/carto/carton.mp3",
+      "examples": [
+        "a carton of orange juice",
+        "The company uses agency workers to pack computer monitors into shipping cartons.",
+        "a carton of sth a carton of bananas"
+      ]
+    },
+    "bottle": {
+      "phonetic_uk": "ˈbɒt.",
+      "phonetic_us": "ˈbɑː.t̬",
+      "audio_uk": "/media/english/uk_pron/u/ukb/ukbot/ukbothe004.mp3",
+      "audio_us": "/media/english/us_pron/u/usc/uscld/uscld2s095.mp3",
+      "examples": [
+        "a milk bottle",
+        "a wine bottle",
+        "a bottle of beer/whisky"
+      ]
+    },
+    "maybe": {
+      "phonetic_uk": "ˈmeɪ.bi",
+      "phonetic_us": "ˈmeɪ.bi",
+      "audio_uk": "/media/english/uk_pron/u/ukm/ukmau/ukmauso018.mp3",
+      "audio_us": "/media/english/us_pron/m/may/maybe/maybe.mp3",
+      "examples": [
+        "Maybe they'll come tomorrow.",
+        "Maybe you were right after all.",
+        "\"Do you want to go to the show tonight?\" \"Maybe. Let's see how I feel after work.\"perhapsPerhaps he'll decide to join us tonight.possiblyThere are four, possibly five people who have been injured in the explosion.potentiallyThese potentially unsafe chemicals are present in our groundwater.conceivablyIt would be hard, but a burglar could conceivably shut down your electronic alarm system by hacking into it. plausiblyShe argued, rather plausibly, that her neighbour was the one who took the tools from her allotment.\n            See more results »"
+      ]
+    },
+    "than": {
+      "phonetic_uk": "ðæn",
+      "phonetic_us": "ðæn",
+      "audio_uk": "/media/english/uk_pron/u/ukt/uktet/uktetch018.mp3",
+      "audio_us": "/media/english/us_pron/e/eus/eus74/eus74533.mp3",
+      "examples": [
+        "My son is a lot taller than my daughter.",
+        "You always walk faster than I do!",
+        "You're earlier than usual."
+      ]
+    },
+    "almost": {
+      "phonetic_uk": "ˈɔːl.məʊst",
+      "phonetic_us": "ˈɑːl.moʊst",
+      "audio_uk": "/media/english/uk_pron/u/uka/ukall/ukally_007.mp3",
+      "audio_us": "/media/english/us_pron/a/alm/almos/almost.mp3",
+      "examples": [
+        "She's almost 30.",
+        "It was almost six o'clock when he left.",
+        "I almost wish I hadn't invited him."
+      ]
+    },
+    "chip": {
+      "phonetic_uk": "tʃɪp",
+      "phonetic_us": "tʃɪp",
+      "audio_uk": "/media/english/uk_pron/u/ukc/ukchi/ukchimn019.mp3",
+      "audio_us": "/media/english/us_pron/c/chi/chip_/chip.mp3",
+      "examples": [
+        "fish and chips",
+        "beans/egg/sausage and chips",
+        "oven chips oven chips (= chips that are baked in an oven rather than fried)"
+      ]
+    },
+    "smartphone": {
+      "phonetic_uk": "ˈsmɑːt.fəʊn",
+      "phonetic_us": "ˈsmɑːrt.foʊn",
+      "audio_uk": "/media/english/uk_pron/c/ca2/ca2uk/ca2uk076.mp3",
+      "audio_us": "/media/english/us_pron/c/ca2/ca2us/ca2us093.mp3",
+      "examples": [
+        "Many smartphone owners use their device to access GPS navigation functions.",
+        "I thought that a smartphone was immune to viruses.",
+        "They are promoting a new football game for their latest multi-featured smartphone."
+      ]
+    },
+    "tablet": {
+      "phonetic_uk": "ˈtæb.lət",
+      "phonetic_us": "ˈtæb.lət",
+      "audio_uk": "/media/english/uk_pron/e/epd/epd33/epd33089.mp3",
+      "audio_us": "/media/english/us_pron/t/tab/table/tablet.mp3",
+      "examples": [
+        "a sleeping tablet",
+        "a vitamin tablet",
+        "The poem was engraved on a tablet of stone."
+      ]
+    },
+    "score": {
+      "phonetic_uk": "skɔː",
+      "phonetic_us": "skɔːr",
+      "audio_uk": "/media/english/uk_pron/u/uks/uksci/uksciro021.mp3",
+      "audio_us": "/media/english/us_pron/s/sco/score/score.mp3",
+      "examples": [
+        "Tennant scored in the last minute of the game.",
+        "She has scored over twenty goals for her team this season.",
+        "In American football, a touchdown scores (= is worth) six points."
+      ]
+    },
+    "point": {
+      "phonetic_uk": "pɔɪnt",
+      "phonetic_us": "pɔɪnt",
+      "audio_uk": "/media/english/uk_pron/u/ukp/ukpog/ukpogos007.mp3",
+      "audio_us": "/media/english/us_pron/p/poi/point/point.mp3",
+      "examples": [
+        "I'd like to discuss the first point in your essay.",
+        "make a point You made some interesting points in your speech.",
+        "make a point clear I want to make that point clear."
+      ]
+    },
+    "meal": {
+      "phonetic_uk": "mɪəl",
+      "phonetic_us": "miːl",
+      "audio_uk": "/media/english/uk_pron/u/ukm/ukmcc/ukmccar013.mp3",
+      "audio_us": "/media/english/us_pron/m/mea/meal_/meal.mp3",
+      "examples": [
+        "hot meal The charity is providing hot meals for people living on the streets.",
+        "a three-course meal",
+        "heavy meal Avoid eating a heavy (= large) meal before you go swimming."
+      ]
+    },
+    "porridge": {
+      "phonetic_uk": "ˈpɒr.ɪdʒ",
+      "phonetic_us": "ˈpɔːr.ɪdʒ",
+      "audio_uk": "/media/english/uk_pron/u/ukp/ukpop/ukpopsi028.mp3",
+      "audio_us": "/media/english/us_pron/p/por/porri/porridge.mp3",
+      "examples": [
+        "do porridge He did ten years porridge for armed robbery."
+      ]
+    },
+    "whole": {
+      "phonetic_uk": "həʊl",
+      "phonetic_us": "hoʊl",
+      "audio_uk": "/media/english/uk_pron/u/ukh/ukhol/ukholdu002.mp3",
+      "audio_us": "/media/english/us_pron/h/hol/hole_/hole.mp3",
+      "examples": [
+        "I spent the whole day cleaning.",
+        "There's still a whole month till my birthday.",
+        "After my exercise class, my whole body ached."
+      ]
+    },
+    "miss": {
+      "phonetic_uk": "mɪs",
+      "phonetic_us": "mɪs",
+      "audio_uk": "/media/english/uk_pron/u/ukm/ukmis/ukmispr010.mp3",
+      "audio_us": "/media/english/us_pron/m/mis/miss_/miss.mp3",
+      "examples": [
+        "I missed the start of the class because my bus was late.",
+        "Often I miss (= do not eat) breakfast and have an early lunch instead.",
+        "You should leave early if you want to miss the rush hour."
+      ]
+    },
+    "rest": {
+      "phonetic_uk": "rest",
+      "phonetic_us": "rest",
+      "audio_uk": "/media/english/uk_pron/u/ukr/ukres/ukrespo006.mp3",
+      "audio_us": "/media/english/us_pron/r/res/rest_/rest.mp3",
+      "examples": [
+        "The doctor told him that he should rest for a few days.",
+        "He looked away from the computer screen to rest his eyes.",
+        "She promised that she would not rest (= would not stop looking) until the murderer of her son was caught and imprisoned."
+      ]
+    },
+    "pie": {
+      "phonetic_uk": "paɪ",
+      "phonetic_us": "paɪ",
+      "audio_uk": "/media/english/uk_pron/u/ukp/ukpho/ukphoto029.mp3",
+      "audio_us": "/media/english/us_pron/p/pie/pie__/pie.mp3",
+      "examples": [
+        "Would you like some more steak pie?",
+        "a pecan pie",
+        "Their large pepperoni pie jumped 50 cents to $13.99."
+      ]
+    },
+    "yogurt": {
+      "phonetic_uk": "ˈjɒɡ.ət",
+      "phonetic_us": "ˈjoʊ.ɡɚt",
+      "audio_uk": "/media/english/uk_pron/u/uky/ukyie/ukyield014.mp3",
+      "audio_us": "/media/english/us_pron/y/yog/yogur/yogurt.mp3",
+      "examples": [
+        "natural/plain yogurt",
+        "strawberry yogurt",
+        "low-fat yogurt"
+      ]
+    },
+    "most": {
+      "phonetic_uk": "məʊst",
+      "phonetic_us": "moʊst",
+      "audio_uk": "/media/english/uk_pron/u/ukm/ukmor/ukmorta023.mp3",
+      "audio_us": "/media/english/us_pron/m/mos/most_/most.mp3",
+      "examples": [
+        "the most What's the most you've ever won at poker?",
+        "Which of you earns the most money?",
+        "He wanted to do the most good he could with the $2,000, so he gave it to charity."
+      ]
+    },
+    "style": {
+      "phonetic_uk": "staɪl",
+      "phonetic_us": "staɪl",
+      "audio_uk": "/media/english/uk_pron/u/uks/uksti/ukstick017.mp3",
+      "audio_us": "/media/english/us_pron/s/sty/style/style.mp3",
+      "examples": [
+        "style of Jones favours a dynamic, hands-on style of management.",
+        "in style His office is very utilitarian in style, with no decoration.",
+        "He wouldn't try to mislead you - it's not his style."
+      ]
+    },
+    "blouse": {
+      "phonetic_uk": "blaʊz",
+      "phonetic_us": "blaʊs",
+      "audio_uk": "/media/english/uk_pron/u/ukb/ukblo/ukblood026.mp3",
+      "audio_us": "/media/english/us_pron/b/blo/blous/blouse.mp3",
+      "examples": [
+        "wear a blouse She was wearing a white blouse.",
+        "silk blouse A silk blouse is an essential wardrobe staple.",
+        "a cotton blouse"
+      ]
+    },
+    "jacket": {
+      "phonetic_uk": "ˈdʒæk.ɪt",
+      "phonetic_us": "ˈdʒæk.ɪt",
+      "audio_uk": "/media/english/uk_pron/u/uki/ukiti/ukitine026.mp3",
+      "audio_us": "/media/english/us_pron/j/jac/jacke/jacket.mp3",
+      "examples": [
+        "a leather/denim/tweed jacket",
+        "The keys are in my jacket pocket.",
+        "Can you put the record back in its jacket, please?"
+      ]
+    },
+    "jeans": {
+      "phonetic_uk": "dʒiːnz",
+      "phonetic_us": "dʒiːnz",
+      "audio_uk": "/media/english/uk_pron/c/cdo/cdo02/cdo0216jeanuk1041.mp3",
+      "audio_us": "/media/english/us_pron/j/jea/jeans/jeans.mp3",
+      "examples": [
+        "jeans and a T-shirt",
+        "I never wear jeans to work.",
+        "I don’t usually wear blue jeans to work."
+      ]
+    },
+    "scarf": {
+      "phonetic_uk": "skɑːf",
+      "phonetic_us": "skɑːrf",
+      "audio_uk": "/media/english/uk_pron/u/uks/uksca/ukscamp026.mp3",
+      "audio_us": "/media/english/us_pron/s/sca/scarf/scarf.mp3",
+      "examples": [
+        "a knitted/woollen/silk scarf",
+        "Lunch is usually scarfed down in five minutes before they run out to play.",
+        "What do you want to eat for lunch?haveI'll just have one more piece of chocolate cake.consumeHe consumes vast quantities of bread with every meal.devourThe children devoured a whole packet of biscuits.bolt (down)Don't bolt down your food - you'll make yourself ill!gobble (up/down)The children gobbled their sweets.\n            See more results »"
+      ]
+    },
+    "tie": {
+      "phonetic_uk": "taɪ",
+      "phonetic_us": "taɪ",
+      "audio_uk": "/media/english/uk_pron/u/ukt/uktic/uktickl017.mp3",
+      "audio_us": "/media/english/us_pron/t/tie/tie__/tie.mp3",
+      "examples": [
+        "Could you tie this piece of string for me?",
+        "This skirt ties at the waist.",
+        "tie something in something She tied the ribbon tightly in a bow/knot."
+      ]
+    },
+    "T-shirt": {
+      "phonetic_uk": "ˈtiː.ʃɜːt",
+      "phonetic_us": "ˈtiː.ʃɝːt",
+      "audio_uk": "/media/english/uk_pron/u/ukt/uktru/uktrust023.mp3",
+      "audio_us": "/media/english/us_pron/t/t_s/t_shi/t_shirt.mp3",
+      "examples": [
+        "She was wearing jeans and a T-shirt.",
+        "He wore a T-shirt and jeans."
+      ]
+    },
+    "calm": {
+      "phonetic_uk": "kɑːm",
+      "phonetic_us": "kɑːm",
+      "audio_uk": "/media/english/uk_pron/u/ukc/ukcal/ukcalip014.mp3",
+      "audio_us": "/media/english/us_pron/c/cal/calm_/calm.mp3",
+      "examples": [
+        "keep calm Now keep calm everyone, the police are on their way.",
+        "stay calm He usually stays calm in meetings, but this time he lost his temper.",
+        "remain calm formal We would ask you to please remain calm and exit the building in an orderly fashion."
+      ]
+    },
+    "fashion": {
+      "phonetic_uk": "ˈfæʃ.",
+      "phonetic_us": "ˈfæʃ.",
+      "audio_uk": "/media/english/uk_pron/u/ukf/ukfar/ukfarth012.mp3",
+      "audio_us": "/media/english/us_pron/f/fas/fashi/fashion.mp3",
+      "examples": [
+        "in fashion Long hair is back in fashion for men.",
+        "out of fashion Fur coats have gone out of fashion.",
+        "a programme with features on sport and fashion"
+      ]
+    },
+    "choose": {
+      "phonetic_uk": "tʃuːz",
+      "phonetic_us": "tʃuːz",
+      "audio_uk": "/media/english/uk_pron/u/ukc/ukcho/ukchock018.mp3",
+      "audio_us": "/media/english/us_pron/c/cho/choos/choose.mp3",
+      "examples": [
+        "choose between She had to choose between the two men in her life.",
+        "Danny, come here and choose your ice cream.",
+        "choose something from something He chose a shirt from the many in his wardrobe."
+      ]
+    },
+    "could": {
+      "phonetic_uk": "kʊd",
+      "phonetic_us": "kʊd",
+      "audio_uk": "/media/english/uk_pron/u/ukc/ukcos/ukcossa027.mp3",
+      "audio_us": "/media/english/us_pron/c/cou/could/could.mp3",
+      "examples": [
+        "When I was younger I could stay up all night and not get tired.",
+        "It was so noisy that we couldn't hear ourselves speak.",
+        "You said we could watch TV when we finished our homework."
+      ]
+    },
+    "advice": {
+      "phonetic_uk": "ədˈvaɪs",
+      "phonetic_us": "ədˈvaɪs",
+      "audio_uk": "/media/english/uk_pron/u/uka/ukadv/ukadver004.mp3",
+      "audio_us": "/media/english/us_pron/a/adv/advic/advice.mp3",
+      "examples": [
+        "I need some advice on which computer to buy.",
+        "give someone advice Steven gave me some good advice.",
+        "piece of advice Can I give you a piece of advice?"
+      ]
+    },
+    "depend": {
+      "phonetic_uk": "dɪˈpend",
+      "phonetic_us": "dɪˈpend",
+      "audio_uk": "/media/english/uk_pron/u/ukd/ukden/ukdensi020.mp3",
+      "audio_us": "/media/english/us_pron/d/dep/depen/depend.mp3",
+      "examples": [
+        "depend on Whether or not we go to Mexico for our holiday depends on the cost.",
+        "\"Are you going to Emma's party?\" \"I don't know, it depends - we might be going away that weekend.\"",
+        "All of this depends on how the test is constructed."
+      ]
+    },
+    "depend on": {
+      "phonetic_uk": "dɪˈpend",
+      "phonetic_us": "dɪˈpend",
+      "audio_uk": "/media/english/uk_pron/u/ukd/ukden/ukdensi020.mp3",
+      "audio_us": "/media/english/us_pron/d/dep/depen/depend.mp3",
+      "examples": [
+        "You can always depend on Michael in a crisis.",
+        "[ + to infinitive ] I'm depending on you to keep your promise.",
+        "humorous You can depend on Jana to be late (= she is always late)."
+      ]
+    },
+    "skin": {
+      "phonetic_uk": "skɪn",
+      "phonetic_us": "skɪn",
+      "audio_uk": "/media/english/uk_pron/u/uks/ukske/uksketc026.mp3",
+      "audio_us": "/media/english/us_pron/s/ski/skin_/skin.mp3",
+      "examples": [
+        "dark/fair/pale/tanned skin",
+        "skin cancer",
+        "Babies have soft skins."
+      ]
+    },
+    "such as": {
+      "phonetic_uk": null,
+      "phonetic_us": null,
+      "audio_uk": null,
+      "audio_us": null,
+      "examples": [
+        "That money is to cover costs such as travel and accommodation.",
+        "The country is divided on issues such as taxation.",
+        "He revealed several secrets, such as the fact that they had recently borrowed a lot of money."
+      ]
+    },
+    "purple": {
+      "phonetic_uk": "ˈpɜː.p",
+      "phonetic_us": "ˈpɝː.p",
+      "audio_uk": "/media/english/uk_pron/u/ukp/ukpur/ukpurit004.mp3",
+      "audio_us": "/media/english/us_pron/p/pur/purpl/purple.mp3",
+      "examples": [
+        "purple plums",
+        "a dark purple bruise",
+        "By this point, and purple with rage, all I could think of saying was, \"I think we'll have to agree to disagree.\""
+      ]
+    },
+    "similar": {
+      "phonetic_uk": "ˈsɪm.ɪ.lə",
+      "phonetic_us": "ˈsɪm.ə.lɚ",
+      "audio_uk": "/media/english/uk_pron/u/uks/uksil/uksilen030.mp3",
+      "audio_us": "/media/english/us_pron/s/sim/simil/similar.mp3",
+      "examples": [
+        "My father and I have similar views on politics.",
+        "I bought some new shoes which are very similar to a pair I had before.",
+        "Paul is very similar in appearance to his brother."
+      ]
+    },
+    "example": {
+      "phonetic_uk": "ɪɡˈzɑːm.p",
+      "phonetic_us": "ɪɡˈzæm.p",
+      "audio_uk": "/media/english/uk_pron/u/uke/ukexa/ukexami004.mp3",
+      "audio_us": "/media/english/us_pron/e/exa/examp/example.mp3",
+      "examples": [
+        "example of Could you give me an example of the improvements you have mentioned?",
+        "This painting is a marvellous example of her work.",
+        "Study the examples first of all, then attempt the exercises on the next page."
+      ]
+    },
+    "for example": {
+      "phonetic_uk": null,
+      "phonetic_us": null,
+      "audio_uk": null,
+      "audio_us": null,
+      "examples": [
+        "Offices can easily become more environmentally friendly by, for example, using recycled paper.",
+        "Writers have always used metaphor. For example, Cicero compared the human figure to a vase.",
+        "Many of the things he loved as a child - for example candy and cartoons - still give him pleasure."
+      ]
+    },
+    "dark": {
+      "phonetic_uk": "dɑːk",
+      "phonetic_us": "dɑːrk",
+      "audio_uk": "/media/english/uk_pron/u/ukd/ukdap/ukdappl009.mp3",
+      "audio_us": "/media/english/us_pron/d/dar/dark_/dark.mp3",
+      "examples": [
+        "It was too dark to see much.",
+        "Our bedroom was very dark until we put a larger window in.",
+        "dark corner Prostitutes and drug dealers found safety in the dark corners of the cemetery."
+      ]
+    },
+    "mix": {
+      "phonetic_uk": "mɪks",
+      "phonetic_us": "mɪks",
+      "audio_uk": "/media/english/uk_pron/u/ukm/ukmis/ukmiste029.mp3",
+      "audio_us": "/media/english/us_pron/m/mix/mix__/mix.mp3",
+      "examples": [
+        "Oil and water don't mix. Even if you shake them together they separate into two layers.",
+        "Radioactive material was mixed in/up (with) the effluent.",
+        "Mix the eggs into the flour."
+      ]
+    },
+    "stand out": {
+      "phonetic_uk": "stænd",
+      "phonetic_us": "stænd",
+      "audio_uk": "/media/english/uk_pron/u/uks/uksta/ukstair030.mp3",
+      "audio_us": "/media/english/us_pron/s/sta/stand/stand.mp3",
+      "examples": [
+        "The black lettering really stands out on that orange background.",
+        "stand out from We had lots of good applicants for the job, but one stood out from the rest.",
+        "The black lettering really stands out against that background."
+      ]
+    },
+    "suitable": {
+      "phonetic_uk": "ˈsuː.tə.b",
+      "phonetic_us": "ˈsuː.t̬ə.b",
+      "audio_uk": "/media/english/uk_pron/u/uks/uksug/uksugar011.mp3",
+      "audio_us": "/media/english/us_pron/s/sui/suita/suitable.mp3",
+      "examples": [
+        "The film is not suitable for children.",
+        "A conference was planned, but finding a suitable venue proved difficult.",
+        "Each room has books, toys, and games that are suitable to that particular age group."
+      ]
+    },
+    "formal": {
+      "phonetic_uk": "ˈfɔː.məl",
+      "phonetic_us": "ˈfɔːr.məl",
+      "audio_uk": "/media/english/uk_pron/u/ukf/ukfor/ukforgi017.mp3",
+      "audio_us": "/media/english/us_pron/f/for/forma/formal.mp3",
+      "examples": [
+        "formal procedures",
+        "a formal announcement",
+        "I am the formal leader of the project but the everyday management is in the hands of my assistant."
+      ]
+    },
+    "suit": {
+      "phonetic_uk": "suːt",
+      "phonetic_us": "suːt",
+      "audio_uk": "/media/english/uk_pron/u/uks/uksug/uksugar009.mp3",
+      "audio_us": "/media/english/us_pron/s/sui/suit_/suit.mp3",
+      "examples": [
+        "three-piece suit",
+        "two-piece suit",
+        "dinner suit UK He was dressed formally, in a midnight-blue dinner suit that emphasized the width of his shoulders."
+      ]
+    },
+    "casual": {
+      "phonetic_uk": "ˈkæʒ.ju.əl",
+      "phonetic_us": "ˈkæʒ.uː.əl",
+      "audio_uk": "/media/english/uk_pron/u/ukc/ukcas/ukcaste007.mp3",
+      "audio_us": "/media/english/us_pron/c/cas/casua/casual.mp3",
+      "examples": [
+        "He was dressed in casual clothes - sneakers, blue jeans, and a t-shirt.",
+        "The psychologist's attitude seemed far too casual, even brutal.",
+        "Security around the conference hotel seemed almost casual."
+      ]
+    },
+    "comfortable": {
+      "phonetic_uk": "ˈkʌm.fə.tə.b",
+      "phonetic_us": "ˈkʌm.fɚ.t̬ə.b",
+      "audio_uk": "/media/english/uk_pron/u/ukz/ukzzz/ukzzzze010.mp3",
+      "audio_us": "/media/english/us_pron/u/usz/uszzz/uszzzzd010.mp3",
+      "examples": [
+        "a comfortable bed/sofa",
+        "comfortable shoes/trousers",
+        "After a long journey I was looking forward to sleeping in a comfortable bed.comfyThere are two big comfy sofas in the lounge.cosyUK The living room is warm and cosy.snugShe longed to be home in her snug little cottage.homelyUK The aim is to create practical, homely interiors rather than statement designs.\n            See more results »"
+      ]
+    },
+    "primary": {
+      "phonetic_uk": "ˈpraɪ.m",
+      "phonetic_us": "ˈpraɪ.mer.i",
+      "audio_uk": "/media/english/uk_pron/u/ukp/ukpri/ukprice025.mp3",
+      "audio_us": "/media/english/us_pron/p/pri/prima/primary.mp3",
+      "examples": [
+        "The Red Cross's primary concern is to preserve and protect human life.",
+        "The primary responsibility lies with those who break the law.",
+        "primary education"
+      ]
+    },
+    "date": {
+      "phonetic_uk": "deɪt",
+      "phonetic_us": "deɪt",
+      "audio_uk": "/media/english/uk_pron/u/ukd/ukdat/ukdatag002.mp3",
+      "audio_us": "/media/english/us_pron/d/dat/date_/date.mp3",
+      "examples": [
+        "What's the date (today)?/What date is it?/What's today's date?",
+        "UK Today's date is 11 June (the eleventh of June).",
+        "US Today's date is June 11 (June the eleventh)."
+      ]
+    },
+    "traditional": {
+      "phonetic_uk": "trəˈdɪʃ.",
+      "phonetic_us": "trəˈdɪʃ.",
+      "audio_uk": "/media/english/uk_pron/u/ukt/uktra/uktract011.mp3",
+      "audio_us": "/media/english/us_pron/t/tra/tradi/traditional.mp3",
+      "examples": [
+        "The villagers retain a strong attachment to their traditional values/customs/beliefs.",
+        "The school uses a combination of modern and traditional methods for teaching reading.",
+        "The dancers were wearing traditional Hungarian dress/costume."
+      ]
+    },
+    "popular": {
+      "phonetic_uk": "ˈpɒp.jə.lə",
+      "phonetic_us": "ˈpɑː.pjə.lɚ",
+      "audio_uk": "/media/english/uk_pron/u/ukp/ukpop/ukpopsi004.mp3",
+      "audio_us": "/media/english/us_pron/p/pop/popul/popular.mp3",
+      "examples": [
+        "She's the most popular teacher in school.",
+        "popular with That song was popular with people from my father's generation.",
+        "Walking is a popular form of exercise in Britain."
+      ]
+    },
+    "type": {
+      "phonetic_uk": "taɪp",
+      "phonetic_us": "taɪp",
+      "audio_uk": "/media/english/uk_pron/u/ukt/uktwi/uktwine024.mp3",
+      "audio_us": "/media/english/us_pron/t/typ/type_/type.mp3",
+      "examples": [
+        "type of There were so many different types of bread that I didn't know which to buy.",
+        "What type of clothes does she wear?",
+        "It was dark so I didn't notice what type of car it was."
+      ]
+    },
+    "festival": {
+      "phonetic_uk": "ˈfes.tɪ.v",
+      "phonetic_us": "ˈfes.tə.v",
+      "audio_uk": "/media/english/uk_pron/u/ukf/ukfer/ukferre016.mp3",
+      "audio_us": "/media/english/us_pron/f/fes/festi/festival.mp3",
+      "examples": [
+        "celebrate a festival We invite scores of people to our home to celebrate the harvest festival of Sukkot.",
+        "Jewish festival",
+        "Christian festival"
+      ]
+    },
+    "wedding": {
+      "phonetic_uk": "ˈwed.ɪŋ",
+      "phonetic_us": "ˈwed.ɪŋ",
+      "audio_uk": "/media/english/uk_pron/u/ukw/ukwea/ukweari026.mp3",
+      "audio_us": "/media/english/us_pron/w/wed/weddi/wedding.mp3",
+      "examples": [
+        "Do you know the date of Caroline and Matthew's wedding?",
+        "wedding cake",
+        "wedding dress"
+      ]
+    },
+    "just": {
+      "phonetic_uk": "dʒʌst",
+      "phonetic_us": "dʒʌst",
+      "audio_uk": "/media/english/uk_pron/u/ukj/ukjun/ukjun__019.mp3",
+      "audio_us": "/media/english/us_pron/j/jus/just_/just.mp3",
+      "examples": [
+        "\"Where are you, Jim?\" \"I'm just coming.\"",
+        "I'll just finish this, then we can go.",
+        "He'd just got into the bath when the phone rang."
+      ]
+    },
+    "culture": {
+      "phonetic_uk": "ˈkʌl.tʃə",
+      "phonetic_us": "ˈkʌl.tʃɚ",
+      "audio_uk": "/media/english/uk_pron/u/ukc/ukcul/ukcull_017.mp3",
+      "audio_us": "/media/english/us_pron/c/cul/cultu/culture.mp3",
+      "examples": [
+        "She's studying modern Japanese language and culture.",
+        "This is one of the most ancient cultures in the world.",
+        "culture of The investigation found there was a culture of sexism and racism within the organization."
+      ]
+    },
+    "country": {
+      "phonetic_uk": "ˈkʌn.tri",
+      "phonetic_us": "ˈkʌn.tri",
+      "audio_uk": "/media/english/uk_pron/u/ukc/ukcou/ukcount012.mp3",
+      "audio_us": "/media/english/us_pron/c/cou/count/country.mp3",
+      "examples": [
+        "What is the largest country in the world?",
+        "Wales is the only country in the world with a footpath spanning its entire coastline.",
+        "The climate is cooler in the east of the country."
+      ]
+    },
+    "history": {
+      "phonetic_uk": "ˈhɪs.t",
+      "phonetic_us": "ˈhɪs.t̬ɚ.i",
+      "audio_uk": "/media/english/uk_pron/u/ukh/ukhir/ukhire_016.mp3",
+      "audio_us": "/media/english/us_pron/h/his/histo/history.mp3",
+      "examples": [
+        "I studied modern European history at college.",
+        "American history",
+        "history of Annie decided to write a history of electronic music."
+      ]
+    },
+    "loose": {
+      "phonetic_uk": "luːs",
+      "phonetic_us": "luːs",
+      "audio_uk": "/media/english/uk_pron/u/ukl/uklon/uklonel029.mp3",
+      "audio_us": "/media/english/us_pron/l/loo/loose/loose.mp3",
+      "examples": [
+        "There were some loose wires hanging out of the wall.",
+        "work itself loose The nails in the wall had worked themselves loose.",
+        "hang loose The prisoners were so thin that their skin hung loose."
+      ]
+    },
+    "belt": {
+      "phonetic_uk": "belt",
+      "phonetic_us": "belt",
+      "audio_uk": "/media/english/uk_pron/u/ukb/ukbel/ukbelly007.mp3",
+      "audio_us": "/media/english/us_pron/b/bel/belt_/belt.mp3",
+      "examples": [
+        "She fastened her belt tightly around her waist.",
+        "He had eaten so much that he had to loosen his belt a couple of notches.",
+        "a fan belt"
+      ]
+    },
+    "close-fitting": {
+      "phonetic_uk": "ˌkləʊsˈfɪt.ɪŋ",
+      "phonetic_us": "ˌkloʊsˈfɪt̬.ɪŋ",
+      "audio_uk": "/media/english/uk_pron/c/cuk/cuk00/cuk00246.mp3",
+      "audio_us": "/media/english/us_pron/c/cus/cus00/cus00419.mp3",
+      "examples": null
+    },
+    "be made of": {
+      "phonetic_uk": null,
+      "phonetic_us": null,
+      "audio_uk": null,
+      "audio_us": null,
+      "examples": [
+        "No, you can't have a new computer game. I'm not made of money."
+      ]
+    },
+    "silk": {
+      "phonetic_uk": "sɪlk",
+      "phonetic_us": "sɪlk",
+      "audio_uk": "/media/english/uk_pron/u/uks/uksil/uksilen011.mp3",
+      "audio_us": "/media/english/us_pron/s/sil/silk_/silk.mp3",
+      "examples": [
+        "a silk dress",
+        "a silk shirt",
+        "We manufacture machinery for weaving man-made fibres, silks, cottons, and wools."
+      ]
+    },
+    "feel": {
+      "phonetic_uk": "fiːl",
+      "phonetic_us": "fiːl",
+      "audio_uk": "/media/english/uk_pron/u/ukf/ukfee/ukfeed_005.mp3",
+      "audio_us": "/media/english/us_pron/f/fee/feel_/feel.mp3",
+      "examples": [
+        "\"How are you feeling?\" \"Not too bad, but I've still got a slight headache.\"",
+        "How would you feel about moving to a different city?",
+        "He's still feeling a little weak after his operation."
+      ]
+    },
+    "smooth": {
+      "phonetic_uk": "smuːð",
+      "phonetic_us": "smuːð",
+      "audio_uk": "/media/english/uk_pron/u/uks/uksmo/uksmoke012.mp3",
+      "audio_us": "/media/english/us_pron/s/smo/smoot/smooth.mp3",
+      "examples": [
+        "a smooth surface/texture/consistency",
+        "This custard is deliciously smooth and creamy.",
+        "Mix together the butter and sugar until smooth."
+      ]
+    },
+    "soft": {
+      "phonetic_uk": "sɒft",
+      "phonetic_us": "sɑːft",
+      "audio_uk": "/media/english/uk_pron/u/uks/uksod/uksodiu005.mp3",
+      "audio_us": "/media/english/us_pron/s/sof/soft_/soft.mp3",
+      "examples": [
+        "soft ground",
+        "a soft pillow/mattress",
+        "soft cheese"
+      ]
+    },
+    "cotton": {
+      "phonetic_uk": "ˈkɒt.",
+      "phonetic_us": "ˈkɑː.t",
+      "audio_uk": "/media/english/uk_pron/u/ukc/ukcos/ukcossa021.mp3",
+      "audio_us": "/media/english/us_pron/c/cot/cotto/cotton.mp3",
+      "examples": [
+        "a bale of cotton",
+        "a shirt made of pure cotton",
+        "She looked pretty in a simple cotton dress."
+      ]
+    },
+    "agree": {
+      "phonetic_uk": "əˈɡriː",
+      "phonetic_us": "əˈɡriː",
+      "audio_uk": "/media/english/uk_pron/u/uka/ukagi/ukagita021.mp3",
+      "audio_us": "/media/english/us_pron/a/agr/agree/agree.mp3",
+      "examples": [
+        "Ann and I never seem to agree.",
+        "agree with I agree with you on this issue.",
+        "agree about My father and I don't agree about very much."
+      ]
+    },
+    "feature": {
+      "phonetic_uk": "ˈfiː.tʃə",
+      "phonetic_us": "ˈfiː.tʃɚ",
+      "audio_uk": "/media/english/uk_pron/u/ukf/ukfea/ukfeast010.mp3",
+      "audio_us": "/media/english/us_pron/f/fea/featu/feature.mp3",
+      "examples": [
+        "The town's main features are its beautiful mosque and ancient marketplace.",
+        "Our latest model of phone has several new features.",
+        "A unique feature of these rock shelters was that they were dry."
+      ]
+    },
+    "material": {
+      "phonetic_uk": "məˈtɪə.ri.əl",
+      "phonetic_us": "məˈtɪr.i.əl",
+      "audio_uk": "/media/english/uk_pron/u/ukm/ukmat/ukmatch006.mp3",
+      "audio_us": "/media/english/us_pron/m/mat/mater/material.mp3",
+      "examples": [
+        "building material They are using low-impact building materials, such as reclaimed brick and stone.",
+        "construction material The company has been plagued by a high turnover of project managers, poor oversight of subcontractors, and the use of second-grade construction materials.",
+        "raw material Crude oil is used as the raw (= basic) material for making plastics."
+      ]
+    },
+    "leather": {
+      "phonetic_uk": "ˈleð.ə",
+      "phonetic_us": "ˈleð.ɚ",
+      "audio_uk": "/media/english/uk_pron/u/ukl/uklea/uklearn009.mp3",
+      "audio_us": "/media/english/us_pron/l/lea/leath/leather.mp3",
+      "examples": [
+        "a leather coat/belt/handbag",
+        "Polish your shoes regularly to protect the leather.",
+        "The room smelled of candle wax and old leather."
+      ]
+    },
+    "size": {
+      "phonetic_uk": "saɪz",
+      "phonetic_us": "saɪz",
+      "audio_uk": "/media/english/uk_pron/u/uks/uksit/uksitua011.mp3",
+      "audio_us": "/media/english/us_pron/s/siz/size_/size.mp3",
+      "examples": [
+        "We are concerned about the size of our debt.",
+        "Some kinds of trees grow to a huge size.",
+        "What is the size of that window?"
+      ]
+    },
+    "wise": {
+      "phonetic_uk": "waɪz",
+      "phonetic_us": "waɪz",
+      "audio_uk": "/media/english/uk_pron/u/ukw/ukwin/ukwinni021.mp3",
+      "audio_us": "/media/english/us_pron/w/wis/wise_/wise.mp3",
+      "examples": [
+        "I think you made a wise choice.",
+        "\"I never drink more than three glasses of wine.\" \"How wise.\"",
+        "Looking at the weather, I think we made a wise decision not to go to the coast this weekend."
+      ]
+    },
+    "yuan": {
+      "phonetic_uk": "juˈɑːn",
+      "phonetic_us": "juˈɑːn",
+      "audio_uk": "/media/english/uk_pron/c/cuk/cuk01/cuk01277.mp3",
+      "audio_us": "/media/english/us_pron/c/cus/cus02/cus02337.mp3",
+      "examples": [
+        "China's yuan has risen by 10% against the dollar in the past two years.",
+        "The payout of 12,000 yuan was the equivalent of two years' income for him."
+      ]
+    },
+    "euro": {
+      "phonetic_uk": "ˈjʊə.rəʊ",
+      "phonetic_us": "ˈjʊr.oʊ",
+      "audio_uk": "/media/english/uk_pron/u/uke/ukeur/ukeuro_001.mp3",
+      "audio_us": "/media/english/us_pron/e/eur/euro_/euro.mp3",
+      "examples": [
+        "You can usually find a hotel for €70 a night.",
+        "I need to change my pounds into euros.",
+        "a 20-euro note"
+      ]
+    },
+    "pound": {
+      "phonetic_uk": "paʊnd",
+      "phonetic_us": "paʊnd",
+      "audio_uk": "/media/english/uk_pron/u/ukp/ukpot/ukpotti008.mp3",
+      "audio_us": "/media/english/us_pron/p/pou/pound/pound.mp3",
+      "examples": [
+        "a one-pound/two-pound coin",
+        "pound coin I've only got a couple of pound coins.",
+        "There are one hundred pence in a pound."
+      ]
+    },
+    "yen": {
+      "phonetic_uk": "jen",
+      "phonetic_us": "jen",
+      "audio_uk": "/media/english/uk_pron/u/uky/ukyd_/ukyd___020.mp3",
+      "audio_us": "/media/english/us_pron/y/yen/yen__/yen.mp3",
+      "examples": [
+        "She earns 400,000 yen a month as an English teacher in Tokyo.",
+        "The yen fell/rose against (= was worth less/more compared to) the dollar today.",
+        "I have a yen for travelling."
+      ]
+    },
+    "rouble": {
+      "phonetic_uk": "ˈruː.b",
+      "phonetic_us": "ˈruː.b",
+      "audio_uk": "/media/english/uk_pron/u/ukr/ukros/ukroset025.mp3",
+      "audio_us": "/media/english/us_pron/u/usr/usros/usrosin007.mp3",
+      "examples": null
+    },
+    "dollar": {
+      "phonetic_uk": "ˈdɒl.ə",
+      "phonetic_us": "ˈdɑː.lɚ",
+      "audio_uk": "/media/english/uk_pron/u/ukd/ukdog/ukdogge026.mp3",
+      "audio_us": "/media/english/us_pron/d/dol/dolla/dollar.mp3",
+      "examples": [
+        "Can I borrow $10?",
+        "There are one hundred cents in a dollar.",
+        "in dollars You can pay in euros or in US dollars."
+      ]
+    },
+    "key": {
+      "phonetic_uk": "kiː",
+      "phonetic_us": "kiː",
+      "audio_uk": "/media/english/uk_pron/u/ukk/ukker/ukkero_008.mp3",
+      "audio_us": "/media/english/us_pron/k/key/key__/key.mp3",
+      "examples": [
+        "car key Give me the car keys - you're in no fit state to drive.",
+        "door key",
+        "turn a key I heard someone turn a key in the lock."
+      ]
+    },
+    "ring": {
+      "phonetic_uk": "rɪŋ",
+      "phonetic_us": "rɪŋ",
+      "audio_uk": "/media/english/uk_pron/u/ukr/ukrig/ukrigor009.mp3",
+      "audio_us": "/media/english/us_pron/r/rin/ring_/ring.mp3",
+      "examples": [
+        "diamond ring He bought her a diamond ring (= a ring with a diamond attached to it).",
+        "emerald ring",
+        "give someone a ring I'll give you a ring tomorrow."
+      ]
+    },
+    "baseball": {
+      "phonetic_uk": "ˈbeɪs.bɔːl",
+      "phonetic_us": "ˈbeɪs.bɑːl",
+      "audio_uk": "/media/english/uk_pron/u/ukb/ukbar/ukbaroq021.mp3",
+      "audio_us": "/media/english/us_pron/b/bas/baseb/baseball.mp3",
+      "examples": [
+        "He said he enjoyed fishing and watching baseball.",
+        "play baseball Jake never play baseball like the other kids.",
+        "baseball game One of the first things he wanted to do when he arrived in the States was watch a baseball game."
+      ]
+    },
+    "Russian": {
+      "phonetic_uk": "ˈrʌʃ.",
+      "phonetic_us": "ˈrʌʃ.",
+      "audio_uk": "/media/english/uk_pron/u/ukc/ukcld/ukcld04295.mp3",
+      "audio_us": "/media/english/us_pron/u/usc/uscld/uscld04298.mp3",
+      "examples": null
+    },
+    "set": {
+      "phonetic_uk": "set",
+      "phonetic_us": "set",
+      "audio_uk": "/media/english/uk_pron/u/uks/ukser/ukservi014.mp3",
+      "audio_us": "/media/english/us_pron/s/set/set__/set.mp3",
+      "examples": [
+        "He set a vase of flowers on the table.",
+        "The campsite is set in the middle of a pine forest.",
+        "Our house is set back from the road."
+      ]
+    },
+    "a set of": {
+      "phonetic_uk": null,
+      "phonetic_us": null,
+      "audio_uk": null,
+      "audio_us": null,
+      "examples": [
+        "She's setting a lot of store by this job interview - I only hope she gets it."
+      ]
+    },
+    "inside": {
+      "phonetic_uk": "ɪnˈsaɪd",
+      "phonetic_us": "ˈɪn.saɪd",
+      "audio_uk": "/media/english/uk_pron/u/uki/ukins/ukinsec019.mp3",
+      "audio_us": "/media/english/us_pron/c/cdo/cdo06/cdo0623usinsi2113.mp3",
+      "examples": [
+        "inside of Did you clean the inside of the car?",
+        "on the inside The hotel looked shabby from the street, but it was fine on the inside.",
+        "the insides of people's houses"
+      ]
+    },
+    "another": {
+      "phonetic_uk": "əˈnʌð.ə",
+      "phonetic_us": "əˈnʌð.ɚ",
+      "audio_uk": "/media/english/uk_pron/u/uka/ukano/ukanore004.mp3",
+      "audio_us": "/media/english/us_pron/a/ano/anoth/another.mp3",
+      "examples": [
+        "I'm going to have another piece of cake.",
+        "\"Would you get me a bar of chocolate from the kitchen?\" \"Another one?\"",
+        "We can fit another person in my car."
+      ]
+    },
+    "colourful": {
+      "phonetic_uk": "ˈkʌl.ə.f",
+      "phonetic_us": "ˈkʌl.ɚ.f",
+      "audio_uk": "/media/english/uk_pron/u/ukc/ukcol/ukcolor010.mp3",
+      "audio_us": "/media/english/us_pron/c/col/color/colorful.mp3",
+      "examples": [
+        "a colourful painting",
+        "colourful costumes",
+        "a colourful character"
+      ]
+    },
+    "surprise": {
+      "phonetic_uk": "səˈpraɪz",
+      "phonetic_us": "sɚˈpraɪz",
+      "audio_uk": "/media/english/uk_pron/u/uks/uksur/uksurge017.mp3",
+      "audio_us": "/media/english/us_pron/s/sur/surpr/surprise.mp3",
+      "examples": [
+        "Don't tell Anne we've arranged a party for her - I want it to be a surprise.",
+        "It was a wonderful/nasty surprise to get home and find the letter.",
+        "come as a surprise Last night's heavy snow came as a complete surprise."
+      ]
+    },
+    "player": {
+      "phonetic_uk": "ˈpleɪ.ə",
+      "phonetic_us": "ˈpleɪ.ɚ",
+      "audio_uk": "/media/english/uk_pron/u/ukp/ukpla/ukplate026.mp3",
+      "audio_us": "/media/english/us_pron/p/pla/playe/player.mp3",
+      "examples": [
+        "Each player takes three cards.",
+        "The team has many talented players.",
+        "leading player She was a leading player in the reorganization of the health service."
+      ]
+    },
+    "protect": {
+      "phonetic_uk": "prəˈtekt",
+      "phonetic_us": "prəˈtekt",
+      "audio_uk": "/media/english/uk_pron/u/ukp/ukpro/ukprose024.mp3",
+      "audio_us": "/media/english/us_pron/p/pro/prote/protect.mp3",
+      "examples": [
+        "clothing that protects you against the cold",
+        "It's important to protect your skin from the harmful effects of the sun.",
+        "Surely the function of the law is to protect everyone's rights."
+      ]
+    },
+    "mall": {
+      "phonetic_uk": "mɔːl",
+      "phonetic_us": "mɑːl",
+      "audio_uk": "/media/english/uk_pron/u/ukm/ukmal/ukmalig006.mp3",
+      "audio_us": "/media/english/us_pron/m/mal/mall_/mall.mp3",
+      "examples": [
+        "There are plans to build a new mall in the middle of town.",
+        "Judy likes to hang out at the mall with her friends.",
+        "Shoppers arrived early at the mall for the Black Friday sales."
+      ]
+    },
+    "across": {
+      "phonetic_uk": "əˈkrɒs",
+      "phonetic_us": "əˈkrɑːs",
+      "audio_uk": "/media/english/uk_pron/u/uka/ukacq/ukacqua024.mp3",
+      "audio_us": "/media/english/us_pron/a/acr/acros/across.mp3",
+      "examples": [
+        "She walked across the field/road.",
+        "They're building a new bridge across the river.",
+        "When I reached the river, I simply swam across."
+      ]
+    },
+    "cost": {
+      "phonetic_uk": "kɒst",
+      "phonetic_us": "kɑːst",
+      "audio_uk": "/media/english/uk_pron/u/ukc/ukcos/ukcossa004.mp3",
+      "audio_us": "/media/english/us_pron/e/eus/eus71/eus71027.mp3",
+      "examples": [
+        "at no extra cost When you buy a new computer, you usually get software included at no extra cost.",
+        "cover the cost In most cases, two salaries are essential to cover the cost of (= pay for) raising a family.",
+        "cut the cost The supermarket chain announced that it was cutting the cost of all its fresh and frozen meat."
+      ]
+    },
+    "manage": {
+      "phonetic_uk": "ˈmæn.ɪdʒ",
+      "phonetic_us": "ˈmæn.ədʒ",
+      "audio_uk": "/media/english/uk_pron/u/ukm/ukmam/ukmammo006.mp3",
+      "audio_us": "/media/english/us_pron/m/man/manag/manage.mp3",
+      "examples": [
+        "[ + to infinitive ] Did you manage to get any bread?",
+        "I only just managed to finish on time.",
+        "somehow manage to A small dog had somehow managed to survive the fire."
+      ]
+    },
+    "budget": {
+      "phonetic_uk": "ˈbʌdʒ.ɪt",
+      "phonetic_us": "ˈbʌdʒ.ɪt",
+      "audio_uk": "/media/english/uk_pron/u/ukb/ukbud/ukbuddh007.mp3",
+      "audio_us": "/media/english/us_pron/b/bud/budge/budget.mp3",
+      "examples": [
+        "The firm has drawn up a budget for the coming financial year.",
+        "within budget Libraries are finding it increasingly difficult to remain within budget.",
+        "an annual budget of £40 million"
+      ]
+    },
+    "cover": {
+      "phonetic_uk": "ˈkʌv.ə",
+      "phonetic_us": "ˈkʌv.ɚ",
+      "audio_uk": "/media/english/uk_pron/u/ukc/ukcou/ukcouri025.mp3",
+      "audio_us": "/media/english/us_pron/c/cov/cover/cover.mp3",
+      "examples": [
+        "The light was so bright that I had to cover my eyes.",
+        "Snow covered the hillsides.",
+        "cover someone with something She covered him with a blanket."
+      ]
+    },
+    "education": {
+      "phonetic_uk": "ˌedʒ.ʊˈkeɪ.ʃ",
+      "phonetic_us": "ˌedʒ.əˈkeɪ.ʃ",
+      "audio_uk": "/media/english/uk_pron/u/uke/ukedg/ukedgil018.mp3",
+      "audio_us": "/media/english/us_pron/e/eus/eus75/eus75651.mp3",
+      "examples": [
+        "receive an education As a child he received most of his education at home.",
+        "It's a country that places great importance on education.",
+        "She lectures in education (= the study of education) at the teacher training college."
+      ]
+    },
+    "pay": {
+      "phonetic_uk": "peɪ",
+      "phonetic_us": "peɪ",
+      "audio_uk": "/media/english/uk_pron/u/ukp/ukpau/ukpauci017.mp3",
+      "audio_us": "/media/english/us_pron/p/pay/pay__/pay.mp3",
+      "examples": [
+        "pay something for something How much did you pay for the tickets?",
+        "I pay my taxes.",
+        "[ + two objects ] I'll pay you the fiver back tomorrow."
+      ]
+    },
+    "pay for": {
+      "phonetic_uk": "peɪ",
+      "phonetic_us": "peɪ",
+      "audio_uk": "/media/english/uk_pron/u/ukp/ukpau/ukpauci017.mp3",
+      "audio_us": "/media/english/us_pron/p/pay/pay__/pay.mp3",
+      "examples": [
+        "We all pay for our mistakes in some way at some time.",
+        "He tricked me and I'm going to make him pay for it!",
+        "When we go out she pays for everything."
+      ]
+    },
+    "flat": {
+      "phonetic_uk": "flæt",
+      "phonetic_us": "flæt",
+      "audio_uk": "/media/english/uk_pron/u/ukf/ukfla/ukflami023.mp3",
+      "audio_us": "/media/english/us_pron/f/fla/flat_/flat.mp3",
+      "examples": [
+        "An ice rink needs to be completely flat.",
+        "flat surface Roll out the pastry on a flat surface.",
+        "Much of the countryside in that region is very flat."
+      ]
+    },
+    "daily": {
+      "phonetic_uk": "ˈdeɪ.li",
+      "phonetic_us": "ˈdeɪ.li",
+      "audio_uk": "/media/english/uk_pron/u/ukd/ukdag/ukdagoe006.mp3",
+      "audio_us": "/media/english/us_pron/d/dai/daily/daily.mp3",
+      "examples": [
+        "twice daily Take the tablets twice daily.",
+        "daily routine Exercise has become part of my daily routine.",
+        "on a daily basis We back up our computer files at work on a daily basis."
+      ]
+    },
+    "per cent": {
+      "phonetic_uk": "pəˌsent ˈpɒz.ə.tɪv",
+      "phonetic_us": "pɚˌsent ˈpɑː.zə.t̬ɪv",
+      "audio_uk": "/media/english/uk_pron/c/cdo/cdo11/cdo1121ukperc3419.mp3",
+      "audio_us": "/media/english/us_pron/c/cdo/cdo11/cdo1121usperc3312.mp3",
+      "examples": [
+        "A high percent positive means that more testing should probably be done.",
+        "The higher the percent positive is, the more concerning it is."
+      ]
+    },
+    "expensive": {
+      "phonetic_uk": "ɪkˈspen.sɪv",
+      "phonetic_us": "ɪkˈspen.sɪv",
+      "audio_uk": "/media/english/uk_pron/u/uke/ukexp/ukexpat026.mp3",
+      "audio_us": "/media/english/us_pron/e/exp/expen/expensive.mp3",
+      "examples": [
+        "Rolls-Royces are very expensive.",
+        "be expensive to Big houses are expensive to maintain.",
+        "expensive taste She has expensive tastes (= she likes things that cost a lot of money)."
+      ]
+    },
+    "save": {
+      "phonetic_uk": "seɪv",
+      "phonetic_us": "seɪv",
+      "audio_uk": "/media/english/uk_pron/u/uks/uksau/uksauce016.mp3",
+      "audio_us": "/media/english/us_pron/s/sav/save_/save.mp3",
+      "examples": [
+        "Wearing seat belts has saved many lives.",
+        "save someone from something He fell in the river but his friend saved him from drowning.",
+        "He had to borrow money to save his business."
+      ]
+    },
+    "bank": {
+      "phonetic_uk": "bæŋk",
+      "phonetic_us": "bæŋk",
+      "audio_uk": "/media/english/uk_pron/u/ukb/ukban/ukbands018.mp3",
+      "audio_us": "/media/english/us_pron/b/ban/bank_/bank.mp3",
+      "examples": [
+        "I need to go to the bank at lunchtime.",
+        "big bank The big banks have been accused of exploiting small firms.",
+        "bank loan I had to take out a bank loan to start my own business."
+      ]
+    },
+    "account": {
+      "phonetic_uk": "əˈkaʊnt",
+      "phonetic_us": "əˈkaʊnt",
+      "audio_uk": "/media/english/uk_pron/u/uka/ukacc/ukacces028.mp3",
+      "audio_us": "/media/english/us_pron/a/acc/accou/account.mp3",
+      "examples": [
+        "close an account I withdrew my money and asked the bank to close my account.",
+        "open an account I've opened an account with a building society .",
+        "I paid the money into my account this morning."
+      ]
+    },
+    "rainy": {
+      "phonetic_uk": "ˈreɪ.ni",
+      "phonetic_us": "ˈreɪ.ni",
+      "audio_uk": "/media/english/uk_pron/u/ukr/ukrai/ukrains002.mp3",
+      "audio_us": "/media/english/us_pron/r/rai/rainy/rainy.mp3",
+      "examples": [
+        "We had three rainy days on holiday, but otherwise it was sunny.",
+        "Another rainy afternoon - you'll have to stay indoors and play, I'm afraid.wetWe're in for a wet morning, with showers lasting well into the afternoon.showeryIt will be showery overnight, but clear by morning.drizzlyIt was a grey, drizzly day.\n            See more results »"
+      ]
+    },
+    "matter": {
+      "phonetic_uk": "ˈmæt.ə",
+      "phonetic_us": "ˈmæt̬.ɚ",
+      "audio_uk": "/media/english/uk_pron/u/ukm/ukmat/ukmatri013.mp3",
+      "audio_us": "/media/english/us_pron/e/eus/eus72/eus72937.mp3",
+      "examples": [
+        "Could I talk to you about a personal matter?",
+        "Allen denied any knowledge of the matter.",
+        "matter of Please phone me back - it's a matter of some importance."
+      ]
+    },
+    "pocket": {
+      "phonetic_uk": "ˈpɒk.ɪt",
+      "phonetic_us": "ˈpɑː.kɪt",
+      "audio_uk": "/media/english/uk_pron/u/ukp/ukpmt/ukpmt__009.mp3",
+      "audio_us": "/media/english/us_pron/p/poc/pocke/pocket.mp3",
+      "examples": [
+        "a trouser pocket",
+        "in someone's pocket She thrust her hands deep in her pockets.",
+        "into your pocket I slipped the note into my pocket."
+      ]
+    },
+    "pocket money": {
+      "phonetic_uk": "ˈpɒk.ɪt ˌmʌn.i",
+      "phonetic_us": "ˈpɑː.kɪt ˌmʌn.i",
+      "audio_uk": "/media/english/uk_pron/u/ukc/ukcld/ukcld01078.mp3",
+      "audio_us": "/media/english/us_pron/u/usc/uscld/uscld01078.mp3",
+      "examples": [
+        "My dad gives me £5 a week pocket money.",
+        "I make a little pocket money delivering catalogues.",
+        "I work really hard at this job, and all I get paid is pocket money."
+      ]
+    },
+    "notebook": {
+      "phonetic_uk": "ˈnəʊt.bʊk",
+      "phonetic_us": "ˈnoʊt.bʊk",
+      "audio_uk": "/media/english/uk_pron/u/ukn/uknos/uknosh_018.mp3",
+      "audio_us": "/media/english/us_pron/n/not/noteb/notebook.mp3",
+      "examples": [
+        "She was jotting things down in a little notebook.",
+        "She wrote everything down in her notebook.",
+        "our latest stylish ultra-mobile notebook"
+      ]
+    },
+    "strawberry": {
+      "phonetic_uk": "ˈstrɔː.b",
+      "phonetic_us": "ˈstrɑːˌber.i",
+      "audio_uk": "/media/english/uk_pron/u/uks/ukstr/ukstrat010.mp3",
+      "audio_us": "/media/english/us_pron/s/str/straw/strawberry.mp3",
+      "examples": [
+        "fresh strawberries",
+        "I thought we'd have strawberries and cream for dessert.",
+        "strawberry jam/ice cream/tart"
+      ]
+    },
+    "bookshop": {
+      "phonetic_uk": "ˈbʊk.ʃɒp",
+      "phonetic_us": "ˈbʊk.ʃɑːp",
+      "audio_uk": "/media/english/uk_pron/u/ukb/ukboo/ukbookb025.mp3",
+      "audio_us": "/media/english/us_pron/u/usb/usboo/usbooks002.mp3",
+      "examples": [
+        "'Running a second-hand bookshop is a guaranteed commercial failure,' he said"
+      ]
+    },
+    "eraser": {
+      "phonetic_uk": "ɪˈreɪ.zə",
+      "phonetic_us": "ɪˈreɪ.sɚ",
+      "audio_uk": "/media/english/uk_pron/c/cal/cald4/cald4uk0508.mp3",
+      "audio_us": "/media/english/us_pron/e/era/erase/eraser.mp3",
+      "examples": [
+        "If you draw or write in pencil you can always rub out your mistakes with an eraser."
+      ]
+    },
+    "as": {
+      "phonetic_uk": "æz",
+      "phonetic_us": "æz",
+      "audio_uk": "/media/english/uk_pron/u/uka/ukart/ukartic029.mp3",
+      "audio_us": "/media/english/us_pron/a/as_/as___/as.mp3",
+      "examples": [
+        "She'll soon be as tall as her mother.",
+        "I can't run as fast as you.",
+        "skin as soft as a baby's"
+      ]
+    },
+    "present": {
+      "phonetic_uk": "ˈprez.",
+      "phonetic_us": "ˈprez.",
+      "audio_uk": "/media/english/uk_pron/u/ukp/ukpre/ukprepo020.mp3",
+      "audio_us": "/media/english/us_pron/p/pre/prese/present_01_00.mp3",
+      "examples": [
+        "a birthday/Christmas/wedding present",
+        "They gave me theatre tickets as a present.",
+        "The coat was a birthday present from my sister.giftI have a small gift for you.donationAfter the earthquake, donations poured in from all over the world.grantStudents receive a grant equal to £250 per month.contributionShe wanted to make a financial contribution to the family.\n            See more results »"
+      ]
+    },
+    "away": {
+      "phonetic_uk": "əˈweɪ",
+      "phonetic_us": "əˈweɪ",
+      "audio_uk": "/media/english/uk_pron/u/uka/ukavi/ukaviat028.mp3",
+      "audio_us": "/media/english/us_pron/a/awa/away_/away.mp3",
+      "examples": [
+        "give something away I've given away all my old clothes to charity.",
+        "go away Just go away and leave me alone!",
+        "keep away Keep away from the fire."
+      ]
+    },
+    "shell": {
+      "phonetic_uk": "ʃel",
+      "phonetic_us": "ʃel",
+      "audio_uk": "/media/english/uk_pron/u/uks/ukshe/uksheat024.mp3",
+      "audio_us": "/media/english/us_pron/s/she/shell/shell.mp3",
+      "examples": [
+        "Brazil nuts have very hard shells.",
+        "A piece of shell fell into the cake mixture.",
+        "the shell of a snail/crab/tortoise"
+      ]
+    },
+    "deal": {
+      "phonetic_uk": "diːl",
+      "phonetic_us": "diːl",
+      "audio_uk": "/media/english/uk_pron/u/ukd/ukddt/ukddt__020.mp3",
+      "audio_us": "/media/english/us_pron/d/dea/deal_/deal.mp3",
+      "examples": [
+        "business deal I've got an idea for a business deal that might interest you.",
+        "make a deal The unions and management have made a two-year pay and productivity deal.",
+        "do a deal The management did a deal that provided enough funds for the business to keep operating."
+      ]
+    },
+    "coin": {
+      "phonetic_uk": "kɔɪn",
+      "phonetic_us": "kɔɪn",
+      "audio_uk": "/media/english/uk_pron/u/ukc/ukcoh/ukcohab015.mp3",
+      "audio_us": "/media/english/us_pron/c/coi/coin_/coin.mp3",
+      "examples": [
+        "UK a 10p/ten pence coin",
+        "a pound coin",
+        "gold coins"
+      ]
+    },
+    "online": {
+      "phonetic_uk": "ˈɒn.laɪn",
+      "phonetic_us": "ˈɑːn.laɪn",
+      "audio_uk": "/media/english/uk_pron/u/uko/ukomn/ukomniv013.mp3",
+      "audio_us": "/media/english/us_pron/u/uso/usomn/usomniv005.mp3",
+      "examples": [
+        "an online newspaper/magazine/dictionary",
+        "online banking",
+        "online dating"
+      ]
+    },
+    "lucky": {
+      "phonetic_uk": "ˈlʌk.i",
+      "phonetic_us": "ˈlʌk.i",
+      "audio_uk": "/media/english/uk_pron/u/ukl/ukluc/uklucki003.mp3",
+      "audio_us": "/media/english/us_pron/l/luc/lucky/lucky.mp3",
+      "examples": [
+        "\"I'm going to Japan.\" \"Lucky you!\"",
+        "The lucky winner will be able to choose from three different holidays.",
+        "[ + to infinitive ] They're lucky to have such a nice office to work in."
+      ]
+    },
+    "lucky money": {
+      "phonetic_uk": null,
+      "phonetic_us": null,
+      "audio_uk": null,
+      "audio_us": null,
+      "examples": null
+    },
+    "grandparent": {
+      "phonetic_uk": "ˈɡræn.peə.r",
+      "phonetic_us": "ˈɡræn.per.",
+      "audio_uk": "/media/english/uk_pron/u/ukg/ukgra/ukgrand020.mp3",
+      "audio_us": "/media/english/us_pron/g/gra/grand/grandparent.mp3",
+      "examples": [
+        "My grandparents are both in their 80s.grandmotherWe went to visit our grandmother in hospital.grandfatherHer paternal grandfather was a miner.grandmaWhen grandma comes to visit, she always brings sweets.grannyShe visited her granny in Pasadena.nanUK She was brought up by her nan.\n            See more results »"
+      ]
+    },
+    "relative": {
+      "phonetic_uk": "ˈrel.ə.tɪv",
+      "phonetic_us": "ˈrel.ə.t̬ɪv",
+      "audio_uk": "/media/english/uk_pron/u/ukr/ukrej/ukrejec019.mp3",
+      "audio_us": "/media/english/us_pron/e/eus/eus73/eus73920.mp3",
+      "examples": [
+        "blood relative I don't have many blood relatives (= people related to me by birth rather than by marriage).",
+        "close/distant relative All her close/distant relatives came to the wedding.",
+        "All my relatives gather every year for a family reunion.extended familyHe has a very large extended family.relationShe is a distant relation of his, though I don't quite remember how.kinHe remained true to his kin.mother's/father's side (of the family)I have aunts and uncles on my mother's side of the family.\n            See more results »"
+      ]
+    },
+    "send": {
+      "phonetic_uk": "send",
+      "phonetic_us": "send",
+      "audio_uk": "/media/english/uk_pron/c/cdo/cdo03/cdo0318uksend1234.mp3",
+      "audio_us": "/media/english/us_pron/s/sen/send_/send.mp3",
+      "examples": [
+        "[ + two objects ] I'll send her a letter/email/parcel/postcard next week.",
+        "We'll send it by post/airmail/sea.",
+        "Could you send a reply to them as quickly as possible?"
+      ]
+    },
+    "red packet": {
+      "phonetic_uk": null,
+      "phonetic_us": null,
+      "audio_uk": null,
+      "audio_us": null,
+      "examples": null
+    },
+    "survey": {
+      "phonetic_uk": "ˈsɜː.veɪ",
+      "phonetic_us": "ˈsɝː.veɪ",
+      "audio_uk": "/media/english/uk_pron/u/uks/uksur/uksurro009.mp3",
+      "audio_us": "/media/english/us_pron/s/sur/surve/survey_01_00.mp3",
+      "examples": [
+        "A recent survey found/revealed/showed that 58 percent of people did not know where their heart is.",
+        "to conduct/carry out/do a survey",
+        "a geological survey"
+      ]
+    },
+    "in need": {
+      "phonetic_uk": null,
+      "phonetic_us": null,
+      "audio_uk": null,
+      "audio_us": null,
+      "examples": [
+        "You just hope that the money goes to those who are most in need.",
+        "Maisie did a sponsored swim and managed to raise over £1000 for families in need.",
+        "They distribute food to those in need."
+      ]
+    },
+    "beginning": {
+      "phonetic_uk": "bɪˈɡɪn.ɪŋ",
+      "phonetic_us": "bɪˈɡɪn.ɪŋ",
+      "audio_uk": "/media/english/uk_pron/u/ukb/ukbee/ukbeer_024.mp3",
+      "audio_us": "/media/english/us_pron/b/beg/begin/beginning.mp3",
+      "examples": [
+        "Notes on how to use this dictionary can be found at the beginning of the book.",
+        "She sat down and read the book straight through from beginning to end.",
+        "I enjoyed my job at/in the beginning (= when I started it), but I'm bored with it now."
+      ]
+    },
+    "habit": {
+      "phonetic_uk": "ˈhæb.ɪt",
+      "phonetic_us": "ˈhæb.ɪt",
+      "audio_uk": "/media/english/uk_pron/u/ukg/ukgyr/ukgyros007.mp3",
+      "audio_us": "/media/english/us_pron/e/eus/eus75/eus75781.mp3",
+      "examples": [
+        "annoying habit He has an annoying habit of arriving just when we are having our meal.",
+        "out of habit I always buy the same brand of toothpaste out of (= because of) habit.",
+        "get into the habit I'm trying not to get into (= start) the habit of always having biscuits with my coffee."
+      ]
+    },
+    "celebrate": {
+      "phonetic_uk": "ˈsel.ə.breɪt",
+      "phonetic_us": "ˈsel.ə.breɪt",
+      "audio_uk": "/media/english/uk_pron/u/ukc/ukcel/ukceleb001.mp3",
+      "audio_us": "/media/english/us_pron/c/cel/celeb/celebrate.mp3",
+      "examples": [
+        "We always celebrate our wedding anniversary by going out to dinner.",
+        "If this plan works, we'll celebrate in style (= in a special way).",
+        "His work celebrates the energy and enthusiasm of the young."
+      ]
+    },
+    "Christmas": {
+      "phonetic_uk": "ˈkrɪs.məs",
+      "phonetic_us": "ˈkrɪs.məs",
+      "audio_uk": "/media/english/uk_pron/u/ukc/ukcho/ukchora023.mp3",
+      "audio_us": "/media/english/us_pron/c/chr/chris/christmas.mp3",
+      "examples": [
+        "We're going to my mother's for Christmas.",
+        "Merry/Happy Christmas!",
+        "We had a fantastic Christmas."
+      ]
+    },
+    "remember": {
+      "phonetic_uk": "rɪˈmem.bə",
+      "phonetic_us": "rɪˈmem.bɚ",
+      "audio_uk": "/media/english/uk_pron/u/ukr/ukrem/ukremak008.mp3",
+      "audio_us": "/media/english/us_pron/r/rem/remem/remember.mp3",
+      "examples": [
+        "\"Where did you park the car?\" \"I can't remember.\"",
+        "I can remember people's faces, but not their names.",
+        "[ + (that) ] She suddenly remembered (that) her keys were in her other bag."
+      ]
+    },
+    "poet": {
+      "phonetic_uk": "ˈpəʊ.ɪt",
+      "phonetic_us": "ˈpoʊ.ət",
+      "audio_uk": "/media/english/uk_pron/u/ukp/ukpmt/ukpmt__025.mp3",
+      "audio_us": "/media/english/us_pron/e/eus/eus75/eus75874.mp3",
+      "examples": null
+    },
+    "dragon": {
+      "phonetic_uk": "ˈdræɡ.",
+      "phonetic_us": "ˈdræɡ.",
+      "audio_uk": "/media/english/uk_pron/u/ukd/ukdoz/ukdozen021.mp3",
+      "audio_us": "/media/english/us_pron/d/dra/drago/dragon.mp3",
+      "examples": null
+    },
+    "dragon boat": {
+      "phonetic_uk": "ˈdræɡ.",
+      "phonetic_us": "ˈdræɡ.",
+      "audio_uk": "/media/english/uk_pron/c/cdo/cdo03/cdo0319ukdrag0482.mp3",
+      "audio_us": "/media/english/us_pron/c/cdo/cdo03/cdo0319usdrag0561.mp3",
+      "examples": [
+        "The festival is marked by races of colourful dragon boats.",
+        "Popular in China and other parts of Asia, dragon boat racing has spread to more than 50 countries."
+      ]
+    },
+    "race": {
+      "phonetic_uk": "reɪs",
+      "phonetic_us": "reɪs",
+      "audio_uk": "/media/english/uk_pron/u/ukr/ukrab/ukrabbi008.mp3",
+      "audio_us": "/media/english/us_pron/r/rac/race_/race.mp3",
+      "examples": [
+        "horse race",
+        "win a race Do you know who won the race?",
+        "lose a race Today I just lost the race to a better rider."
+      ]
+    },
+    "dumpling": {
+      "phonetic_uk": "ˈdʌm.plɪŋ",
+      "phonetic_us": "ˈdʌm.plɪŋ",
+      "audio_uk": "/media/english/uk_pron/u/ukd/ukdul/ukdull_018.mp3",
+      "audio_us": "/media/english/us_pron/d/dum/dumpl/dumpling.mp3",
+      "examples": [
+        "We had lamb stew and dumplings.",
+        "Steamed dumplings are a favourite Chinese breakfast food.",
+        "apple dumplings"
+      ]
+    },
+    "rice dumpling": {
+      "phonetic_uk": null,
+      "phonetic_us": null,
+      "audio_uk": null,
+      "audio_us": null,
+      "examples": null
+    },
+    "Scottish": {
+      "phonetic_uk": "ˈskɒt.ɪʃ",
+      "phonetic_us": "ˈskɑː.t̬ɪʃ",
+      "audio_uk": "/media/english/uk_pron/u/uks/uksco/ukscorn012.mp3",
+      "audio_us": "/media/english/us_pron/u/uss/usscl/usscler018.mp3",
+      "examples": [
+        "Scottish dancing/music",
+        "the Scottish Highlands",
+        "Scottish law"
+      ]
+    },
+    "haggis": {
+      "phonetic_uk": "ˈhæɡ.ɪs",
+      "phonetic_us": "ˈhæɡ.ɪs",
+      "audio_uk": "/media/english/uk_pron/u/ukh/ukhae/ukhaema009.mp3",
+      "audio_us": "/media/english/us_pron/u/usg/usgyr/usgyro_018.mp3",
+      "examples": [
+        "While Burns Night, 25 January, is an important date, don't forget that haggis can be eaten on any day of the year.",
+        "address the haggis The haggis was then piped in and Colonel David Simpson addressed it in magnificent style.",
+        "vegetarian haggis"
+      ]
+    },
+    "dish": {
+      "phonetic_uk": "dɪʃ",
+      "phonetic_us": "dɪʃ",
+      "audio_uk": "/media/english/uk_pron/u/ukd/ukdis/ukdisgu007.mp3",
+      "audio_us": "/media/english/us_pron/d/dis/dish_/dish.mp3",
+      "examples": [
+        "an oven-proof dish",
+        "wash the dishes Have you washed the dishes?",
+        "a chicken/vegetarian dish"
+      ]
+    },
+    "poem": {
+      "phonetic_uk": "ˈpəʊ.ɪm",
+      "phonetic_us": "ˈpoʊ.əm",
+      "audio_uk": "/media/english/uk_pron/u/ukp/ukpmt/ukpmt__024.mp3",
+      "audio_us": "/media/english/us_pron/p/poe/poem_/poem.mp3",
+      "examples": [
+        "a book of love poems",
+        "The poet recited some of her recent poems."
+      ]
+    },
+    "lady": {
+      "phonetic_uk": "ˈleɪ.di",
+      "phonetic_us": "ˈleɪ.di",
+      "audio_uk": "/media/english/uk_pron/u/ukl/uklac/uklacta020.mp3",
+      "audio_us": "/media/english/us_pron/l/lad/lady_/lady.mp3",
+      "examples": [
+        "There's a young lady here to see you.",
+        "Mind your language - there are ladies present!",
+        "Say \"thank you\" to the lady, children."
+      ]
+    },
+    "gentleman": {
+      "phonetic_uk": "ˈdʒen.t",
+      "phonetic_us": "ˈdʒen.t̬",
+      "audio_uk": "/media/english/uk_pron/u/ukg/ukgen/ukgenit015.mp3",
+      "audio_us": "/media/english/us_pron/e/eus/eus72/eus72015.mp3",
+      "examples": [
+        "ladies and gentlemen Ladies and gentlemen, the show is about to begin.",
+        "Excuse me, this gentleman has a question for you.",
+        "He was a perfect gentleman."
+      ]
+    },
+    "spread": {
+      "phonetic_uk": "spred",
+      "phonetic_us": "spred",
+      "audio_uk": "/media/english/uk_pron/u/uks/ukspo/ukspotl018.mp3",
+      "audio_us": "/media/english/us_pron/s/spr/sprea/spread.mp3",
+      "examples": [
+        "The fire spread very rapidly because of the strong wind.",
+        "spread to It started off as cancer of the liver but it spread to other areas of the body.",
+        "Student artwork can't cover more than 20 percent of a wall because it could help spread a fire into the ceiling."
+      ]
+    },
+    "doorstep": {
+      "phonetic_uk": "ˈdɔː.step",
+      "phonetic_us": "ˈdɔːr.step",
+      "audio_uk": "/media/english/uk_pron/u/ukd/ukdon/ukdonke024.mp3",
+      "audio_us": "/media/english/us_pron/u/usd/usdoo/usdoome011.mp3",
+      "examples": [
+        "on the doorstep He left the package on the doorstep.",
+        "He complained about being doorstepped by the press.",
+        "fig. We need to be more proactive and seek out dangers before they’re on our doorstep (= too near to be ignored)."
+      ]
+    },
+    "hang": {
+      "phonetic_uk": "hæŋ",
+      "phonetic_us": "hæŋ",
+      "audio_uk": "/media/english/uk_pron/u/ukh/ukhan/ukhando013.mp3",
+      "audio_us": "/media/english/us_pron/h/han/hang_/hang.mp3",
+      "examples": [
+        "hang around A heavy gold necklace hung around her neck.",
+        "hang from A large bunch of keys was hanging from her belt.",
+        "hang down from Party decorations hung down from the ceiling."
+      ]
+    },
+    "onion": {
+      "phonetic_uk": "ˈʌn.jən",
+      "phonetic_us": "ˈʌn.jən",
+      "audio_uk": "/media/english/uk_pron/u/uko/ukomn/ukomniv012.mp3",
+      "audio_us": "/media/english/us_pron/e/eus/eus75/eus75215.mp3",
+      "examples": [
+        "I always cry when I'm chopping onions.",
+        "Fry the onion and garlic for about two minutes."
+      ]
+    },
+    "Greek": {
+      "phonetic_uk": "ɡriːk",
+      "phonetic_us": "ɡriːk",
+      "audio_uk": "/media/english/uk_pron/u/ukg/ukgra/ukgravi024.mp3",
+      "audio_us": "/media/english/us_pron/g/gre/greek/greek.mp3",
+      "examples": [
+        "I've intentionally greeked the text so that I can give you an idea of what the graph looks like without revealing the details.",
+        "This tool simplifies the display, as well as greeking small text to show as grey bands.",
+        "Traditionally, networks demanded that brand names be \"greeked\" or changed before they could appear in a show, as when a Nokia cell phone was changed to Nokio on Melrose Place."
+      ]
+    },
+    "tradition": {
+      "phonetic_uk": "trəˈdɪʃ.",
+      "phonetic_us": "trəˈdɪʃ.",
+      "audio_uk": "/media/english/uk_pron/u/ukt/uktra/uktract010.mp3",
+      "audio_us": "/media/english/us_pron/t/tra/tradi/tradition.mp3",
+      "examples": [
+        "Fireworks have long been an American tradition on the Fourth of July.",
+        "Switzerland has a long tradition of neutrality.",
+        "[ + that ] There's a tradition in our office that when it's somebody's birthday, they bring in a cake for all of us to share."
+      ]
+    },
+    "symbol": {
+      "phonetic_uk": "ˈsɪm.b",
+      "phonetic_us": "ˈsɪm.b",
+      "audio_uk": "/media/english/uk_pron/u/ukc/ukcyb/ukcyber021.mp3",
+      "audio_us": "/media/english/us_pron/c/cym/cymba/cymbal.mp3",
+      "examples": [
+        "A heart shape is the symbol of love.",
+        "The wheel in the Indian flag is a symbol of peace.",
+        "Water, a symbol of life, recurs as an image throughout her poems."
+      ]
+    },
+    "midnight": {
+      "phonetic_uk": "ˈmɪd.naɪt",
+      "phonetic_us": "ˈmɪd.naɪt",
+      "audio_uk": "/media/english/uk_pron/u/ukm/ukmic/ukmicro025.mp3",
+      "audio_us": "/media/english/us_pron/m/mid/midni/midnight.mp3",
+      "examples": [
+        "at midnight There's a great film on TV at midnight.",
+        "It was after midnight when we got home."
+      ]
+    },
+    "strike": {
+      "phonetic_uk": "straɪk",
+      "phonetic_us": "straɪk",
+      "audio_uk": "/media/english/uk_pron/u/uks/ukstr/ukstrep029.mp3",
+      "audio_us": "/media/english/us_pron/s/str/strik/strike.mp3",
+      "examples": [
+        "the right to strike Democratization has brought workers the right to strike and join a trade union.",
+        "strike for We're striking for better pay and improved safety standards.",
+        "disaster strikes I have a life insurance policy that will take care of my family if disaster strikes."
+      ]
+    },
+    "into": {
+      "phonetic_uk": "ˈɪn.tuː",
+      "phonetic_us": "ˈɪn.tuː",
+      "audio_uk": "/media/english/uk_pron/u/uki/ukint/ukintes013.mp3",
+      "audio_us": "/media/english/us_pron/i/int/into_/into.mp3",
+      "examples": [
+        "Would you put the jar back into the cupboard for me, please?",
+        "Let's go into the garden.",
+        "Stop running around and get into bed!"
+      ]
+    },
+    "in the hope of": {
+      "phonetic_uk": null,
+      "phonetic_us": null,
+      "audio_uk": null,
+      "audio_us": null,
+      "examples": null
+    },
+    "ahead": {
+      "phonetic_uk": "əˈhed",
+      "phonetic_us": "əˈhed",
+      "audio_uk": "/media/english/uk_pron/u/uka/ukaha/ukaha__003.mp3",
+      "audio_us": "/media/english/us_pron/a/ahe/ahead/ahead.mp3",
+      "examples": [
+        "The road ahead is very busy.",
+        "straight ahead Turn left at the traffic lights, and you'll see the hospital straight ahead.",
+        "Barcelona was ahead after ten minutes."
+      ]
+    },
+    "carry": {
+      "phonetic_uk": "ˈkær.i",
+      "phonetic_us": "ˈker.i",
+      "audio_uk": "/media/english/uk_pron/u/ukc/ukcar/ukcarpe010.mp3",
+      "audio_us": "/media/english/us_pron/c/car/carry/carry.mp3",
+      "examples": [
+        "Would you like me to carry your bag for you?",
+        "She carried her tired child upstairs to bed.",
+        "These books are too heavy for me to carry."
+      ]
+    },
+    "suitcase": {
+      "phonetic_uk": "ˈsuːt.keɪs",
+      "phonetic_us": "ˈsuːt.keɪs",
+      "audio_uk": "/media/english/uk_pron/u/uks/uksug/uksugar013.mp3",
+      "audio_us": "/media/english/us_pron/u/uss/ussug/ussugge004.mp3",
+      "examples": [
+        "Have you packed/unpacked your suitcase yet?",
+        "Have you packed your suitcase yet?"
+      ]
+    },
+    "block": {
+      "phonetic_uk": "blɒk",
+      "phonetic_us": "blɑːk",
+      "audio_uk": "/media/english/uk_pron/u/ukb/ukbli/ukbliss017.mp3",
+      "audio_us": "/media/english/us_pron/b/blo/bloc_/bloc.mp3",
+      "examples": [
+        "The museum is just six blocks away.",
+        "My friend and I live on the same block.",
+        "city block The company's headquarters is six storeys high and takes up an entire city block."
+      ]
+    },
+    "traveller": {
+      "phonetic_uk": "ˈtræv.",
+      "phonetic_us": "ˈtræv.",
+      "audio_uk": "/media/english/uk_pron/u/ukt/uktra/uktrap_021.mp3",
+      "audio_us": "/media/english/us_pron/t/tra/trave/traveler.mp3",
+      "examples": [
+        "This hotel is for serious travellers, rather than tourists on two-week holidays.",
+        "The travellers and six caravans moved onto the land earlier this week.",
+        "The school has 15 children from traveller families."
+      ]
+    },
+    "wherever": {
+      "phonetic_uk": "weəˈrev.ə",
+      "phonetic_us": "werˈev.ɚ",
+      "audio_uk": "/media/english/uk_pron/u/ukw/ukwhe/ukwheel023.mp3",
+      "audio_us": "/media/english/us_pron/w/whe/where/wherever.mp3",
+      "examples": [
+        "We can go wherever you like.",
+        "Wherever I go I always seem to bump into him.",
+        "All across Europe, wherever you look, marriage is in decline and divorce rates are soaring."
+      ]
+    },
+    "violin": {
+      "phonetic_uk": "ˌvaɪəˈlɪn",
+      "phonetic_us": "ˌvaɪ.əˈlɪn",
+      "audio_uk": "/media/english/uk_pron/u/ukv/ukvin/ukvineg016.mp3",
+      "audio_us": "/media/english/us_pron/v/vio/violi/violin.mp3",
+      "examples": null
+    },
+    "lively": {
+      "phonetic_uk": "ˈlaɪv.li",
+      "phonetic_us": "ˈlaɪv.li",
+      "audio_uk": "/media/english/uk_pron/u/ukl/uklit/uklitig016.mp3",
+      "audio_us": "/media/english/us_pron/l/liv/livel/lively.mp3",
+      "examples": [
+        "It's hard work teaching a class of lively children.",
+        "a lively city",
+        "They take a lively interest in their grandchildren."
+      ]
+    },
+    "spring roll": {
+      "phonetic_uk": "ˌsprɪŋ ˈrəʊl",
+      "phonetic_us": "ˌsprɪŋ ˈroʊl",
+      "audio_uk": "/media/english/uk_pron/u/uka/uka35/uka35030.mp3",
+      "audio_us": "/media/english/us_pron/u/usa/usa35/usa35030.mp3",
+      "examples": null
+    },
+    "moment": {
+      "phonetic_uk": "ˈməʊ.mənt",
+      "phonetic_us": "ˈmoʊ.mənt",
+      "audio_uk": "/media/english/uk_pron/u/ukm/ukmol/ukmoldo020.mp3",
+      "audio_us": "/media/english/us_pron/m/mom/momen/moment.mp3",
+      "examples": [
+        "a moment Can you wait a moment?",
+        "in a moment I'll be ready in just a moment.",
+        "a few moments A car drew up outside and a few moments later the doorbell rang."
+      ]
+    },
+    "at the moment": {
+      "phonetic_uk": null,
+      "phonetic_us": null,
+      "audio_uk": null,
+      "audio_us": null,
+      "examples": [
+        "Sorry, she's not here at the moment.",
+        "I'm a bit busy at the moment.",
+        "He's not dating anyone at the moment."
+      ]
+    },
+    "tonight": {
+      "phonetic_uk": "təˈnaɪt",
+      "phonetic_us": "təˈnaɪt",
+      "audio_uk": "/media/english/uk_pron/u/ukt/ukton/uktoned008.mp3",
+      "audio_us": "/media/english/us_pron/t/ton/tonig/tonight.mp3",
+      "examples": [
+        "Tonight will be my first chance to meet her.",
+        "Tonight's meeting will take place in the school hall.",
+        "The game will be shown on TV beginning at 8 o’clock tonight."
+      ]
+    },
+    "lantern": {
+      "phonetic_uk": "ˈlæn.tən",
+      "phonetic_us": "ˈlæn.tɚn",
+      "audio_uk": "/media/english/uk_pron/u/ukl/uklan/uklangu012.mp3",
+      "audio_us": "/media/english/us_pron/l/lan/lante/lantern.mp3",
+      "examples": null
+    },
+    "mountain": {
+      "phonetic_uk": "ˈmaʊn.tɪn",
+      "phonetic_us": "ˈmaʊn.t",
+      "audio_uk": "/media/english/uk_pron/u/ukm/ukmot/ukmotor019.mp3",
+      "audio_us": "/media/english/us_pron/m/mou/mount/mountain.mp3",
+      "examples": [
+        "high mountain The Matterhorn is one of the highest mountains in Europe.",
+        "tall mountain Kilimanjaro is Africa's tallest mountain.",
+        "mountain range The region is divided by huge mountain ranges and swift running rivers."
+      ]
+    },
+    "climb": {
+      "phonetic_uk": "klaɪm",
+      "phonetic_us": "klaɪm",
+      "audio_uk": "/media/english/uk_pron/u/ukc/ukcli/ukclima006.mp3",
+      "audio_us": "/media/english/us_pron/c/cli/climb/climb.mp3",
+      "examples": [
+        "climb to The plane climbed quickly to a height of 30,000 feet.",
+        "climb up As it leaves the village, the road climbs steeply up the mountain.",
+        "The sun climbed higher in the sky."
+      ]
+    },
+    "natural": {
+      "phonetic_uk": "ˈnætʃ.",
+      "phonetic_us": "ˈnætʃ.ɚ.",
+      "audio_uk": "/media/english/uk_pron/u/ukn/uknat/uknativ006.mp3",
+      "audio_us": "/media/english/us_pron/n/nat/natur/natural.mp3",
+      "examples": [
+        "a natural substance",
+        "People say that breast-feeding is better than bottle-feeding because it's more natural.",
+        "natural causes He died from natural causes (= because he was old or ill)."
+      ]
+    },
+    "beauty": {
+      "phonetic_uk": "ˈbjuː.ti",
+      "phonetic_us": "ˈbjuː.t̬i",
+      "audio_uk": "/media/english/uk_pron/u/ukb/ukbea/ukbeau_012.mp3",
+      "audio_us": "/media/english/us_pron/b/bea/beaut/beauty.mp3",
+      "examples": [
+        "natural beauty This is an area of outstanding natural beauty.",
+        "She believes that beauty comes from within.",
+        "The piece of music he played had a haunting beauty."
+      ]
+    },
+    "respect": {
+      "phonetic_uk": "rɪˈspekt",
+      "phonetic_us": "rɪˈspekt",
+      "audio_uk": "/media/english/uk_pron/u/ukr/ukres/ukresou008.mp3",
+      "audio_us": "/media/english/us_pron/r/res/respe/respect.mp3",
+      "examples": [
+        "I have great/the greatest respect for his ideas, although I don't agree with them.",
+        "She is a formidable figure who commands a great deal of respect (= who is greatly admired by others).",
+        "New teachers have to earn/gain the respect of their students."
+      ]
+    },
+    "elder": {
+      "phonetic_uk": "ˈel.də",
+      "phonetic_us": "ˈel.dɚ",
+      "audio_uk": "/media/english/uk_pron/u/uke/ukeld/ukelder001.mp3",
+      "audio_us": "/media/english/us_pron/e/eld/elder/elder.mp3",
+      "examples": [
+        "You should listen to the advice of your elders.",
+        "village elder They consulted the village elders.",
+        "someone’s elder by formal She is my elder by three years (= three years older than I am)."
+      ]
+    },
+    "double": {
+      "phonetic_uk": "ˈdʌb.",
+      "phonetic_us": "ˈdʌb.",
+      "audio_uk": "/media/english/uk_pron/u/ukd/ukdou/ukdoubl001.mp3",
+      "audio_us": "/media/english/us_pron/d/dou/doubl/double.mp3",
+      "examples": [
+        "I ordered a double espresso (= two standard amounts in one cup).",
+        "double doors Go through the double doors and turn left.",
+        "The word \"cool\" has a double \"o\" in the middle."
+      ]
+    },
+    "forever": {
+      "phonetic_uk": "fəˈrev.ə",
+      "phonetic_us": "fɔːˈrev.ɚ",
+      "audio_uk": "/media/english/uk_pron/u/ukf/ukfor/ukfores013.mp3",
+      "audio_us": "/media/english/us_pron/f/for/forev/forever.mp3",
+      "examples": [
+        "I like the house but I don't imagine I'll live there forever.",
+        "He always leaves the lights on.constantlyHe's constantly losing his keys.continuallyShe is continually late to class.for everI am for ever misplacing my bag!time after timeTime after time he comes back and pretends like nothing has happened.\n            See more results »",
+        "The power plant is always running. for everI will love you for ever.permanentlyHis reputation was permanently ruined by the scandal.eternallyEvildoers shall be eternally condemned.uninterruptedlyStocks have risen uninterruptedly for the last three months.\n            See more results »"
+      ]
+    },
+    "decorate": {
+      "phonetic_uk": "ˈdek.ə.reɪt",
+      "phonetic_us": "ˈdek.",
+      "audio_uk": "/media/english/uk_pron/u/ukd/ukdec/ukdecod014.mp3",
+      "audio_us": "/media/english/us_pron/d/dec/decor/decorate.mp3",
+      "examples": [
+        "decorate something with something They decorated the wedding car with ribbons and flowers.",
+        "We're going to decorate the kitchen next week.",
+        "I hate the smell of paint when I'm decorating."
+      ]
+    },
+    "put up": {
+      "phonetic_uk": "ˈpʊt.ʌp ˌdʒɒb",
+      "phonetic_us": "ˈpʊt̬.ʌp ˌdʒɑːb",
+      "audio_uk": "/media/english/uk_pron/u/ukp/ukpus/ukpushc029.mp3",
+      "audio_us": "/media/english/us_pron/u/usp/uspur/uspurvi018.mp3",
+      "examples": [
+        "The hotel looked like a good investment, but it turned out that the whole thing was a put-up job."
+      ]
+    },
+    "Spring Festival couplets": {
+      "phonetic_uk": null,
+      "phonetic_us": null,
+      "audio_uk": null,
+      "audio_us": null,
+      "examples": null
+    },
+    "beforehand": {
+      "phonetic_uk": "bɪˈfɔː.hænd",
+      "phonetic_us": "bɪˈfɔːr.hænd",
+      "audio_uk": "/media/english/uk_pron/u/ukb/ukbee/ukbeer_012.mp3",
+      "audio_us": "/media/english/us_pron/e/eus/eus70/eus70476.mp3",
+      "examples": [
+        "I knew she was coming that afternoon because she had phoned beforehand to say so.",
+        "I was sure I’d seen her face before.beforehandHe knew beforehand that his speech would anger many people.previouslyShe has previously denied the accusations.in advanceYou should prepare your ingredients in advance.ahead of timeUS Try to arrive at the airport ahead of time to minimize the possibility of delays. \n            See more results »",
+        "She had phoned beforehand to let me know she was coming."
+      ]
+    },
+    "prepare": {
+      "phonetic_uk": "prɪˈpeə",
+      "phonetic_us": "prɪˈper",
+      "audio_uk": "/media/english/uk_pron/u/ukp/ukpre/ukpremi021.mp3",
+      "audio_us": "/media/english/us_pron/p/pre/prepa/prepare.mp3",
+      "examples": [
+        "prepare for Have you prepared for your interview?",
+        "She'll prepare the food ahead of time and freeze it.",
+        "prepare someone for something This course prepares students for middle and senior managerial positions."
+      ]
+    },
+    "meaning": {
+      "phonetic_uk": "ˈmiː.nɪŋ",
+      "phonetic_us": "ˈmiː.nɪŋ",
+      "audio_uk": "/media/english/uk_pron/u/ukm/ukmcc/ukmccar021.mp3",
+      "audio_us": "/media/english/us_pron/m/mea/meani/meaning.mp3",
+      "examples": [
+        "The word \"flight\" has two different meanings: a plane journey, and the act of running away.",
+        "The meaning of his gesture was clear.",
+        "hidden meaning His novels often have a hidden meaning."
+      ]
+    },
+    "during": {
+      "phonetic_uk": "ˈdʒʊə.rɪŋ",
+      "phonetic_us": "ˈdʊr.ɪŋ",
+      "audio_uk": "/media/english/uk_pron/u/ukd/ukdun/ukdunny019.mp3",
+      "audio_us": "/media/english/us_pron/d/dur/durin/during.mp3",
+      "examples": [
+        "They work during the night and sleep by day.",
+        "There were huge advances in aviation technology during the Second World War.",
+        "I woke up several times during the night."
+      ]
+    },
+    "last": {
+      "phonetic_uk": "lɑːst",
+      "phonetic_us": "læst",
+      "audio_uk": "/media/english/uk_pron/u/ukl/uklar/uklargi028.mp3",
+      "audio_us": "/media/english/us_pron/l/las/last_/last.mp3",
+      "examples": [
+        "[ + to infinitive ] I hate being the last one to arrive at a meeting.",
+        "the last He was the last person to see the woman alive, and suspicion immediately fell on him.",
+        "Our house is the last one on the left before the traffic lights."
+      ]
+    },
+    "till": {
+      "phonetic_uk": "tɪl",
+      "phonetic_us": "tɪl",
+      "audio_uk": "/media/english/uk_pron/u/ukt/uktig/uktight008.mp3",
+      "audio_us": "/media/english/us_pron/t/til/till_/till.mp3",
+      "examples": [
+        "We waited till six thirty for you.",
+        "Up till 1918, women in Britain were not allowed to vote.",
+        "How long is it till the baby is due?"
+      ]
+    },
+    "heart": {
+      "phonetic_uk": "hɑːt",
+      "phonetic_us": "hɑːrt",
+      "audio_uk": "/media/english/uk_pron/u/ukh/ukhea/ukheads027.mp3",
+      "audio_us": "/media/english/us_pron/h/hea/heart/heart.mp3",
+      "examples": [
+        "He's got a weak/bad heart (= his heart is not healthy).",
+        "your heart beats Isabel's heart was beating fast with fright.",
+        "heart condition"
+      ]
+    }
+  }
+}

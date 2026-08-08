@@ -12,3 +12,10 @@ test-results/
 
 # Node
 node_modules/
+
+# Python
+__pycache__/
+*.pyc
+
+# 抓取进度文件
+data/.cambridge_progress.json

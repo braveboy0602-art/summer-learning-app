@@ -57,6 +57,19 @@ const StudyApp = {
       console.warn('[StudyApp] 单词详情数据加载失败(不影响基本功能):', err);
     }
 
+    // ---- 加载 Cambridge 词典数据（IPA 音标等） ----
+    this._cambridgeData = {};
+    try {
+      const resp = await fetch('data/cambridge_7a.json');
+      if (resp.ok) {
+        const cambridgeData = await resp.json();
+        this._cambridgeData = cambridgeData.words || {};
+        console.log('[StudyApp] Cambridge 数据已加载:', Object.keys(this._cambridgeData).length, '个词');
+      }
+    } catch (err) {
+      console.warn('[StudyApp] Cambridge 数据加载失败(不影响基本功能):', err);
+    }
+
     this._renderHeader();
     this._renderSidebar();
 
@@ -471,6 +484,43 @@ const StudyApp = {
    * Promise 化的语音播放 —— 用于自动跟读循环
    * @returns {Promise<void>}
    */
+  /**
+   * 统一播放单词发音：优先本地 Cambridge MP3（英式 UK），缺失或失败回退浏览器 TTS
+   * @param {string} word
+   * @returns {Promise<void>} 播放完成（或兜底朗读完成）时 resolve
+   */
+  _playWordAudio(word) {
+    const entry = this._cambridgeData ? this._cambridgeData[word] : null;
+    if (!entry || !entry.audio_uk) {
+      // 无 Cambridge 音频的词（含其他年级）：用原 TTS 方案
+      return speakText(word);
+    }
+
+    // 播放 mp3 前停掉 TTS，防止声音重叠
+    window.speechSynthesis && window.speechSynthesis.cancel();
+
+    // 本地文件命名：单词转小写、非字母数字转下划线（与抓取脚本 safe_filename 一致）
+    const fileName = word.toLowerCase().replace(/[^a-z0-9]+/g, '_').replace(/^_+|_+$/g, '') || 'word';
+    const src = `audio/${fileName}_uk.mp3`;
+
+    return new Promise((resolve) => {
+      const audio = new Audio(src);
+      let settled = false;
+      const fallback = () => {
+        if (settled) return;
+        settled = true;
+        console.warn('[StudyApp] mp3 播放失败，回退 TTS:', word);
+        speakText(word).then(resolve);  // 等 TTS 朗读完成再结束
+      };
+      audio.onended = () => { if (!settled) { settled = true; resolve(); } };
+      audio.onerror = fallback;
+      audio.play().catch(fallback);
+    });
+  },
+
+  /**
+   * Promise 化的语音播放 —— 用于自动跟读循环
+   */
   _playAudioAsync(word) {
     Tracker.track('play_audio', {
       wordId: word,
@@ -478,7 +528,7 @@ const StudyApp = {
       categoryId: this.currentCategoryId,
       source: 'auto_play'
     });
-    return speakText(word);
+    return this._playWordAudio(word);
   },
 
   /**
@@ -1241,13 +1291,24 @@ const StudyApp = {
 
     const lastStudyHtml = lastStudy ? `<div class="word-last-study">最近学习：${lastStudy}</div>` : '';
 
+    // 音标区：左"课本"框（现有 phonetic）+ 右"IPA"框（Cambridge UK 音标，缺失则隐藏）
+    const cambridgeEntry = this._cambridgeData ? this._cambridgeData[word.en] : null;
+    const ipaUk = cambridgeEntry && cambridgeEntry.phonetic_uk ? cambridgeEntry.phonetic_uk : null;
+    let phoneticHtml = '';
+    if (word.phonetic || ipaUk) {
+      phoneticHtml = `<div class="word-phonetic-row">
+        ${word.phonetic ? `<div class="phonetic-box phonetic-book"><span class="phonetic-label">📖 课本</span><span class="phonetic-text">${this._escapeHtml(word.phonetic)}</span></div>` : ''}
+        ${ipaUk ? `<div class="phonetic-box phonetic-ipa"><span class="phonetic-label"><img src="images/QQ20260808-202004.png" alt="IPA" class="phonetic-icon"> IPA</span><span class="phonetic-text">${this._escapeHtml(ipaUk)}</span></div>` : ''}
+      </div>`;
+    }
+
     return `
       <div class="word-card" data-word-key="${key}" style="animation-delay:${(index % 10) * 0.02}s">
         <div class="word-top">
           <span class="word-en">${this._escapeHtml(word.en)}</span>
           <button class="btn btn-play" data-word="${this._escapeAttr(word.en)}" title="点击播放发音">🔊</button>
         </div>
-        ${word.phonetic ? `<div class="word-phonetic">${this._escapeHtml(word.phonetic)}</div>` : ''}
+        ${phoneticHtml}
         <div class="word-cn">${this._escapeHtml(word.cn)}</div>
         <div class="word-mastery">
           <div class="mastery-stars">${stars}</div>
@@ -1270,7 +1331,7 @@ const StudyApp = {
       categoryId: this.currentCategoryId,
       source: 'word_card'
     });
-    speakText(word);
+    this._playWordAudio(word);
     this._animatePlayButton(word);
   },
 

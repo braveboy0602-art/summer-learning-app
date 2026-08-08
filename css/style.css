@@ -1802,12 +1802,12 @@ body {
 
 .word-detail-modal {
   background: #fff;
-  border-radius: var(--radius);
-  width: min(520px, 92vw);
+  border-radius: 16px;
+  width: min(380px, 92vw);
   max-height: 82vh;
   display: flex;
   flex-direction: column;
-  box-shadow: var(--shadow-lg);
+  /* 扁平风格：无阴影 */
   animation: slideUp .25s ease;
   overflow: hidden;
 }
@@ -1878,120 +1878,217 @@ body {
 }
 
 /* 详情头部：单词 + 音标 + 释义 */
+/* ===== 详情：核心信息区 ===== */
 .detail-word-header {
   text-align: center;
-  padding-bottom: 16px;
-  border-bottom: 1px solid var(--gray-100);
-  margin-bottom: 16px;
+  padding-bottom: 0;
 }
 
 .detail-word-en {
-  font-size: 1.6rem;
+  font-size: 24px;
   font-weight: 700;
-  color: var(--primary);
+  color: #5b4cdb;
   letter-spacing: .02em;
 }
 
-.detail-word-phonetic {
-  font-size: .95rem;
-  color: var(--gray-400);
+.detail-word-cn {
+  font-size: 15px;
+  color: var(--gray-500);
   margin-top: 4px;
 }
 
-.detail-word-cn {
-  font-size: 1.1rem;
-  color: var(--gray-700);
-  margin-top: 8px;
+.detail-word-tags {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 12px;
 }
 
-.detail-word-play {
-  display: inline-flex;
-  align-items: center;
-  gap: 4px;
-  margin-top: 8px;
-  font-size: .85rem;
-  color: var(--primary);
+.detail-tag {
+  font-size: 12px;
+  background: var(--gray-100);
+  color: var(--gray-600);
+  border-radius: 999px;
+  padding: 4px 10px;
+}
+
+.detail-tag-phonetic {
+  font-family: var(--font-mono);
+}
+
+.detail-tag-play {
   cursor: pointer;
-  background: var(--primary-light);
-  border: none;
-  padding: 4px 14px;
-  border-radius: 20px;
-  transition: all .15s;
+  transition: background .15s;
 }
 
-.detail-word-play:hover {
-  background: var(--secondary-light);
+.detail-tag-play:hover {
+  background: var(--gray-200);
 }
 
-/* 记忆方法卡片 */
+/* ===== 分隔线 ===== */
+.detail-divider {
+  height: 1px;
+  background: #f0f0f0;
+  margin: 16px 0;
+}
+
+/* ===== 章节标题（圆点装饰） ===== */
 .detail-section {
-  margin-bottom: 14px;
+  margin-bottom: 4px;
 }
 
 .detail-section-title {
-  font-size: .8rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: .05em;
-  color: var(--gray-400);
-  margin-bottom: 6px;
-}
-
-.detail-method-card {
-  background: var(--primary-light);
-  border-radius: var(--radius-sm);
-  padding: 12px 14px;
   display: flex;
-  align-items: flex-start;
-  gap: 10px;
+  align-items: center;
+  gap: 8px;
+  font-size: .95rem;
+  font-weight: 600;
+  color: var(--gray-800);
+  margin-bottom: 12px;
 }
 
-.detail-method-card.ai {
-  background: var(--warning-light);
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.dot-purple { background: #5b4cdb; }
+.dot-pink   { background: #f472b6; }
+.dot-green  { background: #34d399; }
+
+/* ===== 例句卡 ===== */
+.detail-example-card {
+  position: relative;
+  background: var(--gray-100);
+  border-radius: 10px;
+  padding: 12px 14px;
+  margin-bottom: 10px;
+}
+
+.detail-example-en {
+  font-size: 15px;
+  color: var(--gray-800);
+  line-height: 1.5;
+  padding-right: 34px;  /* 给右上角发音按钮留位 */
+}
+
+.ex-highlight {
+  color: #5b4cdb;
+  font-weight: 700;
+}
+
+.detail-example-zh {
+  font-size: 13px;
+  color: var(--gray-500);
+  margin-top: 6px;
+}
+
+.detail-example-play {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: #fff;
+  border: 1px solid var(--gray-200);
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all .15s;
+}
+
+.detail-example-play:hover {
+  border-color: #5b4cdb;
+}
+
+.detail-examples-toggle {
+  display: block;
+  margin: 4px auto 0;
+  background: none;
+  border: none;
+  font-size: .8rem;
+  color: var(--gray-500);
+  cursor: pointer;
+  padding: 4px 10px;
+  border-radius: 6px;
+  transition: all .15s;
+}
+
+.detail-examples-toggle:hover {
+  color: #5b4cdb;
+  background: var(--gray-100);
+}
+
+/* ===== 记忆方法卡 ===== */
+.detail-method-card {
+  background: #f7f5ff;  /* 淡紫（接近白） */
+  border-radius: 10px;
+  padding: 14px;
 }
 
 .detail-method-badge {
-  font-size: .7rem;
-  font-weight: 700;
-  background: var(--primary);
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 600;
+  background: #5b4cdb;
   color: #fff;
-  padding: 2px 8px;
+  padding: 3px 10px;
   border-radius: 6px;
-  white-space: nowrap;
-  flex-shrink: 0;
-  margin-top: 1px;
-}
-
-.detail-method-card.ai .detail-method-badge {
-  background: var(--warning);
+  margin-bottom: 10px;
 }
 
 .detail-method-text {
-  font-size: .95rem;
+  font-size: 14px;
   color: var(--gray-700);
   line-height: 1.6;
 }
 
-/* 搭配 / 派生 / 例句列表 */
-.detail-list {
+.detail-method-text strong {
+  color: var(--gray-800);
+}
+
+/* ===== 派生词列表 ===== */
+.detail-derivation-item {
   display: flex;
-  flex-direction: column;
-  gap: 4px;
+  align-items: baseline;
+  gap: 8px;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--gray-100);
+  font-size: 14px;
 }
 
-.detail-list-item {
-  font-size: .9rem;
-  color: var(--gray-600);
-  padding: 6px 10px;
-  background: var(--gray-50);
-  border-radius: 8px;
-  line-height: 1.5;
+.detail-derivation-item:last-child {
+  border-bottom: none;
 }
 
-.detail-list-item .label {
+.dd-word {
   font-weight: 600;
+  color: var(--gray-800);
+}
+
+.dd-pos {
+  font-size: 11px;
+  color: #5b4cdb;
+  background: var(--primary-light);
+  border-radius: 4px;
+  padding: 1px 6px;
+  flex-shrink: 0;
+}
+
+.dd-meaning {
+  font-size: 13px;
   color: var(--gray-500);
-  margin-right: 4px;
+}
+
+/* ===== 来源栏 ===== */
+.detail-source {
+  font-size: .75rem;
+  color: var(--gray-400);
 }
 
 /* 无数据提示 */

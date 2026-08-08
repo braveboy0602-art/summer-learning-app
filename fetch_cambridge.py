@@ -88,9 +88,9 @@ def parse_entry(html):
         if src:
             result[key_au] = src.group(1)
 
-    # 例句：所有 .examp 元素的文本
+    # 例句：匹配所有 class 含 "examp" 的元素（含 "More examples" 折叠区的 li.eg.dexamp）
     examples = []
-    for m in re.finditer(r'class="examp[^"]*"[^>]*>(.*?)</div>', html, re.S):
+    for m in re.finditer(r'class="[^"]*examp[^"]*"[^>]*>(.*?)</(?:div|li)>', html, re.S):
         text = re.sub(r"<[^>]+>", "", m.group(1))
         text = text.replace("​", "").strip()
         if text and text not in examples:

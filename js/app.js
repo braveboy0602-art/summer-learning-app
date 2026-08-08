@@ -1606,6 +1606,22 @@ const StudyApp = {
    * 打开单词详情弹窗
    * @param {string} wordEn - 单词的英文（小写）
    */
+  /**
+   * 从词汇表查找单词的中文释义（用于无 word_details 数据的词）
+   */
+  _lookupCn(wordEn) {
+    try {
+      const groups = DataStore.getGroups('english') || [];
+      const target = wordEn.toLowerCase();
+      for (const g of groups) {
+        const words = DataStore.getGroupWords('english', g.id) || [];
+        const hit = words.find(w => w.en && w.en.toLowerCase() === target);
+        if (hit && hit.cn) return hit.cn;
+      }
+    } catch (e) { /* 忽略查找失败 */ }
+    return '';
+  },
+
   _openWordDetail(wordEn) {
     const overlay = document.getElementById('wordDetailOverlay');
     const body = document.getElementById('wordDetailBody');
@@ -1614,8 +1630,13 @@ const StudyApp = {
     // 显示用原始大小写，查询用小写
     const displayWord = wordEn;
     const lookupWord = wordEn.toLowerCase();
-    const wordData = this._wordDetailData?.[lookupWord];
-    if (!wordData) {
+    const wordData = this._wordDetailData?.[lookupWord] || {};
+    // 无详情数据的词：释义从词汇表补（例句/音标来自 Cambridge 数据）
+    if (!wordData.cn) {
+      wordData.cn = this._lookupCn(displayWord) || '';
+    }
+    const hasAnything = !!wordData.cn || !!(this._cambridgeData && this._cambridgeData[displayWord]);
+    if (!hasAnything) {
       body.innerHTML = `<div class="detail-empty" style="text-align:center;padding:40px 0;">
         😅 暂无「${this._escapeHtml(displayWord)}」的详情数据</div>`;
       overlay.style.display = 'flex';
@@ -1625,19 +1646,52 @@ const StudyApp = {
     body.innerHTML = this._renderWordDetail(wordData, displayWord);
     overlay.style.display = 'flex';
 
-    // 点击发音按钮播放
-    const playBtn = body.querySelector('.detail-word-play');
-    if (playBtn) {
-      playBtn.addEventListener('click', () => this.playAudio(wordEn));
+    // 发音标签 → 播放单词发音
+    const playTag = body.querySelector('.detail-tag-play');
+    if (playTag) {
+      playTag.addEventListener('click', () => this.playAudio(wordEn));
+    }
+
+    // 例句发音按钮 → TTS 朗读例句
+    body.querySelectorAll('.detail-example-play').forEach(btn => {
+      btn.addEventListener('click', () => speakText(btn.dataset.example));
+    });
+
+    // 例句展开/折叠
+    const toggleBtn = body.querySelector('#detailExamplesToggle');
+    if (toggleBtn) {
+      toggleBtn.addEventListener('click', () => {
+        const more = body.querySelector('.detail-examples-more');
+        const expanded = more.style.display !== 'none';
+        more.style.display = expanded ? 'none' : 'block';
+        toggleBtn.textContent = expanded
+          ? `展开全部（${toggleBtn.dataset.total} 条）▾`
+          : '收起 ▴';
+      });
     }
   },
 
   /**
-   * 渲染单词详情内容
+   * 渲染单词详情内容（移动端弹窗风格）
    */
   _renderWordDetail(wordData, wordEn) {
-    const cn = this._escapeHtml(wordData.cn || '');
-    const phonetic = wordData.phonetic || '';
+    const esc = (s) => this._escapeHtml(s);
+    const cn = wordData.cn || '';
+    const cambridgeEntry = this._cambridgeData ? this._cambridgeData[wordEn] : null;
+
+    // 音标：优先 Cambridge UK（加方括号），缺则用详情数据
+    const phonetic = cambridgeEntry && cambridgeEntry.phonetic_uk
+      ? `[${cambridgeEntry.phonetic_uk}]`
+      : (wordData.phonetic || '');
+    const hasAudio = !!(cambridgeEntry && cambridgeEntry.audio_uk);
+
+    // 例句：Cambridge 优先，详情数据兜底；兼容两种格式（旧字符串数组 / 新 {en,zh} 对象数组）
+    const rawExamples = (cambridgeEntry && cambridgeEntry.examples && cambridgeEntry.examples.length)
+      ? cambridgeEntry.examples
+      : (wordData.examples || []);
+    const examples = rawExamples.map(ex =>
+      typeof ex === 'string' ? { en: ex, zh: '' } : { en: ex.en || '', zh: ex.zh || '' }
+    );
 
     // 记忆方法（优先书中原装，其次AI辅助）
     const hasBookMethod = !!wordData.method;
@@ -1645,91 +1699,93 @@ const StudyApp = {
     const methodText = hasBookMethod ? wordData.method : (hasAiMethod ? wordData.method_ai : '');
     const methodType = hasBookMethod ? wordData.method_type : (hasAiMethod ? wordData.method_type_ai : '');
     const methodBadge = hasBookMethod ? '📘 书中方法' : (hasAiMethod ? '🤖 AI辅助' : '');
-    const methodCardClass = hasAiMethod && !hasBookMethod ? 'detail-method-card ai' : 'detail-method-card';
 
-    // 搭配/派生/例句
-    const collocations = wordData.collocations || [];
     const derivations = wordData.derivations || [];
-    const notes = wordData.notes || [];
-    const examples = wordData.examples || [];
-    const synonyms = wordData.synonyms || [];
-    const antonyms = wordData.antonyms || [];
+
+    // 例句中高亮目标单词（含常见变形 s/es/ed/ing）
+    const highlight = (sentence) => {
+      const escWord = wordEn.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+      const re = new RegExp(`\\b(${escWord}(?:s|es|ed|ing)?)\\b`, 'gi');
+      return esc(sentence).replace(re, '<strong class="ex-highlight">$1</strong>');
+    };
+
+    // 拆分派生词 "greeting（n. 祝贺，问候）" → {word, pos, meaning}
+    const parseDerivation = (d) => {
+      const m = String(d).match(/^([^（(]+)[（(]([a-zA-Z.]*)\s*([^）)]*)[）)]/);
+      if (m) return { word: m[1].trim(), pos: m[2].trim(), meaning: m[3].trim() };
+      return { word: String(d), pos: '', meaning: '' };
+    };
 
     let html = '';
 
-    // ===== 头部 =====
+    // ===== 核心信息区 =====
     html += `<div class="detail-word-header">
-      <div class="detail-word-en">${this._escapeHtml(wordEn)}</div>
-      ${phonetic ? `<div class="detail-word-phonetic">${phonetic}</div>` : ''}
-      ${cn ? `<div class="detail-word-cn">${cn}</div>` : ''}
-      <button class="detail-word-play">🔊 点击发音</button>
+      <div class="detail-word-en">${esc(wordEn)}</div>
+      ${cn ? `<div class="detail-word-cn">${esc(cn)}</div>` : ''}
+      <div class="detail-word-tags">
+        ${phonetic ? `<span class="detail-tag detail-tag-phonetic">${esc(phonetic)}</span>` : ''}
+        ${hasAudio ? `<span class="detail-tag detail-tag-play" data-play-word="${esc(wordEn)}">🔊 发音</span>` : ''}
+      </div>
     </div>`;
 
-    // ===== 记忆方法 =====
-    if (methodText) {
+    // ===== 例句区 =====
+    if (examples.length > 0) {
+      const maxVisible = 2;
+      const showMore = examples.length > maxVisible;
+      const renderExample = (ex) => `
+        <div class="detail-example-card">
+          <button class="detail-example-play" data-example="${esc(ex.en)}" title="朗读例句">🔊</button>
+          <div class="detail-example-en">${highlight(ex.en)}</div>
+          ${ex.zh ? `<div class="detail-example-zh">${esc(ex.zh)}</div>` : ''}
+        </div>`;
+
+      html += `<div class="detail-divider"></div>`;
       html += `<div class="detail-section">
-        <div class="detail-section-title">🧠 记忆方法</div>
-        <div class="${methodCardClass}">
-          <span class="detail-method-badge">${methodBadge}</span>
-          <span class="detail-method-text">
-            <strong>${this._escapeHtml(methodType || '')}</strong>：${this._escapeHtml(methodText)}
-          </span>
+        <div class="detail-section-title"><span class="dot dot-purple"></span>例句</div>
+        <div class="detail-examples">
+          ${examples.slice(0, showMore ? maxVisible : examples.length).map(renderExample).join('')}
         </div>
+        ${showMore ? `
+          <div class="detail-examples-more" style="display:none">
+            ${examples.slice(maxVisible).map(renderExample).join('')}
+          </div>
+          <button class="detail-examples-toggle" id="detailExamplesToggle" data-total="${examples.length}">展开全部（${examples.length} 条）▾</button>` : ''}
       </div>`;
     }
 
-    // ===== 搭配用法 =====
-    if (collocations.length > 0) {
+    // ===== 记忆方法 =====
+    if (methodText) {
+      html += `<div class="detail-divider"></div>`;
       html += `<div class="detail-section">
-        <div class="detail-section-title">📎 搭配用法</div>
-        <div class="detail-list">
-          ${collocations.map(c => `<div class="detail-list-item">${this._escapeHtml(c)}</div>`).join('')}
+        <div class="detail-section-title"><span class="dot dot-pink"></span>记忆方法</div>
+        <div class="detail-method-card">
+          <span class="detail-method-badge">${methodBadge}</span>
+          <div class="detail-method-text">
+            ${methodType ? `<strong>${esc(methodType)}</strong>：` : ''}${esc(methodText)}
+          </div>
         </div>
       </div>`;
     }
 
     // ===== 派生词 =====
     if (derivations.length > 0) {
+      html += `<div class="detail-divider"></div>`;
       html += `<div class="detail-section">
-        <div class="detail-section-title">🌱 派生词</div>
-        <div class="detail-list">
-          ${derivations.map(d => `<div class="detail-list-item">${this._escapeHtml(d)}</div>`).join('')}
+        <div class="detail-section-title"><span class="dot dot-green"></span>派生词</div>
+        <div class="detail-derivation-list">
+          ${derivations.map(d => {
+            const p = parseDerivation(d);
+            return `<div class="detail-derivation-item">
+              <span class="dd-word">${esc(p.word)}</span>
+              ${p.pos ? `<span class="dd-pos">${esc(p.pos)}</span>` : ''}
+              ${p.meaning ? `<span class="dd-meaning">${esc(p.meaning)}</span>` : ''}
+            </div>`;
+          }).join('')}
         </div>
       </div>`;
     }
 
-    // ===== 例句 =====
-    if (examples.length > 0) {
-      html += `<div class="detail-section">
-        <div class="detail-section-title">💬 例句</div>
-        <div class="detail-list">
-          ${examples.map(e => `<div class="detail-list-item">${this._escapeHtml(e)}</div>`).join('')}
-        </div>
-      </div>`;
-    }
-
-    // ===== 笔记/辨析 =====
-    if (notes.length > 0) {
-      html += `<div class="detail-section">
-        <div class="detail-section-title">📝 注意</div>
-        <div class="detail-list">
-          ${notes.map(n => `<div class="detail-list-item">${this._escapeHtml(n)}</div>`).join('')}
-        </div>
-      </div>`;
-    }
-
-    // ===== 同义词/反义词 =====
-    if (synonyms.length > 0 || antonyms.length > 0) {
-      html += `<div class="detail-section">
-        <div class="detail-section-title">🔗 关联词汇</div>
-        <div class="detail-list">
-          ${synonyms.map(s => `<div class="detail-list-item"><span class="label">同义</span> ${this._escapeHtml(s)}</div>`).join('')}
-          ${antonyms.map(a => `<div class="detail-list-item"><span class="label">反义</span> ${this._escapeHtml(a)}</div>`).join('')}
-        </div>
-      </div>`;
-    }
-
-    // 来源说明
+    // ===== 来源栏 =====
     const sourceMap = {
       'pdf': '《初中英语词汇词根+联想记忆法》',
       'yu_speed': '《英语词汇速记大全》',
@@ -1739,9 +1795,8 @@ const StudyApp = {
     };
     const sourceText = sourceMap[wordData.source] || '';
     if (sourceText) {
-      html += `<div class="detail-section" style="margin-bottom:0">
-        <div style="font-size:.75rem;color:var(--gray-400);text-align:right">📚 来源：${sourceText}</div>
-      </div>`;
+      html += `<div class="detail-divider"></div>`;
+      html += `<div class="detail-source">📚 来源：${sourceText}</div>`;
     }
 
     return html;

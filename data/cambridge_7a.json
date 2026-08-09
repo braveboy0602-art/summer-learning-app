@@ -1,30 +1,68 @@
 {
   "meta": {
     "source": "dictionary.cambridge.org",
-    "scraped_at": "2026-08-08T12:32:35",
+    "scraped_at": "2026-08-09T10:40:04",
     "total": 407,
-    "found": 393,
-    "null": 14,
-    "audio_downloaded": 742,
+    "found": 359,
+    "null": 1,
+    "phrase_no_pron": 47,
+    "audio_downloaded": 716,
     "audio_failed": 0,
     "missing": [
+      "paper-cutting"
+    ],
+    "phrase_no_pron_list": [
+      "go by",
+      "be full of",
       "be good at",
+      "be ready to do something",
       "be interested in",
+      "good luck",
       "Chinese chess",
+      "at the weekend",
       "make friends with",
-      "paper-cutting",
       "all kinds of",
+      "take ... apart",
+      "come true",
+      "would like",
+      "in the future",
+      "sports field",
+      "as well",
+      "take place",
       "form teacher",
+      "in fact",
+      "care about",
+      "get up",
       "on weekdays",
+      "a little",
+      "enjoy oneself",
+      "leave for",
+      "of course",
+      "take part in",
+      "take turns",
+      "take care of",
       "have a sweet tooth",
+      "stay up",
+      "depend on",
+      "such as",
+      "for example",
+      "stand out",
+      "be made of",
+      "a set of",
+      "pay for",
+      "per cent",
       "lucky money",
       "red packet",
+      "in need",
       "rice dumpling",
       "in the hope of",
+      "at the moment",
+      "put up",
       "Spring Festival couplets"
     ],
+    "examples": "中文例句已从 cambridge_7a.json.bak 恢复（{en,zh} 结构）",
     "examples_source": "deepseek 改写（初一难度）+ 中文翻译",
-    "examples_ok": 6,
+    "examples_ok": 47,
     "examples_fail": 0
   },
   "words": {
@@ -69,7 +107,7 @@
       ]
     },
     "each other": {
-      "phonetic_uk": "ˌiːtʃ ˈʌð.ə",
+      "phonetic_uk": "ˌiːtʃ ˈʌð.ər",
       "phonetic_us": "ˌiːtʃ ˈʌð.ɚ",
       "audio_uk": "/media/english/uk_pron/u/ukc/ukcld/ukcld00391.mp3",
       "audio_us": "/media/english/us_pron/u/usc/uscld/uscld00391.mp3",
@@ -95,16 +133,16 @@
       "audio_us": null,
       "examples": [
         {
-          "en": "Time goes by so fast in summer.",
-          "zh": "夏天时间过得真快。"
+          "en": "What name do you go by?",
+          "zh": "你叫什么名字？"
         },
         {
-          "en": "A red bus went by our school.",
-          "zh": "一辆红色公交车经过了我们的学校。"
+          "en": "She goes by the name Lily.",
+          "zh": "她被称为莉莉。"
         },
         {
-          "en": "My cat goes by the name Mimi.",
-          "zh": "我的猫叫作咪咪。"
+          "en": "I go by Tom in class.",
+          "zh": "在班里我叫汤姆。"
         }
       ]
     },
@@ -255,16 +293,16 @@
       "audio_us": null,
       "examples": [
         {
-          "en": "The kids came back from the zoo. They were full of it.",
-          "zh": "孩子们从动物园回来了。他们满脑子都是这件事。"
+          "en": "My bag is full of books.",
+          "zh": "我的包里满是书。"
         },
         {
-          "en": "Emily loved the trip. She was full of it at dinner.",
-          "zh": "艾米丽喜欢这次旅行。她晚饭时满口都是这件事。"
+          "en": "The box is full of apples.",
+          "zh": "盒子里面满是苹果。"
         },
         {
-          "en": "Phoebe was so excited. She was full of it.",
-          "zh": "菲比非常兴奋。她满脑子都是这件事。"
+          "en": "Her room is full of toys.",
+          "zh": "她的房间满是玩具。"
         }
       ]
     },
@@ -295,16 +333,16 @@
       "audio_us": null,
       "examples": [
         {
-          "en": "She is good at singing English songs.",
-          "zh": "她擅长唱英语歌曲。"
-        },
-        {
           "en": "I am good at playing basketball.",
           "zh": "我擅长打篮球。"
         },
         {
-          "en": "He is good at drawing pictures.",
-          "zh": "他擅长画画。"
+          "en": "She is good at singing English songs.",
+          "zh": "她擅长唱英文歌。"
+        },
+        {
+          "en": "Tom is good at math and science.",
+          "zh": "汤姆擅长数学和科学。"
         }
       ]
     },
@@ -388,8 +426,28 @@
         }
       ]
     },
+    "be ready to do something": {
+      "phonetic_uk": null,
+      "phonetic_us": null,
+      "audio_uk": null,
+      "audio_us": null,
+      "examples": [
+        {
+          "en": "I am ready to help my mom.",
+          "zh": "我愿意帮助妈妈。"
+        },
+        {
+          "en": "She is ready to answer the question.",
+          "zh": "她准备好回答问题了。"
+        },
+        {
+          "en": "We are ready to start the game.",
+          "zh": "我们准备好开始游戏了。"
+        }
+      ]
+    },
     "other": {
-      "phonetic_uk": "ˈʌð.ə",
+      "phonetic_uk": "ˈʌð.ər",
       "phonetic_us": "ˈʌð.ɚ",
       "audio_uk": "/media/english/uk_pron/u/uko/ukosc/ukoscil021.mp3",
       "audio_us": "/media/english/us_pron/e/eus/eus75/eus75322.mp3",
@@ -435,16 +493,16 @@
       "audio_us": null,
       "examples": [
         {
-          "en": "I am interested in English songs.",
-          "zh": "我对英语歌曲感兴趣。"
+          "en": "I am interested in English.",
+          "zh": "我对英语感兴趣。"
         },
         {
-          "en": "She is interested in drawing cats.",
-          "zh": "她对画猫感兴趣。"
+          "en": "She is interested in music.",
+          "zh": "她对音乐感兴趣。"
         },
         {
-          "en": "They are interested in playing football.",
-          "zh": "他们对踢足球感兴趣。"
+          "en": "They are interested in sports.",
+          "zh": "他们对运动感兴趣。"
         }
       ]
     },
@@ -469,7 +527,7 @@
       ]
     },
     "character": {
-      "phonetic_uk": "ˈkær.ək.tə",
+      "phonetic_uk": "ˈkær.ək.tər",
       "phonetic_us": "ˈker.ək.tɚ",
       "audio_uk": "/media/english/uk_pron/u/ukc/ukcha/ukchaot021.mp3",
       "audio_us": "/media/english/us_pron/c/cha/chara/character.mp3",
@@ -655,16 +713,16 @@
       "audio_us": null,
       "examples": [
         {
-          "en": "She wears a charm for good luck.",
-          "zh": "她戴着一个护身符以求好运。"
+          "en": "Good luck with your English test today!",
+          "zh": "祝你今天英语考试好运！"
         },
         {
-          "en": "I hope our good luck with the weather lasts.",
-          "zh": "我希望我们天气方面的好运能持续下去。"
+          "en": "I wish you good luck in the game.",
+          "zh": "我祝你在比赛中好运。"
         },
         {
-          "en": "Good luck and enjoy the game.",
-          "zh": "祝你好运，享受比赛吧。"
+          "en": "Good luck to you all in the new year!",
+          "zh": "祝你们大家新年好运！"
         }
       ]
     },
@@ -695,16 +753,16 @@
       "audio_us": null,
       "examples": [
         {
-          "en": "I play Chinese chess with my dad.",
-          "zh": "我和爸爸下中国象棋。"
+          "en": "I like to play Chinese chess with my dad.",
+          "zh": "我喜欢和爸爸下中国象棋。"
         },
         {
-          "en": "Chinese chess has two players.",
-          "zh": "中国象棋有两个玩家。"
+          "en": "Chinese chess has two sides, red and black.",
+          "zh": "中国象棋有两方，红方和黑方。"
         },
         {
-          "en": "Do you like Chinese chess?",
-          "zh": "你喜欢中国象棋吗？"
+          "en": "We learn Chinese chess in our club.",
+          "zh": "我们在俱乐部学中国象棋。"
         }
       ]
     },
@@ -755,16 +813,16 @@
       "audio_us": null,
       "examples": [
         {
-          "en": "What did you do at the weekend?",
-          "zh": "你周末做了什么？"
+          "en": "I play football at the weekend.",
+          "zh": "我在周末踢足球。"
         },
         {
-          "en": "We sometimes go out at the weekend.",
-          "zh": "我们周末有时出去。"
+          "en": "She visits her grandma at the weekend.",
+          "zh": "她周末去看望她的奶奶。"
         },
         {
-          "en": "I may visit them at the weekend.",
-          "zh": "我周末可能会去看他们。"
+          "en": "We watch movies at the weekend.",
+          "zh": "我们周末看电影。"
         }
       ]
     },
@@ -795,16 +853,16 @@
       "audio_us": null,
       "examples": [
         {
-          "en": "I want to make friends with my new classmates.",
-          "zh": "我想和新同学交朋友。"
+          "en": "I want to make friends with you.",
+          "zh": "我想和你交朋友。"
         },
         {
-          "en": "She makes friends with everyone in her class.",
-          "zh": "她和班上的每个人都交朋友。"
+          "en": "She makes friends with her new classmates.",
+          "zh": "她和她的新同学交朋友。"
         },
         {
-          "en": "Can you make friends with the boy next door?",
-          "zh": "你能和隔壁的男孩交朋友吗？"
+          "en": "He made friends with a boy in the park.",
+          "zh": "他在公园里和一个男孩交了朋友。"
         }
       ]
     },
@@ -875,16 +933,16 @@
       "audio_us": null,
       "examples": [
         {
-          "en": "There are all kinds of books in the library.",
-          "zh": "图书馆里有各种各样的书。"
+          "en": "We have all kinds of books in our library.",
+          "zh": "我们图书馆里有各种各样的书。"
         },
         {
-          "en": "She likes all kinds of fruit, like apples and bananas.",
+          "en": "She likes all kinds of fruits, like apples and bananas.",
           "zh": "她喜欢各种各样的水果，比如苹果和香蕉。"
         },
         {
-          "en": "We can see all kinds of animals at the zoo.",
-          "zh": "我们在动物园能看到各种各样的动物。"
+          "en": "The shop sells all kinds of toys for children.",
+          "zh": "这家商店卖各种各样的儿童玩具。"
         }
       ]
     },
@@ -1029,22 +1087,22 @@
       ]
     },
     "take ... apart": {
-      "phonetic_uk": "teɪk",
-      "phonetic_us": "teɪk",
-      "audio_uk": "/media/english/uk_pron/u/ukt/uktaj/uktajik002.mp3",
-      "audio_us": "/media/english/us_pron/t/tak/take_/take.mp3",
+      "phonetic_uk": null,
+      "phonetic_us": null,
+      "audio_uk": null,
+      "audio_us": null,
       "examples": [
         {
-          "en": "We took the car apart to find the problem.",
-          "zh": "我们把汽车拆开来找问题。"
+          "en": "He took the toy car apart quickly.",
+          "zh": "他很快拆开了玩具车。"
         },
         {
-          "en": "He took the other team apart and scored three goals.",
-          "zh": "他把对方球队打垮了，进了三个球。"
+          "en": "Can you take the clock apart and fix it?",
+          "zh": "你能拆开钟并修好它吗？"
         },
         {
-          "en": "I like to take toys apart to see how they work.",
-          "zh": "我喜欢拆开玩具看它们怎么动。"
+          "en": "She takes the old radio apart to clean it.",
+          "zh": "她拆开旧收音机来清洁它。"
         }
       ]
     },
@@ -1155,16 +1213,16 @@
       "audio_us": null,
       "examples": [
         {
-          "en": "I dreamed of a house. It came true.",
-          "zh": "我梦想有一所房子。它实现了。"
+          "en": "My dream can come true.",
+          "zh": "我的梦想能实现。"
         },
         {
-          "en": "Oliver's birth was a dream come true.",
-          "zh": "奥利弗的出生是梦想成真。"
+          "en": "Her wish came true last year.",
+          "zh": "她的愿望去年实现了。"
         },
         {
-          "en": "Getting the job was a dream come true.",
-          "zh": "得到这份工作是梦想成真。"
+          "en": "I hope my plan comes true soon.",
+          "zh": "我希望我的计划很快实现。"
         }
       ]
     },
@@ -1209,7 +1267,7 @@
       ]
     },
     "member": {
-      "phonetic_uk": "ˈmem.bə",
+      "phonetic_uk": "ˈmem.bər",
       "phonetic_us": "ˈmem.bɚ",
       "audio_uk": "/media/english/uk_pron/u/ukm/ukmel/ukmelod009.mp3",
       "audio_us": "/media/english/us_pron/m/mem/membe/member.mp3",
@@ -1409,7 +1467,7 @@
       ]
     },
     "questionnaire": {
-      "phonetic_uk": "ˌkwes.tʃəˈneə",
+      "phonetic_uk": "ˌkwes.tʃəˈneər",
       "phonetic_us": "ˌkwes.tʃəˈner",
       "audio_uk": "/media/english/uk_pron/u/ukq/ukqua/ukquart028.mp3",
       "audio_us": "/media/english/us_pron/q/que/quest/questionnaire.mp3",
@@ -1449,8 +1507,8 @@
       ]
     },
     "model": {
-      "phonetic_uk": "ˈmɒd.",
-      "phonetic_us": "ˈmɑː.d",
+      "phonetic_uk": "ˈmɒd.əl",
+      "phonetic_us": "ˈmɑː.dəl",
       "audio_uk": "/media/english/uk_pron/u/ukm/ukmoc/ukmocki011.mp3",
       "audio_us": "/media/english/us_pron/m/mod/model/model.mp3",
       "examples": [
@@ -1469,8 +1527,8 @@
       ]
     },
     "role model": {
-      "phonetic_uk": "ˈrəʊl ˌmɒd.",
-      "phonetic_us": "ˈroʊl ˌmɑː.d",
+      "phonetic_uk": "ˈrəʊl ˌmɒd.əl",
+      "phonetic_us": "ˈroʊl ˌmɑː.dəl",
       "audio_uk": "/media/english/uk_pron/u/ukc/ukcld/ukcld01230.mp3",
       "audio_us": "/media/english/us_pron/u/usc/uscld/uscld01230.mp3",
       "examples": [
@@ -1549,7 +1607,7 @@
       ]
     },
     "master": {
-      "phonetic_uk": "ˈmɑː.stə",
+      "phonetic_uk": "ˈmɑː.stər",
       "phonetic_us": "ˈmæs.tɚ",
       "audio_uk": "/media/english/uk_pron/u/ukm/ukmas/ukmassi005.mp3",
       "audio_us": "/media/english/us_pron/m/mas/maste/master.mp3",
@@ -1609,7 +1667,7 @@
       ]
     },
     "designer": {
-      "phonetic_uk": "dɪˈzaɪ.nə",
+      "phonetic_uk": "dɪˈzaɪ.nər",
       "phonetic_us": "dɪˈzaɪ.nɚ",
       "audio_uk": "/media/english/uk_pron/u/ukd/ukdes/ukdescr027.mp3",
       "audio_us": "/media/english/us_pron/d/des/desig/designer.mp3",
@@ -1655,21 +1713,21 @@
       "audio_us": null,
       "examples": [
         {
-          "en": "I would like some soup first.",
-          "zh": "我想先来点汤。"
+          "en": "I would like some water, please.",
+          "zh": "我想要一些水，请。"
         },
         {
-          "en": "I would like to go to Moscow.",
-          "zh": "我想去莫斯科。"
+          "en": "She would like a new bike.",
+          "zh": "她想要一辆新自行车。"
         },
         {
-          "en": "I would like to say thank you to all.",
-          "zh": "我想对所有人说谢谢。"
+          "en": "We would like to play games.",
+          "zh": "我们想要玩游戏。"
         }
       ]
     },
     "future": {
-      "phonetic_uk": "ˈfjuː.tʃə",
+      "phonetic_uk": "ˈfjuː.tʃər",
       "phonetic_us": "ˈfjuː.tʃɚ",
       "audio_uk": "/media/english/uk_pron/u/ukf/ukfur/ukfurti021.mp3",
       "audio_us": "/media/english/us_pron/f/fut/futur/future.mp3",
@@ -1695,16 +1753,16 @@
       "audio_us": null,
       "examples": [
         {
-          "en": "Please be more careful in the future.",
-          "zh": "请在未来更加小心。"
+          "en": "I will be a teacher in the future.",
+          "zh": "我将来会成为一名教师。"
         },
         {
-          "en": "In the future, I won't ask him out if he is bored.",
-          "zh": "在未来，如果他觉得无聊，我就不会约他出去了。"
+          "en": "In the future, we will have robots at home.",
+          "zh": "在未来，我们家里会有机器人。"
         },
         {
-          "en": "In the future, I will check all your work.",
-          "zh": "在未来，我会检查你所有的作业。"
+          "en": "She wants to travel to the moon in the future.",
+          "zh": "她将来想去月球旅行。"
         }
       ]
     },
@@ -1789,18 +1847,18 @@
       ]
     },
     "sports field": {
-      "phonetic_uk": "fiːld",
-      "phonetic_us": "fiːld",
-      "audio_uk": "/media/english/uk_pron/u/ukf/ukfic/ukfickl018.mp3",
-      "audio_us": "/media/english/us_pron/f/fie/field/field.mp3",
+      "phonetic_uk": null,
+      "phonetic_us": null,
+      "audio_uk": null,
+      "audio_us": null,
       "examples": [
         {
-          "en": "We play ball games on the sports field.",
-          "zh": "我们在体育场上玩球类游戏。"
+          "en": "We play soccer on the sports field.",
+          "zh": "我们在体育场上踢足球。"
         },
         {
-          "en": "The sports field is big and clean.",
-          "zh": "体育场又大又干净。"
+          "en": "The sports field is big and green.",
+          "zh": "体育场又大又绿。"
         },
         {
           "en": "I run on the sports field every morning.",
@@ -1809,8 +1867,8 @@
       ]
     },
     "dining": {
-      "phonetic_uk": "daɪn",
-      "phonetic_us": "daɪn",
+      "phonetic_uk": "ˈdaɪ.nɪŋ",
+      "phonetic_us": "ˈdaɪ.nɪŋ",
       "audio_uk": "/media/english/uk_pron/u/ukd/ukdim/ukdimme009.mp3",
       "audio_us": "/media/english/us_pron/d/din/dine_/dine.mp3",
       "examples": [
@@ -1909,7 +1967,7 @@
       ]
     },
     "modern": {
-      "phonetic_uk": "ˈmɒd.",
+      "phonetic_uk": "ˈmɒd.ən",
       "phonetic_us": "ˈmɑː.dɚn",
       "audio_uk": "/media/english/uk_pron/u/ukm/ukmoc/ukmocki018.mp3",
       "audio_us": "/media/english/us_pron/m/mod/moder/modern.mp3",
@@ -1935,16 +1993,16 @@
       "audio_us": null,
       "examples": [
         {
-          "en": "They showed the new movie on TV and in newspapers as well.",
-          "zh": "他们在电视和报纸上也展示了这部新电影。"
+          "en": "I like apples as well.",
+          "zh": "我也喜欢苹果。"
         },
         {
-          "en": "She likes apples, and she likes bananas as well.",
-          "zh": "她喜欢苹果，也喜欢香蕉。"
+          "en": "She can swim as well.",
+          "zh": "她也会游泳。"
         },
         {
-          "en": "He can swim, and he can run as well.",
-          "zh": "他会游泳，也会跑步。"
+          "en": "He plays football as well.",
+          "zh": "他也踢足球。"
         }
       ]
     },
@@ -2069,22 +2127,22 @@
       ]
     },
     "take place": {
-      "phonetic_uk": "teɪk",
-      "phonetic_us": "teɪk",
-      "audio_uk": "/media/english/uk_pron/u/ukt/uktaj/uktajik002.mp3",
-      "audio_us": "/media/english/us_pron/t/tak/take_/take.mp3",
+      "phonetic_uk": null,
+      "phonetic_us": null,
+      "audio_uk": null,
+      "audio_us": null,
       "examples": [
         {
-          "en": "The game will take place tomorrow.",
-          "zh": "比赛明天发生。"
+          "en": "The sports meeting will take place next week.",
+          "zh": "运动会将在下周举行。"
         },
         {
-          "en": "She takes to basketball fast and it takes place every day.",
-          "zh": "她很快喜欢上篮球，篮球每天进行。"
+          "en": "A big change took place in our school.",
+          "zh": "我们学校发生了很大的变化。"
         },
         {
-          "en": "The party takes place at my home.",
-          "zh": "聚会在我们家举行。"
+          "en": "The party takes place in the evening.",
+          "zh": "聚会在晚上举行。"
         }
       ]
     },
@@ -2189,7 +2247,7 @@
       ]
     },
     "more": {
-      "phonetic_uk": "mɔː",
+      "phonetic_uk": "mɔːr",
       "phonetic_us": "mɔːr",
       "audio_uk": "/media/english/uk_pron/u/ukm/ukmor/ukmorda003.mp3",
       "audio_us": "/media/english/us_pron/m/mor/more_/more.mp3",
@@ -2315,16 +2373,16 @@
       "audio_us": null,
       "examples": [
         {
-          "en": "My form teacher helps me with my math.",
-          "zh": "我的班主任帮助我学数学。"
+          "en": "Our form teacher is very kind to us.",
+          "zh": "我们的班主任对我们很友善。"
         },
         {
-          "en": "Our form teacher is kind to every student.",
-          "zh": "我们的班主任对每个学生都很和蔼。"
+          "en": "I ask my form teacher for help.",
+          "zh": "我向我的班主任寻求帮助。"
         },
         {
-          "en": "I talk to my form teacher about my problem.",
-          "zh": "我和班主任谈了我的问题。"
+          "en": "The form teacher checks our homework.",
+          "zh": "班主任检查我们的作业。"
         }
       ]
     },
@@ -2369,8 +2427,8 @@
       ]
     },
     "different": {
-      "phonetic_uk": "ˈdɪf.",
-      "phonetic_us": "ˈdɪf.ɚ.",
+      "phonetic_uk": "ˈdɪf.ər.ənt",
+      "phonetic_us": "ˈdɪf.ɚ.ənt",
       "audio_uk": "/media/english/uk_pron/u/ukd/ukdic/ukdictu024.mp3",
       "audio_us": "/media/english/us_pron/d/dif/diffe/different.mp3",
       "examples": [
@@ -2389,8 +2447,8 @@
       ]
     },
     "thousand": {
-      "phonetic_uk": "ˈθaʊ.z",
-      "phonetic_us": "ˈθaʊ.z",
+      "phonetic_uk": "ˈθaʊ.zənd",
+      "phonetic_us": "ˈθaʊ.zənd",
       "audio_uk": "/media/english/uk_pron/u/ukt/uktho/ukthoug003.mp3",
       "audio_us": "/media/english/us_pron/t/tho/thous/thousand.mp3",
       "examples": [
@@ -2435,16 +2493,16 @@
       "audio_us": null,
       "examples": [
         {
-          "en": "In fact, he was almost dead when they got to him.",
-          "zh": "事实上，他们到他那里时，他几乎死了。"
+          "en": "I like apples. In fact, I eat one every day.",
+          "zh": "我喜欢苹果。事实上，我每天吃一个。"
         },
         {
-          "en": "She is young, but in fact she knows a lot.",
-          "zh": "她年轻，但事实上她知道很多。"
+          "en": "He looks young. In fact, he is forty years old.",
+          "zh": "他看起来年轻。事实上，他四十岁了。"
         },
         {
-          "en": "In fact, we can finish the work today.",
-          "zh": "事实上，我们今天能完成这项工作。"
+          "en": "She is not lazy. In fact, she works very hard.",
+          "zh": "她并不懒。事实上，她工作很努力。"
         }
       ]
     },
@@ -2469,7 +2527,7 @@
       ]
     },
     "newspaper": {
-      "phonetic_uk": "ˈnjuːzˌpeɪ.pə",
+      "phonetic_uk": "ˈnjuːzˌpeɪ.pər",
       "phonetic_us": "ˈnuːzˌpeɪ.pɚ",
       "audio_uk": "/media/english/uk_pron/u/ukn/uknew/uknewsc006.mp3",
       "audio_us": "/media/english/us_pron/u/usn/usnew/usnewbo012.mp3",
@@ -2529,7 +2587,7 @@
       ]
     },
     "care": {
-      "phonetic_uk": "keə",
+      "phonetic_uk": "keər",
       "phonetic_us": "ker",
       "audio_uk": "/media/english/uk_pron/u/ukc/ukcar/ukcardi010.mp3",
       "audio_us": "/media/english/us_pron/c/car/care_/care.mp3",
@@ -2555,16 +2613,16 @@
       "audio_us": null,
       "examples": [
         {
-          "en": "She never cares about how she looks.",
-          "zh": "她从不在乎自己的外表。"
+          "en": "She cares about her little brother.",
+          "zh": "她关心她的小弟弟。"
         },
         {
-          "en": "This group really cares about the environment.",
-          "zh": "这群人真的很关心环境。"
+          "en": "We care about our school rules.",
+          "zh": "我们关心我们的学校规则。"
         },
         {
-          "en": "Your parents do this because they care about you.",
-          "zh": "你父母这样做是因为他们关心你。"
+          "en": "He cares about his friends very much.",
+          "zh": "他非常关心他的朋友们。"
         }
       ]
     },
@@ -2589,7 +2647,7 @@
       ]
     },
     "together": {
-      "phonetic_uk": "təˈɡeð.ə",
+      "phonetic_uk": "təˈɡeð.ər",
       "phonetic_us": "təˈɡeð.ɚ",
       "audio_uk": "/media/english/uk_pron/u/ukt/uktob/uktobyj016.mp3",
       "audio_us": "/media/english/us_pron/t/tog/toget/together.mp3",
@@ -2689,22 +2747,22 @@
       ]
     },
     "get up": {
-      "phonetic_uk": "ɡet",
-      "phonetic_us": "ɡet",
-      "audio_uk": "/media/english/uk_pron/u/ukg/ukger/ukgerma022.mp3",
-      "audio_us": "/media/english/us_pron/g/get/get__/get.mp3",
+      "phonetic_uk": null,
+      "phonetic_us": null,
+      "audio_uk": null,
+      "audio_us": null,
       "examples": [
         {
-          "en": "Everyone got up and clapped.",
-          "zh": "大家都站起来鼓掌了。"
+          "en": "I get up at seven every day.",
+          "zh": "我每天七点起床。"
         },
         {
-          "en": "The wind is getting up.",
-          "zh": "风开始变大了。"
+          "en": "She gets up early on Monday.",
+          "zh": "她星期一早早起床。"
         },
         {
-          "en": "I got up at five this morning.",
-          "zh": "我今天早上五点起床。"
+          "en": "He got up late this morning.",
+          "zh": "他今天早上起晚了。"
         }
       ]
     },
@@ -2799,12 +2857,12 @@
           "zh": "我在工作日六点起床。"
         },
         {
-          "en": "We have classes on weekdays.",
-          "zh": "我们在工作日上课。"
+          "en": "We have five classes on weekdays.",
+          "zh": "我们在工作日有五节课。"
         },
         {
-          "en": "She goes to school by bus on weekdays.",
-          "zh": "她工作日坐公交车去上学。"
+          "en": "She walks to school on weekdays.",
+          "zh": "她工作日步行去学校。"
         }
       ]
     },
@@ -2855,16 +2913,16 @@
       "audio_us": null,
       "examples": [
         {
-          "en": "I want to have a little fun before I stop moving.",
-          "zh": "我想在安定下来之前玩一点。"
+          "en": "I have a little milk in my glass.",
+          "zh": "我的杯子里有一点牛奶。"
         },
         {
-          "en": "Come on, try a new thing, have a little fun!",
-          "zh": "来吧，试试新东西，玩一点！"
+          "en": "She speaks a little English every day.",
+          "zh": "她每天说一点英语。"
         },
         {
-          "en": "After hard work, I can now get some rewards and live a little.",
-          "zh": "努力工作之后，我现在可以得到一些回报，生活得轻松一点。"
+          "en": "Can you wait a little for me?",
+          "zh": "你能等我一会儿吗？"
         }
       ]
     },
@@ -2889,22 +2947,22 @@
       ]
     },
     "enjoy oneself": {
-      "phonetic_uk": "ɪnˈdʒɔɪ",
-      "phonetic_us": "ɪnˈdʒɔɪ",
-      "audio_uk": "/media/english/uk_pron/u/uke/ukeng/ukengin019.mp3",
-      "audio_us": "/media/english/us_pron/e/eus/eus71/eus71552.mp3",
+      "phonetic_uk": null,
+      "phonetic_us": null,
+      "audio_uk": null,
+      "audio_us": null,
       "examples": [
         {
-          "en": "I enjoyed myself at the party.",
-          "zh": "我在聚会上玩得很开心。"
+          "en": "We enjoy ourselves at the party.",
+          "zh": "我们在聚会上玩得很开心。"
         },
         {
-          "en": "I enjoy myself meeting new people.",
-          "zh": "我喜欢认识新朋友，很开心。"
+          "en": "She enjoyed herself at the beach.",
+          "zh": "她在海滩上玩得很愉快。"
         },
         {
-          "en": "Enjoy yourself at the meal!",
-          "zh": "吃饭时好好享受吧！"
+          "en": "Did you enjoy yourself yesterday?",
+          "zh": "你昨天玩得开心吗？"
         }
       ]
     },
@@ -2969,7 +3027,7 @@
       ]
     },
     "writer": {
-      "phonetic_uk": "ˈraɪ.tə",
+      "phonetic_uk": "ˈraɪ.tər",
       "phonetic_us": "ˈraɪ.t̬ɚ",
       "audio_uk": "/media/english/uk_pron/u/ukw/ukwre/ukwreat027.mp3",
       "audio_us": "/media/english/us_pron/w/wri/write/writer.mp3",
@@ -3069,7 +3127,7 @@
       ]
     },
     "nature": {
-      "phonetic_uk": "ˈneɪ.tʃə",
+      "phonetic_uk": "ˈneɪ.tʃər",
       "phonetic_us": "ˈneɪ.tʃɚ",
       "audio_uk": "/media/english/uk_pron/u/ukn/uknat/uknativ015.mp3",
       "audio_us": "/media/english/us_pron/n/nat/natur/nature.mp3",
@@ -3175,16 +3233,16 @@
       "audio_us": null,
       "examples": [
         {
-          "en": "He left his city for a new job.",
-          "zh": "他离开他的城市去了一份新工作。"
+          "en": "We leave for school at seven.",
+          "zh": "我们七点动身去学校。"
         },
         {
-          "en": "She left me for another boy.",
-          "zh": "她离开我，去了另一个男孩那里。"
+          "en": "She leaves for Beijing tomorrow.",
+          "zh": "她明天动身去北京。"
         },
         {
-          "en": "They left for school at seven.",
-          "zh": "他们七点动身去学校。"
+          "en": "They left for the park just now.",
+          "zh": "他们刚才动身去公园了。"
         }
       ]
     },
@@ -3209,22 +3267,22 @@
       ]
     },
     "of course": {
-      "phonetic_uk": "ˌkɔːs əv ˈæk.ʃ",
-      "phonetic_us": "ˌkɔːrs əv ˈæk.ʃ",
-      "audio_uk": "/media/english/uk_pron/c/cdo/cdo08/cdo0824ukcour0636.mp3",
-      "audio_us": "/media/english/us_pron/c/cdo/cdo08/cdo0824uscour0653.mp3",
+      "phonetic_uk": null,
+      "phonetic_us": null,
+      "audio_uk": null,
+      "audio_us": null,
       "examples": [
         {
-          "en": "Of course, this is the right thing to do.",
-          "zh": "当然，这是正确的事情。"
+          "en": "Of course, I can help you.",
+          "zh": "当然，我可以帮你。"
         },
         {
-          "en": "Of course, what should we do best?",
-          "zh": "当然，我们最好做什么？"
+          "en": "We will go to the park, of course.",
+          "zh": "我们当然会去公园。"
         },
         {
-          "en": "He gave ideas and other ways, of course.",
-          "zh": "当然，他给了想法和其他办法。"
+          "en": "Of course, she likes English.",
+          "zh": "她当然喜欢英语。"
         }
       ]
     },
@@ -3309,7 +3367,7 @@
       ]
     },
     "tour": {
-      "phonetic_uk": "tʊə",
+      "phonetic_uk": "tʊər",
       "phonetic_us": "tʊr",
       "audio_uk": "/media/english/uk_pron/u/ukt/uktou/uktouch011.mp3",
       "audio_us": "/media/english/us_pron/t/tou/tour_/tour.mp3",
@@ -3449,7 +3507,7 @@
       ]
     },
     "better": {
-      "phonetic_uk": "ˈbet.ə",
+      "phonetic_uk": "ˈbet.ər",
       "phonetic_us": "ˈbet̬.ɚ",
       "audio_uk": "/media/english/uk_pron/u/ukb/ukbet/ukbetid009.mp3",
       "audio_us": "/media/english/us_pron/b/bet/bette/better.mp3",
@@ -3535,16 +3593,16 @@
       "audio_us": null,
       "examples": [
         {
-          "en": "All the kids took part in the play.",
-          "zh": "所有孩子都参加了那场戏。"
-        },
-        {
           "en": "We take part in the school sports day.",
           "zh": "我们参加学校运动会。"
         },
         {
-          "en": "She takes part in the English club.",
-          "zh": "她参加英语俱乐部。"
+          "en": "She takes part in the art club every Friday.",
+          "zh": "她每周五参加美术社团。"
+        },
+        {
+          "en": "They took part in the singing contest last week.",
+          "zh": "他们上周参加了歌唱比赛。"
         }
       ]
     },
@@ -3615,16 +3673,16 @@
       "audio_us": null,
       "examples": [
         {
-          "en": "We take turns answering the phone.",
-          "zh": "我们轮流接电话。"
+          "en": "We take turns to clean the classroom.",
+          "zh": "我们轮流打扫教室。"
         },
         {
-          "en": "We take turns cooking dinner.",
-          "zh": "我们轮流做晚饭。"
+          "en": "They take turns reading the story.",
+          "zh": "他们轮流读故事。"
         },
         {
-          "en": "They took turns taking photos with the actor.",
-          "zh": "他们轮流和演员拍照。"
+          "en": "You should take turns on the slide.",
+          "zh": "你们应该轮流玩滑梯。"
         }
       ]
     },
@@ -3675,16 +3733,16 @@
       "audio_us": null,
       "examples": [
         {
-          "en": "Patrick, take good care of your girl. She is special.",
-          "zh": "帕特里克，好好照顾你的女孩。她很特别。"
+          "en": "My mom takes care of my little sister.",
+          "zh": "我妈妈照顾我的小妹妹。"
         },
         {
-          "en": "Don't worry. I can take care of myself.",
-          "zh": "别担心。我能照顾自己。"
+          "en": "Please take care of my dog, Tom.",
+          "zh": "汤姆，请照看我的狗。"
         },
         {
-          "en": "She had money. She could take care of a child.",
-          "zh": "她有钱。她能照顾一个孩子。"
+          "en": "I take care of my books every day.",
+          "zh": "我每天爱护我的书。"
         }
       ]
     },
@@ -3729,7 +3787,7 @@
       ]
     },
     "cucumber": {
-      "phonetic_uk": "ˈkjuː.kʌm.bə",
+      "phonetic_uk": "ˈkjuː.kʌm.bər",
       "phonetic_us": "ˈkjuː.kʌm.bɚ",
       "audio_uk": "/media/english/uk_pron/u/ukc/ukcsa/ukcsa__018.mp3",
       "audio_us": "/media/english/us_pron/c/cuc/cucum/cucumber.mp3",
@@ -3789,7 +3847,7 @@
       ]
     },
     "pepper": {
-      "phonetic_uk": "ˈpep.ə",
+      "phonetic_uk": "ˈpep.ər",
       "phonetic_us": "ˈpep.ɚ",
       "audio_uk": "/media/english/uk_pron/u/ukp/ukpen/ukpente012.mp3",
       "audio_us": "/media/english/us_pron/e/eus/eus73/eus73488.mp3",
@@ -3969,8 +4027,8 @@
       ]
     },
     "important": {
-      "phonetic_uk": "ɪmˈpɔː.t",
-      "phonetic_us": "ɪmˈpɔːr.t",
+      "phonetic_uk": "ɪmˈpɔː.tənt",
+      "phonetic_us": "ɪmˈpɔːr.tənt",
       "audio_uk": "/media/english/uk_pron/u/uki/ukimp/ukimplo011.mp3",
       "audio_us": "/media/english/us_pron/i/imp/impor/important.mp3",
       "examples": [
@@ -4069,7 +4127,7 @@
       ]
     },
     "sugar": {
-      "phonetic_uk": "ˈʃʊɡ.ə",
+      "phonetic_uk": "ˈʃʊɡ.ər",
       "phonetic_us": "ˈʃʊɡ.ɚ",
       "audio_uk": "/media/english/uk_pron/u/uks/uksuc/uksucro030.mp3",
       "audio_us": "/media/english/us_pron/s/sug/sugar/sugar.mp3",
@@ -4129,8 +4187,8 @@
       ]
     },
     "mutton": {
-      "phonetic_uk": "ˈmʌt.",
-      "phonetic_us": "ˈmʌt̬.",
+      "phonetic_uk": "ˈmʌt.ən",
+      "phonetic_us": "ˈmʌt̬.ən",
       "audio_uk": "/media/english/uk_pron/u/ukm/ukmus/ukmusic030.mp3",
       "audio_us": "/media/english/us_pron/m/mut/mutto/mutton.mp3",
       "examples": [
@@ -4155,36 +4213,36 @@
       "audio_us": null,
       "examples": [
         {
-          "en": "I have a sweet tooth, so I love cakes.",
-          "zh": "我爱吃甜食，所以我喜欢蛋糕。"
+          "en": "I have a sweet tooth, so I love cake.",
+          "zh": "我爱吃甜食，所以我很喜欢蛋糕。"
         },
         {
           "en": "She has a sweet tooth and eats candy every day.",
-          "zh": "她爱吃甜食，每天都吃糖果。"
+          "zh": "她爱吃甜食，每天都要吃糖果。"
         },
         {
-          "en": "My brother has a sweet tooth; he likes ice cream.",
-          "zh": "我哥哥爱吃甜食，他喜欢冰淇淋。"
+          "en": "My brother has a sweet tooth, he wants ice cream now.",
+          "zh": "我弟弟爱吃甜食，他现在就想要冰淇淋。"
         }
       ]
     },
     "stay up": {
-      "phonetic_uk": "steɪ",
-      "phonetic_us": "steɪ",
-      "audio_uk": "/media/english/uk_pron/u/uks/uksta/ukstaun005.mp3",
-      "audio_us": "/media/english/us_pron/s/sta/stay_/stay.mp3",
+      "phonetic_uk": null,
+      "phonetic_us": null,
+      "audio_uk": null,
+      "audio_us": null,
       "examples": [
         {
-          "en": "We stayed up to watch a film.",
-          "zh": "我们熬夜看了一部电影。"
+          "en": "I stay up to finish my homework.",
+          "zh": "我熬夜完成作业。"
         },
         {
-          "en": "He stays up late to play games.",
-          "zh": "他熬夜打游戏。"
+          "en": "She stayed up late last night.",
+          "zh": "她昨晚熬夜到很晚。"
         },
         {
-          "en": "She is staying up to finish homework.",
-          "zh": "她正在熬夜完成作业。"
+          "en": "Don't stay up too late.",
+          "zh": "不要熬夜太晚。"
         }
       ]
     },
@@ -4389,8 +4447,8 @@
       ]
     },
     "carton": {
-      "phonetic_uk": "ˈkɑː.t",
-      "phonetic_us": "ˈkɑːr.t̬",
+      "phonetic_uk": "ˈkɑː.tən",
+      "phonetic_us": "ˈkɑːr.t̬ən",
       "audio_uk": "/media/english/uk_pron/u/ukc/ukcar/ukcarpe028.mp3",
       "audio_us": "/media/english/us_pron/c/car/carto/carton.mp3",
       "examples": [
@@ -4409,8 +4467,8 @@
       ]
     },
     "bottle": {
-      "phonetic_uk": "ˈbɒt.",
-      "phonetic_us": "ˈbɑː.t̬",
+      "phonetic_uk": "ˈbɒt.əl",
+      "phonetic_us": "ˈbɑː.t̬əl",
       "audio_uk": "/media/english/uk_pron/u/ukb/ukbot/ukbothe004.mp3",
       "audio_us": "/media/english/us_pron/u/usc/uscld/uscld2s095.mp3",
       "examples": [
@@ -4549,7 +4607,7 @@
       ]
     },
     "score": {
-      "phonetic_uk": "skɔː",
+      "phonetic_uk": "skɔːr",
       "phonetic_us": "skɔːr",
       "audio_uk": "/media/english/uk_pron/u/uks/uksci/uksciro021.mp3",
       "audio_us": "/media/english/us_pron/s/sco/score/score.mp3",
@@ -4909,8 +4967,8 @@
       ]
     },
     "fashion": {
-      "phonetic_uk": "ˈfæʃ.",
-      "phonetic_us": "ˈfæʃ.",
+      "phonetic_uk": "ˈfæʃ.ən",
+      "phonetic_us": "ˈfæʃ.ən",
       "audio_uk": "/media/english/uk_pron/u/ukf/ukfar/ukfarth012.mp3",
       "audio_us": "/media/english/us_pron/f/fas/fashi/fashion.mp3",
       "examples": [
@@ -5009,22 +5067,22 @@
       ]
     },
     "depend on": {
-      "phonetic_uk": "dɪˈpend",
-      "phonetic_us": "dɪˈpend",
-      "audio_uk": "/media/english/uk_pron/u/ukd/ukden/ukdensi020.mp3",
-      "audio_us": "/media/english/us_pron/d/dep/depen/depend.mp3",
+      "phonetic_uk": null,
+      "phonetic_us": null,
+      "audio_uk": null,
+      "audio_us": null,
       "examples": [
         {
-          "en": "You can depend on Michael when there is trouble.",
-          "zh": "有麻烦时，你可以依靠迈克尔。"
+          "en": "You can depend on me for help.",
+          "zh": "你可以依靠我帮忙。"
         },
         {
-          "en": "I depend on you to keep your word.",
-          "zh": "我依靠你遵守诺言。"
+          "en": "Whether we go out depends on the weather.",
+          "zh": "我们是否出去取决于天气。"
         },
         {
-          "en": "You can depend on Jana to be late.",
-          "zh": "你可以指望贾娜迟到。"
+          "en": "She depends on her parents for money.",
+          "zh": "她依靠父母给钱。"
         }
       ]
     },
@@ -5055,22 +5113,22 @@
       "audio_us": null,
       "examples": [
         {
-          "en": "Use money for things such as travel and rooms.",
-          "zh": "把钱用在旅行和住宿这类事情上。"
+          "en": "I like fruits such as apples and bananas.",
+          "zh": "我喜欢水果，诸如苹果和香蕉。"
         },
         {
-          "en": "People disagree on things such as taxes.",
-          "zh": "人们在税收这类问题上意见不一。"
+          "en": "She has pets such as cats and dogs.",
+          "zh": "她有宠物，诸如猫和狗。"
         },
         {
-          "en": "He told secrets such as their big loan.",
-          "zh": "他透露了秘密，诸如他们借了一大笔钱。"
+          "en": "We study subjects such as English and math.",
+          "zh": "我们学习科目，诸如英语和数学。"
         }
       ]
     },
     "purple": {
-      "phonetic_uk": "ˈpɜː.p",
-      "phonetic_us": "ˈpɝː.p",
+      "phonetic_uk": "ˈpɜː.pəl",
+      "phonetic_us": "ˈpɝː.pəl",
       "audio_uk": "/media/english/uk_pron/u/ukp/ukpur/ukpurit004.mp3",
       "audio_us": "/media/english/us_pron/p/pur/purpl/purple.mp3",
       "examples": [
@@ -5089,7 +5147,7 @@
       ]
     },
     "similar": {
-      "phonetic_uk": "ˈsɪm.ɪ.lə",
+      "phonetic_uk": "ˈsɪm.ɪ.lər",
       "phonetic_us": "ˈsɪm.ə.lɚ",
       "audio_uk": "/media/english/uk_pron/u/uks/uksil/uksilen030.mp3",
       "audio_us": "/media/english/us_pron/s/sim/simil/similar.mp3",
@@ -5109,8 +5167,8 @@
       ]
     },
     "example": {
-      "phonetic_uk": "ɪɡˈzɑːm.p",
-      "phonetic_us": "ɪɡˈzæm.p",
+      "phonetic_uk": "ɪɡˈzɑːm.pəl",
+      "phonetic_us": "ɪɡˈzæm.pəl",
       "audio_uk": "/media/english/uk_pron/u/uke/ukexa/ukexami004.mp3",
       "audio_us": "/media/english/us_pron/e/exa/examp/example.mp3",
       "examples": [
@@ -5135,16 +5193,16 @@
       "audio_us": null,
       "examples": [
         {
-          "en": "For example, using old paper can help our earth.",
-          "zh": "例如，使用旧纸可以帮助我们的地球。"
+          "en": "I like fruits, for example, apples and bananas.",
+          "zh": "我喜欢水果，例如苹果和香蕉。"
         },
         {
-          "en": "For example, he likes candy and cartoons now.",
-          "zh": "例如，他现在喜欢糖果和卡通片。"
+          "en": "We can play many games, for example, basketball.",
+          "zh": "我们可以玩很多游戏，例如篮球。"
         },
         {
-          "en": "We can use metaphors. For example, say \"time is money\".",
-          "zh": "我们可以使用比喻。例如，说“时间就是金钱”。"
+          "en": "She has some pets, for example, a cat and a dog.",
+          "zh": "她有一些宠物，例如一只猫和一只狗。"
         }
       ]
     },
@@ -5189,28 +5247,28 @@
       ]
     },
     "stand out": {
-      "phonetic_uk": "stænd",
-      "phonetic_us": "stænd",
-      "audio_uk": "/media/english/uk_pron/u/uks/uksta/ukstair030.mp3",
-      "audio_us": "/media/english/us_pron/s/sta/stand/stand.mp3",
+      "phonetic_uk": null,
+      "phonetic_us": null,
+      "audio_uk": null,
+      "audio_us": null,
       "examples": [
         {
-          "en": "The red word stands out on white paper.",
-          "zh": "红字在白纸上很显眼。"
+          "en": "The red flower stands out in the garden.",
+          "zh": "那朵红花在花园里很显眼。"
         },
         {
-          "en": "Many students tried, but one stood out.",
-          "zh": "很多学生试了，但有一个很突出。"
+          "en": "Her voice stands out in the singing class.",
+          "zh": "她的声音在唱歌课上很突出。"
         },
         {
-          "en": "Blue letters stand out on the yellow wall.",
-          "zh": "蓝字在黄墙上很显眼。"
+          "en": "His tall hat made him stand out at the party.",
+          "zh": "他的高帽子让他在聚会上很显眼。"
         }
       ]
     },
     "suitable": {
-      "phonetic_uk": "ˈsuː.tə.b",
-      "phonetic_us": "ˈsuː.t̬ə.b",
+      "phonetic_uk": "ˈsuː.tə.bəl",
+      "phonetic_us": "ˈsuː.t̬ə.bəl",
       "audio_uk": "/media/english/uk_pron/u/uks/uksug/uksugar011.mp3",
       "audio_us": "/media/english/us_pron/s/sui/suita/suitable.mp3",
       "examples": [
@@ -5289,8 +5347,8 @@
       ]
     },
     "comfortable": {
-      "phonetic_uk": "ˈkʌm.fə.tə.b",
-      "phonetic_us": "ˈkʌm.fɚ.t̬ə.b",
+      "phonetic_uk": "ˈkʌm.fə.tə.bəl",
+      "phonetic_us": "ˈkʌm.fɚ.t̬ə.bəl",
       "audio_uk": "/media/english/uk_pron/u/ukz/ukzzz/ukzzzze010.mp3",
       "audio_us": "/media/english/us_pron/u/usz/uszzz/uszzzzd010.mp3",
       "examples": [
@@ -5309,7 +5367,7 @@
       ]
     },
     "primary": {
-      "phonetic_uk": "ˈpraɪ.m",
+      "phonetic_uk": "ˈpraɪ.mər.i",
       "phonetic_us": "ˈpraɪ.mer.i",
       "audio_uk": "/media/english/uk_pron/u/ukp/ukpri/ukprice025.mp3",
       "audio_us": "/media/english/us_pron/p/pri/prima/primary.mp3",
@@ -5349,8 +5407,8 @@
       ]
     },
     "traditional": {
-      "phonetic_uk": "trəˈdɪʃ.",
-      "phonetic_us": "trəˈdɪʃ.",
+      "phonetic_uk": "trəˈdɪʃ.ən.əl",
+      "phonetic_us": "trəˈdɪʃ.ən.əl",
       "audio_uk": "/media/english/uk_pron/u/ukt/uktra/uktract011.mp3",
       "audio_us": "/media/english/us_pron/t/tra/tradi/traditional.mp3",
       "examples": [
@@ -5369,7 +5427,7 @@
       ]
     },
     "popular": {
-      "phonetic_uk": "ˈpɒp.jə.lə",
+      "phonetic_uk": "ˈpɒp.jə.lər",
       "phonetic_us": "ˈpɑː.pjə.lɚ",
       "audio_uk": "/media/english/uk_pron/u/ukp/ukpop/ukpopsi004.mp3",
       "audio_us": "/media/english/us_pron/p/pop/popul/popular.mp3",
@@ -5409,8 +5467,8 @@
       ]
     },
     "festival": {
-      "phonetic_uk": "ˈfes.tɪ.v",
-      "phonetic_us": "ˈfes.tə.v",
+      "phonetic_uk": "ˈfes.tɪ.vəl",
+      "phonetic_us": "ˈfes.tə.vəl",
       "audio_uk": "/media/english/uk_pron/u/ukf/ukfer/ukferre016.mp3",
       "audio_us": "/media/english/us_pron/f/fes/festi/festival.mp3",
       "examples": [
@@ -5469,7 +5527,7 @@
       ]
     },
     "culture": {
-      "phonetic_uk": "ˈkʌl.tʃə",
+      "phonetic_uk": "ˈkʌl.tʃər",
       "phonetic_us": "ˈkʌl.tʃɚ",
       "audio_uk": "/media/english/uk_pron/u/ukc/ukcul/ukcull_017.mp3",
       "audio_us": "/media/english/us_pron/c/cul/cultu/culture.mp3",
@@ -5509,7 +5567,7 @@
       ]
     },
     "history": {
-      "phonetic_uk": "ˈhɪs.t",
+      "phonetic_uk": "ˈhɪs.tər.i",
       "phonetic_us": "ˈhɪs.t̬ɚ.i",
       "audio_uk": "/media/english/uk_pron/u/ukh/ukhir/ukhire_016.mp3",
       "audio_us": "/media/english/us_pron/h/his/histo/history.mp3",
@@ -5595,16 +5653,16 @@
       "audio_us": null,
       "examples": [
         {
-          "en": "I can't buy it. I am not made of money.",
-          "zh": "我买不起它。我不是由钱做的。"
+          "en": "The desk is made of wood.",
+          "zh": "这张桌子是由木头制成的。"
         },
         {
-          "en": "Don't ask for more toys. I'm not made of money.",
-          "zh": "别要更多玩具了。我不是由钱做的。"
+          "en": "My cup is made of glass.",
+          "zh": "我的杯子是由玻璃制成的。"
         },
         {
-          "en": "He wants a new bike, but he is not made of money.",
-          "zh": "他想要新自行车，但他不是由钱做的。"
+          "en": "This toy is made of paper.",
+          "zh": "这个玩具是由纸制成的。"
         }
       ]
     },
@@ -5689,8 +5747,8 @@
       ]
     },
     "cotton": {
-      "phonetic_uk": "ˈkɒt.",
-      "phonetic_us": "ˈkɑː.t",
+      "phonetic_uk": "ˈkɒt.ən",
+      "phonetic_us": "ˈkɑː.tən",
       "audio_uk": "/media/english/uk_pron/u/ukc/ukcos/ukcossa021.mp3",
       "audio_us": "/media/english/us_pron/c/cot/cotto/cotton.mp3",
       "examples": [
@@ -5729,7 +5787,7 @@
       ]
     },
     "feature": {
-      "phonetic_uk": "ˈfiː.tʃə",
+      "phonetic_uk": "ˈfiː.tʃər",
       "phonetic_us": "ˈfiː.tʃɚ",
       "audio_uk": "/media/english/uk_pron/u/ukf/ukfea/ukfeast010.mp3",
       "audio_us": "/media/english/us_pron/f/fea/featu/feature.mp3",
@@ -5769,7 +5827,7 @@
       ]
     },
     "leather": {
-      "phonetic_uk": "ˈleð.ə",
+      "phonetic_uk": "ˈleð.ər",
       "phonetic_us": "ˈleð.ɚ",
       "audio_uk": "/media/english/uk_pron/u/ukl/uklea/uklearn009.mp3",
       "audio_us": "/media/english/us_pron/l/lea/leath/leather.mp3",
@@ -5909,8 +5967,8 @@
       ]
     },
     "rouble": {
-      "phonetic_uk": "ˈruː.b",
-      "phonetic_us": "ˈruː.b",
+      "phonetic_uk": "ˈruː.bəl",
+      "phonetic_us": "ˈruː.bəl",
       "audio_uk": "/media/english/uk_pron/u/ukr/ukros/ukroset025.mp3",
       "audio_us": "/media/english/us_pron/u/usr/usros/usrosin007.mp3",
       "examples": [
@@ -5929,7 +5987,7 @@
       ]
     },
     "dollar": {
-      "phonetic_uk": "ˈdɒl.ə",
+      "phonetic_uk": "ˈdɒl.ər",
       "phonetic_us": "ˈdɑː.lɚ",
       "audio_uk": "/media/english/uk_pron/u/ukd/ukdog/ukdogge026.mp3",
       "audio_us": "/media/english/us_pron/d/dol/dolla/dollar.mp3",
@@ -6009,8 +6067,8 @@
       ]
     },
     "Russian": {
-      "phonetic_uk": "ˈrʌʃ.",
-      "phonetic_us": "ˈrʌʃ.",
+      "phonetic_uk": "ˈrʌʃ.ən",
+      "phonetic_us": "ˈrʌʃ.ən",
       "audio_uk": "/media/english/uk_pron/u/ukc/ukcld/ukcld04295.mp3",
       "audio_us": "/media/english/us_pron/u/usc/uscld/uscld04298.mp3",
       "examples": [
@@ -6055,16 +6113,16 @@
       "audio_us": null,
       "examples": [
         {
-          "en": "She has a set of hopes for this job talk.",
-          "zh": "她对这次求职面试抱有一组期望。"
+          "en": "I have a set of new pencils.",
+          "zh": "我有一套新铅笔。"
         },
         {
-          "en": "I hope she gets the job with a set of skills.",
-          "zh": "我希望她用一组技能得到这份工作。"
+          "en": "She bought a set of red cups.",
+          "zh": "她买了一组红色的杯子。"
         },
         {
-          "en": "She wants this job, and she has a set of plans.",
-          "zh": "她想要这份工作，并且她有一组计划。"
+          "en": "This is a set of six chairs.",
+          "zh": "这是一套六把的椅子。"
         }
       ]
     },
@@ -6089,7 +6147,7 @@
       ]
     },
     "another": {
-      "phonetic_uk": "əˈnʌð.ə",
+      "phonetic_uk": "əˈnʌð.ər",
       "phonetic_us": "əˈnʌð.ɚ",
       "audio_uk": "/media/english/uk_pron/u/uka/ukano/ukanore004.mp3",
       "audio_us": "/media/english/us_pron/a/ano/anoth/another.mp3",
@@ -6109,8 +6167,8 @@
       ]
     },
     "colourful": {
-      "phonetic_uk": "ˈkʌl.ə.f",
-      "phonetic_us": "ˈkʌl.ɚ.f",
+      "phonetic_uk": "ˈkʌl.ə.fəl",
+      "phonetic_us": "ˈkʌl.ɚ.fəl",
       "audio_uk": "/media/english/uk_pron/u/ukc/ukcol/ukcolor010.mp3",
       "audio_us": "/media/english/us_pron/c/col/color/colorful.mp3",
       "examples": [
@@ -6149,7 +6207,7 @@
       ]
     },
     "player": {
-      "phonetic_uk": "ˈpleɪ.ə",
+      "phonetic_uk": "ˈpleɪ.ər",
       "phonetic_us": "ˈpleɪ.ɚ",
       "audio_uk": "/media/english/uk_pron/u/ukp/ukpla/ukplate026.mp3",
       "audio_us": "/media/english/us_pron/p/pla/playe/player.mp3",
@@ -6289,7 +6347,7 @@
       ]
     },
     "cover": {
-      "phonetic_uk": "ˈkʌv.ə",
+      "phonetic_uk": "ˈkʌv.ər",
       "phonetic_us": "ˈkʌv.ɚ",
       "audio_uk": "/media/english/uk_pron/u/ukc/ukcou/ukcouri025.mp3",
       "audio_us": "/media/english/us_pron/c/cov/cover/cover.mp3",
@@ -6309,8 +6367,8 @@
       ]
     },
     "education": {
-      "phonetic_uk": "ˌedʒ.ʊˈkeɪ.ʃ",
-      "phonetic_us": "ˌedʒ.əˈkeɪ.ʃ",
+      "phonetic_uk": "ˌedʒ.ʊˈkeɪ.ʃən",
+      "phonetic_us": "ˌedʒ.əˈkeɪ.ʃən",
       "audio_uk": "/media/english/uk_pron/u/uke/ukedg/ukedgil018.mp3",
       "audio_us": "/media/english/us_pron/e/eus/eus75/eus75651.mp3",
       "examples": [
@@ -6349,22 +6407,22 @@
       ]
     },
     "pay for": {
-      "phonetic_uk": "peɪ",
-      "phonetic_us": "peɪ",
-      "audio_uk": "/media/english/uk_pron/u/ukp/ukpau/ukpauci017.mp3",
-      "audio_us": "/media/english/us_pron/p/pay/pay__/pay.mp3",
+      "phonetic_uk": null,
+      "phonetic_us": null,
+      "audio_uk": null,
+      "audio_us": null,
       "examples": [
         {
-          "en": "We all pay for our mistakes one day.",
-          "zh": "我们总有一天会为自己的错误付出代价。"
+          "en": "I pay for the book with my money.",
+          "zh": "我用我的钱买这本书。"
         },
         {
-          "en": "He tricked me, so he will pay for it.",
-          "zh": "他骗了我，所以他要为此付出代价。"
+          "en": "She paid for her lunch yesterday.",
+          "zh": "她昨天付了午餐的钱。"
         },
         {
-          "en": "When we go out, she pays for all things.",
-          "zh": "我们出去时，她付所有的钱。"
+          "en": "He is paying for the ticket now.",
+          "zh": "他现在正在付票钱。"
         }
       ]
     },
@@ -6409,22 +6467,22 @@
       ]
     },
     "per cent": {
-      "phonetic_uk": "pəˌsent ˈpɒz.ə.tɪv",
-      "phonetic_us": "pɚˌsent ˈpɑː.zə.t̬ɪv",
-      "audio_uk": "/media/english/uk_pron/c/cdo/cdo11/cdo1121ukperc3419.mp3",
-      "audio_us": "/media/english/us_pron/c/cdo/cdo11/cdo1121usperc3312.mp3",
+      "phonetic_uk": null,
+      "phonetic_us": null,
+      "audio_uk": null,
+      "audio_us": null,
       "examples": [
         {
-          "en": "A high per cent means we need more tests.",
-          "zh": "高的百分比意味着我们需要更多检测。"
+          "en": "About 50 per cent of my class likes English.",
+          "zh": "我们班大约百分之五十的人喜欢英语。"
         },
         {
-          "en": "The per cent is higher, so it is more serious.",
-          "zh": "百分比更高了，所以它更严重。"
+          "en": "Ten per cent of the students are boys.",
+          "zh": "百分之十的学生是男生。"
         },
         {
-          "en": "A bigger per cent shows we should do more testing.",
-          "zh": "更大的百分比表明我们应该做更多检测。"
+          "en": "I spend 20 per cent of my money on books.",
+          "zh": "我把百分之二十的钱花在书上。"
         }
       ]
     },
@@ -6529,7 +6587,7 @@
       ]
     },
     "matter": {
-      "phonetic_uk": "ˈmæt.ə",
+      "phonetic_uk": "ˈmæt.ər",
       "phonetic_us": "ˈmæt̬.ɚ",
       "audio_uk": "/media/english/uk_pron/u/ukm/ukmat/ukmatri013.mp3",
       "audio_us": "/media/english/us_pron/e/eus/eus72/eus72937.mp3",
@@ -6609,7 +6667,7 @@
       ]
     },
     "strawberry": {
-      "phonetic_uk": "ˈstrɔː.b",
+      "phonetic_uk": "ˈstrɔː.bər.i",
       "phonetic_us": "ˈstrɑːˌber.i",
       "audio_uk": "/media/english/uk_pron/u/uks/ukstr/ukstrat010.mp3",
       "audio_us": "/media/english/us_pron/s/str/straw/strawberry.mp3",
@@ -6649,7 +6707,7 @@
       ]
     },
     "eraser": {
-      "phonetic_uk": "ɪˈreɪ.zə",
+      "phonetic_uk": "ɪˈreɪ.zər",
       "phonetic_us": "ɪˈreɪ.sɚ",
       "audio_uk": "/media/english/uk_pron/c/cal/cald4/cald4uk0508.mp3",
       "audio_us": "/media/english/us_pron/e/era/erase/eraser.mp3",
@@ -6689,8 +6747,8 @@
       ]
     },
     "present": {
-      "phonetic_uk": "ˈprez.",
-      "phonetic_us": "ˈprez.",
+      "phonetic_uk": "ˈprez.ənt",
+      "phonetic_us": "ˈprez.ənt",
       "audio_uk": "/media/english/uk_pron/u/ukp/ukpre/ukprepo020.mp3",
       "audio_us": "/media/english/us_pron/p/pre/prese/present_01_00.mp3",
       "examples": [
@@ -6839,8 +6897,8 @@
           "zh": "我从奶奶那里得到了压岁钱。"
         },
         {
-          "en": "She puts her lucky money in a red box.",
-          "zh": "她把压岁钱放在一个红盒子里。"
+          "en": "She puts her lucky money in a red bag.",
+          "zh": "她把压岁钱放在红包里。"
         },
         {
           "en": "We use lucky money to buy books.",
@@ -6849,8 +6907,8 @@
       ]
     },
     "grandparent": {
-      "phonetic_uk": "ˈɡræn.peə.r",
-      "phonetic_us": "ˈɡræn.per.",
+      "phonetic_uk": "ˈɡræn.peə.rənt",
+      "phonetic_us": "ˈɡræn.per.ənt",
       "audio_uk": "/media/english/uk_pron/u/ukg/ukgra/ukgrand020.mp3",
       "audio_us": "/media/english/us_pron/g/gra/grand/grandparent.mp3",
       "examples": [
@@ -6923,8 +6981,8 @@
           "zh": "红包里面有一些钱。"
         },
         {
-          "en": "We give red packets at Spring Festival.",
-          "zh": "我们在春节发红包。"
+          "en": "Children love red packets at Spring Festival.",
+          "zh": "孩子们在春节喜欢红包。"
         }
       ]
     },
@@ -6955,16 +7013,16 @@
       "audio_us": null,
       "examples": [
         {
-          "en": "You want the money to help people in need.",
-          "zh": "你想要钱去帮助有困难的人。"
+          "en": "The old man is in need of help.",
+          "zh": "这位老人需要帮助。"
         },
         {
-          "en": "Maisie swam and got 1000 pounds for families in need.",
-          "zh": "梅齐游泳为困难家庭筹到了1000英镑。"
+          "en": "We should help people in need.",
+          "zh": "我们应该帮助有困难的人。"
         },
         {
-          "en": "They give food to people in need.",
-          "zh": "他们把食物给有需要的人。"
+          "en": "She gave food to the family in need.",
+          "zh": "她给了那个贫困家庭食物。"
         }
       ]
     },
@@ -7049,7 +7107,7 @@
       ]
     },
     "remember": {
-      "phonetic_uk": "rɪˈmem.bə",
+      "phonetic_uk": "rɪˈmem.bər",
       "phonetic_us": "rɪˈmem.bɚ",
       "audio_uk": "/media/english/uk_pron/u/ukr/ukrem/ukremak008.mp3",
       "audio_us": "/media/english/us_pron/r/rem/remem/remember.mp3",
@@ -7089,8 +7147,8 @@
       ]
     },
     "dragon": {
-      "phonetic_uk": "ˈdræɡ.",
-      "phonetic_us": "ˈdræɡ.",
+      "phonetic_uk": "ˈdræɡ.ən",
+      "phonetic_us": "ˈdræɡ.ən",
       "audio_uk": "/media/english/uk_pron/u/ukd/ukdoz/ukdozen021.mp3",
       "audio_us": "/media/english/us_pron/d/dra/drago/dragon.mp3",
       "examples": [
@@ -7109,8 +7167,8 @@
       ]
     },
     "dragon boat": {
-      "phonetic_uk": "ˈdræɡ.",
-      "phonetic_us": "ˈdræɡ.",
+      "phonetic_uk": "ˈdræɡ.ən ˌbəʊt",
+      "phonetic_us": "ˈdræɡ.ən ˌboʊt",
       "audio_uk": "/media/english/uk_pron/c/cdo/cdo03/cdo0319ukdrag0482.mp3",
       "audio_us": "/media/english/us_pron/c/cdo/cdo03/cdo0319usdrag0561.mp3",
       "examples": [
@@ -7180,10 +7238,10 @@
         },
         {
           "en": "My mom makes rice dumplings with meat.",
-          "zh": "我妈妈包肉粽子。"
+          "zh": "我妈妈用肉做粽子。"
         },
         {
-          "en": "This rice dumpling is sweet and yummy.",
+          "en": "This rice dumpling is sweet and good.",
           "zh": "这个粽子又甜又好吃。"
         }
       ]
@@ -7289,8 +7347,8 @@
       ]
     },
     "gentleman": {
-      "phonetic_uk": "ˈdʒen.t",
-      "phonetic_us": "ˈdʒen.t̬",
+      "phonetic_uk": "ˈdʒen.təl.mən",
+      "phonetic_us": "ˈdʒen.t̬əl.mən",
       "audio_uk": "/media/english/uk_pron/u/ukg/ukgen/ukgenit015.mp3",
       "audio_us": "/media/english/us_pron/e/eus/eus72/eus72015.mp3",
       "examples": [
@@ -7409,8 +7467,8 @@
       ]
     },
     "tradition": {
-      "phonetic_uk": "trəˈdɪʃ.",
-      "phonetic_us": "trəˈdɪʃ.",
+      "phonetic_uk": "trəˈdɪʃ.ən",
+      "phonetic_us": "trəˈdɪʃ.ən",
       "audio_uk": "/media/english/uk_pron/u/ukt/uktra/uktract010.mp3",
       "audio_us": "/media/english/us_pron/t/tra/tradi/tradition.mp3",
       "examples": [
@@ -7429,8 +7487,8 @@
       ]
     },
     "symbol": {
-      "phonetic_uk": "ˈsɪm.b",
-      "phonetic_us": "ˈsɪm.b",
+      "phonetic_uk": "ˈsɪm.bəl",
+      "phonetic_us": "ˈsɪm.bəl",
       "audio_uk": "/media/english/uk_pron/u/ukc/ukcyb/ukcyber021.mp3",
       "audio_us": "/media/english/us_pron/c/cym/cymba/cymbal.mp3",
       "examples": [
@@ -7515,7 +7573,7 @@
       "audio_us": null,
       "examples": [
         {
-          "en": "I study hard in the hope of passing the test.",
+          "en": "I study hard in the hope of passing the exam.",
           "zh": "我努力学习，希望能通过考试。"
         },
         {
@@ -7609,8 +7667,8 @@
       ]
     },
     "traveller": {
-      "phonetic_uk": "ˈtræv.",
-      "phonetic_us": "ˈtræv.",
+      "phonetic_uk": "ˈtræv.əl.ər",
+      "phonetic_us": "ˈtræv.əl.ɚ",
       "audio_uk": "/media/english/uk_pron/u/ukt/uktra/uktrap_021.mp3",
       "audio_us": "/media/english/us_pron/t/tra/trave/traveler.mp3",
       "examples": [
@@ -7629,7 +7687,7 @@
       ]
     },
     "wherever": {
-      "phonetic_uk": "weəˈrev.ə",
+      "phonetic_uk": "weəˈrev.ər",
       "phonetic_us": "werˈev.ɚ",
       "audio_uk": "/media/english/uk_pron/u/ukw/ukwhe/ukwheel023.mp3",
       "audio_us": "/media/english/us_pron/w/whe/where/wherever.mp3",
@@ -7735,16 +7793,16 @@
       "audio_us": null,
       "examples": [
         {
-          "en": "Sorry, she is not here at the moment.",
-          "zh": "对不起，她现在不在这儿。"
+          "en": "I am doing my homework at the moment.",
+          "zh": "我现在正在做作业。"
         },
         {
-          "en": "I am a little busy at the moment.",
-          "zh": "我现在有点忙。"
+          "en": "She is watching TV at the moment.",
+          "zh": "她此刻正在看电视。"
         },
         {
-          "en": "He has no girlfriend at the moment.",
-          "zh": "他现在没有女朋友。"
+          "en": "They were playing football at the moment.",
+          "zh": "他们当时正在踢足球。"
         }
       ]
     },
@@ -7790,7 +7848,7 @@
     },
     "mountain": {
       "phonetic_uk": "ˈmaʊn.tɪn",
-      "phonetic_us": "ˈmaʊn.t",
+      "phonetic_us": "ˈmaʊn.tən",
       "audio_uk": "/media/english/uk_pron/u/ukm/ukmot/ukmotor019.mp3",
       "audio_us": "/media/english/us_pron/m/mou/mount/mountain.mp3",
       "examples": [
@@ -7829,8 +7887,8 @@
       ]
     },
     "natural": {
-      "phonetic_uk": "ˈnætʃ.",
-      "phonetic_us": "ˈnætʃ.ɚ.",
+      "phonetic_uk": "ˈnætʃ.ər.əl",
+      "phonetic_us": "ˈnætʃ.ɚ.əl",
       "audio_uk": "/media/english/uk_pron/u/ukn/uknat/uknativ006.mp3",
       "audio_us": "/media/english/us_pron/n/nat/natur/natural.mp3",
       "examples": [
@@ -7889,7 +7947,7 @@
       ]
     },
     "elder": {
-      "phonetic_uk": "ˈel.də",
+      "phonetic_uk": "ˈel.dər",
       "phonetic_us": "ˈel.dɚ",
       "audio_uk": "/media/english/uk_pron/u/uke/ukeld/ukelder001.mp3",
       "audio_us": "/media/english/us_pron/e/eld/elder/elder.mp3",
@@ -7909,8 +7967,8 @@
       ]
     },
     "double": {
-      "phonetic_uk": "ˈdʌb.",
-      "phonetic_us": "ˈdʌb.",
+      "phonetic_uk": "ˈdʌb.əl",
+      "phonetic_us": "ˈdʌb.əl",
       "audio_uk": "/media/english/uk_pron/u/ukd/ukdou/ukdoubl001.mp3",
       "audio_us": "/media/english/us_pron/d/dou/doubl/double.mp3",
       "examples": [
@@ -7929,7 +7987,7 @@
       ]
     },
     "forever": {
-      "phonetic_uk": "fəˈrev.ə",
+      "phonetic_uk": "fəˈrev.ər",
       "phonetic_us": "fɔːˈrev.ɚ",
       "audio_uk": "/media/english/uk_pron/u/ukf/ukfor/ukfores013.mp3",
       "audio_us": "/media/english/us_pron/f/for/forev/forever.mp3",
@@ -7950,7 +8008,7 @@
     },
     "decorate": {
       "phonetic_uk": "ˈdek.ə.reɪt",
-      "phonetic_us": "ˈdek.",
+      "phonetic_us": "ˈdek.ər.eɪt",
       "audio_uk": "/media/english/uk_pron/u/ukd/ukdec/ukdecod014.mp3",
       "audio_us": "/media/english/us_pron/d/dec/decor/decorate.mp3",
       "examples": [
@@ -7969,22 +8027,22 @@
       ]
     },
     "put up": {
-      "phonetic_uk": "ˈpʊt.ʌp ˌdʒɒb",
-      "phonetic_us": "ˈpʊt̬.ʌp ˌdʒɑːb",
-      "audio_uk": "/media/english/uk_pron/u/ukp/ukpus/ukpushc029.mp3",
-      "audio_us": "/media/english/us_pron/u/usp/uspur/uspurvi018.mp3",
+      "phonetic_uk": null,
+      "phonetic_us": null,
+      "audio_uk": null,
+      "audio_us": null,
       "examples": [
         {
-          "en": "They put up a big picture on the wall.",
-          "zh": "他们在墙上挂了一幅大画。"
+          "en": "We put up a map on the wall.",
+          "zh": "我们在墙上挂了一张地图。"
         },
         {
-          "en": "Please put up the new map in our classroom.",
-          "zh": "请把新地图张贴在我们的教室里。"
+          "en": "She put up a picture in her room.",
+          "zh": "她在房间里张贴了一张图片。"
         },
         {
-          "en": "She put up a notice about the school trip.",
-          "zh": "她张贴了一张关于学校旅行的通知。"
+          "en": "They put up posters for the school party.",
+          "zh": "他们为学校聚会张贴了海报。"
         }
       ]
     },
@@ -8003,8 +8061,8 @@
           "zh": "我喜欢红色的春联。"
         },
         {
-          "en": "Dad is buying Spring Festival couplets now.",
-          "zh": "爸爸正在买春联。"
+          "en": "My dad buys Spring Festival couplets every year.",
+          "zh": "我爸爸每年都买春联。"
         }
       ]
     },
@@ -8029,7 +8087,7 @@
       ]
     },
     "prepare": {
-      "phonetic_uk": "prɪˈpeə",
+      "phonetic_uk": "prɪˈpeər",
       "phonetic_us": "prɪˈper",
       "audio_uk": "/media/english/uk_pron/u/ukp/ukpre/ukpremi021.mp3",
       "audio_us": "/media/english/us_pron/p/pre/prepa/prepare.mp3",
@@ -8145,26 +8203,6 @@
         {
           "en": "She has a heart problem.",
           "zh": "她有一个心脏问题。"
-        }
-      ]
-    },
-    "be ready to do something": {
-      "phonetic_uk": null,
-      "phonetic_us": null,
-      "audio_uk": null,
-      "audio_us": null,
-      "examples": [
-        {
-          "en": "You walk a lot. You are ready to fall.",
-          "zh": "你走了很多路。你快要倒下了。"
-        },
-        {
-          "en": "These men are ready to die for their country.",
-          "zh": "这些人准备为国家而死。"
-        },
-        {
-          "en": "I think you are ready to stop now.",
-          "zh": "我想你现在准备好停下了。"
         }
       ]
     }

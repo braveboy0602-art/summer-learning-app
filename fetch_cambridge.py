@@ -56,6 +56,29 @@ def safe_filename(word):
     return name or "word"
 
 
+def normalize_phrase(s):
+    """词组比较用：小写、去掉省略号占位（如 take ... apart）、压缩空白"""
+    return re.sub(r"\s+", " ", s.replace("...", "").replace("…", "").strip().lower())
+
+
+def phrase_has_own_pron(word, html):
+    """词组（含空格的词）页面上是否有该词组自己的发音块。
+
+    Cambridge 对没有独立发音的词组会：
+      - 只标词组里某个单词的发音（put up 页面标题词是 put，发音只有 pʊt）
+      - 或页面的发音属于其他词条（per cent → percent positive、sports field → collocation 页）
+    检测：页面第一个标题词(hw dhw)必须与词组一致，且出现在第一个发音块(dpron-i)之前。
+    不满足时整条置 null，避免抓错音标/音频。
+    """
+    if " " not in word:
+        return True
+    hw = re.search(r'class="hw dhw"[^>]*>([^<]*)<', html)
+    dp = re.search(r'class="(?:uk|us) dpron-i[^"]*"', html)
+    if not hw or not dp:
+        return False
+    return normalize_phrase(hw.group(1)) == normalize_phrase(word) and hw.start() < dp.start()
+
+
 def parse_entry(html):
     """从词条 HTML 解析音标/音频/例句。
 
@@ -79,10 +102,26 @@ def parse_entry(html):
             block = html[idx:idx + 2500]
         else:
             block = html[idx:nxt + len("dpron-i") + 40]
-        # 音标：块内第一个 .ipa 文本
-        ipa = re.search(r'class="ipa[^"]*"[^>]*>([^<]+)<', block)
+        # 音标：块内第一个 .ipa 文本。
+        # Cambridge 会把部分字母包进嵌套 <span class="sp dsp">（如 ˈnætʃ.<span>ə</span>r.<span>ə</span>l），
+        # 不能只取到第一个标签为止，需按 span 嵌套深度取完整内容再去标签。
+        ipa = None
+        m = re.search(r'class="ipa[^"]*"[^>]*>', block)
+        if m:
+            start = m.end()
+            depth, i = 1, start
+            while i < len(block) and depth > 0:
+                if block.startswith("<span", i):
+                    depth += 1
+                    i += 5
+                elif block.startswith("</span>", i):
+                    depth -= 1
+                    i += 7
+                else:
+                    i += 1
+            ipa = re.sub(r"<[^>]+>", "", block[start:i]).strip()
         if ipa:
-            result[key_ph] = ipa.group(1).strip()
+            result[key_ph] = ipa
         # 音频：块内第一个 mp3 src
         src = re.search(r'<source type="audio/mpeg" src="([^"]+)"', block)
         if src:
@@ -104,13 +143,22 @@ def parse_entry(html):
 
 
 def fetch_word(word, session):
-    """抓取单个词，返回解析结果 dict（找不到时全字段 None）"""
+    """抓取单个词。
+
+    返回：
+      - (entry_dict, html)  正常解析结果
+      - (None, None)        页面不存在（404）
+      - ("phrase_no_pron", html)  词组页面只标了部分单词发音，整条置 null
+      - ("error", None)     限流/网络等重试仍失败（不标记结果，下次运行重试）
+    """
     url = f"{BASE_URL}/{word.replace(' ', '-')}"
     last_err = None
     for attempt in range(MAX_RETRY):
         try:
             resp = session.get(url, timeout=30)
             if resp.status_code == 200:
+                if not phrase_has_own_pron(word, resp.text):
+                    return "phrase_no_pron", resp.text
                 return parse_entry(resp.text), resp.text
             if resp.status_code == 404:
                 return None, None  # 页面不存在 = 查不到
@@ -119,7 +167,7 @@ def fetch_word(word, session):
             last_err = str(e)
         time.sleep(2 * (attempt + 1))
     print(f"  ⚠️ {word}: 重试仍失败 ({last_err})", flush=True)
-    return None, None
+    return "error", None
 
 
 def download_audio(session, path, mp3_src):
@@ -138,7 +186,7 @@ def download_audio(session, path, mp3_src):
     return False
 
 
-def save_progress(result, stats, missing):
+def save_progress(result, stats, missing, phrase_no_pron_list):
     """保存结果到输出文件（供断点续跑和周期落盘）"""
     meta = {
         "source": "dictionary.cambridge.org",
@@ -146,9 +194,11 @@ def save_progress(result, stats, missing):
         "total": len(extract_words()),
         "found": stats["found"],
         "null": stats["null"],
+        "phrase_no_pron": stats["phrase_no_pron"],
         "audio_downloaded": stats["audio_downloaded"],
         "audio_failed": stats["audio_failed"],
         "missing": missing,
+        "phrase_no_pron_list": phrase_no_pron_list,
     }
     with open(OUT_JSON, "w", encoding="utf-8") as f:
         json.dump({"meta": meta, "words": result}, f, ensure_ascii=False, indent=2)
@@ -174,15 +224,28 @@ def main():
     session = requests.Session()
     session.headers.update(HEADERS)
 
-    stats = {"found": 0, "null": 0, "audio_downloaded": 0, "audio_failed": 0}
+    stats = {"found": 0, "null": 0, "phrase_no_pron": 0,
+             "audio_downloaded": 0, "audio_failed": 0}
     missing = []
+    phrase_no_pron_list = []
 
     try:
         for i, word in enumerate(words, 1):
             if word in done:
                 continue
             entry, html = fetch_word(word, session)
-            if entry is None or all(v is None for v in entry.values()):
+            if entry == "error":
+                # 限流/网络等重试仍失败：不写结果、不标记 missing，下次运行会重试
+                print(f"  ⏭️ {word}: 本次跳过（重试仍失败），下次运行会重试", flush=True)
+                continue
+            if entry == "phrase_no_pron":
+                # 词组页面只标了部分单词发音（或发音属其他词条），整条置 null
+                entry = {"phonetic_uk": None, "phonetic_us": None,
+                         "audio_uk": None, "audio_us": None, "examples": None}
+                phrase_no_pron_list.append(word)
+                stats["phrase_no_pron"] += 1
+                tag = "PHR-NO-PRON"
+            elif entry is None or all(v is None for v in entry.values()):
                 # 页面 404 或 200 但无任何内容（如搜索首页）都视为未找到
                 entry = {"phonetic_uk": None, "phonetic_us": None,
                          "audio_uk": None, "audio_us": None, "examples": None}
@@ -215,17 +278,18 @@ def main():
 
             # 每 20 词落盘一次，中断不丢进度
             if i % 20 == 0:
-                save_progress(result, stats, missing)
+                save_progress(result, stats, missing, phrase_no_pron_list)
             if i % 10 == 0 or i == len(words):
                 print(f"[{i}/{len(words)}] {tag} {word}", flush=True)
 
             time.sleep(SLEEP_BETWEEN)
     finally:
         # 无论中断与否都保存进度
-        save_progress(result, stats, missing)
+        save_progress(result, stats, missing, phrase_no_pron_list)
         print(f"\n✅ 已保存: {OUT_JSON}")
-        print(f"   找到 {stats['found']} / 未找到 {stats['null']} / 音频下载 {stats['audio_downloaded']}（失败 {stats['audio_failed']}）")
+        print(f"   找到 {stats['found']} / 未找到 {stats['null']} / 词组无独立发音 {stats['phrase_no_pron']} / 音频下载 {stats['audio_downloaded']}（失败 {stats['audio_failed']}）")
         print(f"   未找到清单: {missing}")
+        print(f"   词组无独立发音清单: {phrase_no_pron_list}")
 
 
 if __name__ == "__main__":

@@ -4,6 +4,15 @@
    Claymorphism 风格 + 8dp 间距体系
    ======================================== */
 
+/* ---------- 本地字体：Inter 可变字体（覆盖 100-900 全部字重） ---------- */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('../fonts/Inter-Variable.woff2') format('woff2');
+}
+
 /* ---------- CSS Variables ---------- */
 :root {
   /* 主色 — 活泼靛蓝（代替冷蓝色） */

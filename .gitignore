@@ -17,5 +17,5 @@ node_modules/
 __pycache__/
 *.pyc
 
-# 抓取进度文件
-data/.cambridge_progress.json
+# 抓取进度文件（各年级断点续跑）
+data/.cambridge_progress*.json

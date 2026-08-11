@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 """抓取 dictionary.cambridge.org 的音标、例句、发音音频
 
-数据来源：data/junior_vocabulary7A.json 的 7A 词汇表
+数据来源：data/junior_vocabulary{GRADE}.json 的词汇表（如 7A / 7B）
+用法：python3 fetch_cambridge.py 7B   （不传参默认 7A）
 输出：
-  - data/cambridge_7a.json  （音标/例句/音频 URL，查不到的词字段为 null）
-  - audio/<单词>_uk.mp3 / <单词>_us.mp3  （发音音频文件）
+  - data/cambridge_{grade}.json  （音标/例句/音频 URL，查不到的词字段为 null）
+  - audio/<单词>_uk.mp3 / <单词>_us.mp3  （发音音频文件，所有年级共用目录）
 
 支持断点续跑：中断后重新运行，已处理的词自动跳过。
 """
@@ -23,10 +24,11 @@ HEADERS = {
     "Accept-Language": "en-US,en;q=0.9",
 }
 PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
-INPUT_JSON = os.path.join(PROJECT_ROOT, "data", "junior_vocabulary7A.json")
-OUT_JSON = os.path.join(PROJECT_ROOT, "data", "cambridge_7a.json")
+GRADE = (sys.argv[1] if len(sys.argv) > 1 else "7A").strip().upper()
+INPUT_JSON = os.path.join(PROJECT_ROOT, "data", f"junior_vocabulary{GRADE}.json")
+OUT_JSON = os.path.join(PROJECT_ROOT, "data", f"cambridge_{GRADE.lower()}.json")
 AUDIO_DIR = os.path.join(PROJECT_ROOT, "audio")
-PROGRESS_FILE = os.path.join(PROJECT_ROOT, "data", ".cambridge_progress.json")
+PROGRESS_FILE = os.path.join(PROJECT_ROOT, "data", f".cambridge_progress_{GRADE.lower()}.json")
 
 MAX_EXAMPLES = 3          # 每词取 3 条例句
 SLEEP_BETWEEN = 1.5       # 每词间隔秒数（限速）
@@ -34,7 +36,7 @@ MAX_RETRY = 3             # 失败重试次数
 
 
 def extract_words():
-    """从 7A 词汇表提取单词列表（保持原顺序，去重）"""
+    """从词汇表 JSON 提取单词列表（保持原顺序，去重）"""
     with open(INPUT_JSON, encoding="utf-8") as f:
         data = json.load(f)
     words = []
@@ -188,6 +190,14 @@ def download_audio(session, path, mp3_src):
 
 def save_progress(result, stats, missing, phrase_no_pron_list):
     """保存结果到输出文件（供断点续跑和周期落盘）"""
+    # 保留已有 meta 中本脚本不负责的字段（如 generate_examples 写入的 examples_source/ok/fail）
+    old_meta = {}
+    if os.path.exists(OUT_JSON):
+        try:
+            with open(OUT_JSON, encoding="utf-8") as f:
+                old_meta = json.load(f).get("meta", {})
+        except (json.JSONDecodeError, OSError):
+            pass
     meta = {
         "source": "dictionary.cambridge.org",
         "scraped_at": time.strftime("%Y-%m-%dT%H:%M:%S"),
@@ -200,6 +210,9 @@ def save_progress(result, stats, missing, phrase_no_pron_list):
         "missing": missing,
         "phrase_no_pron_list": phrase_no_pron_list,
     }
+    for key in ("examples_source", "examples_ok", "examples_fail"):
+        if key in old_meta:
+            meta[key] = old_meta[key]
     with open(OUT_JSON, "w", encoding="utf-8") as f:
         json.dump({"meta": meta, "words": result}, f, ensure_ascii=False, indent=2)
     with open(PROGRESS_FILE, "w", encoding="utf-8") as f:
@@ -218,16 +231,40 @@ def main():
     done = set(result.keys())
     print(f"已完成 {len(done)} 个词（断点续跑）", flush=True)
 
+    # 断点续跑时 stats 不从头算：从已有结果重建（否则重跑会清空 meta 统计）
+    def rebuild_stats():
+        all_null = [w for w, v in result.items()
+                    if all(x is None for x in (v.get("phonetic_uk"), v.get("phonetic_us"),
+                                               v.get("audio_uk"), v.get("audio_us")))]
+        return {
+            "found": len(result) - len(all_null),
+            "null": sum(1 for w in all_null if " " not in w),
+            "phrase_no_pron": sum(1 for w in all_null if " " in w),
+            "audio_downloaded": len([1 for w, v in result.items()
+                                     if v.get("audio_uk") and os.path.exists(
+                                         os.path.join(AUDIO_DIR, f"{safe_filename(w)}_uk.mp3"))]),
+            "audio_failed": 0,
+        }
+
     os.makedirs(os.path.join(PROJECT_ROOT, "data"), exist_ok=True)
     os.makedirs(AUDIO_DIR, exist_ok=True)
 
     session = requests.Session()
     session.headers.update(HEADERS)
 
-    stats = {"found": 0, "null": 0, "phrase_no_pron": 0,
-             "audio_downloaded": 0, "audio_failed": 0}
-    missing = []
-    phrase_no_pron_list = []
+    if done:
+        stats = rebuild_stats()
+        missing = [w for w, v in result.items()
+                   if all(x is None for x in (v.get("phonetic_uk"), v.get("phonetic_us"),
+                                              v.get("audio_uk"), v.get("audio_us"))) and " " not in w]
+        phrase_no_pron_list = [w for w, v in result.items()
+                               if all(x is None for x in (v.get("phonetic_uk"), v.get("phonetic_us"),
+                                                          v.get("audio_uk"), v.get("audio_us"))) and " " in w]
+    else:
+        stats = {"found": 0, "null": 0, "phrase_no_pron": 0,
+                 "audio_downloaded": 0, "audio_failed": 0}
+        missing = []
+        phrase_no_pron_list = []
 
     try:
         for i, word in enumerate(words, 1):

@@ -60,6 +60,7 @@ const StudyApp = {
     }
 
     // ---- 加载 Cambridge 词典数据（IPA 音标等） ----
+    // 7a 先加载，其余年级文件只补缺不覆盖（重叠词保留 7a 数据，不影响 7A 已有体验）
     this._cambridgeData = {};
     try {
       const resp = await fetch('data/cambridge_7a.json');
@@ -70,6 +71,19 @@ const StudyApp = {
       }
     } catch (err) {
       console.warn('[StudyApp] Cambridge 数据加载失败(不影响基本功能):', err);
+    }
+    try {
+      const resp = await fetch('data/cambridge_7b.json');
+      if (resp.ok) {
+        const cambridgeData = await resp.json();
+        const words = cambridgeData.words || {};
+        for (const [word, entry] of Object.entries(words)) {
+          if (!(word in this._cambridgeData)) this._cambridgeData[word] = entry;
+        }
+        console.log('[StudyApp] Cambridge 7B 数据已合并:', Object.keys(words).length, '个词');
+      }
+    } catch (err) {
+      console.warn('[StudyApp] Cambridge 7B 数据加载失败(不影响基本功能):', err);
     }
 
     this._renderHeader();
@@ -158,8 +172,9 @@ const StudyApp = {
         const wordCard = e.target.closest('.word-card');
         if (wordCard && wordCard.dataset.wordKey) {
           const key = wordCard.dataset.wordKey;
-          // key格式: categoryId_wordEn
-          const wordEn = key.substring(key.indexOf('_') + 1);
+          // key格式: categoryId_wordEn；分类 id 可能含下划线（如 grade7b_unit1），
+          // 用最后一个下划线切分，单词名本身不含下划线
+          const wordEn = key.substring(key.lastIndexOf('_') + 1);
           if (wordEn) {
             this._openWordDetail(wordEn);
           }

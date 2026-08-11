@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """用 DeepSeek API 把 Cambridge 例句改写成初一难度并配中文翻译
 
-输入：data/cambridge_7a.json（词 + 原例句）
+用法：python3 generate_examples.py 7B   （不传参默认 7A）
+输入：data/cambridge_{grade}.json（词 + 原例句）
 输出：examples 升级为 [{"en": "...", "zh": "..."}] 结构（每词 3 条）
-特殊处理：go by 保留用户手动改动，不处理
 断点续跑：已处理的词自动跳过
 """
 import json
@@ -19,9 +19,10 @@ MODEL = "deepseek-chat"
 SKIP_WORDS = set()  # 脚本只改写 examples 字段，其余字段（含用户手动改动）不受影响
 
 PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
-OUT_JSON = os.path.join(PROJECT_ROOT, "data", "cambridge_7a.json")
+GRADE = (sys.argv[1] if len(sys.argv) > 1 else "7A").strip().upper()
+OUT_JSON = os.path.join(PROJECT_ROOT, "data", f"cambridge_{GRADE.lower()}.json")
 DETAIL_JSON = os.path.join(PROJECT_ROOT, "data", "word_details_7a.json")
-INPUT_JSON = os.path.join(PROJECT_ROOT, "data", "junior_vocabulary7A.json")
+INPUT_JSON = os.path.join(PROJECT_ROOT, "data", f"junior_vocabulary{GRADE}.json")
 
 # 从 Claude Code 配置读取 DeepSeek API key（不打印）
 def load_api_key():

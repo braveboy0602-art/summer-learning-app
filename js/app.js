@@ -60,30 +60,23 @@ const StudyApp = {
     }
 
     // ---- 加载 Cambridge 词典数据（IPA 音标等） ----
-    // 7a 先加载，其余年级文件只补缺不覆盖（重叠词保留 7a 数据，不影响 7A 已有体验）
+    // 按年级依次加载，低年级先加载，高年级只补缺不覆盖（重叠词保留低年级数据）
     this._cambridgeData = {};
-    try {
-      const resp = await fetch('data/cambridge_7a.json');
-      if (resp.ok) {
-        const cambridgeData = await resp.json();
-        this._cambridgeData = cambridgeData.words || {};
-        console.log('[StudyApp] Cambridge 数据已加载:', Object.keys(this._cambridgeData).length, '个词');
-      }
-    } catch (err) {
-      console.warn('[StudyApp] Cambridge 数据加载失败(不影响基本功能):', err);
-    }
-    try {
-      const resp = await fetch('data/cambridge_7b.json');
-      if (resp.ok) {
-        const cambridgeData = await resp.json();
-        const words = cambridgeData.words || {};
-        for (const [word, entry] of Object.entries(words)) {
-          if (!(word in this._cambridgeData)) this._cambridgeData[word] = entry;
+    const CAMBRIDGE_FILES = ['cambridge_7a.json', 'cambridge_7b.json', 'cambridge_8a.json'];
+    for (const file of CAMBRIDGE_FILES) {
+      try {
+        const resp = await fetch(`data/${file}`);
+        if (resp.ok) {
+          const cambridgeData = await resp.json();
+          const words = cambridgeData.words || {};
+          for (const [word, entry] of Object.entries(words)) {
+            if (!(word in this._cambridgeData)) this._cambridgeData[word] = entry;
+          }
+          console.log(`[StudyApp] Cambridge ${file} 数据已合并:`, Object.keys(words).length, '个词');
         }
-        console.log('[StudyApp] Cambridge 7B 数据已合并:', Object.keys(words).length, '个词');
+      } catch (err) {
+        console.warn(`[StudyApp] Cambridge ${file} 加载失败(不影响基本功能):`, err);
       }
-    } catch (err) {
-      console.warn('[StudyApp] Cambridge 7B 数据加载失败(不影响基本功能):', err);
     }
 
     this._renderHeader();

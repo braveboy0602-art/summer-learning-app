@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI 精选故事 · 预览</title>
+<style>
+  :root {
+    --bg: #f6f7fb; --card: #fff; --text: #1e293b; --muted: #94a3b8;
+    --accent: #6366f1; --accent-soft: #eef2ff; --green: #10b981; --red: #ef4444;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif; background: var(--bg); color: var(--text); }
+  .wrap { max-width: 960px; margin: 0 auto; padding: 24px 16px 80px; }
+  h1 { font-size: 1.4rem; display: flex; align-items: center; gap: 10px; margin-bottom: 4px; }
+  .sub { color: var(--muted); font-size: .85rem; margin-bottom: 20px; }
+  .cats { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 24px; }
+  .cat-btn { border: 1.5px solid #e2e8f0; background: var(--card); padding: 6px 14px; border-radius: 20px; cursor: pointer; font-size: .85rem; transition: .15s; }
+  .cat-btn.active { background: var(--accent); border-color: var(--accent); color: #fff; }
+  .cat-btn .cnt { opacity: .6; margin-left: 4px; font-size: .75rem; }
+  .story-card { background: var(--card); border-radius: 16px; padding: 18px 20px; margin-bottom: 14px; box-shadow: 0 1px 3px rgba(0,0,0,.06); cursor: pointer; transition: .15s; border: 1.5px solid transparent; }
+  .story-card:hover { border-color: var(--accent); }
+  .story-card .t { font-size: 1.05rem; font-weight: 600; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+  .story-card .t .zh { color: var(--muted); font-weight: 400; font-size: .85rem; }
+  .badge { font-size: .7rem; padding: 2px 8px; border-radius: 10px; background: var(--accent-soft); color: var(--accent); }
+  .story-card .meta { margin-top: 6px; font-size: .78rem; color: var(--muted); display: flex; gap: 12px; flex-wrap: wrap; }
+  .story-card .meta .ok { color: var(--green); font-weight: 600; }
+  .story-card.open .body { display: block; }
+  .body { display: none; margin-top: 14px; padding-top: 14px; border-top: 1px dashed #e2e8f0; }
+  .body .sent { margin-bottom: 7px; line-height: 1.55; font-size: .95rem; counter-increment: sn; padding-left: 30px; position: relative; }
+  .body .sent::before { counter-reset: sn; content: counter(sn); position: absolute; left: 0; top: 1px; font-size: .72rem; color: var(--muted); background: #f1f5f9; border-radius: 8px; padding: 1px 6px; }
+  .body .sent b { color: var(--accent); font-weight: 700; }
+  .body .wlist { margin-top: 10px; font-size: .75rem; color: var(--muted); }
+  .cover { font-size: .8rem; padding: 4px 0 10px; display: flex; align-items: center; gap: 8px; }
+  .cover .bar { flex: 1; height: 6px; background: #eef2f7; border-radius: 3px; overflow: hidden; }
+  .cover .fill { height: 100%; background: var(--green); border-radius: 3px; }
+  .loading, .error { text-align: center; padding: 60px 0; color: var(--muted); }
+  .error .icon { font-size: 2.5rem; display: block; margin-bottom: 10px; }
+  .hint { position: fixed; bottom: 14px; left: 50%; transform: translateX(-50%); background: #1e293b; color: #fff; font-size: .75rem; padding: 8px 16px; border-radius: 20px; opacity: 0; transition: .3s; pointer-events: none; }
+  .hint.show { opacity: 1; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>🤖 AI 精选故事 · 预览</h1>
+  <div class="sub" id="subtitle">加载中...</div>
+  <div class="cats" id="catTabs"></div>
+  <div id="list"><div class="loading">⏳ 加载故事数据...</div></div>
+</div>
+<div class="hint" id="hint"></div>
+
+<script>
+// 数据文件通过 ?file=data/stories/primary.json 指定，默认小学
+const FILE = new URLSearchParams(location.search).get('file') || 'data/stories/primary.json';
+
+async function main() {
+  const res = await fetch(FILE);
+  if (!res.ok) throw new Error('HTTP ' + res.status);
+  const data = await res.json();
+
+  document.getElementById('subtitle').textContent =
+    `${data.groupName} · 共 ${data.categories.length} 个分类` +
+    (location.protocol === 'file:' ? ' · ⚠️ 请用 HTTP 服务器打开（如 python3 -m http.server 8080）' : '');
+
+  const cats = data.categories;
+  const tabBox = document.getElementById('catTabs');
+  cats.forEach((c, i) => {
+    const btn = document.createElement('button');
+    btn.className = 'cat-btn' + (i === 0 ? ' active' : '');
+    btn.innerHTML = `${c.categoryName} <span class="cnt">${c.coverage.covered}/${c.coverage.total}</span>`;
+    btn.onclick = () => {
+      tabBox.querySelectorAll('.cat-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      renderCategory(c);
+    };
+    tabBox.appendChild(btn);
+  });
+
+  // 高亮故事正文里的分类单词
+  function highlightWords(text, wordList) {
+    let out = text;
+    // 先匹配多词短语（优先最长）
+    const phrases = wordList.filter(w => w.includes(' ')).sort((a, b) => b.split(' ').length - a.split(' ').length);
+    for (const p of phrases) {
+      const esc = p.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+      out = out.replace(new RegExp('(' + esc + ')', 'gi'), '<b>$1</b>');
+    }
+    for (const w of wordList.filter(x => !x.includes(' '))) {
+      const esc = w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+      // 单词 + 常见变形
+      out = out.replace(new RegExp('\\b(' + esc + '(?:s|es|ed|ing|d|ies|ied)?)\\b', 'gi'), '<b>$1</b>');
+    }
+    return out;
+  }
+
+  function renderCategory(cat) {
+    const list = document.getElementById('list');
+    const pct = Math.round(cat.coverage.covered / cat.coverage.total * 100);
+    const missing = cat.coverage.missing && cat.coverage.missing.length
+      ? ` · 未覆盖：<span style="color:var(--red)">${cat.coverage.missing.join('、')}</span>` : '';
+    list.innerHTML = `
+      <div class="cover">
+        <span>覆盖 <b>${cat.coverage.covered}/${cat.coverage.total}</b> 词（${pct}%）</span>
+        <div class="bar"><div class="fill" style="width:${pct}%"></div></div>
+        <span>${missing || '✅ 全覆盖'}</span>
+      </div>
+      ${cat.stories.map(s => {
+        const wordsUsed = (s.wordsUsed || []).length;
+        const wordCount = s.sentences.join(' ').split(/\s+/).length;
+        return `
+        <div class="story-card" data-idx="${s.id}">
+          <div class="t"><span>${s.title.en}</span><span class="zh">${s.title.zh}</span>
+            <span class="badge">${wordsUsed} 词</span><span class="badge">${s.sentences.length} 句</span></div>
+          <div class="meta"><span>${wordCount} 个英文单词</span><span class="ok">${s.wordCount} 词覆盖</span></div>
+          <div class="body">
+            ${s.sentences.map(x => `<div class="sent">${highlightWords(x, s.wordsUsed || [])}</div>`).join('')}
+            <div class="wlist">本故事覆盖单词：${(s.wordsUsed || []).join('、')}</div>
+          </div>
+        </div>`;
+      }).join('')}`;
+    list.querySelectorAll('.story-card').forEach(card => {
+      card.addEventListener('click', () => {
+        card.classList.toggle('open');
+        const open = card.classList.contains('open');
+        showHint(open ? '再点一次收起' : '');
+      });
+    });
+  }
+
+  renderCategory(cats[0]);
+}
+
+function showHint(msg) {
+  const h = document.getElementById('hint');
+  h.textContent = msg;
+  h.classList.add('show');
+  setTimeout(() => h.classList.remove('show'), 1200);
+}
+
+main().catch(e => {
+  document.getElementById('list').innerHTML =
+    `<div class="error"><span class="icon">😕</span>故事数据加载失败：${e.message}<br>
+     <span style="font-size:.8rem;color:var(--muted)">请确认已通过 HTTP 服务器访问（python3 -m http.server 8080）且数据文件存在</span></div>`;
+});
+</script>
+</body>
+</html>

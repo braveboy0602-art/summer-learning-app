@@ -30,6 +30,7 @@ const StudyApp = {
     this._bindEvents();
     this._bindHeaderActions();
     this._bindChallengeEvents();
+    this._bindStoryEvents();
     this._bindDownloadEvents();
 
     // 注：小学分组默认展开改到「无记忆」分支处理，
@@ -521,8 +522,20 @@ const StudyApp = {
       this._openChallenge();
     });
 
+    // ---- 文章阅读按钮 ----
+    const storyBtn = document.createElement('button');
+    storyBtn.id = 'storyBtn';
+    storyBtn.className = 'btn btn-story';
+    storyBtn.textContent = '📖 文章阅读';
+    storyBtn.title = '阅读当前单元的英文文章';
+
+    storyBtn.addEventListener('click', () => {
+      this._openStoryReader();
+    });
+
     actions.appendChild(playBtn);
     actions.appendChild(challengeBtn);
+    actions.appendChild(storyBtn);
 
     // 追加到 word-area-header 右侧
     const header = document.querySelector('.word-area-header');
@@ -834,6 +847,247 @@ const StudyApp = {
     overlay.style.display = 'none';
     document.body.style.overflow = '';
     this._updateSRSBadge();
+  },
+
+  // ============================================
+  // 文章阅读 —— 按当前年级+单元加载 data/stories/ 下的阅读材料
+  // ============================================
+
+  /** 年级分组 ID → 文章文件名前缀映射（manifest 的 group.id → story_xxx） */
+  _storyGradePrefix() {
+    return {
+      'primary': 'primary',
+      'junior': '7a',
+      'junior7B': '7b',
+      'junior8': '8a',
+      'junior8B': '8b',
+      'junior9A': '9a',
+      'junior9B': '9b',
+      'junior_3500_7days': '3500_7days'
+    };
+  },
+
+  /** 正文分词：英文单词（含连字符/撇号，如 don't、brother-in-law）+ 其余文本 */
+  _storyWordRegex() {
+    return /[A-Za-z]+(?:['’-][A-Za-z]+)*/g;
+  },
+
+  /**
+   * 打开文章阅读弹窗：按当前选中的年级+单元加载对应 txt 文件
+   * 文件不存在（无阅读材料）时 toast 提示，不报错
+   */
+  async _openStoryReader() {
+    const overlay = document.getElementById('storyOverlay');
+    if (!overlay) return;
+
+    // 停跟读
+    this._stopAutoPlay();
+
+    const prefix = this._storyGradePrefix()[this.currentGroupId];
+    if (!prefix) {
+      this._showToast('该单元暂无阅读材料 📖');
+      return;
+    }
+
+    const file = `data/stories/story_${prefix}_${this.currentCategoryId}.txt`;
+    let text;
+    try {
+      const resp = await fetch(file);
+      if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+      text = await resp.text();
+    } catch (err) {
+      console.warn(`[StudyApp] 文章加载失败（${file}）:`, err);
+      this._showToast('该单元暂无阅读材料 📖');
+      return;
+    }
+
+    // 解析：空行分隔为多篇文章，每篇首行为标题，其余为正文段落
+    const blocks = text.split(/\n\s*\n/).map(b => b.trim()).filter(Boolean);
+    const articles = blocks.map(block => {
+      const lines = block.split('\n').map(l => l.trim()).filter(Boolean);
+      return { title: lines.shift() || '', paragraphs: lines };
+    }).filter(a => a.title);
+
+    if (!articles.length) {
+      this._showToast('该单元暂无阅读材料 📖');
+      return;
+    }
+
+    // 渲染正文：英文单词包成可点击 span，其余文本转义
+    const renderParagraph = (p) => {
+      const parts = p.split(this._storyWordRegex());
+      const words = p.match(this._storyWordRegex()) || [];
+      let html = '';
+      for (let i = 0; i < words.length; i++) {
+        html += this._escapeHtml(parts[i]);
+        html += `<span class="story-word" data-word="${this._escapeAttr(words[i])}">${this._escapeHtml(words[i])}</span>`;
+      }
+      html += this._escapeHtml(parts[parts.length - 1] || '');
+      return html;
+    };
+
+    // 头部信息：年级 + 单元名
+    const group = DataStore.getGroup(this.currentSubject, this.currentGroupId);
+    const category = DataStore.getCategory(this.currentSubject, this.currentGroupId, this.currentCategoryId);
+    const metaEl = document.getElementById('storyMeta');
+    if (metaEl) {
+      metaEl.textContent = [group?.name, category?.name].filter(Boolean).join(' · ');
+    }
+
+    // 探测整篇朗读语音：story_{grade}_{unit}_{序号}.mp3（序号从 1 按文章顺序）
+    const audioAvailable = await Promise.all(articles.map((a, idx) =>
+      fetch(`data/stories/audio/story_${prefix}_${this.currentCategoryId}_${idx + 1}.mp3`, { method: 'HEAD' })
+        .then(r => r.ok)
+        .catch(() => false)
+    ));
+
+    // 停掉上一次打开的播放（重新加载文章时）
+    this._stopStoryAudio();
+
+    const body = document.getElementById('storyBody');
+    if (body) {
+      body.innerHTML = articles.map((a, idx) => `
+        <div class="story-card">
+          <div class="story-card-title-row">
+            <h3 class="story-card-title">${idx + 1}. ${this._escapeHtml(a.title)}</h3>
+            ${audioAvailable[idx]
+              ? `<button class="story-audio-btn" data-story-index="${idx}" title="播放全文">▶ 听全文</button>`
+              : ''}
+          </div>
+          ${a.paragraphs.map(p => `<p class="story-paragraph">${renderParagraph(p)}</p>`).join('')}
+        </div>
+      `).join('');
+      body.scrollTop = 0;
+    }
+
+    overlay.style.display = 'flex';
+    document.body.style.overflow = 'hidden';
+  },
+
+  /**
+   * 切换整篇朗读：播放/暂停当前篇
+   * @param {number} idx 文章序号（0-based，对应 txt 中第 idx+1 篇）
+   */
+  _toggleStoryAudio(idx) {
+    // 同一篇：播放中 → 暂停；已暂停 → 从暂停处继续（不重新加载）
+    if (this._storyPlayingIdx === idx && this._storyAudio) {
+      if (!this._storyAudio.paused) {
+        this._storyAudio.pause();
+        this._syncStoryAudioBtns();
+        return;
+      }
+      this._storyAudio.play().catch(() => {
+        this._stopStoryAudio();
+        this._showToast('语音播放失败，请重试 🎧');
+      });
+      this._syncStoryAudioBtns();
+      return;
+    }
+
+    // 切换到另一篇：停掉当前播放
+    this._stopStoryAudio();
+
+    const prefix = this._storyGradePrefix()[this.currentGroupId];
+    const src = `data/stories/audio/story_${prefix}_${this.currentCategoryId}_${idx + 1}.mp3`;
+    this._unlockAudio();  // 用户手势内解锁音频（移动端自动播放绕过）
+
+    const audio = new Audio(src);
+    this._storyAudio = audio;
+    this._storyPlayingIdx = idx;
+
+    audio.addEventListener('ended', () => {
+      this._stopStoryAudio();
+    });
+    audio.addEventListener('error', () => {
+      this._stopStoryAudio();
+      this._showToast('语音加载失败，请检查音频文件 🎧');
+    });
+
+    audio.play().catch(() => {
+      this._stopStoryAudio();
+      this._showToast('语音播放失败，请重试 🎧');
+    });
+    this._syncStoryAudioBtns();
+  },
+
+  /** 停止整篇朗读并复位按钮状态 */
+  _stopStoryAudio() {
+    if (this._storyAudio) {
+      try { this._storyAudio.pause(); } catch (e) {}
+      this._storyAudio = null;
+    }
+    this._storyPlayingIdx = null;
+    this._syncStoryAudioBtns();
+  },
+
+  /** 同步所有"听全文"按钮的播放/暂停状态与卡片高亮 */
+  _syncStoryAudioBtns() {
+    const playing = this._storyPlayingIdx;
+    document.querySelectorAll('.story-audio-btn').forEach(btn => {
+      const idx = Number(btn.dataset.storyIndex);
+      const isActive = playing === idx && this._storyAudio && !this._storyAudio.paused;
+      btn.textContent = isActive ? '⏸ 暂停' : '▶ 听全文';
+      btn.classList.toggle('playing', isActive);
+    });
+    document.querySelectorAll('.story-card').forEach((card, i) => {
+      card.classList.toggle('playing', playing === i && this._storyAudio && !this._storyAudio.paused);
+    });
+  },
+
+  /** 关闭文章阅读弹窗 */
+  _closeStoryReader() {
+    // 关闭时停止整篇朗读，防止后台继续出声
+    this._stopStoryAudio();
+    const overlay = document.getElementById('storyOverlay');
+    if (!overlay) return;
+    overlay.style.display = 'none';
+    document.body.style.overflow = '';
+  },
+
+  /** 绑定文章阅读弹窗事件 */
+  _bindStoryEvents() {
+    // 关闭按钮
+    const closeBtn = document.getElementById('storyClose');
+    if (closeBtn) {
+      closeBtn.addEventListener('click', () => this._closeStoryReader());
+    }
+
+    // 点击背景蒙层关闭
+    const overlay = document.getElementById('storyOverlay');
+    if (overlay) {
+      overlay.addEventListener('click', (e) => {
+        if (e.target === overlay) this._closeStoryReader();
+      });
+    }
+
+    // ESC 键关闭（与挑战弹窗的 ESC 处理互不干扰，各自检查自己的显示状态）
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        const ov = document.getElementById('storyOverlay');
+        if (ov && ov.style.display !== 'none') this._closeStoryReader();
+      }
+    });
+
+    // 正文单词点击：发音 + 打开单词详情（事件委托）
+    const body = document.getElementById('storyBody');
+    if (body) {
+      body.addEventListener('click', (e) => {
+        // 整篇朗读按钮
+        const audioBtn = e.target.closest('.story-audio-btn');
+        if (audioBtn) {
+          const idx = Number(audioBtn.dataset.storyIndex);
+          if (!isNaN(idx)) this._toggleStoryAudio(idx);
+          return;
+        }
+        // 正文单词
+        const wordEl = e.target.closest('.story-word');
+        if (!wordEl) return;
+        const word = wordEl.dataset.word;
+        if (!word) return;
+        this.playAudio(word);
+        this._openWordDetail(word);
+      });
+    }
   },
 
   /** 绑定默写挑战弹窗事件 */

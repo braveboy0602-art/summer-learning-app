@@ -1,0 +1,3646 @@
+{
+  "meta": {
+    "source": "dictionary.cambridge.org",
+    "scraped_at": "2026-08-13T15:35:37",
+    "total": 180,
+    "found": 155,
+    "null": 2,
+    "phrase_no_pron": 23,
+    "audio_downloaded": 307,
+    "audio_failed": 0,
+    "missing": [
+      "at a/the speed of",
+      "compare to/with"
+    ],
+    "phrase_no_pron_list": [
+      "Chinese knot",
+      "Chinese opera",
+      "Chinese paper-cutting",
+      "in the middle of",
+      "take up",
+      "command pilot",
+      "out of control",
+      "cut ... short",
+      "by hand",
+      "happen to",
+      "at present",
+      "in general",
+      "no longer",
+      "put through",
+      "be satisfied with",
+      "first of all",
+      "up to standard",
+      "air tank",
+      "dried food",
+      "(all) over again",
+      "in the form of",
+      "carry out",
+      "after all"
+    ],
+    "examples_source": "deepseek 改写（初一难度）+ 中文翻译",
+    "examples_ok": 180,
+    "examples_fail": 0
+  },
+  "words": {
+    "tiring": {
+      "phonetic_uk": "ˈtaɪə.rɪŋ",
+      "phonetic_us": "ˈtaɪ.rɪŋ",
+      "audio_uk": "/media/english/uk_pron/u/ukt/uktip/uktippe019.mp3",
+      "audio_us": "/media/english/us_pron/t/tir/tirin/tiring.mp3",
+      "examples": [
+        {
+          "en": "I had a tiring day at school.",
+          "zh": "我在学校度过了累人的一天。"
+        },
+        {
+          "en": "Taking care of kids is very tiring.",
+          "zh": "照看孩子非常累人。"
+        },
+        {
+          "en": "They don't visit London often because it's too tiring with kids.",
+          "zh": "他们不常去伦敦，因为带孩子太累了。"
+        }
+      ]
+    },
+    "step": {
+      "phonetic_uk": "step",
+      "phonetic_us": "step",
+      "audio_uk": "/media/english/uk_pron/u/uks/ukste/uksteep019.mp3",
+      "audio_us": "/media/english/us_pron/s/ste/step_/step.mp3",
+      "examples": [
+        {
+          "en": "She stepped back and fell over a chair.",
+          "zh": "她后退一步，被椅子绊倒了。"
+        },
+        {
+          "en": "They stepped out onto the balcony.",
+          "zh": "他们走到阳台上。"
+        },
+        {
+          "en": "Be careful not to step in the mud.",
+          "zh": "小心别踩到泥里。"
+        }
+      ]
+    },
+    "Chinese knot": {
+      "phonetic_uk": null,
+      "phonetic_us": null,
+      "audio_uk": null,
+      "audio_us": null,
+      "examples": [
+        {
+          "en": "I made a red Chinese knot for my mom.",
+          "zh": "我给妈妈做了一个红色的中国结。"
+        },
+        {
+          "en": "The Chinese knot hangs on the wall.",
+          "zh": "那个中国结挂在墙上。"
+        },
+        {
+          "en": "She learned to make a Chinese knot in art class.",
+          "zh": "她在美术课上学做了中国结。"
+        }
+      ]
+    },
+    "Chinese opera": {
+      "phonetic_uk": null,
+      "phonetic_us": null,
+      "audio_uk": null,
+      "audio_us": null,
+      "examples": [
+        {
+          "en": "My grandma loves watching Chinese opera on TV.",
+          "zh": "我奶奶喜欢在电视上看中国戏曲。"
+        },
+        {
+          "en": "We learned about Chinese opera in our art class.",
+          "zh": "我们在美术课上了解了中国戏曲。"
+        },
+        {
+          "en": "The Chinese opera show will start at seven tonight.",
+          "zh": "中国戏曲演出今晚七点开始。"
+        }
+      ]
+    },
+    "Chinese paper-cutting": {
+      "phonetic_uk": null,
+      "phonetic_us": null,
+      "audio_uk": null,
+      "audio_us": null,
+      "examples": [
+        {
+          "en": "Chinese paper-cutting is a traditional folk art in China.",
+          "zh": "中国剪纸是中国的传统民间艺术。"
+        },
+        {
+          "en": "My grandma makes Chinese paper-cutting for the Spring Festival.",
+          "zh": "我奶奶为春节做中国剪纸。"
+        },
+        {
+          "en": "We put up Chinese paper-cutting on the windows to celebrate New Year.",
+          "zh": "我们把中国剪纸贴在窗户上来庆祝新年。"
+        }
+      ]
+    },
+    "chopsticks": {
+      "phonetic_uk": "ˈtʃɒp.stɪk",
+      "phonetic_us": "ˈtʃɑːp.stɪk",
+      "audio_uk": "/media/english/uk_pron/u/ukc/ukcho/ukchock028.mp3",
+      "audio_us": "/media/english/us_pron/c/cho/chops/chopstick.mp3",
+      "examples": [
+        {
+          "en": "He used ivory chopsticks to eat rice from a bowl every evening.",
+          "zh": "他每天晚上用象牙筷子从碗里吃米饭。"
+        },
+        {
+          "en": "On the table there are four bowls, two dishes, and a bag with chopsticks.",
+          "zh": "桌子上有四个碗、两个小碟子，还有一个装着筷子的纸袋。"
+        },
+        {
+          "en": "We used forks and chopsticks, and each guest had soy or vinegar.",
+          "zh": "我们用叉子和筷子，每位客人都有酱油或醋。"
+        }
+      ]
+    },
+    "dragon dance": {
+      "phonetic_uk": "ˈdræɡ.ən ˌdɑːns",
+      "phonetic_us": "ˈdræɡ.ən ˌdæns",
+      "audio_uk": "/media/english/uk_pron/c/cdo/cdo01/cdo0123ukdrag0913.mp3",
+      "audio_us": "/media/english/us_pron/c/cdo/cdo11/cdo1121usdrag1455.mp3",
+      "examples": [
+        {
+          "en": "The children did a dragon dance for the celebration.",
+          "zh": "孩子们为了庆祝表演了舞龙。"
+        },
+        {
+          "en": "Big store openings often have dragon dances and fireworks.",
+          "zh": "大型商店开业时常有舞龙和烟花。"
+        },
+        {
+          "en": "Chinese people here celebrate with dragon dances and food.",
+          "zh": "这里的中国人用舞龙和美食来庆祝。"
+        }
+      ]
+    },
+    "middle": {
+      "phonetic_uk": "ˈmɪd.əl",
+      "phonetic_us": "ˈmɪd.əl",
+      "audio_uk": "/media/english/uk_pron/u/ukm/ukmic/ukmicro012.mp3",
+      "audio_us": "/media/english/us_pron/m/mid/middl/middle.mp3",
+      "examples": [
+        {
+          "en": "This is my class photo. I'm in the middle.",
+          "zh": "这是我的班级照。我在中间。"
+        },
+        {
+          "en": "They walked in the middle of the road.",
+          "zh": "他们走在路的中间。"
+        },
+        {
+          "en": "The noise woke us in the middle of the night.",
+          "zh": "噪音在半夜把我们吵醒了。"
+        }
+      ]
+    },
+    "in the middle of": {
+      "phonetic_uk": null,
+      "phonetic_us": null,
+      "audio_uk": null,
+      "audio_us": null,
+      "examples": [
+        {
+          "en": "I was in the middle of my homework when he called.",
+          "zh": "他打电话来的时候，我正在做作业。"
+        },
+        {
+          "en": "The school is in the middle of a small town.",
+          "zh": "这所学校在一个小镇的中心。"
+        },
+        {
+          "en": "She sat in the middle of the classroom and listened carefully.",
+          "zh": "她坐在教室中间，认真听讲。"
+        }
+      ]
+    },
+    "emperor": {
+      "phonetic_uk": "ˈem.pər.ər",
+      "phonetic_us": "ˈem.pɚ.ɚ",
+      "audio_uk": "/media/english/uk_pron/u/uke/ukemo/ukemolu014.mp3",
+      "audio_us": "/media/english/us_pron/e/emp/emper/emperor.mp3",
+      "examples": [
+        {
+          "en": "He dressed up as an emperor for the party.",
+          "zh": "他打扮成皇帝去参加聚会。"
+        },
+        {
+          "en": "This porcelain was made only for the emperor.",
+          "zh": "这种瓷器是专门为皇帝制作的。"
+        },
+        {
+          "en": "The emperor ruled Japan from 1926 to 1989.",
+          "zh": "这位皇帝从1926年到1989年统治日本。"
+        }
+      ]
+    },
+    "raising": {
+      "phonetic_uk": "reɪz",
+      "phonetic_us": "reɪz",
+      "audio_uk": "/media/english/uk_pron/u/ukr/ukrai/ukrains003.mp3",
+      "audio_us": "/media/english/us_pron/r/rai/raise/raise.mp3",
+      "examples": [
+        {
+          "en": "Please raise your hand if you agree.",
+          "zh": "如果你同意，请举手。"
+        },
+        {
+          "en": "He raised the window and looked out.",
+          "zh": "他抬起窗户，向外看去。"
+        },
+        {
+          "en": "Mary Quant was the first to raise skirt lengths.",
+          "zh": "玛丽·匡特是第一个提高裙摆长度的人。"
+        }
+      ]
+    },
+    "flag": {
+      "phonetic_uk": "flæɡ",
+      "phonetic_us": "flæɡ",
+      "audio_uk": "/media/english/uk_pron/u/ukf/ukfla/ukflacc003.mp3",
+      "audio_us": "/media/english/us_pron/f/fla/flag_/flag.mp3",
+      "examples": [
+        {
+          "en": "Flags of all the countries are flying outside the stadium.",
+          "zh": "所有国家的旗帜都在体育场外飘扬。"
+        },
+        {
+          "en": "The palace flies a flag when the king is at home.",
+          "zh": "国王在家时，王宫会升起旗帜。"
+        },
+        {
+          "en": "The flags were flapping in the wind.",
+          "zh": "旗帜在风中飘动。"
+        }
+      ]
+    },
+    "landscape": {
+      "phonetic_uk": "ˈlænd.skeɪp",
+      "phonetic_us": "ˈlænd.skeɪp",
+      "audio_uk": "/media/english/uk_pron/u/ukl/uklam/uklampl028.mp3",
+      "audio_us": "/media/english/us_pron/l/lan/lands/landscape.mp3",
+      "examples": [
+        {
+          "en": "We saw a beautiful rural landscape on our way.",
+          "zh": "我们在路上看到了一片美丽的乡村风景。"
+        },
+        {
+          "en": "Builders are busy changing the urban landscape.",
+          "zh": "建筑工人们正忙着改变城市的面貌。"
+        },
+        {
+          "en": "The landscape is dotted with campers' tents.",
+          "zh": "这片风景上点缀着露营者的帐篷。"
+        }
+      ]
+    },
+    "attraction": {
+      "phonetic_uk": "əˈtræk.ʃən",
+      "phonetic_us": "əˈtræk.ʃən",
+      "audio_uk": "/media/english/uk_pron/u/uka/ukatt/ukatten012.mp3",
+      "audio_us": "/media/english/us_pron/a/att/attra/attraction.mp3",
+      "examples": [
+        {
+          "en": "The city has many attractions, like parks and museums.",
+          "zh": "这座城市有很多吸引人的地方，比如公园和博物馆。"
+        },
+        {
+          "en": "The Great Wall is a famous tourist attraction.",
+          "zh": "长城是一个著名的旅游景点。"
+        },
+        {
+          "en": "Traveling is a big attraction of this job.",
+          "zh": "旅行是这份工作的一大吸引力。"
+        }
+      ]
+    },
+    "watchtower": {
+      "phonetic_uk": "ˈwɒtʃˌtaʊər",
+      "phonetic_us": "ˈwɑːtʃˌtaʊ.ɚ",
+      "audio_uk": "/media/english/uk_pron/u/ukw/ukwas/ukwaspi024.mp3",
+      "audio_us": "/media/english/us_pron/u/usw/uswas/uswashr021.mp3",
+      "examples": [
+        {
+          "en": "The guard at the watchtower saw the smoke far away.",
+          "zh": "瞭望塔上的守卫看到了远处的烟。"
+        },
+        {
+          "en": "From the watchtower, we can watch the animals in the forest.",
+          "zh": "从瞭望塔上，我们能观察森林里的动物。"
+        },
+        {
+          "en": "The old watchtower was used to watch for fires in the city.",
+          "zh": "那座旧瞭望塔过去用来监视城里的火灾。"
+        }
+      ]
+    },
+    "wonder": {
+      "phonetic_uk": "ˈwʌn.dər",
+      "phonetic_us": "ˈwʌn.dɚ",
+      "audio_uk": "/media/english/uk_pron/u/ukw/ukwom/ukwoman008.mp3",
+      "audio_us": "/media/english/us_pron/w/won/wonde/wonder.mp3",
+      "examples": [
+        {
+          "en": "Your parents will wonder where you are. Call them now.",
+          "zh": "你的父母会想知道你在哪里。现在给他们打电话吧。"
+        },
+        {
+          "en": "He wonders if taking the job was right.",
+          "zh": "他怀疑接受这份工作是否是正确的。"
+        },
+        {
+          "en": "I wonder if this turkey is big enough for eight.",
+          "zh": "我想知道这只火鸡是否够八个人吃。"
+        }
+      ]
+    },
+    "lie": {
+      "phonetic_uk": "laɪ",
+      "phonetic_us": "laɪ",
+      "audio_uk": "/media/english/uk_pron/u/ukl/uklic/uklicen013.mp3",
+      "audio_us": "/media/english/us_pron/l/lie/lie__/lie.mp3",
+      "examples": [
+        {
+          "en": "He likes to lie in bed on Sundays.",
+          "zh": "他喜欢星期天躺在床上。"
+        },
+        {
+          "en": "She lies on a beach to enjoy the sun.",
+          "zh": "她躺在沙滩上享受阳光。"
+        },
+        {
+          "en": "Please lie on your side for the photo.",
+          "zh": "请侧躺着拍照。"
+        }
+      ]
+    },
+    "shape": {
+      "phonetic_uk": "ʃeɪp",
+      "phonetic_us": "ʃeɪp",
+      "audio_uk": "/media/english/uk_pron/u/uks/uksha/ukshame017.mp3",
+      "audio_us": "/media/english/us_pron/s/sha/shape/shape.mp3",
+      "examples": [
+        {
+          "en": "Clay can turn into almost any shape.",
+          "zh": "黏土可以变成几乎任何形状。"
+        },
+        {
+          "en": "These bricks have different shapes.",
+          "zh": "这些砖头有不同的形状。"
+        },
+        {
+          "en": "Kim's cake was in the shape of a train.",
+          "zh": "Kim的蛋糕是火车形状的。"
+        }
+      ]
+    },
+    "underground": {
+      "phonetic_uk": "ˌʌn.dəˈɡraʊnd",
+      "phonetic_us": "ˈʌn.dɚ.ɡraʊnd",
+      "audio_uk": "/media/english/uk_pron/u/uku/ukund/ukunder007.mp3",
+      "audio_us": "/media/english/us_pron/u/und/under/underground.mp3",
+      "examples": [
+        {
+          "en": "The explorers found a dark underground cave.",
+          "zh": "探险家们发现了一个黑暗的地下洞穴。"
+        },
+        {
+          "en": "We walked through a long underground passage.",
+          "zh": "我们走过了一条长长的地下通道。"
+        },
+        {
+          "en": "Workers are laying an underground cable now.",
+          "zh": "工人们正在铺设地下电缆。"
+        }
+      ]
+    },
+    "cave": {
+      "phonetic_uk": "keɪv",
+      "phonetic_us": "keɪv",
+      "audio_uk": "/media/english/uk_pron/u/ukc/ukcav/ukcaval003.mp3",
+      "audio_us": "/media/english/us_pron/c/cav/cave_/cave.mp3",
+      "examples": [
+        {
+          "en": "We saw old cave paintings on the wall.",
+          "zh": "我们在墙上看到了古老的洞穴壁画。"
+        },
+        {
+          "en": "His scream echoed inside the cave for seconds.",
+          "zh": "他的尖叫声在洞穴里回响了几秒钟。"
+        },
+        {
+          "en": "She was badly hurt in a cave accident in France.",
+          "zh": "她在法国的一次洞穴事故中受了重伤。"
+        }
+      ]
+    },
+    "hang": {
+      "phonetic_uk": "hæŋ",
+      "phonetic_us": "hæŋ",
+      "audio_uk": "/media/english/uk_pron/u/ukh/ukhan/ukhando013.mp3",
+      "audio_us": "/media/english/us_pron/h/han/hang_/hang.mp3",
+      "examples": [
+        {
+          "en": "A heavy gold necklace hung around her neck.",
+          "zh": "一条沉重的金项链挂在她脖子上。"
+        },
+        {
+          "en": "A big bunch of keys hung from her belt.",
+          "zh": "一大串钥匙挂在她腰带上。"
+        },
+        {
+          "en": "Party decorations hung down from the ceiling.",
+          "zh": "派对装饰物从天花板垂挂下来。"
+        }
+      ]
+    },
+    "point": {
+      "phonetic_uk": "pɔɪnt",
+      "phonetic_us": "pɔɪnt",
+      "audio_uk": "/media/english/uk_pron/u/ukp/ukpog/ukpogos007.mp3",
+      "audio_us": "/media/english/us_pron/p/poi/point/point.mp3",
+      "examples": [
+        {
+          "en": "Let's talk about the first point in your essay.",
+          "zh": "我们来谈谈你文章中的第一个要点。"
+        },
+        {
+          "en": "You made a good point in your speech.",
+          "zh": "你在演讲中提出了一个好观点。"
+        },
+        {
+          "en": "I want to make this point clear to you.",
+          "zh": "我想把这个要点跟你讲清楚。"
+        }
+      ]
+    },
+    "upwards": {
+      "phonetic_uk": "ˈʌp.wədz",
+      "phonetic_us": "ˈʌp.wɚdz",
+      "audio_uk": "/media/english/uk_pron/u/uku/ukups/ukupstr012.mp3",
+      "audio_us": "/media/english/us_pron/u/upw/upwar/upwards_upward.mp3",
+      "examples": [
+        {
+          "en": "She looked upwards at the sun.",
+          "zh": "她抬头看向太阳。"
+        },
+        {
+          "en": "The price has been revised upwards again.",
+          "zh": "价格又被上调了。"
+        },
+        {
+          "en": "House prices are moving upwards again.",
+          "zh": "房价又开始上涨了。"
+        }
+      ]
+    },
+    "hire": {
+      "phonetic_uk": "haɪər",
+      "phonetic_us": "haɪr",
+      "audio_uk": "/media/english/uk_pron/u/ukh/ukhir/ukhire_001.mp3",
+      "audio_us": "/media/english/us_pron/h/hir/hire_/hire.mp3",
+      "examples": [
+        {
+          "en": "How much is it to hire a car for the weekend?",
+          "zh": "周末租一辆车要多少钱？"
+        },
+        {
+          "en": "You can hire a dress for the ball if you can't buy one.",
+          "zh": "如果你买不起礼服，可以租一件去舞会。"
+        },
+        {
+          "en": "The first company I asked hired me.",
+          "zh": "我申请的第一家公司就雇用了我。"
+        }
+      ]
+    },
+    "eastern": {
+      "phonetic_uk": "ˈiː.stən",
+      "phonetic_us": "ˈiː.stɚn",
+      "audio_uk": "/media/english/uk_pron/u/uke/ukeas/ukeasil008.mp3",
+      "audio_us": "/media/english/us_pron/e/eas/easte/eastern.mp3",
+      "examples": [
+        {
+          "en": "The eastern part of the country has many mountains.",
+          "zh": "这个国家的东部有很多山。"
+        },
+        {
+          "en": "Before 1991, the Eastern bloc included the Soviet Union and eastern Europe.",
+          "zh": "1991年之前，东方集团包括苏联和东欧。"
+        },
+        {
+          "en": "Buddhism and other Eastern religions interest me a lot.",
+          "zh": "佛教和其他东方宗教让我很感兴趣。"
+        }
+      ]
+    },
+    "south-east": {
+      "phonetic_uk": null,
+      "phonetic_us": null,
+      "audio_uk": "/media/english/uk_pron/c/cbe/cbedu/cbeduk00409.mp3",
+      "audio_us": "/media/english/us_pron/c/cbe/cbedu/cbedus00409.mp3",
+      "examples": [
+        {
+          "en": "The wind is blowing from the south-east.",
+          "zh": "风正从东南方吹来。"
+        },
+        {
+          "en": "Our school is in the south-east of the city.",
+          "zh": "我们学校在城市的东南部。"
+        },
+        {
+          "en": "They walked south-east to find the river.",
+          "zh": "他们向东南方走去寻找那条河。"
+        }
+      ]
+    },
+    "location": {
+      "phonetic_uk": "ləʊˈkeɪ.ʃən",
+      "phonetic_us": "loʊˈkeɪ.ʃən",
+      "audio_uk": "/media/english/uk_pron/u/ukl/ukloa/ukload_030.mp3",
+      "audio_us": "/media/english/us_pron/l/loc/locat/location.mp3",
+      "examples": [
+        {
+          "en": "The hotel is in a beautiful location near the lake.",
+          "zh": "这家酒店位于湖边一个风景优美的地方。"
+        },
+        {
+          "en": "We will send you a map of the property's location.",
+          "zh": "我们会给你寄一张标有房产位置的地图。"
+        },
+        {
+          "en": "She chose to retire early instead of moving to the new location.",
+          "zh": "她选择提前退休，而不是搬到新的地方。"
+        }
+      ]
+    },
+    "take up": {
+      "phonetic_uk": null,
+      "phonetic_us": null,
+      "audio_uk": null,
+      "audio_us": null,
+      "examples": [
+        {
+          "en": "The big sofa takes up too much space in my room.",
+          "zh": "这个大沙发在我房间里占了太多空间。"
+        },
+        {
+          "en": "Learning English takes up two hours every day.",
+          "zh": "学英语每天占用两个小时。"
+        },
+        {
+          "en": "Don't let games take up all your free time.",
+          "zh": "别让游戏占据你所有的空闲时间。"
+        }
+      ]
+    },
+    "quarter": {
+      "phonetic_uk": "ˈkwɔː.tər",
+      "phonetic_us": "ˈkwɔːr.t̬ɚ",
+      "audio_uk": "/media/english/uk_pron/c/cdo/cdo11/cdo1121ukquar3592.mp3",
+      "audio_us": "/media/english/us_pron/q/qua/quart/quarter.mp3",
+      "examples": [
+        {
+          "en": "He cut the orange into four quarters.",
+          "zh": "他把橙子切成了四份。"
+        },
+        {
+          "en": "Under a quarter of the people said they were happy.",
+          "zh": "不到四分之一的人说他们很幸福。"
+        },
+        {
+          "en": "My house is a mile and three quarters away.",
+          "zh": "我家离这里一又四分之三英里。"
+        }
+      ]
+    },
+    "either": {
+      "phonetic_uk": "ˈaɪ.ðər",
+      "phonetic_us": "ˈiː.ðɚ",
+      "audio_uk": "/media/english/uk_pron/u/uke/ukeig/ukeight008.mp3",
+      "audio_us": "/media/english/us_pron/e/eit/eithe/either.mp3",
+      "examples": [
+        {
+          "en": "I don't like apples, and my sister doesn't either.",
+          "zh": "我不喜欢苹果，我姐姐也不喜欢。"
+        },
+        {
+          "en": "\"I haven't seen that movie.\" \"I haven't either.\"",
+          "zh": "“我没看过那部电影。”“我也没看过。”"
+        },
+        {
+          "en": "The school has a nice library, and it isn't far either.",
+          "zh": "这所学校有一个好图书馆，而且它也不远。"
+        }
+      ]
+    },
+    "level": {
+      "phonetic_uk": "ˈlev.əl",
+      "phonetic_us": "ˈlev.əl",
+      "audio_uk": "/media/english/uk_pron/u/ukl/ukles/ukles__029.mp3",
+      "audio_us": "/media/english/us_pron/l/lev/level/level.mp3",
+      "examples": [
+        {
+          "en": "The lake's water level is higher after heavy rain.",
+          "zh": "大雨过后，湖里的水位更高了。"
+        },
+        {
+          "en": "Inflation will rise two percent from its current level.",
+          "zh": "通货膨胀将从目前的水平上升两个百分点。"
+        },
+        {
+          "en": "Chess needs a very high level of concentration.",
+          "zh": "下棋需要非常高的专注度。"
+        }
+      ]
+    },
+    "service": {
+      "phonetic_uk": "ˈsɜː.vɪs",
+      "phonetic_us": "ˈsɝː.vɪs",
+      "audio_uk": "/media/english/uk_pron/u/uks/ukser/ukseren028.mp3",
+      "audio_us": "/media/english/us_pron/s/ser/servi/service.mp3",
+      "examples": [
+        {
+          "en": "The postal service sends letters and packages.",
+          "zh": "邮政服务寄送信件和包裹。"
+        },
+        {
+          "en": "The National Park Service takes care of US parks.",
+          "zh": "国家公园管理局负责照看美国的公园。"
+        },
+        {
+          "en": "The National Health Service gives free health care in the UK.",
+          "zh": "英国国民医疗服务体系提供免费医疗。"
+        }
+      ]
+    },
+    "Japanese": {
+      "phonetic_uk": "ˌdʒæp.ənˈiːz",
+      "phonetic_us": "ˌdʒæp.ənˈiːz",
+      "audio_uk": "/media/english/uk_pron/u/ukc/ukcld/ukcld04179.mp3",
+      "audio_us": "/media/english/us_pron/u/usc/uscld/uscld04179.mp3",
+      "examples": [
+        {
+          "en": "The Japanese stock market is going up.",
+          "zh": "日本股市正在上涨。"
+        },
+        {
+          "en": "I like Japanese art very much.",
+          "zh": "我非常喜欢日本艺术。"
+        },
+        {
+          "en": "Can you speak Japanese well?",
+          "zh": "你日语说得好吗？"
+        }
+      ]
+    },
+    "state": {
+      "phonetic_uk": "steɪt",
+      "phonetic_us": "steɪt",
+      "audio_uk": "/media/english/uk_pron/u/uks/uksta/ukstarg028.mp3",
+      "audio_us": "/media/english/us_pron/s/sta/state/state.mp3",
+      "examples": [
+        {
+          "en": "The old school was in a bad state.",
+          "zh": "这所旧学校状况很差。"
+        },
+        {
+          "en": "He was in a happy state of mind.",
+          "zh": "他处于一种快乐的心境中。"
+        },
+        {
+          "en": "You are not in a state to drive now.",
+          "zh": "你现在状态不好，不能开车。"
+        }
+      ]
+    },
+    "Hindi": {
+      "phonetic_uk": "ˈhɪn.di",
+      "phonetic_us": "ˈhɪn.di",
+      "audio_uk": "/media/english/uk_pron/u/ukh/ukhim/ukhimal006.mp3",
+      "audio_us": "/media/english/us_pron/u/ush/ushid/ushideo021.mp3",
+      "examples": [
+        {
+          "en": "My friend can speak Hindi and English.",
+          "zh": "我的朋友会说印地语和英语。"
+        },
+        {
+          "en": "We learned some Hindi words in class today.",
+          "zh": "我们今天在课堂上学了一些印地语单词。"
+        },
+        {
+          "en": "Hindi is the main language in India.",
+          "zh": "印地语是印度的主要语言。"
+        }
+      ]
+    },
+    "billion": {
+      "phonetic_uk": "ˈbɪl.jən",
+      "phonetic_us": "ˈbɪl.jən",
+      "audio_uk": "/media/english/uk_pron/u/ukb/ukbil/ukbilio012.mp3",
+      "audio_us": "/media/english/us_pron/e/eus/eus70/eus70537.mp3",
+      "examples": [
+        {
+          "en": "China has more than a billion people.",
+          "zh": "中国有超过十亿人口。"
+        },
+        {
+          "en": "The beauty business makes billions of dollars.",
+          "zh": "美容行业赚数十亿美元。"
+        },
+        {
+          "en": "The government spent billions on the plan.",
+          "zh": "政府在这个计划上花费了数十亿。"
+        }
+      ]
+    },
+    "population": {
+      "phonetic_uk": "ˌpɒp.jəˈleɪ.ʃən",
+      "phonetic_us": "ˌpɑː.pjəˈleɪ.ʃən",
+      "audio_uk": "/media/english/uk_pron/u/ukp/ukpop/ukpopsi011.mp3",
+      "audio_us": "/media/english/us_pron/p/pop/popul/population.mp3",
+      "examples": [
+        {
+          "en": "Ten percent of the population lived in poverty.",
+          "zh": "百分之十的人口生活在贫困中。"
+        },
+        {
+          "en": "The population of Cairo was about 6.5 million in 1992.",
+          "zh": "1992年，开罗的人口大约有650万。"
+        },
+        {
+          "en": "The population is growing quickly in some cities.",
+          "zh": "一些城市的人口正在快速增长。"
+        }
+      ]
+    },
+    "iron": {
+      "phonetic_uk": "aɪən",
+      "phonetic_us": "aɪrn",
+      "audio_uk": "/media/english/uk_pron/u/uki/ukiri/ukiridi009.mp3",
+      "audio_us": "/media/english/us_pron/i/iro/iron_/iron.mp3",
+      "examples": [
+        {
+          "en": "Iron rusts easily in wet weather.",
+          "zh": "铁在潮湿的天气里容易生锈。"
+        },
+        {
+          "en": "The manhole covers are made of iron.",
+          "zh": "这些井盖是用铁做的。"
+        },
+        {
+          "en": "He was hit with an iron bar.",
+          "zh": "他被一根铁棒打了。"
+        }
+      ]
+    },
+    "IT": {
+      "phonetic_uk": "ɪt",
+      "phonetic_us": "ɪt",
+      "audio_uk": "/media/english/uk_pron/u/uki/ukiso/ukisola019.mp3",
+      "audio_us": "/media/english/us_pron/i/it_/it___/it.mp3",
+      "examples": [
+        {
+          "en": "Where's my pen? It was on my desk. You left it by the phone.",
+          "zh": "我的钢笔在哪里？它刚才还在桌上。你把它落在电话旁边了。"
+        },
+        {
+          "en": "The company lost money, so it had to fire some workers.",
+          "zh": "公司亏钱了，所以它不得不裁掉一些工人。"
+        },
+        {
+          "en": "The talk made us sad. I don't want to talk about it.",
+          "zh": "那次谈话让我们难过。我不想谈论它。"
+        }
+      ]
+    },
+    "technology": {
+      "phonetic_uk": "tekˈnɒl.ə.dʒi",
+      "phonetic_us": "tekˈnɑː.lə.dʒi",
+      "audio_uk": "/media/english/uk_pron/u/ukt/uktec/uktechn001.mp3",
+      "audio_us": "/media/english/us_pron/t/tec/techn/technology.mp3",
+      "examples": [
+        {
+          "en": "Computer technology helps us learn and play.",
+          "zh": "计算机技术帮助我们学习和娱乐。"
+        },
+        {
+          "en": "Modern technology is amazing, isn't it?",
+          "zh": "现代技术很神奇，不是吗？"
+        },
+        {
+          "en": "Science and technology need long-term investment.",
+          "zh": "科学和技术需要长期投资。"
+        }
+      ]
+    },
+    "custom": {
+      "phonetic_uk": "ˈkʌs.təm",
+      "phonetic_us": "ˈkʌs.təm",
+      "audio_uk": "/media/english/uk_pron/u/ukc/ukcur/ukcurta024.mp3",
+      "audio_us": "/media/english/us_pron/c/cus/custo/custom.mp3",
+      "examples": [
+        {
+          "en": "This is an ancient local custom.",
+          "zh": "这是一个古老的地方风俗。"
+        },
+        {
+          "en": "In my country, it's the custom for women to wear white at weddings.",
+          "zh": "在我的国家，女性结婚穿白色是风俗。"
+        },
+        {
+          "en": "He left home at nine, as is his custom.",
+          "zh": "他九点离开家，这是他的习惯。"
+        }
+      ]
+    },
+    "fair": {
+      "phonetic_uk": "feər",
+      "phonetic_us": "fer",
+      "audio_uk": "/media/english/uk_pron/u/ukf/ukfag/ukfagge012.mp3",
+      "audio_us": "/media/english/us_pron/f/fai/fair_/fair.mp3",
+      "examples": [
+        {
+          "en": "Everyone has the right to a fair trial.",
+          "zh": "每个人都有权得到公正的审判。"
+        },
+        {
+          "en": "It's not fair that I must do all the cleaning.",
+          "zh": "我必须做所有清洁，这不公平。"
+        },
+        {
+          "en": "It's not fair on Joe to give him all the work.",
+          "zh": "把所有工作都给乔做，对他不公平。"
+        }
+      ]
+    },
+    "sari": {
+      "phonetic_uk": "ˈsɑː.ri",
+      "phonetic_us": "ˈsɑːr.i",
+      "audio_uk": "/media/english/uk_pron/u/uks/uksap/uksappy015.mp3",
+      "audio_us": "/media/english/us_pron/s/sar/sari_/sari.mp3",
+      "examples": [
+        {
+          "en": "My aunt wears a long sari to the party.",
+          "zh": "我阿姨穿了一条长长的莎丽去参加聚会。"
+        },
+        {
+          "en": "The red sari looks beautiful on her.",
+          "zh": "那条红色莎丽穿在她身上很漂亮。"
+        },
+        {
+          "en": "She bought a new sari from India.",
+          "zh": "她从印度买了一条新莎丽。"
+        }
+      ]
+    },
+    "Indian": {
+      "phonetic_uk": "ˈɪn.di.ən",
+      "phonetic_us": "ˈɪn.di.ən",
+      "audio_uk": "/media/english/uk_pron/u/uki/ukind/ukindel021.mp3",
+      "audio_us": "/media/english/us_pron/i/ind/india/indian.mp3",
+      "examples": [
+        {
+          "en": "This is an Indian family.",
+          "zh": "这是一个印度家庭。"
+        },
+        {
+          "en": "The Indian ambassador is in Beijing.",
+          "zh": "那位印度大使在北京。"
+        },
+        {
+          "en": "We met an Indian family on the street.",
+          "zh": "我们在街上遇到了一个印度家庭。"
+        }
+      ]
+    },
+    "inventor": {
+      "phonetic_uk": "ɪnˈven.tər",
+      "phonetic_us": "ɪnˈven.t̬ɚ",
+      "audio_uk": "/media/english/uk_pron/u/uki/ukinv/ukinvei008.mp3",
+      "audio_us": "/media/english/us_pron/e/eus/eus72/eus72583.mp3",
+      "examples": [
+        {
+          "en": "So inventors had to be more and more creative.",
+          "zh": "所以发明者不得不越来越有创造力。"
+        },
+        {
+          "en": "Inventors used science to make new weapons.",
+          "zh": "发明者用科学来制造新武器。"
+        },
+        {
+          "en": "Some people have new ideas and become inventors.",
+          "zh": "有些人有新想法，就成了发明者。"
+        }
+      ]
+    },
+    "invent": {
+      "phonetic_uk": "ɪnˈvent",
+      "phonetic_us": "ɪnˈvent",
+      "audio_uk": "/media/english/uk_pron/u/uki/ukinv/ukinvei003.mp3",
+      "audio_us": "/media/english/us_pron/i/inv/inven/invent.mp3",
+      "examples": [
+        {
+          "en": "King C. Gillette invented the first safety razor in 1903.",
+          "zh": "金·C·吉列在1903年发明了第一把安全剃刀。"
+        },
+        {
+          "en": "Can I invent a new way to make coffee for you?",
+          "zh": "我能为你发明一种新的煮咖啡方法吗？"
+        },
+        {
+          "en": "People invented machines to help grow grapes in California.",
+          "zh": "人们发明了机器来帮助加州种植葡萄。"
+        }
+      ]
+    },
+    "explorer": {
+      "phonetic_uk": "ɪkˈsplɔː.rər",
+      "phonetic_us": "ɪkˈsplɔːr.ɚ",
+      "audio_uk": "/media/english/uk_pron/u/uke/ukexp/ukexplo008.mp3",
+      "audio_us": "/media/english/us_pron/e/exp/explo/explorer.mp3",
+      "examples": [
+        {
+          "en": "Magellan was a famous explorer in the 1500s.",
+          "zh": "麦哲伦是16世纪一位著名的探险者。"
+        },
+        {
+          "en": "Explorers from France traded with Indians in North America.",
+          "zh": "来自法国的探险者与北美印第安人进行贸易。"
+        },
+        {
+          "en": "Many explorers came to North America to trade with Indians.",
+          "zh": "许多探险者来到北美与印第安人贸易。"
+        }
+      ]
+    },
+    "South African": {
+      "phonetic_uk": "ˌsaʊθ ˈæf.rɪ.kən",
+      "phonetic_us": "ˌsaʊθ ˈæf.rɪ.kən",
+      "audio_uk": "/media/english/uk_pron/u/ukc/ukcld/ukcld04331.mp3",
+      "audio_us": "/media/english/us_pron/u/usc/uscld/uscld04334.mp3",
+      "examples": [
+        {
+          "en": "My new classmate is a South African.",
+          "zh": "我的新同学是一个南非人。"
+        },
+        {
+          "en": "The South African taught us a fun song.",
+          "zh": "那个南非人教了我们一首有趣的歌。"
+        },
+        {
+          "en": "Two South Africans joined our school team.",
+          "zh": "两个南非人加入了我们学校的队伍。"
+        }
+      ]
+    },
+    "fighter": {
+      "phonetic_uk": "ˈfaɪ.tər",
+      "phonetic_us": "ˈfaɪ.t̬ɚ",
+      "audio_uk": "/media/english/uk_pron/u/ukf/ukfif/ukfifte009.mp3",
+      "audio_us": "/media/english/us_pron/e/eus/eus71/eus71815.mp3",
+      "examples": [
+        {
+          "en": "People know him as a brave fighter.",
+          "zh": "人们都知道他是个勇敢的斗士。"
+        },
+        {
+          "en": "Our daughter is often in hospital, but she is a fighter.",
+          "zh": "我们的女儿常住院，但她是个坚强的斗士。"
+        },
+        {
+          "en": "Fighters stopped the army 30 miles from the city.",
+          "zh": "战斗者在离城市30英里处阻止了军队。"
+        }
+      ]
+    },
+    "invention": {
+      "phonetic_uk": "ɪnˈven.ʃən",
+      "phonetic_us": "ɪnˈven.ʃən",
+      "audio_uk": "/media/english/uk_pron/u/uki/ukinv/ukinvei004.mp3",
+      "audio_us": "/media/english/us_pron/i/inv/inven/invention.mp3",
+      "examples": [
+        {
+          "en": "The world changed fast after the invention of the phone.",
+          "zh": "电话发明后，世界变化很快。"
+        },
+        {
+          "en": "It is a most amazing invention.",
+          "zh": "这是一个非常了不起的发明。"
+        },
+        {
+          "en": "The invention of the pill greatly changed women's lives.",
+          "zh": "这种药的发明极大地改变了女性的生活。"
+        }
+      ]
+    },
+    "Italian": {
+      "phonetic_uk": "ɪˈtæl.jən",
+      "phonetic_us": "ɪˈtæl.jən",
+      "audio_uk": "/media/english/uk_pron/u/ukc/ukcld/ukcld04175.mp3",
+      "audio_us": "/media/english/us_pron/u/usc/uscld/uscld04175.mp3",
+      "examples": [
+        {
+          "en": "Italian food is very popular in China.",
+          "zh": "意大利食物在中国很受欢迎。"
+        },
+        {
+          "en": "We met three Italian friends at the party.",
+          "zh": "我们在聚会上遇到了三位意大利朋友。"
+        },
+        {
+          "en": "I am learning Italian because I like it.",
+          "zh": "我在学意大利语，因为我喜欢它。"
+        }
+      ]
+    },
+    "European": {
+      "phonetic_uk": "ˌjʊə.rəˈpiː.ən",
+      "phonetic_us": "ˌjʊr.əˈpiː.ən",
+      "audio_uk": "/media/english/uk_pron/u/uke/ukeur/ukeuro_006.mp3",
+      "audio_us": "/media/english/us_pron/e/eur/europ/european.mp3",
+      "examples": [
+        {
+          "en": "Paris is a beautiful European city.",
+          "zh": "巴黎是一座美丽的欧洲城市。"
+        },
+        {
+          "en": "We learned about European history in class.",
+          "zh": "我们在课堂上学习了欧洲历史。"
+        },
+        {
+          "en": "A group of Europeans visited our school today.",
+          "zh": "一群欧洲人今天参观了我们的学校。"
+        }
+      ]
+    },
+    "Russian": {
+      "phonetic_uk": "ˈrʌʃ.ən",
+      "phonetic_us": "ˈrʌʃ.ən",
+      "audio_uk": "/media/english/uk_pron/u/ukc/ukcld/ukcld04295.mp3",
+      "audio_us": "/media/english/us_pron/u/usc/uscld/uscld04298.mp3",
+      "examples": [
+        {
+          "en": "She is a Russian teacher at our school.",
+          "zh": "她是我们学校的一位俄语老师。"
+        },
+        {
+          "en": "I want to learn Russian because it sounds beautiful.",
+          "zh": "我想学俄语，因为它听起来很好听。"
+        },
+        {
+          "en": "His Russian friend taught him how to cook.",
+          "zh": "他的俄罗斯朋友教他做饭。"
+        }
+      ]
+    },
+    "pilot": {
+      "phonetic_uk": "ˈpaɪ.lət",
+      "phonetic_us": "ˈpaɪ.lət",
+      "audio_uk": "/media/english/uk_pron/u/ukp/ukpil/ukpilot001.mp3",
+      "audio_us": "/media/english/us_pron/p/pil/pilot/pilot.mp3",
+      "examples": [
+        {
+          "en": "He is a fighter pilot in the air force.",
+          "zh": "他是空军里的战斗机飞行员。"
+        },
+        {
+          "en": "My uncle is a helicopter pilot.",
+          "zh": "我叔叔是一名直升机飞行员。"
+        },
+        {
+          "en": "She wants to be an airline pilot one day.",
+          "zh": "她梦想有一天成为民航飞行员。"
+        }
+      ]
+    },
+    "command pilot": {
+      "phonetic_uk": null,
+      "phonetic_us": null,
+      "audio_uk": null,
+      "audio_us": null,
+      "examples": [
+        {
+          "en": "The command pilot gave clear orders to the crew before takeoff.",
+          "zh": "飞行指挥在起飞前向机组人员下达了明确指令。"
+        },
+        {
+          "en": "Our command pilot checked the weather and chose a safe route.",
+          "zh": "我们的飞行指挥查看了天气，选择了安全航线。"
+        },
+        {
+          "en": "A command pilot must stay calm and make quick decisions in the air.",
+          "zh": "飞行指挥在空中必须保持冷静并快速做决定。"
+        }
+      ]
+    },
+    "licence": {
+      "phonetic_uk": "ˈlaɪ.səns",
+      "phonetic_us": "ˈlaɪ.səns",
+      "audio_uk": "/media/english/uk_pron/u/ukl/uklib/ukliber029.mp3",
+      "audio_us": "/media/english/us_pron/l/lic/licen/license.mp3",
+      "examples": [
+        {
+          "en": "You need a licence to keep a dog.",
+          "zh": "养狗需要执照。"
+        },
+        {
+          "en": "He got his driving licence last year.",
+          "zh": "他去年拿到了驾驶执照。"
+        },
+        {
+          "en": "We must buy a TV licence for our home.",
+          "zh": "我们家必须购买电视执照。"
+        }
+      ]
+    },
+    "license": {
+      "phonetic_uk": "ˈlaɪ.səns",
+      "phonetic_us": "ˈlaɪ.səns",
+      "audio_uk": "/media/english/uk_pron/u/ukl/uklib/ukliber029.mp3",
+      "audio_us": "/media/english/us_pron/c/cdo/cdo03/cdo0318uslice2735.mp3",
+      "examples": [
+        {
+          "en": "The universities make discoveries and license them to a company.",
+          "zh": "大学做出发现，并把它们许可给一家公司。"
+        },
+        {
+          "en": "Several companies are licensed to sell these products.",
+          "zh": "几家公司获得了销售这些产品的许可证。"
+        },
+        {
+          "en": "A broker is also licensed to work with private lenders.",
+          "zh": "经纪人也有执照，可以和私人贷款机构合作。"
+        }
+      ]
+    },
+    "navy": {
+      "phonetic_uk": "ˈneɪ.vi",
+      "phonetic_us": "ˈneɪ.vi",
+      "audio_uk": "/media/english/uk_pron/u/ukn/uknav/uknaval009.mp3",
+      "audio_us": "/media/english/us_pron/n/nav/navy_/navy.mp3",
+      "examples": [
+        {
+          "en": "My brother is a navy officer.",
+          "zh": "我哥哥是一名海军军官。"
+        },
+        {
+          "en": "Gabriel joined the navy in 1997.",
+          "zh": "加布里埃尔在1997年加入了海军。"
+        },
+        {
+          "en": "They saw a navy ship in the sea.",
+          "zh": "他们在海上看到了一艘海军军舰。"
+        }
+      ]
+    },
+    "serve": {
+      "phonetic_uk": "sɜːv",
+      "phonetic_us": "sɝːv",
+      "audio_uk": "/media/english/uk_pron/u/uks/ukser/ukseren026.mp3",
+      "audio_us": "/media/english/us_pron/s/ser/serve/serve.mp3",
+      "examples": [
+        {
+          "en": "Do they serve food in the bar?",
+          "zh": "酒吧里提供食物吗？"
+        },
+        {
+          "en": "Breakfast is served from 7 to 11 in the restaurant.",
+          "zh": "餐厅在7点到11点供应早餐。"
+        },
+        {
+          "en": "We got to the hotel and were served drinks and snacks.",
+          "zh": "我们到达酒店后，有人给我们端来了饮料和小吃。"
+        }
+      ]
+    },
+    "test": {
+      "phonetic_uk": "test",
+      "phonetic_us": "test",
+      "audio_uk": "/media/english/uk_pron/u/ukt/ukter/ukterri013.mp3",
+      "audio_us": "/media/english/us_pron/t/tes/test_/test.mp3",
+      "examples": [
+        {
+          "en": "The class is having a spelling test today.",
+          "zh": "全班今天有拼写测试。"
+        },
+        {
+          "en": "She took a test before getting the job.",
+          "zh": "她在得到这份工作之前参加了一个测试。"
+        },
+        {
+          "en": "The doctor did a blood test on him.",
+          "zh": "医生给他做了血液测试。"
+        }
+      ]
+    },
+    "aircraft": {
+      "phonetic_uk": "ˈeə.krɑːft",
+      "phonetic_us": "ˈer.kræft",
+      "audio_uk": "/media/english/uk_pron/u/uka/ukaha/ukaha__028.mp3",
+      "audio_us": "/media/english/us_pron/a/air/aircr/aircraft.mp3",
+      "examples": [
+        {
+          "en": "Military aircraft fly very fast.",
+          "zh": "军用飞机飞得非常快。"
+        },
+        {
+          "en": "Captain Firth sat at the controls of the aircraft.",
+          "zh": "弗斯机长坐在飞机的操纵装置前。"
+        },
+        {
+          "en": "The airline is making sure its aircraft are safe.",
+          "zh": "航空公司正在确保其飞机安全。"
+        }
+      ]
+    },
+    "astronaut": {
+      "phonetic_uk": "ˈæs.trə.nɔːt",
+      "phonetic_us": "ˈæs.trə.nɑːt",
+      "audio_uk": "/media/english/uk_pron/u/uka/ukast/ukaston017.mp3",
+      "audio_us": "/media/english/us_pron/a/ast/astro/astronaut.mp3",
+      "examples": [
+        {
+          "en": "Astronauts find it hard to move in low gravity.",
+          "zh": "宇航员发现失重状态下移动很困难。"
+        },
+        {
+          "en": "Astronauts do exercise and take medicine to stay strong in space.",
+          "zh": "宇航员在太空中做运动和吃药来保持强壮。"
+        },
+        {
+          "en": "Astronauts sleep in special beds so they don't hurt themselves.",
+          "zh": "宇航员睡在特殊的床上，以免伤到自己。"
+        }
+      ]
+    },
+    "spacecraft": {
+      "phonetic_uk": "ˈspeɪs.krɑːft",
+      "phonetic_us": "ˈspeɪs.kræft",
+      "audio_uk": "/media/english/uk_pron/u/uks/uksou/uksouth023.mp3",
+      "audio_us": "/media/english/us_pron/u/uss/ussou/ussourp020.mp3",
+      "examples": [
+        {
+          "en": "China sent a spacecraft with people into space.",
+          "zh": "中国发射了一艘载人宇宙飞船进入太空。"
+        },
+        {
+          "en": "This unmanned spacecraft has no people in it.",
+          "zh": "这艘无人宇宙飞船里面没有人。"
+        },
+        {
+          "en": "We can use the word 'spacecraft' with many verbs.",
+          "zh": "我们可以把“宇宙飞船”这个词和许多动词搭配使用。"
+        }
+      ]
+    },
+    "spin": {
+      "phonetic_uk": "spɪn",
+      "phonetic_us": "spɪn",
+      "audio_uk": "/media/english/uk_pron/u/uks/ukspi/ukspide017.mp3",
+      "audio_us": "/media/english/us_pron/s/spi/spin_/spin.mp3",
+      "examples": [
+        {
+          "en": "The earth spins around its center.",
+          "zh": "地球绕着它的中心旋转。"
+        },
+        {
+          "en": "The players watched the wheel spin around.",
+          "zh": "玩家们看着轮盘旋转。"
+        },
+        {
+          "en": "His car spun off the road and hit a tree.",
+          "zh": "他的车打滑冲出道路，撞到了树上。"
+        }
+      ]
+    },
+    "control": {
+      "phonetic_uk": "kənˈtrəʊl",
+      "phonetic_us": "kənˈtroʊl",
+      "audio_uk": "/media/english/uk_pron/u/ukc/ukcon/ukcontr021.mp3",
+      "audio_us": "/media/english/us_pron/c/con/contr/control.mp3",
+      "examples": [
+        {
+          "en": "If you can't control your dog, keep it on a leash.",
+          "zh": "如果你控制不了你的狗，就给它拴上绳子。"
+        },
+        {
+          "en": "You must learn to control your anger.",
+          "zh": "你必须学会控制自己的怒气。"
+        },
+        {
+          "en": "A thermostat controls the room temperature.",
+          "zh": "恒温器控制室温。"
+        }
+      ]
+    },
+    "out of control": {
+      "phonetic_uk": null,
+      "phonetic_us": null,
+      "audio_uk": null,
+      "audio_us": null,
+      "examples": [
+        {
+          "en": "The car was out of control and hit a tree.",
+          "zh": "汽车失去控制，撞到了树上。"
+        },
+        {
+          "en": "The fire is out of control, so we must call 119.",
+          "zh": "火势失控了，我们必须拨打119。"
+        },
+        {
+          "en": "He felt his life was out of control and needed help.",
+          "zh": "他觉得自己的生活失控了，需要帮助。"
+        }
+      ]
+    },
+    "order": {
+      "phonetic_uk": "ˈɔː.dər",
+      "phonetic_us": "ˈɔːr.dɚ",
+      "audio_uk": "/media/english/uk_pron/u/uko/ukora/ukorang022.mp3",
+      "audio_us": "/media/english/us_pron/e/eus/eus75/eus75280.mp3",
+      "examples": [
+        {
+          "en": "The waiter asked, \"Can I take your order now?\"",
+          "zh": "服务员问：“现在可以为您点餐了吗？”"
+        },
+        {
+          "en": "I want to place an order for a big table.",
+          "zh": "我想下订单买一张大桌子。"
+        },
+        {
+          "en": "I got an email that my order has been sent.",
+          "zh": "我收到邮件说我的订单已经发货了。"
+        }
+      ]
+    },
+    "cut ... short": {
+      "phonetic_uk": null,
+      "phonetic_us": null,
+      "audio_uk": null,
+      "audio_us": null,
+      "examples": [
+        {
+          "en": "We had to cut the meeting short because of the storm.",
+          "zh": "因为暴风雨，我们不得不缩短会议。"
+        },
+        {
+          "en": "She cut her visit short to go back to work.",
+          "zh": "她缩短了访问，回去工作了。"
+        },
+        {
+          "en": "The teacher cut the class short to let us rest.",
+          "zh": "老师缩短了课堂，让我们休息。"
+        }
+      ]
+    },
+    "Pacific": {
+      "phonetic_uk": "pəˈsɪf.ɪk",
+      "phonetic_us": "pəˈsɪf.ɪk",
+      "audio_uk": "/media/english/uk_pron/u/uko/ukozo/ukozone013.mp3",
+      "audio_us": "/media/english/us_pron/e/eus/eus73/eus73388.mp3",
+      "examples": [
+        {
+          "en": "The Pacific Ocean is the largest ocean on Earth.",
+          "zh": "太平洋是地球上最大的海洋。"
+        },
+        {
+          "en": "They took a boat trip across the Pacific last summer.",
+          "zh": "他们去年夏天乘船横渡了太平洋。"
+        },
+        {
+          "en": "Many countries lie along the Pacific coast.",
+          "zh": "许多国家位于太平洋沿岸。"
+        }
+      ]
+    },
+    "ocean": {
+      "phonetic_uk": "ˈəʊ.ʃən",
+      "phonetic_us": "ˈoʊ.ʃən",
+      "audio_uk": "/media/english/uk_pron/u/uko/ukocc/ukoccup008.mp3",
+      "audio_us": "/media/english/us_pron/e/eus/eus75/eus75146.mp3",
+      "examples": [
+        {
+          "en": "These strange animals live at the bottom of the ocean.",
+          "zh": "这些奇怪的动物生活在海洋底部。"
+        },
+        {
+          "en": "The Pacific Ocean is the largest of all the oceans.",
+          "zh": "太平洋是所有海洋中最大的。"
+        },
+        {
+          "en": "We can see the ocean clearly from our hotel window.",
+          "zh": "从我们酒店的窗户可以清楚地看到海洋。"
+        }
+      ]
+    },
+    "land": {
+      "phonetic_uk": "lænd",
+      "phonetic_us": "lænd",
+      "audio_uk": "/media/english/uk_pron/u/ukl/uklam/uklampl010.mp3",
+      "audio_us": "/media/english/us_pron/l/lan/land_/land.mp3",
+      "examples": [
+        {
+          "en": "It is cheaper to drill for oil on land than at sea.",
+          "zh": "在陆地上钻油比在海上便宜。"
+        },
+        {
+          "en": "The treaty has cut many land-based missiles in Europe.",
+          "zh": "这项条约减少了欧洲许多陆基导弹。"
+        },
+        {
+          "en": "The army won't send land forces until air attacks finish their job.",
+          "zh": "军队在空袭完成之前不会派出地面部队。"
+        }
+      ]
+    },
+    "giant": {
+      "phonetic_uk": "ˈdʒaɪ.ənt",
+      "phonetic_us": "ˈdʒaɪ.ənt",
+      "audio_uk": "/media/english/uk_pron/u/ukg/ukgha/ukghast018.mp3",
+      "audio_us": "/media/english/us_pron/g/gia/giant/giant.mp3",
+      "examples": [
+        {
+          "en": "Dad told us scary stories about a giant who ate kids.",
+          "zh": "爸爸给我们讲可怕的巨人吃小孩的故事。"
+        },
+        {
+          "en": "In the play, we saw the giant's big hand in 'Jack and the Beanstalk'.",
+          "zh": "在《杰克与豆茎》的剧里，我们看到了巨人的大手。"
+        },
+        {
+          "en": "People tell stories of an island where giants live, as tall as houses.",
+          "zh": "人们传说有个岛上住着巨人，他们和房子一样高。"
+        }
+      ]
+    },
+    "leap": {
+      "phonetic_uk": "liːp",
+      "phonetic_us": "liːp",
+      "audio_uk": "/media/english/uk_pron/u/ukl/ukldr/ukldriv023.mp3",
+      "audio_us": "/media/english/us_pron/l/lea/leap_/leap.mp3",
+      "examples": [
+        {
+          "en": "He leaped out of the car and ran to the house.",
+          "zh": "他跳出汽车，跑向房子。"
+        },
+        {
+          "en": "I leaped up to answer the phone.",
+          "zh": "我跳起来去接电话。"
+        },
+        {
+          "en": "The dog leaped over the gate into the field.",
+          "zh": "狗跳过大门，进了田野。"
+        }
+      ]
+    },
+    "mankind": {
+      "phonetic_uk": "mænˈkaɪnd",
+      "phonetic_us": "mænˈkaɪnd",
+      "audio_uk": "/media/english/uk_pron/u/ukm/ukman/ukmangy029.mp3",
+      "audio_us": "/media/english/us_pron/m/man/manki/mankind.mp3",
+      "examples": [
+        {
+          "en": "Mankind has always loved power.",
+          "zh": "人类一直热爱权力。"
+        },
+        {
+          "en": "Words often used with mankind.",
+          "zh": "常与人类一起使用的词语。"
+        },
+        {
+          "en": "This will help all mankind.",
+          "zh": "这将帮助全人类。"
+        }
+      ]
+    },
+    "surface": {
+      "phonetic_uk": "ˈsɜː.fɪs",
+      "phonetic_us": "ˈsɝː.fɪs",
+      "audio_uk": "/media/english/uk_pron/u/uks/uksup/uksuppo025.mp3",
+      "audio_us": "/media/english/us_pron/s/sur/surfa/surface.mp3",
+      "examples": [
+        {
+          "en": "Rain forests once covered 10% of the earth's surface.",
+          "zh": "雨林曾经覆盖地球表面的10%。"
+        },
+        {
+          "en": "The marble's surface is smooth and shiny.",
+          "zh": "大理石表面光滑闪亮。"
+        },
+        {
+          "en": "Neil Armstrong first stepped on the moon's surface.",
+          "zh": "尼尔·阿姆斯特朗首次踏上月球表面。"
+        }
+      ]
+    },
+    "further": {
+      "phonetic_uk": "ˈfɜː.ðər",
+      "phonetic_us": "ˈfɝː.ðɚ",
+      "audio_uk": "/media/english/uk_pron/u/ukf/ukfun/ukfunk_024.mp3",
+      "audio_us": "/media/english/us_pron/f/fur/furth/further.mp3",
+      "examples": [
+        {
+          "en": "I never read further than the first five pages of the book.",
+          "zh": "这本书我从来都没读到超过前五页。"
+        },
+        {
+          "en": "We talked about the problem, but we didn't get further in solving it.",
+          "zh": "我们讨论了这个问题，但在解决它方面没有取得更多进展。"
+        },
+        {
+          "en": "The matter is further complicated because Amanda and Jo won't talk to each other.",
+          "zh": "因为阿曼达和乔互不说话，这件事变得更加复杂了。"
+        }
+      ]
+    },
+    "citizen": {
+      "phonetic_uk": "ˈsɪt.ɪ.zən",
+      "phonetic_us": "ˈsɪt̬.ə.zən",
+      "audio_uk": "/media/english/uk_pron/u/ukc/ukcir/ukcirrh009.mp3",
+      "audio_us": "/media/english/us_pron/e/eus/eus70/eus70819.mp3",
+      "examples": [
+        {
+          "en": "The British Embassy protects British citizens living abroad.",
+          "zh": "英国大使馆保护住在国外的英国公民。"
+        },
+        {
+          "en": "He applied to become an American citizen.",
+          "zh": "他申请成为美国公民。"
+        },
+        {
+          "en": "This will affect all citizens of this country.",
+          "zh": "这将影响这个国家的所有公民。"
+        }
+      ]
+    },
+    "pride": {
+      "phonetic_uk": "praɪd",
+      "phonetic_us": "praɪd",
+      "audio_uk": "/media/english/uk_pron/u/ukp/ukpri/ukprice009.mp3",
+      "audio_us": "/media/english/us_pron/p/pri/pride/pride.mp3",
+      "examples": [
+        {
+          "en": "She watched him win the prize and felt great pride.",
+          "zh": "她看着他获奖，感到非常骄傲。"
+        },
+        {
+          "en": "He walked his little daughter down the street with pride.",
+          "zh": "他自豪地带着小女儿走在街上。"
+        },
+        {
+          "en": "She is the pride of her family.",
+          "zh": "她是她家人的骄傲。"
+        }
+      ]
+    },
+    "passage": {
+      "phonetic_uk": "ˈpæs.ɪdʒ",
+      "phonetic_us": "ˈpæs.ɪdʒ",
+      "audio_uk": "/media/english/uk_pron/u/ukp/ukpar/ukparti019.mp3",
+      "audio_us": "/media/english/us_pron/p/pas/passa/passage.mp3",
+      "examples": [
+        {
+          "en": "A narrow passage goes through the house to the garden.",
+          "zh": "一条狭窄的通道穿过房子通向花园。"
+        },
+        {
+          "en": "The bathroom is at the end of the passage on the right.",
+          "zh": "浴室在通道尽头的右边。"
+        },
+        {
+          "en": "The air goes through the nasal passages when we breathe.",
+          "zh": "我们呼吸时，空气经过鼻腔通道。"
+        }
+      ]
+    },
+    "by hand": {
+      "phonetic_uk": null,
+      "phonetic_us": null,
+      "audio_uk": null,
+      "audio_us": null,
+      "examples": [
+        {
+          "en": "She made this card by hand for her mother.",
+          "zh": "她亲手为妈妈做了这张卡片。"
+        },
+        {
+          "en": "We wrote the letters by hand, not on the computer.",
+          "zh": "我们用手写信，而不是用电脑。"
+        },
+        {
+          "en": "He drew the picture by hand with a pencil.",
+          "zh": "他用铅笔手工画了这幅画。"
+        }
+      ]
+    },
+    "mathematics": {
+      "phonetic_uk": "ˌmæθ.əmˈæt.ɪks",
+      "phonetic_us": "ˌmæθˈmæt̬.ɪks",
+      "audio_uk": "/media/english/uk_pron/u/ukm/ukmat/ukmatch022.mp3",
+      "audio_us": null,
+      "examples": [
+        {
+          "en": "He is much better at mathematics than his classmates.",
+          "zh": "他的数学比同学们好得多。"
+        },
+        {
+          "en": "You must know mathematics well to be an astronaut.",
+          "zh": "你必须精通数学才能当宇航员。"
+        },
+        {
+          "en": "I learned pure mathematics in school.",
+          "zh": "我在学校学了纯数学。"
+        }
+      ]
+    },
+    "scientist": {
+      "phonetic_uk": "ˈsaɪ.ən.tɪst",
+      "phonetic_us": "ˈsaɪ.ən.tɪst",
+      "audio_uk": "/media/english/uk_pron/u/uks/uksch/ukschol024.mp3",
+      "audio_us": "/media/english/us_pron/e/eus/eus74/eus74100.mp3",
+      "examples": [
+        {
+          "en": "She is a research scientist who studies the mind.",
+          "zh": "她是一位研究心理的科研科学家。"
+        },
+        {
+          "en": "A nuclear scientist works with dangerous energy.",
+          "zh": "核科学家研究危险的能源。"
+        },
+        {
+          "en": "The forensic scientist helps find clues at crime scenes.",
+          "zh": "法医科学家在犯罪现场帮助寻找线索。"
+        }
+      ]
+    },
+    "radium": {
+      "phonetic_uk": "ˈreɪ.di.əm",
+      "phonetic_us": "ˈreɪ.di.əm",
+      "audio_uk": "/media/english/uk_pron/u/ukr/ukrad/ukradia024.mp3",
+      "audio_us": "/media/english/us_pron/r/rad/radiu/radium.mp3",
+      "examples": [
+        {
+          "en": "Radium has the number 88 in the periodic table.",
+          "zh": "镭在元素周期表中的序号是88。"
+        },
+        {
+          "en": "Radium can help treat cancer that has spread to bones.",
+          "zh": "镭可以帮助治疗已经扩散到骨骼的癌症。"
+        },
+        {
+          "en": "Marie Curie and her husband won the Nobel Prize for finding radium.",
+          "zh": "玛丽·居里和她的丈夫因发现镭而获得诺贝尔奖。"
+        }
+      ]
+    },
+    "laboratory": {
+      "phonetic_uk": "ləˈbɒr.ə.tər.i",
+      "phonetic_us": "ˈlæb.rə.tɔːr.i",
+      "audio_uk": "/media/english/uk_pron/u/ukl/uklab/uklabia003.mp3",
+      "audio_us": "/media/english/us_pron/l/lab/labor/laboratory.mp3",
+      "examples": [
+        {
+          "en": "We do science experiments in the research laboratory.",
+          "zh": "我们在研究实验室里做科学实验。"
+        },
+        {
+          "en": "Our school has a new computer laboratory.",
+          "zh": "我们学校有一个新的计算机实验室。"
+        },
+        {
+          "en": "Laboratory tests show the new drug can help treat cancer.",
+          "zh": "实验室测试表明这种新药有助于治疗癌症。"
+        }
+      ]
+    },
+    "professor": {
+      "phonetic_uk": "prəˈfes.ər",
+      "phonetic_us": "prəˈfes.ɚ",
+      "audio_uk": "/media/english/uk_pron/u/ukp/ukpro/ukprod_026.mp3",
+      "audio_us": "/media/english/us_pron/p/pro/profe/professor.mp3",
+      "examples": [
+        {
+          "en": "Professor Hawking was a great scientist.",
+          "zh": "霍金教授是一位伟大的科学家。"
+        },
+        {
+          "en": "My father is a professor of sociology.",
+          "zh": "我父亲是一位社会学教授。"
+        },
+        {
+          "en": "She became a sociology professor last year.",
+          "zh": "她去年成为了一位社会学教授。"
+        }
+      ]
+    },
+    "discovery": {
+      "phonetic_uk": "dɪˈskʌv.ər.i",
+      "phonetic_us": "dɪˈskʌv.ɚ.i",
+      "audio_uk": "/media/english/uk_pron/u/ukd/ukdis/ukdisco018.mp3",
+      "audio_us": "/media/english/us_pron/d/dis/disco/discovery.mp3",
+      "examples": [
+        {
+          "en": "Who is credited with the discovery of electricity?",
+          "zh": "谁被认为发现了电？"
+        },
+        {
+          "en": "Leonardo made many scientific discoveries.",
+          "zh": "列奥纳多有许多科学发现。"
+        },
+        {
+          "en": "They went on a voyage of discovery.",
+          "zh": "他们进行了一次发现之旅。"
+        }
+      ]
+    },
+    "unknown": {
+      "phonetic_uk": "ʌnˈnəʊn",
+      "phonetic_us": "ʌnˈnoʊn",
+      "audio_uk": "/media/english/uk_pron/u/uku/ukunj/ukunjus008.mp3",
+      "audio_us": "/media/english/us_pron/u/unk/unkno/unknown.mp3",
+      "examples": [
+        {
+          "en": "We don't know the exact number of people with the virus.",
+          "zh": "我们不知道携带病毒的确切人数。"
+        },
+        {
+          "en": "Six months ago, her name was almost unknown here.",
+          "zh": "六个月前，她的名字在这里几乎不为人知。"
+        },
+        {
+          "en": "Unknown to me, she planned a party for my birthday.",
+          "zh": "我不知道，她为我的生日策划了一场聚会。"
+        }
+      ]
+    },
+    "widely": {
+      "phonetic_uk": "ˈwaɪd.li",
+      "phonetic_us": "ˈwaɪd.li",
+      "audio_uk": "/media/english/uk_pron/u/ukw/ukwi_/ukwi___008.mp3",
+      "audio_us": "/media/english/us_pron/w/wid/widel/widely.mp3",
+      "examples": [
+        {
+          "en": "She has travelled widely around the world.",
+          "zh": "她曾广泛游历世界各地。"
+        },
+        {
+          "en": "His plays are still widely shown in the USA.",
+          "zh": "他的戏剧仍在美国广泛演出。"
+        },
+        {
+          "en": "French was widely spoken in Cambodia before.",
+          "zh": "法语以前在柬埔寨被广泛使用。"
+        }
+      ]
+    },
+    "hybrid": {
+      "phonetic_uk": "ˈhaɪ.brɪd",
+      "phonetic_us": "ˈhaɪ.brɪd",
+      "audio_uk": "/media/english/uk_pron/u/ukh/ukhur/ukhurly027.mp3",
+      "audio_us": "/media/english/us_pron/h/hyb/hybri/hybrid.mp3",
+      "examples": [
+        {
+          "en": "The garden strawberry is a big-fruit hybrid.",
+          "zh": "花园草莓是一种大果实的杂交品种。"
+        },
+        {
+          "en": "The animal looks like a hybrid of a zebra and a horse.",
+          "zh": "这种动物看起来像斑马和马的杂交。"
+        },
+        {
+          "en": "His music is an interesting hybrid of pop and classical.",
+          "zh": "他的音乐是流行和古典的有趣混合。"
+        }
+      ]
+    },
+    "title": {
+      "phonetic_uk": "ˈtaɪ.təl",
+      "phonetic_us": "ˈtaɪ.t̬əl",
+      "audio_uk": "/media/english/uk_pron/u/ukt/uktit/uktitil004.mp3",
+      "audio_us": "/media/english/us_pron/t/tit/title/title.mp3",
+      "examples": [
+        {
+          "en": "The title of his first book was \"Decline and Fall\".",
+          "zh": "他的第一本书的书名是《衰落与覆灭》。"
+        },
+        {
+          "en": "This song's title is the same as the album's name.",
+          "zh": "这首歌的标题和专辑的名字一样。"
+        },
+        {
+          "en": "The bridge appears in the movie's opening titles.",
+          "zh": "那座桥出现在电影的开场字幕中。"
+        }
+      ]
+    },
+    "agriculture": {
+      "phonetic_uk": "ˈæɡ.rɪ.kʌl.tʃər",
+      "phonetic_us": "ˈæɡ.rə.kʌl.tʃɚ",
+      "audio_uk": "/media/english/uk_pron/u/uka/ukagi/ukagita027.mp3",
+      "audio_us": "/media/english/us_pron/a/agr/agric/agriculture.mp3",
+      "examples": [
+        {
+          "en": "Agriculture still uses old ways in some countries.",
+          "zh": "在一些国家，农业仍使用传统方法。"
+        },
+        {
+          "en": "The area's income mostly comes from agriculture.",
+          "zh": "这个地区的收入主要来自农业。"
+        },
+        {
+          "en": "70% of the people here do farming for food.",
+          "zh": "这里70%的人靠农业维持生计。"
+        }
+      ]
+    },
+    "hunger": {
+      "phonetic_uk": "ˈhʌŋ.ɡər",
+      "phonetic_us": "ˈhʌŋ.ɡɚ",
+      "audio_uk": "/media/english/uk_pron/u/ukh/ukhun/ukhunch012.mp3",
+      "audio_us": "/media/english/us_pron/h/hun/hunge/hunger.mp3",
+      "examples": [
+        {
+          "en": "The big meal was not enough to satisfy his hunger.",
+          "zh": "这顿大餐还不足以满足他的饥饿。"
+        },
+        {
+          "en": "She felt faint from hunger at nine o'clock.",
+          "zh": "九点钟时她因饥饿感到头晕。"
+        },
+        {
+          "en": "I often get hunger pangs in the afternoon.",
+          "zh": "我下午经常感到饥饿的阵阵刺痛。"
+        }
+      ]
+    },
+    "happen to": {
+      "phonetic_uk": null,
+      "phonetic_us": null,
+      "audio_uk": null,
+      "audio_us": null,
+      "examples": [
+        {
+          "en": "I happened to see my teacher at the supermarket.",
+          "zh": "我碰巧在超市看到了我的老师。"
+        },
+        {
+          "en": "She happened to find a lost dog on her way home.",
+          "zh": "她碰巧在回家路上发现了一只走失的狗。"
+        },
+        {
+          "en": "We happened to sit next to each other in the cinema.",
+          "zh": "我们碰巧在电影院里坐在彼此旁边。"
+        }
+      ]
+    },
+    "advantage": {
+      "phonetic_uk": "ədˈvɑːn.tɪdʒ",
+      "phonetic_us": "ədˈvæn.t̬ɪdʒ",
+      "audio_uk": "/media/english/uk_pron/u/uka/ukadu/ukadult010.mp3",
+      "audio_us": "/media/english/us_pron/e/eus/eus70/eus70095.mp3",
+      "examples": [
+        {
+          "en": "Booking tickets early has the advantage of better seats.",
+          "zh": "提前订票的优势是能坐到更好的座位。"
+        },
+        {
+          "en": "She had the advantages of money and beauty, but was not happy.",
+          "zh": "她有金钱和美貌的优势，但并不快乐。"
+        },
+        {
+          "en": "It is to your advantage to agree with him.",
+          "zh": "同意他的要求对你有好处。"
+        }
+      ]
+    },
+    "at present": {
+      "phonetic_uk": null,
+      "phonetic_us": null,
+      "audio_uk": null,
+      "audio_us": null,
+      "examples": [
+        {
+          "en": "At present, we are learning English online.",
+          "zh": "目前，我们正在网上学习英语。"
+        },
+        {
+          "en": "She is busy with her homework at present.",
+          "zh": "她现在正忙着做作业。"
+        },
+        {
+          "en": "At present, the weather is warm and sunny.",
+          "zh": "目前，天气温暖晴朗。"
+        }
+      ]
+    },
+    "contribution": {
+      "phonetic_uk": "ˌkɒn.trɪˈbjuː.ʃən",
+      "phonetic_us": "ˌkɑːn.trɪˈbjuː.ʃən",
+      "audio_uk": "/media/english/uk_pron/u/ukc/ukcon/ukcontr012.mp3",
+      "audio_us": "/media/english/us_pron/c/con/contr/contribution.mp3",
+      "examples": [
+        {
+          "en": "Your contribution, no matter how small, is welcome.",
+          "zh": "你的贡献，无论多小，都是受欢迎的。"
+        },
+        {
+          "en": "All contributions for the school magazine must arrive by August 1st.",
+          "zh": "所有给校刊的投稿必须在八月一日前送到。"
+        },
+        {
+          "en": "This invention made a big contribution to road safety.",
+          "zh": "这项发明对道路安全做出了重大贡献。"
+        }
+      ]
+    },
+    "increase": {
+      "phonetic_uk": "ɪnˈkriːs",
+      "phonetic_us": "ɪnˈkriːs",
+      "audio_uk": "/media/english/uk_pron/u/uki/ukinc/ukincor012.mp3",
+      "audio_us": "/media/english/us_pron/i/inc/incre/increase_01_00.mp3",
+      "examples": [
+        {
+          "en": "Armed robberies have increased in the last few years.",
+          "zh": "过去几年持械抢劫增加了。"
+        },
+        {
+          "en": "The project cost has increased a lot since it began.",
+          "zh": "项目开始以来，成本增加了很多。"
+        },
+        {
+          "en": "Tourism to Antarctica has increased a lot in ten years.",
+          "zh": "十年来去南极的旅游业增加了很多。"
+        }
+      ]
+    },
+    "production": {
+      "phonetic_uk": "prəˈdʌk.ʃən",
+      "phonetic_us": "prəˈdʌk.ʃən",
+      "audio_uk": "/media/english/uk_pron/u/ukp/ukpro/ukprod_013.mp3",
+      "audio_us": "/media/english/us_pron/p/pro/produ/production.mp3",
+      "examples": [
+        {
+          "en": "Coke is used to produce steel.",
+          "zh": "焦炭被用来生产钢铁。"
+        },
+        {
+          "en": "We watched a video about glass production steps.",
+          "zh": "我们看了一部关于玻璃生产步骤的视频。"
+        },
+        {
+          "en": "The company's new car will go into production next year.",
+          "zh": "公司的新车明年将投入生产。"
+        }
+      ]
+    },
+    "development": {
+      "phonetic_uk": "dɪˈvel.əp.mənt",
+      "phonetic_us": "dɪˈvel.əp.mənt",
+      "audio_uk": "/media/english/uk_pron/u/ukd/ukdet/ukdetou024.mp3",
+      "audio_us": "/media/english/us_pron/d/dev/devel/development.mp3",
+      "examples": [
+        {
+          "en": "Good food helps children's healthy growth and development.",
+          "zh": "好的食物有助于孩子们的健康成长和发展。"
+        },
+        {
+          "en": "The film showed the development of pop music over time.",
+          "zh": "这部电影展示了流行音乐随时间的发展。"
+        },
+        {
+          "en": "The area has too little development and few factories.",
+          "zh": "这个地区发展太少，工厂也很少。"
+        }
+      ]
+    },
+    "robot": {
+      "phonetic_uk": "ˈrəʊ.bɒt",
+      "phonetic_us": "ˈroʊ.bɑːt",
+      "audio_uk": "/media/english/uk_pron/u/ukr/ukrn_/ukrn___030.mp3",
+      "audio_us": "/media/english/us_pron/r/rob/robot/robot.mp3",
+      "examples": [
+        {
+          "en": "Robots can do the surgery for doctors.",
+          "zh": "机器人可以替医生做手术。"
+        },
+        {
+          "en": "A robot can be used to deal with bombs.",
+          "zh": "机器人可以用来处理炸弹。"
+        },
+        {
+          "en": "He played music like a robot, with no feeling.",
+          "zh": "他像机器人一样演奏音乐，毫无感情。"
+        }
+      ]
+    },
+    "post": {
+      "phonetic_uk": "pəʊst",
+      "phonetic_us": "poʊst",
+      "audio_uk": "/media/english/uk_pron/u/ukp/ukpos/ukposer025.mp3",
+      "audio_us": "/media/english/us_pron/p/pos/post_/post.mp3",
+      "examples": [
+        {
+          "en": "I was away for days, so I had lots of post for me.",
+          "zh": "我离开了好几天，所以有很多邮件等着我。"
+        },
+        {
+          "en": "My secretary usually opens my post, unless it says \"private\".",
+          "zh": "我的秘书通常打开我的邮件，除非上面写着“私人”。"
+        },
+        {
+          "en": "Has the post come yet?",
+          "zh": "邮件到了吗？"
+        }
+      ]
+    },
+    "explore": {
+      "phonetic_uk": "ɪkˈsplɔːr",
+      "phonetic_us": "ɪkˈsplɔːr",
+      "audio_uk": "/media/english/uk_pron/u/uke/ukexp/ukexplo007.mp3",
+      "audio_us": "/media/english/us_pron/e/exp/explo/explore.mp3",
+      "examples": [
+        {
+          "en": "Walking is the best way to explore the countryside.",
+          "zh": "散步是探索乡村的最好方式。"
+        },
+        {
+          "en": "Robots explore space now, not astronauts.",
+          "zh": "现在是机器人探索太空，而不是宇航员。"
+        },
+        {
+          "en": "The children went to explore the woods.",
+          "zh": "孩子们去探索森林了。"
+        }
+      ]
+    },
+    "outer space": {
+      "phonetic_uk": "ˌaʊ.tə ˈspeɪs",
+      "phonetic_us": "ˌaʊ.t̬ɚ ˈspeɪs",
+      "audio_uk": "/media/english/uk_pron/u/ukc/ukcld/ukcld01010.mp3",
+      "audio_us": "/media/english/us_pron/u/usc/uscld/uscld01010.mp3",
+      "examples": [
+        {
+          "en": "Will spaceships with miners go to outer space someday?",
+          "zh": "载着矿工的飞船有一天会去太空吗？"
+        },
+        {
+          "en": "The movie was about aliens from outer space.",
+          "zh": "这部电影是关于来自太空的外星人的。"
+        },
+        {
+          "en": "They meet killers, aliens from outer space, and bad people.",
+          "zh": "他们遇到杀手、来自太空的外星人和坏人。"
+        }
+      ]
+    },
+    "brain": {
+      "phonetic_uk": "breɪn",
+      "phonetic_us": "breɪn",
+      "audio_uk": "/media/english/uk_pron/u/ukb/ukboy/ukboyfr024.mp3",
+      "audio_us": "/media/english/us_pron/b/bra/brain/brain.mp3",
+      "examples": [
+        {
+          "en": "Doctors tried hard to reduce the swelling in her brain.",
+          "zh": "医生们尽力减轻她大脑的肿胀。"
+        },
+        {
+          "en": "The accident caused permanent damage to his brain.",
+          "zh": "那次事故对他的大脑造成了永久性损伤。"
+        },
+        {
+          "en": "His wife died because of a brain tumour.",
+          "zh": "他的妻子死于脑肿瘤。"
+        }
+      ]
+    },
+    "whatever": {
+      "phonetic_uk": "wɒtˈev.ər",
+      "phonetic_us": "wɑːˈt̬ev.ɚ",
+      "audio_uk": "/media/english/uk_pron/u/ukw/ukwet/ukwet__022.mp3",
+      "audio_us": "/media/english/us_pron/w/wha/whate/whatever.mp3",
+      "examples": [
+        {
+          "en": "We'll go whatever the weather is.",
+          "zh": "无论天气如何，我们都会去。"
+        },
+        {
+          "en": "Whatever happens, I'll stand by you.",
+          "zh": "无论发生什么，我都会支持你。"
+        },
+        {
+          "en": "Whatever people say, Mr. Meese is not afraid of a fight.",
+          "zh": "无论别人怎么说，米斯先生都不怕打架。"
+        }
+      ]
+    },
+    "suit": {
+      "phonetic_uk": "suːt",
+      "phonetic_us": "suːt",
+      "audio_uk": "/media/english/uk_pron/u/uks/uksug/uksugar009.mp3",
+      "audio_us": "/media/english/us_pron/s/sui/suit_/suit.mp3",
+      "examples": [
+        {
+          "en": "He wore a three-piece suit to the important meeting.",
+          "zh": "他穿了一套三件套西装去参加重要会议。"
+        },
+        {
+          "en": "My father bought a two-piece suit for the interview.",
+          "zh": "我爸爸为面试买了一套两件套西装。"
+        },
+        {
+          "en": "He wore a dark blue dinner suit at the evening party.",
+          "zh": "他在晚会上穿了一套深蓝色的晚礼服西装。"
+        }
+      ]
+    },
+    "smoothly": {
+      "phonetic_uk": "ˈsmuːð.li",
+      "phonetic_us": "ˈsmuːð.li",
+      "audio_uk": "/media/english/uk_pron/u/uks/uksmo/uksmoke014.mp3",
+      "audio_us": "/media/english/us_pron/s/smo/smoot/smoothly.mp3",
+      "examples": [
+        {
+          "en": "After the accident, the road was closed for two hours. Now traffic moves smoothly again.",
+          "zh": "事故后，道路关闭了两小时。现在交通又顺畅了。"
+        },
+        {
+          "en": "We add lead to fuel to help car engines run smoothly.",
+          "zh": "我们在燃料中加铅，帮助汽车发动机平稳运转。"
+        },
+        {
+          "en": "The pregnancy has gone smoothly so far.",
+          "zh": "到目前为止，怀孕过程一直很顺利。"
+        }
+      ]
+    },
+    "in general": {
+      "phonetic_uk": null,
+      "phonetic_us": null,
+      "audio_uk": null,
+      "audio_us": null,
+      "examples": [
+        {
+          "en": "In general, students like playing sports after class.",
+          "zh": "总的来说，学生们喜欢课后运动。"
+        },
+        {
+          "en": "In general, the weather here is warm and sunny.",
+          "zh": "总的来说，这里的天气温暖晴朗。"
+        },
+        {
+          "en": "In general, reading English books helps us learn more words.",
+          "zh": "总的来说，阅读英语书能帮助我们学更多单词。"
+        }
+      ]
+    },
+    "satisfy": {
+      "phonetic_uk": "ˈsæt.ɪs.faɪ",
+      "phonetic_us": "ˈsæt̬.ɪs.faɪ",
+      "audio_uk": "/media/english/uk_pron/u/uks/uksat/uksatan018.mp3",
+      "audio_us": "/media/english/us_pron/e/eus/eus74/eus74070.mp3",
+      "examples": [
+        {
+          "en": "They have 31 ice cream flavors, enough to satisfy everyone.",
+          "zh": "他们有31种冰淇淋口味，足以满足每个人。"
+        },
+        {
+          "en": "Come on, satisfy my curiosity—what happened last night?",
+          "zh": "来吧，满足我的好奇心——昨晚发生了什么？"
+        },
+        {
+          "en": "She satisfies all the job requirements.",
+          "zh": "她满足这份工作的所有要求。"
+        }
+      ]
+    },
+    "need": {
+      "phonetic_uk": "niːd",
+      "phonetic_us": "niːd",
+      "audio_uk": "/media/english/uk_pron/u/ukk/ukkit/ukkit__028.mp3",
+      "audio_us": "/media/english/us_pron/k/kne/knead/knead.mp3",
+      "examples": [
+        {
+          "en": "Babies need care all the time.",
+          "zh": "婴儿需要一直得到照顾。"
+        },
+        {
+          "en": "The doctor said I needed surgery.",
+          "zh": "医生说我需要做手术。"
+        },
+        {
+          "en": "I need to go to the toilet.",
+          "zh": "我需要去上厕所。"
+        }
+      ]
+    },
+    "virus": {
+      "phonetic_uk": "ˈvaɪə.rəs",
+      "phonetic_us": "ˈvaɪ.rəs",
+      "audio_uk": "/media/english/uk_pron/u/ukv/ukvir/ukvirgi019.mp3",
+      "audio_us": "/media/english/us_pron/v/vir/virus/virus.mp3",
+      "examples": [
+        {
+          "en": "The chickenpox and flu viruses are common in winter.",
+          "zh": "水痘和流感病毒在冬天很常见。"
+        },
+        {
+          "en": "The AIDS virus spread quickly among people.",
+          "zh": "艾滋病病毒在人群中传播得很快。"
+        },
+        {
+          "en": "I don't know what's wrong with her; maybe she has a virus.",
+          "zh": "我不知道她怎么了，也许她感染了病毒。"
+        }
+      ]
+    },
+    "no longer": {
+      "phonetic_uk": null,
+      "phonetic_us": null,
+      "audio_uk": null,
+      "audio_us": null,
+      "examples": [
+        {
+          "en": "She no longer lives in this city.",
+          "zh": "她不再住在这个城市了。"
+        },
+        {
+          "en": "I can no longer wait for the bus.",
+          "zh": "我不能再等公交车了。"
+        },
+        {
+          "en": "They are no longer friends after the fight.",
+          "zh": "争吵之后他们不再是朋友了。"
+        }
+      ]
+    },
+    "properly": {
+      "phonetic_uk": "ˈprɒp.əl.i",
+      "phonetic_us": "ˈprɑː.pɚ.li",
+      "audio_uk": "/media/english/uk_pron/u/ukp/ukpro/ukproof017.mp3",
+      "audio_us": "/media/english/us_pron/p/pro/prope/properly.mp3",
+      "examples": [
+        {
+          "en": "It still doesn't work properly.",
+          "zh": "它还是不能正常工作。"
+        },
+        {
+          "en": "I am not dressed properly for this weather.",
+          "zh": "我穿的衣服不适合这种天气。"
+        },
+        {
+          "en": "You should take it to get it repaired properly.",
+          "zh": "你应该把它拿去好好修一下。"
+        }
+      ]
+    },
+    "complete": {
+      "phonetic_uk": "kəmˈpliːt",
+      "phonetic_us": "kəmˈpliːt",
+      "audio_uk": "/media/english/uk_pron/u/ukc/ukcom/ukcompe018.mp3",
+      "audio_us": "/media/english/us_pron/c/com/compl/complete.mp3",
+      "examples": [
+        {
+          "en": "Please complete the sentence with these words.",
+          "zh": "请用这些词完成句子。"
+        },
+        {
+          "en": "He needs two cards to complete the set.",
+          "zh": "他需要两张卡片来凑齐这套。"
+        },
+        {
+          "en": "A baby would complete her happiness.",
+          "zh": "一个宝宝会使她的幸福变得完整。"
+        }
+      ]
+    },
+    "mess": {
+      "phonetic_uk": "mes",
+      "phonetic_us": "mes",
+      "audio_uk": "/media/english/uk_pron/u/ukm/ukmes/ukmesh_005.mp3",
+      "audio_us": "/media/english/us_pron/m/mes/mess_/mess.mp3",
+      "examples": [
+        {
+          "en": "He always makes a mess when he cooks.",
+          "zh": "他做饭时总是弄得乱七八糟。"
+        },
+        {
+          "en": "Jem's room is always in a mess.",
+          "zh": "杰姆的房间总是乱七八糟的。"
+        },
+        {
+          "en": "Please clean up the mess in the kitchen now.",
+          "zh": "请现在把厨房里乱七八糟的东西清理干净。"
+        }
+      ]
+    },
+    "lay": {
+      "phonetic_uk": "leɪ",
+      "phonetic_us": "leɪ",
+      "audio_uk": "/media/english/uk_pron/u/ukl/uklaw/uklawle011.mp3",
+      "audio_us": "/media/english/us_pron/l/lay/lay__/lay.mp3",
+      "examples": [
+        {
+          "en": "She laid the baby on the bed.",
+          "zh": "她把婴儿放在了床上。"
+        },
+        {
+          "en": "He laid the tray on the table.",
+          "zh": "他把托盘放在了桌子上。"
+        },
+        {
+          "en": "She laid her book aside to answer the phone.",
+          "zh": "她把书放在一边去接电话了。"
+        }
+      ]
+    },
+    "store": {
+      "phonetic_uk": "stɔːr",
+      "phonetic_us": "stɔːr",
+      "audio_uk": "/media/english/uk_pron/u/uks/uksto/ukstore001.mp3",
+      "audio_us": "/media/english/us_pron/s/sto/store/store.mp3",
+      "examples": [
+        {
+          "en": "If you don't like what you bought, take it back to our store for your money.",
+          "zh": "如果你不喜欢买的东西，可以把它退回我们的商店拿回钱。"
+        },
+        {
+          "en": "His new clothes are shown in all the big stores in London.",
+          "zh": "他的新衣服在伦敦所有大商店里展示。"
+        },
+        {
+          "en": "More competition may make the company close its stores this year.",
+          "zh": "更多的竞争可能让公司今年关闭它的商店。"
+        }
+      ]
+    },
+    "coin": {
+      "phonetic_uk": "kɔɪn",
+      "phonetic_us": "kɔɪn",
+      "audio_uk": "/media/english/uk_pron/u/ukc/ukcoh/ukcohab015.mp3",
+      "audio_us": "/media/english/us_pron/c/coi/coin_/coin.mp3",
+      "examples": [
+        {
+          "en": "There is a 10p coin in my pocket.",
+          "zh": "我的口袋里有一枚10便士硬币。"
+        },
+        {
+          "en": "He gave me a pound coin for the bus.",
+          "zh": "他给了我一枚一英镑硬币坐公交车。"
+        },
+        {
+          "en": "The old man collected many gold coins.",
+          "zh": "那位老人收集了许多金币。"
+        }
+      ]
+    },
+    "bill": {
+      "phonetic_uk": "bɪl",
+      "phonetic_us": "bɪl",
+      "audio_uk": "/media/english/uk_pron/u/ukb/ukbil/ukbilio002.mp3",
+      "audio_us": "/media/english/us_pron/b/bil/bill_/bill.mp3",
+      "examples": [
+        {
+          "en": "Please pay the electricity bill this week.",
+          "zh": "请这周付电费账单。"
+        },
+        {
+          "en": "They sent us a bill for their work.",
+          "zh": "他们把工作的账单寄给了我们。"
+        },
+        {
+          "en": "She ran up a big phone bill.",
+          "zh": "她积欠了一大笔电话费。"
+        }
+      ]
+    },
+    "private": {
+      "phonetic_uk": "ˈpraɪ.vət",
+      "phonetic_us": "ˈpraɪ.vət",
+      "audio_uk": "/media/english/uk_pron/u/ukp/ukpri/ukpriso007.mp3",
+      "audio_us": "/media/english/us_pron/p/pri/priva/private.mp3",
+      "examples": [
+        {
+          "en": "She has a small office for private talks.",
+          "zh": "她有一个小办公室，用来进行私人谈话。"
+        },
+        {
+          "en": "I saw him reading my private papers.",
+          "zh": "我看见他在读我的私人文件。"
+        },
+        {
+          "en": "The gate said: Private property, no entry!",
+          "zh": "大门上写着：私人财产，禁止进入！"
+        }
+      ]
+    },
+    "paper": {
+      "phonetic_uk": "ˈpeɪ.pər",
+      "phonetic_us": "ˈpeɪ.pɚ",
+      "audio_uk": "/media/english/uk_pron/u/ukp/ukpan/ukpanor026.mp3",
+      "audio_us": "/media/english/us_pron/p/pap/paper/paper.mp3",
+      "examples": [
+        {
+          "en": "Emily took a piece of writing paper and began to write.",
+          "zh": "艾米丽拿了一张书写纸，开始写字。"
+        },
+        {
+          "en": "Dictionaries were often printed on thin paper.",
+          "zh": "字典通常印在薄纸上。"
+        },
+        {
+          "en": "She gave me a small brown paper bag.",
+          "zh": "她给了我一个小棕纸袋。"
+        }
+      ]
+    },
+    "spread": {
+      "phonetic_uk": "spred",
+      "phonetic_us": "spred",
+      "audio_uk": "/media/english/uk_pron/u/uks/ukspo/ukspotl018.mp3",
+      "audio_us": "/media/english/us_pron/s/spr/sprea/spread.mp3",
+      "examples": [
+        {
+          "en": "The fire spread fast because the wind was strong.",
+          "zh": "火因为风大而蔓延得很快。"
+        },
+        {
+          "en": "The illness spread from the liver to other parts of the body.",
+          "zh": "这种病从肝脏扩散到了身体的其他部位。"
+        },
+        {
+          "en": "Student art can't cover over 20% of a wall, or it may spread fire to the ceiling.",
+          "zh": "学生的画不能覆盖墙的百分之二十以上，否则火可能会蔓延到天花板。"
+        }
+      ]
+    },
+    "wheel": {
+      "phonetic_uk": "wiːl",
+      "phonetic_us": "wiːl",
+      "audio_uk": "/media/english/uk_pron/u/ukw/ukwet/ukwet__030.mp3",
+      "audio_us": "/media/english/us_pron/w/whe/wheel/wheel.mp3",
+      "examples": [
+        {
+          "en": "My bag got stuck in the bike wheel.",
+          "zh": "我的包卡在自行车轮子里了。"
+        },
+        {
+          "en": "A wheel hit a rock and he lost control of the car.",
+          "zh": "一个轮子撞到石头，他失去了对汽车的控制。"
+        },
+        {
+          "en": "My suitcase has wheels, so it is easier to carry.",
+          "zh": "我的行李箱有轮子，所以更容易携带。"
+        }
+      ]
+    },
+    "pill": {
+      "phonetic_uk": "pɪl",
+      "phonetic_us": "pɪl",
+      "audio_uk": "/media/english/uk_pron/u/ukp/ukpig/ukpigmy021.mp3",
+      "audio_us": "/media/english/us_pron/p/pil/pill_/pill.mp3",
+      "examples": [
+        {
+          "en": "Take one sleeping pill before bed.",
+          "zh": "睡觉前吃一片安眠药。"
+        },
+        {
+          "en": "I take a vitamin pill every morning.",
+          "zh": "我每天早上吃一片维生素片。"
+        },
+        {
+          "en": "My mother takes three pills a day.",
+          "zh": "我妈妈每天吃三片药。"
+        }
+      ]
+    },
+    "unsure": {
+      "phonetic_uk": "ʌnˈʃɔːr",
+      "phonetic_us": "ʌnˈʃʊr",
+      "audio_uk": "/media/english/uk_pron/u/ukc/ukcld/ukcld01566.mp3",
+      "audio_us": "/media/english/us_pron/e/eus/eus75/eus75984.mp3",
+      "examples": [
+        {
+          "en": "I'm unsure about what to do next. Can you help me?",
+          "zh": "我不确定下一步该做什么。你能帮我吗？"
+        },
+        {
+          "en": "As a new teacher, I was unsure of myself in front of the class.",
+          "zh": "作为新老师，我在全班面前对自己没把握。"
+        },
+        {
+          "en": "Officials were unsure who controlled the city.",
+          "zh": "官员们不确定谁控制着这座城市。"
+        }
+      ]
+    },
+    "forgetful": {
+      "phonetic_uk": "fəˈɡet.fəl",
+      "phonetic_us": "fɚˈɡet.fəl",
+      "audio_uk": "/media/english/uk_pron/u/ukf/ukfor/ukfores024.mp3",
+      "audio_us": "/media/english/us_pron/e/eus/eus71/eus71879.mp3",
+      "examples": [
+        {
+          "en": "She is old and very forgetful now.",
+          "zh": "她现在老了，很健忘。"
+        },
+        {
+          "en": "She worries because her father is becoming forgetful.",
+          "zh": "她担心，因为她爸爸变得健忘。"
+        },
+        {
+          "en": "My grandpa is forgetful and often loses his keys.",
+          "zh": "我爷爷很健忘，经常丢钥匙。"
+        }
+      ]
+    },
+    "stair": {
+      "phonetic_uk": "steər",
+      "phonetic_us": "ster",
+      "audio_uk": "/media/english/uk_pron/u/uks/uksta/ukstabl029.mp3",
+      "audio_us": "/media/english/us_pron/s/sta/stair/stair.mp3",
+      "examples": [
+        {
+          "en": "Go up the stairs and you will see her office on the right.",
+          "zh": "走上楼梯，你会看到她的办公室在右边。"
+        },
+        {
+          "en": "The top stair made a sound and woke her mother.",
+          "zh": "最上面那级楼梯发出声响，吵醒了她妈妈。"
+        },
+        {
+          "en": "He walked up the wooden stair and knocked at his grandpa's door.",
+          "zh": "他走上木楼梯，敲了敲爷爷的门。"
+        }
+      ]
+    },
+    "battery": {
+      "phonetic_uk": "ˈbæt.ər.i",
+      "phonetic_us": "ˈbæt̬.ɚ.i",
+      "audio_uk": "/media/english/uk_pron/u/ukb/ukbat/ukbatch024.mp3",
+      "audio_us": "/media/english/us_pron/e/eus/eus70/eus70457.mp3",
+      "examples": [
+        {
+          "en": "This is a rechargeable battery.",
+          "zh": "这是一块可充电电池。"
+        },
+        {
+          "en": "This alarm clock needs two medium batteries.",
+          "zh": "这个闹钟需要两节中号电池。"
+        },
+        {
+          "en": "My phone's battery is going to run out.",
+          "zh": "我手机的电量快用完了。"
+        }
+      ]
+    },
+    "customer": {
+      "phonetic_uk": "ˈkʌs.tə.mər",
+      "phonetic_us": "ˈkʌs.tə.mɚ",
+      "audio_uk": "/media/english/uk_pron/u/ukc/ukcur/ukcurta027.mp3",
+      "audio_us": "/media/english/us_pron/c/cus/custo/customer.mp3",
+      "examples": [
+        {
+          "en": "Look, that satisfied customer is leaving now.",
+          "zh": "看，那位满意的顾客现在要走了。"
+        },
+        {
+          "en": "Mrs Wilson is a regular customer of our shop.",
+          "zh": "威尔逊太太是我们店的一位老顾客。"
+        },
+        {
+          "en": "Our shop has many loyal customers from nearby.",
+          "zh": "我们店有很多附近的老顾客。"
+        }
+      ]
+    },
+    "hold": {
+      "phonetic_uk": "həʊld",
+      "phonetic_us": "hoʊld",
+      "audio_uk": "/media/english/uk_pron/u/ukh/ukhob/ukhobno026.mp3",
+      "audio_us": "/media/english/us_pron/h/hol/hold_/hold.mp3",
+      "examples": [
+        {
+          "en": "Can you hold my bag for a minute?",
+          "zh": "你能帮我拿一下包吗？"
+        },
+        {
+          "en": "He held a gun in his hand.",
+          "zh": "他手里握着一把枪。"
+        },
+        {
+          "en": "The little girl held her mom's hand.",
+          "zh": "小女孩握着妈妈的手。"
+        }
+      ]
+    },
+    "through": {
+      "phonetic_uk": "θruː",
+      "phonetic_us": "θruː",
+      "audio_uk": "/media/english/uk_pron/u/ukt/uktho/ukthoug016.mp3",
+      "audio_us": "/media/english/us_pron/t/thr/threw/threw.mp3",
+      "examples": [
+        {
+          "en": "They walked through the woods slowly.",
+          "zh": "他们慢慢地穿过树林。"
+        },
+        {
+          "en": "The boy walked through the water to his boat.",
+          "zh": "那个男孩蹚过水到达他的船。"
+        },
+        {
+          "en": "He pushed through the crowd to the front.",
+          "zh": "他挤过人群到了前面。"
+        }
+      ]
+    },
+    "put through": {
+      "phonetic_uk": null,
+      "phonetic_us": null,
+      "audio_uk": null,
+      "audio_us": null,
+      "examples": [
+        {
+          "en": "Can you put me through to Mr. Li, please?",
+          "zh": "请帮我接通李先生的电话，好吗？"
+        },
+        {
+          "en": "The operator put the call through to the manager.",
+          "zh": "接线员把电话接通到了经理那里。"
+        },
+        {
+          "en": "Please put me through to the hospital right now.",
+          "zh": "请立刻帮我接通医院的电话。"
+        }
+      ]
+    },
+    "satisfied": {
+      "phonetic_uk": "ˈsæt.ɪs.faɪd",
+      "phonetic_us": "ˈsæt̬.ɪs.faɪd",
+      "audio_uk": "/media/english/uk_pron/u/uks/uksat/uksatan017.mp3",
+      "audio_us": "/media/english/us_pron/u/uss/ussat/ussatch006.mp3",
+      "examples": [
+        {
+          "en": "Some people are never satisfied with anything.",
+          "zh": "有些人从不对任何事情感到满意。"
+        },
+        {
+          "en": "She gave me a satisfied smile.",
+          "zh": "她给了我一个满意的微笑。"
+        },
+        {
+          "en": "Are you satisfied with the new plan?",
+          "zh": "你对新计划满意吗？"
+        }
+      ]
+    },
+    "be satisfied with": {
+      "phonetic_uk": null,
+      "phonetic_us": null,
+      "audio_uk": null,
+      "audio_us": null,
+      "examples": [
+        {
+          "en": "She is satisfied with her exam results.",
+          "zh": "她对她的考试结果感到满意。"
+        },
+        {
+          "en": "We were satisfied with the service in the restaurant.",
+          "zh": "我们对餐厅的服务感到满意。"
+        },
+        {
+          "en": "He will be satisfied with your hard work.",
+          "zh": "他会对你的努力感到满意。"
+        }
+      ]
+    },
+    "first of all": {
+      "phonetic_uk": null,
+      "phonetic_us": null,
+      "audio_uk": null,
+      "audio_us": null,
+      "examples": [
+        {
+          "en": "First of all, let me introduce myself to you.",
+          "zh": "首先，让我向你介绍一下我自己。"
+        },
+        {
+          "en": "First of all, we need to finish our homework.",
+          "zh": "首先，我们需要完成作业。"
+        },
+        {
+          "en": "First of all, turn off the lights before you leave.",
+          "zh": "首先，离开前请关灯。"
+        }
+      ]
+    },
+    "quality": {
+      "phonetic_uk": "ˈkwɒl.ə.ti",
+      "phonetic_us": "ˈkwɑː.lə.t̬i",
+      "audio_uk": "/media/english/uk_pron/u/ukq/ukqua/ukquali007.mp3",
+      "audio_us": "/media/english/us_pron/e/eus/eus73/eus73797.mp3",
+      "examples": [
+        {
+          "en": "The shop sells goods of top quality.",
+          "zh": "这家商店出售质量上乘的商品。"
+        },
+        {
+          "en": "The food was poor in quality.",
+          "zh": "这食物质量很差。"
+        },
+        {
+          "en": "The cuts may lower the quality of service.",
+          "zh": "削减可能会降低服务质量。"
+        }
+      ]
+    },
+    "up to standard": {
+      "phonetic_uk": null,
+      "phonetic_us": null,
+      "audio_uk": null,
+      "audio_us": null,
+      "examples": [
+        {
+          "en": "His homework is not up to standard, so he must do it again.",
+          "zh": "他的作业没有达到标准，所以他必须重做。"
+        },
+        {
+          "en": "The food in this restaurant is always up to standard.",
+          "zh": "这家餐厅的食物总是能达到标准。"
+        },
+        {
+          "en": "You need to make your work up to standard before Friday.",
+          "zh": "你需要在周五前让你的工作达到标准。"
+        }
+      ]
+    },
+    "completely": {
+      "phonetic_uk": "kəmˈpliːt.li",
+      "phonetic_us": "kəmˈpliːt.li",
+      "audio_uk": "/media/english/uk_pron/u/ukc/ukcom/ukcompe019.mp3",
+      "audio_us": "/media/english/us_pron/c/com/compl/completely.mp3",
+      "examples": [
+        {
+          "en": "I completely agree with you.",
+          "zh": "我完全同意你。"
+        },
+        {
+          "en": "She is completely crazy.",
+          "zh": "她完全疯了。"
+        },
+        {
+          "en": "He completely changed, so I didn't know him.",
+          "zh": "他完全变了，所以我认不出他了。"
+        }
+      ]
+    },
+    "regret": {
+      "phonetic_uk": "rɪˈɡret",
+      "phonetic_us": "rɪˈɡret",
+      "audio_uk": "/media/english/uk_pron/u/ukr/ukreg/ukregen025.mp3",
+      "audio_us": "/media/english/us_pron/r/reg/regre/regret.mp3",
+      "examples": [
+        {
+          "en": "I left school at 16, but I have no regrets about my life.",
+          "zh": "我16岁离开学校，但对我的生活不后悔。"
+        },
+        {
+          "en": "The manager felt great regret about the job cuts.",
+          "zh": "经理对裁员感到非常遗憾。"
+        },
+        {
+          "en": "To our regret, we can't visit you next year.",
+          "zh": "遗憾的是，我们明年不能去看你了。"
+        }
+      ]
+    },
+    "product": {
+      "phonetic_uk": "ˈprɒd.ʌkt",
+      "phonetic_us": "ˈprɑː.dʌkt",
+      "audio_uk": "/media/english/uk_pron/u/ukp/ukpro/ukprod_012.mp3",
+      "audio_us": "/media/english/us_pron/p/pro/produ/product.mp3",
+      "examples": [
+        {
+          "en": "They make many skin-care products.",
+          "zh": "他们生产许多护肤品。"
+        },
+        {
+          "en": "This product is so good that it sells itself.",
+          "zh": "这个产品好到不用推销。"
+        },
+        {
+          "en": "I want to eat fewer dairy products.",
+          "zh": "我想少吃奶制品。"
+        }
+      ]
+    },
+    "Mars": {
+      "phonetic_uk": "mɑːz",
+      "phonetic_us": "mɑːrz",
+      "audio_uk": "/media/english/uk_pron/u/ukm/ukmar/ukmarmo012.mp3",
+      "audio_us": "/media/english/us_pron/m/mar/mars_/mars.mp3",
+      "examples": [
+        {
+          "en": "Mars is called the Red Planet because of its color.",
+          "zh": "火星因为它的颜色被称为红色星球。"
+        },
+        {
+          "en": "Is there life on Mars? We don't know.",
+          "zh": "火星上有生命吗？我们不知道。"
+        },
+        {
+          "en": "We found Mars on the space map.",
+          "zh": "我们在太空地图上找到了火星。"
+        }
+      ]
+    },
+    "helmet": {
+      "phonetic_uk": "ˈhel.mət",
+      "phonetic_us": "ˈhel.mət",
+      "audio_uk": "/media/english/uk_pron/u/ukh/ukhel/ukhellu003.mp3",
+      "audio_us": "/media/english/us_pron/h/hel/helme/helmet.mp3",
+      "examples": [
+        {
+          "en": "He wore a crash helmet on his head.",
+          "zh": "他头上戴了一个防撞头盔。"
+        },
+        {
+          "en": "She bought a new bicycle helmet yesterday.",
+          "zh": "她昨天买了一个新的自行车头盔。"
+        },
+        {
+          "en": "Riding a bike without a helmet is dangerous.",
+          "zh": "骑自行车不戴头盔很危险。"
+        }
+      ]
+    },
+    "air tank": {
+      "phonetic_uk": null,
+      "phonetic_us": null,
+      "audio_uk": null,
+      "audio_us": null,
+      "examples": [
+        {
+          "en": "The diver carried an air tank on his back.",
+          "zh": "潜水员背上背着一个氧气罐。"
+        },
+        {
+          "en": "She checked the air tank before going underwater.",
+          "zh": "她在下水前检查了氧气罐。"
+        },
+        {
+          "en": "We need a new air tank for the swimming class.",
+          "zh": "我们需要一个新的氧气罐来上游泳课。"
+        }
+      ]
+    },
+    "dried food": {
+      "phonetic_uk": null,
+      "phonetic_us": null,
+      "audio_uk": null,
+      "audio_us": null,
+      "examples": [
+        {
+          "en": "We took some dried food on our trip.",
+          "zh": "我们旅行时带了一些干粮。"
+        },
+        {
+          "en": "The soldiers ate dried food in the mountains.",
+          "zh": "士兵们在山里吃干粮。"
+        },
+        {
+          "en": "My mom keeps dried food for the winter.",
+          "zh": "我妈妈为冬天储存干粮。"
+        }
+      ]
+    },
+    "power pack": {
+      "phonetic_uk": "ˈpaʊə ˌpæk",
+      "phonetic_us": "ˈpaʊɚ ˌpæk",
+      "audio_uk": null,
+      "audio_us": null,
+      "examples": [
+        {
+          "en": "His laptop was off, and the power pack and phone cord were on top of it.",
+          "zh": "他的笔记本电脑关着，电源包和手机线放在上面。"
+        },
+        {
+          "en": "I will buy a power pack for my phone before the holiday.",
+          "zh": "假期前我会给我的手机买一个电源包。"
+        },
+        {
+          "en": "The power pack can fit on most wheelchairs.",
+          "zh": "这个电源包能装在大多数轮椅上。"
+        }
+      ]
+    },
+    "sleeping bag": {
+      "phonetic_uk": "ˈsliː.pɪŋ ˌbæɡ",
+      "phonetic_us": "ˈsliː.pɪŋ ˌbæɡ",
+      "audio_uk": "/media/english/uk_pron/u/ukc/ukcld/ukcld01340.mp3",
+      "audio_us": "/media/english/us_pron/u/usc/uscld/uscld01340.mp3",
+      "examples": [
+        {
+          "en": "Buy a sleeping bag that is warm and light.",
+          "zh": "买一个又暖和又轻的睡袋。"
+        },
+        {
+          "en": "One night, he wakes up in his sleeping bag.",
+          "zh": "一天晚上，他在睡袋里醒来。"
+        },
+        {
+          "en": "You also need a sleeping bag for the trip.",
+          "zh": "你也需要一个睡袋去旅行。"
+        }
+      ]
+    },
+    "gravity": {
+      "phonetic_uk": "ˈɡræv.ə.ti",
+      "phonetic_us": "ˈɡræv.ə.t̬i",
+      "audio_uk": "/media/english/uk_pron/u/ukg/ukgra/ukgravi001.mp3",
+      "audio_us": "/media/english/us_pron/e/eus/eus72/eus72086.mp3",
+      "examples": [
+        {
+          "en": "We learned about the laws of gravity in class.",
+          "zh": "我们在课堂上学习了重力定律。"
+        },
+        {
+          "en": "You don't understand the gravity of this problem.",
+          "zh": "你不明白这个问题的严重性。"
+        },
+        {
+          "en": "The gravity of the earth pulls things down.",
+          "zh": "地球的重力把东西往下拉。"
+        }
+      ]
+    },
+    "planet": {
+      "phonetic_uk": "ˈplæn.ɪt",
+      "phonetic_us": "ˈplæn.ɪt",
+      "audio_uk": "/media/english/uk_pron/u/ukp/ukpla/ukplain005.mp3",
+      "audio_us": "/media/english/us_pron/p/pla/plane/planet.mp3",
+      "examples": [
+        {
+          "en": "We live on the planet Earth.",
+          "zh": "我们生活在地球这颗行星上。"
+        },
+        {
+          "en": "Venus is a very hot planet.",
+          "zh": "金星是一颗非常热的行星。"
+        },
+        {
+          "en": "Is there smart life on other planets?",
+          "zh": "其他行星上有智慧生命吗？"
+        }
+      ]
+    },
+    "crowded": {
+      "phonetic_uk": "ˈkraʊ.dɪd",
+      "phonetic_us": "ˈkraʊ.dɪd",
+      "audio_uk": "/media/english/uk_pron/u/ukc/ukcro/ukcross030.mp3",
+      "audio_us": "/media/english/us_pron/c/cro/crowd/crowded.mp3",
+      "examples": [
+        {
+          "en": "The bar was crowded by ten o'clock.",
+          "zh": "到十点钟时，酒吧里很拥挤。"
+        },
+        {
+          "en": "The shops get more crowded as Christmas comes.",
+          "zh": "随着圣诞节来临，商店变得越来越拥挤。"
+        },
+        {
+          "en": "Chen nodded to her in the crowded room.",
+          "zh": "陈在拥挤的房间里向她点头示意。"
+        }
+      ]
+    },
+    "polluted": {
+      "phonetic_uk": "pəˈluː.tɪd",
+      "phonetic_us": "pəˈluː.t̬ɪd",
+      "audio_uk": "/media/english/uk_pron/c/cdo/cdo11/cdo1121ukpoll3493.mp3",
+      "audio_us": "/media/english/us_pron/c/cdo/cdo11/cdo1121uspoll3415.mp3",
+      "examples": [
+        {
+          "en": "The river in Caracas is heavily polluted.",
+          "zh": "加拉加斯的河流被严重污染了。"
+        },
+        {
+          "en": "New particles form in the polluted air of big cities.",
+          "zh": "大城市被污染的空气中会形成新的颗粒物。"
+        },
+        {
+          "en": "Poor people drank the polluted water and were hurt most.",
+          "zh": "穷人喝了被污染的水，受到的影响最大。"
+        }
+      ]
+    },
+    "rapid": {
+      "phonetic_uk": "ˈræp.ɪd",
+      "phonetic_us": "ˈræp.ɪd",
+      "audio_uk": "/media/english/uk_pron/u/ukr/ukrap/ukrapac005.mp3",
+      "audio_us": "/media/english/us_pron/r/rap/rapid/rapid.mp3",
+      "examples": [
+        {
+          "en": "The 1990s saw rapid growth in technology.",
+          "zh": "20世纪90年代科技发展迅速。"
+        },
+        {
+          "en": "A rapid move on my left surprised me.",
+          "zh": "我左边一个快速的动作吓了我一跳。"
+        },
+        {
+          "en": "He gave a rapid answer to the blame.",
+          "zh": "他对指责做出了快速的回应。"
+        }
+      ]
+    },
+    "(all) over again": {
+      "phonetic_uk": null,
+      "phonetic_us": null,
+      "audio_uk": null,
+      "audio_us": null,
+      "examples": [
+        {
+          "en": "Please read the text all over again.",
+          "zh": "请把课文再读一遍。"
+        },
+        {
+          "en": "He did the homework all over again.",
+          "zh": "他把作业重新做了一遍。"
+        },
+        {
+          "en": "We can start the game all over again.",
+          "zh": "我们可以重新开始这场比赛。"
+        }
+      ]
+    },
+    "passenger": {
+      "phonetic_uk": "ˈpæs.ən.dʒər",
+      "phonetic_us": "ˈpæs.ən.dʒɚ",
+      "audio_uk": "/media/english/uk_pron/u/ukp/ukpar/ukparti023.mp3",
+      "audio_us": "/media/english/us_pron/e/eus/eus73/eus73440.mp3",
+      "examples": [
+        {
+          "en": "Car passengers must wear seat belts.",
+          "zh": "汽车乘客必须系安全带。"
+        },
+        {
+          "en": "Two passenger trains crashed in the accident.",
+          "zh": "两辆客运列车在事故中相撞了。"
+        },
+        {
+          "en": "The strike stopped some ferries, so many passengers waited at the docks.",
+          "zh": "罢工使一些渡轮停运，许多乘客在码头等待。"
+        }
+      ]
+    },
+    "at a/the speed of": {
+      "phonetic_uk": null,
+      "phonetic_us": null,
+      "audio_uk": null,
+      "audio_us": null,
+      "examples": [
+        {
+          "en": "The car is running at the speed of 80 kilometers an hour.",
+          "zh": "那辆汽车正以每小时80公里的速度行驶。"
+        },
+        {
+          "en": "Light travels at the speed of about 300,000 kilometers per second.",
+          "zh": "光以每秒大约30万公里的速度传播。"
+        },
+        {
+          "en": "He walked at a speed of 5 kilometers per hour to the school.",
+          "zh": "他以每小时5公里的速度走到学校。"
+        }
+      ]
+    },
+    "uncomfortable": {
+      "phonetic_uk": "ʌnˈkʌmf.tə.bəl",
+      "phonetic_us": "ʌnˈkʌm.fɚ.t̬ə",
+      "audio_uk": "/media/english/uk_pron/u/uku/ukunc/ukunchr011.mp3",
+      "audio_us": "/media/english/us_pron/e/eus/eus74/eus74697.mp3",
+      "examples": [
+        {
+          "en": "I ate so much that I feel uncomfortable now.",
+          "zh": "我吃得太多了，现在感觉不舒服。"
+        },
+        {
+          "en": "These shoes make my feet uncomfortable.",
+          "zh": "这双鞋让我的脚不舒服。"
+        },
+        {
+          "en": "We waited in an uncomfortable silence.",
+          "zh": "我们在令人不安的沉默中等待。"
+        }
+      ]
+    },
+    "oxygen": {
+      "phonetic_uk": "ˈɒk.sɪ.dʒən",
+      "phonetic_us": "ˈɑːk.sɪ.dʒən",
+      "audio_uk": "/media/english/uk_pron/u/uko/ukove/ukoverw026.mp3",
+      "audio_us": "/media/english/us_pron/e/eus/eus75/eus75461.mp3",
+      "examples": [
+        {
+          "en": "Oxygen has atomic number 8, meaning 8 protons in its nucleus.",
+          "zh": "氧的原子序数是8，意味着它的原子核中有8个质子。"
+        },
+        {
+          "en": "Plants give us most of the oxygen in the air.",
+          "zh": "植物为我们提供了空气中大部分的氧气。"
+        },
+        {
+          "en": "Air is mostly made of nitrogen and oxygen.",
+          "zh": "空气主要由氮气和氧气组成。"
+        }
+      ]
+    },
+    "in the form of": {
+      "phonetic_uk": null,
+      "phonetic_us": null,
+      "audio_uk": null,
+      "audio_us": null,
+      "examples": [
+        {
+          "en": "We can get energy in the form of food.",
+          "zh": "我们可以通过食物的形式获取能量。"
+        },
+        {
+          "en": "The teacher gave us advice in the form of a story.",
+          "zh": "老师以讲故事的形式给我们提建议。"
+        },
+        {
+          "en": "She showed her love in the form of a gift.",
+          "zh": "她用礼物的形式表达了她的爱。"
+        }
+      ]
+    },
+    "tasty": {
+      "phonetic_uk": "ˈteɪ.sti",
+      "phonetic_us": "ˈteɪ.sti",
+      "audio_uk": "/media/english/uk_pron/u/ukt/uktas/uktaste005.mp3",
+      "audio_us": "/media/english/us_pron/t/tas/tasty/tasty.mp3",
+      "examples": [
+        {
+          "en": "This soup is really tasty.",
+          "zh": "这汤真美味。"
+        },
+        {
+          "en": "We had a tasty meal yesterday.",
+          "zh": "我们昨天吃了一顿美味的饭。"
+        },
+        {
+          "en": "She made a tasty dessert for us.",
+          "zh": "她为我们做了美味的甜点。"
+        }
+      ]
+    },
+    "specially": {
+      "phonetic_uk": "ˈspeʃ.əl.i",
+      "phonetic_us": "ˈspeʃ.əl.i",
+      "audio_uk": "/media/english/uk_pron/u/uks/ukspe/ukspeci004.mp3",
+      "audio_us": "/media/english/us_pron/s/spe/speci/specially.mp3",
+      "examples": [
+        {
+          "en": "This wine is specially good.",
+          "zh": "这酒特别好。"
+        },
+        {
+          "en": "Do you want to go out? Not specially.",
+          "zh": "你想出去吗？不太想。"
+        },
+        {
+          "en": "The kids liked the museum, specially the dinosaurs.",
+          "zh": "孩子们喜欢博物馆，特别是恐龙。"
+        }
+      ]
+    },
+    "compare": {
+      "phonetic_uk": "kəmˈpeər",
+      "phonetic_us": "kəmˈper",
+      "audio_uk": "/media/english/uk_pron/u/ukc/ukcom/ukcommu030.mp3",
+      "audio_us": "/media/english/us_pron/c/com/compa/compare.mp3",
+      "examples": [
+        {
+          "en": "Compare the two houses, and you will see the price difference.",
+          "zh": "比较这两栋房子，你就会看到价格差异。"
+        },
+        {
+          "en": "Have you compared prices in other shops? That seems too expensive.",
+          "zh": "你比较过其他商店的价格吗？那似乎太贵了。"
+        },
+        {
+          "en": "Compare your new work with your old work, and you will see your progress.",
+          "zh": "把你的新作品和旧作品比较一下，你就会看到你的进步。"
+        }
+      ]
+    },
+    "compare to/with": {
+      "phonetic_uk": null,
+      "phonetic_us": null,
+      "audio_uk": null,
+      "audio_us": null,
+      "examples": [
+        {
+          "en": "Compare your answers with mine to find mistakes.",
+          "zh": "把你的答案和我的相比，找出错误。"
+        },
+        {
+          "en": "People often compare the city to a big garden.",
+          "zh": "人们常把这座城市比作一个大花园。"
+        },
+        {
+          "en": "Compared with last year, we did much better.",
+          "zh": "与去年相比，我们做得好多了。"
+        }
+      ]
+    },
+    "interplanetary": {
+      "phonetic_uk": "ˌɪn.təˈplæn.ɪ.tər.i",
+      "phonetic_us": "ˌɪn.təˈplæn.ɪ.ter.i",
+      "audio_uk": "/media/english/uk_pron/u/uki/ukint/ukinter213.mp3",
+      "audio_us": "/media/english/us_pron/e/eus/eus72/eus72532.mp3",
+      "examples": [
+        {
+          "en": "The spaceship moved through interplanetary space.",
+          "zh": "飞船穿过行星间的空间。"
+        },
+        {
+          "en": "Interplanetary travel is very exciting but hard.",
+          "zh": "行星间的旅行很刺激但很难。"
+        },
+        {
+          "en": "The probe sent photos from interplanetary space.",
+          "zh": "探测器从行星间发回了照片。"
+        }
+      ]
+    },
+    "network": {
+      "phonetic_uk": "ˈnet.wɜːk",
+      "phonetic_us": "ˈnet.wɝːk",
+      "audio_uk": "/media/english/uk_pron/u/ukn/uknep/ukneptu025.mp3",
+      "audio_us": "/media/english/us_pron/n/net/netwo/network.mp3",
+      "examples": [
+        {
+          "en": "There is a network of tunnels under the city.",
+          "zh": "城市地下有一个隧道网络。"
+        },
+        {
+          "en": "She works for a television network.",
+          "zh": "她在一家电视网络公司工作。"
+        },
+        {
+          "en": "The country has a large road network.",
+          "zh": "这个国家有庞大的公路网络。"
+        }
+      ]
+    },
+    "challenging": {
+      "phonetic_uk": "ˈtʃæl.ɪn.dʒɪŋ",
+      "phonetic_us": "ˈtʃæl.ɪn.dʒɪŋ",
+      "audio_uk": "/media/english/uk_pron/u/ukc/ukcey/ukceylo026.mp3",
+      "audio_us": "/media/english/us_pron/c/cha/chall/challenging.mp3",
+      "examples": [
+        {
+          "en": "This is a challenging time for all of us.",
+          "zh": "这对我们所有人来说都是一段具有挑战性的时期。"
+        },
+        {
+          "en": "Finding a job in this city is quite challenging.",
+          "zh": "在这个城市找工作相当有挑战性。"
+        },
+        {
+          "en": "The exam was really challenging for us.",
+          "zh": "这场考试对我们来说真的很有挑战性。"
+        }
+      ]
+    },
+    "rapidly": {
+      "phonetic_uk": "ˈræp.ɪd.li",
+      "phonetic_us": "ˈræp.ɪd.li",
+      "audio_uk": "/media/english/uk_pron/u/ukr/ukrap/ukrapac007.mp3",
+      "audio_us": "/media/english/us_pron/r/rap/rapid/rapidly.mp3",
+      "examples": [
+        {
+          "en": "Things are changing rapidly now.",
+          "zh": "现在事情变化得很快。"
+        },
+        {
+          "en": "The country's oil is running out rapidly.",
+          "zh": "这个国家的石油正在迅速耗尽。"
+        },
+        {
+          "en": "It is a city growing rapidly in industry.",
+          "zh": "这是一个工业快速发展的城市。"
+        }
+      ]
+    },
+    "aware": {
+      "phonetic_uk": "əˈweər",
+      "phonetic_us": "əˈwer",
+      "audio_uk": "/media/english/uk_pron/u/uka/ukavi/ukaviat025.mp3",
+      "audio_us": "/media/english/us_pron/a/awa/aware/aware.mp3",
+      "examples": [
+        {
+          "en": "I wasn't even aware that he was ill.",
+          "zh": "我甚至没意识到他生病了。"
+        },
+        {
+          "en": "Were you aware of the risks then?",
+          "zh": "你当时知道这些风险吗？"
+        },
+        {
+          "en": "She was very aware that he was married.",
+          "zh": "她很清楚他已经结婚了。"
+        }
+      ]
+    },
+    "circle": {
+      "phonetic_uk": "ˈsɜː.kəl",
+      "phonetic_us": "ˈsɝː.kəl",
+      "audio_uk": "/media/english/uk_pron/u/ukc/ukcin/ukcinna004.mp3",
+      "audio_us": "/media/english/us_pron/c/cir/circl/circle.mp3",
+      "examples": [
+        {
+          "en": "We cut colored paper into circles.",
+          "zh": "我们把彩纸剪成了圆形。"
+        },
+        {
+          "en": "We sat in a circle on the floor.",
+          "zh": "我们坐在地板上围成一圈。"
+        },
+        {
+          "en": "The teacher told us to make a circle and hold hands.",
+          "zh": "老师让我们围成圈并手拉手。"
+        }
+      ]
+    },
+    "distance": {
+      "phonetic_uk": "ˈdɪs.təns",
+      "phonetic_us": "ˈdɪs.təns",
+      "audio_uk": "/media/english/uk_pron/u/ukd/ukdis/ukdissi012.mp3",
+      "audio_us": "/media/english/us_pron/d/dis/dista/distance.mp3",
+      "examples": [
+        {
+          "en": "What's the distance between your home and school?",
+          "zh": "你家和学校之间的距离是多少？"
+        },
+        {
+          "en": "The distance from here to the station is 5 km.",
+          "zh": "从这里到车站的距离是5公里。"
+        },
+        {
+          "en": "He walks a long distance to work every day.",
+          "zh": "他每天走很远的距离去上班。"
+        }
+      ]
+    },
+    "possibility": {
+      "phonetic_uk": "ˌpɒs.əˈbɪl.ə.ti",
+      "phonetic_us": "ˌpɑː.səˈbɪl.ə.t̬i",
+      "audio_uk": "/media/english/uk_pron/e/epd/epd32/epd32708.mp3",
+      "audio_us": "/media/english/us_pron/p/pos/possi/possibility.mp3",
+      "examples": [
+        {
+          "en": "It may not happen, but I won't rule out the possibility.",
+          "zh": "这事可能不会发生，但我不会排除这种可能性。"
+        },
+        {
+          "en": "The weather report says there is a possibility of snow tonight.",
+          "zh": "天气预报说今晚有可能下雪。"
+        },
+        {
+          "en": "There is a clear possibility that I will give a speech.",
+          "zh": "我很可能要发表演讲，这有明显的可能性。"
+        }
+      ]
+    },
+    "alien": {
+      "phonetic_uk": "ˈeɪ.li.ən",
+      "phonetic_us": "ˈeɪ.li.ən",
+      "audio_uk": "/media/english/uk_pron/u/uka/ukalb/ukalbin025.mp3",
+      "audio_us": "/media/english/us_pron/a/ali/alien/alien.mp3",
+      "examples": [
+        {
+          "en": "People saw an alien spacecraft in the sky last night.",
+          "zh": "昨晚人们在空中看到了一个外星飞船。"
+        },
+        {
+          "en": "When I first came to this city, everything felt alien to me.",
+          "zh": "当我第一次来到这座城市时，一切都让我觉得陌生。"
+        },
+        {
+          "en": "The story is about a boy who meets an alien culture.",
+          "zh": "这个故事是关于一个男孩遇到了外星文化。"
+        }
+      ]
+    },
+    "doubt": {
+      "phonetic_uk": "daʊt",
+      "phonetic_us": "daʊt",
+      "audio_uk": "/media/english/uk_pron/u/ukd/ukdou/ukdoubl006.mp3",
+      "audio_us": "/media/english/us_pron/d/dou/doubt/doubt.mp3",
+      "examples": [
+        {
+          "en": "I have doubts about his ability to do the job.",
+          "zh": "我对他做这份工作的能力有疑问。"
+        },
+        {
+          "en": "If there is any doubt about the rocket's engines, we should cancel the launch.",
+          "zh": "如果对火箭发动机有任何疑问，我们应该取消发射。"
+        },
+        {
+          "en": "The company's actions made us doubt if it can save its losing business.",
+          "zh": "公司的行为让我们怀疑它能否挽救亏损的业务。"
+        }
+      ]
+    },
+    "stranger": {
+      "phonetic_uk": "ˈstreɪn.dʒər",
+      "phonetic_us": "ˈstreɪn.dʒɚ",
+      "audio_uk": "/media/english/uk_pron/u/uks/ukstr/ukstrai016.mp3",
+      "audio_us": "/media/english/us_pron/s/str/stran/stranger.mp3",
+      "examples": [
+        {
+          "en": "My mother told me not to talk to strangers.",
+          "zh": "我妈妈告诉我不要和陌生人说话。"
+        },
+        {
+          "en": "At the party, everyone there was a stranger to me.",
+          "zh": "聚会上，那里的每个人对我来说都是陌生人。"
+        },
+        {
+          "en": "Are you a stranger here, or do you know the way?",
+          "zh": "你是这里的外地人，还是你知道路？"
+        }
+      ]
+    },
+    "carry out": {
+      "phonetic_uk": null,
+      "phonetic_us": null,
+      "audio_uk": null,
+      "audio_us": null,
+      "examples": [
+        {
+          "en": "We will carry out the plan next week.",
+          "zh": "我们将于下周执行这个计划。"
+        },
+        {
+          "en": "The students carried out a survey about hobbies.",
+          "zh": "学生们开展了一项关于爱好的调查。"
+        },
+        {
+          "en": "Please carry out the teacher's instructions carefully.",
+          "zh": "请仔细执行老师的指示。"
+        }
+      ]
+    },
+    "percentage": {
+      "phonetic_uk": "pəˈsen.tɪdʒ",
+      "phonetic_us": "pɚˈsen.t̬ɪdʒ",
+      "audio_uk": "/media/english/uk_pron/u/ukp/ukpen/ukpente021.mp3",
+      "audio_us": "/media/english/us_pron/e/eus/eus73/eus73490.mp3",
+      "examples": [
+        {
+          "en": "What percentage of mothers go back to work?",
+          "zh": "有多少百分比的母亲会回去工作？"
+        },
+        {
+          "en": "The interest rate went up by two percentage points.",
+          "zh": "利率上升了两个百分点。"
+        },
+        {
+          "en": "The percentage of live births keeps growing.",
+          "zh": "活产婴儿的百分率持续增长。"
+        }
+      ]
+    },
+    "disadvantage": {
+      "phonetic_uk": "ˌdɪs.ədˈvɑːn.tɪdʒ",
+      "phonetic_us": "ˌdɪs.ədˈvæn.t̬ɪdʒ",
+      "audio_uk": "/media/english/uk_pron/u/ukd/ukdir/ukdirnd009.mp3",
+      "audio_us": "/media/english/us_pron/e/eus/eus71/eus71294.mp3",
+      "examples": [
+        {
+          "en": "One disadvantage of living in a town is few safe places for kids to play.",
+          "zh": "住在城镇的一个不利之处是孩子们安全玩耍的地方很少。"
+        },
+        {
+          "en": "We must think about whether the plan's disadvantages are bigger than its advantages.",
+          "zh": "我们必须思考这个计划的不利之处是否大于它的好处。"
+        },
+        {
+          "en": "Being very shy puts him at a disadvantage.",
+          "zh": "非常害羞使他处于不利地位。"
+        }
+      ]
+    },
+    "risk": {
+      "phonetic_uk": "rɪsk",
+      "phonetic_us": "rɪsk",
+      "audio_uk": "/media/english/uk_pron/u/ukr/ukrip/ukripof011.mp3",
+      "audio_us": "/media/english/us_pron/r/ris/risk_/risk.mp3",
+      "examples": [
+        {
+          "en": "This business has high risks, but also high rewards.",
+          "zh": "这一行风险高，回报也高。"
+        },
+        {
+          "en": "There is a high risk of another accident in this fog.",
+          "zh": "这场雾里再出事故的风险很高。"
+        },
+        {
+          "en": "The risk of failing made us work twice as hard.",
+          "zh": "失败的风险让我们加倍努力。"
+        }
+      ]
+    },
+    "after all": {
+      "phonetic_uk": null,
+      "phonetic_us": null,
+      "audio_uk": null,
+      "audio_us": null,
+      "examples": [
+        {
+          "en": "Don't worry about the exam, after all, you studied hard.",
+          "zh": "别担心考试，毕竟你努力学习过。"
+        },
+        {
+          "en": "It's late, after all, we should go home now.",
+          "zh": "天晚了，毕竟我们现在该回家了。"
+        },
+        {
+          "en": "She is a beginner, after all, so be patient with her.",
+          "zh": "她毕竟是初学者，所以对她要有耐心。"
+        }
+      ]
+    },
+    "goods": {
+      "phonetic_uk": "ɡʊdz",
+      "phonetic_us": "ɡʊdz",
+      "audio_uk": "/media/english/uk_pron/u/ukg/ukgon/ukgonad017.mp3",
+      "audio_us": "/media/english/us_pron/g/goo/goods/goods.mp3",
+      "examples": [
+        {
+          "en": "All electrical goods are 25% off this week.",
+          "zh": "所有电器商品这周打七五折。"
+        },
+        {
+          "en": "House insurance won't cover your personal goods.",
+          "zh": "房屋保险不保你的个人物品。"
+        },
+        {
+          "en": "They sell food and household goods.",
+          "zh": "他们卖食物和家居用品。"
+        }
+      ]
+    },
+    "electronic": {
+      "phonetic_uk": "ˌel.ɪkˈtrɒn.ɪk",
+      "phonetic_us": "ɪˌlekˈtrɑː.nɪk",
+      "audio_uk": "/media/english/uk_pron/u/uke/ukele/ukelect003.mp3",
+      "audio_us": "/media/english/us_pron/e/eus/eus71/eus71477.mp3",
+      "examples": [
+        {
+          "en": "I want to buy an electronic keyboard.",
+          "zh": "我想买一个电子琴。"
+        },
+        {
+          "en": "We need electronic devices for school.",
+          "zh": "我们需要电子设备来上学。"
+        },
+        {
+          "en": "The singer used electronic sound to amplify his voice.",
+          "zh": "这位歌手用电子声音来放大他的嗓音。"
+        }
+      ]
+    },
+    "entertainment": {
+      "phonetic_uk": "en.təˈteɪn.mənt",
+      "phonetic_us": "en.t̬ɚˈteɪn.mənt",
+      "audio_uk": "/media/english/uk_pron/u/uke/ukens/ukensla020.mp3",
+      "audio_us": "/media/english/us_pron/e/eus/eus71/eus71570.mp3",
+      "examples": [
+        {
+          "en": "This town has little entertainment, only a cinema and two pubs.",
+          "zh": "这个镇上娱乐活动很少，只有一家电影院和两家酒吧。"
+        },
+        {
+          "en": "This season's entertainment includes five new plays and some music concerts.",
+          "zh": "这个季度的娱乐活动包括五部新剧和一些音乐会。"
+        },
+        {
+          "en": "This film is good entertainment for the whole family.",
+          "zh": "这部电影是适合全家观看的好娱乐。"
+        }
+      ]
+    }
+  }
+}

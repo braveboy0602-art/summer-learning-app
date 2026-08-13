@@ -63,7 +63,7 @@ const StudyApp = {
     // ---- 加载 Cambridge 词典数据（IPA 音标等） ----
     // 按年级依次加载，低年级先加载，高年级只补缺不覆盖（重叠词保留低年级数据）
     this._cambridgeData = {};
-    const CAMBRIDGE_FILES = ['cambridge_7a.json', 'cambridge_7b.json', 'cambridge_8a.json'];
+    const CAMBRIDGE_FILES = ['cambridge_7a.json', 'cambridge_7b.json', 'cambridge_8a.json', 'cambridge_8b.json', 'cambridge_9a.json', 'cambridge_9b.json'];
     for (const file of CAMBRIDGE_FILES) {
       try {
         const resp = await fetch(`data/${file}`);
